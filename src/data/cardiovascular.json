@@ -1,0 +1,276 @@
+{
+  "id": "cardiovascular",
+  "name_cn": "心血管疾病",
+  "name_en": "Cardiovascular Diseases",
+  "tam_rank": 4,
+  "icon": "❤️",
+  "diseases": [
+    {
+      "id": "heart_failure",
+      "name_cn": "心力衰竭",
+      "name_en": "Heart Failure",
+      "subtypes": [
+        {
+          "id": "hfref",
+          "name_cn": "射血分数降低型心衰（HFrEF）",
+          "name_en": "Heart Failure with Reduced EF (HFrEF, EF <40%)",
+          "china": {
+            "annual_new_cases": 1200000,
+            "annual_new_cases_note": "中国心衰患者约890万，每年新增约120万",
+            "tam_rmb_bn": 40,
+            "diagnosis_steps": [
+              "超声心动图（LVEF <40%确认）",
+              "NT-proBNP / BNP检测",
+              "心电图",
+              "胸片/心脏MRI（评估心肌病因）",
+              "NYHA功能分级"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "基础四联疗法（GDMT）",
+                "label_en": "Guideline-Directed Medical Therapy (GDMT)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "ARNI：沙库巴曲缬沙坦（诺欣妥）",
+                    "name_en": "Sacubitril/Valsartan (Entresto)",
+                    "manufacturer": "诺华 Novartis",
+                    "annual_cost_rmb": 15000,
+                    "market_share": "45%",
+                    "selling_points": ["PARADIGM-HF：死亡+住院-20%", "取代ACEI/ARB成为HFrEF首选", "医保报销，中国广泛使用"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "达格列净（安达唐）",
+                    "name_en": "Dapagliflozin (Forxiga)",
+                    "manufacturer": "阿斯利康 AstraZeneca",
+                    "annual_cost_rmb": 8000,
+                    "market_share": "40%",
+                    "selling_points": ["DAPA-HF：死亡+恶化-26%（无论是否糖尿病）", "每日一片，口服便捷", "医保报销，HFrEF + HFpEF双适应症"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "恩格列净",
+                    "name_en": "Empagliflozin (Jardiance)",
+                    "manufacturer": "勃林格殷格翰/礼来 BI/Lilly",
+                    "annual_cost_rmb": 9000,
+                    "market_share": "30%",
+                    "selling_points": ["EMPEROR-Reduced：死亡+住院-25%", "HFrEF + HFpEF均获批", "医保报销"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "卡维地洛/比索洛尔（β受体阻断剂）",
+                    "name_en": "Carvedilol / Bisoprolol (β-blocker)",
+                    "manufacturer": "通用",
+                    "annual_cost_rmb": 2000,
+                    "market_share": "85%",
+                    "selling_points": ["GDMT基石，显著降低死亡率", "极低价格，医保全覆盖"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Finerenone（非奈利酮）心衰适应症",
+                    "name_en": "Finerenone (Kerendia) - HF indication",
+                    "company": "拜耳 Bayer",
+                    "stage": "Phase 3",
+                    "trial": "FINEARTS-HF",
+                    "status": "非甾体MRA，HFmrEF/HFpEF，FINEARTS-HF 2024年阳性结果"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 900000,
+            "annual_new_cases_note": "US HF prevalence ~6.7M, ~900K new cases/yr",
+            "tam_usd_bn": 15.0,
+            "diagnosis_steps": [
+              "Echocardiogram (LVEF <40%)",
+              "NT-proBNP / BNP",
+              "ECG, CXR",
+              "Cardiac MRI for etiology",
+              "NYHA classification"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "GDMT四联疗法",
+                "label_en": "Guideline-Directed Medical Therapy",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Sacubitril/Valsartan",
+                    "name_en": "Sacubitril/Valsartan (Entresto)",
+                    "manufacturer": "Novartis",
+                    "annual_cost_usd": 6000,
+                    "market_share": "60%",
+                    "selling_points": ["PARADIGM-HF: 20% reduction in death+hospitalization", "ACCF/AHA Class I", "Generics available 2025"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Dapagliflozin",
+                    "name_en": "Dapagliflozin (Farxiga)",
+                    "manufacturer": "AstraZeneca",
+                    "annual_cost_usd": 6500,
+                    "market_share": "45%",
+                    "selling_points": ["DAPA-HF: -26% regardless of diabetes", "HFrEF + HFpEF + CKD all approved"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Aficamten",
+                    "name_en": "Aficamten",
+                    "company": "Cytokinetics",
+                    "stage": "已申报NDA",
+                    "trial": "SEQUOIA-HCM",
+                    "status": "Cardiac myosin inhibitor for HCM, PDUFA 2025"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dyslipidemia",
+      "name_cn": "血脂异常（高胆固醇血症）",
+      "name_en": "Dyslipidemia / Hypercholesterolemia",
+      "subtypes": [
+        {
+          "id": "hypercholesterolemia_high_cv_risk",
+          "name_cn": "高心血管风险 / 他汀不耐受",
+          "name_en": "High CV Risk / Statin-intolerant",
+          "china": {
+            "annual_new_cases": 5000000,
+            "annual_new_cases_note": "中国血脂异常人群约3.3亿，高CV风险约8000万",
+            "tam_rmb_bn": 50,
+            "diagnosis_steps": [
+              "空腹血脂四项（TC/LDL-C/HDL-C/TG）",
+              "计算ASCVD 10年风险（中国心血管风险评估模型）",
+              "LDL-C目标值分层（低危 <3.4，中危 <3.4，高危 <2.6，极高危 <1.8 mmol/L）"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "基础治疗",
+                "label_en": "Foundation",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "他汀类（阿托伐他汀/瑞舒伐他汀）",
+                    "name_en": "Statins (Atorvastatin / Rosuvastatin)",
+                    "manufacturer": "辉瑞/阿斯利康（原研），国内大量仿制药",
+                    "annual_cost_rmb": 1000,
+                    "market_share": "80%",
+                    "selling_points": ["一线降脂药，LDL-C降低40-60%", "极低价，医保全覆盖", "心血管获益证据最充分"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "强化降脂（他汀基础上）",
+                "label_en": "Intensive Lipid-Lowering",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "依洛尤单抗（瑞百安）",
+                    "name_en": "Evolocumab (Repatha)",
+                    "manufacturer": "安进 Amgen",
+                    "annual_cost_rmb": 18000,
+                    "market_share": "40%",
+                    "selling_points": ["PCSK9抑制剂，LDL-C再降59%", "FOURIER研究：MACE-20%", "医保报销（2021年）"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "阿利西尤单抗（波立达）",
+                    "name_en": "Alirocumab (Praluent)",
+                    "manufacturer": "赛诺菲/再生元 Sanofi/Regeneron",
+                    "annual_cost_rmb": 16000,
+                    "market_share": "30%",
+                    "selling_points": ["ODYSSEY OUTCOMES：MACE-15%（ACS后）", "医保报销", "2周一次皮下注射"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Inclisiran（英克司兰/利卜泰）",
+                    "name_en": "Inclisiran (Leqvio)",
+                    "company": "诺华 Novartis",
+                    "stage": "已上市（欧美）/ 中国2024年获批",
+                    "trial": "ORION系列",
+                    "status": "siRNA靶向PCSK9，每年仅注射2次，中国2024年NMPA批准"
+                  },
+                  {
+                    "name_cn": "Obicetrapib",
+                    "name_en": "Obicetrapib",
+                    "company": "NewAmsterdam Pharma",
+                    "stage": "Phase 3",
+                    "trial": "BROADWAY/TANDEM",
+                    "status": "CETP抑制剂，LDL-C再降51%，口服，Phase 3进行中"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 5000000,
+            "annual_new_cases_note": "US high CV risk dyslipidemia ~30M undertreated patients",
+            "tam_usd_bn": 20.0,
+            "diagnosis_steps": [
+              "Fasting lipid panel",
+              "10-year ASCVD risk (ACC/AHA Pooled Cohort Equations)",
+              "LDL-C targets: very high risk <70 mg/dL, extreme risk <55 mg/dL"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "强化降脂",
+                "label_en": "Intensive Lipid-Lowering",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Inclisiran",
+                    "name_en": "Inclisiran (Leqvio)",
+                    "manufacturer": "Novartis",
+                    "annual_cost_usd": 6500,
+                    "market_share": "15%",
+                    "selling_points": ["2x/year dosing (day 1, day 90, then q6m)", "LDL-C -50%", "Physician-administered, adherence advantage"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Evolocumab",
+                    "name_en": "Evolocumab (Repatha)",
+                    "manufacturer": "Amgen",
+                    "annual_cost_usd": 7000,
+                    "market_share": "40%",
+                    "selling_points": ["FOURIER: MACE -20%", "Biosimilar competition incoming", "Monthly dosing option"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Lepodisiran",
+                    "name_en": "Lepodisiran",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "ACCLAIM-Lp(a)",
+                    "status": "siRNA targeting Lp(a), 1x/year dosing"
+                  },
+                  {
+                    "name_cn": "Zerlasiran",
+                    "name_en": "Zerlasiran",
+                    "company": "Silence Therapeutics",
+                    "stage": "Phase 3",
+                    "trial": "ALPACAR-360",
+                    "status": "siRNA Lp(a) knockdown, twice-yearly dosing"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

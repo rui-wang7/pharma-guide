@@ -1,0 +1,645 @@
+{
+  "id": "immune",
+  "name_cn": "免疫 / 自身免疫疾病",
+  "name_en": "Immune & Autoimmune Diseases",
+  "tam_rank": 2,
+  "icon": "🛡️",
+  "diseases": [
+    {
+      "id": "rheumatoid_arthritis",
+      "name_cn": "类风湿关节炎",
+      "name_en": "Rheumatoid Arthritis (RA)",
+      "subtypes": [
+        {
+          "id": "ra_moderate_severe",
+          "name_cn": "中重度类风湿关节炎",
+          "name_en": "Moderate-to-Severe RA",
+          "china": {
+            "annual_new_cases": 500000,
+            "annual_new_cases_note": "中国患病人数约500万，每年新发约50万",
+            "tam_rmb_bn": 45,
+            "diagnosis_steps": [
+              "2010年ACR/EULAR分类标准（关节数、血清学、急性期反应物、病程）",
+              "RF + Anti-CCP抗体检测",
+              "CRP / ESR炎症指标",
+              "关节X线 / MRI / 超声",
+              "DAS28评分评估疾病活动度"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "早期 / 初始治疗",
+                "label_en": "Initial / DMARD-naive",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "甲氨蝶呤（MTX）",
+                    "name_en": "Methotrexate (MTX)",
+                    "manufacturer": "通用仿制药",
+                    "annual_cost_rmb": 3000,
+                    "market_share": "70%",
+                    "selling_points": ["RA一线锚药，全球指南一致推荐", "价格极低，医保报销", "长期安全性数据充足"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂（MTX应答不足）",
+                "label_en": "1st Biologic (MTX-IR)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "阿达木单抗（修美乐）",
+                    "name_en": "Adalimumab (Humira)",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": 80000,
+                    "market_share": "25%",
+                    "selling_points": ["全球销售额最高药物（峰值）", "TNF抑制剂金标准", "国产生物类似药已上市（约2-3万/年）"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "依那西普（恩利）",
+                    "name_en": "Etanercept (Enbrel)",
+                    "manufacturer": "辉瑞/安进 Pfizer/Amgen",
+                    "annual_cost_rmb": 60000,
+                    "market_share": "20%",
+                    "selling_points": ["TNF受体融合蛋白", "感染风险相对低", "国产类似药益赛普广泛使用"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "托法替布（尚杰）",
+                    "name_en": "Tofacitinib (Xeljanz)",
+                    "manufacturer": "辉瑞 Pfizer",
+                    "annual_cost_rmb": 55000,
+                    "market_share": "20%",
+                    "selling_points": ["首个口服JAK抑制剂（JAK1/3）", "医保报销，价格亲民", "无需注射，便利性高"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "巴瑞替尼（艾乐明）",
+                    "name_en": "Baricitinib (Olumiant)",
+                    "manufacturer": "礼来 Eli Lilly",
+                    "annual_cost_rmb": 65000,
+                    "market_share": "15%",
+                    "selling_points": ["JAK1/2选择性抑制剂", "ORAL Standard研究优于阿达木单抗（疗效）", "每日一片，口服方便"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Upadacitinib（瑞纳卡）",
+                    "name_en": "Upadacitinib (Rinvoq)",
+                    "company": "艾伯维 AbbVie",
+                    "stage": "已上市（中国2022年批准）",
+                    "trial": "SELECT系列",
+                    "status": "选择性JAK1抑制剂，SELECT-COMPARE优于阿达木单抗"
+                  }
+                ]
+              },
+              {
+                "line": 2,
+                "label_cn": "二线（第一种bDMARD失败后）",
+                "label_en": "2nd Line (after 1st bDMARD failure)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "阿巴西普（恩瑞舒）",
+                    "name_en": "Abatacept (Orencia)",
+                    "manufacturer": "百时美施贵宝 BMS",
+                    "annual_cost_rmb": 120000,
+                    "market_share": "15%",
+                    "selling_points": ["T细胞共刺激调节剂（CTLA4-Ig）", "感染风险最低", "血清学阳性(anti-CCP+)患者效果好"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "托珠单抗（雅美罗）",
+                    "name_en": "Tocilizumab (Actemra)",
+                    "manufacturer": "罗氏 Roche",
+                    "annual_cost_rmb": 110000,
+                    "market_share": "20%",
+                    "selling_points": ["IL-6受体抑制剂", "可单药使用（不需联合MTX）", "快速降低CRP/ESR"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Upadacitinib（瑞纳卡）",
+                    "name_en": "Upadacitinib (Rinvoq)",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": 72000,
+                    "market_share": "25%",
+                    "selling_points": ["SELECT-COMPARE：ACR50/70优于阿达木单抗", "选择性JAK1，安全性更优", "多适应症（RA/PsA/AS/AD/UC/CD）"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Filgotinib",
+                    "name_en": "Filgotinib (Jyseleca)",
+                    "company": "吉利德 Gilead / Galapagos",
+                    "stage": "已上市（欧洲）/ 中国Phase 3",
+                    "trial": "FINCH系列",
+                    "status": "选择性JAK1，中国NDA申报中"
+                  },
+                  {
+                    "name_cn": "Deucravacitinib（苯环喹诺）",
+                    "name_en": "Deucravacitinib (Sotyktu) - RA indication",
+                    "company": "百时美施贵宝 BMS",
+                    "stage": "Phase 3",
+                    "trial": "POETYK RA",
+                    "status": "TYK2抑制剂，银屑病已批，RA适应症Phase 3"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 300000,
+            "annual_new_cases_note": "US prevalence ~1.5M, ~300K new cases/yr",
+            "tam_usd_bn": 28.0,
+            "diagnosis_steps": [
+              "2010 ACR/EULAR criteria",
+              "RF + Anti-CCP, CRP/ESR",
+              "Imaging: X-ray, MRI, US",
+              "DAS28 / CDAI scoring"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "初始治疗",
+                "label_en": "Initial (DMARD-naive)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "甲氨蝶呤",
+                    "name_en": "Methotrexate (MTX)",
+                    "manufacturer": "Generic",
+                    "annual_cost_usd": 1500,
+                    "market_share": "65%",
+                    "selling_points": ["Anchor DMARD, all guidelines Category 1", "Low cost, long safety record"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂",
+                "label_en": "1st Biologic (MTX-IR)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Upadacitinib",
+                    "name_en": "Upadacitinib (Rinvoq)",
+                    "manufacturer": "AbbVie",
+                    "annual_cost_usd": 60000,
+                    "market_share": "22%",
+                    "selling_points": ["SELECT-COMPARE: superior to adalimumab", "JAK1-selective, strong efficacy", "NCCN/ACR preferred"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "阿达木单抗",
+                    "name_en": "Adalimumab (Humira + biosimilars)",
+                    "manufacturer": "AbbVie + multiple biosimilar makers",
+                    "annual_cost_usd": 25000,
+                    "market_share": "28%",
+                    "selling_points": ["Multiple biosimilars driving price down >70%", "Extensive real-world data"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Abatacept",
+                    "name_en": "Abatacept (Orencia)",
+                    "manufacturer": "Bristol Myers Squibb",
+                    "annual_cost_usd": 35000,
+                    "market_share": "12%",
+                    "selling_points": ["Lowest infection risk in class", "Anti-CCP+ patients respond best"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Satralizumab（IL-6R）RA indication",
+                    "name_en": "Satralizumab",
+                    "company": "Roche",
+                    "stage": "Phase 3",
+                    "trial": "SakuraSky RA",
+                    "status": "Monthly subcut IL-6R, NMO already approved"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "atopic_dermatitis",
+      "name_cn": "特应性皮炎（湿疹）",
+      "name_en": "Atopic Dermatitis (AD)",
+      "subtypes": [
+        {
+          "id": "ad_moderate_severe",
+          "name_cn": "中重度特应性皮炎",
+          "name_en": "Moderate-to-Severe AD",
+          "china": {
+            "annual_new_cases": 2000000,
+            "annual_new_cases_note": "中国患病率约7-8%，中重度约占25%，每年新增约200万",
+            "tam_rmb_bn": 30,
+            "diagnosis_steps": [
+              "临床诊断（EASI/IGA/NRS评分）",
+              "过敏原检测（IgE面板）",
+              "排除接触性皮炎、银屑病等",
+              "中重度定义：IGA≥3 或 EASI≥16"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "基础治疗",
+                "label_en": "Basic / Topical",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "局部糖皮质激素 / 他克莫司软膏",
+                    "name_en": "Topical corticosteroids / Tacrolimus",
+                    "manufacturer": "通用",
+                    "annual_cost_rmb": 2000,
+                    "market_share": "60%",
+                    "selling_points": ["一线外用治疗", "广泛可及，医保报销"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "一线系统治疗",
+                "label_en": "1st Line Systemic",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "度普利尤单抗（达必妥）",
+                    "name_en": "Dupilumab (Dupixent)",
+                    "manufacturer": "赛诺菲/再生元 Sanofi/Regeneron",
+                    "annual_cost_rmb": 120000,
+                    "market_share": "55%",
+                    "selling_points": ["IL-4/IL-13双靶，2类辅助性T细胞通路", "LIBERTY AD系列研究：IGA 0/1达36-44%", "2020年NMPA批准成人，2022年青少年"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Upadacitinib（瑞纳卡）",
+                    "name_en": "Upadacitinib (Rinvoq) 15/30mg",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": 72000,
+                    "market_share": "25%",
+                    "selling_points": ["Heads-up vs度普利尤单抗（Measure Up/AD Up）疗效更优", "JAK1选择性，口服便利", "NMPA 2022年批准"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Tralokinumab（帝益擦）",
+                    "name_en": "Tralokinumab (Adtralza)",
+                    "company": "Leo Pharma",
+                    "stage": "已上市（欧洲/美国）/ 中国Phase 3",
+                    "trial": "ECZTRA系列",
+                    "status": "IL-13单靶抗体，中国申报NDA"
+                  },
+                  {
+                    "name_cn": "Lebrikizumab（乐布利单抗）",
+                    "name_en": "Lebrikizumab (Ebglyss)",
+                    "company": "礼来 Eli Lilly",
+                    "stage": "已上市（欧洲/美国）/ 中国Phase 3",
+                    "trial": "ADvocate系列",
+                    "status": "IL-13单靶，每4周一次维持给药，中国NDA中"
+                  },
+                  {
+                    "name_cn": "Nemolizumab",
+                    "name_en": "Nemolizumab (Nemluvio)",
+                    "company": "加拉帕格斯/Dermira/Galderma",
+                    "stage": "已上市（美国2024）/ 中国Phase 3",
+                    "trial": "ARCADIA",
+                    "status": "IL-31RA靶向，主攻瘙痒症状"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 3000000,
+            "annual_new_cases_note": "US prevalence ~10-15M adults, moderate-severe ~3M",
+            "tam_usd_bn": 12.0,
+            "diagnosis_steps": [
+              "Clinical diagnosis (EASI/IGA/SCORAD)",
+              "Allergen testing",
+              "Exclude psoriasis, contact dermatitis"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线系统治疗",
+                "label_en": "1st Line Systemic",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "度普利尤单抗",
+                    "name_en": "Dupilumab (Dupixent)",
+                    "manufacturer": "Sanofi / Regeneron",
+                    "annual_cost_usd": 38000,
+                    "market_share": "40%",
+                    "selling_points": ["First biologic approved 2017", "IL-4/IL-13 dual block", "Approved ages 6 months+"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Upadacitinib",
+                    "name_en": "Upadacitinib (Rinvoq)",
+                    "manufacturer": "AbbVie",
+                    "annual_cost_usd": 60000,
+                    "market_share": "20%",
+                    "selling_points": ["Superior to dupilumab in head-to-head (Measure Up)", "Oral, rapid onset", "FDA approved 2022"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Abrocitinib",
+                    "name_en": "Abrocitinib (Cibinqo)",
+                    "manufacturer": "Pfizer",
+                    "annual_cost_usd": 55000,
+                    "market_share": "12%",
+                    "selling_points": ["Oral JAK1 inhibitor", "JADE MONO/COMPARE trials", "FDA approved 2022"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Lebrikizumab",
+                    "name_en": "Lebrikizumab (Ebglyss)",
+                    "company": "Eli Lilly",
+                    "stage": "已上市（2023）",
+                    "trial": "ADvocate 1&2",
+                    "status": "IL-13, q4w maintenance dosing, growing market share"
+                  },
+                  {
+                    "name_cn": "Amlitelimab",
+                    "name_en": "Amlitelimab",
+                    "company": "Sanofi",
+                    "stage": "Phase 3",
+                    "trial": "STREAM-AD",
+                    "status": "OX40L antibody, potentially q12w dosing"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "psoriasis",
+      "name_cn": "银屑病（牛皮癣）",
+      "name_en": "Plaque Psoriasis",
+      "subtypes": [
+        {
+          "id": "psoriasis_moderate_severe",
+          "name_cn": "中重度斑块型银屑病",
+          "name_en": "Moderate-to-Severe Plaque Psoriasis",
+          "china": {
+            "annual_new_cases": 600000,
+            "annual_new_cases_note": "中国银屑病患者约650万，中重度约200万，每年新增约60万",
+            "tam_rmb_bn": 25,
+            "diagnosis_steps": [
+              "临床诊断（PASI/IGA评分）",
+              "PASI≥12 或 BSA≥10% 定义为中重度",
+              "排除关节型（PsA）、脓疱型"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂",
+                "label_en": "1st Line Biologic",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "司库奇尤单抗（可善挺）",
+                    "name_en": "Secukinumab (Cosentyx)",
+                    "manufacturer": "诺华 Novartis",
+                    "annual_cost_rmb": 80000,
+                    "market_share": "30%",
+                    "selling_points": ["IL-17A抑制剂，PASI 90达68-77%", "起效快，3月内见效", "医保报销，银屑病+PsA+AS三适应症"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "依奇珠单抗（拓咨）",
+                    "name_en": "Ixekizumab (Taltz)",
+                    "manufacturer": "礼来 Eli Lilly",
+                    "annual_cost_rmb": 85000,
+                    "market_share": "20%",
+                    "selling_points": ["IL-17A单抗，PASI 90更高达70-80%", "UNCOVER研究优于依那西普", "NMPA批准银屑病+PsA"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "古赛奇尤单抗（特诺雅）",
+                    "name_en": "Guselkumab (Tremfya)",
+                    "manufacturer": "强生/杨森 Janssen",
+                    "annual_cost_rmb": 90000,
+                    "market_share": "15%",
+                    "selling_points": ["IL-23p19选择性抑制，PASI 90达73%", "维持治疗每8周一次", "NMPA 2021年批准"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Deucravacitinib（苯环喹诺）",
+                    "name_en": "Deucravacitinib (Sotyktu)",
+                    "manufacturer": "百时美施贵宝 BMS",
+                    "annual_cost_rmb": 70000,
+                    "market_share": "10%",
+                    "selling_points": ["首个TYK2抑制剂，口服", "POETYK PSO系列优于阿普斯特", "NMPA 2023年批准，口服选项"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Bimekizumab（贝美珠单抗）",
+                    "name_en": "Bimekizumab (Bimzelx)",
+                    "company": "UCB",
+                    "stage": "已上市（欧美）/ 中国NDA申报",
+                    "trial": "BE VIVID/READY/SURE",
+                    "status": "IL-17A/F双靶，PASI 90达85-91%，优于司库奇尤单抗和阿达木单抗"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 900000,
+            "annual_new_cases_note": "US prevalence ~8M, moderate-severe ~2M active treatment",
+            "tam_usd_bn": 18.0,
+            "diagnosis_steps": [
+              "Clinical diagnosis (PASI/IGA/BSA)",
+              "PASI ≥12 or BSA ≥10% = moderate-severe"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂",
+                "label_en": "1st Line Biologic",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Bimekizumab",
+                    "name_en": "Bimekizumab (Bimzelx)",
+                    "manufacturer": "UCB",
+                    "annual_cost_usd": 80000,
+                    "market_share": "15%",
+                    "selling_points": ["PASI 90 ~85-91%", "IL-17A/F dual inhibitor", "FDA approved 2023", "Gaining share rapidly"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Risankizumab（斯奇乐）",
+                    "name_en": "Risankizumab (Skyrizi)",
+                    "manufacturer": "AbbVie",
+                    "annual_cost_usd": 78000,
+                    "market_share": "22%",
+                    "selling_points": ["IL-23p19, PASI 90 ~75%", "q12w dosing convenience", "Also approved Crohn's/UC", "AbbVie's key growth asset"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Secukinumab",
+                    "name_en": "Secukinumab (Cosentyx)",
+                    "manufacturer": "Novartis",
+                    "annual_cost_usd": 55000,
+                    "market_share": "20%",
+                    "selling_points": ["Established IL-17A, long real-world data", "PSO/PsA/AS/nr-axSpA all approved"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Spesolimab（斯派索利单抗）",
+                    "name_en": "Spesolimab (Spevigo)",
+                    "company": "勃林格殷格翰 Boehringer Ingelheim",
+                    "stage": "已上市（GPP）/ 慢性斑块型Phase 3",
+                    "trial": "Effisayil-2",
+                    "status": "IL-36R抗体，脓疱型银屑病已批"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ibd",
+      "name_cn": "炎症性肠病（IBD）",
+      "name_en": "Inflammatory Bowel Disease (IBD)",
+      "subtypes": [
+        {
+          "id": "crohns_disease",
+          "name_cn": "克罗恩病",
+          "name_en": "Crohn's Disease (CD)",
+          "china": {
+            "annual_new_cases": 50000,
+            "annual_new_cases_note": "中国IBD快速增长，克罗恩新发约5万/年",
+            "tam_rmb_bn": 15,
+            "diagnosis_steps": [
+              "内镜（回结肠镜+胃镜）+ 病理活检",
+              "小肠MRI（MRE）评估病变范围",
+              "CRP / 粪钙卫蛋白",
+              "CDAI评分（疾病活动度）"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂（中重度）",
+                "label_en": "1st Line Biologic (Moderate-Severe)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "阿达木单抗",
+                    "name_en": "Adalimumab (Humira)",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": 80000,
+                    "market_share": "35%",
+                    "selling_points": ["TNF抑制剂，CLASSIC研究", "医保报销", "皮下注射，患者自注射方便"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "乌司奴单抗（喜达诺）",
+                    "name_en": "Ustekinumab (Stelara)",
+                    "manufacturer": "强生/杨森 Janssen",
+                    "annual_cost_rmb": 150000,
+                    "market_share": "25%",
+                    "selling_points": ["IL-12/23双靶，UNIFI/UNIFI-LTE研究", "感染风险低", "NMPA 2020年批准CD适应症"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Risankizumab（斯奇乐）",
+                    "name_en": "Risankizumab (Skyrizi)",
+                    "company": "艾伯维 AbbVie",
+                    "stage": "已上市（美国/欧洲）/ 中国NDA申报中",
+                    "trial": "ADVANCE/MOTIVATE/FORTIFY",
+                    "status": "IL-23p19，诱导缓解率更优，中国申报适应症"
+                  },
+                  {
+                    "name_cn": "Mirikizumab",
+                    "name_en": "Mirikizumab (Omvoh)",
+                    "company": "礼来 Eli Lilly",
+                    "stage": "已上市（UC）/ CD Phase 3",
+                    "trial": "LUCENT / VIVID",
+                    "status": "IL-23p19，UC已批，CD申报中"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 80000,
+            "annual_new_cases_note": "US prevalence ~700K CD, ~80K new/yr",
+            "tam_usd_bn": 8.0,
+            "diagnosis_steps": [
+              "Ileocolonoscopy + biopsy",
+              "MR enterography",
+              "CRP / fecal calprotectin",
+              "CDAI / HBI scoring"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线生物制剂",
+                "label_en": "1st Line Biologic",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Risankizumab",
+                    "name_en": "Risankizumab (Skyrizi)",
+                    "manufacturer": "AbbVie",
+                    "annual_cost_usd": 75000,
+                    "market_share": "20%",
+                    "selling_points": ["ADVANCE: endoscopic remission 32% vs 16%", "FDA approved CD 2023", "Growing rapidly"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Ustekinumab",
+                    "name_en": "Ustekinumab (Stelara / biosimilars)",
+                    "manufacturer": "Janssen + biosimilar makers",
+                    "annual_cost_usd": 25000,
+                    "market_share": "25%",
+                    "selling_points": ["Biosimilars launched 2023, price falling", "Low infection risk", "IV induction + SC maintenance"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Vedolizumab",
+                    "name_en": "Vedolizumab (Entyvio)",
+                    "manufacturer": "Takeda",
+                    "annual_cost_usd": 45000,
+                    "market_share": "20%",
+                    "selling_points": ["Gut-selective α4β7 integrin", "Favorable safety, no systemic immunosuppression", "Oral formulation approved 2024 (UC)"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Tulisokibart",
+                    "name_en": "Tulisokibart (Pvt-101)",
+                    "company": "Prometheus Biosciences (Merck)",
+                    "stage": "Phase 3",
+                    "trial": "ARTEMIS-UC/CD",
+                    "status": "Anti-TL1A, novel target for IBD"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

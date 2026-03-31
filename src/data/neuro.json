@@ -1,0 +1,276 @@
+{
+  "id": "neuro",
+  "name_cn": "神经系统疾病",
+  "name_en": "Neurological Diseases",
+  "tam_rank": 5,
+  "icon": "🧠",
+  "diseases": [
+    {
+      "id": "alzheimers",
+      "name_cn": "阿尔茨海默病",
+      "name_en": "Alzheimer's Disease (AD)",
+      "subtypes": [
+        {
+          "id": "alzheimers_early",
+          "name_cn": "早期/轻中度阿尔茨海默病（Aβ阳性）",
+          "name_en": "Early/Mild-Moderate Alzheimer's (Aβ+)",
+          "china": {
+            "annual_new_cases": 1000000,
+            "annual_new_cases_note": "中国AD患者约1050万，全球最多，每年新增约100万",
+            "tam_rmb_bn": 15,
+            "diagnosis_steps": [
+              "神经心理学测试（MMSE/MoCA）",
+              "脑MRI（排除血管性痴呆、脑肿瘤）",
+              "PET-CT（Aβ/Tau成像）或 CSF Aβ42/Tau/p-Tau",
+              "基因检测（APOE ε4，早发型PSEN1/2/APP）",
+              "A/T/N生物标志物框架分类"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "症状性治疗",
+                "label_en": "Symptomatic Treatment",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "多奈哌齐（安理申）",
+                    "name_en": "Donepezil (Aricept)",
+                    "manufacturer": "卫材/辉瑞 Eisai/Pfizer",
+                    "annual_cost_rmb": 3000,
+                    "market_share": "55%",
+                    "selling_points": ["AChE抑制剂，轻中重度AD标准治疗", "医保报销，价格低", "仿制药广泛可及"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "美金刚（易倍申）",
+                    "name_en": "Memantine (Namenda/Ebixa)",
+                    "manufacturer": "默克KGaA / 国内仿制",
+                    "annual_cost_rmb": 5000,
+                    "market_share": "30%",
+                    "selling_points": ["NMDA受体拮抗剂，中重度AD", "可与多奈哌齐联合使用（NAMZARIC）"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "疾病修饰治疗（Disease-Modifying）",
+                "label_en": "Disease-Modifying Therapy",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "仑卡奈单抗（乐意保）",
+                    "name_en": "Lecanemab (Leqembi)",
+                    "manufacturer": "卫材/百健 Eisai/Biogen",
+                    "annual_cost_rmb": 350000,
+                    "market_share": "60%",
+                    "selling_points": ["CLARITY AD：CDR-SB衰退减缓27%", "靶向Aβ原纤维，FDA 2023年全批", "2024年NMPA批准中国上市", "首个在中国获批的抗Aβ疗法"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Donanemab（度那奈单抗）",
+                    "name_en": "Donanemab",
+                    "company": "礼来 Eli Lilly",
+                    "stage": "已上市（美国2024）/ 中国NDA审评",
+                    "trial": "TRAILBLAZER-ALZ 2",
+                    "status": "靶向Aβ斑块（N3pG），CDR-SB减缓35%（低tau人群），可停药（Aβ清除后）"
+                  },
+                  {
+                    "name_cn": "ALZ-801（Valiltramiprosate）",
+                    "name_en": "Valiltramiprosate (ALZ-801)",
+                    "company": "Alzheon",
+                    "stage": "Phase 3",
+                    "trial": "APOLLOE4",
+                    "status": "口服Aβ聚集抑制剂，APOE4纯合子人群定向"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 500000,
+            "annual_new_cases_note": "US AD prevalence ~7M, ~500K new/yr, expected to triple by 2060",
+            "tam_usd_bn": 6.0,
+            "diagnosis_steps": [
+              "Neuropsychological testing (MMSE/MoCA/ADAS-cog)",
+              "Brain MRI",
+              "Amyloid PET or CSF Aβ42/p-Tau (A/T/N framework)",
+              "APOE genotyping"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "疾病修饰治疗",
+                "label_en": "Disease-Modifying Therapy",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Lecanemab",
+                    "name_en": "Lecanemab (Leqembi)",
+                    "manufacturer": "Eisai / Biogen",
+                    "annual_cost_usd": 26500,
+                    "market_share": "55%",
+                    "selling_points": ["CLARITY AD: 27% slowing of decline", "FDA full approval July 2023", "Biweekly IV, patient/care burden"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Donanemab",
+                    "name_en": "Donanemab (Kisunla)",
+                    "manufacturer": "Eli Lilly",
+                    "annual_cost_usd": 32000,
+                    "market_share": "35%",
+                    "selling_points": ["TRAILBLAZER-ALZ2: 35% slowing (low tau)", "FDA approved July 2024", "Treatment can stop after amyloid clearance (unique feature)"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Remternetug",
+                    "name_en": "Remternetug",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "TRAILBLAZER-ALZ 3",
+                    "status": "Next-gen anti-Aβ, faster clearance, SC formulation"
+                  },
+                  {
+                    "name_cn": "Tau抗体（JNJ-63733657）",
+                    "name_en": "JNJ-63733657",
+                    "company": "Janssen",
+                    "stage": "Phase 2",
+                    "trial": "—",
+                    "status": "Anti-tau antibody targeting p-Tau217"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "migraine",
+      "name_cn": "偏头痛",
+      "name_en": "Migraine",
+      "subtypes": [
+        {
+          "id": "migraine_chronic",
+          "name_cn": "慢性/发作性偏头痛（预防性治疗）",
+          "name_en": "Chronic/Episodic Migraine (Preventive)",
+          "china": {
+            "annual_new_cases": 3000000,
+            "annual_new_cases_note": "中国偏头痛患者约1亿，慢性偏头痛约200万，药物预防治疗渗透率极低",
+            "tam_rmb_bn": 10,
+            "diagnosis_steps": [
+              "ICHD-3诊断标准",
+              "发作频率记录（偏头痛日记）",
+              "MRI排除继发性头痛（肿瘤/血管）",
+              "慢性偏头痛定义：每月头痛≥15天，其中偏头痛≥8天"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "预防性治疗",
+                "label_en": "Preventive Treatment",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "瑞玛奈珠单抗（爱莫维）",
+                    "name_en": "Erenumab (Aimovig)",
+                    "manufacturer": "安进/诺华 Amgen/Novartis",
+                    "annual_cost_rmb": 30000,
+                    "market_share": "35%",
+                    "selling_points": ["CGRP受体单抗，月发作减少50%达43%患者", "NMPA 2021年批准", "每月自注射，便利性高"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "弗雷马奈珠单抗（艾普维）",
+                    "name_en": "Fremanezumab (Ajovy)",
+                    "manufacturer": "梯瓦 Teva",
+                    "annual_cost_rmb": 28000,
+                    "market_share": "25%",
+                    "selling_points": ["靶向CGRP配体，月注射或季度注射选择", "NMPA批准", "季度注射方案依从性更佳"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Atogepant（阿托吉泮）",
+                    "name_en": "Atogepant (Qulipta)",
+                    "company": "艾伯维 AbbVie",
+                    "stage": "已上市（美国）/ 中国申报NDA",
+                    "trial": "ADVANCE",
+                    "status": "口服CGRP拮抗剂（gepant类），预防性用药，中国NDA申报中"
+                  },
+                  {
+                    "name_cn": "Rimegepant（瑞美吉泮）",
+                    "name_en": "Rimegepant (Nurtec ODT)",
+                    "company": "辉瑞/Biohaven Pfizer",
+                    "stage": "已上市（美国急性+预防）/ 中国Phase 3",
+                    "trial": "BHV3000系列",
+                    "status": "口服gepant，急性+预防双适应症，中国临床进行中"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 4000000,
+            "annual_new_cases_note": "US migraine prevalence ~39M, chronic ~4M, preventive Rx penetration ~20%",
+            "tam_usd_bn": 8.0,
+            "diagnosis_steps": [
+              "ICHD-3 criteria",
+              "Headache diary (frequency, severity)",
+              "MRI to rule out secondary causes",
+              "Chronic migraine: ≥15 headache days/month, ≥8 migraine"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "预防性治疗",
+                "label_en": "Preventive Treatment",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Atogepant",
+                    "name_en": "Atogepant (Qulipta)",
+                    "manufacturer": "AbbVie",
+                    "annual_cost_usd": 8000,
+                    "market_share": "20%",
+                    "selling_points": ["Oral CGRP antagonist", "ADVANCE: 50% responder 61%", "Episodic + chronic migraine approved"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Rimegepant（预防）",
+                    "name_en": "Rimegepant (Nurtec ODT)",
+                    "manufacturer": "Pfizer/Biohaven",
+                    "annual_cost_usd": 10000,
+                    "market_share": "18%",
+                    "selling_points": ["First dual acute + preventive CGRP", "Every-other-day dosing for prevention", "ODT formulation convenience"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Erenumab",
+                    "name_en": "Erenumab (Aimovig)",
+                    "manufacturer": "Amgen / Novartis",
+                    "annual_cost_usd": 8500,
+                    "market_share": "22%",
+                    "selling_points": ["First-in-class CGRP receptor mAb", "Monthly autoinjector", "Established safety data"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Zavegepant鼻喷剂",
+                    "name_en": "Zavegepant (Zavzpret) nasal spray",
+                    "company": "Pfizer/Biohaven",
+                    "stage": "已上市（2023急性）/ 预防Phase 3",
+                    "trial": "ZENITH",
+                    "status": "Nasal CGRP gepant, acute approved 2023, prevention Phase 3"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": "metabolic",
+  "name_cn": "代谢疾病",
+  "name_en": "Metabolic Diseases",
+  "tam_rank": 3,
+  "icon": "⚗️",
+  "diseases": [
+    {
+      "id": "type2_diabetes",
+      "name_cn": "2型糖尿病",
+      "name_en": "Type 2 Diabetes Mellitus (T2DM)",
+      "subtypes": [
+        {
+          "id": "t2dm_standard",
+          "name_cn": "2型糖尿病（血糖管理）",
+          "name_en": "T2DM - Glycemic Management",
+          "china": {
+            "annual_new_cases": 3000000,
+            "annual_new_cases_note": "中国T2DM患者约1.4亿，每年新增约300万，全球最多",
+            "tam_rmb_bn": 120,
+            "diagnosis_steps": [
+              "空腹血糖 ≥7.0 mmol/L 或 餐后2h血糖 ≥11.1 mmol/L",
+              "HbA1c ≥6.5%",
+              "心血管风险评估（ASCVD风险）",
+              "肾功能（eGFR）+ 尿蛋白",
+              "合并症评估（心衰、CKD、NAFLD）"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "基础治疗",
+                "label_en": "1st Line / Foundation",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "二甲双胍",
+                    "name_en": "Metformin",
+                    "manufacturer": "通用仿制药",
+                    "annual_cost_rmb": 500,
+                    "market_share": "65%",
+                    "selling_points": ["一线首选，全球指南一致", "价格极低，医保报销", "降低心血管事件（UKPDS长期数据）"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "强化降糖 / 二线加药（有ASCVD/心衰/CKD）",
+                "label_en": "Add-on / High CV risk",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "司美格鲁肽（诺和泰/wegovy）",
+                    "name_en": "Semaglutide (Ozempic / Rybelsus)",
+                    "manufacturer": "诺和诺德 Novo Nordisk",
+                    "annual_cost_rmb": 25000,
+                    "market_share": "30%",
+                    "selling_points": ["GLP-1受体激动剂，SUSTAIN研究MACE获益", "降HbA1c 1.5-2%，减重8-14kg", "口服/注射剂型均有，NMPA批准"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "达格列净（安达唐）",
+                    "name_en": "Dapagliflozin (Forxiga)",
+                    "manufacturer": "阿斯利康 AstraZeneca",
+                    "annual_cost_rmb": 8000,
+                    "market_share": "25%",
+                    "selling_points": ["SGLT2抑制剂，DAPA-HF心衰获益", "心衰+CKD双适应症", "医保报销，性价比高"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "恩格列净（欧唐静）",
+                    "name_en": "Empagliflozin (Jardiance)",
+                    "manufacturer": "勃林格殷格翰/礼来 BI/Lilly",
+                    "annual_cost_rmb": 9000,
+                    "market_share": "20%",
+                    "selling_points": ["EMPA-REG OUTCOME: CV死亡↓38%", "EMPEROR-HFrEF/pEF心衰获益", "医保报销"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "替西帕肽（Tirzepatide）",
+                    "name_en": "Tirzepatide (Mounjaro)",
+                    "company": "礼来 Eli Lilly",
+                    "stage": "已上市（美国）/ 中国2024年批准",
+                    "trial": "SURPASS系列",
+                    "status": "GLP-1/GIP双靶，HbA1c降低2.3%，减重22kg（最优数据），中国2024年获批"
+                  },
+                  {
+                    "name_cn": "马西瑞肽（Mazdutide）",
+                    "name_en": "Mazdutide",
+                    "company": "信达生物 Innovent",
+                    "stage": "Phase 3（中国）",
+                    "trial": "GLORY系列",
+                    "status": "GLP-1/GCG双激动，国产GLP-1，NDA申报中"
+                  },
+                  {
+                    "name_cn": "Ecnoglutide",
+                    "name_en": "Ecnoglutide (PF-06882961派格司他)",
+                    "company": "辉瑞 Pfizer",
+                    "stage": "Phase 3",
+                    "trial": "FOREFRONT",
+                    "status": "口服GLP-1小分子激动剂"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 1500000,
+            "annual_new_cases_note": "US T2DM prevalence ~37M, ~1.5M newly diagnosed/yr",
+            "tam_usd_bn": 55.0,
+            "diagnosis_steps": [
+              "FPG ≥126 mg/dL or 2hPG ≥200 or HbA1c ≥6.5%",
+              "ASCVD 10-year risk calculation",
+              "eGFR + UACR for CKD",
+              "Heart failure evaluation (BNP)"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线治疗",
+                "label_en": "1st Line",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Tirzepatide",
+                    "name_en": "Tirzepatide (Mounjaro)",
+                    "manufacturer": "Eli Lilly",
+                    "annual_cost_usd": 15000,
+                    "market_share": "28%",
+                    "selling_points": ["SURPASS-5: HbA1c -2.4%, weight -12.9kg", "GIP/GLP-1 dual agonist", "FDA approved T2DM 2022, obesity 2023", "Fastest growing drug in history"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Semaglutide",
+                    "name_en": "Semaglutide (Ozempic/Rybelsus)",
+                    "manufacturer": "Novo Nordisk",
+                    "annual_cost_usd": 12000,
+                    "market_share": "30%",
+                    "selling_points": ["SUSTAIN-6: MACE benefit", "SELECT: CV events -20% in non-diabetic obese", "Oral (Rybelsus) + injectable (Ozempic)"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Empagliflozin",
+                    "name_en": "Empagliflozin (Jardiance)",
+                    "manufacturer": "Boehringer Ingelheim / Lilly",
+                    "annual_cost_usd": 6000,
+                    "market_share": "18%",
+                    "selling_points": ["EMPA-REG: CV death -38%", "HFrEF + HFpEF approved", "CKD approved 2023"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Orforglipron",
+                    "name_en": "Orforglipron",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "ATTAIN",
+                    "status": "Oral small-molecule GLP-1 RA, non-peptide, no food restrictions"
+                  },
+                  {
+                    "name_cn": "Cagrilintide + Semaglutide (CagriSema)",
+                    "name_en": "CagriSema",
+                    "company": "Novo Nordisk",
+                    "stage": "Phase 3",
+                    "trial": "REDEFINE / REIMAGINE",
+                    "status": "Amylin+GLP-1 combination, weight loss up to -22%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "obesity",
+      "name_cn": "肥胖症",
+      "name_en": "Obesity",
+      "subtypes": [
+        {
+          "id": "obesity_pharmacotherapy",
+          "name_cn": "肥胖症（BMI≥30 或 ≥27+合并症）",
+          "name_en": "Obesity (BMI ≥30 or ≥27 with comorbidities)",
+          "china": {
+            "annual_new_cases": 5000000,
+            "annual_new_cases_note": "中国肥胖人口约2.5亿（BMI≥28），药物治疗渗透率极低",
+            "tam_rmb_bn": 20,
+            "diagnosis_steps": [
+              "BMI计算（中国≥28定义为肥胖）",
+              "腰围测量（男≥90cm，女≥85cm）",
+              "合并症评估：T2DM/高血压/高血脂/睡眠呼吸暂停/NAFLD",
+              "排除继发性肥胖（甲减/库欣综合征）"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线药物治疗",
+                "label_en": "1st Line Pharmacotherapy",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "司美格鲁肽2.4mg（诺和盈）",
+                    "name_en": "Semaglutide 2.4mg (Wegovy)",
+                    "manufacturer": "诺和诺德 Novo Nordisk",
+                    "annual_cost_rmb": 60000,
+                    "market_share": "25%",
+                    "selling_points": ["STEP研究：减重14.9%（vs安慰剂）", "SELECT研究：CV事件-20%（非糖尿病肥胖）", "2024年NMPA批准中国减重适应症"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "替西帕肽4mg/8mg/12mg",
+                    "name_en": "Tirzepatide (Zepbound/Mounjaro)",
+                    "manufacturer": "礼来 Eli Lilly",
+                    "annual_cost_rmb": 55000,
+                    "market_share": "30%",
+                    "selling_points": ["SURMOUNT-1：减重20.9%（最高剂量）", "GLP-1/GIP双靶，减重效果最优", "中国2024年肥胖适应症获批"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Retatrutide",
+                    "name_en": "Retatrutide",
+                    "company": "礼来 Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "TRIUMPH",
+                    "status": "GLP-1/GIP/GCG三靶激动剂，Phase 2减重24%"
+                  },
+                  {
+                    "name_cn": "马西瑞肽",
+                    "name_en": "Mazdutide",
+                    "company": "信达生物 Innovent Biologics",
+                    "stage": "Phase 3（中国）",
+                    "trial": "GLORY-3",
+                    "status": "国产GLP-1/GCG双激动，减重约14%，NDA申报中"
+                  },
+                  {
+                    "name_cn": "Amycretin",
+                    "name_en": "Amycretin",
+                    "company": "诺和诺德 Novo Nordisk",
+                    "stage": "Phase 2",
+                    "trial": "—",
+                    "status": "Amylin+GLP-1单分子，口服，Phase 1减重13.1%（13周）"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 10000000,
+            "annual_new_cases_note": "US obesity prevalence 42% adults (~100M), severe obesity 9%",
+            "tam_usd_bn": 50.0,
+            "diagnosis_steps": [
+              "BMI ≥30 (obese) or ≥27 + comorbidity",
+              "Waist circumference",
+              "Comorbidity assessment (T2DM, HTN, dyslipidemia, OSA, NASH)"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线药物治疗",
+                "label_en": "1st Line Pharmacotherapy",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Tirzepatide",
+                    "name_en": "Tirzepatide (Zepbound)",
+                    "manufacturer": "Eli Lilly",
+                    "annual_cost_usd": 14000,
+                    "market_share": "45%",
+                    "selling_points": ["SURMOUNT-1: -20.9% body weight", "FDA approved obesity 2023", "Fastest adoption in obesity history"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Semaglutide 2.4mg",
+                    "name_en": "Semaglutide 2.4mg (Wegovy)",
+                    "manufacturer": "Novo Nordisk",
+                    "annual_cost_usd": 16000,
+                    "market_share": "35%",
+                    "selling_points": ["STEP-1: -14.9% weight", "SELECT: CV events -20%", "FDA approved obesity + CV risk reduction"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Retatrutide",
+                    "name_en": "Retatrutide",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "TRIUMPH-1",
+                    "status": "GLP-1/GIP/GCG triagonist, Phase 2: -24% weight"
+                  },
+                  {
+                    "name_cn": "MariTide (AMG 133)",
+                    "name_en": "MariTide (AMG 133)",
+                    "company": "Amgen",
+                    "stage": "Phase 3",
+                    "trial": "MARITIME",
+                    "status": "GLP-1R/GIPR bispecific antibody, monthly dosing"
+                  },
+                  {
+                    "name_cn": "Orforglipron",
+                    "name_en": "Orforglipron",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "ATTAIN-OBESITY",
+                    "status": "Oral GLP-1, non-peptide, no refrigeration needed"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mash",
+      "name_cn": "代谢相关脂肪性肝炎（MASH/NASH）",
+      "name_en": "Metabolic-associated Steatohepatitis (MASH/NASH)",
+      "subtypes": [
+        {
+          "id": "mash_fibrosis",
+          "name_cn": "MASH伴肝纤维化（F2-F3）",
+          "name_en": "MASH with Fibrosis (F2-F3)",
+          "china": {
+            "annual_new_cases": 2000000,
+            "annual_new_cases_note": "中国MASH患者约3000万，进展期（F2+）约800万，药物市场刚起步",
+            "tam_rmb_bn": 10,
+            "diagnosis_steps": [
+              "肝脏超声/FibroScan（CAP+LSM）",
+              "肝活检（NAS评分≥4，纤维化分期F2+确认）",
+              "MRI-PDFF（肝脂肪定量）",
+              "排除酒精性肝病（饮酒史）",
+              "合并代谢综合征评估"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线药物治疗（刚获批）",
+                "label_en": "1st Line (Newly Approved)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "司美格鲁肽（MASH适应症）",
+                    "name_en": "Semaglutide (MASH indication)",
+                    "manufacturer": "诺和诺德 Novo Nordisk",
+                    "annual_cost_rmb": 40000,
+                    "market_share": "20%",
+                    "selling_points": ["ESSENCE研究：MASH缓解率63% vs 34%", "2025年美国获批MASH适应症", "中国申报中"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "雷美替隆（Resmetirom/Rezdiffra）",
+                    "name_en": "Resmetirom (Rezdiffra)",
+                    "manufacturer": "马德里格 Madrigal Pharmaceuticals",
+                    "annual_cost_rmb": 200000,
+                    "market_share": "30%",
+                    "selling_points": ["THRβ激动剂，MAESTRO-NASH：纤维化改善↑26%", "2024年3月FDA首批MASH药物", "中国申报NDA中"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Lanifibranor",
+                    "name_en": "Lanifibranor",
+                    "company": "Inventiva",
+                    "stage": "已上市（欧洲）/ 美国NDA申报",
+                    "trial": "NATiV3",
+                    "status": "泛PPAR激动剂，NatiV3 Phase 3阳性结果"
+                  },
+                  {
+                    "name_cn": "Obeticholic acid（奥贝胆酸）",
+                    "name_en": "Obeticholic acid (Ocaliva)",
+                    "company": "Intercept Pharmaceuticals",
+                    "stage": "FDA拒绝（纤维化适应症）/ 撤市",
+                    "trial": "REGENERATE",
+                    "status": "FXR激动剂，FDA 2024年拒绝NASH适应症申请，商业失败案例"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 3000000,
+            "annual_new_cases_note": "US MASH prevalence ~16M, F2+ fibrosis ~5M",
+            "tam_usd_bn": 8.0,
+            "diagnosis_steps": [
+              "FibroScan (CAP/LSM) or MRI-PDFF",
+              "Liver biopsy (NAS ≥4, F2+ confirmation)",
+              "Rule out alcohol-related liver disease",
+              "Metabolic syndrome assessment"
+            ],
+            "treatment_lines": [
+              {
+                "line": 1,
+                "label_cn": "一线治疗",
+                "label_en": "1st Line",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Resmetirom",
+                    "name_en": "Resmetirom (Rezdiffra)",
+                    "manufacturer": "Madrigal Pharmaceuticals",
+                    "annual_cost_usd": 48000,
+                    "market_share": "50%",
+                    "selling_points": ["First FDA-approved MASH drug (March 2024)", "MAESTRO-NASH: fibrosis improvement 26% vs 14%", "THRβ selective agonist"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Semaglutide（MASH）",
+                    "name_en": "Semaglutide (MASH indication)",
+                    "manufacturer": "Novo Nordisk",
+                    "annual_cost_usd": 12000,
+                    "market_share": "20%",
+                    "selling_points": ["ESSENCE: MASH resolution 63% vs 34%", "FDA approved MASH 2025", "Dual benefit: weight + liver"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Tirzepatide（MASH）",
+                    "name_en": "Tirzepatide (MASH indication)",
+                    "company": "Eli Lilly",
+                    "stage": "Phase 3",
+                    "trial": "SYNERGY-NASH",
+                    "status": "SURMOUNT-5 MASH sub-study positive; NDA filing 2025"
+                  },
+                  {
+                    "name_cn": "Efruxifermin",
+                    "name_en": "Efruxifermin",
+                    "company": "Akero Therapeutics",
+                    "stage": "Phase 3",
+                    "trial": "SYNCHRONY",
+                    "status": "FGF21 analog, fibrosis improvement 41% Phase 2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

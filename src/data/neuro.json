@@ -271,6 +271,278 @@
           }
         }
       ]
+    },
+    {
+      "id": "depression",
+      "name_cn": "抑郁症（重度抑郁障碍 MDD）",
+      "name_en": "Major Depressive Disorder (MDD)",
+      "subtypes": [
+        {
+          "id": "mdd_standard",
+          "name_cn": "重度抑郁障碍（MDD）",
+          "name_en": "Major Depressive Disorder (MDD)",
+          "china": {
+            "annual_new_cases": 9500000,
+            "annual_new_cases_note": "中国抑郁症患者约9500万，全球最多，治疗率不足10%，药物市场快速增长",
+            "tam_rmb_bn": 30,
+            "diagnosis_steps": [
+              "DSM-5/ICD-10诊断标准（≥2周持续低落情绪+5项以上症状）",
+              "PHQ-9量表评估（≥10分为中重度）",
+              "汉密顿抑郁量表（HAM-D17）评分",
+              "排除双相障碍（双相II型易误诊）",
+              "甲状腺功能检查（排除甲减致抑郁）",
+              "评估自杀风险"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "一线基础治疗",
+                "label_en": "1st Line Foundation",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "艾司西酞普兰（来士普/百适可）",
+                    "name_en": "Escitalopram (Lexapro/Cipralex)",
+                    "manufacturer": "灵北/多家仿制 Lundbeck / Generics",
+                    "annual_cost_rmb": 3000,
+                    "annual_cost_usd": null,
+                    "market_share": "25%",
+                    "selling_points": ["最高选择性SSRI，耐受性最佳", "医保报销，仿制药广泛可及", "推荐剂量10-20mg/日，起效2-4周"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "舍曲林（左洛复）",
+                    "name_en": "Sertraline (Zoloft)",
+                    "manufacturer": "辉瑞/多家仿制",
+                    "annual_cost_rmb": 2000,
+                    "annual_cost_usd": null,
+                    "market_share": "20%",
+                    "selling_points": ["SSRI，全球使用最广泛的抗抑郁药之一", "药物相互作用少，安全性高", "医保报销，价格极低"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "文拉法辛（怡诺思）",
+                    "name_en": "Venlafaxine (Effexor XR)",
+                    "manufacturer": "辉瑞/多家仿制",
+                    "annual_cost_rmb": 3500,
+                    "annual_cost_usd": null,
+                    "market_share": "15%",
+                    "selling_points": ["SNRI，5-HT+NE双靶，中重度MDD效果更强", "对焦虑共病效果好", "医保报销"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "度洛西汀（欣百达）",
+                    "name_en": "Duloxetine (Cymbalta)",
+                    "manufacturer": "礼来/多家仿制 Lilly",
+                    "annual_cost_rmb": 4000,
+                    "annual_cost_usd": null,
+                    "market_share": "15%",
+                    "selling_points": ["SNRI，同时有慢性疼痛/神经痛适应症", "适合MDD伴躯体疼痛患者", "医保报销"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "米氮平（瑞美隆）",
+                    "name_en": "Mirtazapine (Remeron)",
+                    "manufacturer": "默沙东/仿制",
+                    "annual_cost_rmb": 2500,
+                    "annual_cost_usd": null,
+                    "market_share": "10%",
+                    "selling_points": ["NaSSA，增加食欲改善睡眠", "适合失眠+体重减轻的MDD患者", "镇静作用明显，晚上服用"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "环丝氨酸/氯胺酮鼻喷（国内申报）",
+                    "name_en": "Esketamine Nasal Spray (Spravato) - China",
+                    "company": "强生/杨森 Janssen",
+                    "stage": "已上市（美国2019）/ 中国NDA申报",
+                    "trial": "TRANSFORM/SUSTAIN系列",
+                    "status": "S-氯胺酮，NMDA受体拮抗剂，TRD（难治性抑郁）24h内快速起效，中国NDA申报中"
+                  }
+                ]
+              },
+              {
+                "line": 1,
+                "label_cn": "难治性抑郁（TRD）/ 增效治疗",
+                "label_en": "Treatment-Resistant Depression (TRD) / Augmentation",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "阿立哌唑（安律凡）增效",
+                    "name_en": "Aripiprazole (Abilify) augmentation",
+                    "manufacturer": "大冢/百时美 Otsuka/BMS",
+                    "annual_cost_rmb": 15000,
+                    "annual_cost_usd": null,
+                    "market_share": "25%",
+                    "selling_points": ["非典型抗精神病药增效治疗", "部分D2激动+5-HT1A激动", "NMPA批准MDD辅助治疗"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "喹硫平缓释片（思瑞康）增效",
+                    "name_en": "Quetiapine XR (Seroquel XR) augmentation",
+                    "manufacturer": "阿斯利康 AstraZeneca",
+                    "annual_cost_rmb": 12000,
+                    "annual_cost_usd": null,
+                    "market_share": "20%",
+                    "selling_points": ["50-300mg低剂量增效，改善睡眠焦虑", "NMPA批准MDD辅助治疗", "医保报销"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "安非他酮（Wellbutrin，添加策略）",
+                    "name_en": "Bupropion (Wellbutrin XL)",
+                    "manufacturer": "葛兰素史克/仿制 GSK",
+                    "annual_cost_rmb": 5000,
+                    "annual_cost_usd": null,
+                    "market_share": "15%",
+                    "selling_points": ["NDRI，无性功能障碍副作用", "SSRI性功能副作用对抗策略", "戒烟同时适用"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "[SAGE-217] 祖拉诺酮（Zurzuvae）",
+                    "name_en": "Zuranolone (Zurzuvae)",
+                    "company": "赛奇制药/百健 SAGE/Biogen",
+                    "stage": "已上市（美国2023）/ 中国Phase 3申报",
+                    "trial": "LANDSCAPE/SHORELINE",
+                    "status": "神经甾体GABAAR正性调节剂，14天疗程快速起效，FDA 2023年首批口服快速起效抗抑郁药"
+                  },
+                  {
+                    "name_cn": "Esketamine鼻喷剂（艾司氯胺酮）",
+                    "name_en": "Esketamine Nasal Spray (Spravato)",
+                    "company": "强生/杨森 Janssen",
+                    "stage": "已上市（美国TRD/MDSI）/ 中国申报",
+                    "trial": "TRANSFORM-2/ASPIRE",
+                    "status": "FDA 2019批准TRD，2020批准有自杀意念MDD（MDSI），24h内起效，颠覆性新机制"
+                  },
+                  {
+                    "name_cn": "KarXT（xanomeline+trospium）",
+                    "name_en": "Xanomeline-Trospium (Cobenfy)",
+                    "company": "百时美施贵宝 BMS（Karuna收购）",
+                    "stage": "已上市（美国精神分裂症2024）/ MDD Phase 3",
+                    "trial": "ARISE-MDD",
+                    "status": "毒蕈碱受体激动剂（M1/M4），新机制，MDD Phase 3招募中"
+                  },
+                  {
+                    "name_cn": "Psilocybin（裸盖菇素）",
+                    "name_en": "Psilocybin (COMP360)",
+                    "company": "COMPASS Pathways",
+                    "stage": "Phase 3",
+                    "trial": "COMP005",
+                    "status": "致幻剂辅助心理治疗，TRD，FDA突破性疗法认定"
+                  },
+                  {
+                    "name_cn": "AXS-05（Auvelity，右美沙芬+安非他酮）",
+                    "name_en": "AXS-05 (Auvelity / Dextromethorphan+Bupropion)",
+                    "company": "Axsome Therapeutics",
+                    "stage": "已上市（美国2022）/ 中国申报中",
+                    "trial": "GEMINI",
+                    "status": "NMDA受体拮抗剂+NDRI组合，FDA 2022获批MDD，1周内起效"
+                  }
+                ]
+              }
+            ]
+          },
+          "us": {
+            "annual_new_cases": 21000000,
+            "annual_new_cases_note": "US MDD prevalence ~21M, largest single-disease pharma market globally",
+            "tam_usd_bn": 18.0,
+            "diagnosis_steps": [
+              "DSM-5 criteria (≥5 symptoms ≥2 weeks)",
+              "PHQ-9 severity scale",
+              "Rule out bipolar disorder",
+              "Suicide risk assessment (Columbia Scale)"
+            ],
+            "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "一线治疗",
+                "label_en": "1st Line",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Escitalopram / Sertraline",
+                    "name_en": "Escitalopram (Lexapro) / Sertraline (Zoloft) - generic",
+                    "manufacturer": "Generic (Lundbeck originator)",
+                    "annual_cost_usd": 300,
+                    "market_share": "40%",
+                    "selling_points": ["Most prescribed first-line antidepressants", "Generic, extremely low cost", "Comparable efficacy across SSRIs (STAR*D study)"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Desvenlafaxine / Duloxetine",
+                    "name_en": "Desvenlafaxine (Pristiq) / Duloxetine (Cymbalta)",
+                    "manufacturer": "Pfizer / Eli Lilly",
+                    "annual_cost_usd": 3000,
+                    "market_share": "20%",
+                    "selling_points": ["SNRI for moderate-severe MDD", "Duloxetine: dual pain + depression indication"]
+                  }
+                ],
+                "pipeline": []
+              },
+              {
+                "line": 1,
+                "label_cn": "难治性抑郁（TRD）",
+                "label_en": "Treatment-Resistant Depression (TRD)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "Esketamine鼻喷剂",
+                    "name_en": "Esketamine Nasal Spray (Spravato)",
+                    "manufacturer": "Janssen (J&J)",
+                    "annual_cost_usd": 80000,
+                    "market_share": "30%",
+                    "selling_points": ["FDA approved 2019 TRD, 2020 MDSI (suicidal ideation)", "Rapid onset (hours)", "Novel NMDA antagonist mechanism", "In-office administration"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Zuranolone",
+                    "name_en": "Zuranolone (Zurzuvae)",
+                    "manufacturer": "SAGE Therapeutics / Biogen",
+                    "annual_cost_usd": 18000,
+                    "market_share": "15%",
+                    "selling_points": ["FDA approved August 2023", "14-day oral course, then off", "GABA-A PAM, rapid onset (day 3)", "First rapid-acting oral antidepressant"]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "AXS-05 (Auvelity)",
+                    "name_en": "AXS-05 (Auvelity / Dextromethorphan+Bupropion)",
+                    "manufacturer": "Axsome Therapeutics",
+                    "annual_cost_usd": 30000,
+                    "market_share": "10%",
+                    "selling_points": ["FDA approved 2022 MDD", "Onset in 1 week (faster than SSRIs)", "Oral, daily dosing at home"]
+                  }
+                ],
+                "pipeline": [
+                  {
+                    "name_cn": "Psilocybin (COMP360)",
+                    "name_en": "Psilocybin (COMP360)",
+                    "company": "COMPASS Pathways",
+                    "stage": "Phase 3",
+                    "trial": "COMP005",
+                    "status": "FDA Breakthrough Therapy, TRD; 25mg single dose + therapy"
+                  },
+                  {
+                    "name_cn": "Luspatercept agonism / REL-1017",
+                    "name_en": "REL-1017 (Esmethadone)",
+                    "company": "Relmada Therapeutics",
+                    "stage": "Phase 3",
+                    "trial": "REL-1017-301",
+                    "status": "NMDA channel blocker, add-on TRD"
+                  },
+                  {
+                    "name_cn": "Brexanolone (postpartum, already approved)",
+                    "name_en": "Brexanolone (Zulresso) - PPD",
+                    "company": "SAGE / Biogen",
+                    "stage": "已上市（产后抑郁2019）",
+                    "trial": "HUMMINGBIRD",
+                    "status": "FDA 2019 approved postpartum depression, 60h IV infusion; Zuranolone oral replaces"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

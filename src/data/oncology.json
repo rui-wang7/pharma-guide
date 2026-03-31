@@ -871,6 +871,14 @@
                 ],
                 "pipeline": [
                   {
+                    "name_cn": "依沃西单抗（AK112）★ 头对头打败K药",
+                    "name_en": "Ivonescimab (AK112) - HARMONi-A vs Pembrolizumab",
+                    "company": "康方生物 Akeso Biopharma",
+                    "stage": "已上市（中国2024）/ 美国Phase 3",
+                    "trial": "HARMONi-A",
+                    "status": "PD-1/VEGF双特异性抗体（全球首款获批）。HARMONi-A：PD-L1+鳞癌NSCLC头对头 vs 帕博利珠单抗，PFS 11.14m vs 5.82m（HR 0.51），NMPA 2024年5月获批非鳞+鳞癌一线。Summit Therapeutics合作在美国Phase 3（HARMONi-3）进行中"
+                  },
+                  {
                     "name_cn": "卡度利尼（AK104）",
                     "name_en": "Cadonilimab (AK104)",
                     "company": "康方生物 Akeso",
@@ -928,11 +936,19 @@
                 ],
                 "pipeline": [
                   {
+                    "name_cn": "依沃西单抗（AK112）+ 化疗",
+                    "name_en": "Ivonescimab (AK112) + Chemotherapy",
+                    "company": "康方生物 Akeso Biopharma",
+                    "stage": "已上市（中国2024）/ 美国Phase 3",
+                    "trial": "HARMONi-2",
+                    "status": "PD-1/VEGF双抗+化疗，HARMONi-2：全人群NSCLC一线 vs 帕博利珠单抗+化疗，PFS获益（数据2024年ESMO公布），NMPA 2024年批准非鳞癌一线"
+                  },
+                  {
                     "name_cn": "卡度利尼 + 化疗",
                     "name_en": "Cadonilimab + Chemotherapy",
                     "company": "康方生物 Akeso",
                     "stage": "Phase 3",
-                    "trial": "HARMONi-2",
+                    "trial": "HARMONi-2（卡度利尼臂）",
                     "status": "PD-1/CTLA-4双抗+化疗鳞癌一线，2024年NMPA申报NDA"
                   },
                   {
@@ -1492,12 +1508,12 @@
                     "status": "Trop-2 ADC，DESTINY-Breast06/TROPION-Breast02阳性，美国2025年获批"
                   },
                   {
-                    "name_cn": "ZL-1310（依沃西单抗）+ 化疗",
-                    "name_en": "Ivonescimab (AK112) + Chemo",
-                    "company": "康方生物 Akeso",
+                    "name_cn": "依沃西单抗（AK112）+ 化疗",
+                    "name_en": "Ivonescimab (AK112) + Chemotherapy",
+                    "company": "康方生物 Akeso Biopharma",
                     "stage": "Phase 2/3",
                     "trial": "AK112-301",
-                    "status": "PD-1/VEGF双抗，mTNBC一线联合化疗探索"
+                    "status": "PD-1/VEGF双抗，mTNBC一线联合化疗探索，基于NSCLC成功数据延伸至乳腺癌"
                   }
                 ]
               }

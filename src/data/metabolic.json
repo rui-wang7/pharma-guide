@@ -17,7 +17,7 @@
           "china": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "中国T2DM患者约1.4亿，每年新增约300万，全球最多",
-            "tam_rmb_bn": 120,
+            "tam_rmb_bn": 36,
             "diagnosis_steps": [
               "空腹血糖 ≥7.0 mmol/L 或 餐后2h血糖 ≥11.1 mmol/L",
               "HbA1c ≥6.5%",
@@ -38,7 +38,11 @@
                     "manufacturer": "通用仿制药",
                     "annual_cost_rmb": 500,
                     "market_share": "65%",
-                    "selling_points": ["一线首选，全球指南一致", "价格极低，医保报销", "降低心血管事件（UKPDS长期数据）"]
+                    "selling_points": [
+                      "一线首选，全球指南一致",
+                      "价格极低，医保报销",
+                      "降低心血管事件（UKPDS长期数据）"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -55,7 +59,11 @@
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 25000,
                     "market_share": "30%",
-                    "selling_points": ["GLP-1受体激动剂，SUSTAIN研究MACE获益", "降HbA1c 1.5-2%，减重8-14kg", "口服/注射剂型均有，NMPA批准"]
+                    "selling_points": [
+                      "GLP-1受体激动剂，SUSTAIN研究MACE获益",
+                      "降HbA1c 1.5-2%，减重8-14kg",
+                      "口服/注射剂型均有，NMPA批准"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -64,7 +72,11 @@
                     "manufacturer": "阿斯利康 AstraZeneca",
                     "annual_cost_rmb": 8000,
                     "market_share": "25%",
-                    "selling_points": ["SGLT2抑制剂，DAPA-HF心衰获益", "心衰+CKD双适应症", "医保报销，性价比高"]
+                    "selling_points": [
+                      "SGLT2抑制剂，DAPA-HF心衰获益",
+                      "心衰+CKD双适应症",
+                      "医保报销，性价比高"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -73,7 +85,11 @@
                     "manufacturer": "勃林格殷格翰/礼来 BI/Lilly",
                     "annual_cost_rmb": 9000,
                     "market_share": "20%",
-                    "selling_points": ["EMPA-REG OUTCOME: CV死亡↓38%", "EMPEROR-HFrEF/pEF心衰获益", "医保报销"]
+                    "selling_points": [
+                      "EMPA-REG OUTCOME: CV死亡↓38%",
+                      "EMPEROR-HFrEF/pEF心衰获益",
+                      "医保报销"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -108,7 +124,7 @@
           "us": {
             "annual_new_cases": 1500000,
             "annual_new_cases_note": "US T2DM prevalence ~37M, ~1.5M newly diagnosed/yr",
-            "tam_usd_bn": 55.0,
+            "tam_usd_bn": 40.0,
             "diagnosis_steps": [
               "FPG ≥126 mg/dL or 2hPG ≥200 or HbA1c ≥6.5%",
               "ASCVD 10-year risk calculation",
@@ -128,7 +144,12 @@
                     "manufacturer": "Eli Lilly",
                     "annual_cost_usd": 15000,
                     "market_share": "28%",
-                    "selling_points": ["SURPASS-5: HbA1c -2.4%, weight -12.9kg", "GIP/GLP-1 dual agonist", "FDA approved T2DM 2022, obesity 2023", "Fastest growing drug in history"]
+                    "selling_points": [
+                      "SURPASS-5: HbA1c -2.4%, weight -12.9kg",
+                      "GIP/GLP-1 dual agonist",
+                      "FDA approved T2DM 2022, obesity 2023",
+                      "Fastest growing drug in history"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -137,7 +158,11 @@
                     "manufacturer": "Novo Nordisk",
                     "annual_cost_usd": 12000,
                     "market_share": "30%",
-                    "selling_points": ["SUSTAIN-6: MACE benefit", "SELECT: CV events -20% in non-diabetic obese", "Oral (Rybelsus) + injectable (Ozempic)"]
+                    "selling_points": [
+                      "SUSTAIN-6: MACE benefit",
+                      "SELECT: CV events -20% in non-diabetic obese",
+                      "Oral (Rybelsus) + injectable (Ozempic)"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -146,7 +171,11 @@
                     "manufacturer": "Boehringer Ingelheim / Lilly",
                     "annual_cost_usd": 6000,
                     "market_share": "18%",
-                    "selling_points": ["EMPA-REG: CV death -38%", "HFrEF + HFpEF approved", "CKD approved 2023"]
+                    "selling_points": [
+                      "EMPA-REG: CV death -38%",
+                      "HFrEF + HFpEF approved",
+                      "CKD approved 2023"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -185,7 +214,7 @@
           "china": {
             "annual_new_cases": 5000000,
             "annual_new_cases_note": "中国肥胖人口约2.5亿（BMI≥28），药物治疗渗透率极低",
-            "tam_rmb_bn": 20,
+            "tam_rmb_bn": 2,
             "diagnosis_steps": [
               "BMI计算（中国≥28定义为肥胖）",
               "腰围测量（男≥90cm，女≥85cm）",
@@ -205,7 +234,11 @@
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 60000,
                     "market_share": "25%",
-                    "selling_points": ["STEP研究：减重14.9%（vs安慰剂）", "SELECT研究：CV事件-20%（非糖尿病肥胖）", "2024年NMPA批准中国减重适应症"]
+                    "selling_points": [
+                      "STEP研究：减重14.9%（vs安慰剂）",
+                      "SELECT研究：CV事件-20%（非糖尿病肥胖）",
+                      "2024年NMPA批准中国减重适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -214,7 +247,11 @@
                     "manufacturer": "礼来 Eli Lilly",
                     "annual_cost_rmb": 55000,
                     "market_share": "30%",
-                    "selling_points": ["SURMOUNT-1：减重20.9%（最高剂量）", "GLP-1/GIP双靶，减重效果最优", "中国2024年肥胖适应症获批"]
+                    "selling_points": [
+                      "SURMOUNT-1：减重20.9%（最高剂量）",
+                      "GLP-1/GIP双靶，减重效果最优",
+                      "中国2024年肥胖适应症获批"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -249,7 +286,7 @@
           "us": {
             "annual_new_cases": 10000000,
             "annual_new_cases_note": "US obesity prevalence 42% adults (~100M), severe obesity 9%",
-            "tam_usd_bn": 50.0,
+            "tam_usd_bn": 20.0,
             "diagnosis_steps": [
               "BMI ≥30 (obese) or ≥27 + comorbidity",
               "Waist circumference",
@@ -268,7 +305,11 @@
                     "manufacturer": "Eli Lilly",
                     "annual_cost_usd": 14000,
                     "market_share": "45%",
-                    "selling_points": ["SURMOUNT-1: -20.9% body weight", "FDA approved obesity 2023", "Fastest adoption in obesity history"]
+                    "selling_points": [
+                      "SURMOUNT-1: -20.9% body weight",
+                      "FDA approved obesity 2023",
+                      "Fastest adoption in obesity history"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -277,7 +318,11 @@
                     "manufacturer": "Novo Nordisk",
                     "annual_cost_usd": 16000,
                     "market_share": "35%",
-                    "selling_points": ["STEP-1: -14.9% weight", "SELECT: CV events -20%", "FDA approved obesity + CV risk reduction"]
+                    "selling_points": [
+                      "STEP-1: -14.9% weight",
+                      "SELECT: CV events -20%",
+                      "FDA approved obesity + CV risk reduction"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -324,7 +369,7 @@
           "china": {
             "annual_new_cases": 2000000,
             "annual_new_cases_note": "中国MASH患者约3000万，进展期（F2+）约800万，药物市场刚起步",
-            "tam_rmb_bn": 10,
+            "tam_rmb_bn": 0.3,
             "diagnosis_steps": [
               "肝脏超声/FibroScan（CAP+LSM）",
               "肝活检（NAS评分≥4，纤维化分期F2+确认）",
@@ -345,7 +390,11 @@
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 40000,
                     "market_share": "20%",
-                    "selling_points": ["ESSENCE研究：MASH缓解率63% vs 34%", "2025年美国获批MASH适应症", "中国申报中"]
+                    "selling_points": [
+                      "ESSENCE研究：MASH缓解率63% vs 34%",
+                      "2025年美国获批MASH适应症",
+                      "中国申报中"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -354,7 +403,11 @@
                     "manufacturer": "马德里格 Madrigal Pharmaceuticals",
                     "annual_cost_rmb": 200000,
                     "market_share": "30%",
-                    "selling_points": ["THRβ激动剂，MAESTRO-NASH：纤维化改善↑26%", "2024年3月FDA首批MASH药物", "中国申报NDA中"]
+                    "selling_points": [
+                      "THRβ激动剂，MAESTRO-NASH：纤维化改善↑26%",
+                      "2024年3月FDA首批MASH药物",
+                      "中国申报NDA中"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -381,7 +434,7 @@
           "us": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "US MASH prevalence ~16M, F2+ fibrosis ~5M",
-            "tam_usd_bn": 8.0,
+            "tam_usd_bn": 1.5,
             "diagnosis_steps": [
               "FibroScan (CAP/LSM) or MRI-PDFF",
               "Liver biopsy (NAS ≥4, F2+ confirmation)",
@@ -401,7 +454,11 @@
                     "manufacturer": "Madrigal Pharmaceuticals",
                     "annual_cost_usd": 48000,
                     "market_share": "50%",
-                    "selling_points": ["First FDA-approved MASH drug (March 2024)", "MAESTRO-NASH: fibrosis improvement 26% vs 14%", "THRβ selective agonist"]
+                    "selling_points": [
+                      "First FDA-approved MASH drug (March 2024)",
+                      "MAESTRO-NASH: fibrosis improvement 26% vs 14%",
+                      "THRβ selective agonist"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -410,7 +467,11 @@
                     "manufacturer": "Novo Nordisk",
                     "annual_cost_usd": 12000,
                     "market_share": "20%",
-                    "selling_points": ["ESSENCE: MASH resolution 63% vs 34%", "FDA approved MASH 2025", "Dual benefit: weight + liver"]
+                    "selling_points": [
+                      "ESSENCE: MASH resolution 63% vs 34%",
+                      "FDA approved MASH 2025",
+                      "Dual benefit: weight + liver"
+                    ]
                   }
                 ],
                 "pipeline": [

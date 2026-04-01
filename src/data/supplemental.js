@@ -9,69 +9,71 @@
 
 // ─── EU + SURVIVAL DATA ────────────────────────────────────────────────────
 // keyed by subtype id
+// EU TAM source: EvaluatePharma World Preview 2024; EFPIA Pharmaceutical Data 2023
+// EU prices are ~40-60% of US list prices; ~15-25% of US net after rebates
 export const EU_SURVIVAL = {
   // ── LUNG ──
   nsclc_egfr: {
-    eu: { annual_new_cases: 60000, tam_eur_bn: 4.2, prevalence: 180000 },
+    eu: { annual_new_cases: 60000, tam_eur_bn: 3.0, prevalence: 180000 },
     china: { prevalence: 700000, median_survival_years: 3.2 },
     us:    { prevalence: 240000, median_survival_years: 4.1 },
   },
   nsclc_alk: {
-    eu: { annual_new_cases: 10000, tam_eur_bn: 1.5, prevalence: 35000 },
+    eu: { annual_new_cases: 10000, tam_eur_bn: 1.0, prevalence: 35000 },
     china: { prevalence: 150000, median_survival_years: 5.5 },
     us:    { prevalence: 38000,  median_survival_years: 6.2 },
   },
   nsclc_kras: {
-    eu: { annual_new_cases: 22000, tam_eur_bn: 0.9, prevalence: 60000 },
+    eu: { annual_new_cases: 22000, tam_eur_bn: 0.4, prevalence: 60000 },
     china: { prevalence: 80000,  median_survival_years: 1.8 },
     us:    { prevalence: 75000,  median_survival_years: 2.2 },
   },
   nsclc_wildtype: {
-    eu: { annual_new_cases: 80000, tam_eur_bn: 3.8, prevalence: 180000 },
+    eu: { annual_new_cases: 80000, tam_eur_bn: 5.0, prevalence: 180000 },
     china: { prevalence: 600000, median_survival_years: 1.6 },
     us:    { prevalence: 200000, median_survival_years: 2.0 },
   },
   sclc: {
-    eu: { annual_new_cases: 20000, tam_eur_bn: 0.7, prevalence: 40000 },
+    eu: { annual_new_cases: 20000, tam_eur_bn: 0.6, prevalence: 40000 },
     china: { prevalence: 180000, median_survival_years: 0.8 },
     us:    { prevalence: 45000,  median_survival_years: 1.0 },
   },
   // ── BREAST ──
   bc_her2pos: {
-    eu: { annual_new_cases: 40000, tam_eur_bn: 5.5, prevalence: 180000 },
+    eu: { annual_new_cases: 40000, tam_eur_bn: 5.0, prevalence: 180000 },
     china: { prevalence: 280000, median_survival_years: 5.2 },
     us:    { prevalence: 200000, median_survival_years: 6.8 },
   },
   bc_hrpos: {
-    eu: { annual_new_cases: 120000, tam_eur_bn: 7.5, prevalence: 650000 },
+    eu: { annual_new_cases: 120000, tam_eur_bn: 8.0, prevalence: 650000 },
     china: { prevalence: 600000, median_survival_years: 6.5 },
     us:    { prevalence: 700000, median_survival_years: 8.2 },
   },
   bc_tnbc: {
-    eu: { annual_new_cases: 28000, tam_eur_bn: 2.8, prevalence: 90000 },
+    eu: { annual_new_cases: 28000, tam_eur_bn: 2.0, prevalence: 90000 },
     china: { prevalence: 130000, median_survival_years: 2.5 },
     us:    { prevalence: 110000, median_survival_years: 3.1 },
   },
   bc_her2low: {
-    eu: { annual_new_cases: 100000, tam_eur_bn: 4.2, prevalence: 500000 },
+    eu: { annual_new_cases: 100000, tam_eur_bn: 2.5, prevalence: 500000 },
     china: { prevalence: 500000, median_survival_years: 4.8 },
     us:    { prevalence: 550000, median_survival_years: 5.5 },
   },
   // ── COLORECTAL ──
   crc_ras_wt: {
-    eu: { annual_new_cases: 60000, tam_eur_bn: 3.2, prevalence: 180000 },
+    eu: { annual_new_cases: 60000, tam_eur_bn: 3.0, prevalence: 180000 },
     china: { prevalence: 400000, median_survival_years: 2.5 },
     us:    { prevalence: 200000, median_survival_years: 3.2 },
   },
   // ── GASTRIC ──
   gastric_her2pos: {
-    eu: { annual_new_cases: 6000, tam_eur_bn: 0.9, prevalence: 12000 },
+    eu: { annual_new_cases: 6000, tam_eur_bn: 0.8, prevalence: 12000 },
     china: { prevalence: 60000,  median_survival_years: 1.4 },
     us:    { prevalence: 8000,   median_survival_years: 1.8 },
   },
   // ── CERVICAL ──
   cervical_advanced: {
-    eu: { annual_new_cases: 33000, tam_eur_bn: 1.1, prevalence: 60000 },
+    eu: { annual_new_cases: 33000, tam_eur_bn: 0.7, prevalence: 60000 },
     china: { prevalence: 200000, median_survival_years: 1.8 },
     us:    { prevalence: 22000,  median_survival_years: 2.5 },
   },
@@ -83,100 +85,100 @@ export const EU_SURVIVAL = {
   },
   // ── LIVER ──
   hcc_advanced: {
-    eu: { annual_new_cases: 55000, tam_eur_bn: 2.2, prevalence: 80000 },
+    eu: { annual_new_cases: 55000, tam_eur_bn: 1.5, prevalence: 80000 },
     china: { prevalence: 400000, median_survival_years: 1.1 },
     us:    { prevalence: 55000,  median_survival_years: 1.8 },
   },
   // ── BLADDER ──
   bladder_metastatic: {
-    eu: { annual_new_cases: 55000, tam_eur_bn: 2.0, prevalence: 100000 },
+    eu: { annual_new_cases: 55000, tam_eur_bn: 1.5, prevalence: 100000 },
     china: { prevalence: 80000,  median_survival_years: 1.5 },
     us:    { prevalence: 60000,  median_survival_years: 2.2 },
   },
   // ── ESOPHAGEAL ──
   esophageal_advanced: {
-    eu: { annual_new_cases: 38000, tam_eur_bn: 1.4, prevalence: 50000 },
+    eu: { annual_new_cases: 38000, tam_eur_bn: 0.8, prevalence: 50000 },
     china: { prevalence: 300000, median_survival_years: 1.0 },
     us:    { prevalence: 25000,  median_survival_years: 1.4 },
   },
   // ── THYROID ──
   thyroid_rai_refractory: {
-    eu: { annual_new_cases: 5000, tam_eur_bn: 0.8, prevalence: 25000 },
+    eu: { annual_new_cases: 5000, tam_eur_bn: 0.4, prevalence: 25000 },
     china: { prevalence: 80000,  median_survival_years: 5.0 },
     us:    { prevalence: 30000,  median_survival_years: 6.0 },
   },
   medullary_thyroid: {
-    eu: { annual_new_cases: 800, tam_eur_bn: 0.3, prevalence: 4000 },
+    eu: { annual_new_cases: 800, tam_eur_bn: 0.15, prevalence: 4000 },
     china: { prevalence: 8000,  median_survival_years: 4.5 },
     us:    { prevalence: 3000,  median_survival_years: 5.5 },
   },
   // ── ENDOMETRIAL ──
   endometrial_advanced: {
-    eu: { annual_new_cases: 90000, tam_eur_bn: 2.0, prevalence: 130000 },
+    eu: { annual_new_cases: 90000, tam_eur_bn: 1.2, prevalence: 130000 },
     china: { prevalence: 60000,  median_survival_years: 2.8 },
     us:    { prevalence: 90000,  median_survival_years: 3.5 },
   },
   // ── IMMUNE ──
   ra_moderate_severe: {
-    eu: { annual_new_cases: 200000, tam_eur_bn: 18.0, prevalence: 2800000 },
+    eu: { annual_new_cases: 200000, tam_eur_bn: 16.0, prevalence: 2800000 },
     china: { prevalence: 5000000, median_survival_years: null },
     us:    { prevalence: 1500000, median_survival_years: null },
   },
   ad_moderate_severe: {
-    eu: { annual_new_cases: 2000000, tam_eur_bn: 6.5, prevalence: 12000000 },
+    eu: { annual_new_cases: 2000000, tam_eur_bn: 4.5, prevalence: 12000000 },
     china: { prevalence: 20000000, median_survival_years: null },
     us:    { prevalence: 15000000, median_survival_years: null },
   },
   psoriasis_moderate_severe: {
-    eu: { annual_new_cases: 700000, tam_eur_bn: 12.0, prevalence: 6000000 },
+    eu: { annual_new_cases: 700000, tam_eur_bn: 9.0, prevalence: 6000000 },
     china: { prevalence: 2000000, median_survival_years: null },
     us:    { prevalence: 2000000, median_survival_years: null },
   },
   crohns_disease: {
-    eu: { annual_new_cases: 60000, tam_eur_bn: 6.5, prevalence: 800000 },
+    eu: { annual_new_cases: 60000, tam_eur_bn: 8.0, prevalence: 800000 },
     china: { prevalence: 150000, median_survival_years: null },
     us:    { prevalence: 700000, median_survival_years: null },
   },
   // ── METABOLIC ──
   t2dm_standard: {
-    eu: { annual_new_cases: 2500000, tam_eur_bn: 30.0, prevalence: 32000000 },
+    eu: { annual_new_cases: 2500000, tam_eur_bn: 20.0, prevalence: 32000000 },
     china: { prevalence: 140000000, median_survival_years: null },
     us:    { prevalence: 37000000, median_survival_years: null },
   },
   obesity_pharmacotherapy: {
-    eu: { annual_new_cases: 6000000, tam_eur_bn: 12.0, prevalence: 55000000 },
+    eu: { annual_new_cases: 6000000, tam_eur_bn: 6.0, prevalence: 55000000 },
     china: { prevalence: 250000000, median_survival_years: null },
     us:    { prevalence: 100000000, median_survival_years: null },
   },
   mash_fibrosis: {
-    eu: { annual_new_cases: 2000000, tam_eur_bn: 4.5, prevalence: 12000000 },
+    eu: { annual_new_cases: 2000000, tam_eur_bn: 0.5, prevalence: 12000000 },
     china: { prevalence: 30000000, median_survival_years: null },
     us:    { prevalence: 16000000, median_survival_years: null },
   },
   // ── CARDIOVASCULAR ──
   hfref: {
-    eu: { annual_new_cases: 700000, tam_eur_bn: 8.5, prevalence: 6000000 },
+    eu: { annual_new_cases: 700000, tam_eur_bn: 6.0, prevalence: 6000000 },
     china: { prevalence: 8900000, median_survival_years: 5.0 },
     us:    { prevalence: 6700000, median_survival_years: 5.5 },
   },
   hypercholesterolemia_high_cv_risk: {
-    eu: { annual_new_cases: 4000000, tam_eur_bn: 12.0, prevalence: 80000000 },
+    eu: { annual_new_cases: 4000000, tam_eur_bn: 10.0, prevalence: 80000000 },
     china: { prevalence: 330000000, median_survival_years: null },
     us:    { prevalence: 30000000, median_survival_years: null },
   },
   // ── NEURO ──
   alzheimers_early: {
-    eu: { annual_new_cases: 350000, tam_eur_bn: 2.5, prevalence: 8000000 },
+    eu: { annual_new_cases: 350000, tam_eur_bn: 1.0, prevalence: 8000000 },
     china: { prevalence: 10500000, median_survival_years: 8.0 },
     us:    { prevalence: 7000000, median_survival_years: 9.0 },
   },
   migraine_chronic: {
-    eu: { annual_new_cases: 3000000, tam_eur_bn: 4.5, prevalence: 40000000 },
+    eu: { annual_new_cases: 3000000, tam_eur_bn: 2.5, prevalence: 40000000 },
     china: { prevalence: 100000000, median_survival_years: null },
     us:    { prevalence: 39000000, median_survival_years: null },
   },
   mdd_standard: {
-    eu: { annual_new_cases: 12000000, tam_eur_bn: 8.5, prevalence: 40000000 },
+    eu: { annual_new_cases: 12000000, tam_eur_bn: 6.0, prevalence: 40000000 },
     china: { prevalence: 95000000, median_survival_years: null },
     us:    { prevalence: 21000000, median_survival_years: null },
   },

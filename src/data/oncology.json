@@ -17,7 +17,7 @@
           "china": {
             "annual_new_cases": 250000,
             "annual_new_cases_note": "约占NSCLC的45-50%",
-            "tam_rmb_bn": 85,
+            "tam_rmb_bn": 18,
             "diagnosis_steps": [
               "低剂量螺旋CT筛查（高危人群）",
               "病理活检（支气管镜 / CT引导穿刺）",
@@ -44,7 +44,11 @@
                     "annual_cost_rmb": 72000,
                     "annual_cost_usd": null,
                     "market_share": "65%",
-                    "selling_points": ["ADAURA III期研究：DFS HR 0.17", "CNS穿透性强，预防脑转移", "2021年NMPA批准IB-IIIA辅助治疗"]
+                    "selling_points": [
+                      "ADAURA III期研究：DFS HR 0.17",
+                      "CNS穿透性强，预防脑转移",
+                      "2021年NMPA批准IB-IIIA辅助治疗"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -71,7 +75,12 @@
                     "annual_cost_rmb": 72000,
                     "annual_cost_usd": null,
                     "market_share": "60%",
-                    "selling_points": ["FLAURA研究PFS 18.9m vs 10.2m", "CNS穿透性强", "医保报销（2021年）", "OS显著获益"]
+                    "selling_points": [
+                      "FLAURA研究PFS 18.9m vs 10.2m",
+                      "CNS穿透性强",
+                      "医保报销（2021年）",
+                      "OS显著获益"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -81,7 +90,12 @@
                     "annual_cost_rmb": 52000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["国产三代EGFR-TKI", "AENEAS研究PFS 19.3m", "价格优势，医保报销", "CNS疗效数据良好"]
+                    "selling_points": [
+                      "国产三代EGFR-TKI",
+                      "AENEAS研究PFS 19.3m",
+                      "价格优势，医保报销",
+                      "CNS疗效数据良好"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -91,7 +105,11 @@
                     "annual_cost_rmb": 48000,
                     "annual_cost_usd": null,
                     "market_share": "10%",
-                    "selling_points": ["国产三代，FURLONG研究", "医保内价格最低", "高CNS暴露量"]
+                    "selling_points": [
+                      "国产三代，FURLONG研究",
+                      "医保内价格最低",
+                      "高CNS暴露量"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -126,7 +144,10 @@
                     "annual_cost_rmb": 72000,
                     "annual_cost_usd": null,
                     "market_share": "70%",
-                    "selling_points": ["AURA3研究T790M人群PFS 10.1m", "口服，耐受性好"]
+                    "selling_points": [
+                      "AURA3研究T790M人群PFS 10.1m",
+                      "口服，耐受性好"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -136,7 +157,10 @@
                     "annual_cost_rmb": 30000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["培美曲塞+卡铂/顺铂", "二代EGFR-TKI耐药后标准方案"]
+                    "selling_points": [
+                      "培美曲塞+卡铂/顺铂",
+                      "二代EGFR-TKI耐药后标准方案"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -171,7 +195,10 @@
                     "annual_cost_rmb": 50000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["REVEL研究OS获益", "标准三线方案"]
+                    "selling_points": [
+                      "REVEL研究OS获益",
+                      "标准三线方案"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -181,7 +208,11 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["ALTER0303研究中国本土数据", "多靶点TKI，医保适应症", "三线及以上NSCLC适应症"]
+                    "selling_points": [
+                      "ALTER0303研究中国本土数据",
+                      "多靶点TKI，医保适应症",
+                      "三线及以上NSCLC适应症"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -200,7 +231,7 @@
           "us": {
             "annual_new_cases": 80000,
             "annual_new_cases_note": "约占NSCLC的15-20%（白人比例低，亚裔高）",
-            "tam_usd_bn": 6.5,
+            "tam_usd_bn": 5.5,
             "diagnosis_steps": [
               "Low-dose CT screening (USPSTF guidelines: 50-80 yrs, 20+ pack-years)",
               "Biopsy (bronchoscopy / CT-guided)",
@@ -227,7 +258,11 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "80%",
-                    "selling_points": ["ADAURA: DFS HR 0.17", "FDA approved adjuvant IB-IIIA", "CNS protection"]
+                    "selling_points": [
+                      "ADAURA: DFS HR 0.17",
+                      "FDA approved adjuvant IB-IIIA",
+                      "CNS protection"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -254,7 +289,12 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "55%",
-                    "selling_points": ["FLAURA: PFS 18.9m", "CNS penetration", "FDA approved 2018", "OS benefit"]
+                    "selling_points": [
+                      "FLAURA: PFS 18.9m",
+                      "CNS penetration",
+                      "FDA approved 2018",
+                      "OS benefit"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -264,7 +304,11 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 250000,
                     "market_share": "15%",
-                    "selling_points": ["MARIPOSA: PFS 23.7m vs 16.6m vs osimertinib", "FDA approved 2024", "Bispecific EGFR+MET antibody"]
+                    "selling_points": [
+                      "MARIPOSA: PFS 23.7m vs 16.6m vs osimertinib",
+                      "FDA approved 2024",
+                      "Bispecific EGFR+MET antibody"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -291,7 +335,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "65%",
-                    "selling_points": ["AURA3: PFS 10.1m vs 4.4m", "Oral, well-tolerated"]
+                    "selling_points": [
+                      "AURA3: PFS 10.1m vs 4.4m",
+                      "Oral, well-tolerated"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -301,7 +348,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 220000,
                     "market_share": "20%",
-                    "selling_points": ["FDA approved for exon20 insertions 2021", "ORR 40%"]
+                    "selling_points": [
+                      "FDA approved for exon20 insertions 2021",
+                      "ORR 40%"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -328,7 +378,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 80000,
                     "market_share": "35%",
-                    "selling_points": ["REVEL trial OS benefit", "Standard 3rd line"]
+                    "selling_points": [
+                      "REVEL trial OS benefit",
+                      "Standard 3rd line"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -352,7 +405,7 @@
           "china": {
             "annual_new_cases": 50000,
             "annual_new_cases_note": "约占NSCLC的3-5%",
-            "tam_rmb_bn": 30,
+            "tam_rmb_bn": 4,
             "diagnosis_steps": [
               "FISH / IHC / NGS检测ALK融合（EML4-ALK最常见）",
               "CT分期 + 脑MRI",
@@ -372,7 +425,11 @@
                     "annual_cost_rmb": 85000,
                     "annual_cost_usd": null,
                     "market_share": "55%",
-                    "selling_points": ["ALEX研究PFS 34.8m", "CNS疗效优秀，入脑好", "医保报销（2021年）"]
+                    "selling_points": [
+                      "ALEX研究PFS 34.8m",
+                      "CNS疗效优秀，入脑好",
+                      "医保报销（2021年）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -382,7 +439,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["CROWN研究mPFS未达到（>60m）", "三代ALK抑制剂，覆盖多种耐药突变", "CNS最强覆盖"]
+                    "selling_points": [
+                      "CROWN研究mPFS未达到（>60m）",
+                      "三代ALK抑制剂，覆盖多种耐药突变",
+                      "CNS最强覆盖"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -392,7 +453,10 @@
                     "annual_cost_rmb": 95000,
                     "annual_cost_usd": null,
                     "market_share": "10%",
-                    "selling_points": ["ALTA-1L研究PFS 24m", "高CNS缓解率"]
+                    "selling_points": [
+                      "ALTA-1L研究PFS 24m",
+                      "高CNS缓解率"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -419,7 +483,10 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "50%",
-                    "selling_points": ["克服多种ALK耐药突变", "克唑替尼或二代TKI耐药后选择"]
+                    "selling_points": [
+                      "克服多种ALK耐药突变",
+                      "克唑替尼或二代TKI耐药后选择"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -429,7 +496,7 @@
           "us": {
             "annual_new_cases": 12000,
             "annual_new_cases_note": "~3-5% of NSCLC",
-            "tam_usd_bn": 2.5,
+            "tam_usd_bn": 1.8,
             "diagnosis_steps": [
               "IHC / FISH / NGS for ALK fusion",
               "CT + Brain MRI",
@@ -449,7 +516,11 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 200000,
                     "market_share": "45%",
-                    "selling_points": ["CROWN: mPFS not reached (>60m)", "Best-in-class CNS activity", "FDA 1L approved 2021"]
+                    "selling_points": [
+                      "CROWN: mPFS not reached (>60m)",
+                      "Best-in-class CNS activity",
+                      "FDA 1L approved 2021"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -459,7 +530,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "35%",
-                    "selling_points": ["ALEX: PFS 34.8m", "Well-established safety profile"]
+                    "selling_points": [
+                      "ALEX: PFS 34.8m",
+                      "Well-established safety profile"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -474,7 +548,7 @@
           "china": {
             "annual_new_cases": 35000,
             "annual_new_cases_note": "约占NSCLC的8-10%，欧美更高",
-            "tam_rmb_bn": 15,
+            "tam_rmb_bn": 1,
             "diagnosis_steps": [
               "NGS检测KRAS G12C突变",
               "同时检测STK11/KEAP1（影响免疫治疗疗效）",
@@ -494,7 +568,10 @@
                     "annual_cost_rmb": 250000,
                     "annual_cost_usd": null,
                     "market_share": "45%",
-                    "selling_points": ["KRAS G12C人群PD-L1表达普遍较高", "KEYNOTE-189/-024研究支持"]
+                    "selling_points": [
+                      "KRAS G12C人群PD-L1表达普遍较高",
+                      "KEYNOTE-189/-024研究支持"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -521,7 +598,10 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["CodeBreaK 200研究：首个获批KRAS G12C抑制剂", "ORR 28%，PFS 5.6m"]
+                    "selling_points": [
+                      "CodeBreaK 200研究：首个获批KRAS G12C抑制剂",
+                      "ORR 28%，PFS 5.6m"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -531,7 +611,10 @@
                     "annual_cost_rmb": 200000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["KRYSTAL-1：ORR 43%，CNS活性", "中枢神经系统穿透性更好"]
+                    "selling_points": [
+                      "KRYSTAL-1：ORR 43%，CNS活性",
+                      "中枢神经系统穿透性更好"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -558,7 +641,7 @@
           "us": {
             "annual_new_cases": 30000,
             "annual_new_cases_note": "~13% of NSCLC (higher in smokers)",
-            "tam_usd_bn": 1.8,
+            "tam_usd_bn": 0.8,
             "diagnosis_steps": [
               "Comprehensive NGS for KRAS G12C",
               "Co-mutation testing (STK11, KEAP1, TP53)",
@@ -578,7 +661,9 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 250000,
                     "market_share": "50%",
-                    "selling_points": ["Standard 1L based on PD-L1 + KEYNOTE trials"]
+                    "selling_points": [
+                      "Standard 1L based on PD-L1 + KEYNOTE trials"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -605,7 +690,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 200000,
                     "market_share": "50%",
-                    "selling_points": ["KRYSTAL-1: ORR 43%, CNS activity", "CodeBreaK 200 head-to-head vs sotorasib shows superiority trend"]
+                    "selling_points": [
+                      "KRYSTAL-1: ORR 43%, CNS activity",
+                      "CodeBreaK 200 head-to-head vs sotorasib shows superiority trend"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -615,7 +703,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "40%",
-                    "selling_points": ["First-in-class KRAS G12C inhibitor", "CodeBreaK 200 approved 2021"]
+                    "selling_points": [
+                      "First-in-class KRAS G12C inhibitor",
+                      "CodeBreaK 200 approved 2021"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -639,7 +730,7 @@
           "china": {
             "annual_new_cases": 120000,
             "annual_new_cases_note": "约占肺癌15%，与吸烟高度相关",
-            "tam_rmb_bn": 20,
+            "tam_rmb_bn": 3,
             "diagnosis_steps": [
               "病理活检（神经内分泌标志物：Syn/CgA/CD56）",
               "CT（胸/腹/盆）+ 脑MRI",
@@ -659,7 +750,10 @@
                     "annual_cost_rmb": 200000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["IMpower133研究：OS 12.3m vs 10.3m", "首个IO+化疗SCLC方案"]
+                    "selling_points": [
+                      "IMpower133研究：OS 12.3m vs 10.3m",
+                      "首个IO+化疗SCLC方案"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -669,7 +763,10 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["CASPIAN研究：OS 13.0m vs 10.3m", "医保覆盖适应症申请中"]
+                    "selling_points": [
+                      "CASPIAN研究：OS 13.0m vs 10.3m",
+                      "医保覆盖适应症申请中"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -679,7 +776,10 @@
                     "annual_cost_rmb": 25000,
                     "annual_cost_usd": null,
                     "market_share": "55%",
-                    "selling_points": ["标准EP方案，价格低廉", "医保报销，广泛使用"]
+                    "selling_points": [
+                      "标准EP方案，价格低廉",
+                      "医保报销，广泛使用"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -714,7 +814,10 @@
                     "annual_cost_rmb": 30000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["标准二线方案，FDA/NMPA均批准", "敏感复发ORR约20%"]
+                    "selling_points": [
+                      "标准二线方案，FDA/NMPA均批准",
+                      "敏感复发ORR约20%"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -724,7 +827,10 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["ALTER1202研究中国SCLC三线数据", "NMPA批准SCLC适应症"]
+                    "selling_points": [
+                      "ALTER1202研究中国SCLC三线数据",
+                      "NMPA批准SCLC适应症"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -743,7 +849,7 @@
           "us": {
             "annual_new_cases": 30000,
             "annual_new_cases_note": "~15% of lung cancer, strongly smoking-associated",
-            "tam_usd_bn": 1.2,
+            "tam_usd_bn": 1.0,
             "diagnosis_steps": [
               "Biopsy with neuroendocrine markers (Syn/CgA/CD56)",
               "CT chest/abdomen/pelvis + Brain MRI",
@@ -763,7 +869,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 300000,
                     "market_share": "30%",
-                    "selling_points": ["IMpower133: OS 12.3m", "FDA approved 2019"]
+                    "selling_points": [
+                      "IMpower133: OS 12.3m",
+                      "FDA approved 2019"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -773,7 +882,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 280000,
                     "market_share": "25%",
-                    "selling_points": ["CASPIAN: OS 13.0m", "FDA approved 2020"]
+                    "selling_points": [
+                      "CASPIAN: OS 13.0m",
+                      "FDA approved 2020"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -800,7 +912,12 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 450000,
                     "market_share": "35%",
-                    "selling_points": ["FDA approved May 2024", "DLL3×CD3 BiTE", "ORR 40%, DoR 9.7m", "Accelerated approval → regular approval 2025"]
+                    "selling_points": [
+                      "FDA approved May 2024",
+                      "DLL3×CD3 BiTE",
+                      "ORR 40%, DoR 9.7m",
+                      "Accelerated approval → regular approval 2025"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -810,7 +927,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 50000,
                     "market_share": "30%",
-                    "selling_points": ["Standard 2L, low cost", "Sensitive relapse ORR ~20%"]
+                    "selling_points": [
+                      "Standard 2L, low cost",
+                      "Sensitive relapse ORR ~20%"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -834,7 +954,7 @@
           "china": {
             "annual_new_cases": 300000,
             "annual_new_cases_note": "约占NSCLC的40-50%，以鳞癌为主或腺癌无突变",
-            "tam_rmb_bn": 60,
+            "tam_rmb_bn": 13,
             "diagnosis_steps": [
               "病理确认（腺癌/鳞癌/大细胞癌）",
               "NGS全面检测排除EGFR/ALK/ROS1/KRAS/BRAF/MET/RET/HER2突变",
@@ -856,7 +976,11 @@
                     "annual_cost_rmb": 220000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["KEYNOTE-024：PFS 10.3m vs 6.0m vs化疗", "TPS≥50%首选，OS获益显著", "医保谈判已纳入"]
+                    "selling_points": [
+                      "KEYNOTE-024：PFS 10.3m vs 6.0m vs化疗",
+                      "TPS≥50%首选，OS获益显著",
+                      "医保谈判已纳入"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -866,7 +990,11 @@
                     "annual_cost_rmb": 85000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["RATIONALE-303：OS非劣于多西他赛", "中国本土创新药，医保报销", "NMPA批准PD-L1高表达NSCLC一线"]
+                    "selling_points": [
+                      "RATIONALE-303：OS非劣于多西他赛",
+                      "中国本土创新药，医保报销",
+                      "NMPA批准PD-L1高表达NSCLC一线"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -901,7 +1029,11 @@
                     "annual_cost_rmb": 280000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["KEYNOTE-189：OS 22.0m vs 10.7m", "非鳞NSCLC一线标准方案", "医保报销"]
+                    "selling_points": [
+                      "KEYNOTE-189：OS 22.0m vs 10.7m",
+                      "非鳞NSCLC一线标准方案",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -911,7 +1043,11 @@
                     "annual_cost_rmb": 130000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["CameL/CameL-Sq研究：OS获益", "国产PD-1，医保报销", "鳞癌+非鳞癌双适应症"]
+                    "selling_points": [
+                      "CameL/CameL-Sq研究：OS获益",
+                      "国产PD-1，医保报销",
+                      "鳞癌+非鳞癌双适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -921,7 +1057,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["ORIENT-11研究：PFS 8.9m vs 5.0m", "国产四药方案，价格最低组合", "医保报销"]
+                    "selling_points": [
+                      "ORIENT-11研究：PFS 8.9m vs 5.0m",
+                      "国产四药方案，价格最低组合",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -931,7 +1071,10 @@
                     "annual_cost_rmb": 110000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["RATIONALE-304/307：鳞/非鳞双研究", "医保报销，全球同步开发"]
+                    "selling_points": [
+                      "RATIONALE-304/307：鳞/非鳞双研究",
+                      "医保报销，全球同步开发"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -974,7 +1117,10 @@
                     "annual_cost_rmb": 50000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["REVEL研究：OS 10.5m vs 9.1m", "标准二线方案"]
+                    "selling_points": [
+                      "REVEL研究：OS 10.5m vs 9.1m",
+                      "标准二线方案"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -984,7 +1130,11 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["ALTER0303研究：PFS 5.4m vs 1.4m", "三线及以上NSCLC，医保报销", "多靶点TKI，中国本土数据"]
+                    "selling_points": [
+                      "ALTER0303研究：PFS 5.4m vs 1.4m",
+                      "三线及以上NSCLC，医保报销",
+                      "多靶点TKI，中国本土数据"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -994,7 +1144,7 @@
           "us": {
             "annual_new_cases": 100000,
             "annual_new_cases_note": "~40% of NSCLC has no actionable mutation",
-            "tam_usd_bn": 8.0,
+            "tam_usd_bn": 9.0,
             "diagnosis_steps": [
               "Comprehensive molecular profiling (NGS panel) to exclude all actionable mutations",
               "PD-L1 TPS (22C3 assay)",
@@ -1014,7 +1164,11 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 220000,
                     "market_share": "50%",
-                    "selling_points": ["KEYNOTE-024: PFS 10.3m vs 6.0m", "OS benefit maintained 5yr follow-up", "NCCN Category 1 preferred"]
+                    "selling_points": [
+                      "KEYNOTE-024: PFS 10.3m vs 6.0m",
+                      "OS benefit maintained 5yr follow-up",
+                      "NCCN Category 1 preferred"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1040,7 +1194,11 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 280000,
                     "market_share": "55%",
-                    "selling_points": ["KEYNOTE-189 (non-sq) OS 22m", "KEYNOTE-407 (sq) OS 17.1m", "Category 1 for all PD-L1 levels"]
+                    "selling_points": [
+                      "KEYNOTE-189 (non-sq) OS 22m",
+                      "KEYNOTE-407 (sq) OS 17.1m",
+                      "Category 1 for all PD-L1 levels"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1049,7 +1207,10 @@
                     "manufacturer": "BMS",
                     "annual_cost_usd": 300000,
                     "market_share": "15%",
-                    "selling_points": ["CheckMate-9LA: OS 15.6m vs 10.9m", "2-year landmark OS 38% vs 26%"]
+                    "selling_points": [
+                      "CheckMate-9LA: OS 15.6m vs 10.9m",
+                      "2-year landmark OS 38% vs 26%"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1080,7 +1241,7 @@
           "china": {
             "annual_new_cases": 80000,
             "annual_new_cases_note": "约占乳腺癌20-25%",
-            "tam_rmb_bn": 55,
+            "tam_rmb_bn": 9,
             "diagnosis_steps": [
               "IHC HER2检测（3+阳性 或 2+行FISH）",
               "HR状态（ER/PR）检测",
@@ -1101,7 +1262,10 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "50%",
-                    "selling_points": ["APHINITY研究：双靶+化疗pCR提升", "新辅助标准方案（曲妥珠+帕妥珠+多西他赛）"]
+                    "selling_points": [
+                      "APHINITY研究：双靶+化疗pCR提升",
+                      "新辅助标准方案（曲妥珠+帕妥珠+多西他赛）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1111,7 +1275,10 @@
                     "annual_cost_rmb": 320000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["KATHERINE研究：iDFS HR 0.50", "新辅助后未达pCR患者标准"]
+                    "selling_points": [
+                      "KATHERINE研究：iDFS HR 0.50",
+                      "新辅助后未达pCR患者标准"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1138,7 +1305,10 @@
                     "annual_cost_rmb": 200000,
                     "annual_cost_usd": null,
                     "market_share": "60%",
-                    "selling_points": ["CLEOPATRA研究：OS 57.1m", "一线转移性HER2+金标准"]
+                    "selling_points": [
+                      "CLEOPATRA研究：OS 57.1m",
+                      "一线转移性HER2+金标准"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1156,7 +1326,11 @@
                     "annual_cost_rmb": 480000,
                     "annual_cost_usd": null,
                     "market_share": "50%",
-                    "selling_points": ["DESTINY-Breast03：PFS 28.8m vs 6.8m vs T-DM1", "ADC革命性新药", "旁观者效应，ORR 79%"]
+                    "selling_points": [
+                      "DESTINY-Breast03：PFS 28.8m vs 6.8m vs T-DM1",
+                      "ADC革命性新药",
+                      "旁观者效应，ORR 79%"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1166,7 +1340,10 @@
                     "annual_cost_rmb": 320000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["EMILIA研究：OS 30.9m vs 25.1m", "仍为部分患者二线选择"]
+                    "selling_points": [
+                      "EMILIA研究：OS 30.9m vs 25.1m",
+                      "仍为部分患者二线选择"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1193,7 +1370,10 @@
                     "annual_cost_rmb": 350000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["HER2CLIMB研究：OS 21.9m vs 17.4m", "脑转移人群有效，CNS穿透好"]
+                    "selling_points": [
+                      "HER2CLIMB研究：OS 21.9m vs 17.4m",
+                      "脑转移人群有效，CNS穿透好"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1223,7 +1403,12 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 380000,
                     "market_share": "60%",
-                    "selling_points": ["DESTINY-Breast03: PFS 28.8m vs 6.8m", "ORR 79%", "Game-changing ADC", "HER2-low also approved"]
+                    "selling_points": [
+                      "DESTINY-Breast03: PFS 28.8m vs 6.8m",
+                      "ORR 79%",
+                      "Game-changing ADC",
+                      "HER2-low also approved"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1247,7 +1432,7 @@
           "china": {
             "annual_new_cases": 160000,
             "annual_new_cases_note": "约占乳腺癌65-70%，最常见亚型",
-            "tam_rmb_bn": 80,
+            "tam_rmb_bn": 7,
             "diagnosis_steps": [
               "ER/PR阳性（IHC >1%）、HER2阴性确认",
               "基因检测（21基因/70基因，指导化疗决策）",
@@ -1267,7 +1452,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["PALOMA-2研究：PFS 27.6m", "首个CDK4/6抑制剂，开创联合内分泌新时代", "医保报销"]
+                    "selling_points": [
+                      "PALOMA-2研究：PFS 27.6m",
+                      "首个CDK4/6抑制剂，开创联合内分泌新时代",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1277,7 +1466,11 @@
                     "annual_cost_rmb": 110000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["MONALEESA系列研究：OS显著获益", "绝经前/后均有数据", "NATALEE辅助治疗新适应症"]
+                    "selling_points": [
+                      "MONALEESA系列研究：OS显著获益",
+                      "绝经前/后均有数据",
+                      "NATALEE辅助治疗新适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1287,7 +1480,11 @@
                     "annual_cost_rmb": 130000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["MONARCH系列研究", "唯一获批早期高危乳腺癌辅助治疗的CDK4/6i", "monarchE研究"]
+                    "selling_points": [
+                      "MONARCH系列研究",
+                      "唯一获批早期高危乳腺癌辅助治疗的CDK4/6i",
+                      "monarchE研究"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1314,7 +1511,7 @@
           "us": {
             "annual_new_cases": 170000,
             "annual_new_cases_note": "~65-70% of all breast cancers",
-            "tam_usd_bn": 12.0,
+            "tam_usd_bn": 14.0,
             "diagnosis_steps": [
               "ER/PR positive (IHC >1%), HER2 negative",
               "Genomic profiling (Oncotype DX, MammaPrint)",
@@ -1334,7 +1531,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 220000,
                     "market_share": "35%",
-                    "selling_points": ["MONALEESA-2/3/7: OS benefit", "NCCN Category 1 preferred"]
+                    "selling_points": [
+                      "MONALEESA-2/3/7: OS benefit",
+                      "NCCN Category 1 preferred"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1344,7 +1544,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 230000,
                     "market_share": "35%",
-                    "selling_points": ["monarchE: Early stage adjuvant", "MONARCH-3 1L mBC"]
+                    "selling_points": [
+                      "monarchE: Early stage adjuvant",
+                      "MONARCH-3 1L mBC"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1360,8 +1563,7 @@
               }
             ]
           }
-        }
-        ,
+        },
         {
           "id": "bc_tnbc",
           "name_cn": "乳腺癌 - 三阴性（TNBC）",
@@ -1369,7 +1571,7 @@
           "china": {
             "annual_new_cases": 50000,
             "annual_new_cases_note": "约占乳腺癌15-20%，预后最差，中国发病年龄偏年轻",
-            "tam_rmb_bn": 35,
+            "tam_rmb_bn": 4,
             "diagnosis_steps": [
               "ER/PR阴性（IHC <1%）、HER2阴性（IHC 0/1+或FISH-）确认",
               "BRCA1/2基因检测（胚系及体系突变）",
@@ -1391,7 +1593,11 @@
                     "annual_cost_rmb": 250000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-522：pCR 64.8% vs 51.2%", "EFS获益HR 0.63，OS获益", "NMPA 2023年批准早期高危TNBC"]
+                    "selling_points": [
+                      "KEYNOTE-522：pCR 64.8% vs 51.2%",
+                      "EFS获益HR 0.63，OS获益",
+                      "NMPA 2023年批准早期高危TNBC"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1401,7 +1607,11 @@
                     "annual_cost_rmb": 15000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["CREATE-X研究：DFS HR 0.70", "医保报销，价格极低", "新辅助未达pCR的标准辅助选择"]
+                    "selling_points": [
+                      "CREATE-X研究：DFS HR 0.70",
+                      "医保报销，价格极低",
+                      "新辅助未达pCR的标准辅助选择"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1411,7 +1621,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["OlympiA研究：iDFS HR 0.58", "BRCA突变TNBC/HR+均适用", "NMPA 2023年批准辅助适应症"]
+                    "selling_points": [
+                      "OlympiA研究：iDFS HR 0.58",
+                      "BRCA突变TNBC/HR+均适用",
+                      "NMPA 2023年批准辅助适应症"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1438,7 +1652,11 @@
                     "annual_cost_rmb": 280000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["KEYNOTE-355：CPS≥10人群PFS 9.7m vs 5.6m", "OS 23.0m vs 16.1m", "NMPA批准CPS≥10 mTNBC"]
+                    "selling_points": [
+                      "KEYNOTE-355：CPS≥10人群PFS 9.7m vs 5.6m",
+                      "OS 23.0m vs 16.1m",
+                      "NMPA批准CPS≥10 mTNBC"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1448,7 +1666,10 @@
                     "annual_cost_rmb": 40000,
                     "annual_cost_usd": null,
                     "market_share": "50%",
-                    "selling_points": ["PD-L1阴性标准化疗方案", "医保报销，广泛可及"]
+                    "selling_points": [
+                      "PD-L1阴性标准化疗方案",
+                      "医保报销，广泛可及"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1475,7 +1696,11 @@
                     "annual_cost_rmb": 350000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["ASCENT研究：OS 12.1m vs 6.7m vs化疗", "Trop-2 ADC，革命性二线治疗", "NMPA 2023年批准TNBC适应症"]
+                    "selling_points": [
+                      "ASCENT研究：OS 12.1m vs 6.7m vs化疗",
+                      "Trop-2 ADC，革命性二线治疗",
+                      "NMPA 2023年批准TNBC适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1485,7 +1710,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["OlympiAD研究：PFS 7.0m vs 4.2m", "BRCA突变TNBC口服PARP抑制剂", "医保报销（乳腺癌gBRCA适应症）"]
+                    "selling_points": [
+                      "OlympiAD研究：PFS 7.0m vs 4.2m",
+                      "BRCA突变TNBC口服PARP抑制剂",
+                      "医保报销（乳腺癌gBRCA适应症）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1495,7 +1724,11 @@
                     "annual_cost_rmb": 280000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["EVER-132-001：ORR 46.6%（mTNBC后线）", "中国本土Trop-2 ADC，NMPA 2024年获批", "科伦药业与AstraZeneca合作，全球授权"]
+                    "selling_points": [
+                      "EVER-132-001：ORR 46.6%（mTNBC后线）",
+                      "中国本土Trop-2 ADC，NMPA 2024年获批",
+                      "科伦药业与AstraZeneca合作，全球授权"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1522,7 +1755,7 @@
           "us": {
             "annual_new_cases": 40000,
             "annual_new_cases_note": "~15% of all breast cancers, highest mortality subtype",
-            "tam_usd_bn": 5.5,
+            "tam_usd_bn": 3.5,
             "diagnosis_steps": [
               "ER/PR negative (<1%), HER2 negative",
               "BRCA1/2 germline testing",
@@ -1543,7 +1776,11 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 300000,
                     "market_share": "45%",
-                    "selling_points": ["KEYNOTE-522: pCR 64.8% vs 51.2%", "EFS HR 0.63, OS benefit", "FDA approved 2021 (first IO in early TNBC)"]
+                    "selling_points": [
+                      "KEYNOTE-522: pCR 64.8% vs 51.2%",
+                      "EFS HR 0.63, OS benefit",
+                      "FDA approved 2021 (first IO in early TNBC)"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1552,7 +1789,10 @@
                     "manufacturer": "AstraZeneca / Merck",
                     "annual_cost_usd": 110000,
                     "market_share": "15%",
-                    "selling_points": ["OlympiA: iDFS HR 0.58, OS benefit", "FDA approved adjuvant 2022"]
+                    "selling_points": [
+                      "OlympiA: iDFS HR 0.58, OS benefit",
+                      "FDA approved adjuvant 2022"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1569,7 +1809,11 @@
                     "manufacturer": "Gilead Sciences",
                     "annual_cost_usd": 300000,
                     "market_share": "40%",
-                    "selling_points": ["ASCENT: OS 12.1m vs 6.7m", "FDA approved 2021 mTNBC 2L+", "Trop-2 ADC gold standard"]
+                    "selling_points": [
+                      "ASCENT: OS 12.1m vs 6.7m",
+                      "FDA approved 2021 mTNBC 2L+",
+                      "Trop-2 ADC gold standard"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1578,7 +1822,11 @@
                     "manufacturer": "AZ/Merck / Pfizer",
                     "annual_cost_usd": 110000,
                     "market_share": "20%",
-                    "selling_points": ["OlympiAD/EMBRACA PARP inhibitor", "gBRCA mutated patients", "Oral, well-tolerated"]
+                    "selling_points": [
+                      "OlympiAD/EMBRACA PARP inhibitor",
+                      "gBRCA mutated patients",
+                      "Oral, well-tolerated"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1602,7 +1850,7 @@
           "china": {
             "annual_new_cases": 130000,
             "annual_new_cases_note": "HER2低表达定义：IHC 1+ 或 IHC 2+/FISH-，约占所有乳腺癌55-60%（此前均归入HER2阴性）",
-            "tam_rmb_bn": 40,
+            "tam_rmb_bn": 2,
             "diagnosis_steps": [
               "HER2 IHC重新分级（0 / 1+ / 2+ / 3+）",
               "IHC 2+需行FISH/ISH确认（阴性=HER2低表达）",
@@ -1623,7 +1871,12 @@
                     "annual_cost_rmb": 480000,
                     "annual_cost_usd": null,
                     "market_share": "75%",
-                    "selling_points": ["DESTINY-Breast04：OS 23.4m vs 16.8m（HR+）；OS 18.2m vs 8.3m（HR-）", "首次证明HER2低表达是独立治疗靶点", "NMPA 2024年批准HER2低表达mBC适应症", "彻底重新定义HER2阴性乳腺癌分类"]
+                    "selling_points": [
+                      "DESTINY-Breast04：OS 23.4m vs 16.8m（HR+）；OS 18.2m vs 8.3m（HR-）",
+                      "首次证明HER2低表达是独立治疗靶点",
+                      "NMPA 2024年批准HER2低表达mBC适应症",
+                      "彻底重新定义HER2阴性乳腺癌分类"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1650,7 +1903,7 @@
           "us": {
             "annual_new_cases": 140000,
             "annual_new_cases_note": "~55-60% of all breast cancers; previously classified as HER2-negative",
-            "tam_usd_bn": 6.0,
+            "tam_usd_bn": 4.0,
             "diagnosis_steps": [
               "Re-assess HER2 IHC (grade 0/1+/2+/3+)",
               "HER2-low = IHC 1+ or IHC 2+/ISH-",
@@ -1669,7 +1922,12 @@
                     "manufacturer": "Daiichi Sankyo / AstraZeneca",
                     "annual_cost_usd": 380000,
                     "market_share": "80%",
-                    "selling_points": ["DESTINY-Breast04: OS 23.4m vs 16.8m (HR+)", "DESTINY-Breast06: also benefits HER2-ultralow", "FDA approved 2022 for HER2-low", "Paradigm-shifting: redefined HER2-negative category"]
+                    "selling_points": [
+                      "DESTINY-Breast04: OS 23.4m vs 16.8m (HR+)",
+                      "DESTINY-Breast06: also benefits HER2-ultralow",
+                      "FDA approved 2022 for HER2-low",
+                      "Paradigm-shifting: redefined HER2-negative category"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1700,7 +1958,7 @@
           "china": {
             "annual_new_cases": 180000,
             "annual_new_cases_note": "约占CRC的45-50%",
-            "tam_rmb_bn": 35,
+            "tam_rmb_bn": 11,
             "diagnosis_steps": [
               "肠镜活检（病理确认腺癌）",
               "RAS（KRAS/NRAS）、BRAF V600E基因检测",
@@ -1722,7 +1980,11 @@
                     "annual_cost_rmb": 150000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["左半结肠优先（PARADIGM研究）", "RAS/BRAF野生型一线标准", "医保报销"]
+                    "selling_points": [
+                      "左半结肠优先（PARADIGM研究）",
+                      "RAS/BRAF野生型一线标准",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1732,7 +1994,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["右半结肠优先", "VEGF抑制剂，广泛应用", "生物类似药已上市"]
+                    "selling_points": [
+                      "右半结肠优先",
+                      "VEGF抑制剂，广泛应用",
+                      "生物类似药已上市"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1751,7 +2017,7 @@
           "us": {
             "annual_new_cases": 75000,
             "annual_new_cases_note": "~50% of all CRC",
-            "tam_usd_bn": 5.0,
+            "tam_usd_bn": 4.0,
             "diagnosis_steps": [
               "Colonoscopy biopsy",
               "RAS/BRAF/MSI/HER2 testing",
@@ -1771,7 +2037,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 180000,
                     "market_share": "35%",
-                    "selling_points": ["Left-sided CRC preferred (PARADIGM)", "NCCN Category 1"]
+                    "selling_points": [
+                      "Left-sided CRC preferred (PARADIGM)",
+                      "NCCN Category 1"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1802,7 +2071,7 @@
           "china": {
             "annual_new_cases": 85000,
             "annual_new_cases_note": "HER2+约占胃癌15-20%，总胃癌新发中国约50万",
-            "tam_rmb_bn": 30,
+            "tam_rmb_bn": 4,
             "diagnosis_steps": [
               "胃镜活检（腺癌病理确认）",
               "HER2 IHC/FISH检测",
@@ -1823,7 +2092,11 @@
                     "annual_cost_rmb": 350000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["CheckMate-811 OS获益", "HER2+且PD-L1 CPS≥5人群获益显著", "NMPA批准"]
+                    "selling_points": [
+                      "CheckMate-811 OS获益",
+                      "HER2+且PD-L1 CPS≥5人群获益显著",
+                      "NMPA批准"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1833,7 +2106,10 @@
                     "annual_cost_rmb": 150000,
                     "annual_cost_usd": null,
                     "market_share": "45%",
-                    "selling_points": ["ToGA研究：OS 13.8m vs 11.1m", "经典一线方案，医保报销"]
+                    "selling_points": [
+                      "ToGA研究：OS 13.8m vs 11.1m",
+                      "经典一线方案，医保报销"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -1868,7 +2144,11 @@
                     "annual_cost_rmb": 480000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["DESTINY-Gastric01：OS 12.5m vs 8.4m", "NMPA批准HER2+胃癌二线", "ADC新标准"]
+                    "selling_points": [
+                      "DESTINY-Gastric01：OS 12.5m vs 8.4m",
+                      "NMPA批准HER2+胃癌二线",
+                      "ADC新标准"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1878,7 +2158,7 @@
           "us": {
             "annual_new_cases": 5000,
             "annual_new_cases_note": "HER2+ ~15-20% of gastric/GEJ; total US gastric ~26,000/yr",
-            "tam_usd_bn": 1.5,
+            "tam_usd_bn": 1.2,
             "diagnosis_steps": [
               "Endoscopy biopsy",
               "HER2 IHC/FISH, PD-L1 CPS",
@@ -1898,7 +2178,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 400000,
                     "market_share": "55%",
-                    "selling_points": ["CheckMate-811: OS benefit HER2+ CPS≥5", "FDA approved 2023"]
+                    "selling_points": [
+                      "CheckMate-811: OS benefit HER2+ CPS≥5",
+                      "FDA approved 2023"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1916,7 +2199,10 @@
                     "annual_cost_rmb": null,
                     "annual_cost_usd": 380000,
                     "market_share": "50%",
-                    "selling_points": ["DESTINY-Gastric01/02: OS benefit", "FDA approved 2021 (accelerated), 2023 regular"]
+                    "selling_points": [
+                      "DESTINY-Gastric01/02: OS benefit",
+                      "FDA approved 2021 (accelerated), 2023 regular"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1938,7 +2224,7 @@
           "china": {
             "annual_new_cases": 120000,
             "annual_new_cases_note": "中国宫颈癌发病率全球最高之一，每年新发约12万，死亡约5.7万",
-            "tam_rmb_bn": 25,
+            "tam_rmb_bn": 2,
             "diagnosis_steps": [
               "宫颈活检病理（鳞癌约85%，腺癌约15%）",
               "HPV分型检测（HPV16/18最常见）",
@@ -1965,7 +2251,10 @@
                     "annual_cost_rmb": 20000,
                     "annual_cost_usd": null,
                     "market_share": "70%",
-                    "selling_points": ["局部晚期（IB3-IVA期）标准治疗", "顺铂每周40mg/m²，医保报销"]
+                    "selling_points": [
+                      "局部晚期（IB3-IVA期）标准治疗",
+                      "顺铂每周40mg/m²，医保报销"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -1983,7 +2272,11 @@
                     "annual_cost_rmb": 300000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-826：OS 28.6m vs 16.5m（全人群）", "CPS≥1人群OS 28.6m vs 17.5m", "NMPA 2023年批准宫颈癌一线"]
+                    "selling_points": [
+                      "KEYNOTE-826：OS 28.6m vs 16.5m（全人群）",
+                      "CPS≥1人群OS 28.6m vs 17.5m",
+                      "NMPA 2023年批准宫颈癌一线"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -1993,7 +2286,10 @@
                     "annual_cost_rmb": 50000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["GOG-0240：贝伐珠单抗加入OS 17.0m vs 13.3m", "医保报销，广泛使用"]
+                    "selling_points": [
+                      "GOG-0240：贝伐珠单抗加入OS 17.0m vs 13.3m",
+                      "医保报销，广泛使用"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2020,7 +2316,13 @@
                     "annual_cost_rmb": 130000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["PD-1/CTLA-4双特异性抗体（全球首款）", "COMPASSION-16研究：ORR 33.3%（2L+宫颈癌）", "2022年NMPA全球首批（宫颈癌2L+适应症）", "比单纯PD-1具有更强CTLA-4协同效应", "康方生物自主研发，国际授权Summit Therapeutics"]
+                    "selling_points": [
+                      "PD-1/CTLA-4双特异性抗体（全球首款）",
+                      "COMPASSION-16研究：ORR 33.3%（2L+宫颈癌）",
+                      "2022年NMPA全球首批（宫颈癌2L+适应症）",
+                      "比单纯PD-1具有更强CTLA-4协同效应",
+                      "康方生物自主研发，国际授权Summit Therapeutics"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2030,7 +2332,10 @@
                     "annual_cost_rmb": 220000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["KEYNOTE-158：CPS≥1 ORR 14.6%", "FDA/NMPA批准宫颈癌二线"]
+                    "selling_points": [
+                      "KEYNOTE-158：CPS≥1 ORR 14.6%",
+                      "FDA/NMPA批准宫颈癌二线"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2057,7 +2362,7 @@
           "us": {
             "annual_new_cases": 13800,
             "annual_new_cases_note": "US incidence declining due to HPV vaccination, ~13,800 new cases/yr",
-            "tam_usd_bn": 1.8,
+            "tam_usd_bn": 1.0,
             "diagnosis_steps": [
               "Cervical biopsy (squamous ~85%, adenocarcinoma ~15%)",
               "HPV genotyping (16/18 most common)",
@@ -2077,7 +2382,11 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 350000,
                     "market_share": "55%",
-                    "selling_points": ["KEYNOTE-826: OS 28.6m vs 16.5m", "FDA approved 2021 (CPS≥1)", "Category 1 NCCN for PD-L1+ cervical cancer"]
+                    "selling_points": [
+                      "KEYNOTE-826: OS 28.6m vs 16.5m",
+                      "FDA approved 2021 (CPS≥1)",
+                      "Category 1 NCCN for PD-L1+ cervical cancer"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2103,7 +2412,11 @@
                     "manufacturer": "Pfizer (Seagen acquisition)",
                     "annual_cost_usd": 200000,
                     "market_share": "45%",
-                    "selling_points": ["innovaTV 301: OS 11.5m vs 9.5m vs chemo", "FDA regular approval 2023", "Tissue factor ADC"]
+                    "selling_points": [
+                      "innovaTV 301: OS 11.5m vs 9.5m vs chemo",
+                      "FDA regular approval 2023",
+                      "Tissue factor ADC"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2112,7 +2425,10 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 220000,
                     "market_share": "30%",
-                    "selling_points": ["KEYNOTE-158: ORR 14.6% CPS≥1", "FDA approved 2018 (accelerated)"]
+                    "selling_points": [
+                      "KEYNOTE-158: ORR 14.6% CPS≥1",
+                      "FDA approved 2018 (accelerated)"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2143,7 +2459,7 @@
           "china": {
             "annual_new_cases": 115000,
             "annual_new_cases_note": "中国前列腺癌发病率快速上升，每年新发约11.5万，mCRPC约占30%",
-            "tam_rmb_bn": 30,
+            "tam_rmb_bn": 4,
             "diagnosis_steps": [
               "PSA检测 + 直肠指检（DRE）",
               "前列腺穿刺活检（TRUS引导）",
@@ -2167,7 +2483,12 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["PREVAIL研究：rPFS和OS均获益", "新一代雄激素受体抑制剂（ARi）", "医保谈判纳入（2022年）", "口服，依从性好"]
+                    "selling_points": [
+                      "PREVAIL研究：rPFS和OS均获益",
+                      "新一代雄激素受体抑制剂（ARi）",
+                      "医保谈判纳入（2022年）",
+                      "口服，依从性好"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2177,7 +2498,11 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["COU-AA-301/302研究：OS获益", "CYP17A1抑制剂，阻断雄激素合成", "医保报销，仿制药广泛可及"]
+                    "selling_points": [
+                      "COU-AA-301/302研究：OS获益",
+                      "CYP17A1抑制剂，阻断雄激素合成",
+                      "医保报销，仿制药广泛可及"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2187,7 +2512,11 @@
                     "annual_cost_rmb": 30000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["TAX327研究：经典化疗方案", "医保报销，价格低廉", "高负荷患者仍广泛使用"]
+                    "selling_points": [
+                      "TAX327研究：经典化疗方案",
+                      "医保报销，价格低廉",
+                      "高负荷患者仍广泛使用"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2214,7 +2543,11 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["PROfound研究：rPFS 7.4m vs 3.5m（BRCA1/2）", "NMPA批准HRR突变mCRPC适应症", "生物标志物精准用药"]
+                    "selling_points": [
+                      "PROfound研究：rPFS 7.4m vs 3.5m（BRCA1/2）",
+                      "NMPA批准HRR突变mCRPC适应症",
+                      "生物标志物精准用药"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2224,7 +2557,10 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["TROPIC研究：多西他赛耐药后OS获益", "三线化疗方案，CARD研究优于阿比特龙/恩扎鲁胺（ARi耐药后）"]
+                    "selling_points": [
+                      "TROPIC研究：多西他赛耐药后OS获益",
+                      "三线化疗方案，CARD研究优于阿比特龙/恩扎鲁胺（ARi耐药后）"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2259,7 +2595,7 @@
           "us": {
             "annual_new_cases": 35000,
             "annual_new_cases_note": "US mCRPC ~35,000 new patients/yr; PCa is most common male cancer",
-            "tam_usd_bn": 12.0,
+            "tam_usd_bn": 10.0,
             "diagnosis_steps": [
               "PSA + DRE screening",
               "Biopsy (TRUS or MRI-guided)",
@@ -2281,7 +2617,11 @@
                     "manufacturer": "Astellas / Pfizer",
                     "annual_cost_usd": 180000,
                     "market_share": "35%",
-                    "selling_points": ["PREVAIL: rPFS + OS benefit", "ARCHES/ENZAMET: nmCRPC + mHSPC approved", "Most prescribed ARi globally"]
+                    "selling_points": [
+                      "PREVAIL: rPFS + OS benefit",
+                      "ARCHES/ENZAMET: nmCRPC + mHSPC approved",
+                      "Most prescribed ARi globally"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2290,7 +2630,10 @@
                     "manufacturer": "Janssen / generics",
                     "annual_cost_usd": 15000,
                     "market_share": "30%",
-                    "selling_points": ["Generic available, cost dropped 90%", "COU-AA-302 chemotherapy-naive"]
+                    "selling_points": [
+                      "Generic available, cost dropped 90%",
+                      "COU-AA-302 chemotherapy-naive"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2299,7 +2642,11 @@
                     "manufacturer": "Novartis",
                     "annual_cost_usd": 200000,
                     "market_share": "15%",
-                    "selling_points": ["VISION: rPFS 8.7m vs 3.4m, OS 15.3m", "FDA approved 2022, PSMA+ mCRPC post-ARi+taxane", "Theranostics paradigm"]
+                    "selling_points": [
+                      "VISION: rPFS 8.7m vs 3.4m, OS 15.3m",
+                      "FDA approved 2022, PSMA+ mCRPC post-ARi+taxane",
+                      "Theranostics paradigm"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2338,7 +2685,7 @@
           "china": {
             "annual_new_cases": 370000,
             "annual_new_cases_note": "中国是全球HCC最高发国家，约占全球55%，每年新发约37万",
-            "tam_rmb_bn": 50,
+            "tam_rmb_bn": 7,
             "diagnosis_steps": [
               "AFP + PIVKA-II（异常凝血酶原）检测",
               "增强CT或MRI（动脉期强化+门脉期廓清=典型HCC，可临床诊断）",
@@ -2361,7 +2708,11 @@
                     "annual_cost_rmb": 280000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["IMbrave150：OS 19.2m vs 13.4m vs索拉非尼", "首个优于索拉非尼的一线方案", "NMPA 2020年批准，医保谈判覆盖"]
+                    "selling_points": [
+                      "IMbrave150：OS 19.2m vs 13.4m vs索拉非尼",
+                      "首个优于索拉非尼的一线方案",
+                      "NMPA 2020年批准，医保谈判覆盖"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2371,7 +2722,12 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["CARES-310：OS 22.1m vs 15.2m vs索拉非尼", "全球首个头对头优于索拉非尼的PD-1+抗血管双药", "恒瑞国产组合，性价比高，医保报销", "FDA 2023年批准（中国药出海）"]
+                    "selling_points": [
+                      "CARES-310：OS 22.1m vs 15.2m vs索拉非尼",
+                      "全球首个头对头优于索拉非尼的PD-1+抗血管双药",
+                      "恒瑞国产组合，性价比高，医保报销",
+                      "FDA 2023年批准（中国药出海）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2381,7 +2737,11 @@
                     "annual_cost_rmb": 150000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["ORIENT-32：OS 未达到 vs 10.4m（索拉非尼）", "完全国产组合，价格优势显著", "NMPA批准，医保报销"]
+                    "selling_points": [
+                      "ORIENT-32：OS 未达到 vs 10.4m（索拉非尼）",
+                      "完全国产组合，价格优势显著",
+                      "NMPA批准，医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2391,7 +2751,11 @@
                     "annual_cost_rmb": 100000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["REFLECT研究：非劣于索拉非尼（OS 13.6m vs 12.3m）", "ORR 24.1% vs 9.2%，PFS更优", "医保报销，适合不能用贝伐珠单抗的患者（静脉曲张）"]
+                    "selling_points": [
+                      "REFLECT研究：非劣于索拉非尼（OS 13.6m vs 12.3m）",
+                      "ORR 24.1% vs 9.2%，PFS更优",
+                      "医保报销，适合不能用贝伐珠单抗的患者（静脉曲张）"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2426,7 +2790,10 @@
                     "annual_cost_rmb": 100000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["RESORCE研究：OS 10.6m vs 7.8m（索拉非尼耐药后）", "NMPA批准二线HCC，医保报销"]
+                    "selling_points": [
+                      "RESORCE研究：OS 10.6m vs 7.8m（索拉非尼耐药后）",
+                      "NMPA批准二线HCC，医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2436,7 +2803,10 @@
                     "annual_cost_rmb": 120000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["REACH-2：AFP≥400 ng/mL人群OS 8.5m vs 7.3m", "唯一基于生物标志物的HCC二线方案"]
+                    "selling_points": [
+                      "REACH-2：AFP≥400 ng/mL人群OS 8.5m vs 7.3m",
+                      "唯一基于生物标志物的HCC二线方案"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2455,7 +2825,7 @@
           "us": {
             "annual_new_cases": 41000,
             "annual_new_cases_note": "US HCC ~41,000 new cases/yr, NASH-related HCC rising",
-            "tam_usd_bn": 4.5,
+            "tam_usd_bn": 2.5,
             "diagnosis_steps": [
               "AFP + contrast-enhanced CT/MRI",
               "Liver function (Child-Pugh/MELD score)",
@@ -2475,7 +2845,11 @@
                     "manufacturer": "Roche/Genentech",
                     "annual_cost_usd": 250000,
                     "market_share": "40%",
-                    "selling_points": ["IMbrave150: OS 19.2m vs 13.4m vs sorafenib", "FDA approved 2020", "NCCN Category 1 preferred"]
+                    "selling_points": [
+                      "IMbrave150: OS 19.2m vs 13.4m vs sorafenib",
+                      "FDA approved 2020",
+                      "NCCN Category 1 preferred"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2484,7 +2858,11 @@
                     "manufacturer": "AstraZeneca",
                     "annual_cost_usd": 220000,
                     "market_share": "20%",
-                    "selling_points": ["HIMALAYA: OS 16.4m vs 13.8m vs sorafenib", "FDA approved 2022", "Single-dose tremelimumab + durvalumab maintenance"]
+                    "selling_points": [
+                      "HIMALAYA: OS 16.4m vs 13.8m vs sorafenib",
+                      "FDA approved 2022",
+                      "Single-dose tremelimumab + durvalumab maintenance"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2515,7 +2893,7 @@
           "china": {
             "annual_new_cases": 90000,
             "annual_new_cases_note": "中国膀胱癌每年新发约9万，转移性约占15%，中国发病以鳞癌比例较高",
-            "tam_rmb_bn": 20,
+            "tam_rmb_bn": 1.5,
             "diagnosis_steps": [
               "膀胱镜 + TURBT（经尿道膀胱肿瘤电切）",
               "病理确认（移行上皮癌/尿路上皮癌）",
@@ -2537,7 +2915,11 @@
                     "annual_cost_rmb": 25000,
                     "annual_cost_usd": null,
                     "market_share": "50%",
-                    "selling_points": ["经典一线含铂化疗方案", "顺铂适用患者（eGFR≥60，PS 0-1）", "医保报销，ORR约50%"]
+                    "selling_points": [
+                      "经典一线含铂化疗方案",
+                      "顺铂适用患者（eGFR≥60，PS 0-1）",
+                      "医保报销，ORR约50%"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2547,7 +2929,10 @@
                     "annual_cost_rmb": 400000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["EV-302：OS未达到 vs 16.1m（含铂化疗），PFS 12.5m vs 6.3m", "NMPA申报中，改变一线治疗格局"]
+                    "selling_points": [
+                      "EV-302：OS未达到 vs 16.1m（含铂化疗），PFS 12.5m vs 6.3m",
+                      "NMPA申报中，改变一线治疗格局"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2574,7 +2959,11 @@
                     "annual_cost_rmb": 220000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-045：OS 10.3m vs 7.4m vs化疗", "NMPA 2020年批准铂类化疗后mUC", "医保报销"]
+                    "selling_points": [
+                      "KEYNOTE-045：OS 10.3m vs 7.4m vs化疗",
+                      "NMPA 2020年批准铂类化疗后mUC",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2584,7 +2973,11 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["THOR研究：OS 12.1m vs 7.8m vs免疫/化疗", "首个获批FGFR靶向药物", "FGFR2/3突变人群（约20%mUC）精准治疗"]
+                    "selling_points": [
+                      "THOR研究：OS 12.1m vs 7.8m vs免疫/化疗",
+                      "首个获批FGFR靶向药物",
+                      "FGFR2/3突变人群（约20%mUC）精准治疗"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2603,7 +2996,7 @@
           "us": {
             "annual_new_cases": 83000,
             "annual_new_cases_note": "US bladder cancer ~83,000/yr, mUC ~15,000/yr",
-            "tam_usd_bn": 4.0,
+            "tam_usd_bn": 2.5,
             "diagnosis_steps": [
               "Cystoscopy + TURBT",
               "Urothelial carcinoma pathology",
@@ -2624,7 +3017,11 @@
                     "manufacturer": "Pfizer / Merck",
                     "annual_cost_usd": 380000,
                     "market_share": "50%",
-                    "selling_points": ["EV-302: OS not reached vs 16.1m (chemo)", "FDA regular approval 2024", "New 1L standard of care, all comers"]
+                    "selling_points": [
+                      "EV-302: OS not reached vs 16.1m (chemo)",
+                      "FDA regular approval 2024",
+                      "New 1L standard of care, all comers"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2633,7 +3030,10 @@
                     "manufacturer": "Generic",
                     "annual_cost_usd": 20000,
                     "market_share": "30%",
-                    "selling_points": ["Still used for cisplatin-eligible patients preferring chemotherapy", "Cost-effective alternative"]
+                    "selling_points": [
+                      "Still used for cisplatin-eligible patients preferring chemotherapy",
+                      "Cost-effective alternative"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2664,7 +3064,7 @@
           "china": {
             "annual_new_cases": 320000,
             "annual_new_cases_note": "中国食管癌发病率全球最高，约占全球53%，鳞癌（ESCC）占90%以上",
-            "tam_rmb_bn": 35,
+            "tam_rmb_bn": 4,
             "diagnosis_steps": [
               "胃镜 + 活检病理（鳞癌vs腺癌区分）",
               "PD-L1 CPS检测（22C3抗体）",
@@ -2691,7 +3091,11 @@
                     "annual_cost_rmb": 200000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["CheckMate-577：DFS 22.4m vs 11.0m（新辅助CRT后非pCR）", "NMPA批准食管/GEJ癌辅助治疗", "首个食管癌获批IO辅助方案"]
+                    "selling_points": [
+                      "CheckMate-577：DFS 22.4m vs 11.0m（新辅助CRT后非pCR）",
+                      "NMPA批准食管/GEJ癌辅助治疗",
+                      "首个食管癌获批IO辅助方案"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -2709,7 +3113,10 @@
                     "annual_cost_rmb": 250000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["CheckMate-648（ESCC）：OS 13.2m vs 10.7m（全人群）；CPS≥5 OS 15.4m vs 9.1m", "NMPA 2022年批准晚期ESCC一线"]
+                    "selling_points": [
+                      "CheckMate-648（ESCC）：OS 13.2m vs 10.7m（全人群）；CPS≥5 OS 15.4m vs 9.1m",
+                      "NMPA 2022年批准晚期ESCC一线"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2719,7 +3126,10 @@
                     "annual_cost_rmb": 270000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["KEYNOTE-590（ESCC）：OS 12.6m vs 9.8m（全人群）；CPS≥10 OS 13.9m vs 8.8m", "NMPA 2021年批准，医保谈判覆盖"]
+                    "selling_points": [
+                      "KEYNOTE-590（ESCC）：OS 12.6m vs 9.8m（全人群）；CPS≥10 OS 13.9m vs 8.8m",
+                      "NMPA 2021年批准，医保谈判覆盖"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2729,7 +3139,10 @@
                     "annual_cost_rmb": 150000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["ESCORT-1st：OS 15.3m vs 12.0m（ESCC一线）", "国产PD-1，医保报销，价格优势明显"]
+                    "selling_points": [
+                      "ESCORT-1st：OS 15.3m vs 12.0m（ESCC一线）",
+                      "国产PD-1，医保报销，价格优势明显"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2739,7 +3152,11 @@
                     "annual_cost_rmb": 130000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["RATIONALE-306：OS 17.2m vs 10.6m（ESCC）", "全人群获益，无需PD-L1筛选", "FDA 2023年批准食管癌（中国药出海）"]
+                    "selling_points": [
+                      "RATIONALE-306：OS 17.2m vs 10.6m（ESCC）",
+                      "全人群获益，无需PD-L1筛选",
+                      "FDA 2023年批准食管癌（中国药出海）"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2774,7 +3191,10 @@
                     "annual_cost_rmb": 220000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["KEYNOTE-181：CPS≥10 OS 10.3m vs 6.7m", "NMPA批准二线ESCC（CPS≥10）"]
+                    "selling_points": [
+                      "KEYNOTE-181：CPS≥10 OS 10.3m vs 6.7m",
+                      "NMPA批准二线ESCC（CPS≥10）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2784,7 +3204,10 @@
                     "annual_cost_rmb": 20000,
                     "annual_cost_usd": null,
                     "market_share": "40%",
-                    "selling_points": ["标准二线化疗，医保报销", "铂类一线进展后"]
+                    "selling_points": [
+                      "标准二线化疗，医保报销",
+                      "铂类一线进展后"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -2794,7 +3217,7 @@
           "us": {
             "annual_new_cases": 22000,
             "annual_new_cases_note": "US esophageal cancer ~22,000/yr; predominantly adenocarcinoma (EAC) in the West",
-            "tam_usd_bn": 2.5,
+            "tam_usd_bn": 1.2,
             "diagnosis_steps": [
               "Endoscopy + biopsy",
               "PD-L1 CPS (22C3)",
@@ -2814,7 +3237,10 @@
                     "manufacturer": "BMS",
                     "annual_cost_usd": 300000,
                     "market_share": "40%",
-                    "selling_points": ["CheckMate-648: OS 13.2m all comers; CPS≥5 OS 15.4m", "FDA approved 2021 (ESCC + EAC/GEJ)"]
+                    "selling_points": [
+                      "CheckMate-648: OS 13.2m all comers; CPS≥5 OS 15.4m",
+                      "FDA approved 2021 (ESCC + EAC/GEJ)"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2823,7 +3249,10 @@
                     "manufacturer": "Merck",
                     "annual_cost_usd": 280000,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-590: OS 12.4m vs 9.8m (all comers)", "FDA approved 2021 (ESCC + EAC)"]
+                    "selling_points": [
+                      "KEYNOTE-590: OS 12.4m vs 9.8m (all comers)",
+                      "FDA approved 2021 (ESCC + EAC)"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2854,7 +3283,7 @@
           "china": {
             "annual_new_cases": 220000,
             "annual_new_cases_note": "中国甲状腺癌发病率快速上升，为女性最常见癌症之一，但RAI-R DTC仅约5%",
-            "tam_rmb_bn": 12,
+            "tam_rmb_bn": 1.1,
             "diagnosis_steps": [
               "甲状腺超声 + 细针穿刺（FNA）",
               "甲状腺功能（TSH/T3/T4/Tg）",
@@ -2876,7 +3305,11 @@
                     "annual_cost_rmb": 100000,
                     "annual_cost_usd": null,
                     "market_share": "55%",
-                    "selling_points": ["SELECT研究：PFS 18.3m vs 3.6m（安慰剂）", "多靶点TKI（VEGFR/FGFR/RET/KIT）", "NMPA批准RAI-R DTC，医保报销"]
+                    "selling_points": [
+                      "SELECT研究：PFS 18.3m vs 3.6m（安慰剂）",
+                      "多靶点TKI（VEGFR/FGFR/RET/KIT）",
+                      "NMPA批准RAI-R DTC，医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2886,7 +3319,11 @@
                     "annual_cost_rmb": 80000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["DECISION研究：PFS 10.8m vs 5.8m", "首个获批RAI-R DTC的TKI", "医保报销，仿制药可及"]
+                    "selling_points": [
+                      "DECISION研究：PFS 10.8m vs 5.8m",
+                      "首个获批RAI-R DTC的TKI",
+                      "医保报销，仿制药可及"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2913,7 +3350,7 @@
           "us": {
             "annual_new_cases": 8000,
             "annual_new_cases_note": "US RAI-R DTC ~8,000/yr; total thyroid cancer ~44,000/yr",
-            "tam_usd_bn": 1.5,
+            "tam_usd_bn": 0.6,
             "diagnosis_steps": [
               "Ultrasound + FNA biopsy",
               "RAI scan (diagnostic + therapeutic)",
@@ -2933,7 +3370,10 @@
                     "manufacturer": "Eisai / Merck",
                     "annual_cost_usd": 180000,
                     "market_share": "60%",
-                    "selling_points": ["SELECT: PFS 18.3m vs 3.6m", "FDA approved 2015, NCCN Category 1"]
+                    "selling_points": [
+                      "SELECT: PFS 18.3m vs 3.6m",
+                      "FDA approved 2015, NCCN Category 1"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -2957,7 +3397,7 @@
           "china": {
             "annual_new_cases": 5000,
             "annual_new_cases_note": "MTC仅占甲状腺癌3-5%，但恶性度高，RET突变约95%",
-            "tam_rmb_bn": 3,
+            "tam_rmb_bn": 0.3,
             "diagnosis_steps": [
               "降钙素 + CEA检测",
               "RET基因检测（胚系 + 体细胞突变）",
@@ -2977,7 +3417,11 @@
                     "annual_cost_rmb": 180000,
                     "annual_cost_usd": null,
                     "market_share": "45%",
-                    "selling_points": ["LIBRETTO-001：ORR 69%（RET突变MTC）", "CNS活性，颅内转移有效", "NMPA批准RET突变MTC"]
+                    "selling_points": [
+                      "LIBRETTO-001：ORR 69%（RET突变MTC）",
+                      "CNS活性，颅内转移有效",
+                      "NMPA批准RET突变MTC"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -2987,7 +3431,11 @@
                     "annual_cost_rmb": 150000,
                     "annual_cost_usd": null,
                     "market_share": "30%",
-                    "selling_points": ["EXAM研究：PFS 11.2m vs 4.0m", "MET/VEGFR/RET多靶点TKI", "仿制药进入后价格下降"]
+                    "selling_points": [
+                      "EXAM研究：PFS 11.2m vs 4.0m",
+                      "MET/VEGFR/RET多靶点TKI",
+                      "仿制药进入后价格下降"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -2997,8 +3445,12 @@
           "us": {
             "annual_new_cases": 1000,
             "annual_new_cases_note": "US MTC ~1,000 new cases/yr",
-            "tam_usd_bn": 0.5,
-            "diagnosis_steps": ["Calcitonin + CEA", "RET germline + somatic testing", "RAS testing (RET-wild type)"],
+            "tam_usd_bn": 0.3,
+            "diagnosis_steps": [
+              "Calcitonin + CEA",
+              "RET germline + somatic testing",
+              "RAS testing (RET-wild type)"
+            ],
             "treatment_lines": [
               {
                 "line": 1,
@@ -3012,7 +3464,10 @@
                     "manufacturer": "Eli Lilly",
                     "annual_cost_usd": 320000,
                     "market_share": "50%",
-                    "selling_points": ["LIBRETTO-001: ORR 69% (RET-mut MTC)", "FDA approved 2020, Category 1 NCCN"]
+                    "selling_points": [
+                      "LIBRETTO-001: ORR 69% (RET-mut MTC)",
+                      "FDA approved 2020, Category 1 NCCN"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -3034,7 +3489,7 @@
           "china": {
             "annual_new_cases": 80000,
             "annual_new_cases_note": "中国子宫内膜癌发病率快速上升（城市化+肥胖），每年新发约8万，dMMR/MSI-H约30%",
-            "tam_rmb_bn": 15,
+            "tam_rmb_bn": 1.4,
             "diagnosis_steps": [
               "子宫内膜活检/宫腔镜活检（病理确认）",
               "MMR蛋白IHC（MLH1/MSH2/MSH6/PMS2）",
@@ -3058,7 +3513,11 @@
                     "annual_cost_rmb": 350000,
                     "annual_cost_usd": null,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-775：OS 18.3m vs 11.4m（pMMR）", "pMMR人群独立获益，改变治疗格局", "NMPA 2022年批准复发子宫内膜癌"]
+                    "selling_points": [
+                      "KEYNOTE-775：OS 18.3m vs 11.4m（pMMR）",
+                      "pMMR人群独立获益，改变治疗格局",
+                      "NMPA 2022年批准复发子宫内膜癌"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -3068,7 +3527,11 @@
                     "annual_cost_rmb": 280000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["NRG-GY018：PFS HR 0.30（dMMR）", "dMMR一线化疗+IO标准方案", "NMPA申报中"]
+                    "selling_points": [
+                      "NRG-GY018：PFS HR 0.30（dMMR）",
+                      "dMMR一线化疗+IO标准方案",
+                      "NMPA申报中"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -3078,7 +3541,11 @@
                     "annual_cost_rmb": 320000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["RUBY研究：dMMR PFS HR 0.28，OS HR 0.32", "FDA 2023年批准一线+维持治疗", "中国NDA申报中"]
+                    "selling_points": [
+                      "RUBY研究：dMMR PFS HR 0.28，OS HR 0.32",
+                      "FDA 2023年批准一线+维持治疗",
+                      "中国NDA申报中"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -3097,7 +3564,7 @@
           "us": {
             "annual_new_cases": 67000,
             "annual_new_cases_note": "US endometrial cancer ~67,000/yr, most common gynecological cancer",
-            "tam_usd_bn": 3.5,
+            "tam_usd_bn": 2.0,
             "diagnosis_steps": [
               "Endometrial biopsy or D&C",
               "MMR IHC (MLH1/MSH2/MSH6/PMS2)",
@@ -3118,7 +3585,11 @@
                     "manufacturer": "GSK",
                     "annual_cost_usd": 280000,
                     "market_share": "30%",
-                    "selling_points": ["RUBY: dMMR PFS HR 0.28, OS HR 0.32", "FDA approved 2023 (all comers 1L)", "Both dMMR and pMMR subgroups studied"]
+                    "selling_points": [
+                      "RUBY: dMMR PFS HR 0.28, OS HR 0.32",
+                      "FDA approved 2023 (all comers 1L)",
+                      "Both dMMR and pMMR subgroups studied"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -3127,7 +3598,11 @@
                     "manufacturer": "Merck / Eisai",
                     "annual_cost_usd": 320000,
                     "market_share": "35%",
-                    "selling_points": ["KEYNOTE-775: OS 18.3m vs 11.4m (pMMR)", "FDA approved 2021", "Agnostic to MMR status"]
+                    "selling_points": [
+                      "KEYNOTE-775: OS 18.3m vs 11.4m (pMMR)",
+                      "FDA approved 2021",
+                      "Agnostic to MMR status"
+                    ]
                   }
                 ],
                 "pipeline": [

@@ -17,7 +17,7 @@
           "china": {
             "annual_new_cases": 500000,
             "annual_new_cases_note": "中国患病人数约500万，每年新发约50万",
-            "tam_rmb_bn": 45,
+            "tam_rmb_bn": 18,
             "diagnosis_steps": [
               "2010年ACR/EULAR分类标准（关节数、血清学、急性期反应物、病程）",
               "RF + Anti-CCP抗体检测",
@@ -38,7 +38,11 @@
                     "manufacturer": "通用仿制药",
                     "annual_cost_rmb": 3000,
                     "market_share": "70%",
-                    "selling_points": ["RA一线锚药，全球指南一致推荐", "价格极低，医保报销", "长期安全性数据充足"]
+                    "selling_points": [
+                      "RA一线锚药，全球指南一致推荐",
+                      "价格极低，医保报销",
+                      "长期安全性数据充足"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -55,7 +59,11 @@
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 80000,
                     "market_share": "25%",
-                    "selling_points": ["全球销售额最高药物（峰值）", "TNF抑制剂金标准", "国产生物类似药已上市（约2-3万/年）"]
+                    "selling_points": [
+                      "全球销售额最高药物（峰值）",
+                      "TNF抑制剂金标准",
+                      "国产生物类似药已上市（约2-3万/年）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -64,7 +72,11 @@
                     "manufacturer": "辉瑞/安进 Pfizer/Amgen",
                     "annual_cost_rmb": 60000,
                     "market_share": "20%",
-                    "selling_points": ["TNF受体融合蛋白", "感染风险相对低", "国产类似药益赛普广泛使用"]
+                    "selling_points": [
+                      "TNF受体融合蛋白",
+                      "感染风险相对低",
+                      "国产类似药益赛普广泛使用"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -73,7 +85,11 @@
                     "manufacturer": "辉瑞 Pfizer",
                     "annual_cost_rmb": 55000,
                     "market_share": "20%",
-                    "selling_points": ["首个口服JAK抑制剂（JAK1/3）", "医保报销，价格亲民", "无需注射，便利性高"]
+                    "selling_points": [
+                      "首个口服JAK抑制剂（JAK1/3）",
+                      "医保报销，价格亲民",
+                      "无需注射，便利性高"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -82,7 +98,11 @@
                     "manufacturer": "礼来 Eli Lilly",
                     "annual_cost_rmb": 65000,
                     "market_share": "15%",
-                    "selling_points": ["JAK1/2选择性抑制剂", "ORAL Standard研究优于阿达木单抗（疗效）", "每日一片，口服方便"]
+                    "selling_points": [
+                      "JAK1/2选择性抑制剂",
+                      "ORAL Standard研究优于阿达木单抗（疗效）",
+                      "每日一片，口服方便"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -108,7 +128,11 @@
                     "manufacturer": "百时美施贵宝 BMS",
                     "annual_cost_rmb": 120000,
                     "market_share": "15%",
-                    "selling_points": ["T细胞共刺激调节剂（CTLA4-Ig）", "感染风险最低", "血清学阳性(anti-CCP+)患者效果好"]
+                    "selling_points": [
+                      "T细胞共刺激调节剂（CTLA4-Ig）",
+                      "感染风险最低",
+                      "血清学阳性(anti-CCP+)患者效果好"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -117,7 +141,11 @@
                     "manufacturer": "罗氏 Roche",
                     "annual_cost_rmb": 110000,
                     "market_share": "20%",
-                    "selling_points": ["IL-6受体抑制剂", "可单药使用（不需联合MTX）", "快速降低CRP/ESR"]
+                    "selling_points": [
+                      "IL-6受体抑制剂",
+                      "可单药使用（不需联合MTX）",
+                      "快速降低CRP/ESR"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -126,7 +154,11 @@
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 72000,
                     "market_share": "25%",
-                    "selling_points": ["SELECT-COMPARE：ACR50/70优于阿达木单抗", "选择性JAK1，安全性更优", "多适应症（RA/PsA/AS/AD/UC/CD）"]
+                    "selling_points": [
+                      "SELECT-COMPARE：ACR50/70优于阿达木单抗",
+                      "选择性JAK1，安全性更优",
+                      "多适应症（RA/PsA/AS/AD/UC/CD）"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -173,7 +205,10 @@
                     "manufacturer": "Generic",
                     "annual_cost_usd": 1500,
                     "market_share": "65%",
-                    "selling_points": ["Anchor DMARD, all guidelines Category 1", "Low cost, long safety record"]
+                    "selling_points": [
+                      "Anchor DMARD, all guidelines Category 1",
+                      "Low cost, long safety record"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -190,7 +225,11 @@
                     "manufacturer": "AbbVie",
                     "annual_cost_usd": 60000,
                     "market_share": "22%",
-                    "selling_points": ["SELECT-COMPARE: superior to adalimumab", "JAK1-selective, strong efficacy", "NCCN/ACR preferred"]
+                    "selling_points": [
+                      "SELECT-COMPARE: superior to adalimumab",
+                      "JAK1-selective, strong efficacy",
+                      "NCCN/ACR preferred"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -199,7 +238,10 @@
                     "manufacturer": "AbbVie + multiple biosimilar makers",
                     "annual_cost_usd": 25000,
                     "market_share": "28%",
-                    "selling_points": ["Multiple biosimilars driving price down >70%", "Extensive real-world data"]
+                    "selling_points": [
+                      "Multiple biosimilars driving price down >70%",
+                      "Extensive real-world data"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -208,7 +250,10 @@
                     "manufacturer": "Bristol Myers Squibb",
                     "annual_cost_usd": 35000,
                     "market_share": "12%",
-                    "selling_points": ["Lowest infection risk in class", "Anti-CCP+ patients respond best"]
+                    "selling_points": [
+                      "Lowest infection risk in class",
+                      "Anti-CCP+ patients respond best"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -239,7 +284,7 @@
           "china": {
             "annual_new_cases": 2000000,
             "annual_new_cases_note": "中国患病率约7-8%，中重度约占25%，每年新增约200万",
-            "tam_rmb_bn": 30,
+            "tam_rmb_bn": 3.5,
             "diagnosis_steps": [
               "临床诊断（EASI/IGA/NRS评分）",
               "过敏原检测（IgE面板）",
@@ -259,7 +304,10 @@
                     "manufacturer": "通用",
                     "annual_cost_rmb": 2000,
                     "market_share": "60%",
-                    "selling_points": ["一线外用治疗", "广泛可及，医保报销"]
+                    "selling_points": [
+                      "一线外用治疗",
+                      "广泛可及，医保报销"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -276,7 +324,11 @@
                     "manufacturer": "赛诺菲/再生元 Sanofi/Regeneron",
                     "annual_cost_rmb": 120000,
                     "market_share": "55%",
-                    "selling_points": ["IL-4/IL-13双靶，2类辅助性T细胞通路", "LIBERTY AD系列研究：IGA 0/1达36-44%", "2020年NMPA批准成人，2022年青少年"]
+                    "selling_points": [
+                      "IL-4/IL-13双靶，2类辅助性T细胞通路",
+                      "LIBERTY AD系列研究：IGA 0/1达36-44%",
+                      "2020年NMPA批准成人，2022年青少年"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -285,7 +337,11 @@
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 72000,
                     "market_share": "25%",
-                    "selling_points": ["Heads-up vs度普利尤单抗（Measure Up/AD Up）疗效更优", "JAK1选择性，口服便利", "NMPA 2022年批准"]
+                    "selling_points": [
+                      "Heads-up vs度普利尤单抗（Measure Up/AD Up）疗效更优",
+                      "JAK1选择性，口服便利",
+                      "NMPA 2022年批准"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -320,7 +376,7 @@
           "us": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "US prevalence ~10-15M adults, moderate-severe ~3M",
-            "tam_usd_bn": 12.0,
+            "tam_usd_bn": 8.0,
             "diagnosis_steps": [
               "Clinical diagnosis (EASI/IGA/SCORAD)",
               "Allergen testing",
@@ -339,7 +395,11 @@
                     "manufacturer": "Sanofi / Regeneron",
                     "annual_cost_usd": 38000,
                     "market_share": "40%",
-                    "selling_points": ["First biologic approved 2017", "IL-4/IL-13 dual block", "Approved ages 6 months+"]
+                    "selling_points": [
+                      "First biologic approved 2017",
+                      "IL-4/IL-13 dual block",
+                      "Approved ages 6 months+"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -348,7 +408,11 @@
                     "manufacturer": "AbbVie",
                     "annual_cost_usd": 60000,
                     "market_share": "20%",
-                    "selling_points": ["Superior to dupilumab in head-to-head (Measure Up)", "Oral, rapid onset", "FDA approved 2022"]
+                    "selling_points": [
+                      "Superior to dupilumab in head-to-head (Measure Up)",
+                      "Oral, rapid onset",
+                      "FDA approved 2022"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -357,7 +421,11 @@
                     "manufacturer": "Pfizer",
                     "annual_cost_usd": 55000,
                     "market_share": "12%",
-                    "selling_points": ["Oral JAK1 inhibitor", "JADE MONO/COMPARE trials", "FDA approved 2022"]
+                    "selling_points": [
+                      "Oral JAK1 inhibitor",
+                      "JADE MONO/COMPARE trials",
+                      "FDA approved 2022"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -396,7 +464,7 @@
           "china": {
             "annual_new_cases": 600000,
             "annual_new_cases_note": "中国银屑病患者约650万，中重度约200万，每年新增约60万",
-            "tam_rmb_bn": 25,
+            "tam_rmb_bn": 7,
             "diagnosis_steps": [
               "临床诊断（PASI/IGA评分）",
               "PASI≥12 或 BSA≥10% 定义为中重度",
@@ -415,7 +483,11 @@
                     "manufacturer": "诺华 Novartis",
                     "annual_cost_rmb": 80000,
                     "market_share": "30%",
-                    "selling_points": ["IL-17A抑制剂，PASI 90达68-77%", "起效快，3月内见效", "医保报销，银屑病+PsA+AS三适应症"]
+                    "selling_points": [
+                      "IL-17A抑制剂，PASI 90达68-77%",
+                      "起效快，3月内见效",
+                      "医保报销，银屑病+PsA+AS三适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -424,7 +496,11 @@
                     "manufacturer": "礼来 Eli Lilly",
                     "annual_cost_rmb": 85000,
                     "market_share": "20%",
-                    "selling_points": ["IL-17A单抗，PASI 90更高达70-80%", "UNCOVER研究优于依那西普", "NMPA批准银屑病+PsA"]
+                    "selling_points": [
+                      "IL-17A单抗，PASI 90更高达70-80%",
+                      "UNCOVER研究优于依那西普",
+                      "NMPA批准银屑病+PsA"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -433,7 +509,11 @@
                     "manufacturer": "强生/杨森 Janssen",
                     "annual_cost_rmb": 90000,
                     "market_share": "15%",
-                    "selling_points": ["IL-23p19选择性抑制，PASI 90达73%", "维持治疗每8周一次", "NMPA 2021年批准"]
+                    "selling_points": [
+                      "IL-23p19选择性抑制，PASI 90达73%",
+                      "维持治疗每8周一次",
+                      "NMPA 2021年批准"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -442,7 +522,11 @@
                     "manufacturer": "百时美施贵宝 BMS",
                     "annual_cost_rmb": 70000,
                     "market_share": "10%",
-                    "selling_points": ["首个TYK2抑制剂，口服", "POETYK PSO系列优于阿普斯特", "NMPA 2023年批准，口服选项"]
+                    "selling_points": [
+                      "首个TYK2抑制剂，口服",
+                      "POETYK PSO系列优于阿普斯特",
+                      "NMPA 2023年批准，口服选项"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -461,7 +545,7 @@
           "us": {
             "annual_new_cases": 900000,
             "annual_new_cases_note": "US prevalence ~8M, moderate-severe ~2M active treatment",
-            "tam_usd_bn": 18.0,
+            "tam_usd_bn": 15.0,
             "diagnosis_steps": [
               "Clinical diagnosis (PASI/IGA/BSA)",
               "PASI ≥12 or BSA ≥10% = moderate-severe"
@@ -479,7 +563,12 @@
                     "manufacturer": "UCB",
                     "annual_cost_usd": 80000,
                     "market_share": "15%",
-                    "selling_points": ["PASI 90 ~85-91%", "IL-17A/F dual inhibitor", "FDA approved 2023", "Gaining share rapidly"]
+                    "selling_points": [
+                      "PASI 90 ~85-91%",
+                      "IL-17A/F dual inhibitor",
+                      "FDA approved 2023",
+                      "Gaining share rapidly"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -488,7 +577,12 @@
                     "manufacturer": "AbbVie",
                     "annual_cost_usd": 78000,
                     "market_share": "22%",
-                    "selling_points": ["IL-23p19, PASI 90 ~75%", "q12w dosing convenience", "Also approved Crohn's/UC", "AbbVie's key growth asset"]
+                    "selling_points": [
+                      "IL-23p19, PASI 90 ~75%",
+                      "q12w dosing convenience",
+                      "Also approved Crohn's/UC",
+                      "AbbVie's key growth asset"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -497,7 +591,10 @@
                     "manufacturer": "Novartis",
                     "annual_cost_usd": 55000,
                     "market_share": "20%",
-                    "selling_points": ["Established IL-17A, long real-world data", "PSO/PsA/AS/nr-axSpA all approved"]
+                    "selling_points": [
+                      "Established IL-17A, long real-world data",
+                      "PSO/PsA/AS/nr-axSpA all approved"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -528,7 +625,7 @@
           "china": {
             "annual_new_cases": 50000,
             "annual_new_cases_note": "中国IBD快速增长，克罗恩新发约5万/年",
-            "tam_rmb_bn": 15,
+            "tam_rmb_bn": 3.5,
             "diagnosis_steps": [
               "内镜（回结肠镜+胃镜）+ 病理活检",
               "小肠MRI（MRE）评估病变范围",
@@ -548,7 +645,11 @@
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 80000,
                     "market_share": "35%",
-                    "selling_points": ["TNF抑制剂，CLASSIC研究", "医保报销", "皮下注射，患者自注射方便"]
+                    "selling_points": [
+                      "TNF抑制剂，CLASSIC研究",
+                      "医保报销",
+                      "皮下注射，患者自注射方便"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -557,7 +658,11 @@
                     "manufacturer": "强生/杨森 Janssen",
                     "annual_cost_rmb": 150000,
                     "market_share": "25%",
-                    "selling_points": ["IL-12/23双靶，UNIFI/UNIFI-LTE研究", "感染风险低", "NMPA 2020年批准CD适应症"]
+                    "selling_points": [
+                      "IL-12/23双靶，UNIFI/UNIFI-LTE研究",
+                      "感染风险低",
+                      "NMPA 2020年批准CD适应症"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -584,7 +689,7 @@
           "us": {
             "annual_new_cases": 80000,
             "annual_new_cases_note": "US prevalence ~700K CD, ~80K new/yr",
-            "tam_usd_bn": 8.0,
+            "tam_usd_bn": 12.0,
             "diagnosis_steps": [
               "Ileocolonoscopy + biopsy",
               "MR enterography",
@@ -604,7 +709,11 @@
                     "manufacturer": "AbbVie",
                     "annual_cost_usd": 75000,
                     "market_share": "20%",
-                    "selling_points": ["ADVANCE: endoscopic remission 32% vs 16%", "FDA approved CD 2023", "Growing rapidly"]
+                    "selling_points": [
+                      "ADVANCE: endoscopic remission 32% vs 16%",
+                      "FDA approved CD 2023",
+                      "Growing rapidly"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -613,7 +722,11 @@
                     "manufacturer": "Janssen + biosimilar makers",
                     "annual_cost_usd": 25000,
                     "market_share": "25%",
-                    "selling_points": ["Biosimilars launched 2023, price falling", "Low infection risk", "IV induction + SC maintenance"]
+                    "selling_points": [
+                      "Biosimilars launched 2023, price falling",
+                      "Low infection risk",
+                      "IV induction + SC maintenance"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -622,7 +735,11 @@
                     "manufacturer": "Takeda",
                     "annual_cost_usd": 45000,
                     "market_share": "20%",
-                    "selling_points": ["Gut-selective α4β7 integrin", "Favorable safety, no systemic immunosuppression", "Oral formulation approved 2024 (UC)"]
+                    "selling_points": [
+                      "Gut-selective α4β7 integrin",
+                      "Favorable safety, no systemic immunosuppression",
+                      "Oral formulation approved 2024 (UC)"
+                    ]
                   }
                 ],
                 "pipeline": [

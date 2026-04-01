@@ -17,7 +17,7 @@
           "china": {
             "annual_new_cases": 1000000,
             "annual_new_cases_note": "中国AD患者约1050万，全球最多，每年新增约100万",
-            "tam_rmb_bn": 15,
+            "tam_rmb_bn": 0.7,
             "diagnosis_steps": [
               "神经心理学测试（MMSE/MoCA）",
               "脑MRI（排除血管性痴呆、脑肿瘤）",
@@ -38,7 +38,11 @@
                     "manufacturer": "卫材/辉瑞 Eisai/Pfizer",
                     "annual_cost_rmb": 3000,
                     "market_share": "55%",
-                    "selling_points": ["AChE抑制剂，轻中重度AD标准治疗", "医保报销，价格低", "仿制药广泛可及"]
+                    "selling_points": [
+                      "AChE抑制剂，轻中重度AD标准治疗",
+                      "医保报销，价格低",
+                      "仿制药广泛可及"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -47,7 +51,10 @@
                     "manufacturer": "默克KGaA / 国内仿制",
                     "annual_cost_rmb": 5000,
                     "market_share": "30%",
-                    "selling_points": ["NMDA受体拮抗剂，中重度AD", "可与多奈哌齐联合使用（NAMZARIC）"]
+                    "selling_points": [
+                      "NMDA受体拮抗剂，中重度AD",
+                      "可与多奈哌齐联合使用（NAMZARIC）"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -64,7 +71,12 @@
                     "manufacturer": "卫材/百健 Eisai/Biogen",
                     "annual_cost_rmb": 350000,
                     "market_share": "60%",
-                    "selling_points": ["CLARITY AD：CDR-SB衰退减缓27%", "靶向Aβ原纤维，FDA 2023年全批", "2024年NMPA批准中国上市", "首个在中国获批的抗Aβ疗法"]
+                    "selling_points": [
+                      "CLARITY AD：CDR-SB衰退减缓27%",
+                      "靶向Aβ原纤维，FDA 2023年全批",
+                      "2024年NMPA批准中国上市",
+                      "首个在中国获批的抗Aβ疗法"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -91,7 +103,7 @@
           "us": {
             "annual_new_cases": 500000,
             "annual_new_cases_note": "US AD prevalence ~7M, ~500K new/yr, expected to triple by 2060",
-            "tam_usd_bn": 6.0,
+            "tam_usd_bn": 3.0,
             "diagnosis_steps": [
               "Neuropsychological testing (MMSE/MoCA/ADAS-cog)",
               "Brain MRI",
@@ -111,7 +123,11 @@
                     "manufacturer": "Eisai / Biogen",
                     "annual_cost_usd": 26500,
                     "market_share": "55%",
-                    "selling_points": ["CLARITY AD: 27% slowing of decline", "FDA full approval July 2023", "Biweekly IV, patient/care burden"]
+                    "selling_points": [
+                      "CLARITY AD: 27% slowing of decline",
+                      "FDA full approval July 2023",
+                      "Biweekly IV, patient/care burden"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -120,7 +136,11 @@
                     "manufacturer": "Eli Lilly",
                     "annual_cost_usd": 32000,
                     "market_share": "35%",
-                    "selling_points": ["TRAILBLAZER-ALZ2: 35% slowing (low tau)", "FDA approved July 2024", "Treatment can stop after amyloid clearance (unique feature)"]
+                    "selling_points": [
+                      "TRAILBLAZER-ALZ2: 35% slowing (low tau)",
+                      "FDA approved July 2024",
+                      "Treatment can stop after amyloid clearance (unique feature)"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -159,7 +179,7 @@
           "china": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "中国偏头痛患者约1亿，慢性偏头痛约200万，药物预防治疗渗透率极低",
-            "tam_rmb_bn": 10,
+            "tam_rmb_bn": 2,
             "diagnosis_steps": [
               "ICHD-3诊断标准",
               "发作频率记录（偏头痛日记）",
@@ -179,7 +199,11 @@
                     "manufacturer": "安进/诺华 Amgen/Novartis",
                     "annual_cost_rmb": 30000,
                     "market_share": "35%",
-                    "selling_points": ["CGRP受体单抗，月发作减少50%达43%患者", "NMPA 2021年批准", "每月自注射，便利性高"]
+                    "selling_points": [
+                      "CGRP受体单抗，月发作减少50%达43%患者",
+                      "NMPA 2021年批准",
+                      "每月自注射，便利性高"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -188,7 +212,11 @@
                     "manufacturer": "梯瓦 Teva",
                     "annual_cost_rmb": 28000,
                     "market_share": "25%",
-                    "selling_points": ["靶向CGRP配体，月注射或季度注射选择", "NMPA批准", "季度注射方案依从性更佳"]
+                    "selling_points": [
+                      "靶向CGRP配体，月注射或季度注射选择",
+                      "NMPA批准",
+                      "季度注射方案依从性更佳"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -215,7 +243,7 @@
           "us": {
             "annual_new_cases": 4000000,
             "annual_new_cases_note": "US migraine prevalence ~39M, chronic ~4M, preventive Rx penetration ~20%",
-            "tam_usd_bn": 8.0,
+            "tam_usd_bn": 5.0,
             "diagnosis_steps": [
               "ICHD-3 criteria",
               "Headache diary (frequency, severity)",
@@ -235,7 +263,11 @@
                     "manufacturer": "AbbVie",
                     "annual_cost_usd": 8000,
                     "market_share": "20%",
-                    "selling_points": ["Oral CGRP antagonist", "ADVANCE: 50% responder 61%", "Episodic + chronic migraine approved"]
+                    "selling_points": [
+                      "Oral CGRP antagonist",
+                      "ADVANCE: 50% responder 61%",
+                      "Episodic + chronic migraine approved"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -244,7 +276,11 @@
                     "manufacturer": "Pfizer/Biohaven",
                     "annual_cost_usd": 10000,
                     "market_share": "18%",
-                    "selling_points": ["First dual acute + preventive CGRP", "Every-other-day dosing for prevention", "ODT formulation convenience"]
+                    "selling_points": [
+                      "First dual acute + preventive CGRP",
+                      "Every-other-day dosing for prevention",
+                      "ODT formulation convenience"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -253,7 +289,11 @@
                     "manufacturer": "Amgen / Novartis",
                     "annual_cost_usd": 8500,
                     "market_share": "22%",
-                    "selling_points": ["First-in-class CGRP receptor mAb", "Monthly autoinjector", "Established safety data"]
+                    "selling_points": [
+                      "First-in-class CGRP receptor mAb",
+                      "Monthly autoinjector",
+                      "Established safety data"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -284,7 +324,7 @@
           "china": {
             "annual_new_cases": 9500000,
             "annual_new_cases_note": "中国抑郁症患者约9500万，全球最多，治疗率不足10%，药物市场快速增长",
-            "tam_rmb_bn": 30,
+            "tam_rmb_bn": 11,
             "diagnosis_steps": [
               "DSM-5/ICD-10诊断标准（≥2周持续低落情绪+5项以上症状）",
               "PHQ-9量表评估（≥10分为中重度）",
@@ -307,7 +347,11 @@
                     "annual_cost_rmb": 3000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["最高选择性SSRI，耐受性最佳", "医保报销，仿制药广泛可及", "推荐剂量10-20mg/日，起效2-4周"]
+                    "selling_points": [
+                      "最高选择性SSRI，耐受性最佳",
+                      "医保报销，仿制药广泛可及",
+                      "推荐剂量10-20mg/日，起效2-4周"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -317,7 +361,11 @@
                     "annual_cost_rmb": 2000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["SSRI，全球使用最广泛的抗抑郁药之一", "药物相互作用少，安全性高", "医保报销，价格极低"]
+                    "selling_points": [
+                      "SSRI，全球使用最广泛的抗抑郁药之一",
+                      "药物相互作用少，安全性高",
+                      "医保报销，价格极低"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -327,7 +375,11 @@
                     "annual_cost_rmb": 3500,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["SNRI，5-HT+NE双靶，中重度MDD效果更强", "对焦虑共病效果好", "医保报销"]
+                    "selling_points": [
+                      "SNRI，5-HT+NE双靶，中重度MDD效果更强",
+                      "对焦虑共病效果好",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -337,7 +389,11 @@
                     "annual_cost_rmb": 4000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["SNRI，同时有慢性疼痛/神经痛适应症", "适合MDD伴躯体疼痛患者", "医保报销"]
+                    "selling_points": [
+                      "SNRI，同时有慢性疼痛/神经痛适应症",
+                      "适合MDD伴躯体疼痛患者",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -347,7 +403,11 @@
                     "annual_cost_rmb": 2500,
                     "annual_cost_usd": null,
                     "market_share": "10%",
-                    "selling_points": ["NaSSA，增加食欲改善睡眠", "适合失眠+体重减轻的MDD患者", "镇静作用明显，晚上服用"]
+                    "selling_points": [
+                      "NaSSA，增加食欲改善睡眠",
+                      "适合失眠+体重减轻的MDD患者",
+                      "镇静作用明显，晚上服用"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -374,7 +434,11 @@
                     "annual_cost_rmb": 15000,
                     "annual_cost_usd": null,
                     "market_share": "25%",
-                    "selling_points": ["非典型抗精神病药增效治疗", "部分D2激动+5-HT1A激动", "NMPA批准MDD辅助治疗"]
+                    "selling_points": [
+                      "非典型抗精神病药增效治疗",
+                      "部分D2激动+5-HT1A激动",
+                      "NMPA批准MDD辅助治疗"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -384,7 +448,11 @@
                     "annual_cost_rmb": 12000,
                     "annual_cost_usd": null,
                     "market_share": "20%",
-                    "selling_points": ["50-300mg低剂量增效，改善睡眠焦虑", "NMPA批准MDD辅助治疗", "医保报销"]
+                    "selling_points": [
+                      "50-300mg低剂量增效，改善睡眠焦虑",
+                      "NMPA批准MDD辅助治疗",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -394,7 +462,11 @@
                     "annual_cost_rmb": 5000,
                     "annual_cost_usd": null,
                     "market_share": "15%",
-                    "selling_points": ["NDRI，无性功能障碍副作用", "SSRI性功能副作用对抗策略", "戒烟同时适用"]
+                    "selling_points": [
+                      "NDRI，无性功能障碍副作用",
+                      "SSRI性功能副作用对抗策略",
+                      "戒烟同时适用"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -445,7 +517,7 @@
           "us": {
             "annual_new_cases": 21000000,
             "annual_new_cases_note": "US MDD prevalence ~21M, largest single-disease pharma market globally",
-            "tam_usd_bn": 18.0,
+            "tam_usd_bn": 15.0,
             "diagnosis_steps": [
               "DSM-5 criteria (≥5 symptoms ≥2 weeks)",
               "PHQ-9 severity scale",
@@ -465,7 +537,11 @@
                     "manufacturer": "Generic (Lundbeck originator)",
                     "annual_cost_usd": 300,
                     "market_share": "40%",
-                    "selling_points": ["Most prescribed first-line antidepressants", "Generic, extremely low cost", "Comparable efficacy across SSRIs (STAR*D study)"]
+                    "selling_points": [
+                      "Most prescribed first-line antidepressants",
+                      "Generic, extremely low cost",
+                      "Comparable efficacy across SSRIs (STAR*D study)"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -474,7 +550,10 @@
                     "manufacturer": "Pfizer / Eli Lilly",
                     "annual_cost_usd": 3000,
                     "market_share": "20%",
-                    "selling_points": ["SNRI for moderate-severe MDD", "Duloxetine: dual pain + depression indication"]
+                    "selling_points": [
+                      "SNRI for moderate-severe MDD",
+                      "Duloxetine: dual pain + depression indication"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -491,7 +570,12 @@
                     "manufacturer": "Janssen (J&J)",
                     "annual_cost_usd": 80000,
                     "market_share": "30%",
-                    "selling_points": ["FDA approved 2019 TRD, 2020 MDSI (suicidal ideation)", "Rapid onset (hours)", "Novel NMDA antagonist mechanism", "In-office administration"]
+                    "selling_points": [
+                      "FDA approved 2019 TRD, 2020 MDSI (suicidal ideation)",
+                      "Rapid onset (hours)",
+                      "Novel NMDA antagonist mechanism",
+                      "In-office administration"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -500,7 +584,12 @@
                     "manufacturer": "SAGE Therapeutics / Biogen",
                     "annual_cost_usd": 18000,
                     "market_share": "15%",
-                    "selling_points": ["FDA approved August 2023", "14-day oral course, then off", "GABA-A PAM, rapid onset (day 3)", "First rapid-acting oral antidepressant"]
+                    "selling_points": [
+                      "FDA approved August 2023",
+                      "14-day oral course, then off",
+                      "GABA-A PAM, rapid onset (day 3)",
+                      "First rapid-acting oral antidepressant"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -509,7 +598,11 @@
                     "manufacturer": "Axsome Therapeutics",
                     "annual_cost_usd": 30000,
                     "market_share": "10%",
-                    "selling_points": ["FDA approved 2022 MDD", "Onset in 1 week (faster than SSRIs)", "Oral, daily dosing at home"]
+                    "selling_points": [
+                      "FDA approved 2022 MDD",
+                      "Onset in 1 week (faster than SSRIs)",
+                      "Oral, daily dosing at home"
+                    ]
                   }
                 ],
                 "pipeline": [

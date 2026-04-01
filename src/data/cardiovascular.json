@@ -17,7 +17,7 @@
           "china": {
             "annual_new_cases": 1200000,
             "annual_new_cases_note": "中国心衰患者约890万，每年新增约120万",
-            "tam_rmb_bn": 40,
+            "tam_rmb_bn": 11,
             "diagnosis_steps": [
               "超声心动图（LVEF <40%确认）",
               "NT-proBNP / BNP检测",
@@ -38,7 +38,11 @@
                     "manufacturer": "诺华 Novartis",
                     "annual_cost_rmb": 15000,
                     "market_share": "45%",
-                    "selling_points": ["PARADIGM-HF：死亡+住院-20%", "取代ACEI/ARB成为HFrEF首选", "医保报销，中国广泛使用"]
+                    "selling_points": [
+                      "PARADIGM-HF：死亡+住院-20%",
+                      "取代ACEI/ARB成为HFrEF首选",
+                      "医保报销，中国广泛使用"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -47,7 +51,11 @@
                     "manufacturer": "阿斯利康 AstraZeneca",
                     "annual_cost_rmb": 8000,
                     "market_share": "40%",
-                    "selling_points": ["DAPA-HF：死亡+恶化-26%（无论是否糖尿病）", "每日一片，口服便捷", "医保报销，HFrEF + HFpEF双适应症"]
+                    "selling_points": [
+                      "DAPA-HF：死亡+恶化-26%（无论是否糖尿病）",
+                      "每日一片，口服便捷",
+                      "医保报销，HFrEF + HFpEF双适应症"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -56,7 +64,11 @@
                     "manufacturer": "勃林格殷格翰/礼来 BI/Lilly",
                     "annual_cost_rmb": 9000,
                     "market_share": "30%",
-                    "selling_points": ["EMPEROR-Reduced：死亡+住院-25%", "HFrEF + HFpEF均获批", "医保报销"]
+                    "selling_points": [
+                      "EMPEROR-Reduced：死亡+住院-25%",
+                      "HFrEF + HFpEF均获批",
+                      "医保报销"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -65,7 +77,10 @@
                     "manufacturer": "通用",
                     "annual_cost_rmb": 2000,
                     "market_share": "85%",
-                    "selling_points": ["GDMT基石，显著降低死亡率", "极低价格，医保全覆盖"]
+                    "selling_points": [
+                      "GDMT基石，显著降低死亡率",
+                      "极低价格，医保全覆盖"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -84,7 +99,7 @@
           "us": {
             "annual_new_cases": 900000,
             "annual_new_cases_note": "US HF prevalence ~6.7M, ~900K new cases/yr",
-            "tam_usd_bn": 15.0,
+            "tam_usd_bn": 10.0,
             "diagnosis_steps": [
               "Echocardiogram (LVEF <40%)",
               "NT-proBNP / BNP",
@@ -105,7 +120,11 @@
                     "manufacturer": "Novartis",
                     "annual_cost_usd": 6000,
                     "market_share": "60%",
-                    "selling_points": ["PARADIGM-HF: 20% reduction in death+hospitalization", "ACCF/AHA Class I", "Generics available 2025"]
+                    "selling_points": [
+                      "PARADIGM-HF: 20% reduction in death+hospitalization",
+                      "ACCF/AHA Class I",
+                      "Generics available 2025"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -114,7 +133,10 @@
                     "manufacturer": "AstraZeneca",
                     "annual_cost_usd": 6500,
                     "market_share": "45%",
-                    "selling_points": ["DAPA-HF: -26% regardless of diabetes", "HFrEF + HFpEF + CKD all approved"]
+                    "selling_points": [
+                      "DAPA-HF: -26% regardless of diabetes",
+                      "HFrEF + HFpEF + CKD all approved"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -145,7 +167,7 @@
           "china": {
             "annual_new_cases": 5000000,
             "annual_new_cases_note": "中国血脂异常人群约3.3亿，高CV风险约8000万",
-            "tam_rmb_bn": 50,
+            "tam_rmb_bn": 14,
             "diagnosis_steps": [
               "空腹血脂四项（TC/LDL-C/HDL-C/TG）",
               "计算ASCVD 10年风险（中国心血管风险评估模型）",
@@ -164,7 +186,11 @@
                     "manufacturer": "辉瑞/阿斯利康（原研），国内大量仿制药",
                     "annual_cost_rmb": 1000,
                     "market_share": "80%",
-                    "selling_points": ["一线降脂药，LDL-C降低40-60%", "极低价，医保全覆盖", "心血管获益证据最充分"]
+                    "selling_points": [
+                      "一线降脂药，LDL-C降低40-60%",
+                      "极低价，医保全覆盖",
+                      "心血管获益证据最充分"
+                    ]
                   }
                 ],
                 "pipeline": []
@@ -181,7 +207,11 @@
                     "manufacturer": "安进 Amgen",
                     "annual_cost_rmb": 18000,
                     "market_share": "40%",
-                    "selling_points": ["PCSK9抑制剂，LDL-C再降59%", "FOURIER研究：MACE-20%", "医保报销（2021年）"]
+                    "selling_points": [
+                      "PCSK9抑制剂，LDL-C再降59%",
+                      "FOURIER研究：MACE-20%",
+                      "医保报销（2021年）"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -190,7 +220,11 @@
                     "manufacturer": "赛诺菲/再生元 Sanofi/Regeneron",
                     "annual_cost_rmb": 16000,
                     "market_share": "30%",
-                    "selling_points": ["ODYSSEY OUTCOMES：MACE-15%（ACS后）", "医保报销", "2周一次皮下注射"]
+                    "selling_points": [
+                      "ODYSSEY OUTCOMES：MACE-15%（ACS后）",
+                      "医保报销",
+                      "2周一次皮下注射"
+                    ]
                   }
                 ],
                 "pipeline": [
@@ -217,7 +251,7 @@
           "us": {
             "annual_new_cases": 5000000,
             "annual_new_cases_note": "US high CV risk dyslipidemia ~30M undertreated patients",
-            "tam_usd_bn": 20.0,
+            "tam_usd_bn": 18.0,
             "diagnosis_steps": [
               "Fasting lipid panel",
               "10-year ASCVD risk (ACC/AHA Pooled Cohort Equations)",
@@ -236,7 +270,11 @@
                     "manufacturer": "Novartis",
                     "annual_cost_usd": 6500,
                     "market_share": "15%",
-                    "selling_points": ["2x/year dosing (day 1, day 90, then q6m)", "LDL-C -50%", "Physician-administered, adherence advantage"]
+                    "selling_points": [
+                      "2x/year dosing (day 1, day 90, then q6m)",
+                      "LDL-C -50%",
+                      "Physician-administered, adherence advantage"
+                    ]
                   },
                   {
                     "type": "drug",
@@ -245,7 +283,11 @@
                     "manufacturer": "Amgen",
                     "annual_cost_usd": 7000,
                     "market_share": "40%",
-                    "selling_points": ["FOURIER: MACE -20%", "Biosimilar competition incoming", "Monthly dosing option"]
+                    "selling_points": [
+                      "FOURIER: MACE -20%",
+                      "Biosimilar competition incoming",
+                      "Monthly dosing option"
+                    ]
                   }
                 ],
                 "pipeline": [

@@ -368,6 +368,46 @@ export default function Dashboard() {
           </table>
         </div>
       </div>
+
+      {/* ── DATA SOURCES FOOTNOTE ── */}
+      <div className="db-footnotes">
+        <div className="db-fn-title">数据来源 Data Sources</div>
+        <div className="db-fn-grid">
+          <div className="db-fn-section">
+            <div className="db-fn-heading">📊 Drug Sales TAM</div>
+            <ul>
+              <li><strong>US:</strong> IQVIA Institute, <em>Global Use of Medicines 2024</em>; EvaluatePharma <em>World Preview 2024</em>; Company annual reports (AstraZeneca, Roche, Pfizer, J&J, Novo Nordisk, AbbVie 2023AR)</li>
+              <li><strong>CN:</strong> IQVIA China Market Report 2023; 国家医保局 NRDL negotiated pricing disclosures; PDB (医院用药数据库) 2023; 米内网 Menet 药品市场报告. 注：中国价格经NRDL谈判降幅约50-80%，实际drug sales远低于美国同适应症</li>
+              <li><strong>EU:</strong> EvaluatePharma World Preview 2024; EFPIA <em>The Pharmaceutical Industry in Figures 2023</em>; EMA public assessment reports</li>
+              <li><strong>FX:</strong> USD/CNY 7.2; USD/EUR 0.91 (2023 annual average, IMF)</li>
+            </ul>
+          </div>
+          <div className="db-fn-section">
+            <div className="db-fn-heading">🏥 Epidemiology (New Cases / Prevalence)</div>
+            <ul>
+              <li><strong>Global / CN:</strong> GLOBOCAN 2022 (IARC/WHO); 中国国家癌症中心 <em>2024年中国癌症统计</em> (Zheng R et al.); 中华医学会各专科指南</li>
+              <li><strong>US:</strong> SEER Database (NCI) 2023; ACS <em>Cancer Facts &amp; Figures 2024</em>; CDC National Diabetes Statistics Report 2024</li>
+              <li><strong>EU:</strong> ECIS (European Cancer Information System) 2022; Eurostat Health Statistics</li>
+            </ul>
+          </div>
+          <div className="db-fn-section">
+            <div className="db-fn-heading">⏱️ Median Survival</div>
+            <ul>
+              <li>Pivotal clinical trial OS data (see individual drug cards for trial citations)</li>
+              <li>SEER 5-year relative survival statistics 2023; 中国肿瘤登记年报 2022</li>
+            </ul>
+          </div>
+          <div className="db-fn-section">
+            <div className="db-fn-heading">⚠️ 重要说明 Important Caveats</div>
+            <ul>
+              <li>TAM数据为<strong>药品销售额</strong>（retail + hospital channel），非市场潜力预测</li>
+              <li>中国TAM反映NRDL医保价格后实际销售额，非原研厂商全球定价</li>
+              <li>MASH (中国)、obesity (中国/EU) 等新兴市场2023-2024年仍处于起步阶段</li>
+              <li>数据截止年份：2023（部分2024年Q1-Q3估算）；个别子市场系AI基于公开数据估算，误差±20%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

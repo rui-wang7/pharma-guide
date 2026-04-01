@@ -869,6 +869,29 @@
 .db-row.selected { background: #eff6ff; }
 .db-row.selected:hover { background: #dbeafe; }
 
+/* Disease subtotal row */
+.db-row-dis td { background: #f1f5f9; font-weight: 600; border-top: 2px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; }
+.db-row-dis-name { font-weight: 700; color: #1e293b; font-size: 0.9em; }
+.db-row-sub-count { font-size: 0.72em; font-weight: 400; color: #94a3b8; margin-left: 6px; }
+
+/* Category subtotal row */
+.db-row-cat td { background: #1e293b; font-weight: 700; border-top: 3px solid #334155; }
+.db-row-cat td.db-td, .db-row-cat td.db-td-name, .db-row-cat td.db-td-check, .db-row-cat td.db-td-cat { color: #f8fafc !important; }
+.db-row-cat-name { font-weight: 800; color: #f8fafc; font-size: 0.95em; display: flex; align-items: center; gap: 6px; }
+.db-row-cat-icon { font-size: 1.1em; }
+
+/* Indented subtype rows */
+.db-row-indent .db-td-name { padding-left: 28px; }
+
+/* Grand total row */
+.db-row-total td { background: #0f172a; border-top: 3px solid #3b82f6; }
+.db-row-total td.db-td, .db-row-total td.db-td-name, .db-row-total td.db-td-check, .db-row-total td.db-td-cat { color: #f8fafc !important; }
+.db-row-total-name { font-weight: 800; color: #f8fafc; font-size: 0.95em; }
+.db-row-total:hover td { background: #0f172a; }
+
+/* Chart hint */
+.db-chart-hint { font-size: 0.75em; font-weight: 400; color: #94a3b8; margin-left: 8px; }
+
 .db-cat-badge {
   display: inline-block;
   padding: 2px 8px;

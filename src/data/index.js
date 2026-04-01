@@ -94,9 +94,28 @@ export function getDashboardData() {
         const usPrev = us.prevalence || null;
         const euPrev = eu.prevalence || null;
 
-        const cnSPP = cnTamUSD && cnCases ? (cnTamUSD * 1e9) / cnCases / 1000 : null; // $K per patient
-        const usSPP = usTamUSD && usCases ? (usTamUSD * 1e9) / usCases / 1000 : null;
-        const euSPP = euTamUSD && euCases ? (euTamUSD * 1e9) / euCases / 1000 : null;
+        // Implied survival = prevalence / new_cases (years a patient lives on average)
+        // If prev < new_cases (data issue) or no data, fall back to recorded median_survival
+        const impliedSurvivalFn = (prev, cases, recorded) => {
+          if (prev && cases && prev >= cases) return prev / cases;
+          return recorded || null;
+        };
+        const cnImplied = impliedSurvivalFn(cnPrev, cnCases, cn.median_survival_years);
+        const usImplied = impliedSurvivalFn(usPrev, usCases, us.median_survival_years);
+        const euImplied = impliedSurvivalFn(euPrev, euCases, null);
+
+        // SPP logic:
+        //   implied_survival < 2yr  → most patients active <2yr, use new_cases as denominator
+        //   implied_survival >= 2yr → chronic/slow disease, use prevalence as denominator
+        const sppFn = (tam, cases, prev, impliedSurv) => {
+          if (!tam) return null;
+          const denom = (impliedSurv != null && impliedSurv >= 2 && prev) ? prev : cases;
+          if (!denom) return null;
+          return Math.round((tam * 1e9) / denom / 1000);
+        };
+        const cnSPP = sppFn(cnTamUSD, cnCases, cnPrev, cnImplied);
+        const usSPP = sppFn(usTamUSD, usCases, usPrev, usImplied);
+        const euSPP = sppFn(euTamUSD, euCases, euPrev, euImplied);
 
         rows.push({
           id: sub.id,
@@ -115,7 +134,10 @@ export function getDashboardData() {
           cn_prevalence: cnPrev,
           us_prevalence: usPrev,
           eu_prevalence: euPrev,
-          // Survival
+          // Implied survival (prevalence / new_cases)
+          cn_implied_survival: cnImplied ? Math.round(cnImplied * 10) / 10 : null,
+          us_implied_survival: usImplied ? Math.round(usImplied * 10) / 10 : null,
+          // Recorded median survival (from clinical data)
           cn_survival: cn.median_survival_years || null,
           us_survival: us.median_survival_years || null,
           // TAM (USD billions for comparison)
@@ -123,10 +145,13 @@ export function getDashboardData() {
           us_tam_usd: usTamUSD,
           eu_tam_usd: euTamUSD,
           total_tam_usd: (cnTamUSD || 0) + (usTamUSD || 0) + (euTamUSD || 0),
-          // Sales per patient ($K / new patient)
-          cn_spp: cnSPP ? Math.round(cnSPP) : null,
-          us_spp: usSPP ? Math.round(usSPP) : null,
-          eu_spp: euSPP ? Math.round(euSPP) : null,
+          // Sales per patient — denominator chosen by implied_survival threshold
+          cn_spp: cnSPP,
+          us_spp: usSPP,
+          eu_spp: euSPP,
+          // Which denominator was used (for display)
+          cn_spp_denom: (cnImplied != null && cnImplied >= 2 && cnPrev) ? 'prev' : 'new',
+          us_spp_denom: (usImplied != null && usImplied >= 2 && usPrev) ? 'prev' : 'new',
         });
       }
     }

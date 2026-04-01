@@ -68,8 +68,8 @@ export const EU_SURVIVAL = {
   // ── GASTRIC ──
   gastric_her2pos: {
     eu: { annual_new_cases: 6000, tam_eur_bn: 0.8, prevalence: 12000 },
-    china: { prevalence: 60000,  median_survival_years: 1.4 },
-    us:    { prevalence: 8000,   median_survival_years: 1.8 },
+    china: { prevalence: 120000, median_survival_years: 1.4 },  // 85k×1.4yr≈119k
+    us:    { prevalence: 9000,   median_survival_years: 1.8 },  // 5k×1.8yr≈9k
   },
   // ── CERVICAL ──
   cervical_advanced: {
@@ -80,7 +80,7 @@ export const EU_SURVIVAL = {
   // ── PROSTATE ──
   prostate_crpc: {
     eu: { annual_new_cases: 25000, tam_eur_bn: 5.5, prevalence: 120000 },
-    china: { prevalence: 80000,  median_survival_years: 3.5 },
+    china: { prevalence: 122000, median_survival_years: 3.5 },  // 35k×3.5yr≈122k (after fixing new_cases)
     us:    { prevalence: 150000, median_survival_years: 4.5 },
   },
   // ── LIVER ──
@@ -92,8 +92,8 @@ export const EU_SURVIVAL = {
   // ── BLADDER ──
   bladder_metastatic: {
     eu: { annual_new_cases: 55000, tam_eur_bn: 1.5, prevalence: 100000 },
-    china: { prevalence: 80000,  median_survival_years: 1.5 },
-    us:    { prevalence: 60000,  median_survival_years: 2.2 },
+    china: { prevalence: 27000,  median_survival_years: 1.5 },  // 18k×1.5yr≈27k (after fixing new_cases)
+    us:    { prevalence: 44000,  median_survival_years: 2.2 },  // 20k×2.2yr≈44k (after fixing new_cases)
   },
   // ── ESOPHAGEAL ──
   esophageal_advanced: {
@@ -104,8 +104,8 @@ export const EU_SURVIVAL = {
   // ── THYROID ──
   thyroid_rai_refractory: {
     eu: { annual_new_cases: 5000, tam_eur_bn: 0.4, prevalence: 25000 },
-    china: { prevalence: 80000,  median_survival_years: 5.0 },
-    us:    { prevalence: 30000,  median_survival_years: 6.0 },
+    china: { prevalence: 125000, median_survival_years: 5.0 },  // 25k×5yr≈125k (after fixing new_cases)
+    us:    { prevalence: 48000,  median_survival_years: 6.0 },  // 8k×6yr≈48k
   },
   medullary_thyroid: {
     eu: { annual_new_cases: 800, tam_eur_bn: 0.15, prevalence: 4000 },
@@ -115,8 +115,8 @@ export const EU_SURVIVAL = {
   // ── ENDOMETRIAL ──
   endometrial_advanced: {
     eu: { annual_new_cases: 90000, tam_eur_bn: 1.2, prevalence: 130000 },
-    china: { prevalence: 60000,  median_survival_years: 2.8 },
-    us:    { prevalence: 90000,  median_survival_years: 3.5 },
+    china: { prevalence: 150000, median_survival_years: 2.8 },  // ~54k adv×2.8yr≈150k
+    us:    { prevalence: 235000, median_survival_years: 3.5 },  // 67k×3.5yr≈234k
   },
   // ── IMMUNE ──
   ra_moderate_severe: {

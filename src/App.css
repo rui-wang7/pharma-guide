@@ -944,6 +944,13 @@
 }
 
 .num { font-variant-numeric: tabular-nums; }
+.db-spp-denom {
+  display: inline-block;
+  font-size: 0.68em;
+  color: #94a3b8;
+  margin-left: 3px;
+  font-weight: 400;
+}
 .cn { color: #dc2626; }
 .us { color: #2563eb; }
 .eu { color: #059669; }

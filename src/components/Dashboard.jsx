@@ -429,7 +429,8 @@ export default function Dashboard() {
                 <th className="db-th sortable eu" onClick={() => handleSort('eu_tam_usd')}>🇪🇺 TAM<SortIcon col="eu_tam_usd" /></th>
                 <th className="db-th sortable eu" onClick={() => handleSort('eu_spp')}>🇪🇺 $/患者<SortIcon col="eu_spp" /></th>
                 <th className="db-th sortable total" onClick={() => handleSort('total_tam_usd')}>总TAM<SortIcon col="total_tam_usd" /></th>
-                <th className="db-th">存活期</th>
+                <th className="db-th sortable" onClick={() => handleSort('cn_implied_survival')}>🇨🇳 隐含存活<SortIcon col="cn_implied_survival" /></th>
+                <th className="db-th sortable" onClick={() => handleSort('us_implied_survival')}>🇺🇸 隐含存活<SortIcon col="us_implied_survival" /></th>
               </tr>
             </thead>
             <tbody>
@@ -478,17 +479,26 @@ export default function Dashboard() {
                     <td className="db-td cn">{FMT_N(row.cn_new_cases)}</td>
                     <td className="db-td cn">{FMT_N(row.cn_prevalence)}</td>
                     <td className="db-td cn num">{FMT_B(row.cn_tam_usd)}</td>
-                    <td className="db-td cn num">{FMT_K(row.cn_spp)}</td>
+                    <td className="db-td cn num">
+                      {FMT_K(row.cn_spp)}
+                      {row.cn_spp_denom && <span className="db-spp-denom">{row.cn_spp_denom === 'prev' ? '/存量' : '/新发'}</span>}
+                    </td>
                     <td className="db-td us">{FMT_N(row.us_new_cases)}</td>
                     <td className="db-td us">{FMT_N(row.us_prevalence)}</td>
                     <td className="db-td us num">{FMT_B(row.us_tam_usd)}</td>
-                    <td className="db-td us num">{FMT_K(row.us_spp)}</td>
+                    <td className="db-td us num">
+                      {FMT_K(row.us_spp)}
+                      {row.us_spp_denom && <span className="db-spp-denom">{row.us_spp_denom === 'prev' ? '/存量' : '/新发'}</span>}
+                    </td>
                     <td className="db-td eu">{FMT_N(row.eu_new_cases)}</td>
                     <td className="db-td eu num">{FMT_B(row.eu_tam_usd)}</td>
                     <td className="db-td eu num">{FMT_K(row.eu_spp)}</td>
                     <td className="db-td total num">{FMT_B(row.total_tam_usd)}</td>
-                    <td className="db-td survival">
-                      {row.us_survival ? `${row.us_survival}yr` : row.cn_survival ? `${row.cn_survival}yr` : '—'}
+                    <td className="db-td survival num">
+                      {row.cn_implied_survival != null ? `${row.cn_implied_survival}yr` : '—'}
+                    </td>
+                    <td className="db-td survival num">
+                      {row.us_implied_survival != null ? `${row.us_implied_survival}yr` : '—'}
                     </td>
                   </tr>
                 );
@@ -511,6 +521,7 @@ export default function Dashboard() {
                 <td className="db-td eu num">{FMT_B(grandTotal.eu_tam_usd)}</td>
                 <td className="db-td eu num">{FMT_K(grandTotal.eu_spp)}</td>
                 <td className="db-td total num" style={{ fontSize: '1.05em' }}>{FMT_B(grandTotal.total_tam_usd)}</td>
+                <td className="db-td" />
                 <td className="db-td" />
               </tr>
             </tbody>

@@ -726,14 +726,14 @@
   padding-top: 12px;
   border-top: 1px solid #f1f5f9;
 }
-.db-legend-item {
+.db-bubble-legend-item {
   display: flex;
   align-items: center;
   gap: 6px;
   font-size: 0.75em;
   color: #64748b;
 }
-.db-legend-dot {
+.db-bubble-legend-dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -826,7 +826,10 @@
   border-collapse: collapse;
   font-size: 0.82em;
 }
-.db-th {
+.db-th,
+.db-th-check,
+.db-th-name,
+.db-th-cat {
   padding: 10px 12px;
   text-align: right;
   font-size: 0.78em;
@@ -844,7 +847,10 @@
 .db-th.sortable { cursor: pointer; user-select: none; }
 .db-th.sortable:hover { color: #334155; background: #f1f5f9; }
 
-.db-td {
+.db-td,
+.db-td-check,
+.db-td-name,
+.db-td-cat {
   padding: 10px 12px;
   border-bottom: 1px solid #f8fafc;
   text-align: right;
@@ -853,6 +859,7 @@
 }
 .db-td-check { text-align: center; }
 .db-td-name { text-align: left; }
+.db-td-cat { text-align: left; }
 .db-row { transition: background 0.1s; }
 .db-row:hover { background: #f8fafc; }
 .db-row.selected { background: #eff6ff; }

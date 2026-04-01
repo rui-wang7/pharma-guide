@@ -3,7 +3,7 @@ import immune from './immune.json';
 import metabolic from './metabolic.json';
 import cardiovascular from './cardiovascular.json';
 import neuro from './neuro.json';
-import { EU_SURVIVAL, CLINICAL_ENDPOINTS } from './supplemental.js';
+import { EU_SURVIVAL, CLINICAL_ENDPOINTS, PIPELINE_ENDPOINTS } from './supplemental.js';
 
 export const CATEGORIES = [oncology, immune, metabolic, cardiovascular, neuro];
 
@@ -30,6 +30,10 @@ function enrichSubtype(sub) {
         options: (line.options || []).map((opt) => {
           const endpoints = CLINICAL_ENDPOINTS[opt.name_cn];
           return endpoints ? { ...opt, clinical_data: endpoints } : opt;
+        }),
+        pipeline: (line.pipeline || []).map((p) => {
+          const endpoints = PIPELINE_ENDPOINTS[p.name_cn];
+          return endpoints ? { ...p, clinical_data: endpoints } : p;
         }),
       })),
     };

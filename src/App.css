@@ -591,6 +591,10 @@
   border-radius: 8px;
   border: 1px solid #e2e8f0;
 }
+.pipeline-clinical {
+  background: #fef9ec;
+  border-color: #fde68a;
+}
 .clinical-trial-label {
   font-size: 0.72em;
   color: #64748b;

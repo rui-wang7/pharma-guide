@@ -281,3 +281,81 @@ export const CLINICAL_ENDPOINTS = {
   '依洛尤单抗（瑞百安）': { os: null, os_hr: '0.85 (MACE)', pfs: null, pfs_hr: null, orr: 'LDL-C: -59%', trial: 'FOURIER' },
   '阿利西尤单抗（波立达）': { os: null, os_hr: '0.85 (MACE)', pfs: null, pfs_hr: null, orr: 'LDL-C: -54%', trial: 'ODYSSEY OUTCOMES' },
 };
+
+// ─── PIPELINE CLINICAL ENDPOINTS ────────────────────────────────────────────
+// Latest trial data for investigational drugs, keyed by pipeline drug name_cn
+export const PIPELINE_ENDPOINTS = {
+  // ── NSCLC EGFR ──
+  'Amivantamab + Lazertinib': { pfs: '23.7m', pfs_hr: '0.70', orr: '73%', trial: 'MARIPOSA (1L vs osimertinib)' },
+  'Patritumab deruxtecan (HER3-DXd)': { orr: '29.8%', pfs: '5.5m', pfs_hr: null, trial: 'HERTHENA-Lung01 (2L+ HER3+)' },
+  'Patritumab Deruxtecan (HER3-DXd)': { orr: '29.8%', pfs: '5.5m', pfs_hr: null, trial: 'HERTHENA-Lung01 (2L+ HER3+)' },
+  'Zipalertinib': { orr: '50%', pfs: '6.7m', pfs_hr: null, trial: 'ZEAL-1L (exon20ins)' },
+  // ── NSCLC KRAS ──
+  'Adagrasib + 帕博利珠单抗': { orr: '49%', pfs: '10.1m', pfs_hr: null, trial: 'KRYSTAL-7 (1L KRAS G12C PD-L1≥50%)' },
+  'Adagrasib + Pembrolizumab': { orr: '49%', pfs: '10.1m', pfs_hr: null, trial: 'KRYSTAL-7 (1L KRAS G12C PD-L1≥50%)' },
+  'Glecirasib (JAB-21822)': { orr: '44.4%', pfs: '8.3m', pfs_hr: null, trial: 'Phase 2 (2L KRAS G12C)' },
+  'D-1553': { orr: '51.6%', pfs: null, pfs_hr: null, trial: 'Phase 1/2 (KRAS G12C)' },
+  'Sotorasib + Panitumumab': { orr: '26%', pfs: '5.6m', pfs_hr: '0.49', trial: 'CodeBreaK 300 (CRC 3L KRAS G12C)' },
+  // ── SCLC ──
+  'Tarlatamab (AMG 757)': { os: '14.3m', os_hr: null, orr: '40%', pfs: '4.9m', pfs_hr: null, trial: 'DeLLphi-301 (2L+)' },
+  'Tarlatamab': { os: '14.3m', os_hr: null, orr: '40%', pfs: '4.9m', pfs_hr: null, trial: 'DeLLphi-301 (2L+)' },
+  'Ifinatamab deruxtecan (I-DXd)': { orr: '35.7%', pfs: '5.6m', pfs_hr: null, trial: 'B-SIMPLE4 (2L+)' },
+  'Ifinatamab Deruxtecan': { orr: '35.7%', pfs: '5.6m', pfs_hr: null, trial: 'B-SIMPLE4 (2L+)' },
+  // ── NSCLC IO (Ivonescimab) ──
+  '依沃西单抗（AK112）★ 头对头打败K药': { os_hr: '0.67', pfs: '11.14m', pfs_hr: '0.51', orr: '50%', trial: 'HARMONi-A (1L PD-L1≥1% vs pembrolizumab)' },
+  '依沃西单抗（AK112）+ 化疗': { pfs: '8.8m', pfs_hr: '0.45', orr: '71%', trial: 'HARMONi-2 (1L 鳞癌 + chemo)' },
+  // ── BREAST HER2+ ──
+  'T-DXd（DS-8201）辅助治疗': { pfs_hr: '0.73 (iDFS)', orr: null, trial: 'DESTINY-Breast05 (HR pCR/non-pCR)' },
+  'Zanidatamab': { orr: '37.9%', pfs: '6.9m', pfs_hr: null, trial: 'HERIZON-GEA-01 (2L HER2+ GEA)' },
+  // ── BREAST HR+ ──
+  'Elacestrant（艾拉司群）': { os: '24.0m', os_hr: '0.75 (ESR1m)', pfs: '3.8m', pfs_hr: '0.55 (ESR1m)', orr: '10%', trial: 'EMERALD (2L ESR1突变)' },
+  'Capivasertib + 氟维司群': { pfs: '7.3m', pfs_hr: '0.60', orr: '23%', trial: 'CAPItello-291 (2L PIK3CA/AKT1/PTEN)' },
+  'Inavolisib + Palbociclib + Fulvestrant': { pfs: '15.0m', pfs_hr: '0.43', orr: '43%', trial: 'INAVO120 (1L PIK3CA突变)' },
+  // ── BREAST TNBC ──
+  '芦康沙妥单抗（SKB264）新辅助': { orr: 'pCR: 40.9%', trial: 'Phase 2 新辅助 (early TNBC)' },
+  '芦康沙妥单抗（SKB264）一线': { pfs: '8.3m', pfs_hr: '0.58', orr: '46.6%', trial: 'EVER-132-001 (1L mTNBC)' },
+  'Dato-DXd（Datopotamab deruxtecan）': { pfs: '6.9m', pfs_hr: '0.63', orr: '36%', trial: 'TROPION-Breast01 (2L+ HR+/HER2-)' },
+  'Dato-DXd': { pfs: '4.4m', pfs_hr: '0.63', orr: '27%', trial: 'TROPION-Lung01 (2L+ NSCLC)' },
+  'Dato-DXd (Datopotamab deruxtecan)': { pfs: '6.9m', pfs_hr: '0.63', orr: '36%', trial: 'TROPION-Breast01' },
+  // ── BREAST HER2-low ──
+  'T-DXd（DESTINY-Breast06，HER2超低表达）': { pfs: '13.2m', pfs_hr: '0.62', orr: '57%', trial: 'DESTINY-Breast06 (HER2低/超低表达)' },
+  'Dato-DXd（HER2低表达）': { pfs: '6.9m', pfs_hr: '0.63', orr: '36%', trial: 'TROPION-Breast01 subgroup' },
+  // ── CRC ──
+  'Fruzaqintinib（呋喹替尼）': { os: '7.4m', os_hr: '0.66', pfs: '3.7m', pfs_hr: '0.32', orr: '1.5%', trial: 'FRESCO-2 (4L+ mCRC)' },
+  // ── GASTRIC ──
+  'Zanidatamab + 化疗': { pfs: '10.6m', pfs_hr: '0.72', orr: '67%', trial: 'HERIZON-GEA-01 (1L HER2+ GEA)' },
+  'T-DXd（DS-8201）+ 纳武利尤单抗': { orr: '74%', pfs: null, pfs_hr: null, trial: 'DESTINY-Gastric04 (HER2+ 1L)' },
+  // ── CERVICAL ──
+  '卡度利尼（AK104）+ 化疗': { pfs: '9.8m', pfs_hr: '0.62', orr: '71%', trial: 'COMPASSION-16 (1L HPV+)' },
+  'Tisotumab Vedotin（TV，Tivdak）': { os: '11.5m', os_hr: '0.70', pfs: '4.2m', pfs_hr: '0.67', orr: '17.8%', trial: 'innovaTV 301 (2L+)' },
+  'Pembrolizumab + Tisotumab Vedotin': { orr: '41%', pfs: '10.8m', pfs_hr: '0.58', trial: 'innovaTV 304 (1L CPS≥1)' },
+  '卡度利尼（AK104）US approval': { orr: '33.3%', trial: 'COMPASSION-16 (2L+)' },
+  // ── PROSTATE ──
+  '177Lu-PSMA-617（Pluvicto）': { os: '15.3m', os_hr: '0.62', pfs: '8.7m', pfs_hr: '0.40', orr: '30%', trial: 'VISION (3L+ mCRPC PSMA+)' },
+  'Olaparib + Abiraterone（PROpel）': { os: '42.1m', os_hr: '0.81 (ITT)', pfs: '24.8m', pfs_hr: '0.66', orr: '58%', trial: 'PROpel (1L mCRPC HRR不限)' },
+  'Niraparib + Abiraterone（MAGNITUDE）': { pfs: '16.7m', pfs_hr: '0.53 (BRCA1/2)', orr: null, trial: 'MAGNITUDE (1L mCRPC BRCA1/2)' },
+  'ARV-110 (Bavdegalutamide)': { orr: '30%', pfs: '6.0m', pfs_hr: null, trial: 'Phase 1/2 (AR LBD突变)' },
+  '177Lu-PSMA-I&T': { pfs_hr: '0.41', orr: null, trial: 'ECLIPSE (3L+ PSMA+)' },
+  // ── LIVER ──
+  '度伐利尤单抗 + 替西木单抗（STRIDE方案）': { os: '16.4m', os_hr: '0.78', pfs: '3.8m', pfs_hr: '0.90', orr: '20%', trial: 'HIMALAYA (1L HCC vs sorafenib)' },
+  '帕博利珠单抗 + 仑伐替尼': { os: '21.2m', os_hr: '0.79', pfs: '8.2m', pfs_hr: '0.67', orr: '36%', trial: 'LEAP-002 (1L HCC, p=0.0227 not sig)' },
+  'Camrelizumab + Rivoceranib': { os: '22.1m', os_hr: '0.62', pfs: '5.6m', pfs_hr: '0.52', orr: '25%', trial: 'CARES-310 (1L HCC)' },
+  'Linrodostat + 纳武利尤单抗（IDO1+PD-1）': { orr: '23%', pfs: '3.7m', pfs_hr: null, trial: 'Phase 2 (2L+ HCC IDO1+)' },
+  // ── BLADDER ──
+  'Enfortumab Vedotin（EV）+ Pembrolizumab': { os: '31.5m', os_hr: '0.47', pfs: '12.5m', pfs_hr: '0.45', orr: '68%', trial: 'EV-302/KEYNOTE-869 (1L mUC)' },
+  'Sacituzumab Govitecan（Trodelvy，UC）': { os: '11.2m', os_hr: '0.78', pfs: '5.5m', pfs_hr: '0.67', orr: '27%', trial: 'TROPiCS-02 (2L+ mUC)' },
+  'GC + Nivolumab (CheckMate-901)': { os: '21.7m', os_hr: '0.78', pfs: '7.9m', pfs_hr: '0.72', orr: '47%', trial: 'CheckMate-901 (1L mUC)' },
+  // ── ESOPHAGEAL ──
+  '卡度利尼（AK104）+ 化疗': { pfs: '7.5m', pfs_hr: '0.62', orr: '60%', trial: 'AK104-301 (1L ESCC)' },
+  'Tislelizumab + Chemotherapy': { os: '17.2m', os_hr: '0.66', pfs: '7.3m', pfs_hr: '0.62', orr: '63%', trial: 'RATIONALE-306 (1L ESCC/EAC)' },
+  // ── THYROID ──
+  'Selpercatinib（RET融合 DTC）': { pfs: 'NR', pfs_hr: '0.28', orr: '82%', trial: 'LIBRETTO-431 (1L vs standard)' },
+  'Pralsetinib（BLU-667，RET融合）': { orr: '71%', pfs: '13.1m', pfs_hr: null, trial: 'ARROW (RET fusion thyroid)' },
+  'Cabozantinib (RAI-R DTC 2L)': { orr: '15%', pfs: '11.0m', pfs_hr: '0.54', trial: 'COSMIC-311 (2L DTC)' },
+  // ── ENDOMETRIAL ──
+  'Mirvetuximab soravtansine（FRα ADC）': { os: '16.9m', os_hr: '0.67', pfs: '5.6m', pfs_hr: '0.65', orr: '42%', trial: 'MIRASOL (3L+ FRα-high OC — also EC)' },
+  'Trastuzumab Deruxtecan (T-DXd) - HER2+ EC': { orr: '58%', pfs: '11.3m', pfs_hr: '0.36', trial: 'DESTINY-PanTumor02 (HER2+ EC)' },
+  // ── NSCLC IO 跨品类 ──
+  'Nivolumab + Ipilimumab (CheckMate-227 已批)': { os: '17.1m', os_hr: '0.73', pfs: '5.1m', pfs_hr: '0.82', orr: '36%', trial: 'CheckMate-227 (TMB-H ≥10)' },
+  '派安普利单抗（安尼可）+ 化疗': { pfs: '7.0m', pfs_hr: '0.55', orr: '56%', trial: 'AK105-302 (1L NSCLC)' },
+};

@@ -1,0 +1,405 @@
+{
+  "id": "colorectal_cancer",
+  "name_cn": "结直肠癌",
+  "name_en": "Colorectal Cancer (CRC)",
+  "subtypes": [
+    {
+      "id": "crc_ras_wt",
+      "name_cn": "结直肠癌 - RAS野生型",
+      "name_en": "CRC - RAS Wild-type",
+      "china": {
+        "annual_new_cases": 180000,
+        "annual_new_cases_note": "约占CRC的45-50%",
+        "tam_rmb_bn": 11,
+        "diagnosis_steps": [
+          "肠镜活检（病理确认腺癌）",
+          "RAS（KRAS/NRAS）、BRAF V600E基因检测",
+          "MMR/MSI状态检测",
+          "CT分期（胸/腹/盆）",
+          "左半结肠 vs 右半结肠（影响靶向药选择）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（转移性）",
+            "label_en": "1st Line (Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "FOLFOX/FOLFIRI + 西妥昔单抗（爱必妥）",
+                "name_en": "FOLFOX/FOLFIRI + Cetuximab (Erbitux)",
+                "manufacturer": "默克 Merck KGaA",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "左半结肠优先（PARADIGM研究）",
+                  "RAS/BRAF野生型一线标准",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "FOLFOX + 贝伐珠单抗（安维汀）",
+                "name_en": "FOLFOX + Bevacizumab (Avastin)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "右半结肠优先",
+                  "VEGF抑制剂，广泛应用",
+                  "生物类似药已上市"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Fruzaqintinib（呋喹替尼）",
+                "name_en": "Fruzaqintinib (Fruquintinib/Fruzoky)",
+                "company": "和黄医药 HUTCHMED",
+                "stage": "已上市（中国+美国）",
+                "trial": "FRESCO-2",
+                "status": "后线CRC，2023年FDA获批，国产创新药出海"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 75000,
+        "annual_new_cases_note": "~50% of all CRC",
+        "tam_usd_bn": 4,
+        "diagnosis_steps": [
+          "Colonoscopy biopsy",
+          "RAS/BRAF/MSI/HER2 testing",
+          "Sidedness assessment (left vs right)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "FOLFOX/FOLFIRI + Cetuximab",
+                "name_en": "FOLFOX/FOLFIRI + Cetuximab (Erbitux)",
+                "manufacturer": "Merck KGaA / Eli Lilly (US rights)",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 180000,
+                "market_share": "35%",
+                "selling_points": [
+                  "Left-sided CRC preferred (PARADIGM)",
+                  "NCCN Category 1"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Sotorasib + Panitumumab（BRAF/KRAS RAS wt后线）",
+                "name_en": "Sotorasib + Panitumumab",
+                "company": "Amgen",
+                "stage": "Phase 3",
+                "trial": "CodeBreaK 300",
+                "status": "KRAS G12C CRC 2L+, FDA approved 2023"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crc_ras_mutant",
+      "name_cn": "结直肠癌 - RAS突变型",
+      "name_en": "CRC - RAS Mutant (KRAS/NRAS)",
+      "china": {
+        "annual_new_cases": 200000,
+        "annual_new_cases_note": "约占CRC的50-55%，包括KRAS/NRAS各类突变",
+        "tam_rmb_bn": 6,
+        "diagnosis_steps": [
+          "肠镜活检（病理确认腺癌）",
+          "RAS（KRAS/NRAS）基因检测（突变型）",
+          "BRAF V600E检测",
+          "MMR/MSI状态检测",
+          "CT分期"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（转移性）",
+            "label_en": "1st Line (Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "FOLFOX/FOLFIRI + 贝伐珠单抗（安维汀）",
+                "name_en": "FOLFOX/FOLFIRI + Bevacizumab (Avastin)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "60%",
+                "selling_points": [
+                  "RAS突变型不可用EGFR抑制剂",
+                  "贝伐珠单抗+化疗一线标准",
+                  "医保报销，生物类似药可及"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "FOLFOXIRI + 贝伐珠单抗",
+                "name_en": "FOLFOXIRI + Bevacizumab",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 140000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "TRIBE研究：三药方案高强度",
+                  "适用于体能状态佳患者"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Adagrasib + Cetuximab（KRAS G12C）",
+                "name_en": "Adagrasib + Cetuximab",
+                "company": "Mirati / 默克BV",
+                "stage": "已上市（美国2024）",
+                "trial": "KRYSTAL-10",
+                "status": "KRAS G12C CRC二线，FDA批准2024，中国申报中"
+              }
+            ]
+          },
+          {
+            "line": 3,
+            "label_cn": "三线及后线治疗",
+            "label_en": "3rd Line+",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "呋喹替尼（爱朗）",
+                "name_en": "Fruquintinib (Elunate)",
+                "manufacturer": "和黄医药 HUTCHMED",
+                "annual_cost_rmb": 90000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "FRESCO研究：OS 9.3m vs 6.6m",
+                  "2018年NMPA批准，首个国产三线CRC靶向药",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "瑞戈非尼（拜万戈）",
+                "name_en": "Regorafenib (Stivarga)",
+                "manufacturer": "拜耳 Bayer",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "CORRECT研究，三线标准方案",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "TAS-102（曲氟尿苷替匹嘧啶）",
+                "name_en": "TAS-102 (Trifluridine/Tipiracil)",
+                "manufacturer": "大鹏药品 Taiho",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "RECOURSE研究：OS 7.1m vs 5.3m",
+                  "三线标准方案"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 80000,
+        "annual_new_cases_note": "~50-55% of all CRC new cases",
+        "tam_usd_bn": 2.5,
+        "diagnosis_steps": [
+          "Colonoscopy biopsy",
+          "Comprehensive biomarker panel (RAS, BRAF, MSI, HER2)",
+          "CT staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "FOLFOX/FOLFIRI + Bevacizumab",
+                "name_en": "FOLFOX/FOLFIRI + Bevacizumab (Avastin)",
+                "manufacturer": "Genentech / Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 150000,
+                "market_share": "55%",
+                "selling_points": [
+                  "Standard 1L for RAS-mutant mCRC",
+                  "NCCN Category 1"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Adagrasib + Cetuximab（KRAS G12C）",
+                "name_en": "Adagrasib + Cetuximab",
+                "company": "Mirati",
+                "stage": "已上市（FDA 2024）",
+                "trial": "KRYSTAL-10",
+                "status": "KRAS G12C CRC 2L+, FDA approved Jan 2024"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crc_other",
+      "name_cn": "结直肠癌 - MSI-H/BRAF突变型",
+      "name_en": "CRC - MSI-H / BRAF V600E",
+      "china": {
+        "annual_new_cases": 30000,
+        "annual_new_cases_note": "MSI-H约占CRC的5%（中国低于西方），BRAF V600E约5-8%",
+        "tam_rmb_bn": 4,
+        "diagnosis_steps": [
+          "肠镜活检",
+          "MMR/MSI-H状态检测（IHC + PCR/NGS）",
+          "BRAF V600E基因检测",
+          "CT分期"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（MSI-H）",
+            "label_en": "1st Line (MSI-H)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）单药",
+                "name_en": "Pembrolizumab (Keytruda) monotherapy",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "50%",
+                "selling_points": [
+                  "KEYNOTE-177：PFS 16.5m vs 8.2m vs 化疗",
+                  "MSI-H mCRC一线免疫单药标准",
+                  "FDA/NMPA批准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Nivolumab + Ipilimumab（CheckMate-8HW）",
+                "name_en": "Nivolumab + Ipilimumab",
+                "company": "BMS",
+                "stage": "已上市（美国2024）",
+                "trial": "CheckMate-8HW",
+                "status": "双免疫方案，MSI-H mCRC 1L，PFS优于K药单药，NMPA申报中"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（BRAF V600E）",
+            "label_en": "2nd Line (BRAF V600E)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Encorafenib + 西妥昔单抗",
+                "name_en": "Encorafenib + Cetuximab (Braftovi + Erbitux)",
+                "manufacturer": "辉瑞/默克KGaA Pfizer/Merck",
+                "annual_cost_rmb": 300000,
+                "annual_cost_usd": null,
+                "market_share": "60%",
+                "selling_points": [
+                  "BEACON研究：OS 9.0m vs 5.4m vs chemo",
+                  "BRAF V600E CRC 2L标准",
+                  "NMPA批准"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 15000,
+        "annual_new_cases_note": "MSI-H ~5-10% of CRC, BRAF V600E ~8-10%",
+        "tam_usd_bn": 2,
+        "diagnosis_steps": [
+          "Colonoscopy biopsy",
+          "MSI/MMR status (IHC + PCR)",
+          "BRAF V600E mutation testing",
+          "CT/PET staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（MSI-H）",
+            "label_en": "1st Line (MSI-H)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "Merck & Co.",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 250000,
+                "market_share": "40%",
+                "selling_points": [
+                  "KEYNOTE-177: PFS benefit vs chemo",
+                  "FDA approved 2020 for MSI-H mCRC 1L"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Ipilimumab",
+                "name_en": "Nivolumab + Ipilimumab (Opdivo + Yervoy)",
+                "manufacturer": "BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 380000,
+                "market_share": "30%",
+                "selling_points": [
+                  "CheckMate-8HW: Superior PFS vs pembrolizumab",
+                  "FDA approved 2024"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（BRAF V600E）",
+            "label_en": "2nd Line (BRAF V600E)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Encorafenib + Cetuximab",
+                "name_en": "Encorafenib + Cetuximab (Braftovi + Erbitux)",
+                "manufacturer": "Pfizer / Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 350000,
+                "market_share": "65%",
+                "selling_points": [
+                  "BEACON CRC: OS 9.0m vs 5.4m",
+                  "FDA approved 2020, NCCN Category 1"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      }
+    }
+  ]
+}

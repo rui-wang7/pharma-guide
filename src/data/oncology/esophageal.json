@@ -1,0 +1,219 @@
+{
+  "id": "esophageal_cancer",
+  "name_cn": "食管癌",
+  "name_en": "Esophageal Cancer",
+  "subtypes": [
+    {
+      "id": "esophageal_advanced",
+      "name_cn": "晚期/转移性食管癌（ESCC/EAC）",
+      "name_en": "Advanced / Metastatic Esophageal Cancer",
+      "china": {
+        "annual_new_cases": 320000,
+        "annual_new_cases_note": "中国食管癌发病率全球最高，约占全球53%，鳞癌（ESCC）占90%以上",
+        "tam_rmb_bn": 4,
+        "diagnosis_steps": [
+          "胃镜 + 活检病理（鳞癌vs腺癌区分）",
+          "PD-L1 CPS检测（22C3抗体）",
+          "HER2检测（腺癌亚型）",
+          "CT分期（胸/腹/盆）",
+          "超声内镜（T分期）"
+        ],
+        "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "根治性手术/新辅助",
+            "label_en": "Curative Surgery / Neoadjuvant",
+            "options": [
+              {
+                "type": "surgery",
+                "name_cn": "食管切除术（Ivor-Lewis/三切口）",
+                "description": "IIA-IIIB期可切除食管癌标准治疗"
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗辅助（CheckMate-577，术后）",
+                "name_en": "Nivolumab (Opdivo) adjuvant - CheckMate-577",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "CheckMate-577：DFS 22.4m vs 11.0m（新辅助CRT后非pCR）",
+                  "NMPA批准食管/GEJ癌辅助治疗",
+                  "首个食管癌获批IO辅助方案"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（晚期/转移）",
+            "label_en": "1st Line (Advanced/Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗 + 化疗（ESCC/EAC）",
+                "name_en": "Nivolumab (Opdivo) + Chemotherapy",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 250000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "CheckMate-648（ESCC）：OS 13.2m vs 10.7m（全人群）；CPS≥5 OS 15.4m vs 9.1m",
+                  "NMPA 2022年批准晚期ESCC一线"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 化疗（ESCC/EAC）",
+                "name_en": "Pembrolizumab (Keytruda) + Chemotherapy",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 270000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "KEYNOTE-590（ESCC）：OS 12.6m vs 9.8m（全人群）；CPS≥10 OS 13.9m vs 8.8m",
+                  "NMPA 2021年批准，医保谈判覆盖"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡瑞利珠单抗 + 化疗",
+                "name_en": "Camrelizumab + Chemotherapy",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "ESCORT-1st：OS 15.3m vs 12.0m（ESCC一线）",
+                  "国产PD-1，医保报销，价格优势明显"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "替雷利珠单抗 + 化疗",
+                "name_en": "Tislelizumab + Chemotherapy",
+                "manufacturer": "百济神州 BeiGene",
+                "annual_cost_rmb": 130000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "RATIONALE-306：OS 17.2m vs 10.6m（ESCC）",
+                  "全人群获益，无需PD-L1筛选",
+                  "FDA 2023年批准食管癌（中国药出海）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "卡度利尼（AK104）+ 化疗",
+                "name_en": "Cadonilimab + Chemotherapy",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3",
+                "trial": "HARMONi-6",
+                "status": "PD-1/CTLA-4双抗+化疗，食管癌一线，探索优于单PD-1"
+              },
+              {
+                "name_cn": "依沃西单抗（AK112）+ 化疗",
+                "name_en": "Ivonescimab (AK112) + Chemotherapy",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3",
+                "trial": "AK112-303",
+                "status": "PD-1/VEGF双抗，食管癌一线探索"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（CPS≥10）",
+                "name_en": "Pembrolizumab (CPS≥10)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "KEYNOTE-181：CPS≥10 OS 10.3m vs 6.7m",
+                  "NMPA批准二线ESCC（CPS≥10）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "紫杉醇/伊立替康（化疗）",
+                "name_en": "Paclitaxel / Irinotecan (2nd line chemo)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 20000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "标准二线化疗，医保报销",
+                  "铂类一线进展后"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 22000,
+        "annual_new_cases_note": "US esophageal cancer ~22,000/yr; predominantly adenocarcinoma (EAC) in the West",
+        "tam_usd_bn": 1.2,
+        "diagnosis_steps": [
+          "Endoscopy + biopsy",
+          "PD-L1 CPS (22C3)",
+          "HER2 testing (adenocarcinoma)",
+          "CT staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Chemotherapy",
+                "name_en": "Nivolumab (Opdivo) + FOLFOX/Cisplatin+5FU",
+                "manufacturer": "BMS",
+                "annual_cost_usd": 300000,
+                "market_share": "40%",
+                "selling_points": [
+                  "CheckMate-648: OS 13.2m all comers; CPS≥5 OS 15.4m",
+                  "FDA approved 2021 (ESCC + EAC/GEJ)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab + Chemotherapy",
+                "name_en": "Pembrolizumab (Keytruda) + Chemo",
+                "manufacturer": "Merck",
+                "annual_cost_usd": 280000,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-590: OS 12.4m vs 9.8m (all comers)",
+                  "FDA approved 2021 (ESCC + EAC)"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Tislelizumab + Chemotherapy",
+                "name_en": "Tislelizumab (Tevimbra) + Chemo",
+                "company": "BeiGene",
+                "stage": "已上市（美国2023）",
+                "trial": "RATIONALE-306",
+                "status": "FDA approved 2023 (ESCC), OS 17.2m vs 10.6m, all-comer benefit"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

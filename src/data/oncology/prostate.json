@@ -1,0 +1,226 @@
+{
+  "id": "prostate_cancer",
+  "name_cn": "前列腺癌",
+  "name_en": "Prostate Cancer",
+  "subtypes": [
+    {
+      "id": "prostate_crpc",
+      "name_cn": "去势抵抗性前列腺癌（mCRPC）",
+      "name_en": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "china": {
+        "annual_new_cases": 35000,
+        "annual_new_cases_note": "中国前列腺癌发病率快速上升，每年新发约11.5万，mCRPC约占30%",
+        "tam_rmb_bn": 4,
+        "diagnosis_steps": [
+          "PSA检测 + 直肠指检（DRE）",
+          "前列腺穿刺活检（TRUS引导）",
+          "Gleason/ISUP分级",
+          "骨扫描 + CT（排查转移）",
+          "PSMA PET-CT（更敏感）",
+          "BRCA1/2 / HRR基因检测",
+          "去势抵抗确认：去势状态下（睾酮<50ng/dL）PSA进展"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（mCRPC）",
+            "label_en": "1st Line (mCRPC)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "恩扎鲁胺（安可坦）",
+                "name_en": "Enzalutamide (Xtandi)",
+                "manufacturer": "安斯泰来/辉瑞 Astellas/Pfizer",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "PREVAIL研究：rPFS和OS均获益",
+                  "新一代雄激素受体抑制剂（ARi）",
+                  "医保谈判纳入（2022年）",
+                  "口服，依从性好"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "阿比特龙（泽珂）+ 泼尼松",
+                "name_en": "Abiraterone (Zytiga) + Prednisone",
+                "manufacturer": "强生/杨森 Janssen",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "COU-AA-301/302研究：OS获益",
+                  "CYP17A1抑制剂，阻断雄激素合成",
+                  "医保报销，仿制药广泛可及"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "多西他赛 + 泼尼松",
+                "name_en": "Docetaxel + Prednisone",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 30000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "TAX327研究：经典化疗方案",
+                  "医保报销，价格低廉",
+                  "高负荷患者仍广泛使用"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "177Lu-PSMA-617（Pluvicto）",
+                "name_en": "177Lu-PSMA-617 (Lutetium Vipivotide Tetraxetan / Pluvicto)",
+                "company": "诺华 Novartis",
+                "stage": "已上市（美国2022）/ 中国申报",
+                "trial": "VISION",
+                "status": "放射配体疗法，VISION：rPFS 8.7m vs 3.4m，OS 15.3m vs 11.3m，中国申报NDA中"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（BRCA突变 / 后线）",
+            "label_en": "2nd Line (BRCA+ / Post-NHA)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "奥拉帕利（BRCA1/2突变）",
+                "name_en": "Olaparib (Lynparza) - BRCA1/2+",
+                "manufacturer": "阿斯利康/默沙东 AZ/MSD",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "PROfound研究：rPFS 7.4m vs 3.5m（BRCA1/2）",
+                  "NMPA批准HRR突变mCRPC适应症",
+                  "生物标志物精准用药"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡巴他赛（杰素）",
+                "name_en": "Cabazitaxel (Jevtana)",
+                "manufacturer": "赛诺菲 Sanofi",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "TROPIC研究：多西他赛耐药后OS获益",
+                  "三线化疗方案，CARD研究优于阿比特龙/恩扎鲁胺（ARi耐药后）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Olaparib + Abiraterone（PROpel）",
+                "name_en": "Olaparib + Abiraterone (PROpel)",
+                "company": "阿斯利康/强生 AZ/Janssen",
+                "stage": "已上市（美国2023）/ 中国申报",
+                "trial": "PROpel",
+                "status": "HRR突变+野生型均有获益，rPFS 24.8m vs 16.6m，FDA 2023年批准一线mCRPC"
+              },
+              {
+                "name_cn": "Niraparib + Abiraterone（MAGNITUDE）",
+                "name_en": "Niraparib + Abiraterone (MAGNITUDE)",
+                "company": "强生 Janssen",
+                "stage": "已上市（美国）/ 中国申报",
+                "trial": "MAGNITUDE",
+                "status": "BRCA1/2突变人群获益显著，rPFS 16.7m vs 10.9m，FDA批准"
+              },
+              {
+                "name_cn": "177Lu-PSMA-I&T",
+                "name_en": "177Lu-PSMA-I&T (Locametz)",
+                "company": "诺华 Novartis",
+                "stage": "已上市（美国诊断用）/ 治疗用研究中",
+                "trial": "SPLASH",
+                "status": "PSMA放射配体第二代，SPLASH Phase 3"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 35000,
+        "annual_new_cases_note": "US mCRPC ~35,000 new patients/yr; PCa is most common male cancer",
+        "tam_usd_bn": 10,
+        "diagnosis_steps": [
+          "PSA + DRE screening",
+          "Biopsy (TRUS or MRI-guided)",
+          "Gleason/ISUP grading",
+          "Staging: bone scan, CT, PSMA PET-CT",
+          "HRR/BRCA1/2 germline + somatic testing",
+          "Castration-resistance confirmation (testosterone <50 ng/dL)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line (mCRPC)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Enzalutamide",
+                "name_en": "Enzalutamide (Xtandi)",
+                "manufacturer": "Astellas / Pfizer",
+                "annual_cost_usd": 180000,
+                "market_share": "35%",
+                "selling_points": [
+                  "PREVAIL: rPFS + OS benefit",
+                  "ARCHES/ENZAMET: nmCRPC + mHSPC approved",
+                  "Most prescribed ARi globally"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Abiraterone + Prednisone",
+                "name_en": "Abiraterone (Zytiga/generics)",
+                "manufacturer": "Janssen / generics",
+                "annual_cost_usd": 15000,
+                "market_share": "30%",
+                "selling_points": [
+                  "Generic available, cost dropped 90%",
+                  "COU-AA-302 chemotherapy-naive"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "177Lu-PSMA-617",
+                "name_en": "Lutetium Vipivotide Tetraxetan (Pluvicto)",
+                "manufacturer": "Novartis",
+                "annual_cost_usd": 200000,
+                "market_share": "15%",
+                "selling_points": [
+                  "VISION: rPFS 8.7m vs 3.4m, OS 15.3m",
+                  "FDA approved 2022, PSMA+ mCRPC post-ARi+taxane",
+                  "Theranostics paradigm"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "ARV-110 (Bavdegalutamide)",
+                "name_en": "Bavdegalutamide (ARV-110)",
+                "company": "Arvinas / Pfizer",
+                "stage": "Phase 3",
+                "trial": "ACTAN",
+                "status": "PROTAC androgen receptor degrader, AR-LBD mutation patients"
+              },
+              {
+                "name_cn": "PSMA-TTC (225Ac-PSMA-617)",
+                "name_en": "Actinium-225 PSMA-617",
+                "company": "Novartis",
+                "stage": "Phase 3",
+                "trial": "ALPHA",
+                "status": "Alpha particle therapy, more lethal per track than Lu-177"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

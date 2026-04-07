@@ -1,9 +1,27 @@
-import oncology from './oncology.json';
-import immune from './immune.json';
-import metabolic from './metabolic.json';
+// Oncology diseases (split by disease for easier maintenance)
+import oncologyMeta from './oncology/_meta.json';
+import lung         from './oncology/lung.json';
+import breast       from './oncology/breast.json';
+import colorectal   from './oncology/colorectal.json';
+import gastric      from './oncology/gastric.json';
+import cervical     from './oncology/cervical.json';
+import prostate     from './oncology/prostate.json';
+import liver        from './oncology/liver.json';
+import bladder      from './oncology/bladder.json';
+import esophageal   from './oncology/esophageal.json';
+import thyroid      from './oncology/thyroid.json';
+import endometrial  from './oncology/endometrial.json';
+
+import immune        from './immune.json';
+import metabolic     from './metabolic.json';
 import cardiovascular from './cardiovascular.json';
-import neuro from './neuro.json';
+import neuro         from './neuro.json';
 import { EU_SURVIVAL, CLINICAL_ENDPOINTS, PIPELINE_ENDPOINTS } from './supplemental.js';
+
+const oncology = {
+  ...oncologyMeta,
+  diseases: [lung, breast, colorectal, gastric, cervical, prostate, liver, bladder, esophageal, thyroid, endometrial],
+};
 
 export const CATEGORIES = [oncology, immune, metabolic, cardiovascular, neuro];
 

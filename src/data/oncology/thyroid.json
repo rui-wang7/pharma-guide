@@ -1,0 +1,206 @@
+{
+  "id": "thyroid_cancer",
+  "name_cn": "甲状腺癌",
+  "name_en": "Thyroid Cancer",
+  "subtypes": [
+    {
+      "id": "thyroid_rai_refractory",
+      "name_cn": "放射碘难治性分化型甲状腺癌（RAI-R DTC）",
+      "name_en": "RAI-Refractory Differentiated Thyroid Cancer (RAI-R DTC)",
+      "china": {
+        "annual_new_cases": 25000,
+        "annual_new_cases_note": "中国甲状腺癌发病率快速上升，为女性最常见癌症之一，但RAI-R DTC仅约5%",
+        "tam_rmb_bn": 1.1,
+        "diagnosis_steps": [
+          "甲状腺超声 + 细针穿刺（FNA）",
+          "甲状腺功能（TSH/T3/T4/Tg）",
+          "RAI扫描（诊断+治疗）",
+          "RAI难治定义：RAI治疗后18个月内进展，或摄碘阴性",
+          "BRAF V600E、RET/PTC融合、NTRK融合检测"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线靶向治疗（RAI-R DTC）",
+            "label_en": "1st Line TKI (RAI-R DTC)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "仑伐替尼（乐卫玛）",
+                "name_en": "Lenvatinib (Lenvima)",
+                "manufacturer": "卫材/默沙东 Eisai/MSD",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "55%",
+                "selling_points": [
+                  "SELECT研究：PFS 18.3m vs 3.6m（安慰剂）",
+                  "多靶点TKI（VEGFR/FGFR/RET/KIT）",
+                  "NMPA批准RAI-R DTC，医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "索拉非尼（多吉美）",
+                "name_en": "Sorafenib (Nexavar)",
+                "manufacturer": "拜耳 Bayer",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "DECISION研究：PFS 10.8m vs 5.8m",
+                  "首个获批RAI-R DTC的TKI",
+                  "医保报销，仿制药可及"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Selpercatinib（RET融合 DTC）",
+                "name_en": "Selpercatinib (Retevmo)",
+                "company": "礼来 Eli Lilly",
+                "stage": "已上市（美国/欧洲）/ 中国NDA获批",
+                "trial": "LIBRETTO-001/-531",
+                "status": "高选择性RET抑制剂，RET融合DTC ORR 79%，FDA 2020批准，NMPA 2023批准"
+              },
+              {
+                "name_cn": "Pralsetinib（BLU-667，RET融合）",
+                "name_en": "Pralsetinib (Gavreto)",
+                "company": "罗氏/Blueprint Medicines",
+                "stage": "已上市（美国）/ 中国NDA审批",
+                "trial": "ARROW",
+                "status": "RET抑制剂，ARROW研究DTC ORR 71%，FDA批准，中国NDA中"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 8000,
+        "annual_new_cases_note": "US RAI-R DTC ~8,000/yr; total thyroid cancer ~44,000/yr",
+        "tam_usd_bn": 0.6,
+        "diagnosis_steps": [
+          "Ultrasound + FNA biopsy",
+          "RAI scan (diagnostic + therapeutic)",
+          "BRAF V600E, RET/PTC, NTRK fusion testing",
+          "RAI-refractory definition: progression within 18 months of RAI"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Lenvatinib",
+                "name_en": "Lenvatinib (Lenvima)",
+                "manufacturer": "Eisai / Merck",
+                "annual_cost_usd": 180000,
+                "market_share": "60%",
+                "selling_points": [
+                  "SELECT: PFS 18.3m vs 3.6m",
+                  "FDA approved 2015, NCCN Category 1"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Cabozantinib (RAI-R DTC 2L)",
+                "name_en": "Cabozantinib (Cometriq / Cabometyx)",
+                "company": "Exelixis",
+                "stage": "已上市（FDA 2022批准2L DTC）",
+                "trial": "COSMIC-311",
+                "status": "PFS 11.0m vs 1.9m after lenvatinib/sorafenib, FDA 2022 approved"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "medullary_thyroid",
+      "name_cn": "甲状腺髓样癌（MTC）",
+      "name_en": "Medullary Thyroid Cancer (MTC)",
+      "china": {
+        "annual_new_cases": 5000,
+        "annual_new_cases_note": "MTC仅占甲状腺癌3-5%，但恶性度高，RET突变约95%",
+        "tam_rmb_bn": 0.3,
+        "diagnosis_steps": [
+          "降钙素 + CEA检测",
+          "RET基因检测（胚系 + 体细胞突变）",
+          "RAS突变检测（RET野生型）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线靶向治疗",
+            "label_en": "1st Line Targeted",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "塞普替尼（Retevmo，RET突变）",
+                "name_en": "Selpercatinib (Retevmo)",
+                "manufacturer": "礼来 Eli Lilly",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "LIBRETTO-001：ORR 69%（RET突变MTC）",
+                  "CNS活性，颅内转移有效",
+                  "NMPA批准RET突变MTC"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡博替尼（Cometriq）",
+                "name_en": "Cabozantinib (Cometriq)",
+                "manufacturer": "益世力 Exelixis",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "EXAM研究：PFS 11.2m vs 4.0m",
+                  "MET/VEGFR/RET多靶点TKI",
+                  "仿制药进入后价格下降"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 1000,
+        "annual_new_cases_note": "US MTC ~1,000 new cases/yr",
+        "tam_usd_bn": 0.3,
+        "diagnosis_steps": [
+          "Calcitonin + CEA",
+          "RET germline + somatic testing",
+          "RAS testing (RET-wild type)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Selpercatinib（RET突变）",
+                "name_en": "Selpercatinib (Retevmo)",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_usd": 320000,
+                "market_share": "50%",
+                "selling_points": [
+                  "LIBRETTO-001: ORR 69% (RET-mut MTC)",
+                  "FDA approved 2020, Category 1 NCCN"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      }
+    }
+  ]
+}

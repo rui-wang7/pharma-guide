@@ -65,11 +65,26 @@ export const EU_SURVIVAL = {
     china: { prevalence: 400000, median_survival_years: 2.5 },
     us:    { prevalence: 200000, median_survival_years: 3.2 },
   },
+  crc_ras_mutant: {
+    eu: { annual_new_cases: 65000, tam_eur_bn: 2.0, prevalence: 190000 },
+    china: { prevalence: 420000, median_survival_years: 2.1 },
+    us:    { prevalence: 210000, median_survival_years: 2.6 },
+  },
+  crc_other: {
+    eu: { annual_new_cases: 12000, tam_eur_bn: 1.5, prevalence: 36000 },
+    china: { prevalence: 50000, median_survival_years: 1.8 },
+    us:    { prevalence: 40000, median_survival_years: 2.3 },
+  },
   // ── GASTRIC ──
   gastric_her2pos: {
     eu: { annual_new_cases: 6000, tam_eur_bn: 0.8, prevalence: 12000 },
     china: { prevalence: 120000, median_survival_years: 1.4 },  // 85k×1.4yr≈119k
     us:    { prevalence: 9000,   median_survival_years: 1.8 },  // 5k×1.8yr≈9k
+  },
+  gastric_her2neg: {
+    eu: { annual_new_cases: 50000, tam_eur_bn: 2.5, prevalence: 70000 },
+    china: { prevalence: 490000, median_survival_years: 1.4 },  // 350k×1.4yr≈490k
+    us:    { prevalence: 25000,  median_survival_years: 1.4 },
   },
   // ── CERVICAL ──
   cervical_advanced: {
@@ -324,7 +339,12 @@ export const PIPELINE_ENDPOINTS = {
   'Dato-DXd（HER2低表达）': { pfs: '6.9m', pfs_hr: '0.63', orr: '36%', trial: 'TROPION-Breast01 subgroup' },
   // ── CRC ──
   'Fruzaqintinib（呋喹替尼）': { os: '7.4m', os_hr: '0.66', pfs: '3.7m', pfs_hr: '0.32', orr: '1.5%', trial: 'FRESCO-2 (4L+ mCRC)' },
+  // ── NSCLC EGFR ──
+  '贝福替尼（贝美纳）': { os: null, pfs: '22.1m', pfs_hr: '0.49', orr: '89%', trial: 'BEAT (1L vs gefitinib, NMPA approved 2023)' },
+  '贝福替尼（T790M阳性）': { orr: '~70%', pfs: null, pfs_hr: null, trial: 'Phase 1/2 T790M+ 2L (NMPA 2023)' },
   // ── GASTRIC ──
+  '卡度尼利单抗（开坦尼）+ 化疗': { os: '15.0m', os_hr: '0.62', pfs: '7.1m', pfs_hr: '0.58', orr: '58%', trial: 'COMPASSION-15 (1L HER2- gastric, NMPA Dec 2024)' },
+  '信迪利单抗（达伯舒）+ 化疗': { os: '15.2m', os_hr: '0.77', pfs: '7.1m', pfs_hr: '0.64', orr: '59%', trial: 'ORIENT-16 (1L HER2- gastric)' },
   'Zanidatamab + 化疗': { pfs: '10.6m', pfs_hr: '0.72', orr: '67%', trial: 'HERIZON-GEA-01 (1L HER2+ GEA)' },
   'T-DXd（DS-8201）+ 纳武利尤单抗': { orr: '74%', pfs: null, pfs_hr: null, trial: 'DESTINY-Gastric04 (HER2+ 1L)' },
   // ── CERVICAL ──

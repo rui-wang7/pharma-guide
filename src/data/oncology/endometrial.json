@@ -1,0 +1,144 @@
+{
+  "id": "endometrial_cancer",
+  "name_cn": "子宫内膜癌",
+  "name_en": "Endometrial Cancer (Uterine Cancer)",
+  "subtypes": [
+    {
+      "id": "endometrial_advanced",
+      "name_cn": "晚期/复发子宫内膜癌",
+      "name_en": "Advanced / Recurrent Endometrial Cancer",
+      "china": {
+        "annual_new_cases": 80000,
+        "annual_new_cases_note": "中国子宫内膜癌发病率快速上升（城市化+肥胖），每年新发约8万，dMMR/MSI-H约30%",
+        "tam_rmb_bn": 1.4,
+        "diagnosis_steps": [
+          "子宫内膜活检/宫腔镜活检（病理确认）",
+          "MMR蛋白IHC（MLH1/MSH2/MSH6/PMS2）",
+          "MSI检测（MSI-H定义为dMMR）",
+          "POLE超突变检测",
+          "ER/PR激素受体检测",
+          "HER2检测（浆液性癌亚型）",
+          "CT分期 + CA-125"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（晚期/复发）",
+            "label_en": "1st Line (Advanced/Recurrent)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 仑伐替尼（pMMR）",
+                "name_en": "Pembrolizumab (Keytruda) + Lenvatinib (Lenvima)",
+                "manufacturer": "默沙东/卫材 MSD/Eisai",
+                "annual_cost_rmb": 350000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-775：OS 18.3m vs 11.4m（pMMR）",
+                  "pMMR人群独立获益，改变治疗格局",
+                  "NMPA 2022年批准复发子宫内膜癌"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 卡铂/紫杉醇（dMMR/MSI-H）",
+                "name_en": "Pembrolizumab + Carboplatin/Paclitaxel (dMMR)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "NRG-GY018：PFS HR 0.30（dMMR）",
+                  "dMMR一线化疗+IO标准方案",
+                  "NMPA申报中"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "多塔利单抗（Jemperli）+ 化疗",
+                "name_en": "Dostarlimab (Jemperli) + Carboplatin/Paclitaxel",
+                "manufacturer": "葛兰素史克 GSK",
+                "annual_cost_rmb": 320000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "RUBY研究：dMMR PFS HR 0.28，OS HR 0.32",
+                  "FDA 2023年批准一线+维持治疗",
+                  "中国NDA申报中"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Mirvetuximab soravtansine（FRα ADC）",
+                "name_en": "Mirvetuximab Soravtansine (Elahere)",
+                "company": "艾伯维 AbbVie (ImmunoGen收购)",
+                "stage": "已上市（铂耐药卵巢癌）/ 子宫内膜癌Phase 2",
+                "trial": "PICCOLO",
+                "status": "FRα ADC，子宫内膜癌FRα高表达亚型探索"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 67000,
+        "annual_new_cases_note": "US endometrial cancer ~67,000/yr, most common gynecological cancer",
+        "tam_usd_bn": 2,
+        "diagnosis_steps": [
+          "Endometrial biopsy or D&C",
+          "MMR IHC (MLH1/MSH2/MSH6/PMS2)",
+          "POLE mutation testing",
+          "HER2 (serous carcinoma)",
+          "CT staging + CA-125"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Dostarlimab + Carboplatin/Paclitaxel",
+                "name_en": "Dostarlimab (Jemperli) + Chemo",
+                "manufacturer": "GSK",
+                "annual_cost_usd": 280000,
+                "market_share": "30%",
+                "selling_points": [
+                  "RUBY: dMMR PFS HR 0.28, OS HR 0.32",
+                  "FDA approved 2023 (all comers 1L)",
+                  "Both dMMR and pMMR subgroups studied"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab + Lenvatinib",
+                "name_en": "Pembrolizumab (Keytruda) + Lenvatinib (Lenvima)",
+                "manufacturer": "Merck / Eisai",
+                "annual_cost_usd": 320000,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-775: OS 18.3m vs 11.4m (pMMR)",
+                  "FDA approved 2021",
+                  "Agnostic to MMR status"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Trastuzumab Deruxtecan (T-DXd) - HER2+ EC",
+                "name_en": "Trastuzumab Deruxtecan - HER2+ Endometrial",
+                "company": "Daiichi Sankyo / AZ",
+                "stage": "Phase 3",
+                "trial": "DESTINY-PanTumor02 + dedicated EC study",
+                "status": "HER2+ serous endometrial carcinoma, high unmet need"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

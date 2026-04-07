@@ -1,0 +1,235 @@
+{
+  "id": "cervical_cancer",
+  "name_cn": "宫颈癌",
+  "name_en": "Cervical Cancer",
+  "subtypes": [
+    {
+      "id": "cervical_advanced",
+      "name_cn": "宫颈癌（复发/转移/晚期）",
+      "name_en": "Cervical Cancer - Recurrent / Metastatic",
+      "china": {
+        "annual_new_cases": 120000,
+        "annual_new_cases_note": "中国宫颈癌发病率全球最高之一，每年新发约12万，死亡约5.7万",
+        "tam_rmb_bn": 2,
+        "diagnosis_steps": [
+          "宫颈活检病理（鳞癌约85%，腺癌约15%）",
+          "HPV分型检测（HPV16/18最常见）",
+          "PD-L1 CPS检测",
+          "盆腔MRI + CT分期（FIGO 2018分期）",
+          "HER2检测（腺癌亚型）"
+        ],
+        "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "早期手术/放化疗",
+            "label_en": "Early Stage (Surgery / CRT)",
+            "options": [
+              {
+                "type": "surgery",
+                "name_cn": "根治性子宫切除术（IA2-IIA期）",
+                "description": "广泛性子宫切除+盆腔淋巴结清扫，早期标准治疗"
+              },
+              {
+                "type": "drug",
+                "name_cn": "顺铂同步放化疗（CRT）",
+                "name_en": "Cisplatin-based Concurrent Chemoradiation",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 20000,
+                "annual_cost_usd": null,
+                "market_share": "70%",
+                "selling_points": [
+                  "局部晚期（IB3-IVA期）标准治疗",
+                  "顺铂每周40mg/m²，医保报销"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（复发/转移）",
+            "label_en": "1st Line (Recurrent / Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 化疗 ± 贝伐珠单抗（CPS≥1）",
+                "name_en": "Pembrolizumab + Chemo ± Bevacizumab (KEYNOTE-826)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 300000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-826：OS 28.6m vs 16.5m（全人群）",
+                  "CPS≥1人群OS 28.6m vs 17.5m",
+                  "NMPA 2023年批准宫颈癌一线"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "顺铂/卡铂 + 紫杉醇 ± 贝伐珠单抗",
+                "name_en": "Cisplatin/Carboplatin + Paclitaxel ± Bevacizumab",
+                "manufacturer": "通用/罗氏",
+                "annual_cost_rmb": 50000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "GOG-0240：贝伐珠单抗加入OS 17.0m vs 13.3m",
+                  "医保报销，广泛使用"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "依沃西单抗（AK112）+ 化疗",
+                "name_en": "Ivonescimab (AK112) + Chemotherapy",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3",
+                "trial": "AK112-302",
+                "status": "PD-1/VEGF双抗，宫颈癌一线，有望取代帕博利珠单抗+贝伐"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "卡度利尼（依达可来）",
+                "name_en": "Cadonilimab (Kaydivo / AK104)",
+                "manufacturer": "康方生物 Akeso Biopharma",
+                "annual_cost_rmb": 130000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "PD-1/CTLA-4双特异性抗体（全球首款）",
+                  "COMPASSION-16研究：ORR 33.3%（2L+宫颈癌）",
+                  "2022年NMPA全球首批（宫颈癌2L+适应症）",
+                  "比单纯PD-1具有更强CTLA-4协同效应",
+                  "康方生物自主研发，国际授权Summit Therapeutics"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（PD-L1+）",
+                "name_en": "Pembrolizumab (Keytruda) - PD-L1+",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "KEYNOTE-158：CPS≥1 ORR 14.6%",
+                  "FDA/NMPA批准宫颈癌二线"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Tisotumab Vedotin（TV，Tivdak）",
+                "name_en": "Tisotumab Vedotin (Tivdak)",
+                "company": "辉凌制药/Seagen（辉瑞收购）",
+                "stage": "已上市（美国）/ 中国申报",
+                "trial": "innovaTV 301",
+                "status": "Tissue Factor ADC，innovaTV 301优于化疗，FDA 2021年获批2L宫颈癌"
+              },
+              {
+                "name_cn": "HLX10（汉利康，PD-1）+ 化疗",
+                "name_en": "Serplulimab (HLX10) + Chemo",
+                "company": "复宏汉霖 Shanghai Henlius",
+                "stage": "Phase 3",
+                "trial": "ASTRUM-005 宫颈癌",
+                "status": "国产PD-1，宫颈癌一线探索"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 13800,
+        "annual_new_cases_note": "US incidence declining due to HPV vaccination, ~13,800 new cases/yr",
+        "tam_usd_bn": 1,
+        "diagnosis_steps": [
+          "Cervical biopsy (squamous ~85%, adenocarcinoma ~15%)",
+          "HPV genotyping (16/18 most common)",
+          "PD-L1 CPS (22C3)",
+          "Pelvic MRI + CT staging (FIGO 2018)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab + Chemo ± Bevacizumab",
+                "name_en": "Pembrolizumab (Keytruda) + Chemo ± Bev",
+                "manufacturer": "Merck",
+                "annual_cost_usd": 350000,
+                "market_share": "55%",
+                "selling_points": [
+                  "KEYNOTE-826: OS 28.6m vs 16.5m",
+                  "FDA approved 2021 (CPS≥1)",
+                  "Category 1 NCCN for PD-L1+ cervical cancer"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Pembrolizumab + Tisotumab Vedotin",
+                "name_en": "Pembrolizumab + Tisotumab Vedotin",
+                "company": "Merck / Pfizer (Seagen)",
+                "stage": "Phase 3",
+                "trial": "innovaTV 304",
+                "status": "IO + ADC combination 1L, Phase 3 ongoing"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Tisotumab Vedotin",
+                "name_en": "Tisotumab Vedotin (Tivdak)",
+                "manufacturer": "Pfizer (Seagen acquisition)",
+                "annual_cost_usd": 200000,
+                "market_share": "45%",
+                "selling_points": [
+                  "innovaTV 301: OS 11.5m vs 9.5m vs chemo",
+                  "FDA regular approval 2023",
+                  "Tissue factor ADC"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab（PD-L1+）",
+                "name_en": "Pembrolizumab (PD-L1 CPS≥1)",
+                "manufacturer": "Merck",
+                "annual_cost_usd": 220000,
+                "market_share": "30%",
+                "selling_points": [
+                  "KEYNOTE-158: ORR 14.6% CPS≥1",
+                  "FDA approved 2018 (accelerated)"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Cadonilimab（卡度利尼）US approval",
+                "name_en": "Cadonilimab (AK104) - US filing",
+                "company": "Akeso / Summit Therapeutics",
+                "stage": "Phase 3 (US)",
+                "trial": "COMPASSION-16 US cohort",
+                "status": "PD-1/CTLA-4 bispecific, already approved in China; US BLA under review"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

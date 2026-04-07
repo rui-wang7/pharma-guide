@@ -1,0 +1,364 @@
+{
+  "id": "gastric_cancer",
+  "name_cn": "胃癌 / 胃食管交界处癌",
+  "name_en": "Gastric / GEJ Cancer",
+  "subtypes": [
+    {
+      "id": "gastric_her2pos",
+      "name_cn": "胃癌 - HER2阳性（IHC 3+/2+FISH+）",
+      "name_en": "Gastric/GEJ - HER2+",
+      "china": {
+        "annual_new_cases": 85000,
+        "annual_new_cases_note": "HER2+约占胃癌15-20%，总胃癌新发中国约50万",
+        "tam_rmb_bn": 4,
+        "diagnosis_steps": [
+          "胃镜活检（腺癌病理确认）",
+          "HER2 IHC/FISH检测",
+          "PD-L1 CPS评分",
+          "CT分期（胸/腹/盆）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "曲妥珠单抗 + 纳武利尤单抗（欧狄沃）+ 化疗",
+                "name_en": "Trastuzumab + Nivolumab (Opdivo) + Chemo",
+                "manufacturer": "罗氏/BMS Roche/BMS",
+                "annual_cost_rmb": 350000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "CheckMate-811 OS获益",
+                  "HER2+且PD-L1 CPS≥5人群获益显著",
+                  "NMPA批准"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "曲妥珠单抗 + 化疗（XELOX/FOLFOX）",
+                "name_en": "Trastuzumab + Chemo",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "ToGA研究：OS 13.8m vs 11.1m",
+                  "经典一线方案，医保报销"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Zanidatamab + 化疗",
+                "name_en": "Zanidatamab + Chemo",
+                "company": "礼来 Eli Lilly",
+                "stage": "Phase 3",
+                "trial": "HERIZON-GEA-01",
+                "status": "HER2双抗，胆道癌已获批，胃癌Phase 3进行中"
+              },
+              {
+                "name_cn": "T-DXd（DS-8201）+ 纳武利尤单抗",
+                "name_en": "T-DXd + Nivolumab",
+                "company": "第一三共/BMS Daiichi/BMS",
+                "stage": "Phase 3",
+                "trial": "DESTINY-Gastric04",
+                "status": "一线HER2+胃癌探索，DESTINY-Gastric02已证实二线疗效"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "T-DXd（优赫得）",
+                "name_en": "Trastuzumab Deruxtecan (T-DXd/Enhertu)",
+                "manufacturer": "第一三共/阿斯利康",
+                "annual_cost_rmb": 480000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "DESTINY-Gastric01：OS 12.5m vs 8.4m",
+                  "NMPA批准HER2+胃癌二线",
+                  "ADC新标准"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 5000,
+        "annual_new_cases_note": "HER2+ ~15-20% of gastric/GEJ; total US gastric ~26,000/yr",
+        "tam_usd_bn": 1.2,
+        "diagnosis_steps": [
+          "Endoscopy biopsy",
+          "HER2 IHC/FISH, PD-L1 CPS",
+          "CT staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Trastuzumab + Chemo",
+                "name_en": "Nivolumab (Opdivo) + Trastuzumab + Chemo",
+                "manufacturer": "BMS / Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 400000,
+                "market_share": "55%",
+                "selling_points": [
+                  "CheckMate-811: OS benefit HER2+ CPS≥5",
+                  "FDA approved 2023"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "T-DXd",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu)",
+                "manufacturer": "Daiichi Sankyo / AZ",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 380000,
+                "market_share": "50%",
+                "selling_points": [
+                  "DESTINY-Gastric01/02: OS benefit",
+                  "FDA approved 2021 (accelerated), 2023 regular"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "gastric_her2neg",
+      "name_cn": "胃癌 - HER2阴性（含PD-L1高表达）",
+      "name_en": "Gastric/GEJ - HER2-negative",
+      "china": {
+        "annual_new_cases": 350000,
+        "annual_new_cases_note": "HER2阴性约占胃癌80-85%，中国胃癌总发病约50万",
+        "tam_rmb_bn": 10,
+        "diagnosis_steps": [
+          "胃镜活检（腺癌病理确认）",
+          "HER2 IHC（IHC 0/1+或2+FISH-确认阴性）",
+          "PD-L1 CPS评分（≥1, ≥5, ≥10）",
+          "CLDN18.2免疫组化（新兴生物标志物）",
+          "CT分期"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "卡度尼利单抗（开坦尼）+ 化疗",
+                "name_en": "Cadonilimab (Kaitanni/AK104) + Chemo",
+                "manufacturer": "康方生物 Akeso",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "COMPASSION-15：OS 15.0m vs 12.0m（HR 0.62）",
+                  "全球首个PD-1/CTLA-4双抗获批胃癌（NMPA 2024年12月）",
+                  "无需PD-L1筛选，HER2阴性均可用",
+                  "ORR 58% vs 38%（化疗组）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "信迪利单抗（达伯舒）+ 化疗",
+                "name_en": "Sintilimab (Tyvyt) + Chemo",
+                "manufacturer": "信达生物 Innovent",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "ORIENT-16：OS 15.2m vs 12.3m（HER2阴性全人群）",
+                  "NMPA批准，医保报销",
+                  "国产PD-1，价格优势"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗（欧狄沃）+ 化疗",
+                "name_en": "Nivolumab (Opdivo) + Chemo",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "CheckMate-649：OS 14.4m vs 11.1m（CPS≥5）",
+                  "NMPA批准，适用于CPS≥5人群"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "化疗（XELOX/FOLFOX）",
+                "name_en": "Chemo (XELOX/FOLFOX)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 50000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "基础化疗方案，经济负担低",
+                  "医保覆盖，可及性高"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Zolbetuximab（佐妥昔单抗）+ 化疗",
+                "name_en": "Zolbetuximab + Chemo",
+                "company": "安斯泰来 Astellas",
+                "stage": "已上市（日本/欧盟），中国NDA申报中",
+                "trial": "SPOTLIGHT / GLOW",
+                "status": "CLDN18.2阳性HER2阴性胃癌一线，OS获益，NMPA申报中"
+              },
+              {
+                "name_cn": "依沃西单抗（AK112）+ 化疗",
+                "name_en": "Ivonescimab (AK112) + Chemo",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3",
+                "trial": "COMPASSION-20",
+                "status": "PD-1/VEGF双抗，胃癌一线Phase 3进行中"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "雷莫芦单抗（赛兰泽）± 紫杉醇",
+                "name_en": "Ramucirumab (Cyramza) ± Paclitaxel",
+                "manufacturer": "礼来 Eli Lilly",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "RAINBOW研究：OS 9.6m vs 7.4m",
+                  "NMPA批准二线胃癌"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "紫杉醇 / 伊立替康单药",
+                "name_en": "Paclitaxel / Irinotecan",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 40000,
+                "annual_cost_usd": null,
+                "market_share": "50%",
+                "selling_points": [
+                  "经典二线化疗方案",
+                  "可及性高，耐受性可"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 18000,
+        "annual_new_cases_note": "HER2-negative ~80% of gastric/GEJ; total US ~26,000/yr",
+        "tam_usd_bn": 2,
+        "diagnosis_steps": [
+          "Endoscopy biopsy",
+          "HER2 IHC/FISH (negative result)",
+          "PD-L1 CPS, MSI/MMR, CLDN18.2",
+          "CT staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Chemo",
+                "name_en": "Nivolumab (Opdivo) + Chemo",
+                "manufacturer": "BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 350000,
+                "market_share": "50%",
+                "selling_points": [
+                  "CheckMate-649: OS 14.4m vs 11.1m (CPS≥5)",
+                  "FDA approved 2021",
+                  "NCCN Category 1 for CPS≥5"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab + Chemo",
+                "name_en": "Pembrolizumab (Keytruda) + Chemo",
+                "manufacturer": "Merck & Co.",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 320000,
+                "market_share": "30%",
+                "selling_points": [
+                  "KEYNOTE-859: OS 12.9m vs 11.5m (all comers)",
+                  "FDA approved for GEJ/gastric CPS≥1"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Zolbetuximab + Chemo",
+                "name_en": "Zolbetuximab + Chemo",
+                "company": "Astellas",
+                "stage": "FDA已批准（2024）",
+                "trial": "SPOTLIGHT / GLOW",
+                "status": "CLDN18.2+ HER2- gastric 1L, FDA approved 2024"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Ramucirumab + Paclitaxel",
+                "name_en": "Ramucirumab (Cyramza) + Paclitaxel",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "40%",
+                "selling_points": [
+                  "RAINBOW: OS 9.6m vs 7.4m",
+                  "FDA approved 2014, NCCN Category 1"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      }
+    }
+  ]
+}

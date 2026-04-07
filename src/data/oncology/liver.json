@@ -1,0 +1,208 @@
+{
+  "id": "liver_cancer",
+  "name_cn": "肝癌（肝细胞癌 HCC）",
+  "name_en": "Hepatocellular Carcinoma (HCC)",
+  "subtypes": [
+    {
+      "id": "hcc_advanced",
+      "name_cn": "晚期肝细胞癌",
+      "name_en": "Advanced HCC (BCLC B/C)",
+      "china": {
+        "annual_new_cases": 370000,
+        "annual_new_cases_note": "中国是全球HCC最高发国家，约占全球55%，每年新发约37万",
+        "tam_rmb_bn": 7,
+        "diagnosis_steps": [
+          "AFP + PIVKA-II（异常凝血酶原）检测",
+          "增强CT或MRI（动脉期强化+门脉期廓清=典型HCC，可临床诊断）",
+          "必要时穿刺活检",
+          "肝功能评估（Child-Pugh分级）",
+          "HBV/HCV病毒载量",
+          "BCLC分期（A-D）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线系统治疗",
+            "label_en": "1st Line Systemic",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "阿替利珠单抗（泰圣奇）+ 贝伐珠单抗（安维汀）",
+                "name_en": "Atezolizumab (Tecentriq) + Bevacizumab (Avastin)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "IMbrave150：OS 19.2m vs 13.4m vs索拉非尼",
+                  "首个优于索拉非尼的一线方案",
+                  "NMPA 2020年批准，医保谈判覆盖"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡瑞利珠单抗（艾瑞卡）+ 阿帕替尼（艾坦）",
+                "name_en": "Camrelizumab (Airuika) + Rivoceranib (Apatinib)",
+                "manufacturer": "恒瑞医药 Hengrui Pharma",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "CARES-310：OS 22.1m vs 15.2m vs索拉非尼",
+                  "全球首个头对头优于索拉非尼的PD-1+抗血管双药",
+                  "恒瑞国产组合，性价比高，医保报销",
+                  "FDA 2023年批准（中国药出海）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "信迪利单抗（达伯舒）+ 贝伐珠单抗类似物（达攸同）",
+                "name_en": "Sintilimab (Tyvyt) + IBI305 (Bevacizumab biosimilar)",
+                "manufacturer": "信达生物 Innovent",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "ORIENT-32：OS 未达到 vs 10.4m（索拉非尼）",
+                  "完全国产组合，价格优势显著",
+                  "NMPA批准，医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "仑伐替尼（乐卫玛）",
+                "name_en": "Lenvatinib (Lenvima)",
+                "manufacturer": "卫材/默沙东 Eisai/MSD",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "REFLECT研究：非劣于索拉非尼（OS 13.6m vs 12.3m）",
+                  "ORR 24.1% vs 9.2%，PFS更优",
+                  "医保报销，适合不能用贝伐珠单抗的患者（静脉曲张）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "度伐利尤单抗 + 替西木单抗（STRIDE方案）",
+                "name_en": "Durvalumab + Tremelimumab (HIMALAYA STRIDE)",
+                "company": "阿斯利康 AstraZeneca",
+                "stage": "已上市（美国2022）/ 中国申报",
+                "trial": "HIMALAYA",
+                "status": "PD-L1+CTLA-4双免疫，OS 16.4m vs 13.8m vs索拉非尼，FDA 2022批准，中国NDA"
+              },
+              {
+                "name_cn": "帕博利珠单抗 + 仑伐替尼",
+                "name_en": "Pembrolizumab + Lenvatinib (LEAP-002)",
+                "company": "默沙东/卫材 MSD/Eisai",
+                "stage": "Phase 3 未达终点",
+                "trial": "LEAP-002",
+                "status": "LEAP-002未达统计显著性，但亚组数据探索中"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "瑞戈非尼（拜万戈）",
+                "name_en": "Regorafenib (Stivarga)",
+                "manufacturer": "拜耳 Bayer",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "RESORCE研究：OS 10.6m vs 7.8m（索拉非尼耐药后）",
+                  "NMPA批准二线HCC，医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "雷莫芦单抗（Cyramza，AFP≥400）",
+                "name_en": "Ramucirumab (Cyramza) - AFP≥400 ng/mL",
+                "manufacturer": "礼来 Eli Lilly",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "REACH-2：AFP≥400 ng/mL人群OS 8.5m vs 7.3m",
+                  "唯一基于生物标志物的HCC二线方案"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Linrodostat + 纳武利尤单抗（IDO1+PD-1）",
+                "name_en": "Linrodostat + Nivolumab",
+                "company": "BMS",
+                "stage": "Phase 2/3",
+                "trial": "CA017-105",
+                "status": "IDO1抑制剂联合IO，后线HCC探索"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 41000,
+        "annual_new_cases_note": "US HCC ~41,000 new cases/yr, NASH-related HCC rising",
+        "tam_usd_bn": 2.5,
+        "diagnosis_steps": [
+          "AFP + contrast-enhanced CT/MRI",
+          "Liver function (Child-Pugh/MELD score)",
+          "HBV/HCV viral load",
+          "BCLC staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Atezolizumab + Bevacizumab",
+                "name_en": "Atezolizumab (Tecentriq) + Bevacizumab (Avastin)",
+                "manufacturer": "Roche/Genentech",
+                "annual_cost_usd": 250000,
+                "market_share": "40%",
+                "selling_points": [
+                  "IMbrave150: OS 19.2m vs 13.4m vs sorafenib",
+                  "FDA approved 2020",
+                  "NCCN Category 1 preferred"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Durvalumab + Tremelimumab (STRIDE)",
+                "name_en": "Durvalumab + Tremelimumab (Imfinzi + Imjudo)",
+                "manufacturer": "AstraZeneca",
+                "annual_cost_usd": 220000,
+                "market_share": "20%",
+                "selling_points": [
+                  "HIMALAYA: OS 16.4m vs 13.8m vs sorafenib",
+                  "FDA approved 2022",
+                  "Single-dose tremelimumab + durvalumab maintenance"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Camrelizumab + Rivoceranib",
+                "name_en": "Camrelizumab + Rivoceranib (CARES-310)",
+                "company": "Hengrui Pharma",
+                "stage": "已上市（美国2023）",
+                "trial": "CARES-310",
+                "status": "FDA approved 2023, OS 22.1m vs 15.2m, first China-origin combo in US HCC"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

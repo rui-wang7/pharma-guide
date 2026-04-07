@@ -1,0 +1,171 @@
+{
+  "id": "bladder_cancer",
+  "name_cn": "膀胱癌",
+  "name_en": "Bladder Cancer (Urothelial Carcinoma)",
+  "subtypes": [
+    {
+      "id": "bladder_metastatic",
+      "name_cn": "转移性尿路上皮癌（mUC）",
+      "name_en": "Metastatic Urothelial Carcinoma (mUC)",
+      "china": {
+        "annual_new_cases": 18000,
+        "annual_new_cases_note": "中国膀胱癌每年新发约9万，转移性约占15%，中国发病以鳞癌比例较高",
+        "tam_rmb_bn": 1.5,
+        "diagnosis_steps": [
+          "膀胱镜 + TURBT（经尿道膀胱肿瘤电切）",
+          "病理确认（移行上皮癌/尿路上皮癌）",
+          "FGFR2/3突变检测（指导靶向用药）",
+          "PD-L1检测（CPS/IC评分）",
+          "CT分期 + 骨扫描"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "GC方案（吉西他滨+顺铂）",
+                "name_en": "Gemcitabine + Cisplatin (GC)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 25000,
+                "annual_cost_usd": null,
+                "market_share": "50%",
+                "selling_points": [
+                  "经典一线含铂化疗方案",
+                  "顺铂适用患者（eGFR≥60，PS 0-1）",
+                  "医保报销，ORR约50%"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 仑伐替尼（铂类不耐受）",
+                "name_en": "Pembrolizumab + Enfortumab vedotin (EV-302)",
+                "manufacturer": "默沙东/安进/辉瑞",
+                "annual_cost_rmb": 400000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "EV-302：OS未达到 vs 16.1m（含铂化疗），PFS 12.5m vs 6.3m",
+                  "NMPA申报中，改变一线治疗格局"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Enfortumab Vedotin（EV）+ Pembrolizumab",
+                "name_en": "Enfortumab Vedotin (Padcev) + Pembrolizumab",
+                "company": "辉瑞/安进/默沙东 Pfizer/Seagen/Merck",
+                "stage": "已上市（美国2024正式批准）/ 中国NDA申报",
+                "trial": "EV-302/KEYNOTE-A39",
+                "status": "Nectin-4 ADC+PD-1，EV-302 OS未达到但PFS 12.5m，FDA 2024年正式批准一线mUC"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-045：OS 10.3m vs 7.4m vs化疗",
+                  "NMPA 2020年批准铂类化疗后mUC",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "厄达非替尼（Balversa，FGFR2/3突变）",
+                "name_en": "Erdafitinib (Balversa) - FGFR2/3 altered",
+                "manufacturer": "强生/杨森 Janssen",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "THOR研究：OS 12.1m vs 7.8m vs免疫/化疗",
+                  "首个获批FGFR靶向药物",
+                  "FGFR2/3突变人群（约20%mUC）精准治疗"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Sacituzumab Govitecan（Trodelvy，UC）",
+                "name_en": "Sacituzumab Govitecan - UC",
+                "company": "吉利德 Gilead",
+                "stage": "已上市（美国，铂类+PD-1/L1后）",
+                "trial": "TROPiCS-04",
+                "status": "Trop-2 ADC，FDA加速批准UC适应症"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 20000,
+        "annual_new_cases_note": "US bladder cancer ~83,000/yr, mUC ~15,000/yr",
+        "tam_usd_bn": 2.5,
+        "diagnosis_steps": [
+          "Cystoscopy + TURBT",
+          "Urothelial carcinoma pathology",
+          "FGFR2/3 alteration testing",
+          "PD-L1 (CPS/IC) testing",
+          "CT staging + bone scan"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Enfortumab Vedotin + Pembrolizumab",
+                "name_en": "Enfortumab Vedotin (Padcev) + Pembrolizumab (EV+P)",
+                "manufacturer": "Pfizer / Merck",
+                "annual_cost_usd": 380000,
+                "market_share": "50%",
+                "selling_points": [
+                  "EV-302: OS not reached vs 16.1m (chemo)",
+                  "FDA regular approval 2024",
+                  "New 1L standard of care, all comers"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Gemcitabine + Cisplatin/Carboplatin",
+                "name_en": "GC / GCa chemotherapy",
+                "manufacturer": "Generic",
+                "annual_cost_usd": 20000,
+                "market_share": "30%",
+                "selling_points": [
+                  "Still used for cisplatin-eligible patients preferring chemotherapy",
+                  "Cost-effective alternative"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "GC + Nivolumab (CheckMate-901)",
+                "name_en": "GC + Nivolumab (CheckMate-901)",
+                "company": "BMS",
+                "stage": "已上市（美国2024）",
+                "trial": "CheckMate-901",
+                "status": "OS 21.7m vs 18.9m, FDA approved 1L mUC with GC"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

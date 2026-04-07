@@ -84,6 +84,21 @@ function BubbleTooltip({ active, payload }) {
   );
 }
 
+// ── Indeterminate Checkbox for disease rows ─────────────────────────────────
+function DisCheckbox({ subtypeIds, selectedIds, onToggle }) {
+  const allChecked  = subtypeIds.every((id) => selectedIds.has(id));
+  const someChecked = subtypeIds.some((id) => selectedIds.has(id));
+  return (
+    <input
+      type="checkbox"
+      checked={allChecked}
+      ref={(el) => { if (el) el.indeterminate = someChecked && !allChecked; }}
+      onChange={() => onToggle(subtypeIds)}
+      onClick={(e) => e.stopPropagation()}
+    />
+  );
+}
+
 // ── Main Component ──────────────────────────────────────────────────────────
 export default function Dashboard() {
   const allData = useMemo(() => getDashboardData(), []);
@@ -207,6 +222,15 @@ export default function Dashboard() {
     else setSelectedIds(new Set(filteredSubtypes.map((d) => d.id)));
   };
 
+  const toggleDisease = (subtypeIds) => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      const allSelected = subtypeIds.every((id) => next.has(id));
+      subtypeIds.forEach((id) => (allSelected ? next.delete(id) : next.add(id)));
+      return next;
+    });
+  };
+
   const handleSort = (col) => {
     if (sortCol === col) setSortDir((d) => d === 'desc' ? 'asc' : 'desc');
     else { setSortCol(col); setSortDir('desc'); }
@@ -245,7 +269,7 @@ export default function Dashboard() {
       const sub = diseaseSubtotalMap.get(did);
       if (rows.length > 1 && sub) {
         // Insert disease subtotal row first, then indented subtypes
-        flat.push({ ...sub, id: `__dis__${did}`, _type: 'disease_sub', _children: rows.length });
+        flat.push({ ...sub, id: `__dis__${did}`, _type: 'disease_sub', _children: rows.length, _subtypeIds: rows.map((r) => r.id) });
         rows.forEach((r) => flat.push({ ...r, _type: 'subtype', _indent: true }));
       } else {
         rows.forEach((r) => flat.push({ ...r, _type: 'subtype' }));
@@ -439,7 +463,7 @@ export default function Dashboard() {
                 const isDisSub  = row._type === 'disease_sub';
                 const isIndent  = row._type === 'subtype' && row._indent;
                 const checked   = showCheckbox && selectedIds.has(row.id);
-                const clickable = showCheckbox && row._type === 'subtype';
+                const clickable = showCheckbox && (row._type === 'subtype' || (row._type === 'disease_sub' && row._subtypeIds));
 
                 const rowClass = [
                   'db-row',
@@ -450,12 +474,16 @@ export default function Dashboard() {
                 ].filter(Boolean).join(' ');
 
                 return (
-                  <tr key={row.id} className={rowClass} onClick={clickable ? () => toggleId(row.id) : undefined}
+                  <tr key={row.id} className={rowClass}
+                    onClick={clickable ? () => row._type === 'disease_sub' ? toggleDisease(row._subtypeIds) : toggleId(row.id) : undefined}
                     style={clickable ? { cursor: 'pointer' } : undefined}>
                     {showCheckbox && (
                       <td className="db-td-check">
                         {row._type === 'subtype' && (
                           <input type="checkbox" checked={checked} onChange={() => toggleId(row.id)} onClick={(e) => e.stopPropagation()} />
+                        )}
+                        {row._type === 'disease_sub' && row._subtypeIds && (
+                          <DisCheckbox subtypeIds={row._subtypeIds} selectedIds={selectedIds} onToggle={toggleDisease} />
                         )}
                       </td>
                     )}

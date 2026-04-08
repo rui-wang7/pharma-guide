@@ -85,15 +85,13 @@ function BubbleTooltip({ active, payload }) {
 }
 
 // ── Indeterminate Checkbox for disease rows ─────────────────────────────────
-function DisCheckbox({ subtypeIds, selectedIds, onToggle }) {
-  const allChecked  = subtypeIds.every((id) => selectedIds.has(id));
-  const someChecked = subtypeIds.some((id) => selectedIds.has(id));
+// Disease-level checkbox: simple checked/unchecked based on selectedDiseaseIds
+function DisCheckbox({ diseaseId, selectedDiseaseIds, onToggle }) {
   return (
     <input
       type="checkbox"
-      checked={allChecked}
-      ref={(el) => { if (el) el.indeterminate = someChecked && !allChecked; }}
-      onChange={() => onToggle(subtypeIds)}
+      checked={selectedDiseaseIds.has(diseaseId)}
+      onChange={() => onToggle(diseaseId)}
       onClick={(e) => e.stopPropagation()}
     />
   );
@@ -108,7 +106,8 @@ export default function Dashboard() {
   const [selectedCategories, setSelectedCategories] = useState(
     Object.fromEntries(['oncology', 'immune', 'metabolic', 'cardiovascular', 'neuro'].map((c) => [c, true]))
   );
-  const [selectedIds, setSelectedIds] = useState(() => new Set(allData.slice(0, 15).map((d) => d.id)));
+  const [selectedIds, setSelectedIds]         = useState(() => new Set(allData.slice(0, 15).map((d) => d.id)));
+  const [selectedDiseaseIds, setSelectedDiseaseIds] = useState(() => new Set());
   const [chartType, setChartType]     = useState('bar');
   const [groupBy, setGroupBy]         = useState('subtype'); // 'subtype' | 'disease' | 'category'
   const [sortCol, setSortCol]         = useState('total_tam_usd');
@@ -182,10 +181,22 @@ export default function Dashboard() {
 
   // ── Chart data ──
   const chartData = useMemo(() => {
-    const source =
-      groupBy === 'subtype'  ? tableRows.filter((d) => selectedIds.has(d.id)) :
-      groupBy === 'disease'  ? tableRows :
-                               tableRows;
+    let source;
+    if (groupBy === 'subtype') {
+      // Disease-level selections: show one aggregated row per disease
+      const diseaseItems = diseaseRows.filter((d) => selectedDiseaseIds.has(d.id));
+      // Subtype-level selections: exclude subtypes already covered by a selected disease
+      const subtypeItems = filteredSubtypes.filter(
+        (d) => selectedIds.has(d.id) && !selectedDiseaseIds.has(d.diseaseId)
+      );
+      // Merge: diseases first (sorted by TAM), then subtypes
+      source = [
+        ...diseaseItems.sort((a, b) => (b.total_tam_usd || 0) - (a.total_tam_usd || 0)),
+        ...subtypeItems,
+      ];
+    } else {
+      source = tableRows;
+    }
     return source.map((d) => ({
       ...d,
       shortName: d.name_cn.length > 12 ? d.name_cn.slice(0, 11) + '…' : d.name_cn,
@@ -193,7 +204,7 @@ export default function Dashboard() {
       us: d[metric.usKey],
       eu: d[metric.euKey],
     }));
-  }, [tableRows, selectedIds, metric, groupBy]);
+  }, [tableRows, filteredSubtypes, diseaseRows, selectedIds, selectedDiseaseIds, metric, groupBy]);
 
   // ── Bubble data ──
   const bubbleData = useMemo(() => {
@@ -222,11 +233,10 @@ export default function Dashboard() {
     else setSelectedIds(new Set(filteredSubtypes.map((d) => d.id)));
   };
 
-  const toggleDisease = (subtypeIds) => {
-    setSelectedIds((prev) => {
+  const toggleDisease = (diseaseId) => {
+    setSelectedDiseaseIds((prev) => {
       const next = new Set(prev);
-      const allSelected = subtypeIds.every((id) => next.has(id));
-      subtypeIds.forEach((id) => (allSelected ? next.delete(id) : next.add(id)));
+      next.has(diseaseId) ? next.delete(diseaseId) : next.add(diseaseId);
       return next;
     });
   };
@@ -269,7 +279,7 @@ export default function Dashboard() {
       const sub = diseaseSubtotalMap.get(did);
       if (rows.length > 1 && sub) {
         // Insert disease subtotal row first, then indented subtypes
-        flat.push({ ...sub, id: `__dis__${did}`, _type: 'disease_sub', _children: rows.length, _subtypeIds: rows.map((r) => r.id) });
+        flat.push({ ...sub, id: `__dis__${did}`, diseaseId: did, _type: 'disease_sub', _children: rows.length, _subtypeIds: rows.map((r) => r.id) });
         rows.forEach((r) => flat.push({ ...r, _type: 'subtype', _indent: true }));
       } else {
         rows.forEach((r) => flat.push({ ...r, _type: 'subtype' }));
@@ -362,7 +372,7 @@ export default function Dashboard() {
         {chartType === 'bar' && (
           <>
             <div className="db-chart-title">{metric.label} — {chartData.length} 项已入图
-              {groupBy === 'subtype' && <span className="db-chart-hint">（子病种模式：勾选下方表格行加入图表）</span>}
+              {groupBy === 'subtype' && <span className="db-chart-hint">（勾选疾病行 → 显示疾病合计；勾选子类行 → 显示该子类）</span>}
             </div>
             {chartData.length === 0
               ? <div className="db-empty">请在下方表格勾选病种</div>
@@ -462,28 +472,30 @@ export default function Dashboard() {
                 const isCatSub  = row._type === 'cat_sub';
                 const isDisSub  = row._type === 'disease_sub';
                 const isIndent  = row._type === 'subtype' && row._indent;
-                const checked   = showCheckbox && selectedIds.has(row.id);
-                const clickable = showCheckbox && (row._type === 'subtype' || (row._type === 'disease_sub' && row._subtypeIds));
+                const checked        = showCheckbox && selectedIds.has(row.id);
+                const disChecked     = showCheckbox && isDisSub && selectedDiseaseIds.has(row.diseaseId);
+                const clickable      = showCheckbox && (row._type === 'subtype' || row._type === 'disease_sub');
 
                 const rowClass = [
                   'db-row',
-                  isCatSub  ? 'db-row-cat'  : '',
-                  isDisSub  ? 'db-row-dis'  : '',
-                  isIndent  ? 'db-row-indent': '',
-                  checked   ? 'selected'     : '',
+                  isCatSub   ? 'db-row-cat'  : '',
+                  isDisSub   ? 'db-row-dis'  : '',
+                  isIndent   ? 'db-row-indent': '',
+                  checked    ? 'selected'     : '',
+                  disChecked ? 'selected'     : '',
                 ].filter(Boolean).join(' ');
 
                 return (
                   <tr key={row.id} className={rowClass}
-                    onClick={clickable ? () => row._type === 'disease_sub' ? toggleDisease(row._subtypeIds) : toggleId(row.id) : undefined}
+                    onClick={clickable ? () => row._type === 'disease_sub' ? toggleDisease(row.diseaseId) : toggleId(row.id) : undefined}
                     style={clickable ? { cursor: 'pointer' } : undefined}>
                     {showCheckbox && (
                       <td className="db-td-check">
                         {row._type === 'subtype' && (
                           <input type="checkbox" checked={checked} onChange={() => toggleId(row.id)} onClick={(e) => e.stopPropagation()} />
                         )}
-                        {row._type === 'disease_sub' && row._subtypeIds && (
-                          <DisCheckbox subtypeIds={row._subtypeIds} selectedIds={selectedIds} onToggle={toggleDisease} />
+                        {row._type === 'disease_sub' && (
+                          <DisCheckbox diseaseId={row.diseaseId} selectedDiseaseIds={selectedDiseaseIds} onToggle={toggleDisease} />
                         )}
                       </td>
                     )}

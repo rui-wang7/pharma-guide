@@ -149,6 +149,26 @@ export const EU_SURVIVAL = {
     china: { prevalence: 56000,  median_survival_years: 7.0 },
     us:    { prevalence: 80000,  median_survival_years: 10.0 },
   },
+  aml: {
+    eu: { annual_new_cases: 22000, tam_eur_bn: 2.0, prevalence: 45000 },
+    china: { prevalence: 90000,  median_survival_years: 1.2 },   // 75k×1.2yr
+    us:    { prevalence: 28000,  median_survival_years: 1.5 },   // 21k×1.5yr (poor 5-yr OS ~30%)
+  },
+  cll: {
+    eu: { annual_new_cases: 24000, tam_eur_bn: 4.0, prevalence: 200000 },
+    china: { prevalence: 100000, median_survival_years: 10.0 },  // 10k×10yr
+    us:    { prevalence: 250000, median_survival_years: 12.0 },  // ~21k×12yr
+  },
+  cml: {
+    eu: { annual_new_cases: 9000, tam_eur_bn: 2.0, prevalence: 90000 },
+    china: { prevalence: 250000, median_survival_years: 10.0 },  // TKI-era near-normal life expectancy
+    us:    { prevalence: 110000, median_survival_years: 12.0 },
+  },
+  mm: {
+    eu: { annual_new_cases: 50000, tam_eur_bn: 9.0, prevalence: 200000 },
+    china: { prevalence: 100000, median_survival_years: 4.0 },   // ~25k×4yr
+    us:    { prevalence: 180000, median_survival_years: 5.0 },   // 36k×5yr
+  },
   // ── IMMUNE ──
   ra_moderate_severe: {
     eu: { annual_new_cases: 200000, tam_eur_bn: 16.0, prevalence: 2800000 },

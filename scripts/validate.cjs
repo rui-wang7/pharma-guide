@@ -31,6 +31,7 @@ function loadJSON(relPath) {
 const oncologyFiles = [
   'lung','breast','colorectal','gastric','cervical',
   'prostate','liver','bladder','esophageal','thyroid','endometrial',
+  'hematologic_malignancies',
 ];
 
 const allDiseases = [

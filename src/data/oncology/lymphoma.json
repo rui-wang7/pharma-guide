@@ -1,0 +1,865 @@
+{
+  "id": "lymphoma",
+  "name_cn": "淋巴瘤",
+  "name_en": "Lymphoma",
+  "subtypes": [
+    {
+      "id": "dlbcl",
+      "name_cn": "弥漫大B细胞淋巴瘤",
+      "name_en": "Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "china": {
+        "annual_new_cases": 28000,
+        "annual_new_cases_note": "占中国非霍奇金淋巴瘤的30-35%",
+        "tam_rmb_bn": 3.5,
+        "diagnosis_steps": [
+          "淋巴结活检（推荐切除活检，粗针穿刺为替代方案）",
+          "病理免疫组化（CD20、CD3、CD10、BCL-2、BCL-6、MYC、Ki-67）",
+          "FISH检测MYC/BCL-2/BCL-6重排（排查双打击/三打击淋巴瘤）",
+          "全身PET-CT分期（Ann Arbor分期 I-IV期）",
+          "骨髓活检（评估骨髓侵犯）",
+          "腰椎穿刺（CNS高危患者）",
+          "IPI评分（国际预后指数）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "R-CHOP方案",
+                "name_en": "R-CHOP (Rituximab + CHOP)",
+                "manufacturer": "罗氏 Roche（利妥昔单抗）",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "55%",
+                "selling_points": [
+                  "DLBCL 一线金标准方案，6-8周期",
+                  "R-CHOP21：5年OS约60-65%",
+                  "利妥昔单抗已进入国家医保",
+                  "全球数百万患者使用经验"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pola-R-CHP方案（维泊妥珠单抗）",
+                "name_en": "Polatuzumab Vedotin + R-CHP (Pola-R-CHP)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "POLARIX III期研究：PFS HR 0.73（vs R-CHOP）",
+                  "CD79b靶向ADC，2022年FDA批准，中国2023年获批",
+                  "中高危IPI患者优先考虑",
+                  "以维泊妥珠单抗替换传统方案中的长春新碱"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "利妥昔单抗生物类似药 + CHOP",
+                "name_en": "Rituximab Biosimilar + CHOP",
+                "manufacturer": "复宏汉霖 / 信达生物 等国产厂家",
+                "annual_cost_rmb": 35000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "与原研利妥昔单抗疗效相当",
+                  "价格大幅降低，医保报销",
+                  "国产生物类似药已获NMPA批准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Glofitamab + R-CHOP",
+                "name_en": "Glofitamab + R-CHOP",
+                "company": "罗氏 Roche",
+                "stage": "Phase 3",
+                "trial": "STARGLO",
+                "status": "CD20×CD3双特异性抗体联合化疗一线，2024年数据读出"
+              },
+              {
+                "name_cn": "Epcoritamab + R-CHOP",
+                "name_en": "Epcoritamab + R-CHOP",
+                "company": "阿斯利康/Genmab AstraZeneca/Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE DLBCL-2",
+                "status": "皮下注射CD20×CD3双抗一线联合，高危DLBCL"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (Relapsed/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "瑞基仑赛（福可苏）CAR-T",
+                "name_en": "Relmacabtagene Autoleucel (Relma-cel)",
+                "manufacturer": "药明巨诺 JW Therapeutics",
+                "annual_cost_rmb": 1200000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "中国首个获批CAR-T产品（2021年NMPA批准）",
+                  "CD19靶向，用于≥2线DLBCL",
+                  "ORR 75.9%，CR率 59.2%（中国注册研究）",
+                  "单次输注，持久缓解"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "阿基仑赛（奕凯达）CAR-T",
+                "name_en": "Axicabtagene Ciloleucel (Axo-cel, Yescarta China)",
+                "manufacturer": "复星凯特 Fosun Kite",
+                "annual_cost_rmb": 1200000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "Kite/Gilead技术授权，国内生产",
+                  "NMPA 2021年批准，适用≥2线DLBCL",
+                  "ORR ~82%（ZUMA-1 US数据）",
+                  "中国本土化生产，缩短等待周期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-ICE / R-DHAP方案（桥接化疗）",
+                "name_en": "R-ICE / R-DHAP (Salvage Chemotherapy)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "二线标准挽救化疗，桥接ASCT或CAR-T",
+                  "ORR 约50-60%",
+                  "价格低廉，医保覆盖"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Glofitamab（格菲妥单抗）",
+                "name_en": "Glofitamab (Columvi)",
+                "company": "罗氏 Roche",
+                "stage": "已上市（美国/欧洲）/ 中国申报",
+                "trial": "NP30179",
+                "status": "CD20×CD3双抗，≥2线DLBCL，ORR 56%，CR 43%（2023年FDA批准）；中国NDA申报中"
+              },
+              {
+                "name_cn": "Epcoritamab（依帕妥单抗）",
+                "name_en": "Epcoritamab (Epkinly)",
+                "company": "阿斯利康/Genmab",
+                "stage": "已上市（美国）/ 中国Phase 2",
+                "trial": "EPCORE NHL-1",
+                "status": "皮下CD20×CD3双抗，≥3线DLBCL，ORR 63%，CR 39%（2023年FDA批准）"
+              },
+              {
+                "name_cn": "Loncastuximab Tesirine（Zynlonta）",
+                "name_en": "Loncastuximab Tesirine",
+                "company": "ADC Therapeutics",
+                "stage": "已上市（美国）/ 中国暂无",
+                "trial": "LOTIS-2",
+                "status": "CD19靶向ADC，≥2线DLBCL，ORR 48%（2021年FDA批准）"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 24000,
+        "annual_new_cases_note": "Most common aggressive NHL; ~25% of all NHL",
+        "tam_usd_bn": 6.5,
+        "diagnosis_steps": [
+          "Excisional/incisional lymph node biopsy (preferred); core needle biopsy acceptable",
+          "IHC panel: CD20, CD3, CD10, BCL-2, BCL-6, MYC, Ki-67",
+          "FISH for MYC, BCL-2, BCL-6 rearrangements (double/triple-hit detection)",
+          "PET-CT for staging (Ann Arbor I-IV)",
+          "Bone marrow biopsy",
+          "Lumbar puncture (CNS-IPI high-risk)",
+          "Cell-of-origin by gene expression profiling (GCB vs ABC)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Pola-R-CHP方案",
+                "name_en": "Polatuzumab Vedotin + R-CHP (Pola-R-CHP)",
+                "manufacturer": "Roche/Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 280000,
+                "market_share": "40%",
+                "selling_points": [
+                  "POLARIX: PFS HR 0.73 vs R-CHOP",
+                  "FDA approved 2022 for previously untreated DLBCL",
+                  "NCCN Category 1 preferred for IPI ≥2",
+                  "CD79b-directed ADC (replaces vincristine)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-CHOP方案",
+                "name_en": "R-CHOP (Rituximab + CHOP)",
+                "manufacturer": "Genentech/Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 120000,
+                "market_share": "45%",
+                "selling_points": [
+                  "Long-standing standard of care",
+                  "5-year OS ~65% in favorable-risk patients",
+                  "Still preferred for low-risk (IPI 0-1)",
+                  "Well-established safety profile"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Glofitamab + R-CHOP",
+                "name_en": "Glofitamab + R-CHOP",
+                "company": "Roche",
+                "stage": "Phase 3",
+                "trial": "STARGLO",
+                "status": "Bispecific antibody + chemo 1L combination; PFS data readout 2024"
+              },
+              {
+                "name_cn": "Epcoritamab + R-CHOP",
+                "name_en": "Epcoritamab + R-CHOP",
+                "company": "AstraZeneca / Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE DLBCL-2",
+                "status": "Subcutaneous CD20×CD3 bispecific + R-CHOP in high-risk 1L DLBCL"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (Relapsed/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Axicabtagene Ciloleucel（Yescarta）CAR-T",
+                "name_en": "Axicabtagene Ciloleucel (Yescarta)",
+                "manufacturer": "Kite/Gilead",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 450000,
+                "market_share": "35%",
+                "selling_points": [
+                  "ZUMA-7: EFS HR 0.40 vs SOC in 2L DLBCL",
+                  "FDA approved 2L DLBCL 2022",
+                  "4-year EFS ~40% (vs ~16% for SOC)",
+                  "Single infusion, durable remission"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Lisocabtagene Maraleucel（Breyanzi）CAR-T",
+                "name_en": "Lisocabtagene Maraleucel (Breyanzi)",
+                "manufacturer": "Bristol Myers Squibb",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 410000,
+                "market_share": "25%",
+                "selling_points": [
+                  "TRANSFORM: EFS HR 0.35 vs SOC in 2L DLBCL",
+                  "FDA approved 2L 2022",
+                  "Defined CD4:CD8 ratio, lower CRS/ICANS rates",
+                  "Outpatient administration option"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Glofitamab（Columvi）",
+                "name_en": "Glofitamab (Columvi)",
+                "manufacturer": "Roche/Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 300000,
+                "market_share": "15%",
+                "selling_points": [
+                  "FDA approved 2023 for ≥2L DLBCL",
+                  "CD20×CD3 bispecific, fixed 12 cycles",
+                  "ORR 56%, CR 43%",
+                  "Off-the-shelf, no CAR-T manufacturing delay"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Epcoritamab（Epkinly）",
+                "name_en": "Epcoritamab (Epkinly)",
+                "manufacturer": "AstraZeneca / Genmab",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 280000,
+                "market_share": "10%",
+                "selling_points": [
+                  "FDA approved 2023 for ≥2L DLBCL",
+                  "Subcutaneous CD20×CD3 bispecific",
+                  "ORR 63%, CR 39% (EPCORE NHL-1)",
+                  "Weekly → biweekly → monthly schedule"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Odronextamab",
+                "name_en": "Odronextamab",
+                "company": "Regeneron",
+                "stage": "Phase 3",
+                "trial": "ELM-2",
+                "status": "CD20×CD3 bispecific; NDA submission planned 2025 for DLBCL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "follicular_lymphoma",
+      "name_cn": "滤泡性淋巴瘤",
+      "name_en": "Follicular Lymphoma (FL)",
+      "china": {
+        "annual_new_cases": 8500,
+        "annual_new_cases_note": "占中国非霍奇金淋巴瘤约10%，惰性病程",
+        "tam_rmb_bn": 1.5,
+        "diagnosis_steps": [
+          "淋巴结活检（切除活检优先）",
+          "病理分级（1-2级 vs 3A vs 3B级，决定治疗策略）",
+          "免疫组化（CD20+、CD10+、BCL-2+、BCL-6+、CD3-）",
+          "FISH检测t(14;18) BCL-2/IgH易位",
+          "全身PET-CT分期",
+          "骨髓活检",
+          "FLIPI评分（滤泡淋巴瘤国际预后指数）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（需要治疗者）",
+            "label_en": "1st Line (Treatment-requiring)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "R-CHOP方案",
+                "name_en": "R-CHOP (Rituximab + CHOP)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "中国指南推荐一线，疗效确定",
+                  "利妥昔单抗医保报销",
+                  "6周期后利妥昔单抗维持治疗2年"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "奥妥珠单抗（Gazyva）+ CHOP/苯达莫司汀",
+                "name_en": "Obinutuzumab (Gazyva) + Chemo",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "GALLIUM研究：PFS优于利妥昔单抗方案",
+                  "III型糖基化改造抗CD20，ADCC增强",
+                  "NMPA批准FL一线适应症"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "主动监测（等待观察）",
+                "name_en": "Watch and Wait",
+                "manufacturer": "—",
+                "annual_cost_rmb": 0,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "低肿瘤负荷（GELF标准阴性）患者可安全观察",
+                  "约50%低危FL患者5年内无需治疗",
+                  "定期随访（3-6个月CT/PET）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "莫苏妥珠单抗（Mosunetuzumab）一线",
+                "name_en": "Mosunetuzumab 1L",
+                "company": "罗氏 Roche",
+                "stage": "Phase 3",
+                "trial": "CELESTIMO",
+                "status": "CD20×CD3双抗用于FL一线，2L已在美国获批"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (Relapsed/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "奥妥珠单抗 + 苯达莫司汀（切换方案）",
+                "name_en": "Obinutuzumab + Bendamustine",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "GADOLIN研究：PFS HR 0.55 vs 苯达莫司汀单药",
+                  "利妥昔单抗方案进展后有效",
+                  "后续奥妥珠单抗维持治疗"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "泽布替尼 / 伊布替尼（BTK抑制剂）",
+                "name_en": "Zanubrutinib / Ibrutinib",
+                "manufacturer": "百济神州 BeiGene / 强生 J&J",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "MZL/FL后线可考虑（适应症获批情况不同）",
+                  "泽布替尼心脏毒性更低",
+                  "口服，医保报销"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "莫苏妥珠单抗（Mosunetuzumab）",
+                "name_en": "Mosunetuzumab (Lunsumio)",
+                "company": "罗氏 Roche",
+                "stage": "已上市（美国/欧洲）/ 中国申报",
+                "trial": "GO29781",
+                "status": "CD20×CD3双抗，≥2线FL，ORR 80%，CR 60%（2022年FDA加速批准）；中国申报中"
+              },
+              {
+                "name_cn": "Tazemetostat（Tazverik）",
+                "name_en": "Tazemetostat",
+                "company": "Epizyme/Ipsen",
+                "stage": "已上市（美国）/ 中国暂无",
+                "trial": "E7438-G000-101",
+                "status": "EZH2抑制剂，EZH2突变FL（约25%），ORR 69%；野生型ORR 35%"
+              },
+              {
+                "name_cn": "Epcoritamab（依帕妥单抗）",
+                "name_en": "Epcoritamab",
+                "company": "AstraZeneca/Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE FL-1",
+                "status": "皮下CD20×CD3双抗，≥2线FL，Phase 3开展中"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 14000,
+        "annual_new_cases_note": "Most common indolent NHL; ~20% of all NHL; median age 60s",
+        "tam_usd_bn": 3.5,
+        "diagnosis_steps": [
+          "Excisional biopsy preferred; core needle if inaccessible",
+          "Grade 1-2 vs 3A vs 3B (3B treated as DLBCL)",
+          "IHC: CD20+, CD10+, BCL-2+, BCL-6+; FISH t(14;18)",
+          "PET-CT staging",
+          "FLIPI / FLIPI-2 scoring",
+          "EZH2 mutation testing (selects tazemetostat candidates)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "奥妥珠单抗 + 苯达莫司汀 → 奥妥珠单抗维持",
+                "name_en": "Obinutuzumab + Bendamustine → Obinutuzumab maintenance",
+                "manufacturer": "Roche/Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 220000,
+                "market_share": "35%",
+                "selling_points": [
+                  "GALLIUM: PFS HR 0.66 vs R-chemo",
+                  "NCCN Category 1 preferred for high tumor burden",
+                  "Maintenance obinutuzumab 2 years post-induction"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-CHOP / R-苯达莫司汀",
+                "name_en": "R-CHOP / R-Bendamustine",
+                "manufacturer": "Roche/Genentech + Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 160000,
+                "market_share": "40%",
+                "selling_points": [
+                  "Long-standing standard; rituximab maintenance 2 years",
+                  "STIL NHL1: BR superior to R-CHOP for indolent (PFS 69.5m vs 31.2m)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "主动监测（低危患者）",
+                "name_en": "Watch and Wait (low tumor burden)",
+                "manufacturer": "—",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 0,
+                "market_share": "15%",
+                "selling_points": [
+                  "NCCN guideline: no treatment benefit for asymptomatic low burden",
+                  "~50% low-risk patients need no therapy for ≥5 years"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Mosunetuzumab 1L combination",
+                "name_en": "Mosunetuzumab 1L",
+                "company": "Roche",
+                "stage": "Phase 3",
+                "trial": "CELESTIMO",
+                "status": "Bispecific antibody 1L for high-burden FL; 2L already FDA approved"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "莫苏妥珠单抗（Lunsumio）",
+                "name_en": "Mosunetuzumab (Lunsumio)",
+                "manufacturer": "Roche/Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 280000,
+                "market_share": "30%",
+                "selling_points": [
+                  "FDA approved 2022 (accelerated) for ≥2L FL",
+                  "CD20×CD3 bispecific; fixed 8-cycle course",
+                  "ORR 80%, CR 60% (GO29781)",
+                  "Off-the-shelf, no CAR-T manufacturing"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Tazemetostat（Tazverik，EZH2突变）",
+                "name_en": "Tazemetostat (Tazverik) – EZH2 mutant",
+                "manufacturer": "Ipsen (Epizyme)",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 220000,
+                "market_share": "15%",
+                "selling_points": [
+                  "FDA approved 2020 for EZH2-mutant R/R FL",
+                  "ORR 69% (EZH2 mutant) vs 35% (wild-type)",
+                  "Oral, once daily, well-tolerated"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Copanlisib（Aliqopa，PI3K抑制剂）",
+                "name_en": "Copanlisib (Aliqopa)",
+                "manufacturer": "Bayer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 180000,
+                "market_share": "10%",
+                "selling_points": [
+                  "FDA approved 2017 for ≥2L FL",
+                  "PI3Kα/δ inhibitor, IV administration",
+                  "ORR 59%"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Epcoritamab FL",
+                "name_en": "Epcoritamab (FL indication)",
+                "company": "AstraZeneca / Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE FL-1",
+                "status": "Subcutaneous CD20×CD3 bispecific for ≥2L FL"
+              },
+              {
+                "name_cn": "Axicabtagene Ciloleucel (Yescarta) FL",
+                "name_en": "Axicabtagene Ciloleucel – FL",
+                "company": "Kite/Gilead",
+                "stage": "已上市（美国，≥3L FL）",
+                "trial": "ZUMA-5",
+                "status": "FDA approved 2021 for ≥3L FL; ORR 94%, CR 79%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hodgkin_lymphoma",
+      "name_cn": "霍奇金淋巴瘤",
+      "name_en": "Hodgkin Lymphoma (HL)",
+      "china": {
+        "annual_new_cases": 8000,
+        "annual_new_cases_note": "中国相对少见，青壮年多发（中位年龄30岁），总体预后较好",
+        "tam_rmb_bn": 1.5,
+        "diagnosis_steps": [
+          "淋巴结活检（必须切除活检，不可仅穿刺）",
+          "病理诊断（RS细胞 Reed-Sternberg细胞，CD30+、CD15+）",
+          "区分经典型HL（CHL）vs 结节性淋巴细胞为主型（NLPHL）",
+          "PET-CT分期（Ann Arbor I-IV期）",
+          "血液检查（ESR、LDH、白蛋白）",
+          "IPS评分（国际预后评分，7分系统）",
+          "生育能力咨询（年轻患者）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "ABVD方案",
+                "name_en": "ABVD (Doxorubicin + Bleomycin + Vinblastine + Dacarbazine)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 35000,
+                "annual_cost_usd": null,
+                "market_share": "55%",
+                "selling_points": [
+                  "中国指南一线标准，2-6周期",
+                  "早期HL（I-II期）：2-4周期ABVD±放疗",
+                  "晚期HL（III-IV期）：6周期ABVD",
+                  "5年OS >85%（早期），约70%（晚期）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "A+AVD方案（维布妥昔单抗+AVD）",
+                "name_en": "Brentuximab Vedotin + AVD (A+AVD)",
+                "manufacturer": "武田 Takeda / Seagen",
+                "annual_cost_rmb": 250000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "ECHELON-1研究：改进PFS（vs ABVD，6年PFS 82% vs 75%）",
+                  "CD30靶向ADC，NMPA批准晚期HL一线",
+                  "以BV替换博来霉素，降低肺毒性"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "BEACOPP方案（晚期高危）",
+                "name_en": "BEACOPP (Escalated)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 50000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "高危晚期HL（IPS 4-7分）可选",
+                  "PFS优于ABVD，但毒性更重",
+                  "欧洲使用更广泛，中国较少"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Nivolumab + AVD（纳武利尤单抗）",
+                "name_en": "Nivolumab + AVD",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "SWOG S1826",
+                "status": "美国2024年ASCO：Nivo+AVD vs A+AVD 一线晚期HL，PFS显著优于A+AVD（HR 0.48），可能成为新标准"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (Relapsed/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "信迪利单抗（达伯舒）",
+                "name_en": "Sintilimab (Tyvyt)",
+                "manufacturer": "信达生物 Innovent",
+                "annual_cost_rmb": 90000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "NMPA批准复发/难治CHL适应症",
+                  "ORR 80.4%，CR 34%（中国注册研究）",
+                  "国产PD-1，价格优势，医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡瑞利珠单抗（艾瑞卡）",
+                "name_en": "Camrelizumab (AiRuiKa)",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "NMPA批准复发/难治CHL",
+                  "ORR 76%，CR 28%",
+                  "国产PD-1，医保报销",
+                  "反应性毛细血管增生症为常见副作用"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维布妥昔单抗（Adcetris）",
+                "name_en": "Brentuximab Vedotin (Adcetris)",
+                "manufacturer": "武田 Takeda",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "CD30 ADC，NMPA批准复发/难治CHL",
+                  "ORR 75%，CR 34%（SG035-0003）",
+                  "桥接自体干细胞移植（ASCT）标准选择"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Nivolumab（纳武利尤单抗）",
+                "name_en": "Nivolumab (Opdivo)",
+                "company": "百时美施贵宝 BMS",
+                "stage": "已上市（美国）/ 中国申报HL适应症",
+                "trial": "CheckMate-205",
+                "status": "FDA批准复发/难治CHL，ORR 65%；中国HL适应症申报NDA中"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 8540,
+        "annual_new_cases_note": "Bimodal age distribution (20s and 60s+); ~95% 5-year survival for early-stage",
+        "tam_usd_bn": 2.5,
+        "diagnosis_steps": [
+          "Excisional lymph node biopsy (mandatory)",
+          "RS cell identification: CD30+, CD15+, CD20-, PAX5 dim",
+          "Distinguish cHL (4 subtypes) vs NLPHL",
+          "PET-CT staging (Lugano classification)",
+          "IPS score (7-factor: stage IV, age ≥45, male sex, Hgb, WBC, lymphocyte, albumin)",
+          "Fertility counseling (young patients)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "A+AVD（维布妥昔单抗+AVD）",
+                "name_en": "Brentuximab Vedotin + AVD (A+AVD)",
+                "manufacturer": "Seagen / Takeda",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 380000,
+                "market_share": "40%",
+                "selling_points": [
+                  "ECHELON-1: 6-yr PFS 82% vs 75% (ABVD)",
+                  "FDA approved 2018 for stage III/IV cHL",
+                  "Replaces bleomycin (reduces pulmonary toxicity)",
+                  "NCCN Category 1 for advanced stage"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "ABVD方案",
+                "name_en": "ABVD",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 60000,
+                "market_share": "30%",
+                "selling_points": [
+                  "Standard for early-stage (I-II) favorable",
+                  "2 cycles ABVD + ISRT for early favorable",
+                  "Lower cost, decades of safety data"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Nivolumab + AVD",
+                "name_en": "Nivolumab + AVD",
+                "company": "Bristol Myers Squibb",
+                "stage": "已上市（SWOG S1826数据，2024获批）",
+                "trial": "SWOG S1826",
+                "status": "2024 ASCO: PFS HR 0.48 vs A+AVD; FDA approved 2024 for advanced cHL 1L; likely new standard for stage III/IV"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab（Keytruda）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 250000,
+                "market_share": "35%",
+                "selling_points": [
+                  "FDA approved 2017 for R/R cHL (≥3L)",
+                  "KEYNOTE-204: PFS HR 0.65 vs BV (2L)",
+                  "ORR 69%, CR 22%",
+                  "NCCN Category 1 for R/R cHL"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab（Opdivo）",
+                "name_en": "Nivolumab (Opdivo)",
+                "manufacturer": "Bristol Myers Squibb",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 240000,
+                "market_share": "25%",
+                "selling_points": [
+                  "FDA approved 2016 for R/R cHL (≥3L)",
+                  "CheckMate-205: ORR 65%, CR 29%",
+                  "Combination with BV (Nivo+BV) Phase 2 data promising"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Brentuximab Vedotin（Adcetris）单药",
+                "name_en": "Brentuximab Vedotin (Adcetris) monotherapy",
+                "manufacturer": "Seagen / Takeda",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 300000,
+                "market_share": "20%",
+                "selling_points": [
+                  "FDA approved 2011 for R/R cHL post-ASCT or post-2L",
+                  "ORR 75%, CR 34% (pivotal trial)",
+                  "Bridge to ASCT option"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Nivolumab + Brentuximab Vedotin",
+                "name_en": "Nivolumab + Brentuximab Vedotin (Nivo+BV)",
+                "company": "BMS + Seagen/Takeda",
+                "stage": "Phase 2 / NDA考虑",
+                "trial": "CheckMate-812",
+                "status": "Combination showed ORR 85%, CR 67% in R/R cHL; potential regulatory submission"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

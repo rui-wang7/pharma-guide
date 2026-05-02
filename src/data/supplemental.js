@@ -133,6 +133,22 @@ export const EU_SURVIVAL = {
     china: { prevalence: 150000, median_survival_years: 2.8 },  // ~54k adv×2.8yr≈150k
     us:    { prevalence: 235000, median_survival_years: 3.5 },  // 67k×3.5yr≈234k
   },
+  // ── LYMPHOMA ──
+  dlbcl: {
+    eu: { annual_new_cases: 35000, tam_eur_bn: 3.0, prevalence: 80000 },
+    china: { prevalence: 65000,  median_survival_years: 2.5 },
+    us:    { prevalence: 60000,  median_survival_years: 3.0 },
+  },
+  follicular_lymphoma: {
+    eu: { annual_new_cases: 18000, tam_eur_bn: 2.5, prevalence: 180000 },
+    china: { prevalence: 85000,  median_survival_years: 10.0 },
+    us:    { prevalence: 140000, median_survival_years: 12.0 },
+  },
+  hodgkin_lymphoma: {
+    eu: { annual_new_cases: 12000, tam_eur_bn: 1.5, prevalence: 100000 },
+    china: { prevalence: 56000,  median_survival_years: 7.0 },
+    us:    { prevalence: 80000,  median_survival_years: 10.0 },
+  },
   // ── IMMUNE ──
   ra_moderate_severe: {
     eu: { annual_new_cases: 200000, tam_eur_bn: 16.0, prevalence: 2800000 },

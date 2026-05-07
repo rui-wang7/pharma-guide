@@ -190,6 +190,31 @@ export const EU_SURVIVAL = {
     china: { prevalence: 150000, median_survival_years: null },
     us:    { prevalence: 700000, median_survival_years: null },
   },
+  ulcerative_colitis: {
+    eu: { annual_new_cases: 80000, tam_eur_bn: 6.0, prevalence: 1500000 },
+    china: { prevalence: 200000, median_survival_years: null },
+    us:    { prevalence: 900000, median_survival_years: null },
+  },
+  sle_moderate_severe: {
+    eu: { annual_new_cases: 30000, tam_eur_bn: 1.5, prevalence: 500000 },
+    china: { prevalence: 1000000, median_survival_years: null },
+    us:    { prevalence: 322000, median_survival_years: null },
+  },
+  ms_relapsing: {
+    eu: { annual_new_cases: 25000, tam_eur_bn: 7.0, prevalence: 700000 },
+    china: { prevalence: 50000, median_survival_years: null },
+    us:    { prevalence: 1000000, median_survival_years: null },
+  },
+  as_active: {
+    eu: { annual_new_cases: 50000, tam_eur_bn: 3.5, prevalence: 2000000 },
+    china: { prevalence: 4000000, median_survival_years: null },
+    us:    { prevalence: 1500000, median_survival_years: null },
+  },
+  gmg: {
+    eu: { annual_new_cases: 7000, tam_eur_bn: 1.0, prevalence: 80000 },
+    china: { prevalence: 80000, median_survival_years: null },
+    us:    { prevalence: 70000, median_survival_years: null },
+  },
   // ── METABOLIC ──
   t2dm_standard: {
     eu: { annual_new_cases: 2500000, tam_eur_bn: 20.0, prevalence: 32000000 },

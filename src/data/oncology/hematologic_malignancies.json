@@ -554,6 +554,20 @@
               },
               {
                 "type": "drug",
+                "name_cn": "Zanubrutinib + Obinutuzumab (Brukinsa+G) — FL",
+                "name_en": "Zanubrutinib + Obinutuzumab (Brukinsa + G)",
+                "manufacturer": "BeiGene + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 220000,
+                "market_share": "8%",
+                "selling_points": [
+                  "ROSEWOOD: ORR 69% vs 46% (G alone) in R/R FL",
+                  "FDA accelerated approval R/R FL March 2024 (≥2 prior lines)",
+                  "Oral BTK + IV anti-CD20; 5th FDA indication for Brukinsa"
+                ]
+              },
+              {
+                "type": "drug",
                 "name_cn": "Axicabtagene Ciloleucel (Yescarta) — FL ≥3L",
                 "name_en": "Axi-cel (Yescarta) — FL ≥3L",
                 "manufacturer": "Kite / Gilead",
@@ -1241,6 +1255,14 @@
                 "stage": "中国Phase 3",
                 "trial": "BRUIN CLL-321",
                 "status": "非共价BTK抑制剂，覆盖BTK C481S耐药"
+              },
+              {
+                "name_cn": "Sonrotoclax + 泽布替尼（CELESTIAL-TNCLL）",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "百济神州 BeiGene",
+                "stage": "Phase 3",
+                "trial": "CELESTIAL-TNCLL / BGB-11417-301",
+                "status": "次代高选择性BCL-2 + BTK固定疗程；中国NDA预计2025-2026；潜在替代V+O一线"
               }
             ]
           },
@@ -1381,6 +1403,14 @@
                 "stage": "Phase 3",
                 "trial": "BRUIN CLL-322",
                 "status": "Triplet 1L combo, fixed duration approach"
+              },
+              {
+                "name_cn": "Sonrotoclax + Zanubrutinib (CELESTIAL-TNCLL)",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "BeiGene",
+                "stage": "Phase 3",
+                "trial": "CELESTIAL-TNCLL / BGB-11417-301",
+                "status": "Next-gen highly selective BCL-2 + BTK; potential fixed-duration regimen vs V+O; Phase 1/2 ORR >97%"
               }
             ]
           },
@@ -2038,6 +2068,715 @@
                 "stage": "Phase 3",
                 "trial": "CC-92480-MM-002 / CC-220-MM-001",
                 "status": "Next-gen cereblon E3 ligase modulators"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mcl",
+      "name_cn": "套细胞淋巴瘤 (MCL)",
+      "name_en": "Mantle Cell Lymphoma (MCL)",
+      "china": {
+        "annual_new_cases": 4500,
+        "annual_new_cases_note": "约占NHL的5-7%，男性多见，中位发病年龄65岁",
+        "tam_rmb_bn": 1.2,
+        "diagnosis_steps": [
+          "病理活检：CD5+, CD20+, Cyclin D1+ (t(11;14)易位)",
+          "Ki-67增殖指数（≥30% 提示侵袭性）",
+          "MIPI预后评分（年龄、ECOG、LDH、白细胞）",
+          "PET-CT分期 + 骨髓活检",
+          "胃肠镜（约30%累及消化道）",
+          "TP53突变检测（强不良预后）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "BR方案（苯达莫司汀+利妥昔单抗）",
+                "name_en": "Bendamustine + Rituximab (BR)",
+                "manufacturer": "通用 + 罗氏",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "StiL NHL1研究：PFS优于R-CHOP",
+                  "老年/不耐受高强度化疗患者首选",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-CHOP/R-DHAP + 自体造血干细胞移植（年轻患者）",
+                "name_en": "R-CHOP/R-DHAP + ASCT (Young Fit)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "MCL Younger研究：交替R-CHOP/R-DHAP+ASCT巩固",
+                  "<65岁可耐受患者标准方案",
+                  "中位PFS >7年"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "VR-CAP方案",
+                "name_en": "Bortezomib + R-CAP (VR-CAP)",
+                "manufacturer": "武田 + 罗氏",
+                "annual_cost_rmb": 120000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "LYM-3002：PFS 25m vs 14m vs R-CHOP",
+                  "硼替佐米替代长春新碱",
+                  "NMPA适应症"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "泽布替尼 + 利妥昔单抗（BR或BTK联合）",
+                "name_en": "Zanubrutinib + R-based 1L",
+                "company": "百济神州 BeiGene",
+                "stage": "Phase 3 / 适应症拓展",
+                "trial": "BGB-3111-306",
+                "status": "国产二代BTK探索一线，预期改写MCL一线格局"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (R/R)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "泽布替尼（百悦泽）",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "百济神州 BeiGene",
+                "annual_cost_rmb": 95000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "BGB-3111-206：ORR 84%，CR 78%（R/R MCL）",
+                  "NMPA 2020年首个适应症 → R/R MCL",
+                  "二代BTK，心房颤动率显著低于伊布替尼",
+                  "医保乙类"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "伊布替尼（亿珂）",
+                "name_en": "Ibrutinib (Imbruvica)",
+                "manufacturer": "强生/艾伯维 J&J/AbbVie",
+                "annual_cost_rmb": 130000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "PCYC-1104研究：R/R MCL ORR 68%",
+                  "首个BTK抑制剂获批MCL",
+                  "持续给药至进展"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "奥布替尼（宜诺凯）",
+                "name_en": "Orelabrutinib (Yinuokai)",
+                "manufacturer": "诺诚健华 InnoCare",
+                "annual_cost_rmb": 85000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "ICP-CL-00102研究：R/R MCL ORR 81%",
+                  "国产高选择性BTK，NMPA 2020年批MCL",
+                  "医保乙类，副作用谱较优"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "来那度胺（雷利度胺）",
+                "name_en": "Lenalidomide (Revlimid)",
+                "manufacturer": "BMS / 国产仿制",
+                "annual_cost_rmb": 50000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "EMERGE研究：单药ORR 28%",
+                  "国产仿制药价格大幅下降",
+                  "医保覆盖"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Sonrotoclax + 泽布替尼（BCL-2 + BTK）",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "百济神州 BeiGene",
+                "stage": "Phase 3",
+                "trial": "BGB-11417-302（R/R MCL）",
+                "status": "次代高选择性BCL-2抑制剂，潜在固定疗程；中国NDA预计2025-2026"
+              },
+              {
+                "name_cn": "Pirtobrutinib（Jaypirca）",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "company": "礼来 Eli Lilly",
+                "stage": "中国Phase 3 / 美国已上市",
+                "trial": "BRUIN MCL-321",
+                "status": "非共价BTK，覆盖C481S耐药；FDA 2023年加速批准R/R MCL（≥2线BTK失败）"
+              },
+              {
+                "name_cn": "Brexucabtagene autoleucel（Tecartus）",
+                "name_en": "Brexu-cel (Tecartus)",
+                "company": "Kite/Gilead",
+                "stage": "中国未上市（美国已批）",
+                "trial": "ZUMA-2",
+                "status": "CD19 CAR-T，BTK耐药MCL ORR 87%；国内同类CAR-T研发中"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 4000,
+        "annual_new_cases_note": "~5% of NHL; ~4K incident/yr; M:F ~3:1; median age 68",
+        "tam_usd_bn": 1.8,
+        "diagnosis_steps": [
+          "Pathology: CD5+, CD20+, Cyclin D1+ (t(11;14))",
+          "Ki-67 proliferation index (≥30% high-risk)",
+          "MIPI (Mantle Cell Intl Prognostic Index)",
+          "PET-CT staging + bone marrow biopsy",
+          "Endoscopy if GI involvement suspected",
+          "TP53 mutation testing (strong adverse prognostic)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Bendamustine + Rituximab (BR)",
+                "name_en": "Bendamustine + Rituximab (BR)",
+                "manufacturer": "Generic + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 80000,
+                "market_share": "30%",
+                "selling_points": [
+                  "Older/unfit patients standard",
+                  "StiL NHL1: PFS superior to R-CHOP",
+                  "Often followed by R maintenance"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Cytarabine-based + ASCT (Nordic / TRIANGLE)",
+                "name_en": "High-dose Cytarabine + ASCT consolidation",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 150000,
+                "market_share": "25%",
+                "selling_points": [
+                  "Young/fit patients (<65)",
+                  "TRIANGLE: ibrutinib + chemo + ASCT improves outcomes",
+                  "Median PFS >7 years"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ibrutinib + BR or VR (TRIANGLE)",
+                "name_en": "Ibrutinib + chemo (TRIANGLE arm A+I)",
+                "manufacturer": "J&J/AbbVie",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "15%",
+                "selling_points": [
+                  "TRIANGLE: 3yr PFS 88% (I+chemo) vs 72% (chemo)",
+                  "FDA approved 1L MCL April 2024 (post-TRIANGLE)",
+                  "May obviate ASCT in selected patients"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Acalabrutinib + BR 1L",
+                "name_en": "Acalabrutinib + BR (1L MCL)",
+                "company": "AstraZeneca",
+                "stage": "Phase 3",
+                "trial": "ECHO",
+                "status": "1L MCL with BR; readout 2024 favorable PFS"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（复发/难治）",
+            "label_en": "2nd Line (R/R)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Brexu-cel (Tecartus)",
+                "name_en": "Brexucabtagene Autoleucel (Tecartus)",
+                "manufacturer": "Kite/Gilead",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 450000,
+                "market_share": "20%",
+                "selling_points": [
+                  "ZUMA-2: ORR 87%, CR 62%",
+                  "FDA approved R/R MCL July 2020",
+                  "Post-BTK durable responses"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pirtobrutinib (Jaypirca)",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 230000,
+                "market_share": "20%",
+                "selling_points": [
+                  "BRUIN: ORR 50% in covalent BTK-exposed",
+                  "FDA accelerated approval Jan 2023 for R/R MCL ≥2 lines",
+                  "Non-covalent BTK; covers C481S resistance"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Zanubrutinib (Brukinsa)",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "BeiGene",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 180000,
+                "market_share": "20%",
+                "selling_points": [
+                  "BGB-3111-206 + 302: ORR 84%, CR 78%",
+                  "FDA accelerated approval R/R MCL Nov 2019 (first FDA indication for Brukinsa)",
+                  "Lower AFib than ibrutinib"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Acalabrutinib (Calquence)",
+                "name_en": "Acalabrutinib (Calquence)",
+                "manufacturer": "AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "15%",
+                "selling_points": [
+                  "ACE-LY-004: ORR 81% in R/R MCL",
+                  "FDA accelerated approval R/R MCL Oct 2017",
+                  "Lower off-target effects than ibrutinib"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Sonrotoclax + Zanubrutinib",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "BeiGene",
+                "stage": "Phase 3",
+                "trial": "BGB-11417-302",
+                "status": "Next-gen BCL-2 + BTK combo for R/R MCL; potential fixed-duration regimen"
+              },
+              {
+                "name_cn": "Glofitamab (Columvi) — MCL",
+                "name_en": "Glofitamab (Columvi) - MCL",
+                "company": "Roche/Genentech",
+                "stage": "Phase 2",
+                "trial": "NP30179 MCL cohort",
+                "status": "CD20×CD3 BiTE; ORR 84% post-BTK in R/R MCL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mzl",
+      "name_cn": "边缘区淋巴瘤 (MZL)",
+      "name_en": "Marginal Zone Lymphoma (MZL)",
+      "china": {
+        "annual_new_cases": 5000,
+        "annual_new_cases_note": "约占NHL的7%；包含黏膜相关淋巴组织(MALT)、脾脏、淋巴结型；多惰性",
+        "tam_rmb_bn": 0.6,
+        "diagnosis_steps": [
+          "病理：小B细胞，CD20+, CD5−, CD10−",
+          "三亚型分型：胃肠MALT / 脾脏MZL / 淋巴结MZL",
+          "胃MALT：HP感染检测（80%相关）",
+          "PET-CT分期 + 骨髓活检",
+          "丙肝病毒血清学（脾脏MZL相关）"
+        ],
+        "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "病因/局限期治疗",
+            "label_en": "Etiology / Limited Stage",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "幽门螺杆菌根除（胃MALT）",
+                "name_en": "H. pylori eradication (gastric MALT)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 1500,
+                "annual_cost_usd": null,
+                "market_share": "胃MALT首选",
+                "selling_points": [
+                  "胃MALT合并HP+患者首选治疗",
+                  "完全缓解率约70-80%",
+                  "三联/四联方案，价格低廉"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "局部放射治疗（IFRT）",
+                "name_en": "Involved-Field Radiation (IFRT)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 30000,
+                "annual_cost_usd": null,
+                "market_share": "局限期标准",
+                "selling_points": [
+                  "胃MALT HP阴性 / 非胃局限期标准",
+                  "24-30Gy分次，治愈率高",
+                  "医保报销"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（进展/难治）",
+            "label_en": "2nd Line (Progressive/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "利妥昔单抗 ± 苯达莫司汀（BR）",
+                "name_en": "Rituximab ± Bendamustine (BR)",
+                "manufacturer": "罗氏 + 通用",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "BR方案：进展期一线优选",
+                  "利妥昔单抗单药用于轻症",
+                  "医保报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "泽布替尼（百悦泽）",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "百济神州 BeiGene",
+                "annual_cost_rmb": 95000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "MAGNOLIA研究：R/R MZL ORR 68%，CR 26%",
+                  "NMPA 2022年批准R/R MZL",
+                  "医保乙类"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "伊布替尼（亿珂）",
+                "name_en": "Ibrutinib (Imbruvica)",
+                "manufacturer": "强生/艾伯维 J&J/AbbVie",
+                "annual_cost_rmb": 130000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "PCYC-1121研究：R/R MZL ORR 48%",
+                  "BTK抑制剂"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "R² (利妥昔单抗+来那度胺)",
+                "name_en": "R² (Rituximab + Lenalidomide)",
+                "company": "罗氏 + BMS / 国产仿制",
+                "stage": "中国NDA / 适应症拓展",
+                "trial": "AUGMENT / MAGNIFY",
+                "status": "化疗-free方案，R/R indolent NHL ORR 78%"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 7000,
+        "annual_new_cases_note": "~7% of NHL; ~7K incident/yr (gastric MALT 50% + splenic + nodal)",
+        "tam_usd_bn": 1.0,
+        "diagnosis_steps": [
+          "Histology: small B-cells, CD20+, CD5−, CD10−",
+          "Subtype: gastric MALT vs splenic vs nodal MZL",
+          "H. pylori testing (gastric MALT)",
+          "PET-CT staging + bone marrow biopsy",
+          "HCV serology (splenic MZL)"
+        ],
+        "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "病因/局限期治疗",
+            "label_en": "Etiology / Limited Stage",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "H. pylori eradication (gastric MALT)",
+                "name_en": "H. pylori eradication",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 500,
+                "market_share": "First-line gastric MALT",
+                "selling_points": [
+                  "Standard for HP+ gastric MALT",
+                  "Complete remission ~70-80%",
+                  "Triple or quadruple antibiotic regimen"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Involved-Field Radiation",
+                "name_en": "IFRT (24-30 Gy)",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 25000,
+                "market_share": "Limited-stage standard",
+                "selling_points": [
+                  "Standard for HP-negative gastric MALT and limited non-gastric",
+                  "High cure rate"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（进展/难治）",
+            "label_en": "2nd Line (Progressive/Refractory)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Zanubrutinib (Brukinsa)",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "BeiGene",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 180000,
+                "market_share": "30%",
+                "selling_points": [
+                  "MAGNOLIA: ORR 68%, CR 26% (R/R MZL)",
+                  "FDA accelerated approval R/R MZL Sept 2021",
+                  "Once or twice daily oral"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Bendamustine + Rituximab (BR)",
+                "name_en": "Bendamustine + Rituximab (BR)",
+                "manufacturer": "Generic + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 55000,
+                "market_share": "35%",
+                "selling_points": [
+                  "Standard 1L for advanced/symptomatic disease",
+                  "Often followed by R maintenance"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Lenalidomide + Rituximab (R²)",
+                "name_en": "Lenalidomide + Rituximab (R²)",
+                "manufacturer": "BMS + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 130000,
+                "market_share": "15%",
+                "selling_points": [
+                  "AUGMENT: PFS 39m vs 14m (vs R alone)",
+                  "FDA approved R/R FL/MZL May 2019",
+                  "Chemo-free oral + IV combo"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ibrutinib (Imbruvica)",
+                "name_en": "Ibrutinib (Imbruvica)",
+                "manufacturer": "J&J/AbbVie",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 165000,
+                "market_share": "10%",
+                "selling_points": [
+                  "PCYC-1121: R/R MZL ORR 48%",
+                  "FDA accelerated approval R/R MZL Jan 2017",
+                  "Daily oral BTK"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Mosunetuzumab — MZL",
+                "name_en": "Mosunetuzumab (Lunsumio) - MZL",
+                "company": "Roche/Genentech",
+                "stage": "Phase 2",
+                "trial": "MorningSun (GO29781 cohort)",
+                "status": "CD20×CD3 BiTE; ORR ~70% in indolent NHL incl. MZL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "burkitt_lymphoma",
+      "name_cn": "伯基特淋巴瘤 (BL)",
+      "name_en": "Burkitt Lymphoma (BL)",
+      "china": {
+        "annual_new_cases": 1500,
+        "annual_new_cases_note": "罕见但高度侵袭性NHL；约占NHL的1-2%；儿童/青少年与免疫缺陷成人多见",
+        "tam_rmb_bn": 0.2,
+        "diagnosis_steps": [
+          "病理：'starry sky'外观，Ki-67≥95%",
+          "FISH：MYC重排（t(8;14)/t(2;8)/t(8;22)）",
+          "BCL-2阴性、CD10+, CD20+, BCL-6+",
+          "临床三型：地方性 / 散发性 / 免疫缺陷相关",
+          "PET-CT + 脑脊液+骨髓活检（CNS高风险）",
+          "HIV筛查"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（高强度化疗 + CNS预防）",
+            "label_en": "1st Line (Intensive Chemo + CNS Prophylaxis)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "DA-EPOCH-R 方案",
+                "name_en": "DA-EPOCH-R",
+                "manufacturer": "通用 + 罗氏（利妥昔单抗）",
+                "annual_cost_rmb": 100000,
+                "annual_cost_usd": null,
+                "market_share": "60%",
+                "selling_points": [
+                  "Dunleavy研究：低/中危BL治愈率>90%",
+                  "毒性较R-CODOX-M/IVAC低",
+                  "成人BL首选，含CNS预防"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-CODOX-M / IVAC（高危/CNS+）",
+                "name_en": "R-CODOX-M / IVAC",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "Magrath改良方案",
+                  "高危患者（巨块/CNS受累）",
+                  "强烈骨髓抑制需密切监护"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "儿童协作组方案 (BFM/COG)",
+                "name_en": "Pediatric BFM/COG protocols",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 80000,
+                "annual_cost_usd": null,
+                "market_share": "儿童首选",
+                "selling_points": [
+                  "儿童BL治愈率 >90%",
+                  "BFM-95 / FAB LMB 协作组",
+                  "短周期高强度化疗"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "靶向治疗探索（CD22 ADC等）",
+                "name_en": "Investigational Targeted Therapy",
+                "company": "多家",
+                "stage": "Phase 1/2",
+                "trial": "多个研究者发起",
+                "status": "BL难治后线探索：CD22 ADC、CD19 CAR-T"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 1500,
+        "annual_new_cases_note": "~1-2% of NHL; ~1.5K incident/yr; HIV-associated subset important",
+        "tam_usd_bn": 0.4,
+        "diagnosis_steps": [
+          "Pathology: 'starry sky' pattern, Ki-67 ≥95%",
+          "FISH: MYC rearrangement (t(8;14) / variants)",
+          "BCL-2 negative, CD10+, CD20+, BCL-6+",
+          "Clinical subtype: endemic / sporadic / immunodeficiency-associated",
+          "PET-CT + CSF + bone marrow (CNS prophylaxis essential)",
+          "HIV testing"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line (Intensive)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "DA-EPOCH-R",
+                "name_en": "DA-EPOCH-R",
+                "manufacturer": "Generic + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 80000,
+                "market_share": "60%",
+                "selling_points": [
+                  "Dunleavy NEJM 2013: EFS >90% in low/intermediate risk",
+                  "Less toxic than R-CODOX-M/IVAC",
+                  "NCCN preferred adult BL"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "R-CODOX-M / IVAC",
+                "name_en": "R-CODOX-M / IVAC (Magrath)",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 100000,
+                "market_share": "25%",
+                "selling_points": [
+                  "High-risk (bulky / CNS+) patients",
+                  "More intensive but proven historical regimen"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Hyper-CVAD + R",
+                "name_en": "Hyper-CVAD + R",
+                "manufacturer": "Generic + Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 95000,
+                "market_share": "10%",
+                "selling_points": [
+                  "MD Anderson regimen",
+                  "Alternative for adult BL"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Glofitamab + chemo (frontline trials)",
+                "name_en": "Glofitamab + chemo (frontline trials)",
+                "company": "Roche",
+                "stage": "Phase 2",
+                "trial": "Investigator-initiated",
+                "status": "CD20×CD3 BiTE added to frontline; early signals"
               }
             ]
           }

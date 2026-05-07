@@ -169,6 +169,21 @@ export const EU_SURVIVAL = {
     china: { prevalence: 100000, median_survival_years: 4.0 },   // ~25k×4yr
     us:    { prevalence: 180000, median_survival_years: 5.0 },   // 36k×5yr
   },
+  mcl: {
+    eu: { annual_new_cases: 4500, tam_eur_bn: 0.9, prevalence: 30000 },
+    china: { prevalence: 30000, median_survival_years: 6.0 },   // ~4.5k × 6yr (BTK era)
+    us:    { prevalence: 28000, median_survival_years: 7.0 },   // 4k × 7yr
+  },
+  mzl: {
+    eu: { annual_new_cases: 8000, tam_eur_bn: 0.5, prevalence: 80000 },
+    china: { prevalence: 50000, median_survival_years: 10.0 },  // indolent; many cured by HP eradication or RT
+    us:    { prevalence: 90000, median_survival_years: 12.0 },
+  },
+  burkitt_lymphoma: {
+    eu: { annual_new_cases: 2000, tam_eur_bn: 0.2, prevalence: 4000 },   // mostly cured or rapidly fatal
+    china: { prevalence: 4000, median_survival_years: 2.0 },   // skewed by curative cases vs refractory
+    us:    { prevalence: 5000, median_survival_years: 3.0 },
+  },
   // ── IMMUNE ──
   ra_moderate_severe: {
     eu: { annual_new_cases: 200000, tam_eur_bn: 16.0, prevalence: 2800000 },

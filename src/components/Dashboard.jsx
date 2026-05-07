@@ -106,12 +106,16 @@ export default function Dashboard() {
   const [selectedCategories, setSelectedCategories] = useState(
     Object.fromEntries(['oncology', 'immune', 'metabolic', 'cardiovascular', 'neuro'].map((c) => [c, true]))
   );
-  const [selectedIds, setSelectedIds]         = useState(() => new Set(allData.slice(0, 15).map((d) => d.id)));
-  const [selectedDiseaseIds, setSelectedDiseaseIds] = useState(() => new Set());
+  // Default: all DISEASES ticked (parent rows), all SUBTYPES unticked. Ticking parent
+  // shows aggregate; unticking parent cascades to clear its subtype selections.
+  const [selectedIds, setSelectedIds]         = useState(() => new Set());
+  const [selectedDiseaseIds, setSelectedDiseaseIds] = useState(() => new Set(allData.map((d) => d.diseaseId)));
   const [chartType, setChartType]     = useState('bar');
   const [groupBy, setGroupBy]         = useState('subtype'); // 'subtype' | 'disease' | 'category'
-  const [sortCol, setSortCol]         = useState('total_tam_usd');
-  const [sortDir, setSortDir]         = useState('desc');
+  // Default: JSON disease order (lymphoma → leukemia → myeloma → solid tumors → ...).
+  // User can click any column header to switch to numeric sort by that column.
+  const [sortCol, setSortCol]         = useState('_rank');
+  const [sortDir, setSortDir]         = useState('asc');
   const [tableSearch, setTableSearch] = useState('');
 
   const metric = METRICS.find((m) => m.key === selectedMetric);
@@ -138,7 +142,8 @@ export default function Dashboard() {
     const map = new Map();
     for (const d of filteredSubtypes) {
       if (!map.has(d.diseaseId)) {
-        map.set(d.diseaseId, { id: d.diseaseId, name_cn: d.diseaseName_cn, name_en: '', categoryId: d.categoryId, categoryName: d.categoryName, categoryIcon: d.categoryIcon, _rows: [] });
+        // _rank carried from first-seen subtype = position of this disease in JSON order
+        map.set(d.diseaseId, { id: d.diseaseId, name_cn: d.diseaseName_cn, name_en: '', categoryId: d.categoryId, categoryName: d.categoryName, categoryIcon: d.categoryIcon, _rank: d._rank, _rows: [] });
       }
       map.get(d.diseaseId)._rows.push(d);
     }
@@ -150,7 +155,7 @@ export default function Dashboard() {
     const map = new Map();
     for (const d of filteredSubtypes) {
       if (!map.has(d.categoryId)) {
-        map.set(d.categoryId, { id: d.categoryId, name_cn: d.categoryName, name_en: '', categoryId: d.categoryId, categoryName: d.categoryName, categoryIcon: d.categoryIcon, _rows: [] });
+        map.set(d.categoryId, { id: d.categoryId, name_cn: d.categoryName, name_en: '', categoryId: d.categoryId, categoryName: d.categoryName, categoryIcon: d.categoryIcon, _rank: d._rank, _rows: [] });
       }
       map.get(d.categoryId)._rows.push(d);
     }
@@ -234,11 +239,22 @@ export default function Dashboard() {
   };
 
   const toggleDisease = (diseaseId) => {
+    const willCheck = !selectedDiseaseIds.has(diseaseId);
     setSelectedDiseaseIds((prev) => {
       const next = new Set(prev);
-      next.has(diseaseId) ? next.delete(diseaseId) : next.add(diseaseId);
+      willCheck ? next.add(diseaseId) : next.delete(diseaseId);
       return next;
     });
+    if (!willCheck) {
+      // Cascade: unticking the parent disease also clears all its subtype selections,
+      // so a re-ticked disease starts fresh (parent-only, no orphan child checkboxes).
+      const subIdsInDisease = allData.filter((s) => s.diseaseId === diseaseId).map((s) => s.id);
+      setSelectedIds((prev) => {
+        const next = new Set(prev);
+        for (const id of subIdsInDisease) next.delete(id);
+        return next;
+      });
+    }
   };
 
   const handleSort = (col) => {

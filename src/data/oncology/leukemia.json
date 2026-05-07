@@ -1,0 +1,900 @@
+{
+  "id": "leukemia",
+  "name_cn": "白血病",
+  "name_en": "Leukemia",
+  "subtypes": [
+    {
+      "id": "aml",
+      "name_cn": "急性髓系白血病 (AML)",
+      "name_en": "Acute Myeloid Leukemia",
+      "china": {
+        "annual_new_cases": 75000,
+        "annual_new_cases_note": "中国成人急性白血病约80%为AML，老年人多发",
+        "tam_rmb_bn": 3.5,
+        "diagnosis_steps": [
+          "外周血+骨髓涂片（原始细胞≥20%诊断）",
+          "流式免疫分型（MPO+、CD33、CD34、CD117、HLA-DR）",
+          "细胞遗传学（核型分析）+ FISH",
+          "分子检测：FLT3-ITD/TKD、NPM1、CEBPA、IDH1/2、TP53、KMT2A重排",
+          "ELN 2022危险分层（低/中/高危）",
+          "评估移植资格（年龄+合并症）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线诱导（适合强化疗，<60岁）",
+            "label_en": "1st Line Induction (fit, <60y)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "7+3方案（柔红霉素+阿糖胞苷）",
+                "name_en": "7+3 (Daunorubicin + Cytarabine)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 50000,
+                "annual_cost_usd": null,
+                "market_share": "60%",
+                "selling_points": [
+                  "AML诱导金标准50年",
+                  "CR率约60-80%（年轻人）",
+                  "随后大剂量阿糖胞苷巩固或异基因移植"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "米哚妥林 + 7+3（FLT3+）",
+                "name_en": "Midostaurin + 7+3 (FLT3+)",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "8%",
+                "selling_points": [
+                  "RATIFY: OS HR 0.78 vs 7+3单用",
+                  "首个FLT3抑制剂，NMPA 2018年批准",
+                  "FLT3-ITD/TKD突变患者必选"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维奈克拉 + 阿扎胞苷",
+                "name_en": "Venetoclax + Azacitidine (Ven+Aza)",
+                "manufacturer": "艾伯维/罗氏 AbbVie/Roche",
+                "annual_cost_rmb": 250000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "VIALE-A：OS 14.7m vs 9.6m（不适合强化疗）",
+                  "BCL-2抑制剂，2023年NMPA批AML一线",
+                  "适用老年/不适合强化疗患者"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Quizartinib + 7+3（FLT3-ITD）",
+                "name_en": "Quizartinib + 7+3 (FLT3-ITD)",
+                "company": "第一三共 Daiichi Sankyo",
+                "stage": "美国已批 / 中国NDA",
+                "trial": "QuANTUM-First",
+                "status": "FLT3-ITD一线OS HR 0.78；NMPA申报中"
+              },
+              {
+                "name_cn": "Magrolimab + Aza",
+                "name_en": "Magrolimab + Azacitidine",
+                "company": "Gilead",
+                "stage": "Phase 3 终止 (TP53)",
+                "trial": "ENHANCE",
+                "status": "TP53突变AML研究终止；继续探索其他亚组"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（R/R AML）",
+            "label_en": "2nd Line (R/R)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "吉瑞替尼（Xospata）（FLT3+）",
+                "name_en": "Gilteritinib (Xospata) (FLT3+)",
+                "manufacturer": "安斯泰来 Astellas",
+                "annual_cost_rmb": 380000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "ADMIRAL: OS 9.3m vs 5.6m（vs 化疗）",
+                  "二代FLT3抑制剂，NMPA 2021年批",
+                  "覆盖FLT3-ITD和TKD突变"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维奈克拉 + HMA / 化疗",
+                "name_en": "Venetoclax + HMA",
+                "manufacturer": "艾伯维 AbbVie",
+                "annual_cost_rmb": 250000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "R/R AML CR/CRi率约30-40%",
+                  "可桥接异基因造血干细胞移植"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "异基因造血干细胞移植（allo-HSCT）",
+                "name_en": "Allogeneic HSCT",
+                "manufacturer": "—",
+                "annual_cost_rmb": 500000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "唯一治愈性治疗",
+                  "中高危AML CR1后强烈推荐",
+                  "5-yr OS 40-60%（CR1移植）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Olutasidenib（IDH1+）",
+                "name_en": "Olutasidenib (IDH1+)",
+                "company": "Rigel",
+                "stage": "美国已批 / 中国未上市",
+                "trial": "Study 2102",
+                "status": "FDA 2023批R/R AML IDH1+，CR/CRh 35%"
+              },
+              {
+                "name_cn": "Revumenib (Menin抑制剂)",
+                "name_en": "Revumenib (Menin inhibitor)",
+                "company": "Syndax",
+                "stage": "美国已批 / 全球Phase 1/2",
+                "trial": "AUGMENT-101",
+                "status": "FDA 2024批R/R KMT2Ar AML，ORR 63%"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 21000,
+        "annual_new_cases_note": "Most common acute leukemia in adults; median age 68",
+        "tam_usd_bn": 3.0,
+        "diagnosis_steps": [
+          "Peripheral blood + bone marrow (≥20% blasts)",
+          "Flow cytometry (MPO+, CD33, CD34, CD117, HLA-DR)",
+          "Cytogenetics (karyotype) + FISH",
+          "Molecular: FLT3-ITD/TKD, NPM1, CEBPA, IDH1/2, TP53, KMT2A rearrangement",
+          "ELN 2022 risk stratification (favorable/intermediate/adverse)",
+          "Transplant eligibility assessment"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线诱导（适合强化疗）",
+            "label_en": "1st Line Induction (fit)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Midostaurin + 7+3 (FLT3+)",
+                "name_en": "Midostaurin + 7+3 (FLT3+)",
+                "manufacturer": "Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 320000,
+                "market_share": "10%",
+                "selling_points": [
+                  "RATIFY: OS HR 0.78 vs 7+3 alone",
+                  "FDA approved 2017 for FLT3+ AML",
+                  "Standard for FLT3-ITD/TKD newly diagnosed"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Quizartinib + 7+3 (FLT3-ITD)",
+                "name_en": "Quizartinib + 7+3 (FLT3-ITD)",
+                "manufacturer": "Daiichi Sankyo",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 350000,
+                "market_share": "8%",
+                "selling_points": [
+                  "QuANTUM-First: OS HR 0.78 vs placebo",
+                  "FDA approved 2023 for FLT3-ITD AML 1L",
+                  "More selective FLT3 inhibitor than midostaurin"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "7+3 standard (FLT3 wild-type)",
+                "name_en": "7+3 (Daunorubicin + Cytarabine)",
+                "manufacturer": "Generic",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 80000,
+                "market_share": "30%",
+                "selling_points": [
+                  "Standard induction for fit FLT3-WT patients",
+                  "CR 60-80% in younger adults",
+                  "Followed by HiDAC consolidation or allo-HSCT"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Venetoclax + Azacitidine (unfit)",
+                "name_en": "Venetoclax + Azacitidine (unfit)",
+                "manufacturer": "AbbVie/Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 280000,
+                "market_share": "30%",
+                "selling_points": [
+                  "VIALE-A: OS 14.7m vs 9.6m (unfit elderly)",
+                  "FDA approved 2020 for unfit AML 1L",
+                  "New SOC for elderly/unfit (NCCN Cat 1)"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Revumenib + Ven/Aza (KMT2A/NPM1)",
+                "name_en": "Revumenib + Ven/Aza",
+                "company": "Syndax",
+                "stage": "Phase 1/2",
+                "trial": "AUGMENT-102",
+                "status": "Menin inhibitor combination in NPM1/KMT2Ar AML 1L"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（R/R）",
+            "label_en": "2nd Line (R/R)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Gilteritinib (Xospata) FLT3+",
+                "name_en": "Gilteritinib (Xospata) FLT3+",
+                "manufacturer": "Astellas",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 350000,
+                "market_share": "30%",
+                "selling_points": [
+                  "ADMIRAL: OS 9.3m vs 5.6m (vs chemo)",
+                  "FDA approved 2018 for R/R FLT3+ AML",
+                  "Covers ITD and TKD mutations"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ivosidenib / Olutasidenib (IDH1+)",
+                "name_en": "Ivosidenib (Tibsovo) / Olutasidenib (IDH1+)",
+                "manufacturer": "Servier / Rigel",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 320000,
+                "market_share": "8%",
+                "selling_points": [
+                  "Ivosidenib: CR/CRh 30%; FDA 2018",
+                  "Olutasidenib: CR/CRh 35%; FDA 2023",
+                  "Oral; for IDH1-mutated R/R AML"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Enasidenib (Idhifa) IDH2+",
+                "name_en": "Enasidenib (Idhifa) IDH2+",
+                "manufacturer": "Bristol Myers Squibb",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 320000,
+                "market_share": "5%",
+                "selling_points": [
+                  "FDA approved 2017 for R/R IDH2+ AML",
+                  "ORR 38.5%, CR 19%",
+                  "Oral, well-tolerated"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Allogeneic HSCT",
+                "name_en": "Allogeneic HSCT",
+                "manufacturer": "—",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 500000,
+                "market_share": "40%",
+                "selling_points": [
+                  "Only curative option for R/R AML",
+                  "5-yr OS 30-50% post-HSCT in CR2"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Revumenib (Revuforj) — KMT2Ar",
+                "name_en": "Revumenib (Revuforj)",
+                "company": "Syndax",
+                "stage": "已上市（美国2024）",
+                "trial": "AUGMENT-101",
+                "status": "FDA approved Nov 2024 for R/R KMT2Ar AL; ORR 63%, CR 23%"
+              },
+              {
+                "name_cn": "Ziftomenib (Menin抑制剂)",
+                "name_en": "Ziftomenib (Menin inhibitor)",
+                "company": "Kura Oncology",
+                "stage": "Phase 3",
+                "trial": "KOMET-001",
+                "status": "NPM1m R/R AML; FDA Breakthrough Therapy"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cll",
+      "name_cn": "慢性淋巴细胞白血病 (CLL)",
+      "name_en": "Chronic Lymphocytic Leukemia",
+      "china": {
+        "annual_new_cases": 10000,
+        "annual_new_cases_note": "亚洲发病率显著低于欧美（约欧美1/10）；中位年龄65岁",
+        "tam_rmb_bn": 2.0,
+        "diagnosis_steps": [
+          "外周血淋巴细胞≥5×10⁹/L（成熟B细胞表型）",
+          "流式免疫分型（CD5+、CD19+、CD20 dim、CD23+、kappa/lambda限制性）",
+          "FISH检测del(17p)、del(11q)、+12、del(13q)",
+          "TP53突变检测（指导治疗选择）",
+          "IGHV突变状态（突变型预后好）",
+          "Rai/Binet分期"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "泽布替尼（百悦泽）",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "百济神州 BeiGene",
+                "annual_cost_rmb": 95000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "ALPINE研究：PFS HR 0.65 vs 伊布替尼（头对头）",
+                  "国产二代BTK，2023年NMPA批CLL一线",
+                  "心房颤动率显著低于伊布替尼",
+                  "医保乙类报销"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "伊布替尼（亿珂）± 利妥昔单抗",
+                "name_en": "Ibrutinib (Imbruvica) ± Rituximab",
+                "manufacturer": "强生/艾伯维 J&J/AbbVie",
+                "annual_cost_rmb": 130000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "RESONATE/iLLUMINATE等多项研究OS获益",
+                  "首个BTK抑制剂，NMPA 2017年批",
+                  "持续给药至进展"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维奈克拉 + 奥妥珠单抗（V+O）",
+                "name_en": "Venetoclax + Obinutuzumab (V+O)",
+                "manufacturer": "艾伯维 + 罗氏",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "CLL14: 12月固定疗程，5-yr PFS 62.6%",
+                  "BCL-2 + CD20，可达深度MRD阴性",
+                  "NMPA批CLL一线"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Acalabrutinib（Calquence）",
+                "name_en": "Acalabrutinib (Calquence)",
+                "company": "阿斯利康 AstraZeneca",
+                "stage": "中国NDA已批",
+                "trial": "ELEVATE-TN",
+                "status": "二代BTK，2023年NMPA批CLL，PFS HR 0.20 vs 化免"
+              },
+              {
+                "name_cn": "Pirtobrutinib（Jaypirca）",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "company": "礼来 Eli Lilly",
+                "stage": "中国Phase 3",
+                "trial": "BRUIN CLL-321",
+                "status": "非共价BTK抑制剂，覆盖BTK C481S耐药"
+              },
+              {
+                "name_cn": "Sonrotoclax + 泽布替尼（CELESTIAL-TNCLL）",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "百济神州 BeiGene",
+                "stage": "Phase 3",
+                "trial": "CELESTIAL-TNCLL / BGB-11417-301",
+                "status": "次代高选择性BCL-2 + BTK固定疗程；中国NDA预计2025-2026；潜在替代V+O一线"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "维奈克拉 + 利妥昔单抗（V+R）",
+                "name_en": "Venetoclax + Rituximab (V+R)",
+                "manufacturer": "艾伯维 + 罗氏",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "MURANO: PFS HR 0.17 vs BR (R/R CLL)",
+                  "24月固定疗程，深度MRD阴性",
+                  "NMPA批R/R CLL"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "BTK抑制剂换药（一线BTK后选择V+R/Acala）",
+                "name_en": "Switch BTK class or to V+R",
+                "manufacturer": "—",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "BTK耐药后换非共价BTK或V+R",
+                  "del17p/TP53m需特别考虑"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Pirtobrutinib（Jaypirca）",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "company": "礼来 Eli Lilly",
+                "stage": "中国Phase 3",
+                "trial": "BRUIN",
+                "status": "ORR 82% in BTK pretreated CLL；中国申报中"
+              },
+              {
+                "name_cn": "CD19 CAR-T（lisocabtagene）",
+                "name_en": "Lisocabtagene Maraleucel — CLL",
+                "company": "Bristol Myers Squibb",
+                "stage": "中国Phase 2",
+                "trial": "TRANSCEND CLL 004",
+                "status": "R/R CLL post BTK+Ven failure"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 20700,
+        "annual_new_cases_note": "Most common adult leukemia in Western countries; median age 70",
+        "tam_usd_bn": 6.0,
+        "diagnosis_steps": [
+          "Peripheral lymphocytes ≥5×10⁹/L (mature B-cell phenotype)",
+          "Flow cytometry (CD5+, CD19+, CD20 dim, CD23+, kappa/lambda restriction)",
+          "FISH: del(17p), del(11q), +12, del(13q)",
+          "TP53 mutation analysis",
+          "IGHV mutation status (mutated = favorable)",
+          "Rai / Binet staging"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Acalabrutinib (Calquence) ± Obinutuzumab",
+                "name_en": "Acalabrutinib ± Obinutuzumab",
+                "manufacturer": "AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "30%",
+                "selling_points": [
+                  "ELEVATE-TN: PFS HR 0.20 vs O+chlorambucil",
+                  "NCCN Cat 1 preferred 1L",
+                  "Lower AFib than ibrutinib (ELEVATE-RR)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Zanubrutinib (Brukinsa)",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "manufacturer": "BeiGene",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 180000,
+                "market_share": "25%",
+                "selling_points": [
+                  "ALPINE: PFS HR 0.65 vs ibrutinib (head-to-head)",
+                  "FDA approved 1L CLL 2023",
+                  "Lower AFib, well-tolerated"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Venetoclax + Obinutuzumab (V+O)",
+                "name_en": "Venetoclax + Obinutuzumab (V+O)",
+                "manufacturer": "AbbVie + Roche/Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 320000,
+                "market_share": "20%",
+                "selling_points": [
+                  "CLL14: 12-month fixed duration, 5-yr PFS 62.6%",
+                  "FDA approved 1L CLL 2019",
+                  "Achieves deep MRD-undetectable response"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ibrutinib (Imbruvica)",
+                "name_en": "Ibrutinib (Imbruvica)",
+                "manufacturer": "AbbVie / Janssen",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 175000,
+                "market_share": "15%",
+                "selling_points": [
+                  "First-in-class BTK; long-term OS data",
+                  "Continuous dosing until progression",
+                  "Now largely replaced by 2nd-gen BTK due to AE profile"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Pirtobrutinib + Venetoclax ± Obinutuzumab",
+                "name_en": "Pirtobrutinib + Venetoclax ± Obinutuzumab",
+                "company": "Eli Lilly",
+                "stage": "Phase 3",
+                "trial": "BRUIN CLL-322",
+                "status": "Triplet 1L combo, fixed duration approach"
+              },
+              {
+                "name_cn": "Sonrotoclax + Zanubrutinib (CELESTIAL-TNCLL)",
+                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
+                "company": "BeiGene",
+                "stage": "Phase 3",
+                "trial": "CELESTIAL-TNCLL / BGB-11417-301",
+                "status": "Next-gen highly selective BCL-2 + BTK; potential fixed-duration regimen vs V+O; Phase 1/2 ORR >97%"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Pirtobrutinib (Jaypirca)",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 220000,
+                "market_share": "30%",
+                "selling_points": [
+                  "FDA approved 2023 for post-BTK CLL",
+                  "BRUIN: ORR 82% in BTK-pretreated",
+                  "Non-covalent BTKi (covers C481S resistance)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Venetoclax + Rituximab (V+R)",
+                "name_en": "Venetoclax + Rituximab (V+R)",
+                "manufacturer": "AbbVie + Genentech",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 280000,
+                "market_share": "30%",
+                "selling_points": [
+                  "MURANO: PFS HR 0.17 vs BR",
+                  "FDA approved R/R CLL 2018",
+                  "24-month fixed duration"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Lisocabtagene Maraleucel (Breyanzi) CAR-T",
+                "name_en": "Lisocabtagene Maraleucel (Breyanzi) — CLL",
+                "manufacturer": "Bristol Myers Squibb",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 410000,
+                "market_share": "10%",
+                "selling_points": [
+                  "FDA approved 2024 for R/R CLL post BTK+Ven",
+                  "TRANSCEND CLL 004: ORR 47%, CR 18%",
+                  "First CAR-T approved for CLL"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Epcoritamab (CD20×CD3) — CLL",
+                "name_en": "Epcoritamab — CLL",
+                "company": "AbbVie / Genmab",
+                "stage": "Phase 2",
+                "trial": "EPCORE CLL-1",
+                "status": "Bispecific antibody in R/R CLL post-BTK/Ven"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cml",
+      "name_cn": "慢性髓系白血病 (CML)",
+      "name_en": "Chronic Myeloid Leukemia",
+      "china": {
+        "annual_new_cases": 25000,
+        "annual_new_cases_note": "BCR::ABL1融合基因驱动；TKI使CML成为可控慢性病",
+        "tam_rmb_bn": 2.5,
+        "diagnosis_steps": [
+          "外周血+骨髓涂片（中性粒细胞增多+各阶段细胞）",
+          "细胞遗传学：Ph染色体 t(9;22)",
+          "RT-PCR定量BCR::ABL1融合转录本",
+          "分期：慢性期（CP）vs 加速期（AP）vs 急变期（BP）",
+          "ELN/NCCN危险分层（Sokal/Hasford评分）",
+          "治疗中定期监测分子学反应（MMR）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（慢性期CP-CML）",
+            "label_en": "1st Line (CP-CML)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "伊马替尼（格列卫，仿制药为主）",
+                "name_en": "Imatinib (Gleevec, mostly generic)",
+                "manufacturer": "诺华/正大天晴/石药",
+                "annual_cost_rmb": 12000,
+                "annual_cost_usd": null,
+                "market_share": "55%",
+                "selling_points": [
+                  "首个BCR-ABL TKI，IRIS研究10-yr OS 83%",
+                  "国产仿制药价格大幅降低（医保甲类）",
+                  "CP-CML标准一线，多数患者持续获益"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "尼洛替尼（达希纳）",
+                "name_en": "Nilotinib (Tasigna)",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "ENESTnd: MMR率高于伊马替尼",
+                  "二代TKI，深度分子学反应",
+                  "适合追求TFR（停药观察）患者"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "氟马替尼（豪森昕福）",
+                "name_en": "Flumatinib",
+                "manufacturer": "豪森药业 Hansoh",
+                "annual_cost_rmb": 35000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "国产二代TKI，结构类似伊马替尼",
+                  "MMR率优于伊马替尼，2019年NMPA批一线",
+                  "医保乙类，价格优势"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Asciminib (Scemblix) 一线",
+                "name_en": "Asciminib (Scemblix) 1L",
+                "company": "诺华 Novartis",
+                "stage": "美国已批 / 中国申报",
+                "trial": "ASC4FIRST",
+                "status": "STAMP抑制剂（ABL豆袋结合位点）；Ph1+ Ph3 1L MMR 67% vs 49%"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（耐药/不耐受）",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "达沙替尼（施达赛）",
+                "name_en": "Dasatinib (Sprycel)",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 45000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "二代TKI，伊马替尼耐药首选",
+                  "也可一线使用",
+                  "覆盖部分BCR-ABL突变"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "尼洛替尼（耐药/不耐受）",
+                "name_en": "Nilotinib (R/R)",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "二代TKI替代选择",
+                  "需空腹服用，注意QT延长"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "普纳替尼（Iclusig）（T315I+）",
+                "name_en": "Ponatinib (Iclusig) (T315I+)",
+                "manufacturer": "武田 Takeda",
+                "annual_cost_rmb": 200000,
+                "annual_cost_usd": null,
+                "market_share": "8%",
+                "selling_points": [
+                  "三代TKI，覆盖T315I突变",
+                  "PACE研究：T315I MMR 56%",
+                  "心血管事件风险高，需密切监测"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "奥雷巴替尼（Olverembatinib）",
+                "name_en": "Olverembatinib (HQP1351)",
+                "company": "亚盛医药 Ascentage",
+                "stage": "中国已批",
+                "trial": "HQP1351-Ph2",
+                "status": "国产三代BCR-ABL TKI，T315I+ MMR 56%；2021年NMPA批"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 9300,
+        "annual_new_cases_note": "TKIs have transformed CML to chronic manageable disease; near-normal life expectancy",
+        "tam_usd_bn": 3.5,
+        "diagnosis_steps": [
+          "Peripheral blood + bone marrow",
+          "Cytogenetics: Ph chromosome t(9;22)",
+          "RT-PCR for BCR::ABL1 transcript quantification",
+          "Phase: chronic (CP) vs accelerated (AP) vs blast (BP)",
+          "Sokal / Hasford / EUTOS risk score",
+          "Molecular monitoring (MMR/MR4.5) during therapy"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（CP-CML）",
+            "label_en": "1st Line (CP-CML)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Imatinib (generic) / Dasatinib (Sprycel)",
+                "name_en": "Imatinib (generic) / Dasatinib",
+                "manufacturer": "Generic / BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 18000,
+                "market_share": "45%",
+                "selling_points": [
+                  "Imatinib generic now ~$1500/yr (was $146k/yr)",
+                  "IRIS: 10-yr OS 83%",
+                  "First-line for low-risk CP-CML"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Nilotinib (Tasigna)",
+                "name_en": "Nilotinib (Tasigna)",
+                "manufacturer": "Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 130000,
+                "market_share": "15%",
+                "selling_points": [
+                  "ENESTnd: deeper molecular response than imatinib",
+                  "Preferred for patients pursuing TFR (treatment-free remission)",
+                  "Generic available 2024"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Asciminib (Scemblix)",
+                "name_en": "Asciminib (Scemblix)",
+                "manufacturer": "Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "20%",
+                "selling_points": [
+                  "ASC4FIRST: MMR 67% vs imatinib 49% / 2G TKI 49%",
+                  "FDA approved 2024 for 1L CP-CML",
+                  "STAMP inhibitor (allosteric ABL binding); novel MoA"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Olverembatinib (HQP1351)",
+                "name_en": "Olverembatinib",
+                "company": "Ascentage",
+                "stage": "Phase 3 美国",
+                "trial": "POLARIS-2",
+                "status": "T315I-resistant CML; FDA Orphan Drug + Fast Track"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Bosutinib (Bosulif)",
+                "name_en": "Bosutinib (Bosulif)",
+                "manufacturer": "Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 145000,
+                "market_share": "20%",
+                "selling_points": [
+                  "2nd-gen TKI; FDA approved post-imatinib failure",
+                  "Distinct AE profile (less effusion than dasatinib)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Asciminib (Scemblix) 2L+",
+                "name_en": "Asciminib (Scemblix) 2L+",
+                "manufacturer": "Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 200000,
+                "market_share": "30%",
+                "selling_points": [
+                  "ASCEMBL: MMR 25.5% vs bosutinib 13.2% (3L+)",
+                  "FDA approved 2021 for ≥2 prior TKI",
+                  "Better tolerability than 2G/3G TKIs"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ponatinib (Iclusig) — T315I+",
+                "name_en": "Ponatinib (Iclusig) — T315I+",
+                "manufacturer": "Takeda",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 240000,
+                "market_share": "15%",
+                "selling_points": [
+                  "FDA approved 2012; PACE: T315I MMR 56%",
+                  "Black box: arterial occlusion risk",
+                  "OPTIC dose-optimization study confirmed efficacy"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Asciminib + 2G TKI combination",
+                "name_en": "Asciminib + 2G TKI combinations",
+                "company": "Novartis",
+                "stage": "Phase 2",
+                "trial": "ASC2ESCALATE",
+                "status": "Investigating combo for deeper molecular response"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

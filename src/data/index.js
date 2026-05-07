@@ -11,7 +11,9 @@ import bladder      from './oncology/bladder.json';
 import esophageal   from './oncology/esophageal.json';
 import thyroid      from './oncology/thyroid.json';
 import endometrial  from './oncology/endometrial.json';
-import hematologic  from './oncology/hematologic_malignancies.json';
+import lymphoma     from './oncology/lymphoma.json';
+import leukemia     from './oncology/leukemia.json';
+import myeloma      from './oncology/myeloma.json';
 
 import immune        from './immune.json';
 import metabolic     from './metabolic.json';
@@ -21,7 +23,7 @@ import { EU_SURVIVAL, CLINICAL_ENDPOINTS, PIPELINE_ENDPOINTS } from './supplemen
 
 const oncology = {
   ...oncologyMeta,
-  diseases: [lung, breast, colorectal, gastric, cervical, prostate, liver, bladder, esophageal, thyroid, endometrial, hematologic],
+  diseases: [lymphoma, leukemia, myeloma, lung, breast, colorectal, gastric, cervical, prostate, liver, bladder, esophageal, thyroid, endometrial],
 };
 
 export const CATEGORIES = [oncology, immune, metabolic, cardiovascular, neuro];
@@ -175,5 +177,8 @@ export function getDashboardData() {
       }
     }
   }
-  return rows.sort((a, b) => (b.total_tam_usd || 0) - (a.total_tam_usd || 0));
+  // _rank = JSON insertion order (so e.g. lymphoma → leukemia → myeloma → solid tumors).
+  // Default dashboard sort uses this; user can override by clicking column headers.
+  rows.forEach((r, i) => { r._rank = i; });
+  return rows;
 }

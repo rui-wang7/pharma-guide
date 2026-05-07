@@ -1,0 +1,336 @@
+{
+  "id": "multiple_myeloma",
+  "name_cn": "多发性骨髓瘤",
+  "name_en": "Multiple Myeloma",
+  "subtypes": [
+    {
+      "id": "mm",
+      "name_cn": "多发性骨髓瘤 (MM)",
+      "name_en": "Multiple Myeloma",
+      "china": {
+        "annual_new_cases": 25000,
+        "annual_new_cases_note": "中国发病率上升，老龄化驱动；中位发病60岁",
+        "tam_rmb_bn": 5.0,
+        "diagnosis_steps": [
+          "血/尿M蛋白电泳 + 免疫固定",
+          "血清游离轻链（FLC）+ κ/λ比值",
+          "骨髓穿刺活检（克隆性浆细胞≥10%）",
+          "全身低剂量CT / PET-CT / MRI（溶骨病变）",
+          "CRAB标准（钙↑、肾损、贫血、骨病）",
+          "FISH高危：t(4;14)、t(14;16)、del(17p)、+1q21",
+          "R-ISS分期（β2-MG、白蛋白、LDH、FISH）"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（适合移植）",
+            "label_en": "1st Line (Transplant-eligible)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "VRd方案（硼替佐米+来那度胺+地塞米松）",
+                "name_en": "VRd (Bortezomib + Lenalidomide + Dexamethasone)",
+                "manufacturer": "武田/百济神州 + 信达/正大天晴",
+                "annual_cost_rmb": 180000,
+                "annual_cost_usd": null,
+                "market_share": "55%",
+                "selling_points": [
+                  "中国一线标准，3-4月诱导后ASCT",
+                  "蛋白酶体抑制剂+IMiD骨架方案",
+                  "硼替佐米/来那度胺均医保乙类"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "DVRd方案（达雷妥尤单抗+VRd）",
+                "name_en": "Dara-VRd (Daratumumab + VRd)",
+                "manufacturer": "强生 J&J",
+                "annual_cost_rmb": 380000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "PERSEUS研究：PFS HR 0.42 vs VRd",
+                  "CD38抗体+三联，深度MRD阴性",
+                  "NMPA批新诊断MM一线"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "VCD方案（硼替佐米+环磷酰胺+地塞米松）",
+                "name_en": "VCD (Bortezomib + Cyclophosphamide + Dex)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 90000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "经济实惠的硼替佐米三联",
+                  "适合无法获得来那度胺患者"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "西达基奥仑赛（赛凯泽）CAR-T 一线",
+                "name_en": "Cilta-cel (Carvykti) 1L",
+                "company": "传奇生物/强生 Legend/J&J",
+                "stage": "Phase 3",
+                "trial": "CARTITUDE-5/6",
+                "status": "BCMA CAR-T一线高危MM研究"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（R/R MM）",
+            "label_en": "2nd Line (R/R)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "西达基奥仑赛（赛凯泽）CAR-T",
+                "name_en": "Cilta-cel (Carvykti)",
+                "manufacturer": "传奇生物/强生 Legend/J&J",
+                "annual_cost_rmb": 1150000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "中国首个上市MM CAR-T（NMPA 2023）",
+                  "CARTITUDE-1: CR 83%；CARTITUDE-4 PFS HR 0.26",
+                  "BCMA靶向，单次输注深度持久缓解"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达雷妥尤单抗（兆珂）",
+                "name_en": "Daratumumab (Darzalex)",
+                "manufacturer": "强生 J&J",
+                "annual_cost_rmb": 250000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "CD38单抗，可联合多种方案（DVd/DRd/DPd）",
+                  "POLLUX/CASTOR：PFS显著获益",
+                  "医保乙类（部分适应症）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡非佐米 + Rd（KRd）",
+                "name_en": "Carfilzomib + Rd (KRd)",
+                "manufacturer": "安进 Amgen",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "ASPIRE: PFS 26.3m vs 17.6m (Rd)",
+                  "二代蛋白酶体抑制剂",
+                  "NMPA批R/R MM"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "泊马度胺 + Dex（PD）",
+                "name_en": "Pomalidomide + Dex (Pd)",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 150000,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "三代IMiD，来那度胺耐药后选择",
+                  "可联合Dara/Bor/Elotuzumab",
+                  "国产仿制药已上市"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Teclistamab（Tecvayli）",
+                "name_en": "Teclistamab (Tecvayli)",
+                "company": "强生 J&J",
+                "stage": "中国NDA已批",
+                "trial": "MajesTEC-1",
+                "status": "BCMA×CD3双抗，2024年NMPA批R/R MM；ORR 63%，CR 39%"
+              },
+              {
+                "name_cn": "伊基奥仑赛（伊基仑赛/福可苏MM）",
+                "name_en": "Equecabtagene Autoleucel (Eque-cel)",
+                "company": "驯鹿生物 IASO",
+                "stage": "中国已批",
+                "trial": "FUMANBA-1",
+                "status": "国产BCMA CAR-T，2023年NMPA批；ORR 96%，CR 75%"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 35780,
+        "annual_new_cases_note": "Most actively-developed hematologic malignancy; median age 69",
+        "tam_usd_bn": 18.0,
+        "diagnosis_steps": [
+          "Serum/urine M-protein electrophoresis + immunofixation",
+          "Serum free light chains (κ/λ ratio)",
+          "Bone marrow biopsy (clonal plasma cells ≥10%)",
+          "Whole-body low-dose CT / PET-CT / MRI",
+          "CRAB criteria (calcium, renal, anemia, bone)",
+          "FISH high-risk: t(4;14), t(14;16), del(17p), +1q21",
+          "R-ISS staging (β2-MG, albumin, LDH, FISH)"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（适合移植）",
+            "label_en": "1st Line (Transplant-eligible)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Dara-VRd (Daratumumab + VRd) → ASCT → maintenance",
+                "name_en": "Dara-VRd → ASCT → Lenalidomide maintenance",
+                "manufacturer": "Janssen (J&J) + Takeda + BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 450000,
+                "market_share": "55%",
+                "selling_points": [
+                  "PERSEUS: PFS HR 0.42 vs VRd",
+                  "FDA approved Dara-VRd 1L 2024",
+                  "Quadruplet now NCCN Cat 1 preferred"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "VRd (Bortezomib + Lenalidomide + Dex)",
+                "name_en": "VRd",
+                "manufacturer": "Takeda + BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 220000,
+                "market_share": "25%",
+                "selling_points": [
+                  "Long-standing standard induction triplet",
+                  "SWOG S0777: OS 75m vs Rd 64m",
+                  "Followed by ASCT + lenalidomide maintenance"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Dara-RVd vs Dara-KRd（高危）",
+                "name_en": "Dara-RVd / Dara-KRd (high-risk)",
+                "manufacturer": "Janssen + Amgen + BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 480000,
+                "market_share": "10%",
+                "selling_points": [
+                  "Carfilzomib quadruplet for high-risk genetics",
+                  "Deeper MRD response achievable"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Cilta-cel (Carvykti) 1L vs SOC",
+                "name_en": "Cilta-cel 1L",
+                "company": "Legend / J&J",
+                "stage": "Phase 3",
+                "trial": "CARTITUDE-5/6",
+                "status": "BCMA CAR-T 1L high-risk MM; readout 2025-2026"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Cilta-cel (Carvykti) CAR-T",
+                "name_en": "Ciltacabtagene Autoleucel (Carvykti)",
+                "manufacturer": "Legend Biotech / J&J",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 530000,
+                "market_share": "15%",
+                "selling_points": [
+                  "FDA approved 2024 for 2L MM (CARTITUDE-4)",
+                  "CARTITUDE-4: PFS HR 0.26 vs SOC",
+                  "Best-in-class BCMA CAR-T; sCR 73%"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Ide-cel (Abecma) CAR-T",
+                "name_en": "Idecabtagene Vicleucel (Abecma)",
+                "manufacturer": "BMS / 2seventy bio",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 460000,
+                "market_share": "10%",
+                "selling_points": [
+                  "FDA approved 2024 for 2L MM (KarMMa-3)",
+                  "First MM CAR-T (2021)",
+                  "ORR 71%, CR 39% (KarMMa-1)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Teclistamab (Tecvayli) — BCMA×CD3 bispecific",
+                "name_en": "Teclistamab (Tecvayli)",
+                "manufacturer": "Janssen (J&J)",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 380000,
+                "market_share": "15%",
+                "selling_points": [
+                  "FDA approved 2022 for ≥4L MM",
+                  "MajesTEC-1: ORR 63%, CR 39%",
+                  "Off-the-shelf, weekly SC after step-up"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Talquetamab (Talvey) — GPRC5D×CD3",
+                "name_en": "Talquetamab (Talvey)",
+                "manufacturer": "Janssen (J&J)",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 360000,
+                "market_share": "10%",
+                "selling_points": [
+                  "FDA approved 2023 for ≥4L MM",
+                  "First GPRC5D-targeted bispecific",
+                  "MonumenTAL-1: ORR 74% (0.4mg/kg)"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Elranatamab (Elrexfio) — BCMA×CD3",
+                "name_en": "Elranatamab (Elrexfio)",
+                "manufacturer": "Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": 350000,
+                "market_share": "8%",
+                "selling_points": [
+                  "FDA approved 2023 for ≥4L MM",
+                  "MagnetisMM-3: ORR 61%, CR 35%",
+                  "Subcutaneous, full outpatient option"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Linvoseltamab (BCMA×CD3)",
+                "name_en": "Linvoseltamab",
+                "company": "Regeneron",
+                "stage": "Phase 3 / NDA",
+                "trial": "LINKER-MM1",
+                "status": "BCMA bispecific; ORR 71% R/R MM; FDA decision pending"
+              },
+              {
+                "name_cn": "Mezigdomide / Iberdomide (CELMoDs)",
+                "name_en": "Mezigdomide / Iberdomide",
+                "company": "Bristol Myers Squibb",
+                "stage": "Phase 3",
+                "trial": "CC-92480-MM-002 / CC-220-MM-001",
+                "status": "Next-gen cereblon E3 ligase modulators"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

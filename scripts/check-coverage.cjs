@@ -28,7 +28,7 @@ function loadJSON(relPath) {
 const oncologyFiles = [
   'lung','breast','colorectal','gastric','cervical',
   'prostate','liver','bladder','esophageal','thyroid','endometrial',
-  'hematologic_malignancies',
+  'lymphoma', 'leukemia', 'myeloma',
 ];
 
 // 扁平化所有 disease 对象（含 categoryLabel 方便展示）

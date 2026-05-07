@@ -224,7 +224,7 @@ async function main() {
   console.log('╚══════════════════════════════════════╝\n');
 
   // 步骤1：选择文件
-  const oncologyOpts = ['lung','breast','colorectal','gastric','cervical','prostate','liver','bladder','esophageal','thyroid','endometrial','hematologic_malignancies'];
+  const oncologyOpts = ['lung','breast','colorectal','gastric','cervical','prostate','liver','bladder','esophageal','thyroid','endometrial','lymphoma','leukemia','myeloma'];
   const otherOpts    = ['immune','metabolic','cardiovascular','neuro'];
   console.log('肿瘤文件:', oncologyOpts.join(' / '));
   console.log('其他文件:', otherOpts.join(' / '));

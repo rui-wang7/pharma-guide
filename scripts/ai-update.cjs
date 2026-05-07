@@ -90,7 +90,10 @@ const oncologyFileMap = {
   liver: 'oncology/liver.json', bladder: 'oncology/bladder.json',
   esophageal: 'oncology/esophageal.json', thyroid: 'oncology/thyroid.json',
   endometrial: 'oncology/endometrial.json',
-  hematologic_malignancies: 'oncology/hematologic_malignancies.json',
+  lymphoma: 'oncology/lymphoma.json',
+  leukemia: 'oncology/leukemia.json',
+  myeloma:  'oncology/myeloma.json',
+
 };
 const otherFileMap = {
   immune: 'immune.json', metabolic: 'metabolic.json',

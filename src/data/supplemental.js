@@ -237,7 +237,10 @@ export const EU_SURVIVAL = {
     us:    { prevalence: 37000000, median_survival_years: null },
   },
   obesity_pharmacotherapy: {
-    eu: { annual_new_cases: 6000000, tam_eur_bn: 6.0, prevalence: 55000000 },
+    // 2026 update: US TAM revised up to $35B (volume-driven despite price cuts to $299-499/mo);
+    // EU TAM €10B (Wegovy/Zepbound/Mounjaro broader reimbursement); CN ¥8B (multi-drug competition
+    // post-Mazdutide June 2025 approval). Global obesity drug market ~$70B in 2026.
+    eu: { annual_new_cases: 6000000, tam_eur_bn: 10.0, prevalence: 55000000 },
     china: { prevalence: 250000000, median_survival_years: null },
     us:    { prevalence: 100000000, median_survival_years: null },
   },

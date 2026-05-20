@@ -213,8 +213,8 @@
           "name_en": "Obesity (BMI ≥30 or ≥27 with comorbidities)",
           "china": {
             "annual_new_cases": 5000000,
-            "annual_new_cases_note": "中国肥胖人口约2.5亿（BMI≥28），药物治疗渗透率极低",
-            "tam_rmb_bn": 2,
+            "annual_new_cases_note": "中国肥胖人口约2.5亿（BMI≥28），药物治疗渗透率快速上升；2025年GLP-1类全面获批，2026年新增国产药物加入",
+            "tam_rmb_bn": 8,
             "diagnosis_steps": [
               "BMI计算（中国≥28定义为肥胖）",
               "腰围测量（男≥90cm，女≥85cm）",
@@ -224,60 +224,122 @@
             "treatment_lines": [
               {
                 "line": 1,
-                "label_cn": "一线药物治疗",
-                "label_en": "1st Line Pharmacotherapy",
+                "label_cn": "一线药物治疗（已获批，2026更新）",
+                "label_en": "1st Line Pharmacotherapy (Approved, 2026 update)",
                 "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "玛仕度肽（信达生物，国产首款）",
+                    "name_en": "Mazdutide (Innovent)",
+                    "manufacturer": "信达生物 Innovent (礼来授权)",
+                    "annual_cost_rmb": 10000,
+                    "market_share": "30%",
+                    "selling_points": [
+                      "全球首款GLP-1/GCG双靶激动剂，国产创新药",
+                      "剂量：起始4mg → 最大6mg（每周皮下注射）；9mg补充申请2025年11月已受理",
+                      "GLORY-1（6mg）：48周减重14.4%；GLORY-2（9mg）：48周减重20.1%",
+                      "NMPA 2025年6月27日批准肥胖症；2025年9月19日批准T2DM",
+                      "其他适应症：2型糖尿病",
+                      "国产定价显著低于进口竞品（年费~¥1万）"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "替尔泊肽（穆峰达/Zepbound）",
+                    "name_en": "Tirzepatide (Mounjaro / Zepbound)",
+                    "manufacturer": "礼来 Eli Lilly",
+                    "annual_cost_rmb": 14000,
+                    "market_share": "25%",
+                    "selling_points": [
+                      "GLP-1/GIP双靶激动剂",
+                      "剂量：起始2.5mg → 最大15mg（每周皮下注射，每4周递增）",
+                      "SURMOUNT-1（15mg）：72周减重22.5%；SURMOUNT-5头对头优于司美格鲁肽47%",
+                      "NMPA 2024年7月批准减重；2024年5月批准T2DM",
+                      "其他适应症：T2DM、阻塞性睡眠呼吸暂停（OSA，2024 SURMOUNT-OSA）",
+                      "2026年中国市场竞争加剧，价格下调"
+                    ]
+                  },
                   {
                     "type": "drug",
                     "name_cn": "司美格鲁肽2.4mg（诺和盈）",
                     "name_en": "Semaglutide 2.4mg (Wegovy)",
                     "manufacturer": "诺和诺德 Novo Nordisk",
-                    "annual_cost_rmb": 60000,
-                    "market_share": "25%",
+                    "annual_cost_rmb": 13000,
+                    "market_share": "20%",
                     "selling_points": [
-                      "STEP研究：减重14.9%（vs安慰剂）",
-                      "SELECT研究：CV事件-20%（非糖尿病肥胖）",
-                      "2024年NMPA批准中国减重适应症"
+                      "GLP-1单靶",
+                      "剂量：起始0.25mg → 最大2.4mg（每周皮下注射，每4周递增）",
+                      "STEP-1：68周减重14.9%；SELECT试验：MACE -20%",
+                      "NMPA 2024年6月批准减重适应症",
+                      "其他适应症：T2DM（Ozempic）；CV风险降低",
+                      "2026年价格随市场竞争下调"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "替西帕肽4mg/8mg/12mg",
-                    "name_en": "Tirzepatide (Zepbound/Mounjaro)",
-                    "manufacturer": "礼来 Eli Lilly",
-                    "annual_cost_rmb": 55000,
-                    "market_share": "30%",
+                    "name_cn": "依高鲁肽（Sciwind，辉瑞中国合作）",
+                    "name_en": "Ecnoglutide (Sciwind / Pfizer China)",
+                    "manufacturer": "杭州先为达 Sciwind (辉瑞商业化)",
+                    "annual_cost_rmb": 6000,
+                    "market_share": "10%",
                     "selling_points": [
-                      "SURMOUNT-1：减重20.9%（最高剂量）",
-                      "GLP-1/GIP双靶，减重效果最优",
-                      "中国2024年肥胖适应症获批"
+                      "cAMP偏向性GLP-1激动剂（独特机制）",
+                      "剂量：起始0.6mg → 最大2.4mg（每周皮下注射）",
+                      "SLIMMER P3：2.4mg组87%受试者达到≥5%减重",
+                      "NMPA 2026年1月批准T2DM；肥胖症NDA申报中",
+                      "辉瑞中国2026年2月独家商业化协议（最高$495M）",
+                      "其他适应症：T2DM已批"
                     ]
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Retatrutide",
+                    "name_cn": "Retatrutide（三靶激动剂）",
                     "name_en": "Retatrutide",
                     "company": "礼来 Eli Lilly",
                     "stage": "Phase 3",
-                    "trial": "TRIUMPH",
-                    "status": "GLP-1/GIP/GCG三靶激动剂，Phase 2减重24%"
+                    "trial": "TRIUMPH-1/2/3/4/CVOT",
+                    "status": "GLP-1/GIP/GCG三靶激动剂；剂量4/9/12mg周注射；TRIUMPH-4（12mg）68周减重28.7%；NDA申报预期2026 Q4"
                   },
                   {
-                    "name_cn": "马西瑞肽",
-                    "name_en": "Mazdutide",
-                    "company": "信达生物 Innovent Biologics",
-                    "stage": "Phase 3（中国）",
-                    "trial": "GLORY-3",
-                    "status": "国产GLP-1/GCG双激动，减重约14%，NDA申报中"
+                    "name_cn": "CagriSema（卡格司美）",
+                    "name_en": "CagriSema (cagrilintide + semaglutide)",
+                    "company": "诺和诺德 Novo Nordisk",
+                    "stage": "已递交FDA NDA（中国待申报）",
+                    "trial": "REDEFINE-1/2",
+                    "status": "Amylin + GLP-1固定剂量复方；2.4/2.4mg周注射；REDEFINE-1：68周减重22.7%（NEJM 2025）"
+                  },
+                  {
+                    "name_cn": "汉森GLP-1/GIP（再生元授权）",
+                    "name_en": "Hansoh dual GLP-1/GIP",
+                    "company": "翰森制药 Hansoh / Regeneron",
+                    "stage": "Phase 2/3",
+                    "trial": "—",
+                    "status": "2025年Regeneron $20亿+授权许可；GLP-1/GIP双靶（与替尔泊肽同类）"
+                  },
+                  {
+                    "name_cn": "MariTide（AMG 133）",
+                    "name_en": "MariTide (AMG 133)",
+                    "company": "安进 Amgen",
+                    "stage": "Phase 3",
+                    "trial": "MARITIME-1/2",
+                    "status": "GLP-1激动 + GIP拮抗双特异性抗体；月度给药；Phase 2减重12.3-16.2%"
+                  },
+                  {
+                    "name_cn": "Pemvidutide（保留瘦体重）",
+                    "name_en": "Pemvidutide",
+                    "company": "Altimmune",
+                    "stage": "Phase 3启动2026",
+                    "trial": "IMPACT (MASH P2b 阳性)",
+                    "status": "GLP-1/GCG双靶；卖点：保留瘦体重（lean mass preservation）和MASH抗纤维化"
                   },
                   {
                     "name_cn": "Amycretin",
                     "name_en": "Amycretin",
                     "company": "诺和诺德 Novo Nordisk",
-                    "stage": "Phase 2",
+                    "stage": "Phase 3",
                     "trial": "—",
-                    "status": "Amylin+GLP-1单分子，口服，Phase 1减重13.1%（13周）"
+                    "status": "Amylin + GLP-1单分子（口服+皮下）；P1（36周皮下）减重22%；P3启动中"
                   }
                 ]
               }
@@ -285,8 +347,8 @@
           },
           "us": {
             "annual_new_cases": 10000000,
-            "annual_new_cases_note": "US obesity prevalence 42% adults (~100M), severe obesity 9%",
-            "tam_usd_bn": 20.0,
+            "annual_new_cases_note": "US obesity prevalence 42% adults (~100M), severe obesity 9%; 2025-2026 saw mass price cuts, expanded Medicare access",
+            "tam_usd_bn": 35.0,
             "diagnosis_steps": [
               "BMI ≥30 (obese) or ≥27 + comorbidity",
               "Waist circumference",
@@ -295,60 +357,130 @@
             "treatment_lines": [
               {
                 "line": 1,
-                "label_cn": "一线药物治疗",
-                "label_en": "1st Line Pharmacotherapy",
+                "label_cn": "一线药物治疗（2026更新）",
+                "label_en": "1st Line Pharmacotherapy (2026 update)",
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "Tirzepatide",
+                    "name_cn": "Tirzepatide（Zepbound）",
                     "name_en": "Tirzepatide (Zepbound)",
                     "manufacturer": "Eli Lilly",
-                    "annual_cost_usd": 14000,
-                    "market_share": "45%",
+                    "annual_cost_usd": 4500,
+                    "market_share": "40%",
                     "selling_points": [
-                      "SURMOUNT-1: -20.9% body weight",
-                      "FDA approved obesity 2023",
-                      "Fastest adoption in obesity history"
+                      "GLP-1/GIP dual agonist",
+                      "Dose: 2.5mg start → 15mg max (weekly SC; titrate q4 weeks)",
+                      "SURMOUNT-1 (15mg): -22.5% weight at 72 weeks; SURMOUNT-5 head-to-head: 47% greater weight loss vs semaglutide",
+                      "Other indications: T2DM (Mounjaro 2022), Obstructive Sleep Apnea (2024 SURMOUNT-OSA)",
+                      "FDA approved obesity Nov 2023",
+                      "2026 price: $299-449/mo (was $1,059); Medicare cap $50/mo"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Semaglutide 2.4mg",
-                    "name_en": "Semaglutide 2.4mg (Wegovy)",
+                    "name_cn": "Semaglutide 2.4mg SC（Wegovy injectable）",
+                    "name_en": "Semaglutide 2.4mg SC (Wegovy)",
                     "manufacturer": "Novo Nordisk",
-                    "annual_cost_usd": 16000,
-                    "market_share": "35%",
+                    "annual_cost_usd": 5500,
+                    "market_share": "25%",
                     "selling_points": [
-                      "STEP-1: -14.9% weight",
-                      "SELECT: CV events -20%",
-                      "FDA approved obesity + CV risk reduction"
+                      "GLP-1 agonist",
+                      "Dose: 0.25mg start → 2.4mg max (weekly SC; titrate q4 weeks over 16w)",
+                      "STEP-1: -14.9% weight at 68 weeks; SELECT: -20% MACE in non-diabetic obesity",
+                      "Other indications: T2DM (Ozempic), CV risk reduction (Mar 2024 — first GLP-1 with CV label in obesity)",
+                      "FDA approved obesity 2021, CV indication 2024",
+                      "2026 price: $399-499/mo (was $1,349 — 23% cut Feb 2026)"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Oral Wegovy（口服司美格鲁肽25mg）",
+                    "name_en": "Oral Semaglutide 25mg (Wegovy Pill)",
+                    "manufacturer": "Novo Nordisk",
+                    "annual_cost_usd": 5000,
+                    "market_share": "10%",
+                    "selling_points": [
+                      "First oral GLP-1 approved for weight loss",
+                      "Dose: 3mg start → 25mg max (once-daily oral)",
+                      "OASIS 4: -16.6% weight at 68 weeks; 1 in 3 lost ≥20%",
+                      "Other indications: T2DM (Rybelsus at 7/14mg, FDA 2019)",
+                      "FDA approved obesity Dec 22, 2025; launched January 2026",
+                      "Eliminates needle/refrigeration; same molecule as Wegovy SC"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Orforglipron（Foundayo，口服非肽GLP-1）",
+                    "name_en": "Orforglipron (Foundayo)",
+                    "manufacturer": "Eli Lilly",
+                    "annual_cost_usd": 3500,
+                    "market_share": "8%",
+                    "selling_points": [
+                      "First non-peptide oral GLP-1; no food/water restrictions",
+                      "Dose: 0.8mg start → 17.2mg max (once-daily oral tablet; or 6→36mg capsule format)",
+                      "ATTAIN-1 (36mg/17.2mg, 72w): -12.4% weight; 36% lost ≥15%; 18.4% lost ≥20%",
+                      "Other indications: T2DM (positive Phase 3 ACHIEVE program)",
+                      "FDA approved obesity April 1, 2026 (Foundayo brand)",
+                      "Price: $149/mo (lowest dose self-pay); $25/mo with commercial insurance card"
                     ]
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Retatrutide",
+                    "name_cn": "Retatrutide（三靶激动剂）",
                     "name_en": "Retatrutide",
                     "company": "Eli Lilly",
                     "stage": "Phase 3",
-                    "trial": "TRIUMPH-1",
-                    "status": "GLP-1/GIP/GCG triagonist, Phase 2: -24% weight"
+                    "trial": "TRIUMPH-1/2/3/4/CVOT",
+                    "status": "GLP-1/GIP/GCG triagonist; 4/9/12mg weekly SC; TRIUMPH-4 (12mg) 68w: -28.7% weight (highest ever in Phase 3); NDA filing expected Q4 2026; CVOT readout 2028"
                   },
                   {
-                    "name_cn": "MariTide (AMG 133)",
+                    "name_cn": "CagriSema（cagrilintide + semaglutide）",
+                    "name_en": "CagriSema",
+                    "company": "Novo Nordisk",
+                    "stage": "FDA NDA submitted Dec 2025",
+                    "trial": "REDEFINE-1/2",
+                    "status": "Amylin + GLP-1 fixed-dose combo; 2.4/2.4mg weekly SC; REDEFINE-1 (68w): -22.7% weight (NEJM 2025); REDEFINE-2: -15.7% in T2DM; pending higher-dose readout 2027"
+                  },
+                  {
+                    "name_cn": "MariTide（AMG 133）",
                     "name_en": "MariTide (AMG 133)",
                     "company": "Amgen",
                     "stage": "Phase 3",
-                    "trial": "MARITIME",
-                    "status": "GLP-1R/GIPR bispecific antibody, monthly dosing"
+                    "trial": "MARITIME-1/2",
+                    "status": "GLP-1R agonist + GIPR antagonist bispecific antibody; monthly dosing (potentially less frequent); Phase 2: -12.3 to -16.2% weight"
                   },
                   {
-                    "name_cn": "Orforglipron",
-                    "name_en": "Orforglipron",
-                    "company": "Eli Lilly",
+                    "name_cn": "Pemvidutide（lean-mass保留 + MASH）",
+                    "name_en": "Pemvidutide",
+                    "company": "Altimmune",
+                    "stage": "Phase 3 initiating 2026",
+                    "trial": "IMPACT (MASH P2b positive)",
+                    "status": "GLP-1/glucagon dual; selling points: lean-mass preservation + MASH antifibrotic; IMPACT P2b 48w: MASH resolution + fibrosis improvement"
+                  },
+                  {
+                    "name_cn": "Amycretin（口服+SC）",
+                    "name_en": "Amycretin",
+                    "company": "Novo Nordisk",
                     "stage": "Phase 3",
-                    "trial": "ATTAIN-OBESITY",
-                    "status": "Oral GLP-1, non-peptide, no refrigeration needed"
+                    "trial": "—",
+                    "status": "Single-molecule amylin + GLP-1 unimolecular agonist (oral + SC); P1 36w SC: -22% weight"
+                  },
+                  {
+                    "name_cn": "Survodutide",
+                    "name_en": "Survodutide",
+                    "company": "Boehringer Ingelheim / Zealand Pharma",
+                    "stage": "Phase 3",
+                    "trial": "SYNCHRONIZE-1/2 (obesity), LIVERAGE (MASH)",
+                    "status": "GLP-1/glucagon dual; P2 46w: -18.7%; MASH F2-F3: 83% resolution at Phase 2"
+                  },
+                  {
+                    "name_cn": "Hansoh GLP-1/GIP（Regeneron license）",
+                    "name_en": "Hansoh dual GLP-1/GIP (HS-20094)",
+                    "company": "Hansoh Pharma / Regeneron",
+                    "stage": "Phase 2/3",
+                    "trial": "—",
+                    "status": "China-origin tirzepatide-like dual agonist; Regeneron $2B+ license deal 2025"
                   }
                 ]
               }

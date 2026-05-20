@@ -233,7 +233,7 @@
                     "name_en": "Mazdutide (Innovent)",
                     "manufacturer": "信达生物 Innovent (礼来授权)",
                     "annual_cost_rmb": 10000,
-                    "market_share": "30%",
+                    "market_share": "6%",
                     "selling_points": [
                       "全球首款GLP-1/GCG双靶激动剂，国产创新药",
                       "剂量：起始4mg → 最大6mg（每周皮下注射）；9mg补充申请2025年11月已受理",
@@ -249,7 +249,7 @@
                     "name_en": "Tirzepatide (Mounjaro / Zepbound)",
                     "manufacturer": "礼来 Eli Lilly",
                     "annual_cost_rmb": 14000,
-                    "market_share": "25%",
+                    "market_share": "68%",
                     "selling_points": [
                       "GLP-1/GIP双靶激动剂",
                       "剂量：起始2.5mg → 最大15mg（每周皮下注射，每4周递增）",
@@ -265,7 +265,7 @@
                     "name_en": "Semaglutide 2.4mg (Wegovy)",
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 13000,
-                    "market_share": "20%",
+                    "market_share": "25%",
                     "selling_points": [
                       "GLP-1单靶",
                       "剂量：起始0.25mg → 最大2.4mg（每周皮下注射，每4周递增）",
@@ -277,11 +277,11 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "依高鲁肽（Sciwind，辉瑞中国合作）",
+                    "name_cn": "埃诺格鲁肽（Sciwind，辉瑞中国合作）",
                     "name_en": "Ecnoglutide (Sciwind / Pfizer China)",
                     "manufacturer": "杭州先为达 Sciwind (辉瑞商业化)",
                     "annual_cost_rmb": 6000,
-                    "market_share": "10%",
+                    "market_share": "1%",
                     "selling_points": [
                       "cAMP偏向性GLP-1激动剂（独特机制）",
                       "剂量：起始0.6mg → 最大2.4mg（每周皮下注射）",
@@ -374,7 +374,7 @@
                     "name_en": "Tirzepatide (Zepbound)",
                     "manufacturer": "Eli Lilly",
                     "annual_cost_usd": 4500,
-                    "market_share": "40%",
+                    "market_share": "60%",
                     "selling_points": [
                       "GLP-1/GIP dual agonist",
                       "Dose: 2.5mg start → 15mg max (weekly SC; titrate q4 weeks)",
@@ -390,7 +390,7 @@
                     "name_en": "Semaglutide 2.4mg SC (Wegovy)",
                     "manufacturer": "Novo Nordisk",
                     "annual_cost_usd": 5500,
-                    "market_share": "25%",
+                    "market_share": "22%",
                     "selling_points": [
                       "GLP-1 agonist",
                       "Dose: 0.25mg start → 2.4mg max (weekly SC; titrate q4 weeks over 16w)",

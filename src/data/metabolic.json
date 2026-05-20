@@ -310,6 +310,14 @@
                     "status": "Amylin + GLP-1固定剂量复方；2.4/2.4mg周注射；REDEFINE-1：68周减重22.7%（NEJM 2025）"
                   },
                   {
+                    "name_cn": "HRS9531（恒瑞，国产GLP-1/GIP双靶）",
+                    "name_en": "HRS9531 (Hengrui / Kailera)",
+                    "company": "江苏恒瑞 Hengrui / Kailera Therapeutics（海外）",
+                    "stage": "NMPA NDA已受理（2025末）/ 全球Phase 3启动",
+                    "trial": "GEMINI-1 (P3 China) / Kailera global P3",
+                    "status": "GLP-1/GIP双靶（与替尔泊肽同类）；剂量2/4/6mg周注射；GEMINI-1 P3：6mg组48周减重19.2%；P2 8mg/36周减重22.8%；预计2026年中国获批；Kailera海外授权"
+                  },
+                  {
                     "name_cn": "汉森GLP-1/GIP（再生元授权）",
                     "name_en": "Hansoh dual GLP-1/GIP",
                     "company": "翰森制药 Hansoh / Regeneron",
@@ -473,6 +481,14 @@
                     "stage": "Phase 3",
                     "trial": "SYNCHRONIZE-1/2 (obesity), LIVERAGE (MASH)",
                     "status": "GLP-1/glucagon dual; P2 46w: -18.7%; MASH F2-F3: 83% resolution at Phase 2"
+                  },
+                  {
+                    "name_cn": "HRS9531（Hengrui / Kailera 全球开发）",
+                    "name_en": "HRS9531 (Hengrui / Kailera Therapeutics)",
+                    "company": "Hengrui (China) / Kailera Therapeutics (global)",
+                    "stage": "Global Phase 3 initiating (China NMPA NDA accepted late 2025)",
+                    "trial": "GEMINI-1 (P3 China) / Kailera global P3 (incl. 8mg maintenance)",
+                    "status": "GLP-1/GIP dual (same class as tirzepatide); 2/4/6mg weekly SC; GEMINI-1 P3 48w: -19.2% at 6mg; P2 8mg/36w: -22.8% (-21.1% placebo-adjusted) with no plateau; China approval expected 2026"
                   },
                   {
                     "name_cn": "Hansoh GLP-1/GIP（Regeneron license）",

@@ -648,12 +648,12 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Nivolumab + AVD（纳武利尤）",
+                "name_cn": "Nivolumab + AVD（纳武利尤）★ 2026 FDA获批",
                 "name_en": "Nivolumab + AVD",
                 "company": "百时美施贵宝 BMS",
-                "stage": "Phase 3 / 美国已批",
-                "trial": "SWOG S1826",
-                "status": "2024 ASCO: PFS HR 0.48 vs A+AVD（晚期HL一线）"
+                "stage": "美国已批（2026年3月）/ 中国申报",
+                "trial": "SWOG S1826 (CA209-8UT)",
+                "status": "FDA 2026年3月20日批准用于≥12岁III/IV期初治经典型霍奇金淋巴瘤一线。SWOG S1826：PFS优于A+AVD（HR 0.42；1年PFS 94% vs 86%），毒性更低，确立免疫一线新标准"
               }
             ]
           },

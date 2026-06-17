@@ -78,6 +78,14 @@
                 "stage": "已上市（美国2022）/ 中国申报",
                 "trial": "VISION",
                 "status": "放射配体疗法，VISION：rPFS 8.7m vs 3.4m，OS 15.3m vs 11.3m，中国申报NDA中"
+              },
+              {
+                "name_cn": "恩扎卢胺 + 镭-223（氯化镭[223Ra]/多菲戈）★ ASCO GU 2026",
+                "name_en": "Enzalutamide + Radium-223 (Xofigo)",
+                "company": "拜耳/安斯泰来 Bayer/Astellas",
+                "stage": "Phase 3",
+                "trial": "PEACE-3 (EORTC 1333)",
+                "status": "ASCO GU 2026最终OS：无症状/轻症状骨转移mCRPC，恩扎卢胺+镭-223 vs 恩扎卢胺单药，中位OS 38.2m vs 32.6m（HR 0.76，P=0.0096），需骨保护剂预防骨折"
               }
             ]
           },

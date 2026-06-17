@@ -99,6 +99,14 @@
                 "stage": "Phase 3 未达终点",
                 "trial": "LEAP-002",
                 "status": "LEAP-002未达统计显著性，但亚组数据探索中"
+              },
+              {
+                "name_cn": "卡瑞利珠单抗 + 阿帕替尼 + TACE ★ ASCO 2026",
+                "name_en": "Camrelizumab + Rivoceranib + TACE",
+                "company": "恒瑞医药 Hengrui Pharma",
+                "stage": "Phase 3（NCT05320692）",
+                "trial": "ASCO 2026 (NCT05320692)",
+                "status": "ASCO 2026：不可切除HCC（TACE适合人群），TACE基础上加卡瑞利珠+阿帕替尼 vs 单纯TACE，中位PFS 11.1m vs 8.3m（HR 0.73，P=0.0127），ORR 60.3% vs 45.5%，DoR 16.6m vs 8.2m；OS数据尚不成熟（趋势获益），但≥3级不良反应明显增加"
               }
             ]
           },

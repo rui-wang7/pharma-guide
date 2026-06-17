@@ -80,7 +80,16 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "德曲妥珠单抗（T-DXd/优赫得）+ 帕妥珠单抗 ★ ASCO 2026",
+                "name_en": "T-DXd (Enhertu) + Pertuzumab",
+                "company": "阿斯利康/第一三共 AZ/Daiichi Sankyo",
+                "stage": "Phase 3 / 美国申报",
+                "trial": "DESTINY-Breast09",
+                "status": "ASCO 2026：一线HER2+转移性乳腺癌头对头 vs THP（紫杉+曲妥+帕妥），中位PFS提升约13.8m（40.7m vs 26.9m），ORR 85.1% vs 78.6%，CR 15.1% vs 8.5%。十余年来首个改写一线格局的方案"
+              }
+            ]
           },
           {
             "line": 2,
@@ -272,6 +281,22 @@
                 "stage": "已上市（美国）/ 中国申报NDA",
                 "trial": "CAPItello-291",
                 "status": "AKT抑制剂，PIK3CA/AKT1/PTEN突变人群"
+              },
+              {
+                "name_cn": "Camizestrant（卡米司群）+ CDK4/6抑制剂 ★ ASCO 2026",
+                "name_en": "Camizestrant + CDK4/6i",
+                "company": "阿斯利康 AstraZeneca",
+                "stage": "Phase 3 / 美国申报",
+                "trial": "SERENA-6",
+                "status": "ASCO 2026：ctDNA检出ESR1突变即从AI转换为口服SERD camizestrant+CDK4/6i，中位PFS较继续AI方案延长7.6m，约1/3患者24个月仍无进展。首个ctDNA指导的提前换药策略"
+              },
+              {
+                "name_cn": "Giredestrant（吉瑞司群）辅助治疗",
+                "name_en": "Giredestrant (adjuvant)",
+                "company": "罗氏 Roche",
+                "stage": "Phase 3",
+                "trial": "lidERA",
+                "status": "ASCO 2026：口服SERD辅助治疗ER+/HER2-早期乳腺癌，绝经前后iDFS均优于标准内分泌治疗"
               }
             ]
           }
@@ -449,6 +474,14 @@
                 "stage": "Phase 3",
                 "trial": "EVER-132-002",
                 "status": "Trop-2 ADC，中国自主研发，mTNBC一线 vs化疗，2024年申报NDA"
+              },
+              {
+                "name_cn": "戈沙妥珠单抗（Trodelvy）+ 帕博利珠单抗 ★ ASCO 2026",
+                "name_en": "Sacituzumab Govitecan + Pembrolizumab",
+                "company": "吉利德 Gilead",
+                "stage": "Phase 3",
+                "trial": "ASCENT-04",
+                "status": "ASCO 2026：一线PD-L1+（CPS≥10）转移性TNBC，Trop-2 ADC+帕博利珠单抗 vs 化疗+帕博利珠单抗，PFS显著获益（约11.2m vs 7.8m）"
               }
             ]
           },

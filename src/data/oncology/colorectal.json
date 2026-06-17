@@ -328,7 +328,16 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "Encorafenib + 西妥昔单抗 + 化疗（一线）★ ASCO GI 2026",
+                "name_en": "Encorafenib + Cetuximab + FOLFOX/FOLFIRI (1L)",
+                "company": "辉瑞/默克KGaA Pfizer/Merck",
+                "stage": "Phase 3 / 美国已批一线",
+                "trial": "BREAKWATER",
+                "status": "ASCO GI 2026：BRAF V600E突变mCRC一线，encorafenib+cetuximab+化疗 vs 化疗+贝伐珠单抗，OS与PFS显著获益，将BRAF靶向方案前移至一线"
+              }
+            ]
           }
         ]
       },

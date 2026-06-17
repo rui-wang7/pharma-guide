@@ -242,6 +242,14 @@
                 "stage": "Phase 3",
                 "trial": "COMPASSION-20",
                 "status": "PD-1/VEGF双抗，胃癌一线Phase 3进行中"
+              },
+              {
+                "name_cn": "赞尼达妥单抗（Zanidatamab）+ 化疗 ± 替雷利珠单抗 ★ ASCO 2026",
+                "name_en": "Zanidatamab + Chemo ± Tislelizumab",
+                "company": "百济神州/Jazz Zymeworks",
+                "stage": "Phase 3",
+                "trial": "HERIZON-GEA-01",
+                "status": "ASCO 2026：一线HER2+胃/胃食管交界处腺癌，HER2双表位双抗+化疗（±替雷利珠单抗）head-to-head优于曲妥珠单抗+化疗，中位PFS 12.4m vs 8.1m"
               }
             ]
           },

@@ -156,7 +156,16 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "Izalontamab brengitecan（iza-bren，BL-B01D1）★ ASCO 2026",
+                "name_en": "Izalontamab Brengitecan (iza-bren)",
+                "company": "百利天恒 SystImmune / BMS",
+                "stage": "Phase 3",
+                "trial": "PANKU-Esophagus01",
+                "status": "ASCO 2026：首创EGFR×HER3双抗ADC，二线复发/转移ESCC（PD-1+铂类进展后）vs 化疗，OS 9.8m vs 7.2m（HR 0.64），PFS 4.2m vs 2.0m（HR 0.50），ORR 35.3% vs 13.1%。中国原研"
+              }
+            ]
           }
         ]
       },

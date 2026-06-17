@@ -1101,12 +1101,12 @@
             ],
             "pipeline": [
               {
-                "name_cn": "依沃西单抗（AK112）+ 化疗",
+                "name_cn": "依沃西单抗（AK112）+ 化疗 ★ ASCO 2026 Plenary",
                 "name_en": "Ivonescimab (AK112) + Chemotherapy",
                 "company": "康方生物 Akeso Biopharma",
                 "stage": "已上市（中国2024）/ 美国Phase 3",
-                "trial": "HARMONi-2",
-                "status": "PD-1/VEGF双抗+化疗，HARMONi-2：全人群NSCLC一线 vs 帕博利珠单抗+化疗，PFS获益（数据2024年ESMO公布），NMPA 2024年批准非鳞癌一线"
+                "trial": "HARMONi-6 / HARMONi-2",
+                "status": "PD-1/VEGF双抗+化疗。HARMONi-6（ASCO 2026 Plenary，首个入选ASCO全体大会的中国原研肿瘤药）：晚期鳞癌NSCLC一线头对头 vs 替雷利珠单抗+化疗，OS HR 0.66（P=0.0017，降低死亡风险34%），PFS约11m vs 9m，疗效不受PD-L1表达限制。HARMONi-2全人群对比帕博利珠单抗+化疗PFS获益。NMPA 2024年批准非鳞癌一线"
               },
               {
                 "name_cn": "卡度利尼 + 化疗",

@@ -143,12 +143,20 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Teclistamab（Tecvayli）",
-                "name_en": "Teclistamab (Tecvayli)",
+                "name_cn": "Teclistamab（Tecvayli）± 达雷妥尤单抗 ★ 2026更新",
+                "name_en": "Teclistamab (Tecvayli) ± Daratumumab",
                 "company": "强生 J&J",
-                "stage": "中国NDA已批",
-                "trial": "MajesTEC-1",
-                "status": "BCMA×CD3双抗，2024年NMPA批R/R MM；ORR 63%，CR 39%"
+                "stage": "中国NDA已批 / 美国扩适应症",
+                "trial": "MajesTEC-1 / MajesTEC-9",
+                "status": "BCMA×CD3双抗，2024年NMPA批R/R MM；ORR 63%，CR 39%。MajesTEC-9（ASCO 2026）：单药对比标准联合化疗，PFS获益，支持前移至≥1线后。FDA 2026年3月批准teclistamab+达雷妥尤单抗用于≥1线既往治疗的R/R MM"
+              },
+              {
+                "name_cn": "Mezigdomide + 卡非佐米 + 地塞米松",
+                "name_en": "Mezigdomide + Carfilzomib + Dexamethasone",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "SUCCESSOR-2",
+                "status": "ASCO 2026 LBA：新一代CELMoD（cereblon E3连接酶调节剂）联合Kd治疗R/R MM，口服，对来那度胺耐药患者仍有效"
               },
               {
                 "name_cn": "伊基奥仑赛（伊基仑赛/福可苏MM）",

@@ -133,6 +133,17 @@ export const EU_SURVIVAL = {
     china: { prevalence: 150000, median_survival_years: 2.8 },  // ~54k adv×2.8yr≈150k
     us:    { prevalence: 235000, median_survival_years: 3.5 },  // 67k×3.5yr≈234k
   },
+  // ── MELANOMA ──
+  melanoma_braf_mutant: {
+    eu: { annual_new_cases: 45000, tam_eur_bn: 2.0, prevalence: 160000 },
+    china: { prevalence: 5000, median_survival_years: 3.0 },   // 1.5k adv×3yr≈5k
+    us:    { prevalence: 150000, median_survival_years: 3.5 }, // 40k×3.5yr≈140k (IO long tail)
+  },
+  melanoma_acral_mucosal: {
+    eu: { annual_new_cases: 6000, tam_eur_bn: 0.4, prevalence: 16000 },
+    china: { prevalence: 15000, median_survival_years: 2.5 },  // 6k adv×2.5yr≈15k
+    us:    { prevalence: 14000, median_survival_years: 2.8 },
+  },
   // ── LYMPHOMA ──
   dlbcl: {
     eu: { annual_new_cases: 35000, tam_eur_bn: 3.0, prevalence: 80000 },

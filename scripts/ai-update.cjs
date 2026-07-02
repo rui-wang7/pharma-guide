@@ -93,7 +93,7 @@ const oncologyFileMap = {
   lymphoma: 'oncology/lymphoma.json',
   leukemia: 'oncology/leukemia.json',
   myeloma:  'oncology/myeloma.json',
-
+  melanoma: 'oncology/melanoma.json',
 };
 const otherFileMap = {
   immune: 'immune.json', metabolic: 'metabolic.json',

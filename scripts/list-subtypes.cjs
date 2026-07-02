@@ -16,7 +16,7 @@ const DATA_DIR = path.join(__dirname, '../src/data');
 const oncologyFiles = [
   'lymphoma', 'leukemia', 'myeloma',
   'lung','breast','colorectal','gastric','cervical',
-  'prostate','liver','bladder','esophageal','thyroid','endometrial',
+  'prostate','liver','bladder','esophageal','thyroid','endometrial','melanoma',
 ];
 const otherFiles = ['immune','metabolic','cardiovascular','neuro'];
 

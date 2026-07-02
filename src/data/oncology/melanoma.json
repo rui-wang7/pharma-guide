@@ -1,0 +1,444 @@
+{
+  "id": "melanoma",
+  "name_cn": "黑色素瘤",
+  "name_en": "Melanoma",
+  "subtypes": [
+    {
+      "id": "melanoma_braf_mutant",
+      "name_cn": "黑色素瘤 - BRAF V600突变型",
+      "name_en": "Melanoma - BRAF V600 mutant",
+      "china": {
+        "annual_new_cases": 1500,
+        "annual_new_cases_note": "中国黑色素瘤年新发约8000例，但BRAF突变率仅约25%（远低于欧美皮肤型的40-50%，因肢端/黏膜型为主）",
+        "tam_rmb_bn": 1,
+        "diagnosis_steps": [
+          "皮肤镜 + 病理活检（Breslow厚度、溃疡、有丝分裂率）",
+          "免疫组化（S100 / HMB-45 / Melan-A / SOX10）",
+          "BRAF V600突变检测（NRAS / KIT一并检测）",
+          "前哨淋巴结活检（分期）",
+          "PET-CT + 脑MRI（排查转移）",
+          "LDH检测（晚期预后分层）"
+        ],
+        "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "术后辅助治疗（III期）",
+            "label_en": "Adjuvant (Stage III)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "达拉非尼（泰菲乐）+ 曲美替尼（迈吉宁）",
+                "name_en": "Dabrafenib (Tafinlar) + Trametinib (Mekinist)",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 300000,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "COMBI-AD：III期BRAF+术后RFS显著获益（HR 0.47）",
+                  "BRAF/MEK双靶向，NMPA批准辅助治疗",
+                  "口服，适合BRAF突变患者"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）辅助",
+                "name_en": "Pembrolizumab (Keytruda) adjuvant",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "KEYNOTE-054：III期术后RFS获益",
+                  "不受BRAF状态限制",
+                  "免疫辅助治疗标准之一"
+                ]
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（不可切除/转移）",
+            "label_en": "1st Line (Unresectable/Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗（欧狄沃）+ 伊匹木单抗（逸沃）",
+                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 400000,
+                "annual_cost_usd": null,
+                "market_share": "30%",
+                "selling_points": [
+                  "CheckMate 067：5年OS 52%，双免疫最强OS平台期",
+                  "PD-1+CTLA-4双免疫，NMPA已批",
+                  "irAE发生率较高，需监测"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）单药",
+                "name_en": "Pembrolizumab (Keytruda) monotherapy",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "KEYNOTE-006：OS优于伊匹木单抗",
+                  "单药耐受性好，一线选择",
+                  "皮肤型疗效佳"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达拉非尼 + 曲美替尼",
+                "name_en": "Dabrafenib + Trametinib",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 300000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "COMBI-d/v：起效快，ORR约68%，适合高肿瘤负荷/症状明显者",
+                  "BRAF/MEK双靶向，NMPA批准",
+                  "中位PFS约11-12m，部分患者长期获益"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维莫非尼（佐博伏）+ 考比替尼",
+                "name_en": "Vemurafenib (Zelboraf) + Cobimetinib",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": 280000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "coBRIM研究：BRAF/MEK联合方案",
+                  "维莫非尼NMPA较早获批BRAF+黑色素瘤",
+                  "光敏性等皮肤毒性需注意"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "纳武利尤单抗 + 瑞拉利单抗（Opdualag）",
+                "name_en": "Nivolumab + Relatlimab (Opdualag)",
+                "company": "百时美施贵宝 BMS",
+                "stage": "已上市（美国2022）/ 中国未上市",
+                "trial": "RELATIVITY-047",
+                "status": "首个LAG-3抑制剂固定复方，mPFS 10.1m vs 4.6m（vs 纳武利尤单药），毒性低于双免疫，美国一线获批"
+              },
+              {
+                "name_cn": "Lifileucel（Amtagvi）TIL细胞疗法",
+                "name_en": "Lifileucel (Amtagvi)",
+                "company": "Iovance Biotherapeutics",
+                "stage": "已上市（美国2024）/ 中国研究中",
+                "trial": "C-144-01",
+                "status": "首个获批用于实体瘤的肿瘤浸润淋巴细胞（TIL）疗法，用于抗PD-1治疗后进展的晚期黑色素瘤，ORR约31%"
+              },
+              {
+                "name_cn": "mRNA-4157/V940 + 帕博利珠单抗",
+                "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
+                "company": "默沙东/Moderna MSD/Moderna",
+                "stage": "Phase 3",
+                "trial": "KEYNOTE-942 / V940-001",
+                "status": "个体化新抗原mRNA疫苗联合帕博利珠单抗，KEYNOTE-942（2b期）高危术后RFS/DMFS获益，III期INTerpath-001进行中"
+              }
+            ]
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 40000,
+        "annual_new_cases_note": "美国黑色素瘤年新发约10万例（以皮肤型为主），BRAF V600突变约占40-50%",
+        "tam_usd_bn": 2.5,
+        "diagnosis_steps": [
+          "Dermoscopy + excisional biopsy (Breslow, ulceration, mitoses)",
+          "IHC (S100 / HMB-45 / Melan-A / SOX10)",
+          "BRAF V600 mutation testing (plus NRAS/KIT)",
+          "Sentinel lymph node biopsy",
+          "PET-CT + brain MRI staging",
+          "Serum LDH"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line (Unresectable/Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Relatlimab (Opdualag)",
+                "name_en": "Nivolumab + Relatlimab (Opdualag)",
+                "manufacturer": "BMS",
+                "annual_cost_usd": 250000,
+                "market_share": "25%",
+                "selling_points": [
+                  "RELATIVITY-047: PFS 10.1m vs 4.6m",
+                  "LAG-3 + PD-1 fixed-dose, FDA approved 2022",
+                  "Lower toxicity than nivo+ipi"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Ipilimumab",
+                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
+                "manufacturer": "BMS",
+                "annual_cost_usd": 300000,
+                "market_share": "30%",
+                "selling_points": [
+                  "CheckMate 067: 5-yr OS 52%, 10-yr OS ~43%",
+                  "Highest OS plateau, brain-met active",
+                  "Higher grade 3/4 irAE rate"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Encorafenib + Binimetinib",
+                "name_en": "Encorafenib (Braftovi) + Binimetinib (Mektovi)",
+                "manufacturer": "Pfizer / Pierre Fabre",
+                "annual_cost_usd": 200000,
+                "market_share": "25%",
+                "selling_points": [
+                  "COLUMBUS: mPFS 14.9m, best-tolerated BRAF/MEK combo",
+                  "For BRAF V600E/K, rapid response",
+                  "NCCN preferred targeted option"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "Merck",
+                "annual_cost_usd": 180000,
+                "market_share": "20%",
+                "selling_points": [
+                  "KEYNOTE-006: single-agent anti-PD-1 standard",
+                  "Well tolerated",
+                  "Adjuvant + metastatic approvals"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Lifileucel (Amtagvi)",
+                "name_en": "Lifileucel (Amtagvi)",
+                "company": "Iovance",
+                "stage": "已上市（美国2024）",
+                "trial": "C-144-01",
+                "status": "First TIL therapy for a solid tumor, FDA 2024 accelerated approval, post anti-PD-1 advanced melanoma, ORR ~31%"
+              },
+              {
+                "name_cn": "mRNA-4157/V940 + Pembrolizumab",
+                "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
+                "company": "Merck / Moderna",
+                "stage": "Phase 3",
+                "trial": "KEYNOTE-942 / V940-001",
+                "status": "Individualized neoantigen mRNA vaccine + pembro; KEYNOTE-942 showed RFS/DMFS benefit in resected high-risk melanoma; phase 3 INTerpath-001 ongoing"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "melanoma_acral_mucosal",
+      "name_cn": "黑色素瘤 - 肢端/黏膜型（BRAF野生型）",
+      "name_en": "Melanoma - Acral/Mucosal (BRAF wild-type)",
+      "china": {
+        "annual_new_cases": 6000,
+        "annual_new_cases_note": "肢端型+黏膜型占中国黑色素瘤约60-70%（欧美罕见），多为BRAF野生型、对免疫单药应答较低，是中国特有的治疗难点",
+        "tam_rmb_bn": 1.5,
+        "diagnosis_steps": [
+          "皮肤镜/病理活检（肢端好发于足底、甲下；黏膜好发于鼻腔、口腔、肛门、外阴）",
+          "免疫组化（S100 / HMB-45 / Melan-A / SOX10）",
+          "BRAF / NRAS / KIT / NF1 突变检测（肢端/黏膜型KIT突变比例较高）",
+          "分期评估：PET-CT + 增强MRI",
+          "LDH检测"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗（不可切除/转移）",
+            "label_en": "1st Line (Unresectable/Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "特瑞普利单抗（拓益）",
+                "name_en": "Toripalimab (Tuoyi)",
+                "manufacturer": "君实生物 Junshi Biosciences",
+                "annual_cost_rmb": 90000,
+                "annual_cost_usd": null,
+                "market_share": "35%",
+                "selling_points": [
+                  "中国首个自主研发抗PD-1，最早获批适应症即黑色素瘤（2018年）",
+                  "医保报销，肢端/黏膜型可及性高",
+                  "POLARIS-01：既往治疗黑色素瘤ORR约17%"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
+                "name_en": "Nivolumab + Ipilimumab",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": 400000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "双免疫在肢端/黏膜型应答低于皮肤型，但仍为高危选择",
+                  "NMPA已批不可切除黑色素瘤",
+                  "毒性需密切监测"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "抗PD-1单药，皮肤型疗效佳、肢端/黏膜型有限",
+                  "KEYNOTE-151中国研究支持",
+                  "耐受性好"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达卡巴嗪 / 替莫唑胺（化疗）",
+                "name_en": "Dacarbazine / Temozolomide",
+                "manufacturer": "通用",
+                "annual_cost_rmb": 20000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "传统化疗骨架，黏膜型仍常用",
+                  "价格低廉，医保报销",
+                  "常与抗血管/免疫联合"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "特瑞普利单抗 + 阿昔替尼",
+                "name_en": "Toripalimab + Axitinib",
+                "company": "君实生物 Junshi",
+                "stage": "Phase 2/3（中国）",
+                "trial": "黏膜型黑色素瘤研究",
+                "status": "PD-1+抗血管TKI针对黏膜型黑色素瘤，早期ORR显著高于免疫单药（约48%），中国原研探索方向"
+              },
+              {
+                "name_cn": "普特利单抗 / 其他国产PD-1",
+                "name_en": "Domestic anti-PD-1 agents",
+                "company": "多家国产 Various",
+                "stage": "已上市/适应症扩展",
+                "trial": "—",
+                "status": "多个国产PD-1探索肢端/黏膜型黑色素瘤联合方案（抗血管、化疗、KIT抑制剂）"
+              },
+              {
+                "name_cn": "Lifileucel（TIL）",
+                "name_en": "Lifileucel (TIL)",
+                "company": "Iovance",
+                "stage": "已上市（美国2024）/ 中国研究中",
+                "trial": "C-144-01",
+                "status": "TIL细胞疗法在肢端/黏膜型的探索受关注，可能为免疫耐药人群提供新选择"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（KIT突变 / 后线）",
+            "label_en": "2nd Line (KIT+ / Later)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "伊马替尼（格列卫，KIT突变）",
+                "name_en": "Imatinib (Gleevec) - KIT mutant",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": 60000,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "KIT外显子11/13突变的肢端/黏膜型可获益",
+                  "口服TKI，医保报销",
+                  "需先行KIT突变检测"
+                ]
+              }
+            ],
+            "pipeline": []
+          }
+        ]
+      },
+      "us": {
+        "annual_new_cases": 5000,
+        "annual_new_cases_note": "美国肢端/黏膜型黑色素瘤罕见（约占全部黑色素瘤5%以内），多为BRAF野生型",
+        "tam_usd_bn": 0.4,
+        "diagnosis_steps": [
+          "Biopsy (acral: soles/subungual; mucosal: sinonasal, anorectal, vulvovaginal)",
+          "IHC (S100 / HMB-45 / Melan-A / SOX10)",
+          "BRAF / NRAS / KIT / NF1 testing",
+          "PET-CT + MRI staging",
+          "Serum LDH"
+        ],
+        "treatment_lines": [
+          {
+            "line": 1,
+            "label_cn": "一线治疗",
+            "label_en": "1st Line (Unresectable/Metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Nivolumab + Ipilimumab",
+                "name_en": "Nivolumab + Ipilimumab",
+                "manufacturer": "BMS",
+                "annual_cost_usd": 300000,
+                "market_share": "40%",
+                "selling_points": [
+                  "Preferred for acral/mucosal despite lower response than cutaneous",
+                  "CheckMate 067 subgroup + real-world data",
+                  "Dual IO high-intensity option"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pembrolizumab / Nivolumab (anti-PD-1)",
+                "name_en": "Pembrolizumab / Nivolumab",
+                "manufacturer": "Merck / BMS",
+                "annual_cost_usd": 180000,
+                "market_share": "35%",
+                "selling_points": [
+                  "Single-agent anti-PD-1 standard",
+                  "Response lower in mucosal subtype",
+                  "Well tolerated"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Imatinib (KIT mutant)",
+                "name_en": "Imatinib - KIT mutant",
+                "manufacturer": "Novartis",
+                "annual_cost_usd": 100000,
+                "market_share": "25%",
+                "selling_points": [
+                  "For KIT exon 11/13 mutant acral/mucosal melanoma",
+                  "Requires KIT testing",
+                  "Oral TKI"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Lifileucel (Amtagvi)",
+                "name_en": "Lifileucel (Amtagvi)",
+                "company": "Iovance",
+                "stage": "已上市（美国2024）",
+                "trial": "C-144-01",
+                "status": "TIL therapy option post anti-PD-1, including acral/mucosal subsets"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import endometrial  from './oncology/endometrial.json';
 import lymphoma     from './oncology/lymphoma.json';
 import leukemia     from './oncology/leukemia.json';
 import myeloma      from './oncology/myeloma.json';
+import melanoma     from './oncology/melanoma.json';
 
 import immune        from './immune.json';
 import metabolic     from './metabolic.json';
@@ -23,7 +24,7 @@ import { EU_SURVIVAL, CLINICAL_ENDPOINTS, PIPELINE_ENDPOINTS } from './supplemen
 
 const oncology = {
   ...oncologyMeta,
-  diseases: [lymphoma, leukemia, myeloma, lung, breast, colorectal, gastric, cervical, prostate, liver, bladder, esophageal, thyroid, endometrial],
+  diseases: [lymphoma, leukemia, myeloma, lung, breast, colorectal, gastric, cervical, prostate, liver, bladder, esophageal, thyroid, endometrial, melanoma],
 };
 
 export const CATEGORIES = [oncology, immune, metabolic, cardiovascular, neuro];

@@ -78,12 +78,12 @@ export const EU_SURVIVAL = {
   // ── GASTRIC ──
   gastric_her2pos: {
     eu: { annual_new_cases: 6000, tam_eur_bn: 0.8, prevalence: 12000 },
-    china: { prevalence: 120000, median_survival_years: 1.4 },  // 85k×1.4yr≈119k
+    china: { prevalence: 98000, median_survival_years: 1.4 },   // 70k×1.4yr≈98k（NCC 2022胃癌总计35.87万）
     us:    { prevalence: 9000,   median_survival_years: 1.8 },  // 5k×1.8yr≈9k
   },
   gastric_her2neg: {
     eu: { annual_new_cases: 50000, tam_eur_bn: 2.5, prevalence: 70000 },
-    china: { prevalence: 490000, median_survival_years: 1.4 },  // 350k×1.4yr≈490k
+    china: { prevalence: 405000, median_survival_years: 1.4 },  // 289k×1.4yr≈405k
     us:    { prevalence: 25000,  median_survival_years: 1.4 },
   },
   // ── CERVICAL ──
@@ -268,7 +268,7 @@ export const EU_SURVIVAL = {
   },
   hypercholesterolemia_high_cv_risk: {
     eu: { annual_new_cases: 4000000, tam_eur_bn: 10.0, prevalence: 80000000 },
-    china: { prevalence: 330000000, median_survival_years: null },
+    china: { prevalence: 80000000, median_survival_years: null },  // 高CV风险人群（血脂异常总人群约3.3亿）
     us:    { prevalence: 30000000, median_survival_years: null },
   },
   // ── NEURO ──

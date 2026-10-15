@@ -16,10 +16,18 @@ const CATEGORY_COLORS = {
 const MARKET_COLORS = { cn: '#ef4444', us: '#3b82f6', eu: '#10b981' };
 
 const FMT_B  = (v) => v == null || v === 0 ? '—' : `$${v.toFixed(1)}B`;
-const FMT_K  = (v) => v == null || v === 0 ? '—' : `$${Math.round(v).toLocaleString()}K`;
+const FMT_K  = (v) => v == null || v === 0 ? '—' : v < 1 ? `$${Math.round(v * 1000)}` : v < 10 ? `$${v.toFixed(1)}K` : `$${Math.round(v).toLocaleString()}K`;
 const FMT_N  = (v) => v == null || v === 0 ? '—' : v >= 1e6 ? `${(v / 1e6).toFixed(1)}M` : v >= 1e3 ? `${(v / 1e3).toFixed(0)}K` : v.toLocaleString();
-const spp    = (tam, cases) => (tam && cases) ? Math.round((tam * 1e9) / cases / 1000) : null;
+const spp    = (tam, cases) => (tam && cases) ? Math.round((tam * 1e9) / cases / 10) / 100 : null;
 const sumF   = (rows, k) => { const v = rows.reduce((a, r) => a + (r[k] || 0), 0); return v || null; };
+// Patient counts skip subtypes flagged as overlapping (already counted in a sibling subtype)
+const sumPatients = (rows, k) => sumF(rows.filter((r) => !r.overlap), k);
+// Aggregate SPP = Σ TAM / Σ per-row denominator (prevalence for chronic rows, new cases otherwise),
+// matching how each subtype row is computed. Only rows that have both TAM and a denominator count.
+const aggSpp = (rows, m) => {
+  const used = rows.filter((r) => r[`${m}_tam_usd`] && r[`${m}_spp_base`]);
+  return spp(sumF(used, `${m}_tam_usd`), sumPatients(used, `${m}_spp_base`));
+};
 
 const METRICS = [
   { key: 'tam',        label: 'Drug Sales TAM ($B)', cnKey: 'cn_tam_usd',    usKey: 'us_tam_usd',    euKey: 'eu_tam_usd'    },
@@ -33,23 +41,23 @@ function aggregate(rows, overrides = {}) {
   const cn_tam = sumF(rows, 'cn_tam_usd');
   const us_tam = sumF(rows, 'us_tam_usd');
   const eu_tam = sumF(rows, 'eu_tam_usd');
-  const cn_cases = sumF(rows, 'cn_new_cases');
-  const us_cases = sumF(rows, 'us_new_cases');
-  const eu_cases = sumF(rows, 'eu_new_cases');
+  const cn_cases = sumPatients(rows, 'cn_new_cases');
+  const us_cases = sumPatients(rows, 'us_new_cases');
+  const eu_cases = sumPatients(rows, 'eu_new_cases');
   return {
     cn_new_cases:  cn_cases,
     us_new_cases:  us_cases,
     eu_new_cases:  eu_cases,
-    cn_prevalence: sumF(rows, 'cn_prevalence'),
-    us_prevalence: sumF(rows, 'us_prevalence'),
-    eu_prevalence: sumF(rows, 'eu_prevalence'),
+    cn_prevalence: sumPatients(rows, 'cn_prevalence'),
+    us_prevalence: sumPatients(rows, 'us_prevalence'),
+    eu_prevalence: sumPatients(rows, 'eu_prevalence'),
     cn_tam_usd: cn_tam,
     us_tam_usd: us_tam,
     eu_tam_usd: eu_tam,
     total_tam_usd: (cn_tam || 0) + (us_tam || 0) + (eu_tam || 0),
-    cn_spp: spp(cn_tam, cn_cases),
-    us_spp: spp(us_tam, us_cases),
-    eu_spp: spp(eu_tam, eu_cases),
+    cn_spp: aggSpp(rows, 'cn'),
+    us_spp: aggSpp(rows, 'us'),
+    eu_spp: aggSpp(rows, 'eu'),
     ...overrides,
   };
 }

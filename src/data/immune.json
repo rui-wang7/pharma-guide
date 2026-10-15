@@ -441,9 +441,9 @@
                     "name_cn": "Amlitelimab",
                     "name_en": "Amlitelimab",
                     "company": "Sanofi",
-                    "stage": "Phase 3",
-                    "trial": "STREAM-AD",
-                    "status": "OX40L antibody, potentially q12w dosing"
+                    "stage": "Phase 3（阳性）/ 准备全球申报",
+                    "trial": "COAST-1 / COAST-2 / SHORE",
+                    "status": "抗OX40L单抗；2026-01 III期达到第24周全部主要/关键次要终点（美国估计量），Q4W/Q12W vIGA 0/1 28.7%/32.3% vs 16.8%；COAST-2部分EU终点未达显著；ESTUARY维持期数据2026下半年"
                   }
                 ]
               }
@@ -537,6 +537,14 @@
                     "stage": "已上市（欧美）/ 中国NDA申报",
                     "trial": "BE VIVID/READY/SURE",
                     "status": "IL-17A/F双靶，PASI 90达85-91%，优于司库奇尤单抗和阿达木单抗"
+                  },
+                  {
+                    "name_cn": "Icotrokinra（口服IL-23R拮抗肽）",
+                    "name_en": "Icotrokinra (Icotyde)",
+                    "company": "强生 J&J",
+                    "stage": "已上市（美国2026-03）/ 中国待申报",
+                    "trial": "ICONIC",
+                    "status": "首个口服IL-23通路药物，头对头优于deucravacitinib"
                   }
                 ]
               }
@@ -594,6 +602,20 @@
                     "selling_points": [
                       "Established IL-17A, long real-world data",
                       "PSO/PsA/AS/nr-axSpA all approved"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Icotrokinra (Icotyde)",
+                    "name_en": "Icotrokinra (Icotyde)",
+                    "manufacturer": "Johnson & Johnson",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "2026-03-18 FDA批准：首个口服IL-23受体靶向肽，≥12岁中重度斑块状银屑病",
+                      "ICONIC-ADVANCE头对头优于deucravacitinib（第16/24周）",
+                      "第16周约70% IGA 0/1、约55% PASI 90；安全性接近安慰剂"
                     ]
                   }
                 ],
@@ -1013,9 +1035,9 @@
                     "name_cn": "Obefazimod",
                     "name_en": "Obefazimod (ABX464)",
                     "company": "Abivax",
-                    "stage": "Phase 3",
-                    "trial": "ABTECT-1/-2",
-                    "status": "Oral miR-124 inducer; phase 2b sustained remission data"
+                    "stage": "Phase 3（阳性）/ NDA准备中",
+                    "trial": "ABTECT-1 / ABTECT-2",
+                    "status": "口服miR-124增强剂；III期ABTECT阳性，2026-07完成pre-NDA会议，计划2026年底前提交NDA"
                   }
                 ]
               }
@@ -1439,9 +1461,9 @@
                     "name_cn": "Tolebrutinib",
                     "name_en": "Tolebrutinib",
                     "company": "Sanofi",
-                    "stage": "Phase 3",
+                    "stage": "FDA CRL（2025-12，nrSPMS）",
                     "trial": "GEMINI 1/2 (RMS) / HERCULES (nrSPMS)",
-                    "status": "BTK inhibitor; HERCULES positive in non-relapsing SPMS (2024); RMS missed primary"
+                    "status": "脑渗透BTK抑制剂；复发型MS III期（GEMINI 1/2）未优于特立氟胺；nrSPMS适应症2025-12遭FDA拒绝（CRL），欧盟审评中"
                   },
                   {
                     "name_cn": "Fenebrutinib",
@@ -1937,25 +1959,37 @@
                       "FDA approved gMG 2023",
                       "Daily SC self-injection"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Nipocalimab (Imaavy)",
+                    "name_en": "Nipocalimab (Imaavy)",
+                    "manufacturer": "Johnson & Johnson",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "2025-04 FDA批准：≥12岁 AChR/MuSK抗体阳性gMG（FcRn阻断剂）",
+                      "VIVACITY-MG3：MG-ADL持续改善，2年OLE无新安全信号",
+                      "欧盟2025-12、英国2026-06获批"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Inebilizumab (Uplizna) - gMG",
+                    "name_en": "Inebilizumab (Uplizna) - gMG",
+                    "manufacturer": "Amgen",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "2025-12 FDA批准：AChR+或MuSK+成人gMG",
+                      "MINT（III期）：第26周MG-ADL、QMG显著优于安慰剂，并减停激素",
+                      "首个CD19 B细胞清除疗法用于gMG；维持期每年仅2次给药"
+                    ]
                   }
                 ],
                 "pipeline": [
-                  {
-                    "name_cn": "Inebilizumab（Uplizna）gMG",
-                    "name_en": "Inebilizumab (Uplizna) - gMG",
-                    "company": "Amgen (Horizon)",
-                    "stage": "Phase 3 / BLA filed",
-                    "trial": "MINT",
-                    "status": "Anti-CD19 mAb; MINT positive 2024; FDA decision pending"
-                  },
-                  {
-                    "name_cn": "Nipocalimab",
-                    "name_en": "Nipocalimab",
-                    "company": "Janssen (J&J)",
-                    "stage": "Phase 3 / BLA",
-                    "trial": "Vivacity-MG3",
-                    "status": "FcRn antagonist; positive Phase 3 readout 2024"
-                  },
                   {
                     "name_cn": "Batoclimab",
                     "name_en": "Batoclimab",

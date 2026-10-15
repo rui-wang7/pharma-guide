@@ -92,6 +92,11 @@ export function findSubtype(categoryId, diseaseId, subtypeId) {
   return sub ? enrichSubtype(sub) : null;
 }
 
+// Subtypes whose patients are a subset of other subtypes (HER2-low ⊂ HR+ / TNBC).
+// Their TAM is distinct (HER2-low-specific drugs), but counting their patients again
+// would double-count disease/category/grand totals.
+const OVERLAPPING_SUBTYPES = new Set(['bc_her2low']);
+
 // Get flat list of all subtypes enriched with market data — for Dashboard
 export function getDashboardData() {
   const rows = [];
@@ -133,7 +138,13 @@ export function getDashboardData() {
           if (!tam) return null;
           const denom = (impliedSurv != null && impliedSurv >= 2 && prev) ? prev : cases;
           if (!denom) return null;
-          return Math.round((tam * 1e9) / denom / 1000);
+          return Math.round((tam * 1e9) / denom / 10) / 100;  // $K, 2 decimals (chronic diseases are often <$1K)
+        };
+        // Denominator actually used per market — summed by the Dashboard so aggregate SPP
+        // uses the same per-row denominators instead of always dividing by new cases.
+        const sppBase = (tam, cases, prev, impliedSurv) => {
+          if (!tam) return null;
+          return (impliedSurv != null && impliedSurv >= 2 && prev) ? prev : (cases || null);
         };
         const cnSPP = sppFn(cnTamUSD, cnCases, cnPrev, cnImplied);
         const usSPP = sppFn(usTamUSD, usCases, usPrev, usImplied);
@@ -174,6 +185,12 @@ export function getDashboardData() {
           // Which denominator was used (for display)
           cn_spp_denom: (cnImplied != null && cnImplied >= 2 && cnPrev) ? 'prev' : 'new',
           us_spp_denom: (usImplied != null && usImplied >= 2 && usPrev) ? 'prev' : 'new',
+          eu_spp_denom: (euImplied != null && euImplied >= 2 && euPrev) ? 'prev' : 'new',
+          cn_spp_base: sppBase(cnTamUSD, cnCases, cnPrev, cnImplied),
+          us_spp_base: sppBase(usTamUSD, usCases, usPrev, usImplied),
+          eu_spp_base: sppBase(euTamUSD, euCases, euPrev, euImplied),
+          // Patients already counted in another subtype — excluded from case/prevalence sums
+          overlap: OVERLAPPING_SUBTYPES.has(sub.id),
         });
       }
     }

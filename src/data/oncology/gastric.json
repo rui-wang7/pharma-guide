@@ -8,8 +8,8 @@
       "name_cn": "胃癌 - HER2阳性（IHC 3+/2+FISH+）",
       "name_en": "Gastric/GEJ - HER2+",
       "china": {
-        "annual_new_cases": 85000,
-        "annual_new_cases_note": "HER2+约占胃癌15-20%，总胃癌新发中国约50万",
+        "annual_new_cases": 70000,
+        "annual_new_cases_note": "HER2+约占胃癌15-20%；中国胃癌新发35.87万（国家癌症中心2022数据）",
         "tam_rmb_bn": 4,
         "diagnosis_steps": [
           "胃镜活检（腺癌病理确认）",
@@ -168,8 +168,8 @@
       "name_cn": "胃癌 - HER2阴性（含PD-L1高表达）",
       "name_en": "Gastric/GEJ - HER2-negative",
       "china": {
-        "annual_new_cases": 350000,
-        "annual_new_cases_note": "HER2阴性约占胃癌80-85%，中国胃癌总发病约50万",
+        "annual_new_cases": 289000,
+        "annual_new_cases_note": "HER2阴性约占胃癌80-85%；中国胃癌新发35.87万（国家癌症中心2022数据）",
         "tam_rmb_bn": 10,
         "diagnosis_steps": [
           "胃镜活检（腺癌病理确认）",

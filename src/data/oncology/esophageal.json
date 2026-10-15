@@ -218,6 +218,14 @@
                 "stage": "已上市（美国2023）",
                 "trial": "RATIONALE-306",
                 "status": "FDA approved 2023 (ESCC), OS 17.2m vs 10.6m, all-comer benefit"
+              },
+              {
+                "name_cn": "Zanidatamab（Ziihera）+ 替雷利珠单抗 + 化疗",
+                "name_en": "Zanidatamab + Tislelizumab + Chemo",
+                "company": "Jazz / BeiGene",
+                "stage": "已上市（美国2026-08）",
+                "trial": "HERIZON-GEA-01",
+                "status": "仅限HER2+食管腺癌（EAC），不适用于ESCC；OS 26.4m vs 19.2m"
               }
             ]
           }

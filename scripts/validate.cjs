@@ -67,10 +67,12 @@ for (const disease of allDiseases) {
     for (const region of ['china', 'us']) {
       const r = sub[region];
       if (!r) continue;
-      if (r.prevalence && r.annual_new_cases && r.prevalence < r.annual_new_cases) {
-        err(`${label} — ${region}: prevalence (${r.prevalence.toLocaleString()}) < new_cases (${r.annual_new_cases.toLocaleString()})`);
-      }
       const suppRegion = EU_SURVIVAL[sub.id]?.[region];
+      // Prevalence usually lives in supplemental.js, not the JSON — check the merged value
+      const prev = r.prevalence || suppRegion?.prevalence;
+      if (prev && r.annual_new_cases && prev < r.annual_new_cases) {
+        err(`${label} — ${region}: prevalence (${prev.toLocaleString()}) < new_cases (${r.annual_new_cases.toLocaleString()})`);
+      }
       const hasPrevalence = r.prevalence || suppRegion?.prevalence;
       if (!r.annual_new_cases) warn(`${label} — ${region}: 缺少 annual_new_cases`);
       if (!hasPrevalence)      warn(`${label} — ${region}: 缺少 prevalence（JSON 和 supplemental 里都没有）`);

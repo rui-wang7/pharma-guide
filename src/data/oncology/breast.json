@@ -283,12 +283,12 @@
                 "status": "AKT抑制剂，PIK3CA/AKT1/PTEN突变人群"
               },
               {
-                "name_cn": "Camizestrant（卡米司群）+ CDK4/6抑制剂 ★ ASCO 2026",
+                "name_cn": "Camizestrant（卡米司群）+ CDK4/6抑制剂 ★ FDA 2026-09获批",
                 "name_en": "Camizestrant + CDK4/6i",
                 "company": "阿斯利康 AstraZeneca",
-                "stage": "Phase 3 / 美国申报",
+                "stage": "已上市（美国，加速批准）/ 中国Phase 3",
                 "trial": "SERENA-6",
-                "status": "ASCO 2026：ctDNA检出ESR1突变即从AI转换为口服SERD camizestrant+CDK4/6i，中位PFS较继续AI方案延长7.6m，约1/3患者24个月仍无进展。首个ctDNA指导的提前换药策略"
+                "status": "2026-09-04 FDA加速批准（Etcamah）：一线AI+CDK4/6i治疗中ctDNA检出ESR1突变即换用camizestrant+CDK4/6i；SERENA-6 PFS 16.0m vs 9.2m（HR 0.44）。首个基于ctDNA耐药突变、影像进展前换药的获批疗法；伴随诊断Guardant360 CDx"
               },
               {
                 "name_cn": "Giredestrant（吉瑞司群）辅助治疗",
@@ -342,6 +342,20 @@
                   "monarchE: Early stage adjuvant",
                   "MONARCH-3 1L mBC"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Camizestrant（Etcamah）+ CDK4/6抑制剂",
+                "name_en": "Camizestrant (Etcamah) + CDK4/6i",
+                "manufacturer": "AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-09 FDA加速批准：一线AI+CDK4/6i期间ctDNA出现ESR1突变时换药",
+                  "SERENA-6：PFS 16.0m vs 9.2m（HR 0.44），OS未成熟",
+                  "伴随诊断 Guardant360 CDx；黑框警告：心律失常"
+                ]
               }
             ],
             "pipeline": [
@@ -352,6 +366,51 @@
                 "stage": "已上市",
                 "trial": "INAVO120",
                 "status": "FDA approved 2024, PIK3CA mutant, CDK4/6i resistant"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（内分泌治疗进展后）",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "Imlunestrant（Inluriyo）+ 阿贝西利",
+                "name_en": "Imlunestrant (Inluriyo) + Abemaciclib",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-09-18 FDA批准：ESR1突变 ER+/HER2- 晚期乳腺癌，≥1线内分泌治疗后进展",
+                  "EMBER-3 ESR1突变亚组（探索性）：PFS 11.1m vs 5.5m（vs imlunestrant单药，HR 0.53）",
+                  "口服SERD；单药已于2025-09获批"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Gedatolisib（Revtorpyk）+ 氟维司群 ± 哌柏西利",
+                "name_en": "Gedatolisib (Revtorpyk) + Fulvestrant ± Palbociclib",
+                "manufacturer": "Celcuity",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-07-14 FDA批准：PIK3CA野生型 HR+/HER2- 晚期乳腺癌，≥1线内分泌治疗后",
+                  "VIKTORIA-1：三联 PFS 9.3m vs 2.0m（HR 0.24）；双联 7.4m vs 2.0m（HR 0.33）",
+                  "首个覆盖PIK3CA野生型的PI3K/mTOR抑制剂；ORR 31.5%"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Gedatolisib（PIK3CA突变队列）",
+                "name_en": "Gedatolisib (PIK3CA-mutant)",
+                "company": "Celcuity",
+                "stage": "Phase 3",
+                "trial": "VIKTORIA-1",
+                "status": "公司计划2026 Q3提交PIK3CA突变人群sNDA"
               }
             ]
           }

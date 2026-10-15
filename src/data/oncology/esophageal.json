@@ -8,8 +8,8 @@
       "name_cn": "晚期/转移性食管癌（ESCC/EAC）",
       "name_en": "Advanced / Metastatic Esophageal Cancer",
       "china": {
-        "annual_new_cases": 320000,
-        "annual_new_cases_note": "中国食管癌发病率全球最高，约占全球53%，鳞癌（ESCC）占90%以上",
+        "annual_new_cases": 224000,
+        "annual_new_cases_note": "国家癌症中心《2022年中国恶性肿瘤疾病负担》：食管癌新发22.4万（占全球43.8%），鳞癌（ESCC）占90%以上",
         "tam_rmb_bn": 4,
         "diagnosis_steps": [
           "胃镜 + 活检病理（鳞癌vs腺癌区分）",
@@ -218,6 +218,14 @@
                 "stage": "已上市（美国2023）",
                 "trial": "RATIONALE-306",
                 "status": "FDA approved 2023 (ESCC), OS 17.2m vs 10.6m, all-comer benefit"
+              },
+              {
+                "name_cn": "Zanidatamab（Ziihera）+ 替雷利珠单抗 + 化疗",
+                "name_en": "Zanidatamab + Tislelizumab + Chemo",
+                "company": "Jazz / BeiGene",
+                "stage": "已上市（美国2026-08）",
+                "trial": "HERIZON-GEA-01",
+                "status": "仅限HER2+食管腺癌（EAC），不适用于ESCC；OS 26.4m vs 19.2m"
               }
             ]
           }

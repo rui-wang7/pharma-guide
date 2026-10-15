@@ -201,6 +201,14 @@
                 "stage": "Phase 1/2",
                 "trial": "KontRASt-01",
                 "status": "KRAS G12C耐药亚型"
+              },
+              {
+                "name_cn": "赛沃替尼（沃瑞沙）+ 奥希替尼 ★ SAFFRON阳性",
+                "name_en": "Savolitinib + Osimertinib",
+                "company": "和黄医药/阿斯利康 HUTCHMED/AstraZeneca",
+                "stage": "Phase 3（阳性）",
+                "trial": "SAFFRON",
+                "status": "2026-08：奥希替尼耐药后MET高表达/扩增，赛沃替尼+奥希替尼 vs 含铂化疗，PFS与OS均显著改善（n=338，具体HR待会议公布）；拟全球申报"
               }
             ]
           },
@@ -384,6 +392,14 @@
                 "stage": "Phase 3",
                 "trial": "HERTHENA-Lung02",
                 "status": "PDUFA 2025, post-EGFR TKI"
+              },
+              {
+                "name_cn": "Savolitinib + Osimertinib ★ SAFFRON阳性",
+                "name_en": "Savolitinib + Osimertinib",
+                "company": "和黄医药/阿斯利康 HUTCHMED/AstraZeneca",
+                "stage": "Phase 3（阳性）",
+                "trial": "SAFFRON",
+                "status": "2026-08：奥希替尼耐药后MET高表达/扩增，赛沃替尼+奥希替尼 vs 含铂化疗，PFS与OS均显著改善（n=338，具体HR待会议公布）；拟全球申报"
               }
             ]
           },

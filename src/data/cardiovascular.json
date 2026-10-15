@@ -139,16 +139,7 @@
                     ]
                   }
                 ],
-                "pipeline": [
-                  {
-                    "name_cn": "Aficamten",
-                    "name_en": "Aficamten",
-                    "company": "Cytokinetics",
-                    "stage": "已申报NDA",
-                    "trial": "SEQUOIA-HCM",
-                    "status": "Cardiac myosin inhibitor for HCM, PDUFA 2025"
-                  }
-                ]
+                "pipeline": []
               }
             ]
           }
@@ -240,9 +231,9 @@
                     "name_cn": "Obicetrapib",
                     "name_en": "Obicetrapib",
                     "company": "NewAmsterdam Pharma",
-                    "stage": "Phase 3",
+                    "stage": "Phase 3 / 欧盟审评（CHMP积极意见，2026-08）",
                     "trial": "BROADWAY/TANDEM",
-                    "status": "CETP抑制剂，LDL-C再降51%，口服，Phase 3进行中"
+                    "status": "口服CETP抑制剂；EMA/MHRA审评中，伙伴Menarini计划最早2026 Q4在德英上市；PREVAIL结局试验中期分析2026 Q4，结果预计2027 Q1"
                   }
                 ]
               }
@@ -287,6 +278,20 @@
                       "FOURIER: MACE -20%",
                       "Biosimilar competition incoming",
                       "Monthly dosing option"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Enlicitide (Lipfendra) — 口服PCSK9",
+                    "name_en": "Enlicitide (Lipfendra) — oral PCSK9i",
+                    "manufacturer": "Merck",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "2026-07 FDA批准：首个口服PCSK9抑制剂，成人高胆固醇血症（含HeFH）",
+                      "CORALreef Lipids：第24周LDL-C降低57.1%（安慰剂+3.0%）；HeFH安慰剂校正降幅59.4%",
+                      "每日一片20mg；心血管结局试验CORALreef Outcomes进行中（预计2029）"
                     ]
                   }
                 ],

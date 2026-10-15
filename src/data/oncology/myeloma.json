@@ -316,6 +316,20 @@
                   "MagnetisMM-3: ORR 61%, CR 35%",
                   "Subcutaneous, full outpatient option"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Iberdomide（Zenbexus）+ 达雷妥尤单抗SC + 地塞米松",
+                "name_en": "Iberdomide (Zenbexus) + Dara SC + Dex",
+                "manufacturer": "Bristol Myers Squibb",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-08-13 FDA加速批准：R/R MM，≥1线既往治疗（含PI和IMiD）",
+                  "EXCALIBER-RRMM（n=939）：MRD阴性CR 41% vs 21%（vs DVd）",
+                  "首个获批的CELMoD；黑框警告：胚胎毒性、血栓"
+                ]
               }
             ],
             "pipeline": [
@@ -328,12 +342,12 @@
                 "status": "BCMA bispecific; ORR 71% R/R MM; FDA decision pending"
               },
               {
-                "name_cn": "Mezigdomide / Iberdomide (CELMoDs)",
-                "name_en": "Mezigdomide / Iberdomide",
+                "name_cn": "Mezigdomide (CELMoD)",
+                "name_en": "Mezigdomide",
                 "company": "Bristol Myers Squibb",
                 "stage": "Phase 3",
-                "trial": "CC-92480-MM-002 / CC-220-MM-001",
-                "status": "Next-gen cereblon E3 ligase modulators"
+                "trial": "SUCCESSOR-1 / SUCCESSOR-2",
+                "status": "下一代CELMoD；同类iberdomide已于2026-08获FDA加速批准"
               }
             ]
           }

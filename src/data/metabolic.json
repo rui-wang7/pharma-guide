@@ -105,9 +105,9 @@
                     "name_cn": "马西瑞肽（Mazdutide）",
                     "name_en": "Mazdutide",
                     "company": "信达生物 Innovent",
-                    "stage": "Phase 3（中国）",
-                    "trial": "GLORY系列",
-                    "status": "GLP-1/GCG双激动，国产GLP-1，NDA申报中"
+                    "stage": "已上市（中国2025-09批准T2D）",
+                    "trial": "DREAMS-1 / DREAMS-2",
+                    "status": "GLP-1/GCG双激动剂；2025-06减重、2025-09 T2D获NMPA批准；2026-05多剂量注射笔获批"
                   },
                   {
                     "name_cn": "Ecnoglutide",
@@ -446,7 +446,7 @@
                     "name_cn": "CagriSema（cagrilintide + semaglutide）",
                     "name_en": "CagriSema",
                     "company": "Novo Nordisk",
-                    "stage": "FDA NDA submitted Dec 2025",
+                    "stage": "FDA NDA under review (decision expected Q4 2026)",
                     "trial": "REDEFINE-1/2",
                     "status": "Amylin + GLP-1 fixed-dose combo; 2.4/2.4mg weekly SC; REDEFINE-1 (68w): -22.7% weight (NEJM 2025); REDEFINE-2: -15.7% in T2DM; pending higher-dose readout 2027"
                   },

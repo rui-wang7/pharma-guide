@@ -403,9 +403,9 @@
                 "name_cn": "Pirtobrutinib（Jaypirca）",
                 "name_en": "Pirtobrutinib (Jaypirca)",
                 "company": "礼来 Eli Lilly",
-                "stage": "中国Phase 3",
+                "stage": "已上市（美国一线，2026-10）/ 中国研究中",
                 "trial": "BRUIN CLL-321",
-                "status": "非共价BTK抑制剂，覆盖BTK C481S耐药"
+                "status": "BRUIN CLL-313：初治CLL vs BR，PFS HR 0.20；2026-10-02 FDA批准一线（无17p缺失）；EU CHMP 2026-06积极意见"
               },
               {
                 "name_cn": "Sonrotoclax + 泽布替尼（CELESTIAL-TNCLL）",
@@ -543,6 +543,20 @@
                   "First-in-class BTK; long-term OS data",
                   "Continuous dosing until progression",
                   "Now largely replaced by 2nd-gen BTK due to AE profile"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Pirtobrutinib (Jaypirca) — 1L",
+                "name_en": "Pirtobrutinib (Jaypirca) — 1L",
+                "manufacturer": "Eli Lilly",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-10-02 FDA批准：初治CLL/SLL（无17p缺失）",
+                  "BRUIN CLL-313 vs BR：PFS HR 0.20，24个月PFS 93.4% vs 70.7%",
+                  "首个进入一线的非共价（可逆）BTK抑制剂；NCCN 2A"
                 ]
               }
             ],

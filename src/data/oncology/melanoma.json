@@ -139,9 +139,9 @@
                 "name_cn": "mRNA-4157/V940 + 帕博利珠单抗",
                 "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
                 "company": "默沙东/Moderna MSD/Moderna",
-                "stage": "Phase 3",
-                "trial": "KEYNOTE-942 / V940-001",
-                "status": "个体化新抗原mRNA疫苗联合帕博利珠单抗，KEYNOTE-942（2b期）高危术后RFS/DMFS获益，III期INTerpath-001进行中"
+                "stage": "Phase 3（阳性）",
+                "trial": "INTerpath-001 / KEYNOTE-942",
+                "status": "2026-08 III期INTerpath-001（n=1137，IIB-IV期术后辅助）达到RFS主要终点及DMFS关键次要终点，具体HR待ESMO 2026（10-24，LBA1）公布；2b期KEYNOTE-942 5年随访RFS HR 0.51"
               }
             ]
           }
@@ -231,9 +231,40 @@
                 "name_cn": "mRNA-4157/V940 + Pembrolizumab",
                 "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
                 "company": "Merck / Moderna",
-                "stage": "Phase 3",
-                "trial": "KEYNOTE-942 / V940-001",
-                "status": "Individualized neoantigen mRNA vaccine + pembro; KEYNOTE-942 showed RFS/DMFS benefit in resected high-risk melanoma; phase 3 INTerpath-001 ongoing"
+                "stage": "Phase 3（阳性）",
+                "trial": "INTerpath-001 / KEYNOTE-942",
+                "status": "2026-08 III期INTerpath-001（n=1137，IIB-IV期术后辅助）达到RFS主要终点及DMFS关键次要终点，具体HR待ESMO 2026（10-24，LBA1）公布；2b期KEYNOTE-942 5年随访RFS HR 0.51"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（抗PD-1进展后）",
+            "label_en": "2nd Line (post anti-PD-1)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "RP1（Tudriqev）+ 纳武利尤单抗",
+                "name_en": "Vusolimogene oderparepvec (RP1, Tudriqev) + Nivolumab",
+                "manufacturer": "Replimune",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "2026-08-06 FDA加速批准：抗PD-1进展后不可切除/转移性皮肤黑色素瘤",
+                  "IGNYTE（单臂II期）：确认ORR 33.6%（CR 15.0%，独立评审）",
+                  "溶瘤HSV-1病毒瘤内注射；历经2次CRL后获批"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Lifileucel（Amtagvi）TIL",
+                "name_en": "Lifileucel (Amtagvi)",
+                "company": "Iovance",
+                "stage": "已上市（美国2024）",
+                "trial": "C-144-01",
+                "status": "抗PD-1后TIL疗法，ORR约31%"
               }
             ]
           }

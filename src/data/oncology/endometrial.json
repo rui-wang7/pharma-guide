@@ -71,12 +71,34 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Mirvetuximab soravtansine（FRα ADC）",
-                "name_en": "Mirvetuximab Soravtansine (Elahere)",
-                "company": "艾伯维 AbbVie (ImmunoGen收购)",
-                "stage": "已上市（铂耐药卵巢癌）/ 子宫内膜癌Phase 2",
-                "trial": "PICCOLO",
-                "status": "FRα ADC，子宫内膜癌FRα高表达亚型探索"
+                "name_cn": "帕博利珠单抗单药（一线 dMMR）",
+                "name_en": "Pembrolizumab monotherapy 1L dMMR",
+                "company": "默沙东 Merck",
+                "stage": "Phase 3（阳性）",
+                "trial": "KEYNOTE-C93",
+                "status": "ESMO 2026：PFS 38.2 vs 8.4 个月（HR 0.57）vs 化疗",
+                "design": "dMMR 一线去化疗：PD-1 单药对比卡铂/紫杉醇",
+                "impact": "dMMR 患者（约 25%）一线可免化疗，化免联合被单药免疫取代"
+              },
+              {
+                "name_cn": "芦康沙妥珠单抗（sac-TMT）",
+                "name_en": "Sacituzumab Tirumotecan (MK-2870)",
+                "company": "默沙东 Merck / 科伦博泰",
+                "stage": "BLA 审评中（PDUFA 2027-06-15）",
+                "trial": "TroFuse-005",
+                "status": "ESMO 2026：OS 19.0 vs 12.1 个月（HR 0.68），PFS 7.2 vs 3.9 个月（HR 0.59），N=776",
+                "design": "TROP2 ADC 对比医生选择的化疗，含铂化疗和 IO 经治",
+                "impact": "sac-TMT 的首个全球 III 期 OS 阳性，将成为 IO 后二线标准，也是默沙东 ADC 战略的首个全球获批"
+              },
+              {
+                "name_cn": "国产 PD-1 + 化疗",
+                "name_en": "Domestic PD-1 + Chemo",
+                "company": "多家",
+                "stage": "Phase 3 / 已上市",
+                "trial": "—",
+                "status": "多个国产 PD-1 获批 dMMR 后线",
+                "design": "一线化免联合",
+                "impact": "国内一线免疫渗透仍低，价格是主因"
               }
             ]
           }
@@ -128,12 +150,79 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Trastuzumab Deruxtecan (T-DXd) - HER2+ EC",
-                "name_en": "Trastuzumab Deruxtecan - HER2+ Endometrial",
-                "company": "Daiichi Sankyo / AZ",
+                "name_cn": "帕博利珠单抗单药（一线 dMMR）",
+                "name_en": "Pembrolizumab monotherapy 1L dMMR",
+                "company": "默沙东 Merck",
+                "stage": "Phase 3（阳性）",
+                "trial": "KEYNOTE-C93",
+                "status": "ESMO 2026：PFS 38.2 vs 8.4 个月（HR 0.57）vs 化疗",
+                "design": "dMMR 一线去化疗：PD-1 单药对比卡铂/紫杉醇",
+                "impact": "dMMR 患者（约 25%）一线可免化疗，化免联合被单药免疫取代"
+              },
+              {
+                "name_cn": "Selinexor 维持（TP53 野生型）",
+                "name_en": "Selinexor maintenance (TP53wt)",
+                "company": "Karyopharm",
                 "stage": "Phase 3",
-                "trial": "DESTINY-PanTumor02 + dedicated EC study",
-                "status": "HER2+ serous endometrial carcinoma, high unmet need"
+                "trial": "XPORT-EC-042",
+                "status": "读出预期 2026 年底-2027 年",
+                "design": "一线化疗后维持，对比安慰剂，限 TP53 野生型 pMMR",
+                "impact": "若阳性，将在 pMMR 人群建立首个生物标志物驱动的维持治疗"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 仑伐替尼（pMMR）",
+                "name_en": "Pembrolizumab + Lenvatinib",
+                "manufacturer": "默沙东 / 卫材",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "40%",
+                "selling_points": [
+                  "KEYNOTE-775：OS 18.7 vs 11.9 个月",
+                  "一线已用 IO 者获益不确定"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗（HER2 IHC 3+）",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu)",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "DESTINY-PanTumor02：内膜癌 ORR 57%",
+                  "FDA 2024-04 泛瘤种加速批准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "芦康沙妥珠单抗（sac-TMT）",
+                "name_en": "Sacituzumab Tirumotecan (MK-2870)",
+                "company": "默沙东 Merck / 科伦博泰",
+                "stage": "BLA 审评中（PDUFA 2027-06-15）",
+                "trial": "TroFuse-005",
+                "status": "ESMO 2026：OS 19.0 vs 12.1 个月（HR 0.68），PFS 7.2 vs 3.9 个月（HR 0.59），N=776",
+                "design": "TROP2 ADC 对比医生选择的化疗，含铂化疗和 IO 经治",
+                "impact": "sac-TMT 的首个全球 III 期 OS 阳性，将成为 IO 后二线标准，也是默沙东 ADC 战略的首个全球获批"
+              },
+              {
+                "name_cn": "Puxitatug Samrotecan（B7-H4 ADC）",
+                "name_en": "Puxitatug Samrotecan (AZD8205)",
+                "company": "阿斯利康",
+                "stage": "Phase 3",
+                "trial": "Bright-EC01",
+                "status": "入组中",
+                "design": "B7-H4 ADC 对比化疗，IO 经治",
+                "impact": "子宫内膜癌 B7-H4 高表达率高，与 TROP2 ADC 争夺二线"
               }
             ]
           }

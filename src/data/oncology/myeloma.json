@@ -70,12 +70,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "西达基奥仑赛（赛凯泽）CAR-T 一线",
-                "name_en": "Cilta-cel (Carvykti) 1L",
-                "company": "传奇生物/强生 Legend/J&J",
+                "name_cn": "西达基奥仑赛（一线）",
+                "name_en": "Cilta-cel 1L",
+                "company": "强生 J&J / 传奇生物 Legend",
                 "stage": "Phase 3",
-                "trial": "CARTITUDE-5/6",
-                "status": "BCMA CAR-T一线高危MM研究"
+                "trial": "CARTITUDE-5 / -6",
+                "status": "CARTITUDE-5 入组完成；-6 头对头对比 ASCT",
+                "design": "CARTITUDE-5：VRd 诱导后 cilta-cel vs Rd 维持（不适合移植）；CARTITUDE-6：DVRd 后 cilta-cel vs ASCT",
+                "impact": "若 CARTITUDE-6 阳性，CAR-T 将替代自体移植，这是 Carvykti 冲击 50 亿美元峰值的关键"
+              },
+              {
+                "name_cn": "泽沃基奥仑赛 / 伊基奥仑赛前线探索",
+                "name_en": "Zevor-cel / Eque-cel earlier lines",
+                "company": "科济药业 / 驯鹿-信达",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "国产 BCMA CAR-T 已上市（后线），前线研究中",
+                "design": "高危初治患者诱导后 CAR-T 巩固",
+                "impact": "国产 CAR-T 定价约为进口的一半，但支付仍限制放量"
               }
             ]
           },
@@ -143,28 +155,34 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Teclistamab（Tecvayli）± 达雷妥尤单抗 ★ 2026更新",
-                "name_en": "Teclistamab (Tecvayli) ± Daratumumab",
+                "name_cn": "特立妥单抗 ± 达雷妥尤单抗",
+                "name_en": "Teclistamab ± Daratumumab",
                 "company": "强生 J&J",
-                "stage": "中国NDA已批 / 美国扩适应症",
-                "trial": "MajesTEC-1 / MajesTEC-9",
-                "status": "BCMA×CD3双抗，2024年NMPA批R/R MM；ORR 63%，CR 39%。MajesTEC-9（ASCO 2026）：单药对比标准联合化疗，PFS获益，支持前移至≥1线后。FDA 2026年3月批准teclistamab+达雷妥尤单抗用于≥1线既往治疗的R/R MM"
+                "stage": "中国已上市（后线）/ 联合适应症申报",
+                "trial": "MajesTEC-3",
+                "status": "美国 2026-03 已批联合方案",
+                "design": "双抗 + CD38 单抗对比 DPd/DVd",
+                "impact": "国内达雷妥尤单抗已进医保，联合方案落地速度取决于 Tecvayli 的医保谈判"
               },
               {
-                "name_cn": "Mezigdomide + 卡非佐米 + 地塞米松",
-                "name_en": "Mezigdomide + Carfilzomib + Dexamethasone",
-                "company": "百时美施贵宝 BMS",
-                "stage": "Phase 3",
-                "trial": "SUCCESSOR-2",
-                "status": "ASCO 2026 LBA：新一代CELMoD（cereblon E3连接酶调节剂）联合Kd治疗R/R MM，口服，对来那度胺耐药患者仍有效"
+                "name_cn": "国产 BCMA CAR-T",
+                "name_en": "Eque-cel / Zevor-cel",
+                "company": "驯鹿生物-信达 / 科济药业",
+                "stage": "中国已上市",
+                "trial": "FUMANBA-1 / LUMMICAR-1",
+                "status": "ORR >90%",
+                "design": "单臂 II 期，≥3 线 R/R MM",
+                "impact": "与 Carvykti（传奇/强生）在国内正面竞争，价格更低"
               },
               {
-                "name_cn": "伊基奥仑赛（伊基仑赛/福可苏MM）",
-                "name_en": "Equecabtagene Autoleucel (Eque-cel)",
-                "company": "驯鹿生物 IASO",
-                "stage": "中国已批",
-                "trial": "FUMANBA-1",
-                "status": "国产BCMA CAR-T，2023年NMPA批；ORR 96%，CR 75%"
+                "name_cn": "国产 BCMA×CD3 / GPRC5D×CD3 双抗",
+                "name_en": "Domestic bispecifics",
+                "company": "多家（如 LBL-034 等）",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "多个国产双抗进入注册临床",
+                "design": "单臂 II 期争取附条件批准",
+                "impact": "双抗国产化后价格将快速下探，是国内后线市场最大的变量"
               }
             ]
           }
@@ -173,7 +191,7 @@
       "us": {
         "annual_new_cases": 35780,
         "annual_new_cases_note": "Most actively-developed hematologic malignancy; median age 69",
-        "tam_usd_bn": 18.0,
+        "tam_usd_bn": 19,
         "diagnosis_steps": [
           "Serum/urine M-protein electrophoresis + immunofixation",
           "Serum free light chains (κ/λ ratio)",
@@ -198,10 +216,11 @@
                 "annual_cost_usd": 450000,
                 "market_share": "55%",
                 "selling_points": [
-                  "PERSEUS: PFS HR 0.42 vs VRd",
-                  "FDA approved Dara-VRd 1L 2024",
-                  "Quadruplet now NCCN Cat 1 preferred"
-                ]
+                  "PERSEUS：MRD 阴性率 75%（移植适合）",
+                  "CEPHEUS：FDA 2026 Q1 批准用于不适合移植的初治患者",
+                  "皮下 Darzalex Faspro 四药方案成为各人群一线标准"
+                ],
+                "impact": "四药方案通吃移植/非移植人群，Darzalex 2025 年全球销售 $143.5 亿，一线地位在 2029 年专利到期前难以撼动"
               },
               {
                 "type": "drug",
@@ -233,12 +252,34 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Cilta-cel (Carvykti) 1L vs SOC",
+                "name_cn": "西达基奥仑赛（一线）",
                 "name_en": "Cilta-cel 1L",
-                "company": "Legend / J&J",
+                "company": "强生 J&J / 传奇生物 Legend",
                 "stage": "Phase 3",
-                "trial": "CARTITUDE-5/6",
-                "status": "BCMA CAR-T 1L high-risk MM; readout 2025-2026"
+                "trial": "CARTITUDE-5 / -6",
+                "status": "CARTITUDE-5 入组完成；-6 头对头对比 ASCT",
+                "design": "CARTITUDE-5：VRd 诱导后 cilta-cel vs Rd 维持（不适合移植）；CARTITUDE-6：DVRd 后 cilta-cel vs ASCT",
+                "impact": "若 CARTITUDE-6 阳性，CAR-T 将替代自体移植，这是 Carvykti 冲击 50 亿美元峰值的关键"
+              },
+              {
+                "name_cn": "特立妥单抗 + 达雷妥尤单抗（一线）",
+                "name_en": "Teclistamab + Daratumumab 1L",
+                "company": "强生 J&J",
+                "stage": "Phase 3",
+                "trial": "MajesTEC-7 / -4",
+                "status": "入组中",
+                "design": "Tec-DR 对比 DRd（不适合移植）；Tec 维持对比来那度胺维持",
+                "impact": "强生用自家 Darzalex + Tecvayli 把双抗推向一线，延续 Darzalex 专利到期后的骨髓瘤主导权"
+              },
+              {
+                "name_cn": "Iberdomide 维持",
+                "name_en": "Iberdomide maintenance",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "EXCALIBER-Maintenance",
+                "status": "ASH 2026 摘要 #114 公布",
+                "design": "头对头对比来那度胺维持（移植后）",
+                "impact": "若优效，CELMoD 将接替已仿制的 Revlimid 成为维持治疗新骨架"
               }
             ]
           },
@@ -247,6 +288,22 @@
             "label_cn": "二线治疗",
             "label_en": "2nd Line",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "特立妥单抗 + 达雷妥尤单抗（Tec-Dara）",
+                "name_en": "Teclistamab (Tecvayli) + Daratumumab SC",
+                "manufacturer": "强生 J&J",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "MajesTEC-3：PFS HR 0.17 vs DPd/DVd",
+                  "FDA 2026-03-05 批准 ≥1 线 R/R MM（国家优先审评券）",
+                  "同时把 Tecvayli 单药转为常规批准"
+                ],
+                "approved": "FDA 2026-03",
+                "impact": "HR 0.17 是骨髓瘤 III 期史上最强数据之一，双抗一步从四线跳到二线，直接冲击 CAR-T 二线与所有三药方案"
+              },
               {
                 "type": "drug",
                 "name_cn": "Cilta-cel (Carvykti) CAR-T",
@@ -330,24 +387,90 @@
                   "EXCALIBER-RRMM（n=939）：MRD阴性CR 41% vs 21%（vs DVd）",
                   "首个获批的CELMoD；黑框警告：胚胎毒性、血栓"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Belantamab mafodotin（Blenrep）+ BVd",
+                "name_en": "Belantamab Mafodotin (Blenrep) + Bortezomib/Dex",
+                "manufacturer": "葛兰素史克 GSK",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DREAMM-7：PFS 36.6 vs 13.4 个月，OS HR 0.58",
+                  "FDA 2025-10 批准 ≥2 线 R/R MM",
+                  "BCMA ADC，社区可用，但需眼科监测"
+                ],
+                "approved": "FDA 2025-10",
+                "impact": "撤市后重返美国；眼毒性 REMS 限制了放量，定位在无法获得双抗/CAR-T 的社区患者"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Linvoseltamab（Lynozyfic）",
+                "name_en": "Linvoseltamab (Lynozyfic)",
+                "manufacturer": "再生元 Regeneron",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "5%",
+                "selling_points": [
+                  "LINKER-MM1：ORR 70%，CR 45%",
+                  "FDA 2025-07 加速批准（≥4 线）",
+                  "给药间隔可延长至每 4 周"
+                ],
+                "approved": "FDA 2025-07",
+                "impact": "第三个 BCMA 双抗，靠给药便利性差异化，但在强生 Tec-Dara 二线获批后空间受压"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Linvoseltamab (BCMA×CD3)",
-                "name_en": "Linvoseltamab",
-                "company": "Regeneron",
-                "stage": "Phase 3 / NDA",
-                "trial": "LINKER-MM1",
-                "status": "BCMA bispecific; ORR 71% R/R MM; FDA decision pending"
+                "name_cn": "Anito-cel",
+                "name_en": "Anitocabtagene Autoleucel (anito-cel)",
+                "company": "吉利德 Kite / Arcellx",
+                "stage": "BLA 审评中（PDUFA 2026-12-23）",
+                "trial": "iMMagine-1 / -3",
+                "status": "iMMagine-1：ORR 97%，迄今未见迟发神经毒性",
+                "design": "D-Domain BCMA CAR-T；单臂 II 期支持申报，iMMagine-3 为二至四线对比标准方案的 III 期",
+                "impact": "若安全性优势兑现，将是 Carvykti 的首个真正对手，Kite 的生产能力是关键变量"
               },
               {
-                "name_cn": "Mezigdomide (CELMoD)",
-                "name_en": "Mezigdomide",
-                "company": "Bristol Myers Squibb",
+                "name_cn": "Etentamig（ABBV-383）",
+                "name_en": "Etentamig (ABBV-383)",
+                "company": "艾伯维 AbbVie",
+                "stage": "BLA 已递交（2026-10）",
+                "trial": "CERVINO",
+                "status": "III 期：ORR 74.0% vs 45.7%，PFS 未达到 vs 6.2 个月（HR 0.40）",
+                "design": "低亲和力 CD3 的 BCMA 双抗，每 4 周给药、无需阶梯给药住院；对比标准可用治疗",
+                "impact": "CRS 发生率低 + 月度给药，瞄准社区医院，这是强生/辉瑞双抗的短板"
+              },
+              {
+                "name_cn": "Arlo-cel（GPRC5D CAR-T）",
+                "name_en": "Arlocabtagene Autoleucel (BMS-986393)",
+                "company": "百时美施贵宝 BMS",
                 "stage": "Phase 3",
-                "trial": "SUCCESSOR-1 / SUCCESSOR-2",
-                "status": "下一代CELMoD；同类iberdomide已于2026-08获FDA加速批准"
+                "trial": "QUINTESSENTIAL-2",
+                "status": "II 期 ORR 约 90%，含 BCMA 经治患者",
+                "design": "GPRC5D 靶向 CAR-T，对比标准三药方案",
+                "impact": "BCMA 疗法失败后的首选靶点之争：arlo-cel 对 Talvey"
+              },
+              {
+                "name_cn": "Mezigdomide 联合",
+                "name_en": "Mezigdomide + Vd / Kd",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "SUCCESSOR-1 / -2",
+                "status": "随访中",
+                "design": "CELMoD 叠加 PI 骨架对比泊马度胺方案",
+                "impact": "与已获批的 iberdomide 一起构成 BMS 的 Pomalyst 接班梯队"
+              },
+              {
+                "name_cn": "Elranatamab 前线",
+                "name_en": "Elranatamab (Elrexfio)",
+                "company": "辉瑞 Pfizer",
+                "stage": "Phase 3",
+                "trial": "MagnetisMM-5",
+                "status": "ASH 2026 摘要 #424 公布",
+                "design": "单药及联合达雷妥尤单抗对比 DPd，二线及以上",
+                "impact": "辉瑞需要这组数据把 Elrexfio 从后线推进二线，否则将被 Tec-Dara 锁死"
               }
             ]
           }

@@ -21,6 +21,9 @@ import metabolic     from './metabolic.json';
 import cardiovascular from './cardiovascular.json';
 import neuro         from './neuro.json';
 import { EU_SURVIVAL, CLINICAL_ENDPOINTS, PIPELINE_ENDPOINTS } from './supplemental.js';
+import { DRUG_SALES, matchSales } from './sales.js';
+
+export { DRUG_SALES };
 
 const oncology = {
   ...oncologyMeta,
@@ -51,7 +54,13 @@ function enrichSubtype(sub) {
         ...line,
         options: (line.options || []).map((opt) => {
           const endpoints = CLINICAL_ENDPOINTS[opt.name_cn];
-          return endpoints ? { ...opt, clinical_data: endpoints } : opt;
+          // Product-level annual sales (all indications) — combos can match several products
+          const sales = opt.type === 'drug' ? matchSales(opt) : [];
+          return {
+            ...opt,
+            ...(endpoints ? { clinical_data: endpoints } : {}),
+            ...(sales.length ? { sales } : {}),
+          };
         }),
         pipeline: (line.pipeline || []).map((p) => {
           const endpoints = PIPELINE_ENDPOINTS[p.name_cn];

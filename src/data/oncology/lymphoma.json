@@ -69,20 +69,44 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Glofitamab + R-CHOP",
-                "name_en": "Glofitamab + R-CHOP",
+                "name_cn": "格菲妥单抗 + Pola-R-CHP",
+                "name_en": "Glofitamab + Pola-R-CHP",
                 "company": "罗氏 Roche",
                 "stage": "Phase 3",
-                "trial": "STARGLO",
-                "status": "CD20×CD3双抗+化疗一线，2024年数据读出"
+                "trial": "SKYGLO",
+                "status": "入组完成，预计 2026-2027 年读出",
+                "design": "在现有最强一线方案 Pola-R-CHP 上叠加 CD20×CD3 双抗，头对头对比 Pola-R-CHP（IPI 2-5），主要终点 PFS",
+                "impact": "若阳性，罗氏可把 Polivy 与 Columvi 捆绑锁定一线，CAR-T 的二线空间会被前移压缩"
               },
               {
-                "name_cn": "Epcoritamab + R-CHOP",
+                "name_cn": "艾可瑞妥单抗 + R-CHOP",
                 "name_en": "Epcoritamab + R-CHOP",
-                "company": "AbbVie / Genmab",
+                "company": "艾伯维 AbbVie / Genmab",
                 "stage": "Phase 3",
                 "trial": "EPCORE DLBCL-2",
-                "status": "皮下CD20×CD3双抗一线联合，高危DLBCL"
+                "status": "入组完成，随访中",
+                "design": "皮下双抗 + R-CHOP 对比 R-CHOP（IPI 2-5 高危），主要终点 PFS；皮下给药、门诊可及是差异点",
+                "impact": "与 SKYGLO 正面竞速；谁先读出阳性谁先定义\"双抗进一线\"的标准"
+              },
+              {
+                "name_cn": "Tafasitamab + 来那度胺 + R-CHOP",
+                "name_en": "Tafasitamab + Lenalidomide + R-CHOP",
+                "company": "Incyte",
+                "stage": "Phase 3",
+                "trial": "frontMIND",
+                "status": "数据入选 ASH 2026（12 月）",
+                "design": "CD19 单抗 + 来那度胺叠加 R-CHOP 对比 R-CHOP，中高危初治患者，主要终点 PFS",
+                "impact": "无 CRS 风险、社区可用；若获益幅度够大，会成为不适合双抗患者的一线加法选项"
+              },
+              {
+                "name_cn": "Golcadomide + R-CHOP",
+                "name_en": "Golcadomide (CELMoD) + R-CHOP",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "GOLSEEK-1",
+                "status": "全球入组中",
+                "design": "口服 CELMoD 降解 Ikaros/Aiolos，叠加 R-CHOP 对比安慰剂 + R-CHOP，高危初治",
+                "impact": "口服加药路径门槛最低，是 BMS 弥补 Revlimid 专利悬崖的核心资产之一"
               }
             ]
           },
@@ -131,24 +155,44 @@
                   "标准挽救方案，桥接自体移植",
                   "ORR 50-60%，医保覆盖"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "格菲妥单抗（高罗华）",
+                "name_en": "Glofitamab (Columvi)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "10%",
+                "selling_points": [
+                  "中国 2023-11 获批三线及以上 DLBCL",
+                  "固定疗程 12 周期，CR 率约 40%",
+                  "联合 GemOx（STARGLO）二线适应症已在中国获批"
+                ],
+                "approved": "NMPA 已批",
+                "impact": "国内首个 CD20×CD3 双抗，定价与 CAR-T 相比有明显可及性优势，正在分流商业化 CAR-T 患者"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Glofitamab（格菲妥单抗）",
-                "name_en": "Glofitamab (Columvi)",
-                "company": "罗氏 Roche",
-                "stage": "中国NDA申报中",
-                "trial": "NP30179",
-                "status": "CD20×CD3双抗，≥2线DLBCL，ORR 56%，CR 43%"
+                "name_cn": "艾可瑞妥单抗",
+                "name_en": "Epcoritamab (Epkinly)",
+                "company": "艾伯维 AbbVie / Genmab",
+                "stage": "中国申报 / 美欧已上市",
+                "trial": "EPCORE NHL-1",
+                "status": "美欧日已上市，中国桥接研究完成",
+                "design": "皮下给药 CD20×CD3 双抗，单臂 II 期 ORR 63% / CR 39% 支持加速获批",
+                "impact": "皮下剂型在国内日间病房场景下比静脉双抗更易放量"
               },
               {
-                "name_cn": "Epcoritamab（依帕妥单抗）",
-                "name_en": "Epcoritamab (Epkinly)",
-                "company": "AbbVie / Genmab",
-                "stage": "中国Phase 2",
-                "trial": "EPCORE NHL-1",
-                "status": "皮下CD20×CD3双抗，≥3线DLBCL ORR 63%"
+                "name_cn": "国产 CD19 CAR-T 二线适应症",
+                "name_en": "Relma-cel / Axi-cel 2L",
+                "company": "药明巨诺 / 复星凯特",
+                "stage": "已上市（二线适应症拓展）",
+                "trial": "—",
+                "status": "二线适应症已纳入多地惠民保",
+                "design": "把 CAR-T 从三线前移到一线治疗 12 个月内复发的二线患者",
+                "impact": "支付仍是瓶颈：百万元级定价下年治疗人数难破千，双抗会先于 CAR-T 放量"
               }
             ]
           }
@@ -203,20 +247,44 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Glofitamab + R-CHOP",
-                "name_en": "Glofitamab + R-CHOP",
-                "company": "Roche",
+                "name_cn": "格菲妥单抗 + Pola-R-CHP",
+                "name_en": "Glofitamab + Pola-R-CHP",
+                "company": "罗氏 Roche",
                 "stage": "Phase 3",
-                "trial": "STARGLO",
-                "status": "Bispecific + chemo 1L; readout 2024-2025"
+                "trial": "SKYGLO",
+                "status": "入组完成，预计 2026-2027 年读出",
+                "design": "在现有最强一线方案 Pola-R-CHP 上叠加 CD20×CD3 双抗，头对头对比 Pola-R-CHP（IPI 2-5），主要终点 PFS",
+                "impact": "若阳性，罗氏可把 Polivy 与 Columvi 捆绑锁定一线，CAR-T 的二线空间会被前移压缩"
               },
               {
-                "name_cn": "Epcoritamab + R-CHOP",
+                "name_cn": "艾可瑞妥单抗 + R-CHOP",
                 "name_en": "Epcoritamab + R-CHOP",
-                "company": "AbbVie / Genmab",
+                "company": "艾伯维 AbbVie / Genmab",
                 "stage": "Phase 3",
                 "trial": "EPCORE DLBCL-2",
-                "status": "SC bispecific + R-CHOP in high-risk 1L"
+                "status": "入组完成，随访中",
+                "design": "皮下双抗 + R-CHOP 对比 R-CHOP（IPI 2-5 高危），主要终点 PFS；皮下给药、门诊可及是差异点",
+                "impact": "与 SKYGLO 正面竞速；谁先读出阳性谁先定义\"双抗进一线\"的标准"
+              },
+              {
+                "name_cn": "Tafasitamab + 来那度胺 + R-CHOP",
+                "name_en": "Tafasitamab + Lenalidomide + R-CHOP",
+                "company": "Incyte",
+                "stage": "Phase 3",
+                "trial": "frontMIND",
+                "status": "数据入选 ASH 2026（12 月）",
+                "design": "CD19 单抗 + 来那度胺叠加 R-CHOP 对比 R-CHOP，中高危初治患者，主要终点 PFS",
+                "impact": "无 CRS 风险、社区可用；若获益幅度够大，会成为不适合双抗患者的一线加法选项"
+              },
+              {
+                "name_cn": "Golcadomide + R-CHOP",
+                "name_en": "Golcadomide (CELMoD) + R-CHOP",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "GOLSEEK-1",
+                "status": "全球入组中",
+                "design": "口服 CELMoD 降解 Ikaros/Aiolos，叠加 R-CHOP 对比安慰剂 + R-CHOP，高危初治",
+                "impact": "口服加药路径门槛最低，是 BMS 弥补 Revlimid 专利悬崖的核心资产之一"
               }
             ]
           },
@@ -284,20 +352,44 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Odronextamab",
-                "name_en": "Odronextamab",
-                "company": "Regeneron",
-                "stage": "Phase 3 / NDA",
-                "trial": "ELM-2",
-                "status": "CD20×CD3 bispecific; FDA AdComm 2024"
+                "name_cn": "莫妥珠单抗 + 维泊妥珠单抗",
+                "name_en": "Mosunetuzumab + Polatuzumab Vedotin",
+                "company": "罗氏 Roche",
+                "stage": "sBLA 审评中（PDUFA 2027-02-09）",
+                "trial": "SUNMO",
+                "status": "III 期阳性，FDA 已受理",
+                "design": "双抗 + ADC 的无化疗固定疗程方案，对比 R-GemOx，面向不适合移植的二线患者",
+                "impact": "给不适合 CAR-T/移植的二线患者一个门诊可用的无化疗方案，直接挤压 R-GemOx 与 Pola-BR"
               },
               {
-                "name_cn": "Loncastuximab Tesirine + Glofitamab",
-                "name_en": "Loncastuximab Tesirine + Glofitamab",
-                "company": "ADC Therapeutics + Roche",
-                "stage": "Phase 1/2",
-                "trial": "LOTIS-7",
-                "status": "ADC + bispecific combination R/R DLBCL"
+                "name_cn": "艾可瑞妥单抗 + 来那度胺",
+                "name_en": "Epcoritamab + Lenalidomide",
+                "company": "艾伯维 AbbVie / Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE DLBCL-4",
+                "status": "ASH 2026 摘要 #919 公布",
+                "design": "对比 R-GemOx，二线不适合移植患者，主要终点 PFS/OS",
+                "impact": "若阳性，双抗 + IMiD 组合将把单药双抗从三线推到二线标准"
+              },
+              {
+                "name_cn": "格菲妥单抗 + GemOx",
+                "name_en": "Glofitamab + GemOx",
+                "company": "罗氏 Roche",
+                "stage": "FDA CRL（2025-07）/ 欧盟已批",
+                "trial": "STARGLO",
+                "status": "FDA 因美国患者占比低拒批；欧盟、中国已批",
+                "design": "双抗 + GemOx 对比 R-GemOx，OS 为主要终点（HR 0.62）",
+                "impact": "美国监管对\"以亚洲患者为主的全球试验\"态度趋严的标志性案例，影响后续所有中国数据申报策略"
+              },
+              {
+                "name_cn": "Loncastuximab + 利妥昔单抗",
+                "name_en": "Loncastuximab Tesirine + Rituximab",
+                "company": "ADC Therapeutics",
+                "stage": "Phase 3",
+                "trial": "LOTIS-5",
+                "status": "ASH 2026 摘要 #920 公布",
+                "design": "CD19 ADC + 利妥昔单抗对比 R-GemOx，二线不适合移植患者",
+                "impact": "小公司产品，若阳性主要价值在于为 CD20 双抗失败后提供 CD19 靶向序贯"
               }
             ]
           }
@@ -370,12 +462,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Mosunetuzumab 一线",
-                "name_en": "Mosunetuzumab 1L",
+                "name_cn": "莫妥珠单抗 + 来那度胺（一线）",
+                "name_en": "Mosunetuzumab + Lenalidomide 1L",
                 "company": "罗氏 Roche",
                 "stage": "Phase 3",
-                "trial": "CELESTIMO",
-                "status": "CD20×CD3双抗一线高负荷FL"
+                "trial": "MorningLyte",
+                "status": "入组完成，随访中",
+                "design": "无化疗方案对比免疫化疗（R/G-化疗），初治高瘤负荷 FL，主要终点 PFS",
+                "impact": "若阳性，FL 一线将进入\"无化疗\"时代，BR/R-CHOP 的份额会被系统性替代"
+              },
+              {
+                "name_cn": "艾可瑞妥单抗 + R²（一线）",
+                "name_en": "Epcoritamab + R² 1L",
+                "company": "艾伯维 AbbVie / Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE FL-2",
+                "status": "全球入组中",
+                "design": "皮下双抗 + 来那度胺/利妥昔单抗对比免疫化疗，初治 FL",
+                "impact": "二线已获批的方案前移一线，与罗氏 MorningLyte 竞速"
               }
             ]
           },
@@ -415,20 +519,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Mosunetuzumab（Lunsumio）",
+                "name_cn": "莫妥珠单抗",
                 "name_en": "Mosunetuzumab (Lunsumio)",
                 "company": "罗氏 Roche",
-                "stage": "中国NDA申报",
+                "stage": "中国已申报",
                 "trial": "GO29781",
-                "status": "CD20×CD3双抗，≥2线FL ORR 80%，CR 60%"
+                "status": "美欧已上市（三线 FL），中国审评中",
+                "design": "固定疗程 CD20×CD3 双抗单药，单臂 II 期 CR 60%",
+                "impact": "国内 FL 三线尚无双抗，获批后将与 BTK 抑制剂、CAR-T 直接竞争"
               },
               {
-                "name_cn": "Tazemetostat",
-                "name_en": "Tazemetostat (Tazverik)",
-                "company": "Ipsen / Epizyme",
-                "stage": "美国已上市，中国未上市",
-                "trial": "E7438-G000-101",
-                "status": "EZH2突变FL ORR 69%；野生型 ORR 35%"
+                "name_cn": "艾可瑞妥单抗 + R²",
+                "name_en": "Epcoritamab + R²",
+                "company": "艾伯维 AbbVie / Genmab",
+                "stage": "美国已批（2025-11）/ 中国 Phase 3",
+                "trial": "EPCORE FL-1",
+                "status": "全球 III 期含中国中心",
+                "design": "双抗 + R² 对比 R²，二线 FL，主要终点 ORR/PFS",
+                "impact": "中国 R² 使用广泛，联合方案接入成本低"
               }
             ]
           }
@@ -496,12 +604,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Mosunetuzumab 1L",
-                "name_en": "Mosunetuzumab 1L",
-                "company": "Roche",
+                "name_cn": "莫妥珠单抗 + 来那度胺（一线）",
+                "name_en": "Mosunetuzumab + Lenalidomide 1L",
+                "company": "罗氏 Roche",
                 "stage": "Phase 3",
-                "trial": "CELESTIMO",
-                "status": "Bispecific 1L for high-burden FL"
+                "trial": "MorningLyte",
+                "status": "入组完成，随访中",
+                "design": "无化疗方案对比免疫化疗（R/G-化疗），初治高瘤负荷 FL，主要终点 PFS",
+                "impact": "若阳性，FL 一线将进入\"无化疗\"时代，BR/R-CHOP 的份额会被系统性替代"
+              },
+              {
+                "name_cn": "艾可瑞妥单抗 + R²（一线）",
+                "name_en": "Epcoritamab + R² 1L",
+                "company": "艾伯维 AbbVie / Genmab",
+                "stage": "Phase 3",
+                "trial": "EPCORE FL-2",
+                "status": "全球入组中",
+                "design": "皮下双抗 + 来那度胺/利妥昔单抗对比免疫化疗，初治 FL",
+                "impact": "二线已获批的方案前移一线，与罗氏 MorningLyte 竞速"
               }
             ]
           },
@@ -510,6 +630,22 @@
             "label_cn": "二线治疗",
             "label_en": "2nd Line",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "艾可瑞妥单抗 + R²",
+                "name_en": "Epcoritamab (Epkinly) + R²",
+                "manufacturer": "艾伯维 AbbVie / Genmab",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "EPCORE FL-1：ORR 95%，PFS HR 0.21 vs R²",
+                  "FDA 2025-11 批准二线 FL，首个双抗联合方案",
+                  "皮下给药、固定疗程"
+                ],
+                "approved": "FDA 2025-11",
+                "impact": "把双抗从三线提前到二线并与 R² 绑定，直接取代单用 R²，也压低了 CAR-T 在 FL 的使用"
+              },
               {
                 "type": "drug",
                 "name_cn": "Mosunetuzumab (Lunsumio)",
@@ -579,16 +715,57 @@
                   "FDA approved 2021 for ≥3L FL",
                   "Single infusion, durable remission"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Tafasitamab + R²",
+                "name_en": "Tafasitamab (Monjuvi) + R²",
+                "manufacturer": "Incyte",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "inMIND：PFS 22.4 vs 13.9 个月（HR 0.43）",
+                  "FDA 2025-06 批准二线 FL",
+                  "无 CRS，社区可用"
+                ],
+                "approved": "FDA 2025-06",
+                "impact": "无 CRS 的三药方案适合社区医院，与双抗方案在二线形成\"便利性 vs 深度缓解\"的分层"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Liso-cel（Breyanzi）— FL",
+                "name_en": "Lisocabtagene Maraleucel (Breyanzi) — FL",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "8%",
+                "selling_points": [
+                  "TRANSCEND FL：ORR 97%，CR 94%",
+                  "FDA 2024 批准三线及以上 FL"
+                ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Lisocabtagene Maraleucel — FL",
-                "name_en": "Liso-cel (Breyanzi) — FL",
-                "company": "Bristol Myers Squibb",
-                "stage": "已上市（美国，≥3L FL）",
-                "trial": "TRANSCEND FL",
-                "status": "FDA approved 2024 for R/R FL ≥3L; ORR 95%"
+                "name_cn": "Odronextamab",
+                "name_en": "Odronextamab",
+                "company": "再生元 Regeneron",
+                "stage": "欧盟已上市 / 美国审评",
+                "trial": "OLYMPIA 系列",
+                "status": "FL 单药欧盟已批；确证性 III 期入组中",
+                "design": "CD20×CD3 双抗，OLYMPIA-1/2 分别对比一线免疫化疗与二线标准治疗",
+                "impact": "入场晚于罗氏和艾伯维，需要靠 III 期联合数据差异化"
+              },
+              {
+                "name_cn": "Golcadomide + 利妥昔单抗",
+                "name_en": "Golcadomide + Rituximab",
+                "company": "百时美施贵宝 BMS",
+                "stage": "Phase 3",
+                "trial": "GOLSEEK-4",
+                "status": "入组中",
+                "design": "口服 CELMoD + 利妥昔单抗对比 R²/免疫化疗，二线 FL",
+                "impact": "若疗效接近双抗而无 CRS，口服方案可在社区端抢回部分双抗份额"
               }
             ]
           }
@@ -648,12 +825,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Nivolumab + AVD（纳武利尤）★ 2026 FDA获批",
+                "name_cn": "纳武利尤单抗 + AVD",
                 "name_en": "Nivolumab + AVD",
                 "company": "百时美施贵宝 BMS",
-                "stage": "美国已批（2026年3月）/ 中国申报",
-                "trial": "SWOG S1826 (CA209-8UT)",
-                "status": "FDA 2026年3月20日批准用于≥12岁III/IV期初治经典型霍奇金淋巴瘤一线。SWOG S1826：PFS优于A+AVD（HR 0.42；1年PFS 94% vs 86%），毒性更低，确立免疫一线新标准"
+                "stage": "美国已批（2026-03）/ 中国未申报",
+                "trial": "SWOG S1826",
+                "status": "PFS HR 0.45 vs BV-AVD",
+                "design": "PD-1 + AVD 头对头对比 BV-AVD，III/IV 期初治 cHL",
+                "impact": "国内国产 PD-1 价格低，超说明书前移一线的可能性大于 O 药正式获批"
               }
             ]
           },
@@ -707,12 +886,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Tislelizumab（替雷利珠）",
-                "name_en": "Tislelizumab (Tevimbra)",
-                "company": "百济神州 BeiGene",
-                "stage": "中国已批",
-                "trial": "BGB-A317-203",
-                "status": "NMPA批R/R cHL，ORR 87.1%（CR 67.1%）"
+                "name_cn": "替雷利珠单抗 / 国产 PD-1 联合化疗",
+                "name_en": "Tislelizumab + Chemo",
+                "company": "百济神州 等",
+                "stage": "已上市（复发难治）/ 一线探索",
+                "trial": "—",
+                "status": "国产 PD-1 已覆盖复发难治 cHL",
+                "design": "把已获批的 R/R 适应症向一线联合 AVD 前移",
+                "impact": "医保内国产 PD-1 年费用仅数万元，价格优势使进口 PD-1 在 cHL 基本出局"
               }
             ]
           }
@@ -748,7 +929,9 @@
                   "FDA approved 2024 for advanced cHL 1L",
                   "SWOG S1826: PFS HR 0.48 vs A+AVD",
                   "New NCCN preferred regimen for stage III/IV"
-                ]
+                ],
+                "approved": "FDA 2026-03",
+                "impact": "SWOG S1826 让 PD-1 直接进入一线并击败 BV-AVD，Adcetris 的一线份额将持续流失"
               },
               {
                 "type": "drug",
@@ -781,12 +964,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Pembrolizumab + Chemotherapy 1L",
-                "name_en": "Pembrolizumab + Chemo 1L",
-                "company": "Merck",
+                "name_cn": "帕博利珠单抗 + AVD",
+                "name_en": "Pembrolizumab + AVD",
+                "company": "默沙东 Merck",
                 "stage": "Phase 3",
                 "trial": "KEYNOTE-C11",
-                "status": "Pembro + AVD/ICE combinations in 1L cHL"
+                "status": "随访中",
+                "design": "PD-1 序贯/联合 AVD，用 PET 适应性策略减少博来霉素与放疗",
+                "impact": "N-AVD 已于 2026-03 获批成为新标准，K 药此时入场主要是防守 PD-1 份额"
               }
             ]
           },
@@ -840,12 +1025,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Nivolumab + Brentuximab Vedotin (Nivo+BV)",
+                "name_cn": "纳武利尤单抗 + 维布妥昔单抗",
                 "name_en": "Nivolumab + Brentuximab Vedotin",
-                "company": "BMS + Pfizer",
-                "stage": "Phase 2 / NDA考虑",
-                "trial": "CheckMate-812",
-                "status": "Combination ORR 85%, CR 67% in R/R cHL"
+                "company": "BMS / 辉瑞 Pfizer",
+                "stage": "Phase 2",
+                "trial": "CheckMate 744 等",
+                "status": "NCCN 已收录为移植前挽救方案",
+                "design": "无化疗挽救方案，移植前桥接，CR 率约 60-70%",
+                "impact": "一线已用过 PD-1 后，二线的再挑战价值下降，未来二线更依赖 BV 与移植"
               }
             ]
           }
@@ -919,12 +1106,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "泽布替尼 + 利妥昔单抗（BR或BTK联合）",
-                "name_en": "Zanubrutinib + R-based 1L",
-                "company": "百济神州 BeiGene",
-                "stage": "Phase 3 / 适应症拓展",
-                "trial": "BGB-3111-306",
-                "status": "国产二代BTK探索一线，预期改写MCL一线格局"
+                "name_cn": "泽布替尼 + 利妥昔单抗",
+                "name_en": "Zanubrutinib + Rituximab",
+                "company": "百济神州",
+                "stage": "Phase 3（美国 sNDA 审评）",
+                "trial": "MANGROVE",
+                "status": "ASH 2026 公布",
+                "design": "无化疗方案对比 BR，初治不适合移植",
+                "impact": "国内 BR 可及性一般，无化疗口服方案更易落地"
               }
             ]
           },
@@ -993,28 +1182,34 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Sonrotoclax + 泽布替尼（BCL-2 + BTK）",
-                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
-                "company": "百济神州 BeiGene",
-                "stage": "Phase 3",
-                "trial": "BGB-11417-302（R/R MCL）",
-                "status": "次代高选择性BCL-2抑制剂，潜在固定疗程；中国NDA预计2025-2026"
+                "name_cn": "索托克拉（Sonrotoclax）",
+                "name_en": "Sonrotoclax",
+                "company": "百济神州",
+                "stage": "中国已获批（R/R MCL / CLL）",
+                "trial": "BGB-11417-201",
+                "status": "中国 2026 年初获批，美国 2026-05 加速批准",
+                "design": "单臂 II 期，BTKi 经治 MCL",
+                "impact": "国产 BCL-2 首次实现中美双批，国内将与维奈克拉直接价格竞争"
               },
               {
-                "name_cn": "Pirtobrutinib（Jaypirca）",
+                "name_cn": "匹妥布替尼",
                 "name_en": "Pirtobrutinib (Jaypirca)",
-                "company": "礼来 Eli Lilly",
-                "stage": "中国Phase 3 / 美国已上市",
-                "trial": "BRUIN MCL-321",
-                "status": "非共价BTK，覆盖C481S耐药；FDA 2023年加速批准R/R MCL（≥2线BTK失败）"
+                "company": "礼来 Lilly / 信达生物",
+                "stage": "中国已获批（R/R MCL）",
+                "trial": "BRUIN",
+                "status": "信达负责中国商业化",
+                "design": "非共价 BTKi，共价 BTKi 耐药后仍有效",
+                "impact": "国内 BTKi 竞争已极度拥挤，匹妥布替尼定位在耐药后细分人群"
               },
               {
-                "name_cn": "Brexucabtagene autoleucel（Tecartus）",
-                "name_en": "Brexu-cel (Tecartus)",
-                "company": "Kite/Gilead",
-                "stage": "中国未上市（美国已批）",
+                "name_cn": "Brexu-cel",
+                "name_en": "Brexucabtagene Autoleucel (Tecartus)",
+                "company": "吉利德 Kite / 复星凯特",
+                "stage": "中国申报中",
                 "trial": "ZUMA-2",
-                "status": "CD19 CAR-T，BTK耐药MCL ORR 87%；国内同类CAR-T研发中"
+                "status": "美国已上市",
+                "design": "单臂 II 期，BTKi 经治 MCL，ORR 约 90%",
+                "impact": "患者基数小 + 百万级定价，商业意义有限"
               }
             ]
           }
@@ -1038,6 +1233,22 @@
             "label_cn": "一线治疗",
             "label_en": "1st Line",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "阿可替尼 + BR",
+                "name_en": "Acalabrutinib (Calquence) + BR",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "ECHO：PFS 66.4 vs 49.6 个月（HR 0.73）",
+                  "FDA 2025-01 批准一线 MCL（不适合移植）",
+                  "首个获批一线 MCL 的 BTK 抑制剂"
+                ],
+                "approved": "FDA 2025-01",
+                "impact": "BTK 抑制剂正式进入一线，二线 BTKi 单药市场随之萎缩"
+              },
               {
                 "type": "drug",
                 "name_cn": "Bendamustine + Rituximab (BR)",
@@ -1083,12 +1294,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Acalabrutinib + BR 1L",
-                "name_en": "Acalabrutinib + BR (1L MCL)",
-                "company": "AstraZeneca",
+                "name_cn": "泽布替尼 + 利妥昔单抗",
+                "name_en": "Zanubrutinib + Rituximab",
+                "company": "百济神州 BeOne",
+                "stage": "sNDA 优先审评（2026-11-03 受理）",
+                "trial": "MANGROVE",
+                "status": "III 期数据入选 ASH 2026 新闻发布（摘要 #6）",
+                "design": "无化疗方案头对头对比 BR，初治不适合移植 MCL，主要终点 PFS",
+                "impact": "若获批将是首个一线无化疗方案，直接替代 BR 及\"BTKi + BR\""
+              },
+              {
+                "name_cn": "Sonrotoclax + 泽布替尼",
+                "name_en": "Sonrotoclax + Zanubrutinib",
+                "company": "百济神州 BeOne",
                 "stage": "Phase 3",
-                "trial": "ECHO",
-                "status": "1L MCL with BR; readout 2024 favorable PFS"
+                "trial": "CELESTIAL-TNMCL 等",
+                "status": "入组中",
+                "design": "BCL-2 + BTK 双口服固定疗程，对比免疫化疗",
+                "impact": "百济用自有 BTK + BCL-2 组合构筑血液瘤闭环，对标艾伯维 I+V"
               }
             ]
           },
@@ -1097,6 +1320,22 @@
             "label_cn": "二线治疗（复发/难治）",
             "label_en": "2nd Line (R/R)",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "Sonrotoclax（Beqalzi）",
+                "name_en": "Sonrotoclax (Beqalzi)",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "FDA 2026-05-13 加速批准：≥2 线且 BTKi 经治 MCL",
+                  "单臂研究 ORR 52%",
+                  "新一代 BCL-2 抑制剂，半衰期短、TLS 管理更简便"
+                ],
+                "approved": "FDA 2026-05",
+                "impact": "首个在 MCL 获批的 BCL-2 抑制剂，填补 BTKi 失败后的口服空白，分流 CAR-T 与 pirtobrutinib"
+              },
               {
                 "type": "drug",
                 "name_cn": "Brexu-cel (Tecartus)",
@@ -1156,20 +1395,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Sonrotoclax + Zanubrutinib",
-                "name_en": "Sonrotoclax (BGB-11417) + Zanubrutinib",
-                "company": "BeiGene",
+                "name_cn": "格菲妥单抗",
+                "name_en": "Glofitamab (Columvi) — MCL",
+                "company": "罗氏 Roche",
                 "stage": "Phase 3",
-                "trial": "BGB-11417-302",
-                "status": "Next-gen BCL-2 + BTK combo for R/R MCL; potential fixed-duration regimen"
+                "trial": "GLOBRYTE",
+                "status": "入组中",
+                "design": "双抗单药对比 BR 或 R-来那度胺，BTKi 经治 MCL",
+                "impact": "BTKi 耐药后 ORR 约 80%，有望成为 CAR-T 之外的现货型选择"
               },
               {
-                "name_cn": "Glofitamab (Columvi) — MCL",
-                "name_en": "Glofitamab (Columvi) - MCL",
-                "company": "Roche/Genentech",
-                "stage": "Phase 2",
-                "trial": "NP30179 MCL cohort",
-                "status": "CD20×CD3 BiTE; ORR 84% post-BTK in R/R MCL"
+                "name_cn": "匹妥布替尼 vs 共价 BTKi",
+                "name_en": "Pirtobrutinib vs Covalent BTKi",
+                "company": "礼来 Lilly",
+                "stage": "Phase 3",
+                "trial": "BRUIN MCL-321",
+                "status": "随访中",
+                "design": "非共价 BTKi 头对头对比共价 BTKi，BTKi 初治的二线 MCL",
+                "impact": "若优效，非共价 BTKi 将前移并挤压泽布替尼/阿可替尼二线份额"
               }
             ]
           }
@@ -1277,12 +1520,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "R² (利妥昔单抗+来那度胺)",
+                "name_cn": "R²（利妥昔单抗 + 来那度胺）",
                 "name_en": "R² (Rituximab + Lenalidomide)",
-                "company": "罗氏 + BMS / 国产仿制",
-                "stage": "中国NDA / 适应症拓展",
-                "trial": "AUGMENT / MAGNIFY",
-                "status": "化疗-free方案，R/R indolent NHL ORR 78%"
+                "company": "BMS / 国产仿制",
+                "stage": "已上市（适应症拓展）",
+                "trial": "AUGMENT",
+                "status": "国产来那度胺集采后价格大幅下降",
+                "design": "无化疗免疫调节方案对比利妥昔单抗单药，PFS HR 0.46",
+                "impact": "集采后 R² 成本极低，是国内 MZL 二线性价比最高的方案"
               }
             ]
           }
@@ -1394,16 +1639,43 @@
                   "FDA accelerated approval R/R MZL Jan 2017",
                   "Daily oral BTK"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Liso-cel（Breyanzi）— MZL",
+                "name_en": "Lisocabtagene Maraleucel (Breyanzi) — MZL",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TRANSCEND FL（MZL 队列）：ORR 约 95%",
+                  "FDA 2025-12 批准 ≥2 线 R/R MZL，首个 MZL CAR-T"
+                ],
+                "approved": "FDA 2025-12",
+                "impact": "MZL 患者少且惰性，CAR-T 仅用于多线失败的小众人群，对整体格局影响有限"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Mosunetuzumab — MZL",
-                "name_en": "Mosunetuzumab (Lunsumio) - MZL",
-                "company": "Roche/Genentech",
+                "name_cn": "泽布替尼 + 利妥昔单抗",
+                "name_en": "Zanubrutinib + Rituximab",
+                "company": "百济神州 BeOne",
+                "stage": "Phase 3",
+                "trial": "MAHOGANY",
+                "status": "随访中",
+                "design": "对比来那度胺 + 利妥昔单抗（R²），R/R MZL/FL",
+                "impact": "为泽布替尼 MZL 加速批准提供确证，并争取二线标准"
+              },
+              {
+                "name_cn": "莫妥珠单抗",
+                "name_en": "Mosunetuzumab (Lunsumio) — MZL",
+                "company": "罗氏 Roche",
                 "stage": "Phase 2",
-                "trial": "MorningSun (GO29781 cohort)",
-                "status": "CD20×CD3 BiTE; ORR ~70% in indolent NHL incl. MZL"
+                "trial": "—",
+                "status": "早期数据 ORR >70%",
+                "design": "固定疗程双抗单药/联合来那度胺",
+                "impact": "双抗向所有惰性 B 细胞淋巴瘤扩展的一环"
               }
             ]
           }
@@ -1477,12 +1749,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "靶向治疗探索（CD22 ADC等）",
-                "name_en": "Investigational Targeted Therapy",
-                "company": "多家",
+                "name_cn": "CD19/CD20 CAR-T（复发难治）",
+                "name_en": "CD19/CD20 CAR-T",
+                "company": "多家研究机构",
                 "stage": "Phase 1/2",
-                "trial": "多个研究者发起",
-                "status": "BL难治后线探索：CD22 ADC、CD19 CAR-T"
+                "trial": "—",
+                "status": "儿童复发难治 BL 小样本缓解率高",
+                "design": "研究者发起的单臂探索",
+                "impact": "罕见病种，商业价值小，主要是学术意义"
               }
             ]
           }
@@ -1549,12 +1823,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Glofitamab + chemo (frontline trials)",
-                "name_en": "Glofitamab + chemo (frontline trials)",
-                "company": "Roche",
+                "name_cn": "格菲妥单抗 + 化疗",
+                "name_en": "Glofitamab + Chemo",
+                "company": "罗氏 Roche",
                 "stage": "Phase 2",
-                "trial": "Investigator-initiated",
-                "status": "CD20×CD3 BiTE added to frontline; early signals"
+                "trial": "—",
+                "status": "研究者发起，小样本",
+                "design": "双抗叠加强化疗，探索降低化疗强度",
+                "impact": "患者极少，属学术探索，不构成商业市场"
               }
             ]
           }

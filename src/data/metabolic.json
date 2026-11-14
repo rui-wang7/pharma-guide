@@ -90,32 +90,67 @@
                       "EMPEROR-HFrEF/pEF心衰获益",
                       "医保报销"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "替尔泊肽",
+                    "name_en": "Tirzepatide (Mounjaro)",
+                    "manufacturer": "礼来 Lilly",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "10%",
+                    "selling_points": [
+                      "SURPASS-AP-Combo",
+                      "NMPA 2024 获批 T2D 与减重"
+                    ],
+                    "impact": "礼来中国 2025 年收入 $19.5 亿，Mounjaro 是主要增量"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "玛仕度肽",
+                    "name_en": "Mazdutide",
+                    "manufacturer": "信达生物 Innovent",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "DREAMS-1/2：HbA1c 降幅优于度拉糖肽",
+                      "NMPA 2025 获批 T2D（减重适应症 2025-06 获批）"
+                    ],
+                    "approved": "NMPA 2025",
+                    "impact": "首个国产 GLP-1/GCG 双靶点，信达进入慢病领域的拳头产品"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "替西帕肽（Tirzepatide）",
-                    "name_en": "Tirzepatide (Mounjaro)",
-                    "company": "礼来 Eli Lilly",
-                    "stage": "已上市（美国）/ 中国2024年批准",
-                    "trial": "SURPASS系列",
-                    "status": "GLP-1/GIP双靶，HbA1c降低2.3%，减重22kg（最优数据），中国2024年获批"
+                    "name_cn": "Orforglipron（T2D 适应症）",
+                    "name_en": "Orforglipron (Foundayo) — T2D",
+                    "company": "礼来 Lilly",
+                    "stage": "肥胖已获批（2026-04）/ T2D 审评中",
+                    "trial": "ACHIEVE 系列",
+                    "status": "ACHIEVE-3 头对头优于口服司美格鲁肽；HbA1c 降幅 1.3-1.6%",
+                    "design": "口服小分子 GLP-1，无需空腹，对比安慰剂、达格列净及口服司美格鲁肽",
+                    "impact": "小分子可大规模低成本生产，是把 GLP-1 推向全球数亿患者的关键剂型"
                   },
                   {
-                    "name_cn": "马西瑞肽（Mazdutide）",
-                    "name_en": "Mazdutide",
-                    "company": "信达生物 Innovent",
-                    "stage": "已上市（中国2025-09批准T2D）",
-                    "trial": "DREAMS-1 / DREAMS-2",
-                    "status": "GLP-1/GCG双激动剂；2025-06减重、2025-09 T2D获NMPA批准；2026-05多剂量注射笔获批"
+                    "name_cn": "HRS9531",
+                    "name_en": "HRS9531 (GLP-1/GIP)",
+                    "company": "恒瑞医药 / Kailera",
+                    "stage": "NDA 审评中（减重）/ Phase 3（T2D）",
+                    "trial": "—",
+                    "status": "减重适应症有望 2026 Q4 获批",
+                    "design": "国产 GLP-1/GIP 双靶点周制剂",
+                    "impact": "国产 tirzepatide 同类首个申报，叠加司美格鲁肽仿制药上市，国内 GLP-1 价格将快速下行"
                   },
                   {
-                    "name_cn": "Ecnoglutide",
-                    "name_en": "Ecnoglutide (PF-06882961派格司他)",
-                    "company": "辉瑞 Pfizer",
-                    "stage": "Phase 3",
-                    "trial": "FOREFRONT",
-                    "status": "口服GLP-1小分子激动剂"
+                    "name_cn": "司美格鲁肽生物类似药",
+                    "name_en": "Semaglutide biosimilars",
+                    "company": "华东医药、九源基因、联邦制药 等",
+                    "stage": "NDA / 2026 年专利到期后上市",
+                    "trial": "—",
+                    "status": "十余家申报",
+                    "design": "与原研头对头的等效性研究",
+                    "impact": "诺和诺德中国 GLP-1 业务已下滑（2026 Q1 中国司美格鲁肽 −22.5%），仿制上市后将加速"
                   }
                 ]
               }
@@ -124,7 +159,7 @@
           "us": {
             "annual_new_cases": 1500000,
             "annual_new_cases_note": "US T2DM prevalence ~37M, ~1.5M newly diagnosed/yr",
-            "tam_usd_bn": 40.0,
+            "tam_usd_bn": 45,
             "diagnosis_steps": [
               "FPG ≥126 mg/dL or 2hPG ≥200 or HbA1c ≥6.5%",
               "ASCVD 10-year risk calculation",
@@ -176,24 +211,54 @@
                       "HFrEF + HFpEF approved",
                       "CKD approved 2023"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "周制剂基础胰岛素",
+                    "name_en": "Insulin Efsitora Alfa (Onswik) / Insulin Icodec (Awiqli)",
+                    "manufacturer": "礼来 Lilly / 诺和诺德 Novo Nordisk",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "Awiqli（icodec）FDA 2026-03-26 获批；Onswik（efsitora）FDA 2026-09-23 获批",
+                      "每周一次，HbA1c 非劣于每日基础胰岛素",
+                      "icodec 在中国已于 2024 年获批"
+                    ],
+                    "approved": "FDA 2026",
+                    "impact": "基础胰岛素从每日变每周，甘精/德谷胰岛素（年销售合计约 $60 亿）将被逐步替换"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Orforglipron",
-                    "name_en": "Orforglipron",
-                    "company": "Eli Lilly",
-                    "stage": "Phase 3",
-                    "trial": "ATTAIN",
-                    "status": "Oral small-molecule GLP-1 RA, non-peptide, no food restrictions"
+                    "name_cn": "Orforglipron（T2D 适应症）",
+                    "name_en": "Orforglipron (Foundayo) — T2D",
+                    "company": "礼来 Lilly",
+                    "stage": "肥胖已获批（2026-04）/ T2D 审评中",
+                    "trial": "ACHIEVE 系列",
+                    "status": "ACHIEVE-3 头对头优于口服司美格鲁肽；HbA1c 降幅 1.3-1.6%",
+                    "design": "口服小分子 GLP-1，无需空腹，对比安慰剂、达格列净及口服司美格鲁肽",
+                    "impact": "小分子可大规模低成本生产，是把 GLP-1 推向全球数亿患者的关键剂型"
                   },
                   {
-                    "name_cn": "Cagrilintide + Semaglutide (CagriSema)",
-                    "name_en": "CagriSema",
-                    "company": "Novo Nordisk",
+                    "name_cn": "Retatrutide",
+                    "name_en": "Retatrutide",
+                    "company": "礼来 Lilly",
                     "stage": "Phase 3",
-                    "trial": "REDEFINE / REIMAGINE",
-                    "status": "Amylin+GLP-1 combination, weight loss up to -22%"
+                    "trial": "TRANSCEND-T2D",
+                    "status": "读出中，预计 2027 年初申报",
+                    "design": "GLP-1/GIP/胰高血糖素三靶点，对比安慰剂及司美格鲁肽",
+                    "impact": "礼来在 tirzepatide（2025 年 $365 亿）之后的下一代"
+                  },
+                  {
+                    "name_cn": "CagriSema",
+                    "name_en": "CagriSema",
+                    "company": "诺和诺德 Novo Nordisk",
+                    "stage": "审评中（预计 2026 Q4 决定）",
+                    "trial": "REIMAGINE",
+                    "status": "T2D 患者减重约 15.7%",
+                    "design": "胰淀素类似物 + 司美格鲁肽固定复方",
+                    "impact": "诺和诺德守住份额的主力，但头对头 tirzepatide 未达非劣效"
                   }
                 ]
               }
@@ -214,7 +279,7 @@
           "china": {
             "annual_new_cases": 5000000,
             "annual_new_cases_note": "中国肥胖人口约2.5亿（BMI≥28），药物治疗渗透率快速上升；2025年GLP-1类全面获批，2026年新增国产药物加入",
-            "tam_rmb_bn": 8,
+            "tam_rmb_bn": 3.5,
             "diagnosis_steps": [
               "BMI计算（中国≥28定义为肥胖）",
               "腰围测量（男≥90cm，女≥85cm）",
@@ -299,7 +364,9 @@
                     "company": "礼来 Eli Lilly",
                     "stage": "Phase 3",
                     "trial": "TRIUMPH-1/2/3/4/CVOT",
-                    "status": "GLP-1/GIP/GCG三靶激动剂；剂量4/9/12mg周注射；TRIUMPH-4（12mg）68周减重28.7%；NDA申报预期2026 Q4"
+                    "status": "GLP-1/GIP/GCG三靶激动剂；剂量4/9/12mg周注射；TRIUMPH-4（12mg）68周减重28.7%；NDA申报预期2026 Q4",
+                    "design": "GLP-1/GIP/胰高血糖素三激动剂，TRIUMPH 系列对比安慰剂，并设头对头 tirzepatide（TRIUMPH-5）",
+                    "impact": "减重幅度逼近减重手术（最高约 29%），有望把礼来的领先优势延长到 2030 年代"
                   },
                   {
                     "name_cn": "CagriSema（卡格司美）",
@@ -307,7 +374,9 @@
                     "company": "诺和诺德 Novo Nordisk",
                     "stage": "已递交FDA NDA（中国待申报）",
                     "trial": "REDEFINE-1/2",
-                    "status": "Amylin + GLP-1固定剂量复方；2.4/2.4mg周注射；REDEFINE-1：68周减重22.7%（NEJM 2025）"
+                    "status": "FDA 审评中（预计 2026 Q4 决定）；REDEFINE-4 未达非劣效",
+                    "design": "胰淀素类似物 cagrilintide + 司美格鲁肽固定复方；REDEFINE-4 头对头 tirzepatide",
+                    "impact": "REDEFINE-4 未达非劣效（20.2% vs 23.6%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
                   },
                   {
                     "name_cn": "HRS9531（恒瑞，国产GLP-1/GIP双靶）",
@@ -315,7 +384,9 @@
                     "company": "江苏恒瑞 Hengrui / Kailera Therapeutics（海外）",
                     "stage": "NMPA NDA已受理（2025末）/ 全球Phase 3启动",
                     "trial": "GEMINI-1 (P3 China) / Kailera global P3",
-                    "status": "GLP-1/GIP双靶（与替尔泊肽同类）；剂量2/4/6mg周注射；GEMINI-1 P3：6mg组48周减重19.2%；P2 8mg/36周减重22.8%；预计2026年中国获批；Kailera海外授权"
+                    "status": "GLP-1/GIP双靶（与替尔泊肽同类）；剂量2/4/6mg周注射；GEMINI-1 P3：6mg组48周减重19.2%；P2 8mg/36周减重22.8%；预计2026年中国获批；Kailera海外授权",
+                    "design": "GLP-1/GIP 双激动剂周制剂，对比安慰剂 48 周",
+                    "impact": "国产首个 tirzepatide 同类，Kailera 负责海外，是中国减重药出海的风向标"
                   },
                   {
                     "name_cn": "汉森GLP-1/GIP（再生元授权）",
@@ -323,7 +394,9 @@
                     "company": "翰森制药 Hansoh / Regeneron",
                     "stage": "Phase 2/3",
                     "trial": "—",
-                    "status": "2025年Regeneron $20亿+授权许可；GLP-1/GIP双靶（与替尔泊肽同类）"
+                    "status": "2025年Regeneron $20亿+授权许可；GLP-1/GIP双靶（与替尔泊肽同类）",
+                    "design": "GLP-1/GIP 双激动剂",
+                    "impact": "国内第二梯队，已授权默沙东/再生元等海外权益"
                   },
                   {
                     "name_cn": "MariTide（AMG 133）",
@@ -331,7 +404,9 @@
                     "company": "安进 Amgen",
                     "stage": "Phase 3",
                     "trial": "MARITIME-1/2",
-                    "status": "GLP-1激动 + GIP拮抗双特异性抗体；月度给药；Phase 2减重12.3-16.2%"
+                    "status": "GLP-1激动 + GIP拮抗双特异性抗体；月度给药；Phase 2减重12.3-16.2%",
+                    "design": "GLP-1 激动 + GIPR 拮抗抗体偶联，每月甚至每季度给药",
+                    "impact": "月度给药是唯一差异化，III 期（MARITIME）尚无读出，呕吐耐受性是隐忧"
                   },
                   {
                     "name_cn": "Pemvidutide（保留瘦体重）",
@@ -339,7 +414,9 @@
                     "company": "Altimmune",
                     "stage": "Phase 3启动2026",
                     "trial": "IMPACT (MASH P2b 阳性)",
-                    "status": "GLP-1/GCG双靶；卖点：保留瘦体重（lean mass preservation）和MASH抗纤维化"
+                    "status": "GLP-1/GCG双靶；卖点：保留瘦体重（lean mass preservation）和MASH抗纤维化",
+                    "design": "GLP-1/胰高血糖素双激动剂，主打保肌与降肝脂",
+                    "impact": "小公司资产，价值更多在 MASH 而非减重"
                   },
                   {
                     "name_cn": "Amycretin",
@@ -347,7 +424,9 @@
                     "company": "诺和诺德 Novo Nordisk",
                     "stage": "Phase 3",
                     "trial": "—",
-                    "status": "Amylin + GLP-1单分子（口服+皮下）；P1（36周皮下）减重22%；P3启动中"
+                    "status": "Amylin + GLP-1单分子（口服+皮下）；P1（36周皮下）减重22%；P3启动中",
+                    "design": "单分子 GLP-1/胰淀素双激动剂，口服与皮下两种剂型",
+                    "impact": "诺和诺德管线中最有潜力追平 tirzepatide 的分子"
                   }
                 ]
               }
@@ -356,7 +435,7 @@
           "us": {
             "annual_new_cases": 10000000,
             "annual_new_cases_note": "US obesity prevalence 42% adults (~100M), severe obesity 9%; 2025-2026 saw mass price cuts, expanded Medicare access",
-            "tam_usd_bn": 35.0,
+            "tam_usd_bn": 21.5,
             "diagnosis_steps": [
               "BMI ≥30 (obese) or ≥27 + comorbidity",
               "Waist circumference",
@@ -430,7 +509,9 @@
                       "Other indications: T2DM (positive Phase 3 ACHIEVE program)",
                       "FDA approved obesity April 1, 2026 (Foundayo brand)",
                       "Price: $149/mo (lowest dose self-pay); $25/mo with commercial insurance card"
-                    ]
+                    ],
+                    "approved": "FDA 2026-04",
+                    "impact": "首个口服小分子 GLP-1 减重药，无需冷链和注射笔，自费定价下探后有望把市场从千万级患者扩大到上亿"
                   }
                 ],
                 "pipeline": [
@@ -440,7 +521,9 @@
                     "company": "Eli Lilly",
                     "stage": "Phase 3",
                     "trial": "TRIUMPH-1/2/3/4/CVOT",
-                    "status": "GLP-1/GIP/GCG triagonist; 4/9/12mg weekly SC; TRIUMPH-4 (12mg) 68w: -28.7% weight (highest ever in Phase 3); NDA filing expected Q4 2026; CVOT readout 2028"
+                    "status": "III 期陆续读出，预计 2027 年初申报；头对头 tirzepatide 的 TRIUMPH-5 待读出",
+                    "design": "GLP-1/GIP/胰高血糖素三激动剂，TRIUMPH 系列对比安慰剂，并设头对头 tirzepatide（TRIUMPH-5）",
+                    "impact": "减重幅度逼近减重手术（最高约 29%），有望把礼来的领先优势延长到 2030 年代"
                   },
                   {
                     "name_cn": "CagriSema（cagrilintide + semaglutide）",
@@ -448,7 +531,9 @@
                     "company": "Novo Nordisk",
                     "stage": "FDA NDA under review (decision expected Q4 2026)",
                     "trial": "REDEFINE-1/2",
-                    "status": "Amylin + GLP-1 fixed-dose combo; 2.4/2.4mg weekly SC; REDEFINE-1 (68w): -22.7% weight (NEJM 2025); REDEFINE-2: -15.7% in T2DM; pending higher-dose readout 2027"
+                    "status": "FDA 审评中，预计 2026 Q4 决定；REDEFINE-4 头对头 tirzepatide 未达非劣效（20.2% vs 23.6%）",
+                    "design": "胰淀素类似物 cagrilintide + 司美格鲁肽固定复方；REDEFINE-4 头对头 tirzepatide",
+                    "impact": "REDEFINE-4 未达非劣效（20.2% vs 23.6%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
                   },
                   {
                     "name_cn": "MariTide（AMG 133）",
@@ -456,7 +541,9 @@
                     "company": "Amgen",
                     "stage": "Phase 3",
                     "trial": "MARITIME-1/2",
-                    "status": "GLP-1R agonist + GIPR antagonist bispecific antibody; monthly dosing (potentially less frequent); Phase 2: -12.3 to -16.2% weight"
+                    "status": "GLP-1R agonist + GIPR antagonist bispecific antibody; monthly dosing (potentially less frequent); Phase 2: -12.3 to -16.2% weight",
+                    "design": "GLP-1 激动 + GIPR 拮抗抗体偶联，每月甚至每季度给药",
+                    "impact": "月度给药是唯一差异化，III 期（MARITIME）尚无读出，呕吐耐受性是隐忧"
                   },
                   {
                     "name_cn": "Pemvidutide（lean-mass保留 + MASH）",
@@ -464,7 +551,9 @@
                     "company": "Altimmune",
                     "stage": "Phase 3 initiating 2026",
                     "trial": "IMPACT (MASH P2b positive)",
-                    "status": "GLP-1/glucagon dual; selling points: lean-mass preservation + MASH antifibrotic; IMPACT P2b 48w: MASH resolution + fibrosis improvement"
+                    "status": "GLP-1/glucagon dual; selling points: lean-mass preservation + MASH antifibrotic; IMPACT P2b 48w: MASH resolution + fibrosis improvement",
+                    "design": "GLP-1/胰高血糖素双激动剂，主打保肌与降肝脂",
+                    "impact": "小公司资产，价值更多在 MASH 而非减重"
                   },
                   {
                     "name_cn": "Amycretin（口服+SC）",
@@ -472,7 +561,9 @@
                     "company": "Novo Nordisk",
                     "stage": "Phase 3",
                     "trial": "—",
-                    "status": "Single-molecule amylin + GLP-1 unimolecular agonist (oral + SC); P1 36w SC: -22% weight"
+                    "status": "Single-molecule amylin + GLP-1 unimolecular agonist (oral + SC); P1 36w SC: -22% weight",
+                    "design": "单分子 GLP-1/胰淀素双激动剂，口服与皮下两种剂型",
+                    "impact": "诺和诺德管线中最有潜力追平 tirzepatide 的分子"
                   },
                   {
                     "name_cn": "Survodutide",
@@ -480,7 +571,9 @@
                     "company": "Boehringer Ingelheim / Zealand Pharma",
                     "stage": "Phase 3",
                     "trial": "SYNCHRONIZE-1/2 (obesity), LIVERAGE (MASH)",
-                    "status": "GLP-1/glucagon dual; P2 46w: -18.7%; MASH F2-F3: 83% resolution at Phase 2"
+                    "status": "GLP-1/glucagon dual; P2 46w: -18.7%; MASH F2-F3: 83% resolution at Phase 2",
+                    "design": "GLP-1/胰高血糖素双激动剂，SYNCHRONIZE 系列",
+                    "impact": "勃林格殷格翰的减重+MASH 双适应症资产"
                   },
                   {
                     "name_cn": "HRS9531（Hengrui / Kailera 全球开发）",
@@ -488,7 +581,9 @@
                     "company": "Hengrui (China) / Kailera Therapeutics (global)",
                     "stage": "Global Phase 3 initiating (China NMPA NDA accepted late 2025)",
                     "trial": "GEMINI-1 (P3 China) / Kailera global P3 (incl. 8mg maintenance)",
-                    "status": "GLP-1/GIP dual (same class as tirzepatide); 2/4/6mg weekly SC; GEMINI-1 P3 48w: -19.2% at 6mg; P2 8mg/36w: -22.8% (-21.1% placebo-adjusted) with no plateau; China approval expected 2026"
+                    "status": "GLP-1/GIP dual (same class as tirzepatide); 2/4/6mg weekly SC; GEMINI-1 P3 48w: -19.2% at 6mg; P2 8mg/36w: -22.8% (-21.1% placebo-adjusted) with no plateau; China approval expected 2026",
+                    "design": "GLP-1/GIP 双激动剂周制剂，对比安慰剂 48 周",
+                    "impact": "国产首个 tirzepatide 同类，Kailera 负责海外，是中国减重药出海的风向标"
                   },
                   {
                     "name_cn": "Hansoh GLP-1/GIP（Regeneron license）",
@@ -496,7 +591,9 @@
                     "company": "Hansoh Pharma / Regeneron",
                     "stage": "Phase 2/3",
                     "trial": "—",
-                    "status": "China-origin tirzepatide-like dual agonist; Regeneron $2B+ license deal 2025"
+                    "status": "China-origin tirzepatide-like dual agonist; Regeneron $2B+ license deal 2025",
+                    "design": "GLP-1/GIP 双激动剂",
+                    "impact": "国内第二梯队，已授权默沙东/再生元等海外权益"
                   }
                 ]
               }
@@ -560,20 +657,34 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Lanifibranor",
-                    "name_en": "Lanifibranor",
-                    "company": "Inventiva",
-                    "stage": "已上市（欧洲）/ 美国NDA申报",
-                    "trial": "NATiV3",
-                    "status": "泛PPAR激动剂，NatiV3 Phase 3阳性结果"
+                    "name_cn": "Efruxifermin",
+                    "name_en": "Efruxifermin (FGF21)",
+                    "company": "诺和诺德 Novo Nordisk（2026-02 收购 Akero）",
+                    "stage": "Phase 3",
+                    "trial": "SYNCHRONY Histology / Outcomes",
+                    "status": "F2-F3 及代偿期肝硬化（F4）III 期入组完成",
+                    "design": "FGF21 类似物周制剂，对比安慰剂，主要终点纤维化改善 ≥1 级",
+                    "impact": "首个在 F4 肝硬化显示逆转纤维化信号的药物；诺和诺德用它搭配司美格鲁肽覆盖 MASH 全病程"
                   },
                   {
-                    "name_cn": "Obeticholic acid（奥贝胆酸）",
-                    "name_en": "Obeticholic acid (Ocaliva)",
-                    "company": "Intercept Pharmaceuticals",
-                    "stage": "FDA拒绝（纤维化适应症）/ 撤市",
-                    "trial": "REGENERATE",
-                    "status": "FXR激动剂，FDA 2024年拒绝NASH适应症申请，商业失败案例"
+                    "name_cn": "Survodutide / Tirzepatide",
+                    "name_en": "Survodutide / Tirzepatide (MASH)",
+                    "company": "勃林格殷格翰 / 礼来",
+                    "stage": "Phase 3",
+                    "trial": "LIVERAGE / SYNERGY-Outcomes",
+                    "status": "II 期 MASH 缓解率 62-74%",
+                    "design": "肠促胰素类药物对比安慰剂，组织学 + 结局终点",
+                    "impact": "减重药正在\"顺带\"拿下 MASH，Rezdiffra（2025 年 $9.6 亿）等肝靶向药须证明在纤维化上的增量"
+                  },
+                  {
+                    "name_cn": "国产 THR-β 激动剂 / FGF21",
+                    "name_en": "Domestic THR-β agonists",
+                    "company": "歌礼、拓臻、海思科 等",
+                    "stage": "Phase 2/3",
+                    "trial": "—",
+                    "status": "多个国产 THR-β 进入 II/III 期",
+                    "design": "对标 resmetirom",
+                    "impact": "国内 MASH 诊断率极低，市场启动取决于无创诊断普及"
                   }
                 ]
               }
@@ -582,7 +693,7 @@
           "us": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "US MASH prevalence ~16M, F2+ fibrosis ~5M",
-            "tam_usd_bn": 1.5,
+            "tam_usd_bn": 1.0,
             "diagnosis_steps": [
               "FibroScan (CAP/LSM) or MRI-PDFF",
               "Liver biopsy (NAS ≥4, F2+ confirmation)",
@@ -624,20 +735,44 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Tirzepatide（MASH）",
-                    "name_en": "Tirzepatide (MASH indication)",
-                    "company": "Eli Lilly",
+                    "name_cn": "Efruxifermin",
+                    "name_en": "Efruxifermin (FGF21)",
+                    "company": "诺和诺德 Novo Nordisk（2026-02 收购 Akero）",
                     "stage": "Phase 3",
-                    "trial": "SYNERGY-NASH",
-                    "status": "SURMOUNT-5 MASH sub-study positive; NDA filing 2025"
+                    "trial": "SYNCHRONY Histology / Outcomes",
+                    "status": "F2-F3 及代偿期肝硬化（F4）III 期入组完成",
+                    "design": "FGF21 类似物周制剂，对比安慰剂，主要终点纤维化改善 ≥1 级",
+                    "impact": "首个在 F4 肝硬化显示逆转纤维化信号的药物；诺和诺德用它搭配司美格鲁肽覆盖 MASH 全病程"
                   },
                   {
-                    "name_cn": "Efruxifermin",
-                    "name_en": "Efruxifermin",
-                    "company": "Akero Therapeutics",
+                    "name_cn": "Survodutide / Tirzepatide",
+                    "name_en": "Survodutide / Tirzepatide (MASH)",
+                    "company": "勃林格殷格翰 / 礼来",
                     "stage": "Phase 3",
-                    "trial": "SYNCHRONY",
-                    "status": "FGF21 analog, fibrosis improvement 41% Phase 2"
+                    "trial": "LIVERAGE / SYNERGY-Outcomes",
+                    "status": "II 期 MASH 缓解率 62-74%",
+                    "design": "肠促胰素类药物对比安慰剂，组织学 + 结局终点",
+                    "impact": "减重药正在\"顺带\"拿下 MASH，Rezdiffra（2025 年 $9.6 亿）等肝靶向药须证明在纤维化上的增量"
+                  },
+                  {
+                    "name_cn": "Lanifibranor",
+                    "name_en": "Lanifibranor (pan-PPAR)",
+                    "company": "Inventiva",
+                    "stage": "Phase 3",
+                    "trial": "NATiV3",
+                    "status": "顶线结果预计 2026 下半年",
+                    "design": "泛 PPAR 激动剂口服，对比安慰剂 72 周",
+                    "impact": "口服药中机制最全，但体重增加与水肿是劣势"
+                  },
+                  {
+                    "name_cn": "Pegozafermin",
+                    "name_en": "Pegozafermin (FGF21)",
+                    "company": "罗氏 Roche（收购 89bio）",
+                    "stage": "Phase 3",
+                    "trial": "ENLIGHTEN",
+                    "status": "入组中",
+                    "design": "FGF21 类似物，可每两周给药",
+                    "impact": "与 efruxifermin 同靶点竞速，罗氏借此重返代谢领域"
                   }
                 ]
               }

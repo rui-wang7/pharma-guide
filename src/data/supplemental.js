@@ -23,6 +23,11 @@ export const EU_SURVIVAL = {
     china: { prevalence: 150000, median_survival_years: 5.5 },
     us:    { prevalence: 38000,  median_survival_years: 6.2 },
   },
+  nsclc_her2m: {
+    eu: { annual_new_cases: 6000, tam_eur_bn: 0.15, prevalence: 12000 },
+    china: { prevalence: 40000, median_survival_years: 2.0 },
+    us:    { prevalence: 11000, median_survival_years: 2.2 },
+  },
   nsclc_kras: {
     eu: { annual_new_cases: 22000, tam_eur_bn: 0.4, prevalence: 60000 },
     china: { prevalence: 80000,  median_survival_years: 1.8 },

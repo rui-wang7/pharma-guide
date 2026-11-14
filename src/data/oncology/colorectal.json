@@ -55,12 +55,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Fruzaqintinib（呋喹替尼）",
-                "name_en": "Fruzaqintinib (Fruquintinib/Fruzoky)",
-                "company": "和黄医药 HUTCHMED",
-                "stage": "已上市（中国+美国）",
+                "name_cn": "埃万妥单抗 + FOLFIRI/FOLFOX",
+                "name_en": "Amivantamab + FOLFIRI / mFOLFOX6",
+                "company": "强生 J&J",
+                "stage": "Phase 3",
+                "trial": "OrigAMI-2 / OrigAMI-3",
+                "status": "全球入组中；Ib/II 期 ORR 约 50%",
+                "design": "EGFR×MET 双抗替代西妥昔单抗，左半 RAS/BRAF 野生型一线对比西妥昔单抗 + 化疗",
+                "impact": "若头对头胜出，将取代已仿制化的西妥昔/帕尼单抗，重新品牌化 RAS 野生型一线"
+              },
+              {
+                "name_cn": "呋喹替尼前线联合",
+                "name_en": "Fruquintinib earlier-line combos",
+                "company": "和黄医药 HUTCHMED / 武田",
+                "stage": "已上市（三线）/ 前线探索",
                 "trial": "FRESCO-2",
-                "status": "后线CRC，2023年FDA获批，国产创新药出海"
+                "status": "全球三线已获批（Fruzaqla）",
+                "design": "口服 VEGFR TKI 从三线向维持治疗前移",
+                "impact": "国内三线已成熟，增量来自海外（武田 2025 年销售约 $3 亿+）"
               }
             ]
           }
@@ -97,12 +109,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Sotorasib + Panitumumab（BRAF/KRAS RAS wt后线）",
-                "name_en": "Sotorasib + Panitumumab",
-                "company": "Amgen",
+                "name_cn": "埃万妥单抗 + FOLFIRI/FOLFOX",
+                "name_en": "Amivantamab + FOLFIRI / mFOLFOX6",
+                "company": "强生 J&J",
                 "stage": "Phase 3",
-                "trial": "CodeBreaK 300",
-                "status": "KRAS G12C CRC 2L+, FDA approved 2023"
+                "trial": "OrigAMI-2 / OrigAMI-3",
+                "status": "全球入组中；Ib/II 期 ORR 约 50%",
+                "design": "EGFR×MET 双抗替代西妥昔单抗，左半 RAS/BRAF 野生型一线对比西妥昔单抗 + 化疗",
+                "impact": "若头对头胜出，将取代已仿制化的西妥昔/帕尼单抗，重新品牌化 RAS 野生型一线"
+              },
+              {
+                "name_cn": "图卡替尼 + 曲妥珠单抗 + mFOLFOX6（HER2+）",
+                "name_en": "Tucatinib + Trastuzumab + mFOLFOX6",
+                "company": "辉瑞 Pfizer",
+                "stage": "Phase 3",
+                "trial": "MOUNTAINEER-03",
+                "status": "随访中",
+                "design": "HER2 扩增 RAS 野生型一线，对比化疗 ± 贝伐/西妥昔",
+                "impact": "把 HER2+ mCRC（约 3%）从后线加速批准推进一线"
               }
             ]
           }
@@ -160,12 +184,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Adagrasib + Cetuximab（KRAS G12C）",
-                "name_en": "Adagrasib + Cetuximab",
-                "company": "Mirati / 默克BV",
-                "stage": "已上市（美国2024）",
-                "trial": "KRYSTAL-10",
-                "status": "KRAS G12C CRC二线，FDA批准2024，中国申报中"
+                "name_cn": "Daraxonrasib ± 联合",
+                "name_en": "Daraxonrasib (RMC-6236)",
+                "company": "Revolution Medicines",
+                "stage": "Phase 1/2（CRC）",
+                "trial": "RMC-6236-001",
+                "status": "胰腺癌已于 2026-08 获批（Rasonque）；CRC 单药活性有限，联合 EGFR 单抗探索中",
+                "design": "泛 RAS(ON) 抑制剂 + 西妥昔单抗/化疗，覆盖 G12D/G12V",
+                "impact": "RAS 突变占 mCRC 约 50%，一旦联合方案成立，将是 CRC 二十年来最大的靶向增量"
+              },
+              {
+                "name_cn": "国产 G12C 抑制剂 + 西妥昔单抗",
+                "name_en": "Fulzerasib / Glecirasib + Cetuximab",
+                "company": "劲方-信达 / 加科思",
+                "stage": "Phase 3",
+                "trial": "—",
+                "status": "后线 ORR 约 45-60%",
+                "design": "对比标准三线（瑞戈非尼/TAS-102）",
+                "impact": "国产 G12C 抑制剂在 CRC 的首批适应症"
               }
             ]
           },
@@ -215,7 +251,18 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "Zanzalintinib + 阿替利珠单抗",
+                "name_en": "Zanzalintinib + Atezolizumab",
+                "company": "Exelixis",
+                "stage": "sNDA 审评中（PDUFA 延至 2027-03-03）",
+                "trial": "STELLAR-303",
+                "status": "OS 10.9 vs 9.4 个月（HR 0.80）",
+                "design": "新一代多靶点 TKI + PD-L1 对比瑞戈非尼，三线 MSS mCRC（无肝转移人群为双主要终点之一）",
+                "impact": "首个在 MSS 肠癌后线显示 OS 获益的含 IO 方案，但获益幅度小"
+              }
+            ]
           }
         ]
       },
@@ -246,16 +293,89 @@
                   "Standard 1L for RAS-mutant mCRC",
                   "NCCN Category 1"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "索托拉西布 + 帕尼单抗（KRAS G12C，经治）",
+                "name_en": "Sotorasib (Lumakras) + Panitumumab (Vectibix)",
+                "manufacturer": "安进 Amgen",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "CodeBreaK 300：PFS 5.6 vs 2.0 个月",
+                  "FDA 2025-01 批准 KRAS G12C 经治 mCRC",
+                  "注意：阿达格拉西布 + 西妥昔单抗的加速批准已撤回（KRYSTAL-10 未达终点）"
+                ],
+                "approved": "FDA 2025-01",
+                "impact": "Krazati 退出后，Lumakras 成为 G12C 肠癌唯一获批方案"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Adagrasib + Cetuximab（KRAS G12C）",
-                "name_en": "Adagrasib + Cetuximab",
-                "company": "Mirati",
-                "stage": "已上市（FDA 2024）",
-                "trial": "KRYSTAL-10",
-                "status": "KRAS G12C CRC 2L+, FDA approved Jan 2024"
+                "name_cn": "Daraxonrasib ± 联合",
+                "name_en": "Daraxonrasib (RMC-6236)",
+                "company": "Revolution Medicines",
+                "stage": "Phase 1/2（CRC）",
+                "trial": "RMC-6236-001",
+                "status": "胰腺癌已于 2026-08 获批（Rasonque）；CRC 单药活性有限，联合 EGFR 单抗探索中",
+                "design": "泛 RAS(ON) 抑制剂 + 西妥昔单抗/化疗，覆盖 G12D/G12V",
+                "impact": "RAS 突变占 mCRC 约 50%，一旦联合方案成立，将是 CRC 二十年来最大的靶向增量"
+              },
+              {
+                "name_cn": "Divarasib / Olomorasib + 西妥昔单抗",
+                "name_en": "Divarasib or Olomorasib + Cetuximab",
+                "company": "罗氏 / 礼来",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "G12C CRC 联合 ORR 约 60%",
+                "design": "第二代 G12C 抑制剂 + EGFR 单抗，前移至一/二线",
+                "impact": "G12C 仅占 CRC 3-4%，但第二代药物缓解率翻倍"
+              }
+            ]
+          },
+          {
+            "line": 3,
+            "label_cn": "三线及后线治疗",
+            "label_en": "3rd Line+",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "TAS-102 + 贝伐珠单抗",
+                "name_en": "Trifluridine/Tipiracil (Lonsurf) + Bevacizumab",
+                "manufacturer": "大鹏药品 Taiho",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "45%",
+                "selling_points": [
+                  "SUNLIGHT：OS 10.8 vs 7.5 个月",
+                  "三线标准"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "呋喹替尼（Fruzaqla）",
+                "name_en": "Fruquintinib (Fruzaqla)",
+                "manufacturer": "武田 Takeda / 和黄医药",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "FRESCO-2：OS 7.4 vs 4.8 个月",
+                  "FDA 2023-11 获批"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Zanzalintinib + 阿替利珠单抗",
+                "name_en": "Zanzalintinib + Atezolizumab",
+                "company": "Exelixis",
+                "stage": "sNDA 审评中（PDUFA 延至 2027-03-03）",
+                "trial": "STELLAR-303",
+                "status": "OS 10.9 vs 9.4 个月（HR 0.80）",
+                "design": "对比瑞戈非尼，经治 MSS mCRC",
+                "impact": "Exelixis 的 Cabometyx 接班产品，肠癌是其第一个适应症"
               }
             ]
           }
@@ -299,12 +419,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Nivolumab + Ipilimumab（CheckMate-8HW）",
+                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
                 "name_en": "Nivolumab + Ipilimumab",
-                "company": "BMS",
-                "stage": "已上市（美国2024）",
-                "trial": "CheckMate-8HW",
-                "status": "双免疫方案，MSI-H mCRC 1L，PFS优于K药单药，NMPA申报中"
+                "company": "百时美施贵宝 BMS",
+                "stage": "美国已批（2025-04）/ 中国审评",
+                "trial": "CheckMate 8HW",
+                "status": "PFS HR 0.21 vs 化疗；vs 纳武单药 HR 0.62",
+                "design": "双免对比化疗及对比 PD-1 单药，一线 MSI-H/dMMR mCRC",
+                "impact": "证明双免优于 PD-1 单药，MSI-H 一线从 K 药单药转向双免"
+              },
+              {
+                "name_cn": "国产 PD-1 新辅助（dMMR 局部晚期）",
+                "name_en": "Neoadjuvant PD-1 for dMMR",
+                "company": "信达、君实 等",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "cCR/pCR 率 60-90%",
+                "design": "新辅助免疫后观察等待，免除手术",
+                "impact": "dMMR 直肠癌有望\"免手术\"，改变外科主导的治疗路径"
               }
             ]
           },
@@ -313,6 +445,21 @@
             "label_cn": "二线治疗（BRAF V600E）",
             "label_en": "2nd Line (BRAF V600E)",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6（一线）",
+                "name_en": "Encorafenib (Braftovi) + Cetuximab + mFOLFOX6",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批（美国）",
+                "selling_points": [
+                  "BREAKWATER：OS 30.3 vs 15.1 个月（HR 0.49），PFS 12.8 vs 7.1 个月",
+                  "FDA 2026 Q1 转为常规批准"
+                ],
+                "approved": "FDA 2026 Q1",
+                "impact": "BRAF V600E 肠癌 OS 翻倍，靶向方案从二线前移一线成为全球标准"
+              },
               {
                 "type": "drug",
                 "name_cn": "Encorafenib + 西妥昔单抗",
@@ -330,12 +477,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Encorafenib + 西妥昔单抗 + 化疗（一线）★ ASCO GI 2026",
-                "name_en": "Encorafenib + Cetuximab + FOLFOX/FOLFIRI (1L)",
-                "company": "辉瑞/默克KGaA Pfizer/Merck",
-                "stage": "Phase 3 / 美国已批一线",
-                "trial": "BREAKWATER",
-                "status": "ASCO GI 2026：BRAF V600E突变mCRC一线，encorafenib+cetuximab+化疗 vs 化疗+贝伐珠单抗，OS与PFS显著获益，将BRAF靶向方案前移至一线"
+                "name_cn": "BRAF 抑制剂国产联合方案",
+                "name_en": "Domestic BRAF/EGFR combos",
+                "company": "多家",
+                "stage": "Phase 2",
+                "trial": "—",
+                "status": "早期",
+                "design": "BRAF + EGFR ± MEK 抑制",
+                "impact": "患者占比约 5%，国内以进口方案为主"
               }
             ]
           }
@@ -382,15 +531,71 @@
                   "CheckMate-8HW: Superior PFS vs pembrolizumab",
                   "FDA approved 2024"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "阿替利珠单抗 + FOLFOX（辅助，III 期 dMMR 结肠癌）",
+                "name_en": "Atezolizumab (Tecentriq) + mFOLFOX6 adjuvant",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "ATOMIC：3 年 DFS 86.4% vs 76.6%（HR 0.50）",
+                  "FDA 2026-10-08 批准"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "首个进入结肠癌辅助的免疫方案，III 期 dMMR 患者标准治疗改写"
+              },
+              {
+                "type": "drug",
+                "name_cn": "多塔利单抗（局部晚期 dMMR 直肠癌）",
+                "name_en": "Dostarlimab (Jemperli) — LA dMMR rectal",
+                "manufacturer": "葛兰素史克 GSK",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "AZUR-1：临床完全缓解率 68%",
+                  "FDA 2026-10-19 加速批准，可免放化疗与手术"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "首个\"以药代刀\"的实体瘤适应症，器官保留成为 dMMR 直肠癌的默认策略"
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "帕博利珠单抗 + favezelimab 等双免",
+                "name_en": "Novel IO doublets in MSI-H",
+                "company": "默沙东 等",
+                "stage": "Phase 3（多数阴性）",
+                "trial": "KEYFORM-007 等",
+                "status": "LAG-3 联合在 MSS 肠癌失败",
+                "design": "IO 联合尝试突破 MSS 人群",
+                "impact": "MSS 肠癌（占 95%）仍是免疫治疗荒漠，突破要靠 RAS 抑制剂或双抗"
+              }
+            ]
           },
           {
             "line": 2,
             "label_cn": "二线治疗（BRAF V600E）",
             "label_en": "2nd Line (BRAF V600E)",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6（一线）",
+                "name_en": "Encorafenib (Braftovi) + Cetuximab + mFOLFOX6",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "BREAKWATER：OS 30.3 vs 15.1 个月（HR 0.49）",
+                  "FDA 2026 Q1 常规批准（一线 BRAF V600E mCRC）"
+                ],
+                "approved": "FDA 2026 Q1",
+                "impact": "BRAF V600E 一线新标准；Braftovi/Mektovi 2025 年销售 $7.2 亿，肠癌一线是主要增量"
+              },
               {
                 "type": "drug",
                 "name_cn": "Encorafenib + Cetuximab",
@@ -405,7 +610,18 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "BRAF 下一代抑制剂（PF-07799933 等）",
+                "name_en": "Next-gen BRAF dimer inhibitors",
+                "company": "辉瑞 Pfizer",
+                "stage": "Phase 1",
+                "trial": "—",
+                "status": "早期",
+                "design": "克服 BRAF 抑制剂耐药的二聚体抑制剂",
+                "impact": "用于 BREAKWATER 方案进展后的序贯"
+              }
+            ]
           }
         ]
       }

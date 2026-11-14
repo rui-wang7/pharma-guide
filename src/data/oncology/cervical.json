@@ -43,13 +43,39 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "帕博利珠单抗 + 同步放化疗",
+                "name_en": "Pembrolizumab + Chemoradiotherapy",
+                "company": "默沙东 Merck",
+                "stage": "美国已批（2024-01）/ 中国已批",
+                "trial": "KEYNOTE-A18",
+                "status": "OS HR 0.67",
+                "design": "高危局部晚期（III-IVA 期），放化疗基础上加 PD-1",
+                "impact": "免疫前移至局部晚期，国产 PD-1 同类研究跟进"
+              }
+            ]
           },
           {
             "line": 1,
             "label_cn": "一线治疗（复发/转移）",
             "label_en": "1st Line (Recurrent / Metastatic)",
             "options": [
+              {
+                "type": "drug",
+                "name_cn": "卡度尼利单抗 + 化疗 ± 贝伐珠单抗",
+                "name_en": "Cadonilimab (AK104) + Chemo ± Bevacizumab",
+                "manufacturer": "康方生物 Akeso",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "COMPASSION-16：OS 未达到 vs 22.8 个月（HR 0.64），不限 PD-L1",
+                  "NMPA 2025 批准一线"
+                ],
+                "approved": "NMPA 2025",
+                "impact": "不限 PD-L1 表达的一线标签，国内优于 K 药（限 CPS≥1），已进医保"
+              },
               {
                 "type": "drug",
                 "name_cn": "帕博利珠单抗 + 化疗 ± 贝伐珠单抗（CPS≥1）",
@@ -80,12 +106,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "依沃西单抗（AK112）+ 化疗",
-                "name_en": "Ivonescimab (AK112) + Chemotherapy",
-                "company": "康方生物 Akeso",
+                "name_cn": "依沃西单抗 + 化疗",
+                "name_en": "Ivonescimab + Chemo",
+                "company": "康方生物",
                 "stage": "Phase 3",
-                "trial": "AK112-302",
-                "status": "PD-1/VEGF双抗，宫颈癌一线，有望取代帕博利珠单抗+贝伐"
+                "trial": "—",
+                "status": "入组中",
+                "design": "PD-1/VEGF 双抗替代\"PD-1 + 贝伐\"",
+                "impact": "一药替两药，康方自家卡度尼利的潜在迭代"
               }
             ]
           },
@@ -126,20 +154,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Tisotumab Vedotin（TV，Tivdak）",
-                "name_en": "Tisotumab Vedotin (Tivdak)",
-                "company": "辉凌制药/Seagen（辉瑞收购）",
-                "stage": "已上市（美国）/ 中国申报",
-                "trial": "innovaTV 301",
-                "status": "Tissue Factor ADC，innovaTV 301优于化疗，FDA 2021年获批2L宫颈癌"
+                "name_cn": "芦康沙妥珠单抗 / 戈沙妥珠单抗",
+                "name_en": "Sac-TMT (TroFuse-020) / TROP2 ADCs",
+                "company": "默沙东-科伦博泰",
+                "stage": "Phase 3",
+                "trial": "TroFuse-020",
+                "status": "二线对比化疗，入组中",
+                "design": "TROP2 ADC 对比研究者选择化疗，PD-1 经治宫颈癌",
+                "impact": "若阳性将与 Tivdak 争夺二线"
               },
               {
-                "name_cn": "HLX10（汉利康，PD-1）+ 化疗",
-                "name_en": "Serplulimab (HLX10) + Chemo",
-                "company": "复宏汉霖 Shanghai Henlius",
-                "stage": "Phase 3",
-                "trial": "ASTRUM-005 宫颈癌",
-                "status": "国产PD-1，宫颈癌一线探索"
+                "name_cn": "Tisotumab Vedotin",
+                "name_en": "Tisotumab Vedotin (Tivdak)",
+                "company": "辉瑞 / Genmab / 再鼎医药",
+                "stage": "美国已上市 / 中国审评",
+                "trial": "innovaTV 301",
+                "status": "OS 11.5 vs 9.5 个月（HR 0.70）",
+                "design": "组织因子 ADC 对比化疗，二/三线",
+                "impact": "再鼎拥有中国权益，眼毒性管理是推广难点"
               }
             ]
           }
@@ -177,12 +209,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Pembrolizumab + Tisotumab Vedotin",
+                "name_cn": "帕博利珠单抗 + Tisotumab Vedotin ± 化疗",
                 "name_en": "Pembrolizumab + Tisotumab Vedotin",
-                "company": "Merck / Pfizer (Seagen)",
+                "company": "辉瑞 / Genmab",
                 "stage": "Phase 3",
-                "trial": "innovaTV 304",
-                "status": "IO + ADC combination 1L, Phase 3 ongoing"
+                "trial": "innovaTV 205 延伸",
+                "status": "一线联合探索",
+                "design": "ADC 前移至一线联合 IO",
+                "impact": "Tivdak 2025 年销售仅 $1.5 亿，需前移才能做大"
               }
             ]
           },
@@ -219,12 +253,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Cadonilimab（卡度利尼）US approval",
-                "name_en": "Cadonilimab (AK104) - US filing",
-                "company": "Akeso / Summit Therapeutics",
-                "stage": "Phase 3 (US)",
-                "trial": "COMPASSION-16 US cohort",
-                "status": "PD-1/CTLA-4 bispecific, already approved in China; US BLA under review"
+                "name_cn": "芦康沙妥珠单抗 / 戈沙妥珠单抗",
+                "name_en": "Sac-TMT (TroFuse-020) / TROP2 ADCs",
+                "company": "默沙东-科伦博泰",
+                "stage": "Phase 3",
+                "trial": "TroFuse-020",
+                "status": "二线对比化疗，入组中",
+                "design": "TROP2 ADC 对比研究者选择化疗，PD-1 经治宫颈癌",
+                "impact": "若阳性将与 Tivdak 争夺二线"
+              },
+              {
+                "name_cn": "卡度尼利单抗",
+                "name_en": "Cadonilimab (AK104)",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3（全球）",
+                "trial": "COMPASSION 系列",
+                "status": "尚未在美申报",
+                "design": "PD-1/CTLA-4 双抗",
+                "impact": "出海优先级低于依沃西"
               }
             ]
           }

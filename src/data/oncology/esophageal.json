@@ -44,7 +44,28 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "新辅助 PD-1 + 放化疗/化疗",
+                "name_en": "Neoadjuvant Camrelizumab/Toripalimab + Chemo(RT)",
+                "company": "恒瑞医药 / 君实生物",
+                "stage": "Phase 3（阳性）",
+                "trial": "ESCORT-NEO / 多项",
+                "status": "pCR 28% vs 4.7%",
+                "design": "新辅助化免对比新辅助化疗，可切除 ESCC",
+                "impact": "中国 ESCC 新辅助从放化疗转向化免，国产 PD-1 主导"
+              },
+              {
+                "name_cn": "根治性放化疗 + PD-1",
+                "name_en": "Definitive CRT + PD-1",
+                "company": "百济神州 / 默沙东 等",
+                "stage": "Phase 3",
+                "trial": "RATIONALE-311 / KEYNOTE-975 / SKYSCRAPER-07",
+                "status": "SKYSCRAPER-07（tiragolumab）阴性；KEYNOTE-975 随访中",
+                "design": "不可切除局晚期，放化疗基础上加 PD-(L)1",
+                "impact": "若阳性，将为 PD-1 打开局部晚期（约占 30%）市场"
+              }
+            ]
           },
           {
             "line": 1,
@@ -107,20 +128,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "卡度利尼（AK104）+ 化疗",
-                "name_en": "Cadonilimab + Chemotherapy",
-                "company": "康方生物 Akeso",
+                "name_cn": "依沃西单抗 / 卡度尼利单抗 + 化疗",
+                "name_en": "Ivonescimab or Cadonilimab + Chemo",
+                "company": "康方生物",
                 "stage": "Phase 3",
-                "trial": "HARMONi-6",
-                "status": "PD-1/CTLA-4双抗+化疗，食管癌一线，探索优于单PD-1"
+                "trial": "—",
+                "status": "一线 ESCC III 期入组中",
+                "design": "双抗 + 化疗对比 PD-1 + 化疗",
+                "impact": "国内一线已有 6 个以上 PD-1 获批，双抗是唯一差异化方向"
               },
               {
-                "name_cn": "依沃西单抗（AK112）+ 化疗",
-                "name_en": "Ivonescimab (AK112) + Chemotherapy",
-                "company": "康方生物 Akeso",
-                "stage": "Phase 3",
-                "trial": "AK112-303",
-                "status": "PD-1/VEGF双抗，食管癌一线探索"
+                "name_cn": "Tiragolumab + 阿替利珠单抗 + 化疗",
+                "name_en": "Tiragolumab + Atezolizumab + Chemo",
+                "company": "罗氏 Roche",
+                "stage": "Phase 3（阴性）",
+                "trial": "SKYSCRAPER-08",
+                "status": "未显示优于 PD-1 + 化疗的临床价值，项目终止",
+                "design": "TIGIT + PD-L1 + 化疗对比化疗",
+                "impact": "TIGIT 靶点在食管癌同样落空，罗氏已全面终止 tiragolumab"
               }
             ]
           },
@@ -158,12 +183,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Izalontamab brengitecan（iza-bren，BL-B01D1）★ ASCO 2026",
-                "name_en": "Izalontamab Brengitecan (iza-bren)",
-                "company": "百利天恒 SystImmune / BMS",
-                "stage": "Phase 3",
+                "name_cn": "伊扎洛妥单抗（iza-bren）",
+                "name_en": "Izalontamab Brengitecan (BL-B01D1)",
+                "company": "百利天恒 / BMS",
+                "stage": "Phase 3（阳性）/ 中国已获批（适应症以官方为准）",
                 "trial": "PANKU-Esophagus01",
-                "status": "ASCO 2026：首创EGFR×HER3双抗ADC，二线复发/转移ESCC（PD-1+铂类进展后）vs 化疗，OS 9.8m vs 7.2m（HR 0.64），PFS 4.2m vs 2.0m（HR 0.50），ORR 35.3% vs 13.1%。中国原研"
+                "status": "ESMO 2026：二线 ESCC OS、PFS 均显著优于化疗",
+                "design": "EGFR×HER3 双抗 ADC 对比紫杉醇/伊立替康，PD-1 经治 ESCC",
+                "impact": "首个在 IO 经治食管鳞癌拿到 OS 的 ADC，二线化疗将被替代"
               }
             ]
           }
@@ -208,24 +235,43 @@
                   "KEYNOTE-590: OS 12.4m vs 9.8m (all comers)",
                   "FDA approved 2021 (ESCC + EAC)"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "替雷利珠单抗 + 化疗",
+                "name_en": "Tislelizumab (Tevimbra) + Chemo",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "8%",
+                "selling_points": [
+                  "RATIONALE-306：OS 17.2 vs 10.6 个月（PD-L1≥1%）",
+                  "FDA 2025-03 批准一线 ESCC"
+                ],
+                "approved": "FDA 2025-03",
+                "impact": "首个在美国拿到一线食管癌适应症的中国 PD-1，但入场晚于 O 药、K 药多年"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Tislelizumab + Chemotherapy",
-                "name_en": "Tislelizumab (Tevimbra) + Chemo",
-                "company": "BeiGene",
-                "stage": "已上市（美国2023）",
-                "trial": "RATIONALE-306",
-                "status": "FDA approved 2023 (ESCC), OS 17.2m vs 10.6m, all-comer benefit"
+                "name_cn": "伊扎洛妥单抗（iza-bren）",
+                "name_en": "Izalontamab Brengitecan",
+                "company": "BMS / 百利天恒",
+                "stage": "Phase 2/3（全球）",
+                "trial": "—",
+                "status": "中国 III 期阳性，全球研究入组中",
+                "design": "EGFR×HER3 双抗 ADC，IO 经治 ESCC",
+                "impact": "BMS 主导海外开发，美国 ESCC 患者少，价值主要在亚洲与欧洲"
               },
               {
-                "name_cn": "Zanidatamab（Ziihera）+ 替雷利珠单抗 + 化疗",
-                "name_en": "Zanidatamab + Tislelizumab + Chemo",
-                "company": "Jazz / BeiGene",
-                "stage": "已上市（美国2026-08）",
-                "trial": "HERIZON-GEA-01",
-                "status": "仅限HER2+食管腺癌（EAC），不适用于ESCC；OS 26.4m vs 19.2m"
+                "name_cn": "度伐利尤单抗 + FLOT（GEJ 腺癌）",
+                "name_en": "Durvalumab + FLOT",
+                "company": "阿斯利康",
+                "stage": "已获批（2025-11）",
+                "trial": "MATTERHORN",
+                "status": "EFS HR 0.71",
+                "design": "可切除 GEJ/胃腺癌围手术期",
+                "impact": "美国食管癌以腺癌为主，围手术期免疫成为标准"
               }
             ]
           }

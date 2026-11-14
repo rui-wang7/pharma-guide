@@ -85,28 +85,34 @@
             ],
             "pipeline": [
               {
-                "name_cn": "度伐利尤单抗 + 替西木单抗（STRIDE方案）",
-                "name_en": "Durvalumab + Tremelimumab (HIMALAYA STRIDE)",
-                "company": "阿斯利康 AstraZeneca",
-                "stage": "已上市（美国2022）/ 中国申报",
-                "trial": "HIMALAYA",
-                "status": "PD-L1+CTLA-4双免疫，OS 16.4m vs 13.8m vs索拉非尼，FDA 2022批准，中国NDA"
+                "name_cn": "依沃西单抗 / 国产双抗",
+                "name_en": "Ivonescimab / Cadonilimab + TKI",
+                "company": "康方生物",
+                "stage": "Phase 3",
+                "trial": "—",
+                "status": "一线 HCC III 期入组中",
+                "design": "PD-1/VEGF 或 PD-1/CTLA-4 双抗 ± 仑伐替尼，对比现有 IO 组合",
+                "impact": "国内一线已有 4 个医保内 IO 组合，后来者须有 OS 优势"
               },
               {
-                "name_cn": "帕博利珠单抗 + 仑伐替尼",
-                "name_en": "Pembrolizumab + Lenvatinib (LEAP-002)",
-                "company": "默沙东/卫材 MSD/Eisai",
-                "stage": "Phase 3 未达终点",
-                "trial": "LEAP-002",
-                "status": "LEAP-002未达统计显著性，但亚组数据探索中"
+                "name_cn": "TACE/HAIC + 靶免（中期）",
+                "name_en": "TACE/HAIC + IO + TKI",
+                "company": "恒瑞、信达 等",
+                "stage": "Phase 3",
+                "trial": "LEAP-012 / EMERALD-1 及国产研究",
+                "status": "LEAP-012 PFS 阳性、OS 未显著",
+                "design": "局部治疗联合系统治疗",
+                "impact": "中国中期 HCC 占比高且 HAIC 普及，是比晚期更大的增量"
               },
               {
-                "name_cn": "卡瑞利珠单抗 + 阿帕替尼 + TACE ★ ASCO 2026",
-                "name_en": "Camrelizumab + Rivoceranib + TACE",
-                "company": "恒瑞医药 Hengrui Pharma",
-                "stage": "Phase 3（NCT05320692）",
-                "trial": "ASCO 2026 (NCT05320692)",
-                "status": "ASCO 2026：不可切除HCC（TACE适合人群），TACE基础上加卡瑞利珠+阿帕替尼 vs 单纯TACE，中位PFS 11.1m vs 8.3m（HR 0.73，P=0.0127），ORR 60.3% vs 45.5%，DoR 16.6m vs 8.2m；OS数据尚不成熟（趋势获益），但≥3级不良反应明显增加"
+                "name_cn": "卡瑞利珠单抗 + 阿帕替尼",
+                "name_en": "Camrelizumab + Rivoceranib",
+                "company": "恒瑞医药 / Elevar (HLB)",
+                "stage": "BLA 重新递交（第三次 CRL 2026-07-10；预计 2027-04 决定）",
+                "trial": "CARES-310",
+                "status": "OS 23.8 vs 15.2 个月（HR 0.64）",
+                "design": "PD-1 + VEGFR2 TKI 对比索拉非尼；美国三次 CRL 均与恒瑞生产场地核查相关而非疗效",
+                "impact": "一线 HCC 最长 OS 数据，但 CMC 问题一再拖延——中国创新药出海最典型的\"非临床\"风险案例"
               }
             ]
           },
@@ -144,12 +150,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Linrodostat + 纳武利尤单抗（IDO1+PD-1）",
-                "name_en": "Linrodostat + Nivolumab",
-                "company": "BMS",
+                "name_cn": "IO 经治后二线",
+                "name_en": "Post-IO 2L (regorafenib + PD-1 等)",
+                "company": "多家",
                 "stage": "Phase 2/3",
-                "trial": "CA017-105",
-                "status": "IDO1抑制剂联合IO，后线HCC探索"
+                "trial": "—",
+                "status": "证据有限",
+                "design": "TKI ± PD-1 再挑战",
+                "impact": "一线普遍使用靶免后，二线缺乏高级别证据"
               }
             ]
           }
@@ -196,16 +204,85 @@
                   "FDA approved 2022",
                   "Single-dose tremelimumab + durvalumab maintenance"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
+                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "CheckMate-9DW：OS 23.7 vs 20.6 个月（HR 0.79）vs 仑伐/索拉非尼",
+                  "ORR 36%",
+                  "FDA 2025-04 批准一线"
+                ],
+                "approved": "FDA 2025-04",
+                "impact": "第三个一线 IO 组合，高 ORR 但早期毒性大，主要分流 STRIDE 方案"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Camrelizumab + Rivoceranib",
-                "name_en": "Camrelizumab + Rivoceranib (CARES-310)",
-                "company": "Hengrui Pharma",
-                "stage": "已上市（美国2023）",
+                "name_cn": "卡瑞利珠单抗 + 阿帕替尼",
+                "name_en": "Camrelizumab + Rivoceranib",
+                "company": "恒瑞医药 / Elevar (HLB)",
+                "stage": "BLA 重新递交（第三次 CRL 2026-07-10；预计 2027-04 决定）",
                 "trial": "CARES-310",
-                "status": "FDA approved 2023, OS 22.1m vs 15.2m, first China-origin combo in US HCC"
+                "status": "OS 23.8 vs 15.2 个月（HR 0.64）",
+                "design": "PD-1 + VEGFR2 TKI 对比索拉非尼；美国三次 CRL 均与恒瑞生产场地核查相关而非疗效",
+                "impact": "一线 HCC 最长 OS 数据，但 CMC 问题一再拖延——中国创新药出海最典型的\"非临床\"风险案例"
+              },
+              {
+                "name_cn": "Livmoniplimab + Budigalimab",
+                "name_en": "Livmoniplimab (anti-GARP:TGF-β1) + Budigalimab",
+                "company": "艾伯维 AbbVie",
+                "stage": "Phase 3",
+                "trial": "LIVIGNO-3",
+                "status": "入组中",
+                "design": "GARP-TGFβ1 抗体 + PD-1 对比阿替利珠 + 贝伐珠（或 STRIDE）",
+                "impact": "少数仍在挑战 IMbrave150 的全新机制"
+              },
+              {
+                "name_cn": "度伐利尤单抗 + 贝伐珠单抗 + TACE",
+                "name_en": "Durvalumab + Bevacizumab + TACE",
+                "company": "阿斯利康",
+                "stage": "审评中 / Phase 3",
+                "trial": "EMERALD-1",
+                "status": "PFS 15.0 vs 8.2 个月",
+                "design": "中期 HCC，TACE 联合系统治疗对比 TACE",
+                "impact": "把系统治疗前移到中期（BCLC B），人群扩大约一倍"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "卡博替尼 / 瑞戈非尼 / 雷莫西尤单抗",
+                "name_en": "Cabozantinib / Regorafenib / Ramucirumab",
+                "manufacturer": "Exelixis / 拜耳 / 礼来",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "—",
+                "selling_points": [
+                  "IO 一线后证据有限，多沿用 TKI 时代数据"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Zanzalintinib 等新 TKI",
+                "name_en": "Zanzalintinib",
+                "company": "Exelixis",
+                "stage": "Phase 2/3",
+                "trial": "STELLAR 系列",
+                "status": "探索中",
+                "design": "IO 进展后的新一代多靶点 TKI",
+                "impact": "IO 后二线无标准，是 HCC 最明确的空白"
               }
             ]
           }

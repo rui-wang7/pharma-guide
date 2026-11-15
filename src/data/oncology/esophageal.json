@@ -81,7 +81,7 @@
                 "annual_cost_usd": null,
                 "market_share": "30%",
                 "selling_points": [
-                  "CheckMate-648（ESCC）：OS 13.2m vs 10.7m（全人群）；CPS≥5 OS 15.4m vs 9.1m",
+                  "CheckMate-648（ESCC）：OS 13.2m vs 10.7m（全人群）；肿瘤细胞 PD-L1≥1%：OS 15.4m vs 9.1m",
                   "NMPA 2022年批准晚期ESCC一线"
                 ]
               },
@@ -260,8 +260,8 @@
                 "annual_cost_usd": 300000,
                 "market_share": "40%",
                 "selling_points": [
-                  "CheckMate-648: OS 13.2m all comers; CPS≥5 OS 15.4m",
-                  "FDA approved 2021 (ESCC + EAC/GEJ)"
+                  "CheckMate-648: OS 13.2m (all comers); tumor-cell PD-L1≥1%: 15.4m vs 9.1m",
+                  "FDA approved 2022-05 (1L ESCC); 2021-04 for gastric/GEJ/esophageal adenocarcinoma (CheckMate-649)"
                 ]
               },
               {

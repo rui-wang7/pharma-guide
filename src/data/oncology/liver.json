@@ -51,7 +51,7 @@
                   "CARES-310：OS 22.1m vs 15.2m vs索拉非尼",
                   "全球首个头对头优于索拉非尼的PD-1+抗血管双药",
                   "恒瑞国产组合，性价比高，医保报销",
-                  "FDA 2023年批准（中国药出海）"
+                  "FDA 尚未批准（已多次收到完整回复函）"
                 ]
               },
               {
@@ -136,7 +136,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "雷莫芦单抗（Cyramza，AFP≥400）",
+                "name_cn": "雷莫西尤单抗（希冉择，AFP≥400）",
                 "name_en": "Ramucirumab (Cyramza) - AFP≥400 ng/mL",
                 "manufacturer": "礼来 Eli Lilly",
                 "annual_cost_rmb": 120000,

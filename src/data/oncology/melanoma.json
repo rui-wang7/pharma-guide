@@ -38,20 +38,6 @@
                   "BRAF/MEK双靶向，NMPA批准辅助治疗",
                   "口服，适合BRAF突变患者"
                 ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）辅助",
-                "name_en": "Pembrolizumab (Keytruda) adjuvant",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "35%",
-                "selling_points": [
-                  "KEYNOTE-054：III期术后RFS获益",
-                  "不受BRAF状态限制",
-                  "免疫辅助治疗标准之一"
-                ]
               }
             ],
             "pipeline": [
@@ -74,6 +60,16 @@
                 "status": "NADINA：EFS HR 0.32",
                 "design": "可切除 III 期，术前免疫对比术后辅助",
                 "impact": "同样的药换个时机就大幅获益，新辅助成为 III 期新标准"
+              },
+              {
+                "name_cn": "帕博利珠单抗（可瑞达）辅助",
+                "name_en": "Pembrolizumab (Keytruda) adjuvant",
+                "company": "默沙东 MSD",
+                "stage": "美欧已批 / 中国未见辅助适应症获批公告",
+                "trial": "KEYNOTE-054 / KEYNOTE-716",
+                "status": "III 期术后 RFS 显著获益（HR 约 0.6）",
+                "design": "PD-1 单药辅助对比安慰剂",
+                "impact": "帕博利珠单抗在国内获批的黑色素瘤适应症为一线治疗失败后的晚期患者；辅助阶段获批药物为达拉非尼 + 曲美替尼"
               }
             ]
           },
@@ -84,31 +80,17 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "纳武利尤单抗（欧狄沃）+ 伊匹木单抗（逸沃）",
-                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
-                "manufacturer": "百时美施贵宝 BMS",
-                "annual_cost_rmb": 400000,
+                "name_cn": "特瑞普利单抗（拓益）",
+                "name_en": "Toripalimab (Tuoyi)",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "CheckMate 067：5年OS 52%，双免疫最强OS平台期",
-                  "PD-1+CTLA-4双免疫，NMPA已批",
-                  "irAE发生率较高，需监测"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）单药",
-                "name_en": "Pembrolizumab (Keytruda) monotherapy",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "25%",
-                "selling_points": [
-                  "KEYNOTE-006：OS优于伊匹木单抗",
-                  "单药耐受性好，一线选择",
-                  "皮肤型疗效佳"
-                ]
+                  "MELATORCH：对比达卡巴嗪，PFS HR 0.71",
+                  "NMPA 2025-04 批准不可切除或转移性黑色素瘤一线治疗"
+                ],
+                "approved": "NMPA 2025-04"
               },
               {
                 "type": "drug",
@@ -120,22 +102,22 @@
                 "market_share": "25%",
                 "selling_points": [
                   "COMBI-d/v：起效快，ORR约68%，适合高肿瘤负荷/症状明显者",
-                  "BRAF/MEK双靶向，NMPA批准",
+                  "BRAF/MEK 双靶向，NMPA 2019-12 批准",
                   "中位PFS约11-12m，部分患者长期获益"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "维莫非尼（佐博伏）+ 考比替尼",
-                "name_en": "Vemurafenib (Zelboraf) + Cobimetinib",
+                "name_cn": "维莫非尼（佐博伏）",
+                "name_en": "Vemurafenib (Zelboraf)",
                 "manufacturer": "罗氏 Roche",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
                 "market_share": "20%",
                 "selling_points": [
-                  "coBRIM研究：BRAF/MEK联合方案",
-                  "维莫非尼NMPA较早获批BRAF+黑色素瘤",
-                  "光敏性等皮肤毒性需注意"
+                  "BRIM-3：对比达卡巴嗪 OS、PFS 显著获益",
+                  "NMPA 2017 年批准 BRAF V600 突变的不可切除或转移性黑色素瘤",
+                  "联合用药考比替尼（coBRIM 方案）在国内未见获批；光敏性等皮肤毒性需注意"
                 ]
               }
             ],
@@ -159,8 +141,53 @@
                 "status": "PFS 10.1 vs 4.6 个月",
                 "design": "LAG-3 + PD-1 固定剂量复方对比纳武单药",
                 "impact": "Opdualag 2025 年销售 >$10 亿，是 BMS 在 Opdivo 专利到期前的过渡产品"
+              },
+              {
+                "name_cn": "纳武利尤单抗（欧狄沃）+ 伊匹木单抗（逸沃）",
+                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
+                "company": "百时美施贵宝 BMS",
+                "stage": "美欧已批 / 中国未见黑色素瘤适应症获批",
+                "trial": "CheckMate 067",
+                "status": "5 年 OS 52%，10 年 OS 约 43%",
+                "design": "PD-1 + CTLA-4 双免疫对比单药",
+                "impact": "该联合在国内已获批间皮瘤、结直肠癌、肝癌、肺癌，黑色素瘤尚无适应症"
               }
             ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（一线治疗失败后）",
+            "label_en": "2nd Line (after 1L failure)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "KEYNOTE-151（中国）：经治人群 ORR 16.7%",
+                  "NMPA 2018-07 批准：一线治疗失败的不可切除或转移性黑色素瘤",
+                  "国内首个获批黑色素瘤的 PD-1 单抗"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "特瑞普利单抗（拓益）— 二线及以上",
+                "name_en": "Toripalimab (Tuoyi) — 2L+",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "POLARIS-01：经治人群 ORR 17.3%",
+                  "NMPA 2018-12 附条件批准，2025-01 转为常规批准"
+                ]
+              }
+            ],
+            "pipeline": []
           }
         ]
       },
@@ -432,38 +459,11 @@
                 "annual_cost_usd": null,
                 "market_share": "35%",
                 "selling_points": [
-                  "中国首个自主研发抗PD-1，最早获批适应症即黑色素瘤（2018年）",
-                  "医保报销，肢端/黏膜型可及性高",
-                  "POLARIS-01：既往治疗黑色素瘤ORR约17%"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
-                "name_en": "Nivolumab + Ipilimumab",
-                "manufacturer": "百时美施贵宝 BMS",
-                "annual_cost_rmb": 400000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "双免疫在肢端/黏膜型应答低于皮肤型，但仍为高危选择",
-                  "NMPA已批不可切除黑色素瘤",
-                  "毒性需密切监测"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）",
-                "name_en": "Pembrolizumab (Keytruda)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "抗PD-1单药，皮肤型疗效佳、肢端/黏膜型有限",
-                  "KEYNOTE-151中国研究支持",
-                  "耐受性好"
-                ]
+                  "MELATORCH：一线对比达卡巴嗪 PFS HR 0.71，NMPA 2025-04 批准一线",
+                  "国内首个获批黑色素瘤的国产 PD-1（2018-12，二线）；POLARIS-01：经治 ORR 17.3%",
+                  "医保报销，肢端 / 黏膜型可及性高"
+                ],
+                "approved": "NMPA 2025-04"
               },
               {
                 "type": "drug",
@@ -490,6 +490,16 @@
                 "status": "II 期 ORR 48%，III 期进行中",
                 "design": "PD-1 + VEGFR TKI 对比 PD-1 单药，一线黏膜黑色素瘤",
                 "impact": "黏膜/肢端型对 PD-1 单药不敏感，联合抗血管是中国特色方案"
+              },
+              {
+                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
+                "name_en": "Nivolumab + Ipilimumab",
+                "company": "百时美施贵宝 BMS",
+                "stage": "美欧已批 / 中国未见黑色素瘤适应症获批",
+                "trial": "CheckMate 067（亚组）",
+                "status": "肢端 / 黏膜型应答低于皮肤型",
+                "design": "PD-1 + CTLA-4 双免疫",
+                "impact": "国内黑色素瘤尚无双免疫适应症"
               }
             ]
           },
@@ -509,7 +519,8 @@
                 "selling_points": [
                   "KIT外显子11/13突变的肢端/黏膜型可获益",
                   "口服TKI，医保报销",
-                  "需先行KIT突变检测"
+                  "需先行KIT突变检测",
+                  "黑色素瘤不在国内说明书适应症内，属指南推荐用法"
                 ]
               },
               {
@@ -526,6 +537,20 @@
                 ],
                 "approved": "NMPA 2024",
                 "impact": "填补 NRAS 突变（亚洲患者约 10-20%）无药可用的空白"
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "KEYNOTE-151（中国）：经治人群 ORR 16.7%，肢端 / 黏膜型应答更低",
+                  "NMPA 2018-07 批准：一线治疗失败后",
+                  "耐受性好"
+                ]
               }
             ],
             "pipeline": [

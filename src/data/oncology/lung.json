@@ -306,15 +306,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "多西他赛 ± 雷莫芦单抗",
-                "name_en": "Docetaxel ± Ramucirumab",
-                "manufacturer": "礼来 Eli Lilly（雷莫芦单抗）",
+                "name_cn": "多西他赛",
+                "name_en": "Docetaxel",
+                "manufacturer": "通用",
                 "annual_cost_rmb": 50000,
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "REVEL研究OS获益",
-                  "标准三线方案"
+                  "标准后线化疗",
+                  "REVEL 方案（联合雷莫西尤单抗）在国内未见 NSCLC 适应症获批"
                 ]
               },
               {
@@ -642,7 +642,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "洛拉替尼（乐启尼）",
+                "name_cn": "洛拉替尼（博瑞纳）",
                 "name_en": "Lorlatinib (Lorbrena)",
                 "manufacturer": "辉瑞 Pfizer",
                 "annual_cost_rmb": 120000,
@@ -658,7 +658,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "布加替尼（卫艾宁）",
+                "name_cn": "布格替尼（安伯瑞）",
                 "name_en": "Brigatinib (Alunbrig)",
                 "manufacturer": "武田 Takeda",
                 "annual_cost_rmb": 95000,
@@ -903,32 +903,6 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "索托拉西布（Lumakras）",
-                "name_en": "Sotorasib (Lumakras)",
-                "manufacturer": "安进 Amgen",
-                "annual_cost_rmb": 180000,
-                "annual_cost_usd": null,
-                "market_share": "35%",
-                "selling_points": [
-                  "CodeBreaK 200研究：首个获批KRAS G12C抑制剂",
-                  "ORR 28%，PFS 5.6m"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "阿达格拉西布（Krazati）",
-                "name_en": "Adagrasib (Krazati)",
-                "manufacturer": "百时美施贵宝 BMS（收购Mirati）",
-                "annual_cost_rmb": 200000,
-                "annual_cost_usd": null,
-                "market_share": "25%",
-                "selling_points": [
-                  "KRYSTAL-1：ORR 43%，CNS活性",
-                  "中枢神经系统穿透性更好"
-                ]
-              },
-              {
-                "type": "drug",
                 "name_cn": "氟泽雷塞（达伯特）",
                 "name_en": "Fulzerasib (GFH925)",
                 "manufacturer": "劲方医药 / 信达生物",
@@ -990,6 +964,26 @@
                 "status": "多个国产 G12D、泛 RAS 分子进入临床",
                 "design": "覆盖 G12C 之外的 KRAS 突变",
                 "impact": "国内 G12C 已三家获批、价格战在即，下一个差异化在 G12D 与泛 RAS"
+              },
+              {
+                "name_cn": "索托拉西布（Lumakras）",
+                "name_en": "Sotorasib (Lumakras)",
+                "company": "安进 Amgen",
+                "stage": "美国已上市 / 中国未见获批公告",
+                "trial": "CodeBreaK 100 / 200",
+                "status": "CodeBreaK 200：PFS 5.6 vs 4.5 个月（对比多西他赛）",
+                "design": "首个 KRAS G12C 抑制剂，对比多西他赛",
+                "impact": "国内已有 3 款国产 KRAS G12C 抑制剂获批，进口产品入场窗口基本关闭"
+              },
+              {
+                "name_cn": "阿达格拉西布（Krazati）",
+                "name_en": "Adagrasib (Krazati)",
+                "company": "百时美施贵宝 BMS（收购Mirati）",
+                "stage": "美国已上市 / 中国未见获批公告",
+                "trial": "KRYSTAL-1 / KRYSTAL-12",
+                "status": "KRYSTAL-12：PFS 5.5 vs 3.8 个月（对比多西他赛）；有 CNS 活性",
+                "design": "KRAS G12C 抑制剂对比多西他赛",
+                "impact": "再鼎医药拥有大中华区权益，面对国产同类竞争"
               }
             ]
           }
@@ -1081,7 +1075,8 @@
                 "market_share": "50%",
                 "selling_points": [
                   "KRYSTAL-1: ORR 43%, CNS activity",
-                  "CodeBreaK 200 head-to-head vs sotorasib shows superiority trend"
+                  "KRYSTAL-12: PFS 5.5m vs 3.8m vs docetaxel",
+                  "FDA accelerated approval 2022-12"
                 ]
               },
               {
@@ -1094,7 +1089,8 @@
                 "market_share": "40%",
                 "selling_points": [
                   "First-in-class KRAS G12C inhibitor",
-                  "CodeBreaK 200 approved 2021"
+                  "FDA accelerated approval 2021-05 (CodeBreaK 100)",
+                  "CodeBreaK 200: PFS 5.6m vs 4.5m vs docetaxel"
                 ]
               }
             ],
@@ -1246,7 +1242,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "安罗替尼",
+                "name_cn": "安罗替尼（三线及以上）",
                 "name_en": "Anlotinib",
                 "manufacturer": "正大天晴 CTTQ",
                 "annual_cost_rmb": 80000,
@@ -1479,16 +1475,15 @@
               },
               {
                 "type": "drug",
-                "name_cn": "替雷利珠单抗（百泽安）单药",
-                "name_en": "Tislelizumab (Tevimbra) monotherapy",
-                "manufacturer": "百济神州 BeiGene",
-                "annual_cost_rmb": 85000,
+                "name_cn": "阿替利珠单抗（泰圣奇）单药",
+                "name_en": "Atezolizumab (Tecentriq) monotherapy",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "RATIONALE-303：OS非劣于多西他赛",
-                  "中国本土创新药，医保报销",
-                  "NMPA批准PD-L1高表达NSCLC一线"
+                  "IMpower110：PD-L1 高表达人群 OS 20.2 vs 13.1 个月（对比化疗）",
+                  "NMPA 2021 年批准 PD-L1 高表达一线 NSCLC"
                 ]
               }
             ],
@@ -1550,16 +1545,16 @@
               },
               {
                 "type": "drug",
-                "name_cn": "信迪利单抗（达伯舒）+ IBI305 + 化疗",
-                "name_en": "Sintilimab (Tyvyt) + Bevacizumab biosimilar + Chemo",
+                "name_cn": "信迪利单抗（达伯舒）+ 培美曲塞 + 铂类（非鳞）",
+                "name_en": "Sintilimab (Tyvyt) + Pemetrexed + Platinum (Non-sq)",
                 "manufacturer": "信达生物 Innovent",
                 "annual_cost_rmb": 120000,
                 "annual_cost_usd": null,
                 "market_share": "15%",
                 "selling_points": [
-                  "ORIENT-11研究：PFS 8.9m vs 5.0m",
-                  "国产四药方案，价格最低组合",
-                  "医保报销"
+                  "ORIENT-11：PFS 8.9 vs 5.0 个月",
+                  "鳞癌适应症基于 ORIENT-12（联合吉西他滨 + 铂类）",
+                  "国产 PD-1，医保报销"
                 ]
               },
               {
@@ -1631,15 +1626,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "多西他赛 ± 雷莫芦单抗",
-                "name_en": "Docetaxel ± Ramucirumab (Cyramza)",
-                "manufacturer": "礼来 Eli Lilly",
+                "name_cn": "多西他赛",
+                "name_en": "Docetaxel",
+                "manufacturer": "通用",
                 "annual_cost_rmb": 50000,
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "REVEL研究：OS 10.5m vs 9.1m",
-                  "标准二线方案"
+                  "标准二线化疗",
+                  "REVEL 方案（联合雷莫西尤单抗，OS 10.5 vs 9.1 个月）在国内未见 NSCLC 适应症获批"
                 ]
               },
               {
@@ -1654,6 +1649,20 @@
                   "ALTER0303研究：PFS 5.4m vs 1.4m",
                   "三线及以上NSCLC，医保报销",
                   "多靶点TKI，中国本土数据"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "替雷利珠单抗（百泽安）单药",
+                "name_en": "Tislelizumab (Tevimbra) monotherapy",
+                "manufacturer": "百济神州 BeiGene",
+                "annual_cost_rmb": 85000,
+                "annual_cost_usd": null,
+                "market_share": "15%",
+                "selling_points": [
+                  "RATIONALE-303：OS 17.2 vs 11.9 个月（对比多西他赛）",
+                  "NMPA 已批准含铂化疗后的二 / 三线 NSCLC",
+                  "医保报销"
                 ]
               }
             ],

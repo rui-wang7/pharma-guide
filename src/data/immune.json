@@ -101,7 +101,7 @@
                     "market_share": "15%",
                     "selling_points": [
                       "JAK1/2选择性抑制剂",
-                      "ORAL Standard研究优于阿达木单抗（疗效）",
+                      "RA-BEAM 研究：ACR20 优于阿达木单抗",
                       "每日一片，口服方便"
                     ]
                   },
@@ -239,7 +239,7 @@
                     "selling_points": [
                       "SELECT-COMPARE: superior to adalimumab",
                       "JAK1-selective, strong efficacy",
-                      "NCCN/ACR preferred"
+                      "ACR guideline option; FDA label requires prior TNF-inhibitor failure"
                     ],
                     "impact": "ORAL Surveillance 后 FDA 黑框警告要求 TNF 抑制剂失败后方可使用 JAK 抑制剂，客观上保护了生物制剂"
                   },
@@ -352,7 +352,7 @@
                     "selling_points": [
                       "IL-4/IL-13双靶，2类辅助性T细胞通路",
                       "LIBERTY AD系列研究：IGA 0/1达36-44%",
-                      "2020年NMPA批准成人，2022年青少年"
+                      "NMPA 2020 年批准成人，此后扩展至青少年和儿童"
                     ]
                   },
                   {
@@ -363,7 +363,7 @@
                     "annual_cost_rmb": 72000,
                     "market_share": "25%",
                     "selling_points": [
-                      "Heads-up vs度普利尤单抗（Measure Up/AD Up）疗效更优",
+                      "Heads Up 研究：头对头优于度普利尤单抗；Measure Up 1/2、AD Up 为安慰剂对照",
                       "JAK1选择性，口服便利",
                       "NMPA 2022年批准"
                     ]
@@ -481,7 +481,7 @@
                     "annual_cost_usd": 60000,
                     "market_share": "20%",
                     "selling_points": [
-                      "Superior to dupilumab in head-to-head (Measure Up)",
+                      "Superior to dupilumab in head-to-head (Heads Up)",
                       "Oral, rapid onset",
                       "FDA approved 2022"
                     ]
@@ -575,7 +575,7 @@
                     "selling_points": [
                       "IL-17A单抗，PASI 90更高达70-80%",
                       "UNCOVER研究优于依那西普",
-                      "NMPA批准银屑病+PsA"
+                      "NMPA 2019 年批准中重度斑块型银屑病"
                     ]
                   },
                   {
@@ -588,7 +588,7 @@
                     "selling_points": [
                       "IL-23p19选择性抑制，PASI 90达73%",
                       "维持治疗每8周一次",
-                      "NMPA 2021年批准"
+                      "NMPA 2019-12 批准，国内首个 IL-23 单抗"
                     ]
                   },
                   {
@@ -800,7 +800,7 @@
                     "annual_cost_rmb": 150000,
                     "market_share": "25%",
                     "selling_points": [
-                      "IL-12/23双靶，UNIFI/UNIFI-LTE研究",
+                      "IL-12/23双靶，UNITI-1/2、IM-UNITI 研究",
                       "感染风险低",
                       "NMPA 2020年批准CD适应症"
                     ]
@@ -883,8 +883,8 @@
                     "annual_cost_usd": 75000,
                     "market_share": "20%",
                     "selling_points": [
-                      "ADVANCE: endoscopic remission 32% vs 16%",
-                      "FDA approved CD 2023",
+                      "ADVANCE: clinical remission 45% vs 25%; endoscopic response 40% vs 12%",
+                      "FDA approved CD 2022-06",
                       "Growing rapidly"
                     ]
                   },
@@ -896,7 +896,7 @@
                     "annual_cost_usd": 25000,
                     "market_share": "25%",
                     "selling_points": [
-                      "Biosimilars launched 2023, price falling",
+                      "Biosimilars launched 2025, price falling",
                       "Low infection risk",
                       "IV induction + SC maintenance"
                     ]
@@ -911,7 +911,7 @@
                     "selling_points": [
                       "Gut-selective α4β7 integrin",
                       "Favorable safety, no systemic immunosuppression",
-                      "Oral formulation approved 2024 (UC)"
+                      "SC formulation approved for CD 2024-04 (UC 2023-09)"
                     ]
                   },
                   {
@@ -1025,7 +1025,7 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "维得利珠单抗（Entyvio）",
+                    "name_cn": "维得利珠单抗（安吉优）",
                     "name_en": "Vedolizumab (Entyvio)",
                     "manufacturer": "武田 Takeda",
                     "annual_cost_rmb": 80000,
@@ -1038,41 +1038,16 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "阿达木单抗",
-                    "name_en": "Adalimumab (Humira / 国产生物类似药)",
-                    "manufacturer": "艾伯维 / 国产类似药",
-                    "annual_cost_rmb": 30000,
-                    "market_share": "25%",
+                    "name_cn": "英夫利西单抗（类克）",
+                    "name_en": "Infliximab (Remicade)",
+                    "manufacturer": "强生 J&J / 国产生物类似药",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "TNF抑制剂，ULTRA-2研究",
-                      "国产类似药价格降至2-3万/年",
-                      "医保报销"
-                    ]
-                  },
-                  {
-                    "type": "drug",
-                    "name_cn": "乌司奴单抗（喜达诺）",
-                    "name_en": "Ustekinumab (Stelara)",
-                    "manufacturer": "强生/杨森 Janssen",
-                    "annual_cost_rmb": 120000,
-                    "market_share": "15%",
-                    "selling_points": [
-                      "UNIFI研究：IL-12/23双靶",
-                      "NMPA 2022年批准UC适应症",
-                      "感染风险低于TNF"
-                    ]
-                  },
-                  {
-                    "type": "drug",
-                    "name_cn": "托法替布",
-                    "name_en": "Tofacitinib (Xeljanz)",
-                    "manufacturer": "辉瑞 Pfizer",
-                    "annual_cost_rmb": 50000,
-                    "market_share": "15%",
-                    "selling_points": [
-                      "OCTAVE研究，首个口服JAK用于UC",
-                      "NMPA 2020年批准UC",
-                      "便利性高，医保覆盖"
+                      "ACT 1/2：诱导与维持缓解优于安慰剂",
+                      "NMPA 已批准成人中重度活动性 UC",
+                      "国内 UC 最常用的 TNF 抑制剂，生物类似药已上市"
                     ]
                   },
                   {
@@ -1089,6 +1064,35 @@
                     ],
                     "approved": "NMPA 2026-02",
                     "impact": "国内首个获批 UC 的 IL-23 p19 单抗"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "古塞奇尤单抗（特诺雅）",
+                    "name_en": "Guselkumab (Tremfya) — UC",
+                    "manufacturer": "强生 J&J",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "QUASAR：诱导与维持缓解优于安慰剂",
+                      "NMPA 2025-05 批准中重度活动性 UC（静脉诱导 + 皮下维持）"
+                    ],
+                    "approved": "NMPA 2025-05",
+                    "impact": "IL-23 类在国内 UC 的第二个竞争者"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "艾曲莫德（维适平）",
+                    "name_en": "Etrasimod (Velsipity)",
+                    "manufacturer": "云顶新耀 Everest / 辉瑞 Pfizer",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "ELEVATE UC 12 / 52：诱导与维持缓解优于安慰剂",
+                      "NMPA 2026-02 批准中重度活动性 UC，口服 S1P 受体调节剂"
+                    ],
+                    "approved": "NMPA 2026-02"
                   }
                 ],
                 "pipeline": [
@@ -1113,14 +1117,34 @@
                     "impact": "IBD 领域十年来最热的新靶点，三家 MNC 共投入 >$250 亿收购；首个获批者有望成为 Skyrizi 之后的新标准"
                   },
                   {
-                    "name_cn": "古塞奇尤单抗（UC）",
-                    "name_en": "Guselkumab (Tremfya) — UC",
-                    "company": "强生 J&J",
-                    "stage": "美国已批（2024-09）/ 中国据报道已获批（未核实）",
-                    "trial": "QUASAR",
-                    "status": "诱导与维持缓解优于安慰剂",
-                    "design": "IL-23 p19 单抗对比安慰剂",
-                    "impact": "IL-23 类在 UC 的第二个竞争者"
+                    "name_cn": "阿达木单抗",
+                    "name_en": "Adalimumab (Humira / 国产生物类似药)",
+                    "company": "艾伯维 / 国产类似药",
+                    "stage": "美欧已批 UC / 中国未见 UC 适应症获批",
+                    "trial": "ULTRA-2",
+                    "status": "国内获批的肠病适应症为克罗恩病",
+                    "design": "TNF 抑制剂对比安慰剂",
+                    "impact": "国内 UC 的 TNF 抑制剂以英夫利西单抗为主"
+                  },
+                  {
+                    "name_cn": "乌司奴单抗（喜达诺）",
+                    "name_en": "Ustekinumab (Stelara)",
+                    "company": "强生/杨森 Janssen",
+                    "stage": "美欧已批 UC / 中国未见 UC 适应症获批",
+                    "trial": "UNIFI",
+                    "status": "国内获批银屑病与克罗恩病",
+                    "design": "IL-12/23 单抗对比安慰剂",
+                    "impact": "国内 UC 的 IL-23 通路由米吉珠单抗、古塞奇尤单抗占位"
+                  },
+                  {
+                    "name_cn": "托法替布",
+                    "name_en": "Tofacitinib (Xeljanz)",
+                    "company": "辉瑞 Pfizer",
+                    "stage": "美欧已批 UC / 中国说明书无 UC 适应症（指南推荐）",
+                    "trial": "OCTAVE",
+                    "status": "国内获批类风湿关节炎、银屑病关节炎",
+                    "design": "口服 JAK 抑制剂对比安慰剂",
+                    "impact": "国内 UC 的口服小分子由乌帕替尼、艾曲莫德承接"
                   }
                 ]
               }
@@ -1568,7 +1592,7 @@
                     "market_share": "20%",
                     "selling_points": [
                       "FREEDOMS/TRANSFORMS：首个口服S1P调节剂",
-                      "NMPA 2018年批准RRMS",
+                      "NMPA 2019 年批准复发型 MS",
                       "医保报销"
                     ]
                   },
@@ -1610,28 +1634,15 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "奥瑞利珠单抗（Ocrevus）",
+                    "name_cn": "奥瑞利珠单抗（罗可适）",
                     "name_en": "Ocrelizumab (Ocrevus)",
                     "manufacturer": "罗氏 Roche",
                     "annual_cost_rmb": 200000,
                     "market_share": "30%",
                     "selling_points": [
-                      "OPERA I/II优于干扰素β-1a",
-                      "高效能首选，半年一次输注",
-                      "国谈医保覆盖"
-                    ]
-                  },
-                  {
-                    "type": "drug",
-                    "name_cn": "克拉屈滨片（Mavenclad）",
-                    "name_en": "Cladribine (Mavenclad)",
-                    "manufacturer": "默克雪兰诺 Merck KGaA",
-                    "annual_cost_rmb": 250000,
-                    "market_share": "10%",
-                    "selling_points": [
-                      "CLARITY：脉冲式短期口服",
-                      "NMPA 2022年批准高活动性RRMS",
-                      "总治疗仅20天用药"
+                      "OPERA I/II：优于干扰素 β-1a；ORATORIO：首个对原发进展型 MS 有效的药物",
+                      "NMPA 已批准复发型与原发进展型 MS（3 月 31 日公布，年份未核实）",
+                      "每 6 个月静脉输注一次"
                     ]
                   }
                 ],
@@ -1645,6 +1656,16 @@
                     "status": "II 期新发病灶减少 >90%；PPMS/SPMS III 期启动",
                     "design": "脑渗透 BTK 抑制剂对比安慰剂",
                     "impact": "国产 BTKi 进军进展型 MS，与赛诺菲、罗氏同台"
+                  },
+                  {
+                    "name_cn": "克拉屈滨片（Mavenclad）",
+                    "name_en": "Cladribine (Mavenclad)",
+                    "company": "默克雪兰诺 Merck KGaA",
+                    "stage": "美欧已上市 / 中国状态未核实",
+                    "trial": "CLARITY",
+                    "status": "两年内累计约 20 天口服给药",
+                    "design": "脉冲式口服免疫重建疗法对比安慰剂",
+                    "impact": "若在华上市，将提供短疗程口服的高效能选择"
                   }
                 ]
               }
@@ -2129,10 +2150,11 @@
                     "annual_cost_rmb": 45000,
                     "market_share": "15%",
                     "selling_points": [
-                      "NMPA 2024年批准gMG（中国本土创新）",
+                      "NMPA 2025 年批准 gMG（中国本土创新）",
                       "BLyS+APRIL双靶融合蛋白",
                       "价格显著低于FcRn/C5类"
-                    ]
+                    ],
+                    "approved": "NMPA 2025"
                   },
                   {
                     "type": "drug",

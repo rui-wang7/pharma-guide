@@ -180,7 +180,7 @@
                     "annual_cost_usd": 15000,
                     "market_share": "28%",
                     "selling_points": [
-                      "SURPASS-5: HbA1c -2.4%, weight -12.9kg",
+                      "SURPASS-2 (15mg): HbA1c -2.46%, weight -12.4kg; superior to semaglutide 1mg",
                       "GIP/GLP-1 dual agonist",
                       "FDA approved T2DM 2022, obesity 2023",
                       "Fastest growing drug in history"
@@ -346,15 +346,16 @@
                     "name_en": "Ecnoglutide (Sciwind / Pfizer China)",
                     "manufacturer": "杭州先为达 Sciwind (辉瑞商业化)",
                     "annual_cost_rmb": 6000,
-                    "market_share": "1%",
+                    "market_share": "新获批",
                     "selling_points": [
                       "cAMP偏向性GLP-1激动剂（独特机制）",
                       "剂量：起始0.6mg → 最大2.4mg（每周皮下注射）",
                       "SLIMMER P3：2.4mg组87%受试者达到≥5%减重",
-                      "NMPA 2026年1月批准T2DM；肥胖症NDA申报中",
+                      "NMPA 2026-01 批准 T2DM；2026-03 批准成人超重 / 肥胖的长期体重管理",
                       "辉瑞中国2026年2月独家商业化协议（最高$495M）",
                       "其他适应症：T2DM已批"
-                    ]
+                    ],
+                    "approved": "NMPA 2026-03"
                   }
                 ],
                 "pipeline": [
@@ -630,29 +631,17 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "司美格鲁肽（MASH适应症）",
+                    "name_cn": "司美格鲁肽（诺和盈，MASH 适应症）",
                     "name_en": "Semaglutide (MASH indication)",
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 40000,
-                    "market_share": "20%",
+                    "market_share": "新获批",
                     "selling_points": [
                       "ESSENCE研究：MASH缓解率63% vs 34%",
                       "2025年美国获批MASH适应症",
-                      "中国申报中"
-                    ]
-                  },
-                  {
-                    "type": "drug",
-                    "name_cn": "雷美替隆（Resmetirom/Rezdiffra）",
-                    "name_en": "Resmetirom (Rezdiffra)",
-                    "manufacturer": "马德里格 Madrigal Pharmaceuticals",
-                    "annual_cost_rmb": 200000,
-                    "market_share": "30%",
-                    "selling_points": [
-                      "THRβ激动剂，MAESTRO-NASH：纤维化改善↑26%",
-                      "2024年3月FDA首批MASH药物",
-                      "中国申报NDA中"
-                    ]
+                      "NMPA 2026-09-10 批准：伴 F2–F3 纤维化的非肝硬化 MASH，国内首个获批 MASH 的 GLP-1 类药物"
+                    ],
+                    "approved": "NMPA 2026-09"
                   }
                 ],
                 "pipeline": [
@@ -685,6 +674,16 @@
                     "status": "多个国产 THR-β 进入 II/III 期",
                     "design": "对标 resmetirom",
                     "impact": "国内 MASH 诊断率极低，市场启动取决于无创诊断普及"
+                  },
+                  {
+                    "name_cn": "瑞司美替罗（Resmetirom / Rezdiffra）",
+                    "name_en": "Resmetirom (Rezdiffra)",
+                    "company": "马德里格 Madrigal Pharmaceuticals",
+                    "stage": "美国已批（2024-03，加速）/ 中国状态未核实",
+                    "trial": "MAESTRO-NASH",
+                    "status": "纤维化改善 ≥1 级：26% vs 14%",
+                    "design": "THR-β 激动剂对比安慰剂，F2–F3 MASH",
+                    "impact": "全球首个 MASH 药物；国内同靶点国产药物在研"
                   }
                 ]
               }

@@ -48,12 +48,12 @@
                     "type": "drug",
                     "name_cn": "美金刚（易倍申）",
                     "name_en": "Memantine (Namenda/Ebixa)",
-                    "manufacturer": "默克KGaA / 国内仿制",
+                    "manufacturer": "灵北 Lundbeck / 国内仿制",
                     "annual_cost_rmb": 5000,
                     "market_share": "30%",
                     "selling_points": [
                       "NMDA受体拮抗剂，中重度AD",
-                      "可与多奈哌齐联合使用（NAMZARIC）"
+                      "可与多奈哌齐联合使用"
                     ]
                   }
                 ],
@@ -74,7 +74,7 @@
                     "selling_points": [
                       "CLARITY AD：CDR-SB衰退减缓27%",
                       "靶向Aβ原纤维，FDA 2023年全批",
-                      "2024年NMPA批准中国上市",
+                      "NMPA 2024-01 批准",
                       "首个在中国获批的抗Aβ疗法"
                     ]
                   },
@@ -253,28 +253,29 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "瑞玛奈珠单抗（爱莫维）",
-                    "name_en": "Erenumab (Aimovig)",
-                    "manufacturer": "安进/诺华 Amgen/Novartis",
-                    "annual_cost_rmb": 30000,
-                    "market_share": "35%",
+                    "name_cn": "加卡奈珠单抗（Emgality）",
+                    "name_en": "Galcanezumab (Emgality)",
+                    "manufacturer": "礼来 Eli Lilly / 蔼睦医疗 AffaMed",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "CGRP受体单抗，月发作减少50%达43%患者",
-                      "NMPA 2021年批准",
-                      "每月自注射，便利性高"
+                      "PERSIST（CGAX，含中国患者的 III 期）：月偏头痛天数显著减少",
+                      "NMPA 已批准成人偏头痛预防治疗（获批年份未核实）",
+                      "CGRP 配体单抗，每月皮下注射"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "弗雷马奈珠单抗（艾普维）",
-                    "name_en": "Fremanezumab (Ajovy)",
-                    "manufacturer": "梯瓦 Teva",
-                    "annual_cost_rmb": 28000,
-                    "market_share": "25%",
+                    "name_cn": "传统口服预防药（氟桂利嗪 / 普萘洛尔 / 托吡酯）",
+                    "name_en": "Conventional oral preventives (flunarizine / propranolol / topiramate)",
+                    "manufacturer": "通用",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "靶向CGRP配体，月注射或季度注射选择",
-                      "NMPA批准",
-                      "季度注射方案依从性更佳"
+                      "中国偏头痛诊治指南推荐的预防用药",
+                      "价格低，医保覆盖"
                     ]
                   }
                 ],
@@ -298,6 +299,26 @@
                     "status": "IIb 期阳性",
                     "design": "阻断 PACAP 通路，针对 CGRP 无应答者",
                     "impact": "CGRP 之外的首个新靶点，瞄准约 30-40% 对 CGRP 药物应答不佳的患者"
+                  },
+                  {
+                    "name_cn": "依瑞奈尤单抗（Aimovig）",
+                    "name_en": "Erenumab (Aimovig)",
+                    "company": "安进/诺华 Amgen/Novartis",
+                    "stage": "美欧已上市 / 中国大陆未见获批公告",
+                    "trial": "STRIVE / ARISE / DRAGON",
+                    "status": "月偏头痛天数减少 ≥50% 的患者约 43–50%",
+                    "design": "CGRP 受体单抗对比安慰剂",
+                    "impact": "国内 CGRP 单抗预防适应症由加卡奈珠单抗先行获批"
+                  },
+                  {
+                    "name_cn": "瑞玛奈珠单抗（Ajovy）",
+                    "name_en": "Fremanezumab (Ajovy)",
+                    "company": "梯瓦 Teva",
+                    "stage": "中国 NDA 审评中（2025 年初报道申报）/ 美欧已上市",
+                    "trial": "HALO",
+                    "status": "每月或每季度皮下注射",
+                    "design": "CGRP 配体单抗对比安慰剂",
+                    "impact": "季度给药方案是差异化卖点"
                   }
                 ]
               }
@@ -508,7 +529,7 @@
                     "selling_points": [
                       "非典型抗精神病药增效治疗",
                       "部分D2激动+5-HT1A激动",
-                      "NMPA批准MDD辅助治疗"
+                      "FDA 已批准 MDD 增效；国内说明书是否含该适应症未核实，属指南推荐用法"
                     ]
                   },
                   {
@@ -521,7 +542,7 @@
                     "market_share": "20%",
                     "selling_points": [
                       "50-300mg低剂量增效，改善睡眠焦虑",
-                      "NMPA批准MDD辅助治疗",
+                      "FDA 已批准 MDD 增效；国内说明书是否含该适应症未核实，属指南推荐用法",
                       "医保报销"
                     ]
                   },
@@ -645,20 +666,6 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Zuranolone",
-                    "name_en": "Zuranolone (Zurzuvae)",
-                    "manufacturer": "SAGE Therapeutics / Biogen",
-                    "annual_cost_usd": 18000,
-                    "market_share": "15%",
-                    "selling_points": [
-                      "FDA approved August 2023",
-                      "14-day oral course, then off",
-                      "GABA-A PAM, rapid onset (day 3)",
-                      "First rapid-acting oral antidepressant"
-                    ]
-                  },
-                  {
-                    "type": "drug",
                     "name_cn": "AXS-05 (Auvelity)",
                     "name_en": "AXS-05 (Auvelity / Dextromethorphan+Bupropion)",
                     "manufacturer": "Axsome Therapeutics",
@@ -711,6 +718,16 @@
                     "status": "未达主要终点",
                     "design": "NMDA 拮抗剂辅助治疗",
                     "impact": "NMDA 口服路线受挫，凸显 Spravato 的不可替代性"
+                  },
+                  {
+                    "name_cn": "Zuranolone",
+                    "name_en": "Zuranolone (Zurzuvae)",
+                    "company": "Biogen / Supernus (Sage)",
+                    "stage": "仅产后抑郁适应症上市（FDA 2023-08）；MDD 适应症收到 CRL",
+                    "trial": "SKYLARK / WATERFALL",
+                    "status": "14 天口服疗程，第 3 天起效",
+                    "design": "GABA-A 正向变构调节剂对比安慰剂",
+                    "impact": "未拿到 MDD 适应症，商业空间限于产后抑郁"
                   }
                 ]
               }

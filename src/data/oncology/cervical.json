@@ -78,20 +78,6 @@
               },
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗 + 化疗 ± 贝伐珠单抗（CPS≥1）",
-                "name_en": "Pembrolizumab + Chemo ± Bevacizumab (KEYNOTE-826)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 300000,
-                "annual_cost_usd": null,
-                "market_share": "35%",
-                "selling_points": [
-                  "KEYNOTE-826：OS 28.6m vs 16.5m（全人群）",
-                  "CPS≥1人群OS 28.6m vs 17.5m",
-                  "NMPA 2023年批准宫颈癌一线"
-                ]
-              },
-              {
-                "type": "drug",
                 "name_cn": "顺铂/卡铂 + 紫杉醇 ± 贝伐珠单抗",
                 "name_en": "Cisplatin/Carboplatin + Paclitaxel ± Bevacizumab",
                 "manufacturer": "通用/罗氏",
@@ -114,6 +100,16 @@
                 "status": "入组中",
                 "design": "PD-1/VEGF 双抗替代\"PD-1 + 贝伐\"",
                 "impact": "一药替两药，康方自家卡度尼利的潜在迭代"
+              },
+              {
+                "name_cn": "帕博利珠单抗 + 化疗 ± 贝伐珠单抗（CPS≥1）",
+                "name_en": "Pembrolizumab + Chemo ± Bevacizumab (KEYNOTE-826)",
+                "company": "默沙东 MSD",
+                "stage": "美国已批（2021）/ 中国未见获批公告",
+                "trial": "KEYNOTE-826",
+                "status": "CPS≥1：OS 28.6 vs 16.5 个月；全人群 26.4 vs 16.8 个月",
+                "design": "PD-1 + 化疗 ± 贝伐珠单抗对比化疗 ± 贝伐珠单抗",
+                "impact": "国内一线免疫适应症由卡度尼利单抗先行获批"
               }
             ]
           },
@@ -134,19 +130,6 @@
                   "PD-1/CTLA-4 双特异性抗体（全球首款）",
                   "AK104-201：含铂化疗失败后 ORR 约 33%",
                   "2022 年 NMPA 附条件批准（复发 / 转移性宫颈癌二线及以上）"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（PD-L1+）",
-                "name_en": "Pembrolizumab (Keytruda) - PD-L1+",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "25%",
-                "selling_points": [
-                  "KEYNOTE-158：CPS≥1 ORR 14.6%",
-                  "FDA/NMPA批准宫颈癌二线"
                 ]
               },
               {
@@ -175,6 +158,16 @@
                 "status": "二线对比化疗，入组中",
                 "design": "TROP2 ADC 对比研究者选择化疗，PD-1 经治宫颈癌",
                 "impact": "若阳性将与 Tivdak 争夺二线"
+              },
+              {
+                "name_cn": "帕博利珠单抗（PD-L1+）",
+                "name_en": "Pembrolizumab (Keytruda) - PD-L1+",
+                "company": "默沙东 MSD",
+                "stage": "美国已批（2018，加速）/ 中国未见获批公告",
+                "trial": "KEYNOTE-158",
+                "status": "CPS≥1 人群 ORR 14.6%",
+                "design": "PD-1 单药单臂研究，化疗后进展",
+                "impact": "国内二线由卡度尼利单抗等国产药物占据"
               }
             ]
           }
@@ -204,7 +197,7 @@
                 "annual_cost_usd": 350000,
                 "market_share": "55%",
                 "selling_points": [
-                  "KEYNOTE-826: OS 28.6m vs 16.5m",
+                  "KEYNOTE-826: OS 28.6m vs 16.5m (CPS≥1); 26.4m vs 16.8m (all comers)",
                   "FDA approved 2021 (CPS≥1)",
                   "Category 1 NCCN for PD-L1+ cervical cancer"
                 ]
@@ -237,7 +230,7 @@
                 "market_share": "45%",
                 "selling_points": [
                   "innovaTV 301: OS 11.5m vs 9.5m vs chemo",
-                  "FDA regular approval 2023",
+                  "FDA accelerated approval 2021-09; regular approval 2024-04",
                   "Tissue factor ADC"
                 ]
               },

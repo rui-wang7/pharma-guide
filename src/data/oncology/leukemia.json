@@ -22,8 +22,8 @@
         "treatment_lines": [
           {
             "line": 1,
-            "label_cn": "一线诱导（适合强化疗，<60岁）",
-            "label_en": "1st Line Induction (fit, <60y)",
+            "label_cn": "一线诱导治疗（按是否适合强化疗分层）",
+            "label_en": "1st Line Induction (fit / unfit)",
             "options": [
               {
                 "type": "drug",
@@ -41,21 +41,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "米哚妥林 + 7+3（FLT3+）",
-                "name_en": "Midostaurin + 7+3 (FLT3+)",
-                "manufacturer": "诺华 Novartis",
-                "annual_cost_rmb": 280000,
-                "annual_cost_usd": null,
-                "market_share": "8%",
-                "selling_points": [
-                  "RATIFY: OS HR 0.78 vs 7+3单用",
-                  "首个FLT3抑制剂，NMPA 2018年批准",
-                  "FLT3-ITD/TKD突变患者必选"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "维奈克拉 + 阿扎胞苷",
+                "name_cn": "维奈克拉（唯可来）+ 阿扎胞苷（不适合强化疗）",
                 "name_en": "Venetoclax + Azacitidine (Ven+Aza)",
                 "manufacturer": "艾伯维/罗氏 AbbVie/Roche",
                 "annual_cost_rmb": 250000,
@@ -63,7 +49,7 @@
                 "market_share": "20%",
                 "selling_points": [
                   "VIALE-A：OS 14.7m vs 9.6m（不适合强化疗）",
-                  "BCL-2抑制剂，2023年NMPA批AML一线",
+                  "BCL-2抑制剂，NMPA 2020-12 批准（不适合强化疗的初治 AML）",
                   "适用老年/不适合强化疗患者"
                 ]
               },
@@ -103,6 +89,16 @@
                 "status": "入组中",
                 "design": "对比安慰剂 + Ven/Aza，初治不适合强化疗的 NPM1m/KMT2Ar AML",
                 "impact": "与 ziftomenib 的一线竞速；先发适应症（KMT2Ar）给 Syndax 留了时间窗"
+              },
+              {
+                "name_cn": "米哚妥林 + 7+3（FLT3+）",
+                "name_en": "Midostaurin + 7+3 (FLT3+)",
+                "company": "诺华 Novartis",
+                "stage": "美欧已上市 / 中国未见获批公告",
+                "trial": "RATIFY",
+                "status": "OS HR 0.78（对比单用 7+3）",
+                "design": "FLT3 抑制剂联合 7+3 诱导 / 巩固",
+                "impact": "国内 FLT3 突变初治 AML 的靶向选择由奎扎替尼（NMPA 2026-06）填补"
               }
             ]
           },
@@ -113,7 +109,7 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "吉瑞替尼（Xospata）（FLT3+）",
+                "name_cn": "吉瑞替尼（适加坦）（FLT3+）",
                 "name_en": "Gilteritinib (Xospata) (FLT3+)",
                 "manufacturer": "安斯泰来 Astellas",
                 "annual_cost_rmb": 380000,
@@ -121,7 +117,7 @@
                 "market_share": "30%",
                 "selling_points": [
                   "ADMIRAL: OS 9.3m vs 5.6m（vs 化疗）",
-                  "二代FLT3抑制剂，NMPA 2021年批",
+                  "二代FLT3抑制剂，NMPA 2021 年初附条件批准",
                   "覆盖FLT3-ITD和TKD突变"
                 ]
               },
@@ -193,8 +189,8 @@
         "treatment_lines": [
           {
             "line": 1,
-            "label_cn": "一线诱导（适合强化疗）",
-            "label_en": "1st Line Induction (fit)",
+            "label_cn": "一线诱导治疗（按是否适合强化疗分层）",
+            "label_en": "1st Line Induction (fit / unfit)",
             "options": [
               {
                 "type": "drug",
@@ -248,7 +244,7 @@
                 "market_share": "30%",
                 "selling_points": [
                   "VIALE-A: OS 14.7m vs 9.6m (unfit elderly)",
-                  "FDA approved 2020 for unfit AML 1L",
+                  "FDA accelerated approval 2018-11; regular approval 2020-10 (unfit 1L AML)",
                   "New SOC for elderly/unfit (NCCN Cat 1)"
                 ]
               },
@@ -452,7 +448,7 @@
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "ALPINE研究：PFS HR 0.65 vs 伊布替尼（头对头）",
+                  "SEQUOIA（初治）：PFS HR 0.42，对比 BR；ALPINE（R/R）：头对头优于伊布替尼，PFS HR 0.65",
                   "国产二代BTK，2023年NMPA批CLL一线",
                   "心房颤动率显著低于伊布替尼",
                   "医保乙类报销"
@@ -470,20 +466,6 @@
                   "RESONATE/iLLUMINATE等多项研究OS获益",
                   "首个BTK抑制剂，NMPA 2017年批",
                   "持续给药至进展"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "维奈克拉 + 奥妥珠单抗（V+O）",
-                "name_en": "Venetoclax + Obinutuzumab (V+O)",
-                "manufacturer": "艾伯维 + 罗氏",
-                "annual_cost_rmb": 280000,
-                "annual_cost_usd": null,
-                "market_share": "10%",
-                "selling_points": [
-                  "CLL14: 12月固定疗程，5-yr PFS 62.6%",
-                  "BCL-2 + CD20，可达深度MRD阴性",
-                  "NMPA批CLL一线"
                 ]
               },
               {
@@ -523,6 +505,16 @@
                 "status": "国内注册 III 期入组中",
                 "design": "国产 BTKi + BCL-2 固定疗程，对比免疫化疗",
                 "impact": "国产全口服固定疗程组合，瞄准医保谈判后的性价比路线"
+              },
+              {
+                "name_cn": "维奈克拉 + 奥妥珠单抗（V+O）",
+                "name_en": "Venetoclax + Obinutuzumab (V+O)",
+                "company": "艾伯维 + 罗氏",
+                "stage": "美欧已批 / 中国未见该联合方案获批",
+                "trial": "CLL14",
+                "status": "12 个月固定疗程，5 年 PFS 62.6%",
+                "design": "BCL-2 抑制剂 + CD20 单抗对比苯丁酸氮芥 + 奥妥珠单抗",
+                "impact": "维奈克拉在国内的 CLL 适应症限于伴 17p 缺失的经治患者；固定疗程方案由国产 BCL-2 抑制剂推进"
               }
             ]
           },
@@ -533,29 +525,29 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "维奈克拉 + 利妥昔单抗（V+R）",
-                "name_en": "Venetoclax + Rituximab (V+R)",
-                "manufacturer": "艾伯维 + 罗氏",
+                "name_cn": "维奈克拉（唯可来）— 伴 17p 缺失、既往 ≥1 线",
+                "name_en": "Venetoclax (Venclexta) — del(17p), ≥1 prior therapy",
+                "manufacturer": "艾伯维 AbbVie",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
                 "market_share": "30%",
                 "selling_points": [
-                  "MURANO: PFS HR 0.17 vs BR (R/R CLL)",
-                  "24月固定疗程，深度MRD阴性",
-                  "NMPA批R/R CLL"
+                  "NMPA 已批准：既往至少接受过一种治疗、伴 17p 缺失的 CLL / SLL（获批年份未核实）",
+                  "MURANO（V+R，24 个月固定疗程）：PFS HR 0.17，对比 BR；该联合方案在国内未见获批",
+                  "国内首个获批 CLL 的 BCL-2 抑制剂"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "BTK 抑制剂换药或改用 V+R（BTKi 治疗后）",
-                "name_en": "Switch BTK class or to V+R",
+                "name_cn": "BTK 抑制剂换药（共价 → 非共价）或换用 BCL-2 抑制剂",
+                "name_en": "Switch BTK class or to a BCL-2 inhibitor",
                 "manufacturer": "—",
                 "annual_cost_rmb": 200000,
                 "annual_cost_usd": null,
                 "market_share": "30%",
                 "selling_points": [
-                  "BTK耐药后换非共价BTK或V+R",
-                  "del17p/TP53m需特别考虑"
+                  "共价 BTK 抑制剂耐药后换用非共价 BTK 抑制剂或 BCL-2 抑制剂",
+                  "del17p / TP53 突变需特别考虑"
                 ]
               },
               {
@@ -653,7 +645,7 @@
                 "annual_cost_usd": 180000,
                 "market_share": "25%",
                 "selling_points": [
-                  "ALPINE: PFS HR 0.65 vs ibrutinib (head-to-head)",
+                  "SEQUOIA (1L): PFS HR 0.42 vs BR; ALPINE (R/R): PFS HR 0.65 vs ibrutinib",
                   "FDA approved 1L CLL 2023",
                   "Lower AFib, well-tolerated"
                 ]
@@ -766,7 +758,7 @@
                 "annual_cost_usd": 220000,
                 "market_share": "30%",
                 "selling_points": [
-                  "FDA approved 2023 for post-BTK CLL",
+                  "FDA accelerated approval 2023-12: after ≥2 prior lines incl. a BTK inhibitor and a BCL-2 inhibitor",
                   "BRUIN: ORR 82% in BTK-pretreated",
                   "Non-covalent BTKi (covers C481S resistance)"
                 ]
@@ -1031,8 +1023,8 @@
                 "annual_cost_usd": 200000,
                 "market_share": "20%",
                 "selling_points": [
-                  "ASC4FIRST: MMR 67% vs imatinib 49% / 2G TKI 49%",
-                  "FDA approved 2024 for 1L CP-CML",
+                  "ASC4FIRST: 48-week MMR 67.7% vs 49.0% (investigator-selected TKIs); 69.3% vs 40.2% vs imatinib",
+                  "FDA accelerated approval 2024-10 for 1L CP-CML",
                   "STAMP inhibitor (allosteric ABL binding); novel MoA"
                 ],
                 "impact": "ASC4FIRST 让 Scemblix 进入一线（2025 年销售 $12.9 亿，+87%），正在蚕食二代 TKI 仿制药之外的品牌份额"

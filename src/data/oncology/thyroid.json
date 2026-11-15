@@ -213,16 +213,16 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "塞普替尼（Retevmo，RET突变）",
+                "name_cn": "塞普替尼（睿妥，RET 突变）",
                 "name_en": "Selpercatinib (Retevmo)",
-                "manufacturer": "礼来 Eli Lilly",
+                "manufacturer": "礼来 Eli Lilly / 信达生物 Innovent",
                 "annual_cost_rmb": 180000,
                 "annual_cost_usd": null,
                 "market_share": "45%",
                 "selling_points": [
                   "LIBRETTO-001：ORR 69%（RET突变MTC）",
                   "CNS活性，颅内转移有效",
-                  "NMPA批准RET突变MTC"
+                  "NMPA 2022 年批准 RET 突变 MTC"
                 ]
               },
               {

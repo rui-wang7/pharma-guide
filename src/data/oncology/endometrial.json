@@ -28,44 +28,28 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗 + 仑伐替尼（pMMR）",
-                "name_en": "Pembrolizumab (Keytruda) + Lenvatinib (Lenvima)",
-                "manufacturer": "默沙东/卫材 MSD/Eisai",
-                "annual_cost_rmb": 350000,
-                "annual_cost_usd": null,
-                "market_share": "35%",
-                "selling_points": [
-                  "KEYNOTE-775：OS 18.3m vs 11.4m（pMMR）",
-                  "pMMR人群独立获益，改变治疗格局",
-                  "NMPA 2022年批准复发子宫内膜癌"
-                ]
-              },
-              {
-                "type": "drug",
                 "name_cn": "帕博利珠单抗 + 卡铂/紫杉醇（dMMR/MSI-H）",
                 "name_en": "Pembrolizumab + Carboplatin/Paclitaxel (dMMR)",
                 "manufacturer": "默沙东 MSD",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
-                "market_share": "25%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "NRG-GY018：PFS HR 0.30（dMMR）",
-                  "dMMR一线化疗+IO标准方案",
-                  "NMPA申报中"
-                ]
+                  "NRG-GY018（KEYNOTE-868）：dMMR 人群 PFS HR 0.30",
+                  "NMPA 2026-02 批准 dMMR 原发晚期或复发性子宫内膜癌一线，国内首个获批该适应症的 PD-1"
+                ],
+                "approved": "NMPA 2026-02"
               },
               {
                 "type": "drug",
-                "name_cn": "多塔利单抗（Jemperli）+ 化疗",
-                "name_en": "Dostarlimab (Jemperli) + Carboplatin/Paclitaxel",
-                "manufacturer": "葛兰素史克 GSK",
-                "annual_cost_rmb": 320000,
+                "name_cn": "卡铂 + 紫杉醇（pMMR 标准）",
+                "name_en": "Carboplatin + Paclitaxel",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "RUBY研究：dMMR PFS HR 0.28，OS HR 0.32",
-                  "FDA 2023年批准一线+维持治疗",
-                  "中国NDA申报中"
+                  "国内 pMMR 人群的一线标准化疗"
                 ]
               }
             ],
@@ -99,6 +83,49 @@
                 "status": "多个国产 PD-1 获批 dMMR 后线",
                 "design": "一线化免联合",
                 "impact": "国内一线免疫渗透仍低，价格是主因"
+              },
+              {
+                "name_cn": "多塔利单抗（Jemperli）+ 化疗",
+                "name_en": "Dostarlimab (Jemperli) + Carboplatin/Paclitaxel",
+                "company": "葛兰素史克 GSK",
+                "stage": "美欧已批 / 中国未见获批公告",
+                "trial": "RUBY",
+                "status": "dMMR：PFS HR 0.28，OS HR 0.32",
+                "design": "PD-1 + 卡铂 / 紫杉醇对比化疗，一线",
+                "impact": "国内 dMMR 一线免疫适应症由帕博利珠单抗先行获批"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（含铂化疗后）",
+            "label_en": "2nd Line (post-platinum)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "信迪利单抗（达伯舒）+ 呋喹替尼（pMMR）",
+                "name_en": "Sintilimab (Tyvyt) + Fruquintinib (pMMR)",
+                "manufacturer": "信达生物 Innovent / 和黄医药 HUTCHMED",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "FRUSICA-1（单臂 II 期）：pMMR 经治人群 ORR 约 36%",
+                  "NMPA 2024-12 附条件批准：既往系统治疗失败的 pMMR 晚期子宫内膜癌"
+                ],
+                "approved": "NMPA 2024-12（附条件）"
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "帕博利珠单抗 + 仑伐替尼（pMMR）",
+                "name_en": "Pembrolizumab (Keytruda) + Lenvatinib (Lenvima)",
+                "company": "默沙东/卫材 MSD/Eisai",
+                "stage": "美国已批（2021，经治）/ 中国未见获批公告",
+                "trial": "KEYNOTE-775",
+                "status": "全人群 OS 18.3 vs 11.4 个月；pMMR 17.4 vs 12.0 个月",
+                "design": "PD-1 + 多靶点 TKI 对比化疗，含铂化疗后进展",
+                "impact": "国内同类\"PD-1 + 抗血管 TKI\"由信迪利单抗 + 呋喹替尼先行获批"
               }
             ]
           }
@@ -130,21 +157,21 @@
                 "market_share": "30%",
                 "selling_points": [
                   "RUBY: dMMR PFS HR 0.28, OS HR 0.32",
-                  "FDA approved 2023 (all comers 1L)",
+                  "FDA approved 2023-07 (dMMR); expanded to all comers 2024-08",
                   "Both dMMR and pMMR subgroups studied"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "Pembrolizumab + Lenvatinib",
-                "name_en": "Pembrolizumab (Keytruda) + Lenvatinib (Lenvima)",
-                "manufacturer": "Merck / Eisai",
-                "annual_cost_usd": 320000,
-                "market_share": "35%",
+                "name_cn": "帕博利珠单抗 + 卡铂 / 紫杉醇",
+                "name_en": "Pembrolizumab (Keytruda) + Carboplatin/Paclitaxel",
+                "manufacturer": "Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
                 "selling_points": [
-                  "KEYNOTE-775: OS 18.3m vs 11.4m (pMMR)",
-                  "FDA approved 2021",
-                  "Agnostic to MMR status"
+                  "NRG-GY018（KEYNOTE-868）：dMMR PFS HR 0.30，pMMR PFS HR 0.54",
+                  "FDA 2024-06 批准原发晚期或复发性子宫内膜癌一线（不限 MMR 状态）"
                 ]
               }
             ],
@@ -185,7 +212,8 @@
                 "annual_cost_usd": null,
                 "market_share": "未统计",
                 "selling_points": [
-                  "KEYNOTE-775：OS 18.7 vs 11.9 个月",
+                  "KEYNOTE-775：全人群 OS 18.7 vs 11.9 个月（最终分析）",
+                  "FDA 2021-07 常规批准：非 MSI-H / dMMR、系统治疗后进展",
                   "一线已用 IO 者获益不确定"
                 ]
               },

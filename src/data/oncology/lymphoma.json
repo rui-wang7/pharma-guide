@@ -117,16 +117,16 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "瑞基仑赛（福可苏）CAR-T",
-                "name_en": "Relmacabtagene Autoleucel (Relma-cel)",
+                "name_cn": "瑞基奥仑赛（倍诺达）CAR-T",
+                "name_en": "Relmacabtagene Autoleucel (Carteyva)",
                 "manufacturer": "药明巨诺 JW Therapeutics",
                 "annual_cost_rmb": 1200000,
                 "annual_cost_usd": null,
                 "market_share": "20%",
                 "selling_points": [
-                  "中国首个获批CAR-T（2021年NMPA）",
-                  "ORR 75.9%，CR 59.2%（中国注册研究）",
-                  "≥2线R/R DLBCL"
+                  "NMPA 2021-09 批准，国内第二款 CAR-T（首款为阿基仑赛，2021-06）",
+                  "RELIANCE：ORR 75.9%，CR 51.7%",
+                  "≥2 线系统治疗后的 R/R 大 B 细胞淋巴瘤"
                 ]
               },
               {
@@ -322,7 +322,7 @@
                 "annual_cost_usd": 300000,
                 "market_share": "15%",
                 "selling_points": [
-                  "FDA approved 2023 for ≥2L DLBCL",
+                  "FDA accelerated approval 2023 (after ≥2 prior lines)",
                   "ORR 56%, CR 43%; fixed 12-cycle course",
                   "Off-the-shelf, no CAR-T manufacturing wait"
                 ]
@@ -336,7 +336,7 @@
                 "annual_cost_usd": 280000,
                 "market_share": "15%",
                 "selling_points": [
-                  "FDA approved 2023 for ≥2L DLBCL",
+                  "FDA accelerated approval 2023 (after ≥2 prior lines)",
                   "Subcutaneous CD20×CD3 bispecific",
                   "ORR 63%, CR 39%"
                 ]
@@ -426,7 +426,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "奥妥珠单抗（Gazyva）+ 化疗",
+                "name_cn": "奥妥珠单抗（佳罗华）+ 化疗",
                 "name_en": "Obinutuzumab (Gazyva) + Chemo",
                 "manufacturer": "罗氏 Roche",
                 "annual_cost_rmb": 120000,
@@ -435,7 +435,7 @@
                 "selling_points": [
                   "GALLIUM研究：PFS HR 0.66 vs R-chemo",
                   "III型糖基化抗CD20，ADCC增强",
-                  "NMPA批准FL一线"
+                  "NMPA 2021-06 批准初治 FL"
                 ]
               },
               {
@@ -491,21 +491,8 @@
                 "selling_points": [
                   "GADOLIN: PFS HR 0.55 vs Benda单药",
                   "利妥昔单抗耐药后选择",
-                  "维持治疗2年"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "泽布替尼（百悦泽）",
-                "name_en": "Zanubrutinib (Brukinsa)",
-                "manufacturer": "百济神州 BeiGene",
-                "annual_cost_rmb": 95000,
-                "annual_cost_usd": null,
-                "market_share": "15%",
-                "selling_points": [
-                  "ROSEWOOD: ORR 69% (R/R FL)",
-                  "国产二代BTK，2024年NMPA批FL适应症",
-                  "心脏毒性低于伊布替尼"
+                  "维持治疗2年",
+                  "国内说明书适应症为初治 FL，复发后应用参照指南（是否扩展未核实）"
                 ]
               },
               {
@@ -535,6 +522,16 @@
                 "status": "全球 III 期含中国中心",
                 "design": "双抗 + R² 对比 R²，二线 FL，主要终点 ORR/PFS",
                 "impact": "中国 R² 使用广泛，联合方案接入成本低"
+              },
+              {
+                "name_cn": "泽布替尼 + 奥妥珠单抗",
+                "name_en": "Zanubrutinib (Brukinsa) + Obinutuzumab",
+                "company": "百济神州 BeiGene",
+                "stage": "美欧已批（联合奥妥珠单抗，2024）/ 中国状态未核实",
+                "trial": "ROSEWOOD",
+                "status": "ORR 69% vs 46%（对比奥妥珠单抗单药）",
+                "design": "BTK 抑制剂 + CD20 单抗对比 CD20 单抗单药，既往 ≥2 线",
+                "impact": "III 期 MAHOGANY（对比 R²）将决定其在 R/R FL / MZL 的位置"
               }
             ]
           }
@@ -805,20 +802,6 @@
                   "早期：2-4周期+ISRT；晚期：6周期",
                   "5-yr OS >85%（早期），70%（晚期）"
                 ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "A+AVD（维布妥昔单抗+AVD）",
-                "name_en": "Brentuximab Vedotin + AVD (A+AVD)",
-                "manufacturer": "武田 Takeda / Pfizer",
-                "annual_cost_rmb": 250000,
-                "annual_cost_usd": null,
-                "market_share": "25%",
-                "selling_points": [
-                  "ECHELON-1: 6-yr PFS 82% vs ABVD 75%",
-                  "CD30 ADC替换博来霉素，肺毒性降低",
-                  "NMPA批准晚期HL一线"
-                ]
               }
             ],
             "pipeline": [
@@ -831,6 +814,16 @@
                 "status": "PFS HR 0.48 vs BV-AVD",
                 "design": "PD-1 + AVD 头对头对比 BV-AVD，III/IV 期初治 cHL",
                 "impact": "国内国产 PD-1 价格低，超说明书前移一线的可能性大于 O 药正式获批"
+              },
+              {
+                "name_cn": "A+AVD（维布妥昔单抗+AVD）",
+                "name_en": "Brentuximab Vedotin + AVD (A+AVD)",
+                "company": "武田 Takeda",
+                "stage": "美欧已批 / 中国未见一线适应症获批公告",
+                "trial": "ECHELON-1",
+                "status": "6 年 PFS 82% vs 75%，OS 获益（HR 0.59）",
+                "design": "CD30 ADC 替换博来霉素（A+AVD 对比 ABVD），III / IV 期初治",
+                "impact": "安适利在国内获批的是复发 / 难治 cHL 与 sALCL 等，一线仍以 ABVD 为主"
               }
             ]
           },
@@ -869,14 +862,14 @@
               },
               {
                 "type": "drug",
-                "name_cn": "维布妥昔单抗（Adcetris）",
+                "name_cn": "维布妥昔单抗（安适利）",
                 "name_en": "Brentuximab Vedotin (Adcetris)",
                 "manufacturer": "武田 Takeda",
                 "annual_cost_rmb": 200000,
                 "annual_cost_usd": null,
                 "market_share": "20%",
                 "selling_points": [
-                  "CD30 ADC，NMPA批R/R cHL",
+                  "CD30 ADC，NMPA 2020 年批准 R/R cHL",
                   "ORR 75%，CR 34%（SG035-0003）",
                   "桥接ASCT标准选择"
                 ]
@@ -1017,7 +1010,7 @@
                 "selling_points": [
                   "FDA approved 2016 for R/R cHL",
                   "CheckMate-205: ORR 65%, CR 29%",
-                  "Nivo+BV combo (CheckMate-812) ORR 85%"
+                  "Nivo + BV (phase 1/2): ORR 85%"
                 ]
               },
               {
@@ -1105,7 +1098,7 @@
                 "type": "drug",
                 "name_cn": "VR-CAP方案",
                 "name_en": "Bortezomib + R-CAP (VR-CAP)",
-                "manufacturer": "武田 + 罗氏",
+                "manufacturer": "强生 J&J（万珂）+ 罗氏 Roche",
                 "annual_cost_rmb": 120000,
                 "annual_cost_usd": null,
                 "market_share": "10%",
@@ -1179,7 +1172,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "来那度胺（雷利度胺）",
+                "name_cn": "来那度胺（瑞复美）",
                 "name_en": "Lenalidomide (Revlimid)",
                 "manufacturer": "BMS / 国产仿制",
                 "annual_cost_rmb": 50000,
@@ -1188,7 +1181,8 @@
                 "selling_points": [
                   "EMERGE研究：单药ORR 28%",
                   "国产仿制药价格大幅下降",
-                  "医保覆盖"
+                  "医保覆盖",
+                  "MCL 为指南推荐用法，国内是否有该适应症未核实"
                 ]
               },
               {
@@ -1311,7 +1305,7 @@
                 "market_share": "15%",
                 "selling_points": [
                   "TRIANGLE (NEJM 2024): 3yr PFS 88% (I+chemo) vs 72% (chemo)",
-                  "NCCN incorporated into 1L young/fit guidance; FDA label remains R/R MCL",
+                  "NCCN incorporated into 1L young/fit guidance; ibrutinib's US MCL indication was voluntarily withdrawn in 2023 (off-label)",
                   "May obviate ASCT in selected patients"
                 ]
               }
@@ -1516,29 +1510,15 @@
               },
               {
                 "type": "drug",
-                "name_cn": "泽布替尼（百悦泽）",
-                "name_en": "Zanubrutinib (Brukinsa)",
-                "manufacturer": "百济神州 BeiGene",
-                "annual_cost_rmb": 95000,
+                "name_cn": "奥布替尼（宜诺凯）",
+                "name_en": "Orelabrutinib (Yinuokai)",
+                "manufacturer": "诺诚健华 InnoCare",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "MAGNOLIA研究：R/R MZL ORR 68%，CR 26%",
-                  "NMPA 2022年批准R/R MZL",
-                  "医保乙类"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "伊布替尼（亿珂）",
-                "name_en": "Ibrutinib (Imbruvica)",
-                "manufacturer": "强生/艾伯维 J&J/AbbVie",
-                "annual_cost_rmb": 130000,
-                "annual_cost_usd": null,
-                "market_share": "10%",
-                "selling_points": [
-                  "PCYC-1121研究：R/R MZL ORR 48%",
-                  "BTK抑制剂"
+                  "注册 II 期：R/R MZL ORR 58.9%（IRC 评估）",
+                  "NMPA 2023-04 批准，国内首个且目前唯一获批 MZL 的 BTK 抑制剂"
                 ]
               }
             ],
@@ -1552,6 +1532,16 @@
                 "status": "国产来那度胺集采后价格大幅下降",
                 "design": "无化疗免疫调节方案对比利妥昔单抗单药，PFS HR 0.46",
                 "impact": "集采后 R² 成本极低，是国内 MZL 二线性价比最高的方案"
+              },
+              {
+                "name_cn": "泽布替尼（百悦泽）",
+                "name_en": "Zanubrutinib (Brukinsa)",
+                "company": "百济神州 BeiGene",
+                "stage": "美国已批（2021-09，加速）/ 中国未见 MZL 适应症获批",
+                "trial": "MAGNOLIA",
+                "status": "R/R MZL：ORR 68%，CR 26%",
+                "design": "BTK 抑制剂单臂 II 期，既往含抗 CD20 治疗",
+                "impact": "国内 MZL 的 BTK 抑制剂适应症目前只有奥布替尼"
               }
             ]
           }
@@ -1620,7 +1610,8 @@
                 "selling_points": [
                   "MAGNOLIA: ORR 68%, CR 26% (R/R MZL)",
                   "FDA accelerated approval R/R MZL Sept 2021",
-                  "Once or twice daily oral"
+                  "Once or twice daily oral",
+                  "Ibrutinib's MZL accelerated approval (2017) was voluntarily withdrawn in 2023"
                 ]
               },
               {
@@ -1648,20 +1639,6 @@
                   "AUGMENT: PFS 39m vs 14m (vs R alone)",
                   "FDA approved R/R FL/MZL May 2019",
                   "Chemo-free oral + IV combo"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "Ibrutinib (Imbruvica)",
-                "name_en": "Ibrutinib (Imbruvica)",
-                "manufacturer": "J&J/AbbVie",
-                "annual_cost_rmb": null,
-                "annual_cost_usd": 165000,
-                "market_share": "10%",
-                "selling_points": [
-                  "PCYC-1121: R/R MZL ORR 48%",
-                  "FDA accelerated approval R/R MZL Jan 2017",
-                  "Daily oral BTK"
                 ]
               },
               {

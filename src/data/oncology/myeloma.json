@@ -30,7 +30,7 @@
                 "type": "drug",
                 "name_cn": "VRd方案（硼替佐米+来那度胺+地塞米松）",
                 "name_en": "VRd (Bortezomib + Lenalidomide + Dexamethasone)",
-                "manufacturer": "武田/百济神州 + 信达/正大天晴",
+                "manufacturer": "强生 J&J / BMS + 国产仿制药",
                 "annual_cost_rmb": 180000,
                 "annual_cost_usd": null,
                 "market_share": "55%",
@@ -42,17 +42,18 @@
               },
               {
                 "type": "drug",
-                "name_cn": "DVRd方案（达雷妥尤单抗+VRd）",
+                "name_cn": "DVRd 方案（达雷妥尤单抗皮下制剂 + VRd）",
                 "name_en": "Dara-VRd (Daratumumab + VRd)",
                 "manufacturer": "强生 J&J",
                 "annual_cost_rmb": 380000,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "PERSEUS研究：PFS HR 0.42 vs VRd",
-                  "CD38抗体+三联，深度MRD阴性",
-                  "NMPA批新诊断MM一线"
-                ]
+                  "PERSEUS：PFS HR 0.42（对比 VRd），MRD 阴性率 75.2% vs 47.5%",
+                  "NMPA 2026-02 批准皮下制剂（兆珂速）四药方案，用于适合移植的新诊断 MM",
+                  "CD38 单抗 + 三联，诱导 / 巩固后联合来那度胺维持"
+                ],
+                "approved": "NMPA 2026-02"
               },
               {
                 "type": "drug",
@@ -93,8 +94,8 @@
           },
           {
             "line": 2,
-            "label_cn": "二线治疗（R/R MM）",
-            "label_en": "2nd Line (R/R)",
+            "label_cn": "复发 / 难治治疗（R/R MM，各药获批线数见条目）",
+            "label_en": "Relapsed / Refractory (R/R MM)",
             "options": [
               {
                 "type": "drug",
@@ -126,30 +127,30 @@
               },
               {
                 "type": "drug",
-                "name_cn": "卡非佐米 + Rd（KRd）",
-                "name_en": "Carfilzomib + Rd (KRd)",
-                "manufacturer": "安进 Amgen",
+                "name_cn": "卡非佐米（凯洛斯）+ 地塞米松 ± 来那度胺",
+                "name_en": "Carfilzomib (Kyprolis) + Dex ± Lenalidomide (Kd / KRd)",
+                "manufacturer": "安进 Amgen / 百济神州 BeOne",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
                 "market_share": "15%",
                 "selling_points": [
                   "ASPIRE: PFS 26.3m vs 17.6m (Rd)",
                   "二代蛋白酶体抑制剂",
-                  "NMPA批R/R MM"
+                  "NMPA 2021-07 批准（联合地塞米松，既往 ≥2 线）"
                 ]
               },
               {
                 "type": "drug",
                 "name_cn": "泊马度胺 + Dex（PD）",
                 "name_en": "Pomalidomide + Dex (Pd)",
-                "manufacturer": "百时美施贵宝 BMS",
+                "manufacturer": "正大天晴 / 齐鲁等国产；原研 BMS",
                 "annual_cost_rmb": 150000,
                 "annual_cost_usd": null,
                 "market_share": "10%",
                 "selling_points": [
                   "三代IMiD，来那度胺耐药后选择",
-                  "可联合Dara/Bor/Elotuzumab",
-                  "国产仿制药已上市"
+                  "可联合达雷妥尤单抗或硼替佐米",
+                  "国内以国产仿制药为主（首仿 2020 年获批）"
                 ]
               },
               {
@@ -305,8 +306,8 @@
           },
           {
             "line": 2,
-            "label_cn": "二线治疗",
-            "label_en": "2nd Line",
+            "label_cn": "复发 / 难治治疗（R/R MM，各药获批线数见条目）",
+            "label_en": "Relapsed / Refractory (R/R MM)",
             "options": [
               {
                 "type": "drug",
@@ -347,9 +348,8 @@
                 "annual_cost_usd": 460000,
                 "market_share": "10%",
                 "selling_points": [
-                  "FDA approved 2024 for 2L MM (KarMMa-3)",
-                  "First MM CAR-T (2021)",
-                  "ORR 71%, CR 39% (KarMMa-1)"
+                  "First BCMA CAR-T (FDA 2021-03, after ≥4 lines); expanded 2024-04 to after ≥2 prior lines (KarMMa-3)",
+                  "KarMMa-3: PFS 13.3m vs 4.4m; ORR 71%, CR 39%"
                 ]
               },
               {

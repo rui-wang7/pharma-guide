@@ -89,30 +89,55 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）",
-                "name_en": "Pembrolizumab (Keytruda)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
+                "name_cn": "特瑞普利单抗（拓益）",
+                "name_en": "Toripalimab (Tuoyi)",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "35%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "KEYNOTE-045：OS 10.3m vs 7.4m vs化疗",
-                  "NMPA 2020年批准铂类化疗后mUC",
-                  "医保报销"
+                  "POLARIS-03（单臂 II 期）：ORR 约 26%",
+                  "NMPA 2021 年批准含铂化疗失败的晚期尿路上皮癌（不限 PD-L1）"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "厄达非替尼（Balversa，FGFR2/3突变）",
-                "name_en": "Erdafitinib (Balversa) - FGFR2/3 altered",
+                "name_cn": "替雷利珠单抗（百泽安）— PD-L1 高表达",
+                "name_en": "Tislelizumab (Tevimbra) — PD-L1 high",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "单臂 II 期：PD-L1 高表达人群 ORR 约 24%",
+                  "NMPA 2020 年批准含铂化疗失败的 PD-L1 高表达尿路上皮癌"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维迪西妥单抗（爱地希）单药 — HER2 过表达",
+                "name_en": "Disitamab Vedotin (Aidixi) monotherapy — HER2 IHC 2+/3+",
+                "manufacturer": "荣昌生物 RemeGen",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "RC48-C005 / C009：ORR 约 50%",
+                  "NMPA 2021-12 附条件批准：含铂化疗后的 HER2 过表达尿路上皮癌"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "厄达替尼（博珂，FGFR3 变异）",
+                "name_en": "Erdafitinib (Balversa) — FGFR3 altered",
                 "manufacturer": "强生/杨森 Janssen",
                 "annual_cost_rmb": 180000,
                 "annual_cost_usd": null,
                 "market_share": "15%",
                 "selling_points": [
-                  "THOR研究：OS 12.1m vs 7.8m vs免疫/化疗",
-                  "首个获批FGFR靶向药物",
-                  "FGFR2/3突变人群（约20%mUC）精准治疗"
+                  "THOR：OS 12.1 vs 7.8 个月（对比化疗）",
+                  "NMPA 已批准（1 月 13 日公布，年份未核实）：FGFR3 变异、PD-(L)1 治疗后进展的 mUC",
+                  "首个获批的 FGFR 靶向药"
                 ]
               }
             ],
@@ -126,6 +151,16 @@
                 "status": "二/三线 III 期入组中",
                 "design": "Nectin-4 ADC 对比化疗",
                 "impact": "国产 EV 类似物，定价将决定 Padcev 在华空间"
+              },
+              {
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "company": "默沙东 MSD",
+                "stage": "美国已批（2017）/ 中国未见获批公告",
+                "trial": "KEYNOTE-045",
+                "status": "OS 10.3 vs 7.4 个月（对比化疗）",
+                "design": "PD-1 单药对比化疗，含铂化疗后进展",
+                "impact": "国内二线 PD-1 由特瑞普利单抗、替雷利珠单抗占据"
               }
             ]
           }
@@ -291,8 +326,8 @@
                 "annual_cost_usd": 380000,
                 "market_share": "50%",
                 "selling_points": [
-                  "EV-302: OS not reached vs 16.1m (chemo)",
-                  "FDA regular approval 2024",
+                  "EV-302: OS 31.5m vs 16.1m (HR 0.47)",
+                  "FDA regular approval 2023-12",
                   "New 1L standard of care, all comers"
                 ]
               },

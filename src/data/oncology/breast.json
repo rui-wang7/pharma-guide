@@ -32,7 +32,7 @@
                 "annual_cost_usd": null,
                 "market_share": "50%",
                 "selling_points": [
-                  "APHINITY研究：双靶+化疗pCR提升",
+                  "NeoSphere / PEONY：双靶新辅助 pCR 提升；APHINITY：辅助 iDFS 获益",
                   "新辅助标准方案（曲妥珠+帕妥珠+多西他赛）"
                 ]
               },
@@ -507,7 +507,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "瑞波西利（利柏恩）+ 内分泌治疗",
+                "name_cn": "瑞波西利（凯丽隆）+ 内分泌治疗",
                 "name_en": "Ribociclib (Kisqali) + Endocrine Therapy",
                 "manufacturer": "诺华 Novartis",
                 "annual_cost_rmb": 110000,
@@ -529,7 +529,7 @@
                 "market_share": "30%",
                 "selling_points": [
                   "MONARCH系列研究",
-                  "唯一获批早期高危乳腺癌辅助治疗的CDK4/6i",
+                  "首个获批早期高危乳腺癌辅助治疗的 CDK4/6 抑制剂",
                   "monarchE研究"
                 ]
               },
@@ -878,7 +878,7 @@
                 "selling_points": [
                   "KEYNOTE-522：pCR 64.8% vs 51.2%",
                   "EFS获益HR 0.63，OS获益",
-                  "NMPA 2023年批准早期高危TNBC"
+                  "NMPA 已批准早期高危 TNBC（限 PD-L1 CPS≥20）"
                 ]
               },
               {
@@ -906,7 +906,7 @@
                 "selling_points": [
                   "OlympiA研究：iDFS HR 0.58",
                   "BRCA突变TNBC/HR+均适用",
-                  "NMPA 2023年批准辅助适应症"
+                  "NMPA 已批准辅助适应症（约 2024 年底），已进医保"
                 ]
               }
             ],
@@ -940,16 +940,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗 + 化疗（nab-紫杉醇/吉西他滨+卡铂）",
-                "name_en": "Pembrolizumab + Chemotherapy (CPS≥10)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 280000,
+                "name_cn": "特瑞普利单抗（拓益）+ 白蛋白紫杉醇（PD-L1 阳性）",
+                "name_en": "Toripalimab (Tuoyi) + nab-Paclitaxel (PD-L1+)",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "KEYNOTE-355：CPS≥10人群PFS 9.7m vs 5.6m",
-                  "OS 23.0m vs 16.1m",
-                  "NMPA批准CPS≥10 mTNBC"
+                  "TORCHLIGHT：PD-L1 阳性（CPS≥1）人群 PFS 8.4 vs 5.6 个月",
+                  "NMPA 2024-06 批准，国内首个获批的 TNBC 免疫治疗方案"
                 ]
               },
               {
@@ -1011,6 +1010,16 @@
                 "status": "全球入组中",
                 "design": "PD-L1×VEGF 双抗 + 化疗对比化疗 ± PD-1",
                 "impact": "与依沃西在 TNBC 正面竞速"
+              },
+              {
+                "name_cn": "帕博利珠单抗 + 化疗（nab-紫杉醇/吉西他滨+卡铂）",
+                "name_en": "Pembrolizumab + Chemotherapy (CPS≥10)",
+                "company": "默沙东 MSD",
+                "stage": "美国已批（2020 加速 / 2021 常规）/ 中国未见获批公告",
+                "trial": "KEYNOTE-355",
+                "status": "CPS≥10：PFS 9.7 vs 5.6 个月，OS 23.0 vs 16.1 个月",
+                "design": "PD-1 + 化疗对比化疗，一线 PD-L1 阳性 mTNBC",
+                "impact": "国内一线免疫适应症由特瑞普利单抗先行获批"
               }
             ]
           },
@@ -1030,21 +1039,7 @@
                 "selling_points": [
                   "ASCENT研究：OS 12.1m vs 6.7m vs化疗",
                   "Trop-2 ADC，革命性二线治疗",
-                  "NMPA 2023年批准TNBC适应症"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "奥拉帕利（gBRCA突变）",
-                "name_en": "Olaparib (Lynparza) - gBRCA+",
-                "manufacturer": "阿斯利康/默沙东 AZ/MSD",
-                "annual_cost_rmb": 120000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "OlympiAD研究：PFS 7.0m vs 4.2m",
-                  "BRCA突变TNBC口服PARP抑制剂",
-                  "医保报销（乳腺癌gBRCA适应症）"
+                  "NMPA 2022-06 批准（既往 ≥2 线系统治疗）"
                 ]
               },
               {
@@ -1061,9 +1056,33 @@
                   "海外权益授权默沙东（MK-2870）"
                 ],
                 "approved": "NMPA 2024-11"
+              },
+              {
+                "type": "drug",
+                "name_cn": "氟唑帕利 ± 阿帕替尼（gBRCA 突变）",
+                "name_en": "Fuzuloparib ± Apatinib (gBRCA+)",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "FABULOUS：PFS 显著优于化疗",
+                  "NMPA 已批准 gBRCA 突变 HER2 阴性转移性乳腺癌"
+                ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "奥拉帕利（gBRCA突变）",
+                "name_en": "Olaparib (Lynparza) - gBRCA+",
+                "company": "阿斯利康/默沙东 AZ/MSD",
+                "stage": "美欧已批 / 中国转移性适应症未见获批",
+                "trial": "OlympiAD",
+                "status": "PFS 7.0 vs 4.2 个月（对比化疗）",
+                "design": "PARP 抑制剂对比医生选择的化疗，gBRCA 突变 HER2 阴性转移性乳腺癌",
+                "impact": "奥拉帕利在国内获批的乳腺癌适应症是早期高危辅助治疗；转移性阶段由国产氟唑帕利先行获批"
+              }
+            ]
           }
         ]
       },
@@ -1298,9 +1317,9 @@
                 "annual_cost_usd": null,
                 "market_share": "75%",
                 "selling_points": [
-                  "DESTINY-Breast04：OS 23.4m vs 16.8m（HR+）；OS 18.2m vs 8.3m（HR-）",
+                  "DESTINY-Breast04：总人群 OS 23.4 vs 16.8 个月；OS 18.2m vs 8.3m（HR-）",
                   "首次证明HER2低表达是独立治疗靶点",
-                  "NMPA 2024年批准HER2低表达mBC适应症",
+                  "NMPA 2023 年批准 HER2 低表达 mBC",
                   "彻底重新定义HER2阴性乳腺癌分类"
                 ]
               },
@@ -1358,7 +1377,7 @@
                 "annual_cost_usd": 380000,
                 "market_share": "80%",
                 "selling_points": [
-                  "DESTINY-Breast04: OS 23.4m vs 16.8m (HR+)",
+                  "DESTINY-Breast04: OS 23.4m vs 16.8m (all patients)",
                   "DESTINY-Breast06: also benefits HER2-ultralow",
                   "FDA approved 2022 for HER2-low",
                   "Paradigm-shifting: redefined HER2-negative category"

@@ -25,16 +25,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "曲妥珠单抗 + 纳武利尤单抗（欧狄沃）+ 化疗",
-                "name_en": "Trastuzumab + Nivolumab (Opdivo) + Chemo",
-                "manufacturer": "罗氏/BMS Roche/BMS",
+                "name_cn": "帕博利珠单抗（可瑞达）+ 曲妥珠单抗 + 化疗",
+                "name_en": "Pembrolizumab (Keytruda) + Trastuzumab + Chemo",
+                "manufacturer": "默沙东 MSD / 罗氏 Roche",
                 "annual_cost_rmb": 350000,
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "CheckMate-811 OS获益",
-                  "HER2+且PD-L1 CPS≥5人群获益显著",
-                  "NMPA批准"
+                  "KEYNOTE-811：OS 20.0 vs 16.8 个月（HR 0.80），获益集中在 PD-L1 CPS≥1",
+                  "NMPA 已批准 HER2 阳性胃癌适应症（6 月 25 日公示，年份未核实）"
                 ]
               },
               {
@@ -128,15 +127,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "Nivolumab + Trastuzumab + Chemo",
-                "name_en": "Nivolumab (Opdivo) + Trastuzumab + Chemo",
-                "manufacturer": "BMS / Roche",
+                "name_cn": "Pembrolizumab + Trastuzumab + Chemo",
+                "name_en": "Pembrolizumab (Keytruda) + Trastuzumab + Chemo",
+                "manufacturer": "Merck / Roche",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": 400000,
                 "market_share": "55%",
                 "selling_points": [
-                  "CheckMate-811: OS benefit HER2+ CPS≥5",
-                  "FDA approved 2023"
+                  "KEYNOTE-811: OS 20.0m vs 16.8m (HR 0.80)",
+                  "FDA accelerated approval 2021-05; restricted to PD-L1 CPS≥1 in 2023-11"
                 ]
               },
               {
@@ -183,8 +182,8 @@
                 "annual_cost_usd": 380000,
                 "market_share": "50%",
                 "selling_points": [
-                  "DESTINY-Gastric01/02: OS benefit",
-                  "FDA approved 2021 (accelerated), 2023 regular"
+                  "DESTINY-Gastric01: OS 12.5m vs 8.4m",
+                  "FDA approved 2021-01 (after a trastuzumab-based regimen)"
                 ]
               }
             ],
@@ -265,10 +264,9 @@
                 "annual_cost_usd": null,
                 "market_share": "25%",
                 "selling_points": [
-                  "COMPASSION-15：OS 15.0m vs 12.0m（HR 0.62）",
-                  "全球首个PD-1/CTLA-4双抗获批胃癌（NMPA 2024年12月）",
-                  "无需PD-L1筛选，HER2阴性均可用",
-                  "ORR 58% vs 38%（化疗组）"
+                  "COMPASSION-15：OS 15.0 vs 10.8 个月（HR 0.62）",
+                  "全球首个获批胃癌的 PD-1/CTLA-4 双抗（NMPA 2024-09）",
+                  "无需 PD-L1 筛选，HER2 阴性均可用"
                 ]
               },
               {
@@ -358,7 +356,7 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "雷莫芦单抗（赛兰泽）± 紫杉醇",
+                "name_cn": "雷莫西尤单抗（希冉择）± 紫杉醇",
                 "name_en": "Ramucirumab (Cyramza) ± Paclitaxel",
                 "manufacturer": "礼来 Eli Lilly",
                 "annual_cost_rmb": 150000,
@@ -366,7 +364,7 @@
                 "market_share": "30%",
                 "selling_points": [
                   "RAINBOW研究：OS 9.6m vs 7.4m",
-                  "NMPA批准二线胃癌"
+                  "NMPA 2022 年批准二线胃癌"
                 ]
               },
               {

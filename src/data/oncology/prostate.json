@@ -159,21 +159,8 @@
                 "market_share": "40%",
                 "selling_points": [
                   "PROfound研究：rPFS 7.4m vs 3.5m（BRCA1/2）",
-                  "NMPA批准HRR突变mCRPC适应症",
+                  "NMPA 2021 年批准 BRCA 突变 mCRPC",
                   "生物标志物精准用药"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "卡巴他赛（杰素）",
-                "name_en": "Cabazitaxel (Jevtana)",
-                "manufacturer": "赛诺菲 Sanofi",
-                "annual_cost_rmb": 80000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "TROPIC研究：多西他赛耐药后OS获益",
-                  "三线化疗方案，CARD研究优于阿比特龙/恩扎鲁胺（ARi耐药后）"
                 ]
               }
             ],
@@ -197,6 +184,16 @@
                 "status": "入组完成",
                 "design": "国产 PARPi 联合阿比特龙",
                 "impact": "医保内低价替代"
+              },
+              {
+                "name_cn": "卡巴他赛",
+                "name_en": "Cabazitaxel (Jevtana)",
+                "company": "赛诺菲 Sanofi",
+                "stage": "美欧已上市 / 中国未见获批公告",
+                "trial": "TROPIC / CARD",
+                "status": "多西他赛后 OS 获益；CARD：优于换用另一种 ARPI",
+                "design": "二代紫杉类对比米托蒽醌或 ARPI 换药",
+                "impact": "若在华上市，将补上多西他赛失败后的化疗选择"
               }
             ]
           }

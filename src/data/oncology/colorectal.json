@@ -212,7 +212,7 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "呋喹替尼（爱朗）",
+                "name_cn": "呋喹替尼（爱优特）",
                 "name_en": "Fruquintinib (Elunate)",
                 "manufacturer": "和黄医药 HUTCHMED",
                 "annual_cost_rmb": 90000,
@@ -506,7 +506,7 @@
                 "annual_cost_usd": null,
                 "market_share": "60%",
                 "selling_points": [
-                  "BEACON研究：OS 9.0m vs 5.4m vs chemo",
+                  "BEACON：OS 9.3 vs 5.9 个月（双药对比对照，更新分析）",
                   "BRAF V600E CRC 2L标准",
                   "NMPA 2025-07 批准（经治 BRAF V600E mCRC）"
                 ],
@@ -604,8 +604,8 @@
                 "annual_cost_usd": 380000,
                 "market_share": "30%",
                 "selling_points": [
-                  "CheckMate-8HW: Superior PFS vs pembrolizumab",
-                  "FDA approved 2024"
+                  "CheckMate-8HW: PFS superior to chemotherapy and to nivolumab alone",
+                  "FDA approved 2025-04 (1L MSI-H/dMMR mCRC)"
                 ]
               }
             ],
@@ -659,7 +659,7 @@
                 "annual_cost_usd": 350000,
                 "market_share": "65%",
                 "selling_points": [
-                  "BEACON CRC: OS 9.0m vs 5.4m",
+                  "BEACON CRC: OS 9.3m vs 5.9m (doublet, updated analysis)",
                   "FDA approved 2020, NCCN Category 1"
                 ]
               }

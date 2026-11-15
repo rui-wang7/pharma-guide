@@ -25,16 +25,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "曲妥珠单抗 + 纳武利尤单抗（欧狄沃）+ 化疗",
-                "name_en": "Trastuzumab + Nivolumab (Opdivo) + Chemo",
-                "manufacturer": "罗氏/BMS Roche/BMS",
+                "name_cn": "帕博利珠单抗（可瑞达）+ 曲妥珠单抗 + 化疗",
+                "name_en": "Pembrolizumab (Keytruda) + Trastuzumab + Chemo",
+                "manufacturer": "默沙东 MSD / 罗氏 Roche",
                 "annual_cost_rmb": 350000,
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "CheckMate-811 OS获益",
-                  "HER2+且PD-L1 CPS≥5人群获益显著",
-                  "NMPA批准"
+                  "KEYNOTE-811：OS 20.0 vs 16.8 个月（HR 0.80），获益集中在 PD-L1 CPS≥1",
+                  "NMPA 已批准 HER2 阳性胃癌适应症（6 月 25 日公示，年份未核实）"
                 ]
               },
               {
@@ -53,20 +52,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "赞尼达妥单抗（Zanidatamab）+ 化疗 ± 替雷利珠单抗 ★ FDA 2026-08获批",
+                "name_cn": "泽尼达妥单抗 + 化疗 ± 替雷利珠单抗",
                 "name_en": "Zanidatamab + Chemo ± Tislelizumab",
-                "company": "Jazz / Zymeworks / 百济神州 BeiGene",
-                "stage": "已上市（美国）/ 中国申报中",
+                "company": "百济神州 / Jazz",
+                "stage": "美国已批（2026-08）/ 中国状态未核实",
                 "trial": "HERIZON-GEA-01",
-                "status": "HERIZON-GEA-01：Zani+替雷利珠+化疗 vs 曲妥珠+化疗 PFS 12.4m vs 8.1m，OS 26.4m vs 19.2m；2026-08-25 FDA批准一线HER2+胃/GEJ/食管腺癌"
+                "status": "PFS 12.4 vs 8.1 个月；三药组 OS 26.4 vs 19.2 个月",
+                "design": "双表位 HER2 双抗 ± PD-1 对比曲妥珠单抗 + 化疗，一线",
+                "impact": "百济拥有中国权益，可与自家替雷利珠捆绑，直接替代曲妥珠单抗生物类似药之上的高端市场"
               },
               {
-                "name_cn": "T-DXd（DS-8201）+ 纳武利尤单抗",
-                "name_en": "T-DXd + Nivolumab",
-                "company": "第一三共/BMS Daiichi/BMS",
+                "name_cn": "维迪西妥单抗 + 特瑞普利单抗 + 化疗",
+                "name_en": "Disitamab Vedotin + Toripalimab + Chemo",
+                "company": "荣昌生物",
                 "stage": "Phase 3",
-                "trial": "DESTINY-Gastric04",
-                "status": "一线HER2+胃癌探索，DESTINY-Gastric02已证实二线疗效"
+                "trial": "RC48-C039 等",
+                "status": "入组中",
+                "design": "国产 HER2 ADC + PD-1 一线",
+                "impact": "与泽尼达妥方案竞争国内一线"
               }
             ]
           },
@@ -84,13 +87,26 @@
                 "annual_cost_usd": null,
                 "market_share": "35%",
                 "selling_points": [
-                  "DESTINY-Gastric01：OS 12.5m vs 8.4m",
-                  "NMPA批准HER2+胃癌二线",
-                  "ADC新标准"
-                ]
+                  "DESTINY-Gastric04（二线，对比雷莫西尤单抗 + 紫杉醇）：中位 OS 14.7 个月，延长 3.3 个月",
+                  "DESTINY-Gastric01（三线）：OS 12.5 vs 8.4 个月",
+                  "NMPA 已批准二线 HER2+ 胃癌，2026 版 CSCO 指南 I 级推荐"
+                ],
+                "approved": "NMPA 2026（二线）",
+                "impact": "DESTINY-Gastric04 让 T-DXd 从三线前移二线，国内 HER2+ 胃癌患者基数全球最大"
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "瑞康曲妥珠单抗 / 维迪西妥单抗",
+                "name_en": "SHR-A1811 / Disitamab Vedotin",
+                "company": "恒瑞 / 荣昌",
+                "stage": "Phase 3（维迪西妥单抗三线已上市）",
+                "trial": "—",
+                "status": "RC48 三线 HER2 过表达已获批",
+                "design": "国产 HER2 ADC 对比化疗",
+                "impact": "价格优势下分流 Enhertu 二线份额"
+              }
+            ]
           }
         ]
       },
@@ -111,15 +127,15 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "Nivolumab + Trastuzumab + Chemo",
-                "name_en": "Nivolumab (Opdivo) + Trastuzumab + Chemo",
-                "manufacturer": "BMS / Roche",
+                "name_cn": "Pembrolizumab + Trastuzumab + Chemo",
+                "name_en": "Pembrolizumab (Keytruda) + Trastuzumab + Chemo",
+                "manufacturer": "Merck / Roche",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": 400000,
                 "market_share": "55%",
                 "selling_points": [
-                  "CheckMate-811: OS benefit HER2+ CPS≥5",
-                  "FDA approved 2023"
+                  "KEYNOTE-811: OS 20.0m vs 16.8m (HR 0.80)",
+                  "FDA accelerated approval 2021-05; restricted to PD-L1 CPS≥1 in 2023-11"
                 ]
               },
               {
@@ -134,10 +150,23 @@
                   "2026-08-25 FDA批准一线HER2+（IHC 3+ 或 2+/ISH+）胃/GEJ/食管腺癌，不限PD-L1",
                   "HERIZON-GEA-01：PFS 12.4m vs 8.1m，OS 26.4m vs 19.2m（vs 曲妥珠单抗+化疗）",
                   "无替雷利珠方案仅限IHC 3+；首个头对头击败曲妥珠单抗的HER2双抗"
-                ]
+                ],
+                "approved": "FDA 2026-08",
+                "impact": "HERIZON-GEA-01（PFS 12.4 vs 8.1 个月；联合替雷利珠 OS 26.4 vs 19.2 个月）取代用了 15 年的曲妥珠单抗，成为 HER2+ 胃癌一线新骨架"
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "T-DXd + 氟尿嘧啶 + 帕博利珠单抗",
+                "name_en": "Trastuzumab Deruxtecan + FP + Pembrolizumab",
+                "company": "第一三共 / 阿斯利康",
+                "stage": "Phase 3",
+                "trial": "DESTINY-Gastric05",
+                "status": "入组中",
+                "design": "ADC 替代曲妥珠单抗 + 铂类，一线 HER2+ PD-L1 CPS≥1，对比 KEYNOTE-811 方案",
+                "impact": "Enhertu 与泽尼达妥单抗争夺一线：ADC vs 双表位抗体"
+              }
+            ]
           },
           {
             "line": 2,
@@ -153,12 +182,23 @@
                 "annual_cost_usd": 380000,
                 "market_share": "50%",
                 "selling_points": [
-                  "DESTINY-Gastric01/02: OS benefit",
-                  "FDA approved 2021 (accelerated), 2023 regular"
+                  "DESTINY-Gastric01: OS 12.5m vs 8.4m",
+                  "FDA approved 2021-01 (after a trastuzumab-based regimen)"
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "T-DXd 二线确证",
+                "name_en": "Trastuzumab Deruxtecan 2L",
+                "company": "第一三共 / 阿斯利康",
+                "stage": "Phase 3（阳性）",
+                "trial": "DESTINY-Gastric04",
+                "status": "OS 14.7 vs 11.4 个月（HR 0.70）vs 雷莫西尤 + 紫杉醇",
+                "design": "头对头二线标准方案",
+                "impact": "确立 Enhertu 为二线标准；一线换成泽尼达妥单抗后二者形成序贯而非竞争"
+              }
+            ]
           }
         ]
       }
@@ -180,6 +220,37 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "可切除胃癌 / GEJ（围手术期）",
+            "label_en": "Resectable gastric / GEJ (perioperative)",
+            "options": [
+              {
+                "type": "surgery",
+                "name_cn": "D2 根治术 + 围手术期 / 辅助化疗（SOX、XELOX、S-1）",
+                "name_en": "D2 gastrectomy + perioperative / adjuvant chemotherapy",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "国内可切除胃癌现行标准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
+                "name_en": "Durvalumab + FLOT perioperative",
+                "company": "阿斯利康",
+                "stage": "美国已批（2025-11）/ 中国未见获批公告",
+                "trial": "MATTERHORN",
+                "status": "EFS HR 0.71，OS HR 0.78",
+                "design": "可切除胃癌/GEJ 围手术期免疫 + FLOT 对比 FLOT",
+                "impact": "首个围手术期胃癌免疫方案，国内以 D2 手术 + 辅助化疗为主，接受度待观察"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗",
             "label_en": "1st Line",
@@ -193,10 +264,9 @@
                 "annual_cost_usd": null,
                 "market_share": "25%",
                 "selling_points": [
-                  "COMPASSION-15：OS 15.0m vs 12.0m（HR 0.62）",
-                  "全球首个PD-1/CTLA-4双抗获批胃癌（NMPA 2024年12月）",
-                  "无需PD-L1筛选，HER2阴性均可用",
-                  "ORR 58% vs 38%（化疗组）"
+                  "COMPASSION-15：OS 15.0 vs 10.8 个月（HR 0.62）",
+                  "全球首个获批胃癌的 PD-1/CTLA-4 双抗（NMPA 2024-09）",
+                  "无需 PD-L1 筛选，HER2 阴性均可用"
                 ]
               },
               {
@@ -238,24 +308,44 @@
                   "基础化疗方案，经济负担低",
                   "医保覆盖，可及性高"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "佐妥昔单抗 + 化疗（CLDN18.2+）",
+                "name_en": "Zolbetuximab (Vyloy) + Chemo",
+                "manufacturer": "安斯泰来 Astellas",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "SPOTLIGHT：OS 18.2 vs 15.5 个月；GLOW：14.4 vs 12.2 个月",
+                  "CLDN18.2 阳性（≥75% 细胞 2+/3+）约占 38%",
+                  "恶心呕吐明显，需住院首次输注"
+                ],
+                "approved": "NMPA 2025-01",
+                "impact": "首个 CLDN18.2 靶向药，但与 PD-1 + 化疗人群重叠且无法联用，渗透率低于预期"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Zolbetuximab（佐妥昔单抗）+ 化疗",
-                "name_en": "Zolbetuximab + Chemo",
-                "company": "安斯泰来 Astellas",
-                "stage": "已上市（日本/欧盟），中国NDA申报中",
-                "trial": "SPOTLIGHT / GLOW",
-                "status": "CLDN18.2阳性HER2阴性胃癌一线，OS获益，NMPA申报中"
-              },
-              {
-                "name_cn": "依沃西单抗（AK112）+ 化疗",
-                "name_en": "Ivonescimab (AK112) + Chemo",
+                "name_cn": "依沃西单抗 + 化疗",
+                "name_en": "Ivonescimab + Chemo",
                 "company": "康方生物 Akeso",
                 "stage": "Phase 3",
-                "trial": "COMPASSION-20",
-                "status": "PD-1/VEGF双抗，胃癌一线Phase 3进行中"
+                "trial": "HARMONi-GI3 等",
+                "status": "一线胃癌 III 期入组中",
+                "design": "PD-1/VEGF 双抗 + 化疗对比 PD-1 + 化疗",
+                "impact": "若优效，将替代全部 PD-1 + 化疗一线方案（国内最大的胃癌市场）"
+              },
+              {
+                "name_cn": "CLDN18.2 ADC 一线（SHR-A1904 / IBI343）",
+                "name_en": "SHR-A1904 / IBI343 1L",
+                "company": "恒瑞医药 / 信达生物",
+                "stage": "Phase 3",
+                "trial": "G-HOPE-001 等",
+                "status": "后线 III 期进行中，一线联合探索",
+                "design": "CLDN18.2 ADC + PD-1 ± 化疗",
+                "impact": "国产 CLDN18.2 ADC 至少 4 家进入 III 期，后线将迅速拥挤"
               }
             ]
           },
@@ -266,7 +356,7 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "雷莫芦单抗（赛兰泽）± 紫杉醇",
+                "name_cn": "雷莫西尤单抗（希冉择）± 紫杉醇",
                 "name_en": "Ramucirumab (Cyramza) ± Paclitaxel",
                 "manufacturer": "礼来 Eli Lilly",
                 "annual_cost_rmb": 150000,
@@ -274,7 +364,7 @@
                 "market_share": "30%",
                 "selling_points": [
                   "RAINBOW研究：OS 9.6m vs 7.4m",
-                  "NMPA批准二线胃癌"
+                  "NMPA 2022 年批准二线胃癌"
                 ]
               },
               {
@@ -291,7 +381,28 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "CLDN18.2 ADC（sonesitatug vedotin 等）",
+                "name_en": "Sonesitatug Vedotin (AZD0901/CMG901)",
+                "company": "阿斯利康 / 康诺亚-乐普",
+                "stage": "Phase 3（阳性）",
+                "trial": "CLARITY-Gastric01",
+                "status": "ESMO 2026：三线及以上 OS 10.0 vs 5.0 个月（HR 0.47）；ITT OS 10.6 vs 6.4 个月（HR 0.58）",
+                "design": "CLDN18.2 ADC 对比研究者选择的化疗/标准治疗，经治 CLDN18.2 阳性胃癌",
+                "impact": "首个 III 期 OS 阳性的 CLDN18.2 ADC，将成为后线标准并向一线（联合 IO）推进，佐妥昔单抗面临被迭代"
+              },
+              {
+                "name_cn": "呋喹替尼 + 紫杉醇",
+                "name_en": "Fruquintinib + Paclitaxel",
+                "company": "和黄医药",
+                "stage": "NDA 2023-04 受理，未见获批公告",
+                "trial": "FRUTIGA",
+                "status": "PFS 5.6 vs 2.7 个月（HR 0.57）；OS 未达统计学显著",
+                "design": "口服 VEGFR TKI + 紫杉醇对比紫杉醇，二线",
+                "impact": "PFS 阳性但 OS 未达显著，监管结论未明；若获批将是雷莫西尤单抗之外的口服二线选择"
+              }
+            ]
           }
         ]
       },
@@ -306,6 +417,29 @@
           "CT staging"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "可切除胃癌 / GEJ（围手术期）",
+            "label_en": "Resectable gastric / GEJ (perioperative)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
+                "name_en": "Durvalumab (Imfinzi) + FLOT",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "MATTERHORN（N=948）：EFS HR 0.71，OS HR 0.78",
+                  "FDA 2025-11-25 批准：可切除胃 / GEJ 腺癌，围手术期联合 FLOT"
+                ],
+                "approved": "FDA 2025-11",
+                "impact": "Imfinzi（2025 年 $60.6 亿）再添一个早期适应症"
+              }
+            ],
+            "pipeline": []
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -337,16 +471,44 @@
                   "KEYNOTE-859: OS 12.9m vs 11.5m (all comers)",
                   "FDA approved for GEJ/gastric CPS≥1"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "佐妥昔单抗 + 化疗（CLDN18.2+）",
+                "name_en": "Zolbetuximab (Vyloy) + Chemo",
+                "manufacturer": "安斯泰来 Astellas",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "SPOTLIGHT：OS 18.2 vs 15.5 个月；GLOW：14.4 vs 12.2 个月",
+                  "CLDN18.2 阳性（≥75% 细胞 2+/3+）约占 38%",
+                  "恶心呕吐明显，需住院首次输注"
+                ],
+                "approved": "FDA 2024-10",
+                "impact": "首个 CLDN18.2 靶向药，但与 PD-1 + 化疗人群重叠且无法联用，渗透率低于预期"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Zolbetuximab + Chemo",
-                "name_en": "Zolbetuximab + Chemo",
-                "company": "Astellas",
-                "stage": "FDA已批准（2024）",
-                "trial": "SPOTLIGHT / GLOW",
-                "status": "CLDN18.2+ HER2- gastric 1L, FDA approved 2024"
+                "name_cn": "CLDN18.2 ADC（sonesitatug vedotin 等）",
+                "name_en": "Sonesitatug Vedotin (AZD0901/CMG901)",
+                "company": "阿斯利康 / 康诺亚-乐普",
+                "stage": "Phase 3（阳性）",
+                "trial": "CLARITY-Gastric01",
+                "status": "ESMO 2026：三线及以上 OS 10.0 vs 5.0 个月（HR 0.47）；ITT OS 10.6 vs 6.4 个月（HR 0.58）",
+                "design": "CLDN18.2 ADC 对比研究者选择的化疗/标准治疗，经治 CLDN18.2 阳性胃癌",
+                "impact": "首个 III 期 OS 阳性的 CLDN18.2 ADC，将成为后线标准并向一线（联合 IO）推进，佐妥昔单抗面临被迭代"
+              },
+              {
+                "name_cn": "依沃西单抗 + 化疗",
+                "name_en": "Ivonescimab + Chemo",
+                "company": "康方生物 Akeso",
+                "stage": "Phase 3",
+                "trial": "HARMONi-GI3 等",
+                "status": "一线胃癌 III 期入组中",
+                "design": "PD-1/VEGF 双抗 + 化疗对比 PD-1 + 化疗",
+                "impact": "若优效，将替代全部 PD-1 + 化疗一线方案（国内最大的胃癌市场）"
               }
             ]
           },
@@ -369,7 +531,28 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "CLDN18.2 ADC（sonesitatug vedotin 等）",
+                "name_en": "Sonesitatug Vedotin (AZD0901/CMG901)",
+                "company": "阿斯利康 / 康诺亚-乐普",
+                "stage": "Phase 3（阳性）",
+                "trial": "CLARITY-Gastric01",
+                "status": "ESMO 2026：三线及以上 OS 10.0 vs 5.0 个月（HR 0.47）；ITT OS 10.6 vs 6.4 个月（HR 0.58）",
+                "design": "CLDN18.2 ADC 对比研究者选择的化疗/标准治疗，经治 CLDN18.2 阳性胃癌",
+                "impact": "首个 III 期 OS 阳性的 CLDN18.2 ADC，将成为后线标准并向一线（联合 IO）推进，佐妥昔单抗面临被迭代"
+              },
+              {
+                "name_cn": "Bemarituzumab（FGFR2b+）",
+                "name_en": "Bemarituzumab",
+                "company": "安进 Amgen",
+                "stage": "Phase 3",
+                "trial": "FORTITUDE-101 / -102",
+                "status": "FORTITUDE-101 达到 OS 终点但随访延长后获益减弱",
+                "design": "FGFR2b 单抗 + 化疗，一线 FGFR2b 过表达",
+                "impact": "角膜毒性 + OS 获益衰减，商业前景明显下调"
+              }
+            ]
           }
         ]
       }

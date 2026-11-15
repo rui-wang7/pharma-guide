@@ -81,16 +81,43 @@
                       "GDMT基石，显著降低死亡率",
                       "极低价格，医保全覆盖"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "维立西呱（维可同）",
+                    "name_en": "Vericiguat (Verquvo)",
+                    "manufacturer": "拜耳 Bayer / 默沙东 Merck",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "VICTORIA：心血管死亡或心衰住院 HR 0.90",
+                      "VICTOR 主要终点未达，但心血管死亡降低",
+                      "NMPA 已批准，定位于近期恶化的高危患者，已进医保"
+                    ],
+                    "impact": "定位于近期恶化的高危患者，国内已进医保"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Finerenone（非奈利酮）心衰适应症",
-                    "name_en": "Finerenone (Kerendia) - HF indication",
+                    "name_cn": "非奈利酮（HFrEF）",
+                    "name_en": "Finerenone (Kerendia) — HFrEF",
                     "company": "拜耳 Bayer",
                     "stage": "Phase 3",
-                    "trial": "FINEARTS-HF",
-                    "status": "非甾体MRA，HFmrEF/HFpEF，FINEARTS-HF 2024年阳性结果"
+                    "trial": "FINALITY-HF",
+                    "status": "入组中；HFmrEF/HFpEF 已于 2025-07 获批（FINEARTS-HF）",
+                    "design": "非甾体 MRA 对比安慰剂，不耐受甾体 MRA 的 HFrEF",
+                    "impact": "拜耳把 Kerendia 从 CKD 扩到全射血分数谱心衰，目标峰值 >€30 亿"
+                  },
+                  {
+                    "name_cn": "Balcinrenone + 达格列净",
+                    "name_en": "Balcinrenone/Dapagliflozin FDC",
+                    "company": "阿斯利康 AstraZeneca",
+                    "stage": "Phase 3",
+                    "trial": "BalanceD-HF",
+                    "status": "入组中",
+                    "design": "新型 MR 调节剂 + SGLT2i 固定复方，对比达格列净",
+                    "impact": "Farxiga（2025 年 $84 亿）专利到期前的生命周期管理"
                   }
                 ]
               }
@@ -99,7 +126,7 @@
           "us": {
             "annual_new_cases": 900000,
             "annual_new_cases_note": "US HF prevalence ~6.7M, ~900K new cases/yr",
-            "tam_usd_bn": 10.0,
+            "tam_usd_bn": 7.0,
             "diagnosis_steps": [
               "Echocardiogram (LVEF <40%)",
               "NT-proBNP / BNP",
@@ -124,7 +151,8 @@
                       "PARADIGM-HF: 20% reduction in death+hospitalization",
                       "ACCF/AHA Class I",
                       "Generics available 2025"
-                    ]
+                    ],
+                    "impact": "美国仿制药 2025 年上市；Entresto（2025 年全球 $77.5 亿）进入专利悬崖，HFrEF 四联疗法全面仿制化，品牌市场规模将收缩"
                   },
                   {
                     "type": "drug",
@@ -139,7 +167,28 @@
                     ]
                   }
                 ],
-                "pipeline": []
+                "pipeline": [
+                  {
+                    "name_cn": "非奈利酮（HFrEF）",
+                    "name_en": "Finerenone (Kerendia) — HFrEF",
+                    "company": "拜耳 Bayer",
+                    "stage": "Phase 3",
+                    "trial": "FINALITY-HF",
+                    "status": "入组中；HFmrEF/HFpEF 已于 2025-07 获批（FINEARTS-HF）",
+                    "design": "非甾体 MRA 对比安慰剂，不耐受甾体 MRA 的 HFrEF",
+                    "impact": "拜耳把 Kerendia 从 CKD 扩到全射血分数谱心衰，目标峰值 >€30 亿"
+                  },
+                  {
+                    "name_cn": "Balcinrenone + 达格列净",
+                    "name_en": "Balcinrenone/Dapagliflozin FDC",
+                    "company": "阿斯利康 AstraZeneca",
+                    "stage": "Phase 3",
+                    "trial": "BalanceD-HF",
+                    "status": "入组中",
+                    "design": "新型 MR 调节剂 + SGLT2i 固定复方，对比达格列净",
+                    "impact": "Farxiga（2025 年 $84 亿）专利到期前的生命周期管理"
+                  }
+                ]
               }
             ]
           }
@@ -216,24 +265,52 @@
                       "医保报销",
                       "2周一次皮下注射"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "国产 PCSK9 单抗",
+                    "name_en": "Tafolecimab / Recaticimab / Ebronucimab",
+                    "manufacturer": "信达生物 / 恒瑞医药 / 康方生物",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "托莱西单抗 2023 年获批，瑞卡西单抗可每 12 周给药",
+                      "均已进入或谈判进入医保"
+                    ],
+                    "impact": "国产 PCSK9 进医保后年费用降至数千元，进口 Repatha/Praluent 让出份额"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Inclisiran（英克司兰/利卜泰）",
-                    "name_en": "Inclisiran (Leqvio)",
-                    "company": "诺华 Novartis",
-                    "stage": "已上市（欧美）/ 中国2024年获批",
-                    "trial": "ORION系列",
-                    "status": "siRNA靶向PCSK9，每年仅注射2次，中国2024年NMPA批准"
+                    "name_cn": "Enlicitide",
+                    "name_en": "Enlicitide (Lipfendra)",
+                    "company": "默沙东 Merck",
+                    "stage": "美国已批（2026-07）/ 中国状态未核实",
+                    "trial": "CORALreef",
+                    "status": "LDL-C 降 56-59%",
+                    "design": "口服大环肽 PCSK9 抑制剂对比安慰剂",
+                    "impact": "中国他汀后 LDL 达标率低，口服药潜力大于注射药"
+                  },
+                  {
+                    "name_cn": "Lp(a) 降低疗法",
+                    "name_en": "Pelacarsen / Olpasiran / Lepodisiran / Zerlasiran",
+                    "company": "诺华 / 安进 / 礼来 / Silence",
+                    "stage": "Phase 3（首个结局研究为中性）",
+                    "trial": "Lp(a)HORIZON / OCEAN(a)-Outcomes / ACCLAIM-Lp(a)",
+                    "status": "AHA 2026-11-07：pelacarsen 降低 Lp(a) 78% 但 MACE 未显著降低；其余 siRNA 结局研究仍在进行",
+                    "design": "反义/siRNA 沉默 LPA 基因；在 Lp(a) 升高的 ASCVD 患者中验证\"降 Lp(a) 能否减少事件\"",
+                    "impact": "Lp(a) 假说遭遇首次重大挫折——除非降幅更深（>90%）的 siRNA 结局研究成功，否则这一预期中的百亿美元新品类将落空"
                   },
                   {
                     "name_cn": "Obicetrapib",
-                    "name_en": "Obicetrapib",
-                    "company": "NewAmsterdam Pharma",
-                    "stage": "Phase 3 / 欧盟审评（CHMP积极意见，2026-08）",
-                    "trial": "BROADWAY/TANDEM",
-                    "status": "口服CETP抑制剂；EMA/MHRA审评中，伙伴Menarini计划最早2026 Q4在德英上市；PREVAIL结局试验中期分析2026 Q4，结果预计2027 Q1"
+                    "name_en": "Obicetrapib ± Ezetimibe",
+                    "company": "NewAmsterdam Pharma / Menarini",
+                    "stage": "Phase 3 / 欧盟审评",
+                    "trial": "BROADWAY / TANDEM / PREVAIL",
+                    "status": "LDL-C 降 33-49%；心血管结局研究 PREVAIL 待读出",
+                    "design": "CETP 抑制剂每日口服，对比安慰剂；PREVAIL 以 MACE 为终点",
+                    "impact": "CETP 类药物此前四连败，PREVAIL 是决定该靶点能否翻案的最后一役"
                   }
                 ]
               }
@@ -242,7 +319,7 @@
           "us": {
             "annual_new_cases": 5000000,
             "annual_new_cases_note": "US high CV risk dyslipidemia ~30M undertreated patients",
-            "tam_usd_bn": 18.0,
+            "tam_usd_bn": 5.0,
             "diagnosis_steps": [
               "Fasting lipid panel",
               "10-year ASCVD risk (ACC/AHA Pooled Cohort Equations)",
@@ -276,7 +353,7 @@
                     "market_share": "40%",
                     "selling_points": [
                       "FOURIER: MACE -20%",
-                      "Biosimilar competition incoming",
+                      "VESALIUS-CV (2025): MACE benefit extended to patients without prior MI or stroke",
                       "Monthly dosing option"
                     ]
                   },
@@ -292,25 +369,41 @@
                       "2026-07 FDA批准：首个口服PCSK9抑制剂，成人高胆固醇血症（含HeFH）",
                       "CORALreef Lipids：第24周LDL-C降低57.1%（安慰剂+3.0%）；HeFH安慰剂校正降幅59.4%",
                       "每日一片20mg；心血管结局试验CORALreef Outcomes进行中（预计2029）"
-                    ]
+                    ],
+                    "approved": "FDA 2026-07",
+                    "impact": "首个口服 PCSK9 抑制剂（LDL-C 降幅 56-59%），把 PCSK9 从专科注射药变成基层可处方的口服药，Repatha/Leqvio 的增长逻辑被改写"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Lepodisiran",
-                    "name_en": "Lepodisiran",
-                    "company": "Eli Lilly",
-                    "stage": "Phase 3",
-                    "trial": "ACCLAIM-Lp(a)",
-                    "status": "siRNA targeting Lp(a), 1x/year dosing"
+                    "name_cn": "Lp(a) 降低疗法",
+                    "name_en": "Pelacarsen / Olpasiran / Lepodisiran / Zerlasiran",
+                    "company": "诺华 / 安进 / 礼来 / Silence",
+                    "stage": "Phase 3（首个结局研究为中性）",
+                    "trial": "Lp(a)HORIZON / OCEAN(a)-Outcomes / ACCLAIM-Lp(a)",
+                    "status": "AHA 2026-11-07：pelacarsen 降低 Lp(a) 78% 但 MACE 未显著降低；其余 siRNA 结局研究仍在进行",
+                    "design": "反义/siRNA 沉默 LPA 基因；在 Lp(a) 升高的 ASCVD 患者中验证\"降 Lp(a) 能否减少事件\"",
+                    "impact": "Lp(a) 假说遭遇首次重大挫折——除非降幅更深（>90%）的 siRNA 结局研究成功，否则这一预期中的百亿美元新品类将落空"
                   },
                   {
-                    "name_cn": "Zerlasiran",
-                    "name_en": "Zerlasiran",
-                    "company": "Silence Therapeutics",
+                    "name_cn": "Obicetrapib",
+                    "name_en": "Obicetrapib ± Ezetimibe",
+                    "company": "NewAmsterdam Pharma / Menarini",
+                    "stage": "Phase 3 / 欧盟审评",
+                    "trial": "BROADWAY / TANDEM / PREVAIL",
+                    "status": "LDL-C 降 33-49%；心血管结局研究 PREVAIL 待读出",
+                    "design": "CETP 抑制剂每日口服，对比安慰剂；PREVAIL 以 MACE 为终点",
+                    "impact": "CETP 类药物此前四连败，PREVAIL 是决定该靶点能否翻案的最后一役"
+                  },
+                  {
+                    "name_cn": "AZD0780",
+                    "name_en": "AZD0780 (oral PCSK9)",
+                    "company": "阿斯利康",
                     "stage": "Phase 3",
-                    "trial": "ALPACAR-360",
-                    "status": "siRNA Lp(a) knockdown, twice-yearly dosing"
+                    "trial": "AZURE",
+                    "status": "II 期 LDL-C 降 51%",
+                    "design": "口服小分子 PCSK9，无需空腹",
+                    "impact": "第二个口服 PCSK9，与默沙东 enlicitide 竞争，可与他汀做固定复方"
                   }
                 ]
               }

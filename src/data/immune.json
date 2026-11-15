@@ -63,7 +63,8 @@
                       "全球销售额最高药物（峰值）",
                       "TNF抑制剂金标准",
                       "国产生物类似药已上市（约2-3万/年）"
-                    ]
+                    ],
+                    "impact": "年费用降至约 1 万元；TNF 抑制剂在中国已完全仿制化，品牌药份额趋近于零"
                   },
                   {
                     "type": "drug",
@@ -100,21 +101,27 @@
                     "market_share": "15%",
                     "selling_points": [
                       "JAK1/2选择性抑制剂",
-                      "ORAL Standard研究优于阿达木单抗（疗效）",
+                      "RA-BEAM 研究：ACR20 优于阿达木单抗",
                       "每日一片，口服方便"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "艾玛昔替尼（国产 JAK1）",
+                    "name_en": "Ivarmacitinib (SHR0302)",
+                    "manufacturer": "恒瑞医药",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "高选择性 JAK1 抑制剂",
+                      "NMPA 2025-03 批准类风湿关节炎与强直性脊柱炎，2025-04 批准特应性皮炎"
+                    ],
+                    "approved": "NMPA 2025-03",
+                    "impact": "国产 JAK1 进医保后对乌帕替尼（Rinvoq 2025 年全球 $83 亿）形成价格竞争"
                   }
                 ],
-                "pipeline": [
-                  {
-                    "name_cn": "Upadacitinib（瑞纳卡）",
-                    "name_en": "Upadacitinib (Rinvoq)",
-                    "company": "艾伯维 AbbVie",
-                    "stage": "已上市（中国2022年批准）",
-                    "trial": "SELECT系列",
-                    "status": "选择性JAK1抑制剂，SELECT-COMPARE优于阿达木单抗"
-                  }
-                ]
+                "pipeline": []
               },
               {
                 "line": 2,
@@ -149,7 +156,7 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Upadacitinib（瑞纳卡）",
+                    "name_cn": "乌帕替尼（瑞福）",
                     "name_en": "Upadacitinib (Rinvoq)",
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 72000,
@@ -163,20 +170,24 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Filgotinib",
-                    "name_en": "Filgotinib (Jyseleca)",
-                    "company": "吉利德 Gilead / Galapagos",
-                    "stage": "已上市（欧洲）/ 中国Phase 3",
-                    "trial": "FINCH系列",
-                    "status": "选择性JAK1，中国NDA申报中"
+                    "name_cn": "Rosnilimab",
+                    "name_en": "Rosnilimab (PD-1 depleter/agonist)",
+                    "company": "AnaptysBio",
+                    "stage": "Phase 2b（阳性）",
+                    "trial": "RENOIR",
+                    "status": "ACR20/50 在 TNF 经治人群持续改善至 6 个月",
+                    "design": "清除 PD-1 高表达致病 T 细胞，对比安慰剂 + MTX",
+                    "impact": "RA 十多年来首个有潜力的新机制，瞄准 JAK/TNF 失败的难治人群"
                   },
                   {
-                    "name_cn": "Deucravacitinib（苯环喹诺）",
-                    "name_en": "Deucravacitinib (Sotyktu) - RA indication",
-                    "company": "百时美施贵宝 BMS",
-                    "stage": "Phase 3",
-                    "trial": "POETYK RA",
-                    "status": "TYK2抑制剂，银屑病已批，RA适应症Phase 3"
+                    "name_cn": "CD19 CAR-T / T 细胞衔接器",
+                    "name_en": "CD19 CAR-T & CD19/BCMA T-cell engagers",
+                    "company": "BMS、Kyverna、Cullinan 等",
+                    "stage": "Phase 1/2",
+                    "trial": "—",
+                    "status": "难治性 RA 小样本显示无药缓解",
+                    "design": "一次性 B 细胞深度清除，实现\"免疫重置\"",
+                    "impact": "若在 RA 这类大适应症复现狼疮的无药缓解，将颠覆终身用药的生物制剂商业模式"
                   }
                 ]
               }
@@ -185,7 +196,7 @@
           "us": {
             "annual_new_cases": 300000,
             "annual_new_cases_note": "US prevalence ~1.5M, ~300K new cases/yr",
-            "tam_usd_bn": 28.0,
+            "tam_usd_bn": 16,
             "diagnosis_steps": [
               "2010 ACR/EULAR criteria",
               "RF + Anti-CCP, CRP/ESR",
@@ -228,8 +239,9 @@
                     "selling_points": [
                       "SELECT-COMPARE: superior to adalimumab",
                       "JAK1-selective, strong efficacy",
-                      "NCCN/ACR preferred"
-                    ]
+                      "ACR guideline option; FDA label requires prior TNF-inhibitor failure"
+                    ],
+                    "impact": "ORAL Surveillance 后 FDA 黑框警告要求 TNF 抑制剂失败后方可使用 JAK 抑制剂，客观上保护了生物制剂"
                   },
                   {
                     "type": "drug",
@@ -241,7 +253,8 @@
                     "selling_points": [
                       "Multiple biosimilars driving price down >70%",
                       "Extensive real-world data"
-                    ]
+                    ],
+                    "impact": "Humira 2025 年美国销售降至 $30.6 亿（峰值 $186 亿）；PBM 自有品牌生物类似药在 2025 年完成对 Humira 的替代，艾伯维靠 Skyrizi + Rinvoq（合计 $259 亿）完成切换"
                   },
                   {
                     "type": "drug",
@@ -258,12 +271,24 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Satralizumab（IL-6R）RA indication",
-                    "name_en": "Satralizumab",
-                    "company": "Roche",
-                    "stage": "Phase 3",
-                    "trial": "SakuraSky RA",
-                    "status": "Monthly subcut IL-6R, NMO already approved"
+                    "name_cn": "Rosnilimab",
+                    "name_en": "Rosnilimab (PD-1 depleter/agonist)",
+                    "company": "AnaptysBio",
+                    "stage": "Phase 2b（阳性）",
+                    "trial": "RENOIR",
+                    "status": "ACR20/50 在 TNF 经治人群持续改善至 6 个月",
+                    "design": "清除 PD-1 高表达致病 T 细胞，对比安慰剂 + MTX",
+                    "impact": "RA 十多年来首个有潜力的新机制，瞄准 JAK/TNF 失败的难治人群"
+                  },
+                  {
+                    "name_cn": "CD19 CAR-T / T 细胞衔接器",
+                    "name_en": "CD19 CAR-T & CD19/BCMA T-cell engagers",
+                    "company": "BMS、Kyverna、Cullinan 等",
+                    "stage": "Phase 1/2",
+                    "trial": "—",
+                    "status": "难治性 RA 小样本显示无药缓解",
+                    "design": "一次性 B 细胞深度清除，实现\"免疫重置\"",
+                    "impact": "若在 RA 这类大适应症复现狼疮的无药缓解，将颠覆终身用药的生物制剂商业模式"
                   }
                 ]
               }
@@ -327,47 +352,59 @@
                     "selling_points": [
                       "IL-4/IL-13双靶，2类辅助性T细胞通路",
                       "LIBERTY AD系列研究：IGA 0/1达36-44%",
-                      "2020年NMPA批准成人，2022年青少年"
+                      "NMPA 2020 年批准成人，此后扩展至青少年和儿童"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Upadacitinib（瑞纳卡）",
+                    "name_cn": "乌帕替尼（瑞福）",
                     "name_en": "Upadacitinib (Rinvoq) 15/30mg",
                     "manufacturer": "艾伯维 AbbVie",
                     "annual_cost_rmb": 72000,
                     "market_share": "25%",
                     "selling_points": [
-                      "Heads-up vs度普利尤单抗（Measure Up/AD Up）疗效更优",
+                      "Heads Up 研究：头对头优于度普利尤单抗；Measure Up 1/2、AD Up 为安慰剂对照",
                       "JAK1选择性，口服便利",
                       "NMPA 2022年批准"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "司普奇拜单抗（康悦达）",
+                    "name_en": "Stapokibart (CM310)",
+                    "manufacturer": "康诺亚 Keymed",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "国产首个 IL-4Rα 单抗，NMPA 2024-09 获批",
+                      "52 周 EASI-75 约 90%",
+                      "已进医保"
+                    ],
+                    "approved": "NMPA 2024-09",
+                    "impact": "国产 IL-4R 以价格切入，Dupixent 在华份额开始被分流"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Tralokinumab（帝益擦）",
-                    "name_en": "Tralokinumab (Adtralza)",
-                    "company": "Leo Pharma",
-                    "stage": "已上市（欧洲/美国）/ 中国Phase 3",
-                    "trial": "ECZTRA系列",
-                    "status": "IL-13单靶抗体，中国申报NDA"
+                    "name_cn": "OX40/OX40L 通路（amlitelimab / rocatinlimab）",
+                    "name_en": "Amlitelimab / Rocatinlimab",
+                    "company": "赛诺菲 Sanofi / 安进-协和麒麟",
+                    "stage": "Phase 3（阳性但幅度一般）",
+                    "trial": "COAST / ROCKET",
+                    "status": "EASI-75 安慰剂校正约 15-25%，低于 Dupixent；每 12 周给药",
+                    "design": "阻断 OX40-OX40L 以重塑 T 细胞记忆，对比安慰剂；卖点是停药后维持与超长给药间隔",
+                    "impact": "疗效不及 IL-4R/IL-13，但季度给药有望在维持治疗中占一席之地——赛诺菲的 Dupixent 接班计划被下调"
                   },
                   {
-                    "name_cn": "Lebrikizumab（乐布利单抗）",
-                    "name_en": "Lebrikizumab (Ebglyss)",
-                    "company": "礼来 Eli Lilly",
-                    "stage": "已上市（欧洲/美国）/ 中国Phase 3",
-                    "trial": "ADvocate系列",
-                    "status": "IL-13单靶，每4周一次维持给药，中国NDA中"
-                  },
-                  {
-                    "name_cn": "Nemolizumab",
-                    "name_en": "Nemolizumab (Nemluvio)",
-                    "company": "加拉帕格斯/Dermira/Galderma",
-                    "stage": "已上市（美国2024）/ 中国Phase 3",
-                    "trial": "ARCADIA",
-                    "status": "IL-31RA靶向，主攻瘙痒症状"
+                    "name_cn": "来瑞组单抗 / 奈莫利珠单抗",
+                    "name_en": "Lebrikizumab (Ebglyss) / Nemolizumab (Nemluvio)",
+                    "company": "礼来 / 高德美",
+                    "stage": "美欧已上市 / 中国状态未核实",
+                    "trial": "ADvocate / ARCADIA",
+                    "status": "Ebglyss 可每月一次维持",
+                    "design": "IL-13 与 IL-31R 单抗对比安慰剂",
+                    "impact": "IL-13 单抗月度给药，与 Dupixent 双周给药差异化"
                   }
                 ]
               }
@@ -376,13 +413,48 @@
           "us": {
             "annual_new_cases": 3000000,
             "annual_new_cases_note": "US prevalence ~10-15M adults, moderate-severe ~3M",
-            "tam_usd_bn": 8.0,
+            "tam_usd_bn": 10,
             "diagnosis_steps": [
               "Clinical diagnosis (EASI/IGA/SCORAD)",
               "Allergen testing",
               "Exclude psoriasis, contact dermatitis"
             ],
             "treatment_lines": [
+              {
+                "line": "early",
+                "label_cn": "外用治疗（轻中度）",
+                "label_en": "Topical therapy (mild-to-moderate)",
+                "options": [
+                  {
+                    "type": "drug",
+                    "name_cn": "外用糖皮质激素 / 钙调磷酸酶抑制剂",
+                    "name_en": "Topical corticosteroids / calcineurin inhibitors",
+                    "manufacturer": "通用",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "轻中度特应性皮炎的基础治疗"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "Difamilast 软膏（Adquey）",
+                    "name_en": "Difamilast (Adquey) topical PDE4",
+                    "manufacturer": "大冢 Otsuka / Medimetriks",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "FDA 2026-02 批准：≥2 岁轻中度特应性皮炎",
+                      "非激素外用 PDE4 抑制剂"
+                    ],
+                    "approved": "FDA 2026-02",
+                    "impact": "外用非激素赛道（Zoryve、Vtama、Opzelura）更趋拥挤"
+                  }
+                ],
+                "pipeline": []
+              },
               {
                 "line": 1,
                 "label_cn": "一线系统治疗",
@@ -409,7 +481,7 @@
                     "annual_cost_usd": 60000,
                     "market_share": "20%",
                     "selling_points": [
-                      "Superior to dupilumab in head-to-head (Measure Up)",
+                      "Superior to dupilumab in head-to-head (Heads Up)",
                       "Oral, rapid onset",
                       "FDA approved 2022"
                     ]
@@ -430,20 +502,24 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Lebrikizumab",
-                    "name_en": "Lebrikizumab (Ebglyss)",
-                    "company": "Eli Lilly",
-                    "stage": "已上市（2023）",
-                    "trial": "ADvocate 1&2",
-                    "status": "IL-13, q4w maintenance dosing, growing market share"
+                    "name_cn": "OX40/OX40L 通路（amlitelimab / rocatinlimab）",
+                    "name_en": "Amlitelimab / Rocatinlimab",
+                    "company": "赛诺菲 Sanofi / 安进-协和麒麟",
+                    "stage": "Phase 3（阳性但幅度一般）",
+                    "trial": "COAST / ROCKET",
+                    "status": "EASI-75 安慰剂校正约 15-25%，低于 Dupixent；每 12 周给药",
+                    "design": "阻断 OX40-OX40L 以重塑 T 细胞记忆，对比安慰剂；卖点是停药后维持与超长给药间隔",
+                    "impact": "疗效不及 IL-4R/IL-13，但季度给药有望在维持治疗中占一席之地——赛诺菲的 Dupixent 接班计划被下调"
                   },
                   {
-                    "name_cn": "Amlitelimab",
-                    "name_en": "Amlitelimab",
-                    "company": "Sanofi",
-                    "stage": "Phase 3（阳性）/ 准备全球申报",
-                    "trial": "COAST-1 / COAST-2 / SHORE",
-                    "status": "抗OX40L单抗；2026-01 III期达到第24周全部主要/关键次要终点（美国估计量），Q4W/Q12W vIGA 0/1 28.7%/32.3% vs 16.8%；COAST-2部分EU终点未达显著；ESTUARY维持期数据2026下半年"
+                    "name_cn": "Dupixent 专利悬崖前的迭代",
+                    "name_en": "Next-gen IL-4R/IL-13 (long-acting)",
+                    "company": "Apogee (APG777)、赛诺菲 等",
+                    "stage": "Phase 2/3",
+                    "trial": "APEX",
+                    "status": "APG777 每 3-6 个月给药",
+                    "design": "半衰期延长的 IL-13 单抗",
+                    "impact": "Dupixent 2025 年全球 $178 亿，2031 年专利到期，长效 IL-13 是最直接的替代威胁"
                   }
                 ]
               }
@@ -499,7 +575,7 @@
                     "selling_points": [
                       "IL-17A单抗，PASI 90更高达70-80%",
                       "UNCOVER研究优于依那西普",
-                      "NMPA批准银屑病+PsA"
+                      "NMPA 2019 年批准中重度斑块型银屑病"
                     ]
                   },
                   {
@@ -512,12 +588,12 @@
                     "selling_points": [
                       "IL-23p19选择性抑制，PASI 90达73%",
                       "维持治疗每8周一次",
-                      "NMPA 2021年批准"
+                      "NMPA 2019-12 批准，国内首个 IL-23 单抗"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Deucravacitinib（苯环喹诺）",
+                    "name_cn": "氘可来昔替尼（颂狄多）",
                     "name_en": "Deucravacitinib (Sotyktu)",
                     "manufacturer": "百时美施贵宝 BMS",
                     "annual_cost_rmb": 70000,
@@ -527,6 +603,21 @@
                       "POETYK PSO系列优于阿普斯特",
                       "NMPA 2023年批准，口服选项"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "赛立奇单抗 / 夫那奇珠单抗（国产 IL-17A）",
+                    "name_en": "Xeligekimab / Vunakizumab",
+                    "manufacturer": "智翔金泰 / 恒瑞医药",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "PASI 90 约 70-80%（对比安慰剂）",
+                      "两款国产 IL-17A 单抗均于 2024 年获 NMPA 批准中重度斑块型银屑病"
+                    ],
+                    "approved": "NMPA 2024",
+                    "impact": "国产 IL-17A 进医保后，司库奇尤单抗/依奇珠单抗面临价格战"
                   }
                 ],
                 "pipeline": [
@@ -534,17 +625,31 @@
                     "name_cn": "Bimekizumab（贝美珠单抗）",
                     "name_en": "Bimekizumab (Bimzelx)",
                     "company": "UCB",
-                    "stage": "已上市（欧美）/ 中国NDA申报",
+                    "stage": "欧美已上市 / 中国状态未核实",
                     "trial": "BE VIVID/READY/SURE",
-                    "status": "IL-17A/F双靶，PASI 90达85-91%，优于司库奇尤单抗和阿达木单抗"
+                    "status": "IL-17A/F双靶，PASI 90达85-91%，优于司库奇尤单抗和阿达木单抗",
+                    "design": "IL-17A/F 双重抑制，头对头对比司库奇尤单抗、阿达木单抗",
+                    "impact": "若在华上市，将以更高的皮损完全清除率挑战 IL-17A 单抗"
                   },
                   {
                     "name_cn": "Icotrokinra（口服IL-23R拮抗肽）",
                     "name_en": "Icotrokinra (Icotyde)",
                     "company": "强生 J&J",
-                    "stage": "已上市（美国2026-03）/ 中国待申报",
+                    "stage": "美国已批（2026-03）/ 中国状态未核实",
                     "trial": "ICONIC",
-                    "status": "首个口服IL-23通路药物，头对头优于deucravacitinib"
+                    "status": "美国 2026-03 获批",
+                    "design": "口服 IL-23R 拮抗肽，ICONIC 系列对比安慰剂及 deucravacitinib",
+                    "impact": "口服药进入中国后，将分流不愿注射的中度患者"
+                  },
+                  {
+                    "name_cn": "Zasocitinib（TAK-279）",
+                    "name_en": "Zasocitinib (TAK-279, TYK2i)",
+                    "company": "武田 Takeda",
+                    "stage": "NDA 优先审评（预计 2027 Q1 决定）",
+                    "trial": "LATITUDE PsO-1/2 及头对头研究",
+                    "status": "头对头优于 deucravacitinib；PASI 90 约 50-60%",
+                    "design": "高选择性口服 TYK2 抑制剂，对比安慰剂、阿普米司特及 deucravacitinib",
+                    "impact": "与 icotrokinra 争夺\"口服达到生物制剂疗效\"市场，Sotyktu 将被两面夹击"
                   }
                 ]
               }
@@ -553,7 +658,7 @@
           "us": {
             "annual_new_cases": 900000,
             "annual_new_cases_note": "US prevalence ~8M, moderate-severe ~2M active treatment",
-            "tam_usd_bn": 15.0,
+            "tam_usd_bn": 20,
             "diagnosis_steps": [
               "Clinical diagnosis (PASI/IGA/BSA)",
               "PASI ≥12 or BSA ≥10% = moderate-severe"
@@ -616,17 +721,31 @@
                       "2026-03-18 FDA批准：首个口服IL-23受体靶向肽，≥12岁中重度斑块状银屑病",
                       "ICONIC-ADVANCE头对头优于deucravacitinib（第16/24周）",
                       "第16周约70% IGA 0/1、约55% PASI 90；安全性接近安慰剂"
-                    ]
+                    ],
+                    "approved": "FDA 2026-03",
+                    "impact": "首个口服 IL-23R 肽，疗效接近注射生物制剂；强生用它承接 Stelara 专利到期后的皮科/消化科版图"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Spesolimab（斯派索利单抗）",
-                    "name_en": "Spesolimab (Spevigo)",
-                    "company": "勃林格殷格翰 Boehringer Ingelheim",
-                    "stage": "已上市（GPP）/ 慢性斑块型Phase 3",
-                    "trial": "Effisayil-2",
-                    "status": "IL-36R抗体，脓疱型银屑病已批"
+                    "name_cn": "Zasocitinib（TAK-279）",
+                    "name_en": "Zasocitinib (TAK-279, TYK2i)",
+                    "company": "武田 Takeda",
+                    "stage": "NDA 优先审评（预计 2027 Q1 决定）",
+                    "trial": "LATITUDE PsO-1/2 及头对头研究",
+                    "status": "头对头优于 deucravacitinib；PASI 90 约 50-60%",
+                    "design": "高选择性口服 TYK2 抑制剂，对比安慰剂、阿普米司特及 deucravacitinib",
+                    "impact": "与 icotrokinra 争夺\"口服达到生物制剂疗效\"市场，Sotyktu 将被两面夹击"
+                  },
+                  {
+                    "name_cn": "Sonelokimab",
+                    "name_en": "Sonelokimab (IL-17A/F nanobody)",
+                    "company": "MoonLake",
+                    "stage": "Phase 3",
+                    "trial": "VELA / IZAR",
+                    "status": "HS III 期数据不及预期（2025-09），PsA 继续",
+                    "design": "IL-17A/F 纳米抗体",
+                    "impact": "HS 数据失利后与 Bimzelx（2025 年 >€22 亿）差距拉大"
                   }
                 ]
               }
@@ -681,28 +800,60 @@
                     "annual_cost_rmb": 150000,
                     "market_share": "25%",
                     "selling_points": [
-                      "IL-12/23双靶，UNIFI/UNIFI-LTE研究",
+                      "IL-12/23双靶，UNITI-1/2、IM-UNITI 研究",
                       "感染风险低",
                       "NMPA 2020年批准CD适应症"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "利生奇珠单抗（Skyrizi）",
+                    "name_en": "Risankizumab (Skyrizi)",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "ADVANCE / MOTIVATE / FORTIFY：诱导与维持缓解均优于安慰剂",
+                      "NMPA 已批准中重度活动性克罗恩病"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "米吉珠单抗（Omvoh）",
+                    "name_en": "Mirikizumab (Omvoh)",
+                    "manufacturer": "礼来 Lilly",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "VIVID-1：临床缓解与内镜应答优于安慰剂",
+                      "NMPA 2026-02 批准克罗恩病与溃疡性结肠炎"
+                    ],
+                    "approved": "NMPA 2026-02",
+                    "impact": "IL-23 p19 单抗正替代 TNF 抑制剂成为国内中重度 IBD 的一线生物制剂"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Risankizumab（斯奇乐）",
-                    "name_en": "Risankizumab (Skyrizi)",
-                    "company": "艾伯维 AbbVie",
-                    "stage": "已上市（美国/欧洲）/ 中国NDA申报中",
-                    "trial": "ADVANCE/MOTIVATE/FORTIFY",
-                    "status": "IL-23p19，诱导缓解率更优，中国申报适应症"
+                    "name_cn": "TL1A 单抗（tulisokibart / duvakitug / afimkibart）",
+                    "name_en": "Tulisokibart / Duvakitug / Afimkibart",
+                    "company": "默沙东 / 赛诺菲-梯瓦 / 罗氏",
+                    "stage": "Phase 3",
+                    "trial": "ARES-CD / ATLAS-UC / SUNSCAPE 等",
+                    "status": "三家 III 期并行入组；II 期临床缓解率较安慰剂高 20-25 个百分点",
+                    "design": "阻断 TL1A（兼具抗炎与抗纤维化），部分研究用伴随诊断富集应答者",
+                    "impact": "IBD 领域十年来最热的新靶点，三家 MNC 共投入 >$250 亿收购；首个获批者有望成为 Skyrizi 之后的新标准"
                   },
                   {
-                    "name_cn": "Mirikizumab",
-                    "name_en": "Mirikizumab (Omvoh)",
-                    "company": "礼来 Eli Lilly",
-                    "stage": "已上市（UC）/ CD Phase 3",
-                    "trial": "LUCENT / VIVID",
-                    "status": "IL-23p19，UC已批，CD申报中"
+                    "name_cn": "古塞奇尤单抗（CD）",
+                    "name_en": "Guselkumab (Tremfya) — CD",
+                    "company": "强生 J&J",
+                    "stage": "美国已批（2025-03）/ 中国据报道已获批（未核实）",
+                    "trial": "GALAXI / GRAVITI",
+                    "status": "头对头优于乌司奴单抗",
+                    "design": "IL-23 p19 单抗对比安慰剂 / 乌司奴单抗",
+                    "impact": "强生用 Tremfya 承接 Stelara 生物类似药冲击"
                   }
                 ]
               }
@@ -732,8 +883,8 @@
                     "annual_cost_usd": 75000,
                     "market_share": "20%",
                     "selling_points": [
-                      "ADVANCE: endoscopic remission 32% vs 16%",
-                      "FDA approved CD 2023",
+                      "ADVANCE: clinical remission 45% vs 25%; endoscopic response 40% vs 12%",
+                      "FDA approved CD 2022-06",
                       "Growing rapidly"
                     ]
                   },
@@ -745,7 +896,7 @@
                     "annual_cost_usd": 25000,
                     "market_share": "25%",
                     "selling_points": [
-                      "Biosimilars launched 2023, price falling",
+                      "Biosimilars launched 2025, price falling",
                       "Low infection risk",
                       "IV induction + SC maintenance"
                     ]
@@ -760,18 +911,58 @@
                     "selling_points": [
                       "Gut-selective α4β7 integrin",
                       "Favorable safety, no systemic immunosuppression",
-                      "Oral formulation approved 2024 (UC)"
+                      "SC formulation approved for CD 2024-04 (UC 2023-09)"
+                    ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "古塞奇尤单抗 — CD",
+                    "name_en": "Guselkumab (Tremfya) — CD",
+                    "manufacturer": "强生 J&J",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "GALAXI/GRAVITI：头对头优于乌司奴单抗",
+                      "FDA 2025-03 批准，支持全程皮下诱导"
+                    ],
+                    "approved": "FDA 2025-03",
+                    "impact": "强生用 Tremfya（2025 年 $51.6 亿）承接 Stelara 生物类似药冲击"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "乌帕替尼 — CD",
+                    "name_en": "Upadacitinib (Rinvoq) — CD",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "U-EXCEL/U-EXCEED",
+                      "TNF 失败后唯一口服高效选项"
                     ]
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Tulisokibart",
-                    "name_en": "Tulisokibart (Pvt-101)",
-                    "company": "Prometheus Biosciences (Merck)",
+                    "name_cn": "TL1A 单抗（tulisokibart / duvakitug / afimkibart）",
+                    "name_en": "Tulisokibart / Duvakitug / Afimkibart",
+                    "company": "默沙东 / 赛诺菲-梯瓦 / 罗氏",
                     "stage": "Phase 3",
-                    "trial": "ARTEMIS-UC/CD",
-                    "status": "Anti-TL1A, novel target for IBD"
+                    "trial": "ARES-CD / ATLAS-UC / SUNSCAPE 等",
+                    "status": "三家 III 期并行入组；II 期临床缓解率较安慰剂高 20-25 个百分点",
+                    "design": "阻断 TL1A（兼具抗炎与抗纤维化），部分研究用伴随诊断富集应答者",
+                    "impact": "IBD 领域十年来最热的新靶点，三家 MNC 共投入 >$250 亿收购；首个获批者有望成为 Skyrizi 之后的新标准"
+                  },
+                  {
+                    "name_cn": "Obefazimod",
+                    "name_en": "Obefazimod (ABX464)",
+                    "company": "Abivax",
+                    "stage": "Phase 2b（CD）",
+                    "trial": "ENHANCE-CD",
+                    "status": "UC 已递交 NDA，CD 数据待读出",
+                    "design": "miR-124 增强剂，口服每日一次",
+                    "impact": "若 CD 也成功，将成为首个覆盖 UC/CD 的非 JAK 口服药"
                   }
                 ]
               }
@@ -834,7 +1025,7 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "维得利珠单抗（Entyvio）",
+                    "name_cn": "维得利珠单抗（安吉优）",
                     "name_en": "Vedolizumab (Entyvio)",
                     "manufacturer": "武田 Takeda",
                     "annual_cost_rmb": 80000,
@@ -847,60 +1038,113 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "阿达木单抗",
-                    "name_en": "Adalimumab (Humira / 国产生物类似药)",
-                    "manufacturer": "艾伯维 / 国产类似药",
-                    "annual_cost_rmb": 30000,
-                    "market_share": "25%",
+                    "name_cn": "英夫利西单抗（类克）",
+                    "name_en": "Infliximab (Remicade)",
+                    "manufacturer": "强生 J&J / 国产生物类似药",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "TNF抑制剂，ULTRA-2研究",
-                      "国产类似药价格降至2-3万/年",
-                      "医保报销"
+                      "ACT 1/2：诱导与维持缓解优于安慰剂",
+                      "NMPA 已批准成人中重度活动性 UC",
+                      "国内 UC 最常用的 TNF 抑制剂，生物类似药已上市"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "乌司奴单抗（喜达诺）",
-                    "name_en": "Ustekinumab (Stelara)",
-                    "manufacturer": "强生/杨森 Janssen",
-                    "annual_cost_rmb": 120000,
-                    "market_share": "15%",
+                    "name_cn": "米吉珠单抗（Omvoh）",
+                    "name_en": "Mirikizumab (Omvoh)",
+                    "manufacturer": "礼来 Lilly",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
                     "selling_points": [
-                      "UNIFI研究：IL-12/23双靶",
-                      "NMPA 2022年批准UC适应症",
-                      "感染风险低于TNF"
-                    ]
+                      "LUCENT-1/2：诱导与维持缓解优于安慰剂",
+                      "NMPA 2026-02 批准溃疡性结肠炎与克罗恩病"
+                    ],
+                    "approved": "NMPA 2026-02",
+                    "impact": "国内首个获批 UC 的 IL-23 p19 单抗"
                   },
                   {
                     "type": "drug",
-                    "name_cn": "托法替布",
-                    "name_en": "Tofacitinib (Xeljanz)",
-                    "manufacturer": "辉瑞 Pfizer",
-                    "annual_cost_rmb": 50000,
-                    "market_share": "15%",
+                    "name_cn": "古塞奇尤单抗（特诺雅）",
+                    "name_en": "Guselkumab (Tremfya) — UC",
+                    "manufacturer": "强生 J&J",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "OCTAVE研究，首个口服JAK用于UC",
-                      "NMPA 2020年批准UC",
-                      "便利性高，医保覆盖"
-                    ]
+                      "QUASAR：诱导与维持缓解优于安慰剂",
+                      "NMPA 2025-05 批准中重度活动性 UC（静脉诱导 + 皮下维持）"
+                    ],
+                    "approved": "NMPA 2025-05",
+                    "impact": "IL-23 类在国内 UC 的第二个竞争者"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "艾曲莫德（维适平）",
+                    "name_en": "Etrasimod (Velsipity)",
+                    "manufacturer": "云顶新耀 Everest / 辉瑞 Pfizer",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "ELEVATE UC 12 / 52：诱导与维持缓解优于安慰剂",
+                      "NMPA 2026-02 批准中重度活动性 UC，口服 S1P 受体调节剂"
+                    ],
+                    "approved": "NMPA 2026-02"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "乌帕替尼（Rinvoq）UC适应症",
-                    "name_en": "Upadacitinib (Rinvoq) - UC",
-                    "company": "艾伯维 AbbVie",
-                    "stage": "已上市（中国2023年批准UC）",
-                    "trial": "U-ACHIEVE / U-ACCOMPLISH",
-                    "status": "选择性JAK1，临床缓解率显著优于安慰剂"
+                    "name_cn": "Obefazimod",
+                    "name_en": "Obefazimod (ABX464)",
+                    "company": "Abivax",
+                    "stage": "NDA 已递交",
+                    "trial": "ABTECT-1/2 + 维持研究",
+                    "status": "诱导期临床缓解较安慰剂高 16-19 个百分点；44 周维持研究 2026-06 阳性",
+                    "design": "口服 miR-124 增强剂，对比安慰剂，含 JAK/生物制剂失败的难治人群",
+                    "impact": "首个新机制口服药，无 JAK 黑框警告，被视为 UC 口服市场的潜在重磅产品（峰值预期 >$30 亿）"
                   },
                   {
-                    "name_cn": "Mirikizumab（Omvoh）",
-                    "name_en": "Mirikizumab (Omvoh)",
-                    "company": "礼来 Eli Lilly",
-                    "stage": "中国NDA申报中（美国/欧洲已上市UC）",
-                    "trial": "LUCENT-1 / LUCENT-2",
-                    "status": "首个IL-23p19单靶用于UC，2023年FDA批准"
+                    "name_cn": "TL1A 单抗（tulisokibart / duvakitug / afimkibart）",
+                    "name_en": "Tulisokibart / Duvakitug / Afimkibart",
+                    "company": "默沙东 / 赛诺菲-梯瓦 / 罗氏",
+                    "stage": "Phase 3",
+                    "trial": "ARES-CD / ATLAS-UC / SUNSCAPE 等",
+                    "status": "三家 III 期并行入组；II 期临床缓解率较安慰剂高 20-25 个百分点",
+                    "design": "阻断 TL1A（兼具抗炎与抗纤维化），部分研究用伴随诊断富集应答者",
+                    "impact": "IBD 领域十年来最热的新靶点，三家 MNC 共投入 >$250 亿收购；首个获批者有望成为 Skyrizi 之后的新标准"
+                  },
+                  {
+                    "name_cn": "阿达木单抗",
+                    "name_en": "Adalimumab (Humira / 国产生物类似药)",
+                    "company": "艾伯维 / 国产类似药",
+                    "stage": "美欧已批 UC / 中国未见 UC 适应症获批",
+                    "trial": "ULTRA-2",
+                    "status": "国内获批的肠病适应症为克罗恩病",
+                    "design": "TNF 抑制剂对比安慰剂",
+                    "impact": "国内 UC 的 TNF 抑制剂以英夫利西单抗为主"
+                  },
+                  {
+                    "name_cn": "乌司奴单抗（喜达诺）",
+                    "name_en": "Ustekinumab (Stelara)",
+                    "company": "强生/杨森 Janssen",
+                    "stage": "美欧已批 UC / 中国未见 UC 适应症获批",
+                    "trial": "UNIFI",
+                    "status": "国内获批银屑病与克罗恩病",
+                    "design": "IL-12/23 单抗对比安慰剂",
+                    "impact": "国内 UC 的 IL-23 通路由米吉珠单抗、古塞奇尤单抗占位"
+                  },
+                  {
+                    "name_cn": "托法替布",
+                    "name_en": "Tofacitinib (Xeljanz)",
+                    "company": "辉瑞 Pfizer",
+                    "stage": "美欧已批 UC / 中国说明书无 UC 适应症（指南推荐）",
+                    "trial": "OCTAVE",
+                    "status": "国内获批类风湿关节炎、银屑病关节炎",
+                    "design": "口服 JAK 抑制剂对比安慰剂",
+                    "impact": "国内 UC 的口服小分子由乌帕替尼、艾曲莫德承接"
                   }
                 ]
               }
@@ -1024,20 +1268,24 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Tulisokibart",
-                    "name_en": "Tulisokibart (Pvt-101)",
-                    "company": "Prometheus Biosciences (Merck)",
-                    "stage": "Phase 3",
-                    "trial": "ARTEMIS-UC",
-                    "status": "Anti-TL1A; phase 2 ARTEMIS-UC met endpoints"
-                  },
-                  {
                     "name_cn": "Obefazimod",
                     "name_en": "Obefazimod (ABX464)",
                     "company": "Abivax",
-                    "stage": "Phase 3（阳性）/ NDA准备中",
-                    "trial": "ABTECT-1 / ABTECT-2",
-                    "status": "口服miR-124增强剂；III期ABTECT阳性，2026-07完成pre-NDA会议，计划2026年底前提交NDA"
+                    "stage": "NDA 已递交",
+                    "trial": "ABTECT-1/2 + 维持研究",
+                    "status": "诱导期临床缓解较安慰剂高 16-19 个百分点；44 周维持研究 2026-06 阳性",
+                    "design": "口服 miR-124 增强剂，对比安慰剂，含 JAK/生物制剂失败的难治人群",
+                    "impact": "首个新机制口服药，无 JAK 黑框警告，被视为 UC 口服市场的潜在重磅产品（峰值预期 >$30 亿）"
+                  },
+                  {
+                    "name_cn": "TL1A 单抗（tulisokibart / duvakitug / afimkibart）",
+                    "name_en": "Tulisokibart / Duvakitug / Afimkibart",
+                    "company": "默沙东 / 赛诺菲-梯瓦 / 罗氏",
+                    "stage": "Phase 3",
+                    "trial": "ARES-CD / ATLAS-UC / SUNSCAPE 等",
+                    "status": "三家 III 期并行入组；II 期临床缓解率较安慰剂高 20-25 个百分点",
+                    "design": "阻断 TL1A（兼具抗炎与抗纤维化），部分研究用伴随诊断富集应答者",
+                    "impact": "IBD 领域十年来最热的新靶点，三家 MNC 共投入 >$250 亿收购；首个获批者有望成为 Skyrizi 之后的新标准"
                   }
                 ]
               }
@@ -1135,20 +1383,34 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Anifrolumab（Saphnelo）",
-                    "name_en": "Anifrolumab (Saphnelo)",
-                    "company": "阿斯利康 AstraZeneca",
-                    "stage": "中国NDA申报中（美国/欧洲已上市）",
-                    "trial": "TULIP-1 / TULIP-2",
-                    "status": "I型干扰素受体抗体，2021年FDA批准SLE"
+                    "name_cn": "奥妥珠单抗",
+                    "name_en": "Obinutuzumab (Gazyva)",
+                    "company": "罗氏 Roche",
+                    "stage": "sBLA 审评中（预计 2026-12 前决定）",
+                    "trial": "ALLEGORY（SLE）/ REGENCY（LN）",
+                    "status": "狼疮肾炎已于 2025-10 获批；SLE III 期达到 SRI-4 主要终点",
+                    "design": "II 型 CD20 单抗实现更深 B 细胞清除，对比安慰剂 + 标准治疗",
+                    "impact": "首个在非肾性 SLE 成功的 CD20 单抗，将与 Benlysta、Saphnelo 三分天下"
                   },
                   {
-                    "name_cn": "CD19 CAR-T",
-                    "name_en": "CD19 CAR-T (Investigator-led)",
-                    "company": "多家中国学术中心",
+                    "name_cn": "泰它西普全球 III 期",
+                    "name_en": "Telitacicept (global)",
+                    "company": "荣昌生物 / Vor Bio",
+                    "stage": "全球 Phase 3",
+                    "trial": "REMESLE",
+                    "status": "中国 III 期 SRI-4 82.6% vs 38.1%",
+                    "design": "BLyS/APRIL 双靶点融合蛋白对比安慰剂",
+                    "impact": "国产原研生物药出海样本，海外权益已授权 Vor Bio"
+                  },
+                  {
+                    "name_cn": "国产 CD19 CAR-T / 通用型 CAR-T",
+                    "name_en": "CD19 CAR-T (autologous & allogeneic)",
+                    "company": "邦耀生物、驯鹿生物 等",
                     "stage": "Phase 1/2",
-                    "trial": "多个研究者发起试验",
-                    "status": "重症难治SLE探索性研究，疗效报告引发关注"
+                    "trial": "—",
+                    "status": "中国研究者率先报道通用型 CAR-T 治疗自免病",
+                    "design": "研究者发起研究快速获得人体数据",
+                    "impact": "中国 IIT 体系让国产 CAR-T 在自免领域数据领先全球"
                   }
                 ]
               }
@@ -1216,7 +1478,9 @@
                       "TULIP-2: BICLA response 47% vs 32%",
                       "FDA approved SLE 2021",
                       "Type I IFN receptor antibody"
-                    ]
+                    ],
+                    "approved": "FDA 2026-04（皮下自动注射笔）",
+                    "impact": "皮下自注射剂型获批后摆脱输液中心限制，Saphnelo（2025 年 $6.9 亿）增速有望再提升"
                   },
                   {
                     "type": "drug",
@@ -1234,28 +1498,44 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Litifilimab（BIIB059）",
-                    "name_en": "Litifilimab (BIIB059)",
-                    "company": "Biogen",
-                    "stage": "Phase 3",
-                    "trial": "TOPAZ-1 / TOPAZ-2 / AMETHYST",
-                    "status": "Anti-BDCA2 mAb; positive Phase 2 LILAC for SLE & CLE"
+                    "name_cn": "奥妥珠单抗",
+                    "name_en": "Obinutuzumab (Gazyva)",
+                    "company": "罗氏 Roche",
+                    "stage": "sBLA 审评中（预计 2026-12 前决定）",
+                    "trial": "ALLEGORY（SLE）/ REGENCY（LN）",
+                    "status": "狼疮肾炎已于 2025-10 获批；SLE III 期达到 SRI-4 主要终点",
+                    "design": "II 型 CD20 单抗实现更深 B 细胞清除，对比安慰剂 + 标准治疗",
+                    "impact": "首个在非肾性 SLE 成功的 CD20 单抗，将与 Benlysta、Saphnelo 三分天下"
                   },
                   {
-                    "name_cn": "Deucravacitinib（Sotyktu）SLE",
-                    "name_en": "Deucravacitinib (Sotyktu) - SLE",
-                    "company": "BMS",
-                    "stage": "Phase 3",
-                    "trial": "POETYK SLE-1 / SLE-2",
-                    "status": "Oral allosteric TYK2; positive Phase 2 PAISLEY"
+                    "name_cn": "CD19 CAR-T（狼疮/狼疮肾炎）",
+                    "name_en": "CD19 CAR-T (KYV-101, CC-97540, rese-cel 等)",
+                    "company": "Kyverna、BMS、Cabaletta 等",
+                    "stage": "Phase 1/2 → 注册研究",
+                    "trial": "—",
+                    "status": "多数患者停用全部免疫抑制剂后维持无药缓解",
+                    "design": "单次输注实现 B 细胞\"重置\"，注册路径为单臂研究",
+                    "impact": "从\"终身控制\"到\"一次性治愈\"的范式转移；若获批将直接威胁所有慢性用药的生物制剂"
                   },
                   {
-                    "name_cn": "Obexelimab",
-                    "name_en": "Obexelimab",
-                    "company": "Zenas BioPharma",
+                    "name_cn": "Deucravacitinib",
+                    "name_en": "Deucravacitinib (Sotyktu)",
+                    "company": "百时美施贵宝 BMS",
                     "stage": "Phase 3",
-                    "trial": "ROSALIA",
-                    "status": "Bifunctional anti-CD19 × FcγRIIb"
+                    "trial": "POETYK SLE-1 / -2",
+                    "status": "读出/申报阶段",
+                    "design": "口服 TYK2 抑制剂对比安慰剂，主要终点 SRI-4",
+                    "impact": "若获批是 SLE 首个口服靶向药"
+                  },
+                  {
+                    "name_cn": "Litifilimab / Dapirolizumab pegol",
+                    "name_en": "Litifilimab (BDCA2) / Dapirolizumab Pegol (CD40L)",
+                    "company": "渤健 Biogen / UCB-渤健",
+                    "stage": "Phase 3",
+                    "trial": "TOPAZ / PHOENYCS",
+                    "status": "dapirolizumab 首个 III 期阳性，第二项进行中",
+                    "design": "靶向浆细胞样树突细胞或 CD40L 共刺激",
+                    "impact": "新机制扎堆 III 期，SLE 从\"试验坟场\"变成热门赛道"
                   }
                 ]
               }
@@ -1312,7 +1592,7 @@
                     "market_share": "20%",
                     "selling_points": [
                       "FREEDOMS/TRANSFORMS：首个口服S1P调节剂",
-                      "NMPA 2018年批准RRMS",
+                      "NMPA 2019 年批准复发型 MS",
                       "医保报销"
                     ]
                   },
@@ -1328,18 +1608,24 @@
                       "NMPA 2020年批准活动性SPMS",
                       "国内首批用于继发进展型MS"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "奥法妥木单抗（全欣达）",
+                    "name_en": "Ofatumumab (Kesimpta)",
+                    "manufacturer": "诺华 Novartis",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "ASCLEPIOS：年复发率较特立氟胺降低约 50-60%",
+                      "NMPA 2021-12 批准复发型多发性硬化",
+                      "月度皮下自注射 CD20 单抗"
+                    ],
+                    "impact": "Kesimpta 2025 年全球 $44.3 亿，国内因确诊率低市场仍小"
                   }
                 ],
-                "pipeline": [
-                  {
-                    "name_cn": "Ocrelizumab（奥瑞利珠单抗）",
-                    "name_en": "Ocrelizumab (Ocrevus)",
-                    "company": "罗氏 Roche",
-                    "stage": "已上市（中国2022年批准RRMS+PPMS）",
-                    "trial": "OPERA I/II / ORATORIO",
-                    "status": "抗CD20，6个月一次输注，国内RRMS与PPMS均获批"
-                  }
-                ]
+                "pipeline": []
               },
               {
                 "line": 2,
@@ -1348,39 +1634,38 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "奥瑞利珠单抗（Ocrevus）",
+                    "name_cn": "奥瑞利珠单抗（罗可适）",
                     "name_en": "Ocrelizumab (Ocrevus)",
                     "manufacturer": "罗氏 Roche",
                     "annual_cost_rmb": 200000,
                     "market_share": "30%",
                     "selling_points": [
-                      "OPERA I/II优于干扰素β-1a",
-                      "高效能首选，半年一次输注",
-                      "国谈医保覆盖"
-                    ]
-                  },
-                  {
-                    "type": "drug",
-                    "name_cn": "克拉屈滨片（Mavenclad）",
-                    "name_en": "Cladribine (Mavenclad)",
-                    "manufacturer": "默克雪兰诺 Merck KGaA",
-                    "annual_cost_rmb": 250000,
-                    "market_share": "10%",
-                    "selling_points": [
-                      "CLARITY：脉冲式短期口服",
-                      "NMPA 2022年批准高活动性RRMS",
-                      "总治疗仅20天用药"
+                      "OPERA I/II：优于干扰素 β-1a；ORATORIO：首个对原发进展型 MS 有效的药物",
+                      "NMPA 已批准复发型与原发进展型 MS（3 月 31 日公布，年份未核实）",
+                      "每 6 个月静脉输注一次"
                     ]
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "奥法妥木单抗（Kesimpta）",
-                    "name_en": "Ofatumumab (Kesimpta)",
-                    "company": "诺华 Novartis",
-                    "stage": "已上市（中国2024年批准RRMS）",
-                    "trial": "ASCLEPIOS I/II",
-                    "status": "皮下注射抗CD20，每月一次自注射"
+                    "name_cn": "BTK 抑制剂（奥布替尼 MS）",
+                    "name_en": "Orelabrutinib — MS",
+                    "company": "诺诚健华 InnoCare",
+                    "stage": "Phase 3（全球）",
+                    "trial": "—",
+                    "status": "II 期新发病灶减少 >90%；PPMS/SPMS III 期启动",
+                    "design": "脑渗透 BTK 抑制剂对比安慰剂",
+                    "impact": "国产 BTKi 进军进展型 MS，与赛诺菲、罗氏同台"
+                  },
+                  {
+                    "name_cn": "克拉屈滨片（Mavenclad）",
+                    "name_en": "Cladribine (Mavenclad)",
+                    "company": "默克雪兰诺 Merck KGaA",
+                    "stage": "美欧已上市 / 中国状态未核实",
+                    "trial": "CLARITY",
+                    "status": "两年内累计约 20 天口服给药",
+                    "design": "脉冲式口服免疫重建疗法对比安慰剂",
+                    "impact": "若在华上市，将提供短疗程口服的高效能选择"
                   }
                 ]
               }
@@ -1389,7 +1674,7 @@
           "us": {
             "annual_new_cases": 12000,
             "annual_new_cases_note": "US prevalence ~1M (NMSS), ~12K incident cases/yr",
-            "tam_usd_bn": 15,
+            "tam_usd_bn": 13,
             "diagnosis_steps": [
               "2017 McDonald criteria (MRI dissemination in space + time)",
               "Brain + spinal cord MRI (T2/FLAIR + post-Gd)",
@@ -1463,7 +1748,9 @@
                     "company": "Sanofi",
                     "stage": "FDA CRL（2025-12，nrSPMS）",
                     "trial": "GEMINI 1/2 (RMS) / HERCULES (nrSPMS)",
-                    "status": "脑渗透BTK抑制剂；复发型MS III期（GEMINI 1/2）未优于特立氟胺；nrSPMS适应症2025-12遭FDA拒绝（CRL），欧盟审评中"
+                    "status": "脑渗透BTK抑制剂；复发型MS III期（GEMINI 1/2）未优于特立氟胺；nrSPMS适应症2025-12遭FDA拒绝（CRL），欧盟审评中",
+                    "design": "脑渗透 BTK 抑制剂，HERCULES（nrSPMS）对比安慰剂达到残疾进展终点；GEMINI（RMS）对比特立氟胺未达复发率终点",
+                    "impact": "定位从复发型转向进展型 MS——这是无药可用的最大空白，但肝毒性是审评焦点"
                   },
                   {
                     "name_cn": "Fenebrutinib",
@@ -1471,7 +1758,19 @@
                     "company": "Roche/Genentech",
                     "stage": "Phase 3",
                     "trial": "FENhance / FENtrepid",
-                    "status": "BTK inhibitor for RMS and PPMS"
+                    "status": "III 期阳性：FENhance 2 复发率优于特立氟胺，FENtrepid（PPMS）非劣于奥瑞利珠单抗；申报中",
+                    "design": "非共价 BTK 抑制剂，对比特立氟胺（RMS）及头对头 Ocrevus（PPMS）",
+                    "impact": "首个同时在复发型和原发进展型拿到阳性 III 期的口服 BTKi，罗氏借此为 Ocrevus（美国约 CHF 49 亿）构筑口服接班"
+                  },
+                  {
+                    "name_cn": "Frexalimab",
+                    "name_en": "Frexalimab (anti-CD40L)",
+                    "company": "赛诺菲 Sanofi",
+                    "stage": "Phase 3",
+                    "trial": "FREXALT / FREVIVA",
+                    "status": "入组中",
+                    "design": "第二代 CD40L 单抗（无血栓风险），对比特立氟胺",
+                    "impact": "不清除 B 细胞而达到高效能，若成功将挑战 CD20 单抗的统治"
                   }
                 ]
               },
@@ -1491,7 +1790,8 @@
                       "DEFINE/CONFIRM: ARR reduction ~50%",
                       "Generics launched 2020",
                       "BID oral"
-                    ]
+                    ],
+                    "impact": "Aubagio 2025 年销售降至 €2.4 亿；口服平台药物已全面仿制化，品牌价值集中到 CD20 单抗"
                   },
                   {
                     "type": "drug",
@@ -1613,24 +1913,33 @@
                       "NMPA 2022年批准AS",
                       "医保覆盖"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "乌帕替尼（瑞福）",
+                    "name_en": "Upadacitinib (Rinvoq) - AS",
+                    "manufacturer": "艾伯维 AbbVie",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "SELECT-AXIS 1/2：选择性 JAK1 抑制剂，疾病活动度显著改善",
+                      "NMPA 已批准强直性脊柱炎",
+                      "受 JAK 安全性标签限制，多用于生物制剂失败后"
+                    ],
+                    "impact": "口服选项，受 JAK 安全性标签限制多用于生物制剂失败后"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "乌帕替尼（Rinvoq）AS",
-                    "name_en": "Upadacitinib (Rinvoq) - AS",
-                    "company": "艾伯维 AbbVie",
-                    "stage": "已上市（中国2022年批准AS）",
-                    "trial": "SELECT-AXIS 1/2",
-                    "status": "选择性JAK1，AS活动性显著改善"
-                  },
-                  {
                     "name_cn": "Bimekizumab（Bimzelx）",
                     "name_en": "Bimekizumab (Bimzelx)",
                     "company": "UCB",
-                    "stage": "中国NDA申报中（美国/欧洲已上市）",
+                    "stage": "美欧已上市 / 中国状态未核实",
                     "trial": "BE MOBILE 1/2",
-                    "status": "IL-17A/F双抑制，2024年FDA批准axSpA"
+                    "status": "IL-17A/F双抑制，2024年FDA批准axSpA",
+                    "design": "IL-17A/F 双抗对比安慰剂",
+                    "impact": "国内 axSpA 患者基数大（约 400 万），但国产 IL-17A 与阿达木生物类似药已压低价格"
                   }
                 ]
               }
@@ -1730,12 +2039,14 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Tofacitinib（Xeljanz）AS",
-                    "name_en": "Tofacitinib (Xeljanz) - AS",
-                    "company": "Pfizer",
-                    "stage": "已上市（FDA AS 2021）",
-                    "trial": "Phase 3 AS",
-                    "status": "Oral JAK; competing with upadacitinib in JAK class"
+                    "name_cn": "Sonelokimab（axSpA）",
+                    "name_en": "Sonelokimab — axSpA",
+                    "company": "UCB / MoonLake",
+                    "stage": "Phase 2",
+                    "trial": "S-OLARIS",
+                    "status": "axSpA II 期进行中",
+                    "design": "IL-17A/F 纳米抗体对比安慰剂",
+                    "impact": "IL-17A/F 逐步替代单纯 IL-17A，Cosentyx（2025 年 $66.7 亿）面临份额压力"
                   }
                 ]
               }
@@ -1827,7 +2138,8 @@
                     "selling_points": [
                       "ADAPT研究：FcRn拮抗剂",
                       "NMPA 2023年批准AChR+ gMG",
-                      "再鼎中国独家商业化"
+                      "再鼎中国独家商业化",
+                      "皮下剂型已在华上市（ADAPT-SC：皮下非劣于静脉），便利性升级以应对国产 FcRn 竞争"
                     ]
                   },
                   {
@@ -1838,20 +2150,39 @@
                     "annual_cost_rmb": 45000,
                     "market_share": "15%",
                     "selling_points": [
-                      "NMPA 2024年批准gMG（中国本土创新）",
+                      "NMPA 2025 年批准 gMG（中国本土创新）",
                       "BLyS+APRIL双靶融合蛋白",
                       "价格显著低于FcRn/C5类"
-                    ]
+                    ],
+                    "approved": "NMPA 2025"
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "巴托利单抗",
+                    "name_en": "Batoclimab (HBM9161)",
+                    "manufacturer": "石药集团 / 和铂医药",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "NMPA 已批准全身型重症肌无力（2026 年，具体日期未核实）",
+                      "皮下注射 FcRn 单抗，可自行给药",
+                      "III 期 MG-ADL 持续改善率显著高于安慰剂"
+                    ],
+                    "approved": "NMPA 2026",
+                    "impact": "国内第二个 FcRn 拮抗剂且为皮下剂型，与艾加莫德（再鼎 2025 年销售 $9420 万）直接竞争并可能引发降价"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "瑞利珠单抗（Ultomiris）gMG",
-                    "name_en": "Ravulizumab (Ultomiris) - gMG",
-                    "company": "阿斯利康/Alexion",
-                    "stage": "中国NDA申报中（美国/欧洲已上市gMG）",
-                    "trial": "CHAMPION-MG",
-                    "status": "C5长效，每8周一次给药"
+                    "name_cn": "CD19/BCMA CAR-T",
+                    "name_en": "CAR-T for refractory gMG",
+                    "company": "驯鹿生物、Cartesian 等",
+                    "stage": "Phase 2/3",
+                    "trial": "—",
+                    "status": "难治性患者深度持久缓解",
+                    "design": "一次性细胞治疗对比安慰剂",
+                    "impact": "若成功将冲击需长期给药的 FcRn 与补体抑制剂"
                   }
                 ]
               }
@@ -1860,7 +2191,7 @@
           "us": {
             "annual_new_cases": 6000,
             "annual_new_cases_note": "US prevalence ~70K (MGFA), ~6K incident/yr; ~85% generalized",
-            "tam_usd_bn": 3.5,
+            "tam_usd_bn": 5.0,
             "diagnosis_steps": [
               "AChR-Ab / MuSK-Ab / LRP4-Ab serology",
               "Repetitive nerve stimulation / single-fiber EMG",
@@ -1991,12 +2322,44 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Batoclimab",
-                    "name_en": "Batoclimab",
-                    "company": "Immunovant / HanAll",
+                    "name_cn": "Gefurulimab",
+                    "name_en": "Gefurulimab (ALXN1720)",
+                    "company": "阿斯利康 AstraZeneca",
+                    "stage": "Phase 3（阳性）/ 申报中",
+                    "trial": "PREVAIL",
+                    "status": "MG-ADL 显著改善",
+                    "design": "每周皮下自注射的 C5 纳米抗体，对比安慰剂",
+                    "impact": "Ultomiris（2025 年 $47.2 亿）的皮下接班产品"
+                  },
+                  {
+                    "name_cn": "Pozelimab + Cemdisiran",
+                    "name_en": "Pozelimab + Cemdisiran",
+                    "company": "再生元 Regeneron",
+                    "stage": "Phase 3（阳性）",
+                    "trial": "NIMBLE",
+                    "status": "每 4 周皮下",
+                    "design": "C5 单抗 + C5 siRNA",
+                    "impact": "补体赛道第四家，差异化有限"
+                  },
+                  {
+                    "name_cn": "IMVT-1402 / 巴托利单抗",
+                    "name_en": "IMVT-1402 / Batoclimab",
+                    "company": "Immunovant",
                     "stage": "Phase 3",
-                    "trial": "Phase 3 gMG (HARP)",
-                    "status": "FcRn antagonist with deeper IgG reduction"
+                    "trial": "—",
+                    "status": "巴托利单抗 III 期阳性但公司转向 IMVT-1402（不升高 LDL）",
+                    "design": "新一代 FcRn 单抗，自动注射笔",
+                    "impact": "FcRn 赛道 argenx Vyvgart（2025 年 $42 亿）一家独大，后来者拼便利性与适应症广度"
+                  },
+                  {
+                    "name_cn": "Descartes-08（mRNA CAR-T）",
+                    "name_en": "Descartes-08",
+                    "company": "Cartesian Therapeutics",
+                    "stage": "Phase 3",
+                    "trial": "AURORA",
+                    "status": "IIb 期 MG-ADL 改善持续 12 个月",
+                    "design": "无需清淋的 mRNA BCMA CAR-T，门诊输注",
+                    "impact": "若确证，重症肌无力将出现首个\"疗程式\"而非长期用药的选项"
                   }
                 ]
               }

@@ -32,7 +32,7 @@
                 "annual_cost_usd": null,
                 "market_share": "50%",
                 "selling_points": [
-                  "APHINITY研究：双靶+化疗pCR提升",
+                  "NeoSphere / PEONY：双靶新辅助 pCR 提升；APHINITY：辅助 iDFS 获益",
                   "新辅助标准方案（曲妥珠+帕妥珠+多西他赛）"
                 ]
               },
@@ -48,16 +48,44 @@
                   "KATHERINE研究：iDFS HR 0.50",
                   "新辅助后未达pCR患者标准"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗（新辅助 / 辅助）",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu) — neoadjuvant / post-neoadjuvant",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DESTINY-Breast11：新辅助 T-DXd→THP，pCR 67% vs 56%",
+                  "DESTINY-Breast05：术后残留病灶，IDFS HR 0.47 vs T-DM1",
+                  "NMPA 2026-03-27 附条件批准新辅助；2026-09-29 批准新辅助后残留病灶的辅助治疗"
+                ],
+                "approved": "NMPA 2026-03（新辅助）/ 2026-09（辅助）",
+                "impact": "Enhertu 进入可治愈阶段并取代 T-DM1，早期乳腺癌是其销售额从 $50 亿迈向 $100 亿的最大增量"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "T-DXd（DS-8201）辅助治疗",
-                "name_en": "Trastuzumab Deruxtecan (T-DXd) adjuvant",
-                "company": "第一三共/阿斯利康 Daiichi/AZ",
-                "stage": "Phase 3",
-                "trial": "DESTINY-Breast05",
-                "status": "对照T-DM1，新辅助非pCR后辅助"
+                "name_cn": "瑞康曲妥珠单抗（新辅助）",
+                "name_en": "Trastuzumab Rezetecan (SHR-A1811) neoadjuvant",
+                "company": "恒瑞医药",
+                "stage": "Phase 3（阳性）",
+                "trial": "FASCINATE-N 等",
+                "status": "pCR 率约 63%",
+                "design": "国产 HER2 ADC ± 帕妥珠单抗对比 TCbHP",
+                "impact": "国产 ADC 紧随 Enhertu 进入早期，价格将是决定性因素"
+              },
+              {
+                "name_cn": "吡咯替尼强化辅助",
+                "name_en": "Pyrotinib extended adjuvant",
+                "company": "恒瑞医药",
+                "stage": "临床研究（强化辅助；新辅助适应症已获批）",
+                "trial": "PERSIST / PHEDRA",
+                "status": "PHEDRA 支持的新辅助适应症已获批，强化辅助仍在研究",
+                "design": "曲妥珠单抗辅助后口服 TKI 延长治疗",
+                "impact": "口服国产 TKI 在基层的可及性优于 ADC"
               }
             ]
           },
@@ -78,16 +106,57 @@
                   "CLEOPATRA研究：OS 57.1m",
                   "一线转移性HER2+金标准"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "吡咯替尼 + 曲妥珠单抗 + 多西他赛",
+                "name_en": "Pyrotinib + Trastuzumab + Docetaxel",
+                "manufacturer": "恒瑞医药",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "PHILA：PFS 24.3 vs 10.4 个月（HR 0.41）",
+                  "NMPA 2023 获批一线，已进医保"
+                ],
+                "impact": "国内一线除 THP 外的主流方案，医保内口服 TKI"
+              },
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗 + 帕妥珠单抗",
+                "name_en": "Trastuzumab Deruxtecan + Pertuzumab",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DESTINY-Breast09：PFS 40.7 vs 26.9 个月（HR 0.56）vs THP",
+                  "NMPA 2026-08-12 批准一线；FDA 2025-12 批准"
+                ],
+                "approved": "NMPA 2026-08",
+                "impact": "十余年来首次撼动 CLEOPATRA 方案，一线从\"紫杉 + 双靶\"转向\"ADC + 帕妥珠\""
               }
             ],
             "pipeline": [
               {
-                "name_cn": "德曲妥珠单抗（T-DXd/优赫得）+ 帕妥珠单抗 ★ ASCO 2026",
-                "name_en": "T-DXd (Enhertu) + Pertuzumab",
-                "company": "阿斯利康/第一三共 AZ/Daiichi Sankyo",
-                "stage": "Phase 3 / 美国申报",
-                "trial": "DESTINY-Breast09",
-                "status": "ASCO 2026：一线HER2+转移性乳腺癌头对头 vs THP（紫杉+曲妥+帕妥），中位PFS提升约13.8m（40.7m vs 26.9m），ORR 85.1% vs 78.6%，CR 15.1% vs 8.5%。十余年来首个改写一线格局的方案"
+                "name_cn": "瑞康曲妥珠单抗 + 帕妥珠单抗",
+                "name_en": "SHR-A1811 + Pertuzumab 1L",
+                "company": "恒瑞医药",
+                "stage": "Phase 3",
+                "trial": "HORIZON-Breast",
+                "status": "入组完成",
+                "design": "对标 DESTINY-Breast09 的国产方案，对比 THP",
+                "impact": "国产版\"ADC + 帕妥珠\"，医保谈判后将决定 Enhertu 一线的国内天花板"
+              },
+              {
+                "name_cn": "哌柏西利 + 抗 HER2 + 内分泌（维持）",
+                "name_en": "Palbociclib + anti-HER2 + ET (maintenance)",
+                "company": "辉瑞 Pfizer",
+                "stage": "美国已批（2026-06）/ 中国未见获批公告",
+                "trial": "PATINA",
+                "status": "PFS 44.3 vs 29.1 个月（N=518）",
+                "design": "HR+/HER2+ 患者诱导化疗后，抗 HER2 + 内分泌维持 ± 哌柏西利",
+                "impact": "给已过专利期的 Ibrance 一个新的细分适应症，三阳性患者诱导后维持成为标准"
               }
             ]
           },
@@ -122,16 +191,33 @@
                   "EMILIA研究：OS 30.9m vs 25.1m",
                   "仍为部分患者二线选择"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "维迪西妥单抗（爱地希）— 伴肝转移",
+                "name_en": "Disitamab Vedotin (RC48)",
+                "manufacturer": "荣昌生物 RemeGen",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "RC48-C006：PFS 9.9 vs 4.9 个月（HR 0.56，对比拉帕替尼 + 卡培他滨）",
+                  "NMPA 已批准：HER2 阳性且存在肝转移的晚期乳腺癌（公告日 5 月 9 日，年份按数据发布时间推断为 2025）"
+                ],
+                "approved": "NMPA 已获批",
+                "impact": "在乳腺癌已被 DXd 类 ADC 压制，价值更多在尿路上皮癌"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Zanidatamab",
-                "name_en": "Zanidatamab",
-                "company": "礼来 Eli Lilly（Jazz Pharma）",
+                "name_cn": "泽尼达妥单抗 + 化疗",
+                "name_en": "Zanidatamab + Chemo",
+                "company": "Jazz / 百济神州",
                 "stage": "Phase 3",
-                "trial": "HERIZON-BTC-01",
-                "status": "HER2双抗，胃癌获批，乳腺癌申请中"
+                "trial": "EmpowHER-BC-303",
+                "status": "T-DXd 经治后对比曲妥珠单抗 + 化疗，入组中",
+                "design": "HER2 双表位双抗，瞄准 T-DXd 进展后人群",
+                "impact": "Enhertu 前移后，\"T-DXd 之后用什么\"成为新空白"
               }
             ]
           },
@@ -142,19 +228,30 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "图卡替尼（达尔克）+ 曲妥珠单抗 + 卡培他滨",
-                "name_en": "Tucatinib (Tukysa) + Trastuzumab + Capecitabine",
-                "manufacturer": "辉瑞 Pfizer（收购Array BioPharma）",
-                "annual_cost_rmb": 350000,
+                "name_cn": "吡咯替尼（艾瑞妮）+ 卡培他滨",
+                "name_en": "Pyrotinib (Irene) + Capecitabine",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "35%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "HER2CLIMB研究：OS 21.9m vs 17.4m",
-                  "脑转移人群有效，CNS穿透好"
+                  "PHOEBE：PFS 12.5 vs 6.8 个月（对比拉帕替尼 + 卡培他滨）",
+                  "NMPA 已批准，医保覆盖"
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "图卡替尼联合方案",
+                "name_en": "Tucatinib + Trastuzumab + Capecitabine",
+                "company": "辉瑞 Pfizer",
+                "stage": "美国已上市 / 中国大陆未见获批",
+                "trial": "HER2CLIMB",
+                "status": "HER2CLIMB：OS 获益，脑转移人群有效",
+                "design": "脑转移患者纳入的随机 III 期",
+                "impact": "国内吡咯替尼占位，图卡替尼空间有限"
+              }
+            ]
           }
         ]
       },
@@ -168,6 +265,144 @@
           "Staging: CT chest/abdomen/pelvis + bone scan"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "早期新辅助 / 辅助",
+            "label_en": "Early stage (neoadjuvant / adjuvant)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "TCHP（多西他赛 + 卡铂 + 曲妥珠 + 帕妥珠）",
+                "name_en": "TCHP / Phesgo-based neoadjuvant",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "新辅助标准；皮下 Phesgo 2025 年美国销售约 $11 亿",
+                  "APHINITY：淋巴结阳性 IDFS 获益"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗（新辅助 / 辅助）",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu) — neoadjuvant / post-neoadjuvant",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DESTINY-Breast11：新辅助 T-DXd→THP，pCR 67% vs 56%",
+                  "DESTINY-Breast05：术后残留病灶，IDFS HR 0.47 vs T-DM1",
+                  "FDA 2026-05-15 批准新辅助与辅助两项适应症"
+                ],
+                "approved": "FDA 2026-05",
+                "impact": "Enhertu 进入可治愈阶段并取代 T-DM1，早期乳腺癌是其销售额从 $50 亿迈向 $100 亿的最大增量"
+              },
+              {
+                "type": "drug",
+                "name_cn": "T-DM1（辅助，非 pCR）",
+                "name_en": "Ado-trastuzumab Emtansine (Kadcyla)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "下降中",
+                "selling_points": [
+                  "KATHERINE：IDFS HR 0.50",
+                  "正被 T-DXd（DESTINY-Breast05）替代"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "图卡替尼 + T-DM1（辅助）",
+                "name_en": "Tucatinib + T-DM1 adjuvant",
+                "company": "辉瑞 / Alliance",
+                "stage": "Phase 3",
+                "trial": "CompassHER2 RD",
+                "status": "随访中",
+                "design": "非 pCR 高危患者在 T-DM1 上加口服 TKI，关注脑转移预防",
+                "impact": "DB-05 之后对照臂已过时，价值存疑"
+              }
+            ]
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（转移性）",
+            "label_en": "1st Line (metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗 + 帕妥珠单抗",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu) + Pertuzumab",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DESTINY-Breast09：PFS 40.7 vs 26.9 个月（HR 0.56）",
+                  "FDA 2025-12-15 批准一线"
+                ],
+                "approved": "FDA 2025-12",
+                "impact": "取代 THP 成为新的一线标准，Enhertu 治疗时长从约 14 个月延长到 3 年以上"
+              },
+              {
+                "type": "drug",
+                "name_cn": "THP（紫杉 + 曲妥珠 + 帕妥珠）",
+                "name_en": "Taxane + Trastuzumab + Pertuzumab (Phesgo)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CLEOPATRA：OS 57 个月",
+                  "诱导后可加图卡替尼或哌柏西利维持"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "图卡替尼 + 曲妥珠 + 帕妥珠（维持）",
+                "name_en": "Tucatinib (Tukysa) + Trastuzumab + Pertuzumab maintenance",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "HER2CLIMB-05：PFS 24.9 vs 16.3 个月（HR 0.64）",
+                  "FDA 2026-10-07 批准一线维持"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "给不想长期用 ADC 的患者一个口服维持选项，是 THP 阵营对抗 DB-09 的方案"
+              },
+              {
+                "type": "drug",
+                "name_cn": "哌柏西利 + 抗 HER2 + 内分泌（HR+ 维持）",
+                "name_en": "Palbociclib (Ibrance) + anti-HER2 + ET",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "PATINA：PFS 44.3 vs 29.1 个月",
+                  "FDA 2026-06-24 批准（诱导治疗后维持）"
+                ],
+                "approved": "FDA 2026-06",
+                "impact": "三阳性患者的维持标准"
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "T-DXd 单药（一线）",
+                "name_en": "Trastuzumab Deruxtecan monotherapy 1L",
+                "company": "第一三共 / 阿斯利康",
+                "stage": "Phase 3",
+                "trial": "DESTINY-Breast09（单药臂）",
+                "status": "单药臂数据待成熟",
+                "design": "T-DXd 单药对比 THP",
+                "impact": "若单药也优于 THP，帕妥珠单抗的必要性将被质疑，罗氏 HER2 业务（CHF 85 亿）承压"
+              }
+            ]
+          },
           {
             "line": 2,
             "label_cn": "二线治疗",
@@ -191,12 +426,46 @@
             ],
             "pipeline": [
               {
-                "name_cn": "MRG002 (RC48)",
-                "name_en": "RC48-C003 (Disitamab vedotin)",
-                "company": "荣昌生物 RemeGen (via Seagen/Pfizer)",
+                "name_cn": "泽尼达妥单抗 + 化疗",
+                "name_en": "Zanidatamab (Ziihera) + Chemo",
+                "company": "Jazz",
                 "stage": "Phase 3",
-                "trial": "RC48-C014",
-                "status": "HER2+ MBC, China-origin ADC in US filing"
+                "trial": "EmpowHER-BC-303",
+                "status": "入组中；2026-08 已获批一线 HER2+ 胃癌",
+                "design": "T-DXd 经治后，对比曲妥珠单抗 + 化疗",
+                "impact": "T-DXd 一线化之后的后线空白由双表位抗体与 TKI 争夺"
+              }
+            ]
+          },
+          {
+            "line": 3,
+            "label_cn": "三线治疗",
+            "label_en": "3rd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "图卡替尼 + 曲妥珠单抗 + 卡培他滨",
+                "name_en": "Tucatinib (Tukysa) + Trastuzumab + Capecitabine",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "HER2CLIMB：OS 24.7 vs 19.2 个月，脑转移获益明确",
+                  "2025 年全球销售 $4.6 亿"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "T-DM1 + 图卡替尼",
+                "name_en": "T-DM1 + Tucatinib",
+                "company": "辉瑞",
+                "stage": "Phase 3（阳性）",
+                "trial": "HER2CLIMB-02",
+                "status": "PFS 9.5 vs 7.4 个月",
+                "design": "T-DM1 基础上加 TKI",
+                "impact": "增量有限，未改变临床实践"
               }
             ]
           }
@@ -238,7 +507,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "瑞波西利（利柏恩）+ 内分泌治疗",
+                "name_cn": "瑞波西利（凯丽隆）+ 内分泌治疗",
                 "name_en": "Ribociclib (Kisqali) + Endocrine Therapy",
                 "manufacturer": "诺华 Novartis",
                 "annual_cost_rmb": 110000,
@@ -260,43 +529,130 @@
                 "market_share": "30%",
                 "selling_points": [
                   "MONARCH系列研究",
-                  "唯一获批早期高危乳腺癌辅助治疗的CDK4/6i",
+                  "首个获批早期高危乳腺癌辅助治疗的 CDK4/6 抑制剂",
                   "monarchE研究"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达尔西利",
+                "name_en": "Dalpiciclib",
+                "manufacturer": "恒瑞医药",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "DAWNA-1/2：晚期一线/二线 PFS 获益，已进医保",
+                  "NMPA 2026-06-15 批准辅助治疗（DAWNA-A）"
+                ],
+                "approved": "NMPA 2026-06（辅助）",
+                "impact": "首个进入辅助阶段的国产 CDK4/6，辅助用药 2-3 年将显著放大国内市场"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Elacestrant（艾拉司群）",
-                "name_en": "Elacestrant (Orserdu)",
-                "company": "Radius Health / 伊普森",
-                "stage": "已上市（美国）/ 中国Phase 3",
-                "trial": "EMERALD",
-                "status": "口服SERD，ESR1突变人群CDK4/6i耐药后"
-              },
-              {
-                "name_cn": "Capivasertib + 氟维司群",
-                "name_en": "Capivasertib + Fulvestrant",
-                "company": "阿斯利康 AstraZeneca",
-                "stage": "已上市（美国）/ 中国申报NDA",
-                "trial": "CAPItello-291",
-                "status": "AKT抑制剂，PIK3CA/AKT1/PTEN突变人群"
-              },
-              {
-                "name_cn": "Camizestrant（卡米司群）+ CDK4/6抑制剂 ★ FDA 2026-09获批",
-                "name_en": "Camizestrant + CDK4/6i",
-                "company": "阿斯利康 AstraZeneca",
-                "stage": "已上市（美国，加速批准）/ 中国Phase 3",
-                "trial": "SERENA-6",
-                "status": "2026-09-04 FDA加速批准（Etcamah）：一线AI+CDK4/6i治疗中ctDNA检出ESR1突变即换用camizestrant+CDK4/6i；SERENA-6 PFS 16.0m vs 9.2m（HR 0.44）。首个基于ctDNA耐药突变、影像进展前换药的获批疗法；伴随诊断Guardant360 CDx"
-              },
-              {
-                "name_cn": "Giredestrant（吉瑞司群）辅助治疗",
-                "name_en": "Giredestrant (adjuvant)",
+                "name_cn": "Giredestrant",
+                "name_en": "Giredestrant",
                 "company": "罗氏 Roche",
+                "stage": "Phase 3（阳性）/ 申报中",
+                "trial": "evERA / lidERA / persevERA",
+                "status": "evERA（联合依维莫司，CDK4/6 后）阳性；lidERA 辅助 iDFS 阳性",
+                "design": "口服 SERD：晚期联合依维莫司对比标准内分泌；辅助头对头 AI/他莫昔芬",
+                "impact": "首个在辅助阶段击败标准内分泌治疗的口服 SERD，可能取代 AI 成为早期乳腺癌内分泌骨架"
+              },
+              {
+                "name_cn": "Atirmociclib",
+                "name_en": "Atirmociclib (PF-07220060, CDK4i)",
+                "company": "辉瑞 Pfizer",
                 "stage": "Phase 3",
-                "trial": "lidERA",
-                "status": "ASCO 2026：口服SERD辅助治疗ER+/HER2-早期乳腺癌，绝经前后iDFS均优于标准内分泌治疗"
+                "trial": "FOURLIGHT-3",
+                "status": "一线 III 期入组中",
+                "design": "CDK4 选择性抑制剂 + 来曲唑，头对头 CDK4/6 抑制剂 + 来曲唑",
+                "impact": "辉瑞用下一代 CDK4 接替 Ibrance（2025 年 $41 亿且在下滑），目标是减少骨髓抑制、提高剂量强度"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（内分泌/CDK4/6 进展后）",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "德曲妥珠单抗（HER2 低/超低表达）",
+                "name_en": "Trastuzumab Deruxtecan (Enhertu) — HER2-low/ultralow",
+                "manufacturer": "第一三共 / 阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "DESTINY-Breast06：PFS 13.2 vs 8.1 个月",
+                  "内分泌治疗后、化疗前即可使用"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "芦康沙妥珠单抗",
+                "name_en": "Sacituzumab Tirumotecan (sac-TMT)",
+                "manufacturer": "科伦博泰",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "OptiTROP-Breast02：PFS 8.3 vs 4.1 个月（HR 0.35）",
+                  "NMPA 2026-02 批准 HR+/HER2- 经治"
+                ],
+                "approved": "NMPA 2026-02",
+                "impact": "国产 TROP2 ADC 在 HR+ 人群抢在 Trodelvy、Datroway 之前拿到国内标签"
+              },
+              {
+                "type": "drug",
+                "name_cn": "氟维司群 ± 依维莫司 / 西达本胺",
+                "name_en": "Fulvestrant ± Everolimus / Chidamide",
+                "manufacturer": "多家",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "医保内传统二线选择"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡匹色替 + 氟维司群",
+                "name_en": "Capivasertib (Truqap) + Fulvestrant",
+                "manufacturer": "阿斯利康",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "CAPItello-291：PIK3CA/AKT1/PTEN 变异人群 PFS 7.3 vs 3.1 个月",
+                  "NMPA 2025-04 批准联合氟维司群（内分泌治疗进展后）"
+                ],
+                "approved": "NMPA 2025-04",
+                "impact": "国内 PI3K/AKT 通路首个药物，伴随诊断渗透率是瓶颈"
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Vepdegestrant",
+                "name_en": "Vepdegestrant (Veppanu)",
+                "company": "Arvinas / 辉瑞",
+                "stage": "美国已批（2026-05）/ 中国状态未核实",
+                "trial": "VERITAC-2",
+                "status": "ESR1m 人群 PFS 5.0 vs 2.1 个月",
+                "design": "首个 PROTAC 降解剂，对比氟维司群",
+                "impact": "全球首个获批的 PROTAC，但仅 ESR1 突变获益，商业上与多个口服 SERD 拥挤竞争"
+              },
+              {
+                "name_cn": "Camizestrant",
+                "name_en": "Camizestrant (Etcamah)",
+                "company": "阿斯利康",
+                "stage": "美国已批（2026-09，加速）/ 中国状态未核实",
+                "trial": "SERENA-6",
+                "status": "ctDNA 检出 ESR1 突变即换药，PFS 16.0 vs 9.2 个月",
+                "design": "ctDNA 引导的\"进展前换药\"设计",
+                "impact": "把液体活检监测带入常规，国内落地取决于 ctDNA 检测可及性"
               }
             ]
           }
@@ -305,7 +661,7 @@
       "us": {
         "annual_new_cases": 170000,
         "annual_new_cases_note": "~65-70% of all breast cancers",
-        "tam_usd_bn": 14,
+        "tam_usd_bn": 11,
         "diagnosis_steps": [
           "ER/PR positive (IHC >1%), HER2 negative",
           "Genomic profiling (Oncotype DX, MammaPrint)",
@@ -355,17 +711,56 @@
                   "2026-09 FDA加速批准：一线AI+CDK4/6i期间ctDNA出现ESR1突变时换药",
                   "SERENA-6：PFS 16.0m vs 9.2m（HR 0.44），OS未成熟",
                   "伴随诊断 Guardant360 CDx；黑框警告：心律失常"
-                ]
+                ],
+                "approved": "FDA 2026-09（加速）",
+                "impact": "SERENA-6 开创\"ctDNA 分子进展即换药\"模式，把口服 SERD 嵌入一线 CDK4/6 治疗过程中"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Inavolisib + 哌柏西利 + 氟维司群",
+                "name_en": "Inavolisib (Itovebi) + Palbociclib + Fulvestrant",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "INAVO120：PIK3CA 突变、内分泌耐药，PFS 17.2 vs 7.3 个月，OS HR 0.67",
+                  "FDA 2024-10 获批"
+                ],
+                "approved": "FDA 2024-10",
+                "impact": "首个在一线显示 OS 获益的 PI3K 通路药物，占据 PIK3CA 突变高危人群"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Inavolisib + Palbociclib + Fulvestrant",
-                "name_en": "Inavolisib + Palbociclib + Fulvestrant",
-                "company": "Roche/Genentech",
-                "stage": "已上市",
-                "trial": "INAVO120",
-                "status": "FDA approved 2024, PIK3CA mutant, CDK4/6i resistant"
+                "name_cn": "Giredestrant",
+                "name_en": "Giredestrant",
+                "company": "罗氏 Roche",
+                "stage": "Phase 3（阳性）/ 申报中",
+                "trial": "evERA / lidERA / persevERA",
+                "status": "evERA（联合依维莫司，CDK4/6 后）阳性；lidERA 辅助 iDFS 阳性",
+                "design": "口服 SERD：晚期联合依维莫司对比标准内分泌；辅助头对头 AI/他莫昔芬",
+                "impact": "首个在辅助阶段击败标准内分泌治疗的口服 SERD，可能取代 AI 成为早期乳腺癌内分泌骨架"
+              },
+              {
+                "name_cn": "Atirmociclib",
+                "name_en": "Atirmociclib (PF-07220060, CDK4i)",
+                "company": "辉瑞 Pfizer",
+                "stage": "Phase 3",
+                "trial": "FOURLIGHT-3",
+                "status": "一线 III 期入组中",
+                "design": "CDK4 选择性抑制剂 + 来曲唑，头对头 CDK4/6 抑制剂 + 来曲唑",
+                "impact": "辉瑞用下一代 CDK4 接替 Ibrance（2025 年 $41 亿且在下滑），目标是减少骨髓抑制、提高剂量强度"
+              },
+              {
+                "name_cn": "Camizestrant（一线头对头 AI）",
+                "name_en": "Camizestrant + CDK4/6i vs AI + CDK4/6i",
+                "company": "阿斯利康",
+                "stage": "Phase 3",
+                "trial": "SERENA-4",
+                "status": "随访中",
+                "design": "一线直接替代芳香化酶抑制剂",
+                "impact": "若阳性，口服 SERD 将全面取代 AI，品类规模可达 $50-100 亿"
               }
             ]
           },
@@ -386,7 +781,8 @@
                   "2026-09-18 FDA批准：ESR1突变 ER+/HER2- 晚期乳腺癌，≥1线内分泌治疗后进展",
                   "EMBER-3 ESR1突变亚组（探索性）：PFS 11.1m vs 5.5m（vs imlunestrant单药，HR 0.53）",
                   "口服SERD；单药已于2025-09获批"
-                ]
+                ],
+                "approved": "FDA 2026-09（联合阿贝西利）"
               },
               {
                 "type": "drug",
@@ -400,17 +796,50 @@
                   "2026-07-14 FDA批准：PIK3CA野生型 HR+/HER2- 晚期乳腺癌，≥1线内分泌治疗后",
                   "VIKTORIA-1：三联 PFS 9.3m vs 2.0m（HR 0.24）；双联 7.4m vs 2.0m（HR 0.33）",
                   "首个覆盖PIK3CA野生型的PI3K/mTOR抑制剂；ORR 31.5%"
+                ],
+                "approved": "FDA 2026-07",
+                "impact": "VIKTORIA-1 让 PI3K/mTOR 双抑制剂在 PIK3CA 野生型人群也获批，覆盖面超过 alpelisib/capivasertib"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Vepdegestrant（Veppanu）",
+                "name_en": "Vepdegestrant (Veppanu)",
+                "manufacturer": "Arvinas / 辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "FDA 2026-05-01 批准 ESR1 突变 ER+/HER2- 晚期乳腺癌",
+                  "VERITAC-2：PFS 5.0 vs 2.1 个月（ESR1m）",
+                  "全球首个获批的 PROTAC 蛋白降解剂"
+                ],
+                "approved": "FDA 2026-05",
+                "impact": "技术里程碑大于商业影响：辉瑞已寻求对外授权，ESR1m 二线有 elacestrant、imlunestrant、camizestrant 四家竞争"
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡匹色替 + 氟维司群",
+                "name_en": "Capivasertib (Truqap) + Fulvestrant",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CAPItello-291：通路变异人群 PFS 7.3 vs 3.1 个月",
+                  "2025 年全球销售 $7.3 亿"
                 ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Gedatolisib（PIK3CA突变队列）",
-                "name_en": "Gedatolisib (PIK3CA-mutant)",
-                "company": "Celcuity",
+                "name_cn": "Palazestrant",
+                "name_en": "Palazestrant (OP-1250)",
+                "company": "Olema",
                 "stage": "Phase 3",
-                "trial": "VIKTORIA-1",
-                "status": "公司计划2026 Q3提交PIK3CA突变人群sNDA"
+                "trial": "OPERA-01 / -02",
+                "status": "OPERA-01 读出预期 2026 年底",
+                "design": "CERAN/SERD，单药对比标准内分泌，及联合瑞波西利一线",
+                "impact": "小公司的口服 SERD，需靠野生型人群数据突围"
               }
             ]
           }
@@ -449,7 +878,7 @@
                 "selling_points": [
                   "KEYNOTE-522：pCR 64.8% vs 51.2%",
                   "EFS获益HR 0.63，OS获益",
-                  "NMPA 2023年批准早期高危TNBC"
+                  "NMPA 已批准早期高危 TNBC（限 PD-L1 CPS≥20）"
                 ]
               },
               {
@@ -477,38 +906,49 @@
                 "selling_points": [
                   "OlympiA研究：iDFS HR 0.58",
                   "BRCA突变TNBC/HR+均适用",
-                  "NMPA 2023年批准辅助适应症"
+                  "NMPA 已批准辅助适应症（约 2024 年底），已进医保"
                 ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "芦康沙妥单抗（SKB264）新辅助",
-                "name_en": "SKB264 (Sacituzumab Govitecan analog) neoadjuvant",
-                "company": "科伦博泰 KLUS BioPharma (科伦药业子公司)",
+                "name_cn": "Dato-DXd + 度伐利尤单抗（新辅助/辅助）",
+                "name_en": "Datopotamab Deruxtecan + Durvalumab",
+                "company": "阿斯利康 / 第一三共",
                 "stage": "Phase 3",
-                "trial": "EVER-132-003",
-                "status": "Trop-2 ADC，中国本土研发，新辅助早期TNBC，与K药联合探索"
+                "trial": "TROPION-Breast03 / -04",
+                "status": "随访中",
+                "design": "Breast04：新辅助 Dato-DXd + 度伐利尤对比 KEYNOTE-522 方案；Breast03：术后残留病灶",
+                "impact": "直接挑战 KEYNOTE-522，若成功 Keytruda 在早期 TNBC 的地位将被动摇"
+              },
+              {
+                "name_cn": "Sac-TMT + 帕博利珠单抗（辅助）",
+                "name_en": "Sacituzumab Tirumotecan + Pembrolizumab",
+                "company": "默沙东 / 科伦博泰",
+                "stage": "Phase 3",
+                "trial": "TroFuse-012",
+                "status": "入组中",
+                "design": "新辅助后未达 pCR，ADC + K 药对比 K 药 ± 卡培他滨",
+                "impact": "默沙东自我迭代 KEYNOTE-522 的方案"
               }
             ]
           },
           {
             "line": 1,
-            "label_cn": "一线治疗（转移性，PD-L1+）",
-            "label_en": "1st Line (Metastatic, PD-L1+)",
+            "label_cn": "一线治疗（转移性）",
+            "label_en": "1st Line (Metastatic)",
             "options": [
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗 + 化疗（nab-紫杉醇/吉西他滨+卡铂）",
-                "name_en": "Pembrolizumab + Chemotherapy (CPS≥10)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 280000,
+                "name_cn": "特瑞普利单抗（拓益）+ 白蛋白紫杉醇（PD-L1 阳性）",
+                "name_en": "Toripalimab (Tuoyi) + nab-Paclitaxel (PD-L1+)",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "KEYNOTE-355：CPS≥10人群PFS 9.7m vs 5.6m",
-                  "OS 23.0m vs 16.1m",
-                  "NMPA批准CPS≥10 mTNBC"
+                  "TORCHLIGHT：PD-L1 阳性（CPS≥1）人群 PFS 8.4 vs 5.6 个月",
+                  "NMPA 2024-06 批准，国内首个获批的 TNBC 免疫治疗方案"
                 ]
               },
               {
@@ -523,24 +963,63 @@
                   "PD-L1阴性标准化疗方案",
                   "医保报销，广泛可及"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "德达博妥单抗（Datroway）",
+                "name_en": "Datopotamab Deruxtecan (Datroway)",
+                "manufacturer": "阿斯利康 / 第一三共",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TROPION-Breast02：OS 23.7 vs 18.7 个月（HR 0.79），PFS HR 0.57",
+                  "NMPA 2026-10-08 批准：不适合 PD-(L)1 治疗的一线 TNBC"
+                ],
+                "approved": "NMPA 2026-10",
+                "impact": "进入一线后，将与已申报一线适应症的 sac-TMT 直接竞争"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "芦康沙妥单抗（SKB264）一线",
-                "name_en": "SKB264 (Sacituzumab Govitecan-like, KLUS204)",
-                "company": "科伦博泰 KLUS BioPharma",
-                "stage": "Phase 3",
-                "trial": "EVER-132-002",
-                "status": "Trop-2 ADC，中国自主研发，mTNBC一线 vs化疗，2024年申报NDA"
+                "name_cn": "芦康沙妥珠单抗（一线）",
+                "name_en": "Sacituzumab Tirumotecan 1L",
+                "company": "科伦博泰",
+                "stage": "Phase 3（阳性）/ 已申报",
+                "trial": "OptiTROP-Breast05",
+                "status": "PD-L1 阴性一线对比化疗 PFS 显著获益",
+                "design": "TROP2 ADC 对比研究者选择化疗，一线不适合 PD-1",
+                "impact": "国内 TNBC 一线化疗将被国产 ADC 替代"
               },
               {
-                "name_cn": "戈沙妥珠单抗（Trodelvy）+ 帕博利珠单抗 ★ ASCO 2026",
-                "name_en": "Sacituzumab Govitecan + Pembrolizumab",
-                "company": "吉利德 Gilead",
+                "name_cn": "依沃西单抗 + 化疗",
+                "name_en": "Ivonescimab + Chemo",
+                "company": "康方生物",
                 "stage": "Phase 3",
-                "trial": "ASCENT-04",
-                "status": "ASCO 2026：一线PD-L1+（CPS≥10）转移性TNBC，Trop-2 ADC+帕博利珠单抗 vs 化疗+帕博利珠单抗，PFS显著获益（约11.2m vs 7.8m）"
+                "trial": "HARMONi-BC1",
+                "status": "一线 TNBC III 期入组中",
+                "design": "PD-1/VEGF 双抗 + 紫杉类对比化疗，不限 PD-L1",
+                "impact": "若在 PD-L1 阴性人群也有效，将突破 PD-1 在 TNBC 的 CPS 限制"
+              },
+              {
+                "name_cn": "Pumitamig（BNT327）+ 化疗",
+                "name_en": "Pumitamig (BNT327) + Chemo",
+                "company": "BioNTech / 普米斯",
+                "stage": "Phase 3",
+                "trial": "ROSETTA Breast-01",
+                "status": "全球入组中",
+                "design": "PD-L1×VEGF 双抗 + 化疗对比化疗 ± PD-1",
+                "impact": "与依沃西在 TNBC 正面竞速"
+              },
+              {
+                "name_cn": "帕博利珠单抗 + 化疗（nab-紫杉醇/吉西他滨+卡铂）",
+                "name_en": "Pembrolizumab + Chemotherapy (CPS≥10)",
+                "company": "默沙东 MSD",
+                "stage": "美国已批（2020 加速 / 2021 常规）/ 中国未见获批公告",
+                "trial": "KEYNOTE-355",
+                "status": "CPS≥10：PFS 9.7 vs 5.6 个月，OS 23.0 vs 16.1 个月",
+                "design": "PD-1 + 化疗对比化疗，一线 PD-L1 阳性 mTNBC",
+                "impact": "国内一线免疫适应症由特瑞普利单抗先行获批"
               }
             ]
           },
@@ -560,54 +1039,48 @@
                 "selling_points": [
                   "ASCENT研究：OS 12.1m vs 6.7m vs化疗",
                   "Trop-2 ADC，革命性二线治疗",
-                  "NMPA 2023年批准TNBC适应症"
+                  "NMPA 2022-06 批准（既往 ≥2 线系统治疗）"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "奥拉帕利（gBRCA突变）",
-                "name_en": "Olaparib (Lynparza) - gBRCA+",
-                "manufacturer": "阿斯利康/默沙东 AZ/MSD",
-                "annual_cost_rmb": 120000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "OlympiAD研究：PFS 7.0m vs 4.2m",
-                  "BRCA突变TNBC口服PARP抑制剂",
-                  "医保报销（乳腺癌gBRCA适应症）"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "芦康沙妥单抗（SKB264）",
-                "name_en": "SKB264 (Sacituzumab Govitecan analog)",
-                "manufacturer": "科伦博泰 KLUS BioPharma",
+                "name_cn": "芦康沙妥珠单抗（佳泰莱）",
+                "name_en": "Sacituzumab Tirumotecan (sac-TMT, SKB264)",
+                "manufacturer": "科伦博泰 Kelun-Biotech",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
                 "market_share": "15%",
                 "selling_points": [
-                  "EVER-132-001：ORR 46.6%（mTNBC后线）",
-                  "中国本土Trop-2 ADC，NMPA 2024年获批",
-                  "科伦药业与AstraZeneca合作，全球授权"
+                  "OptiTROP-Breast01：PFS 显著优于化疗（HR 0.31）",
+                  "NMPA 2024-11 批准：≥2 线治疗后的 TNBC",
+                  "海外权益授权默沙东（MK-2870）"
+                ],
+                "approved": "NMPA 2024-11"
+              },
+              {
+                "type": "drug",
+                "name_cn": "氟唑帕利 ± 阿帕替尼（gBRCA 突变）",
+                "name_en": "Fuzuloparib ± Apatinib (gBRCA+)",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "FABULOUS：PFS 显著优于化疗",
+                  "NMPA 已批准 gBRCA 突变 HER2 阴性转移性乳腺癌"
                 ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Dato-DXd（Datopotamab deruxtecan）",
-                "name_en": "Dato-DXd (Datopotamab Deruxtecan)",
-                "company": "第一三共/阿斯利康 Daiichi/AZ",
-                "stage": "已上市（美国TNBC 2025）/ 中国申报",
-                "trial": "TROPION-Breast02",
-                "status": "Trop-2 ADC，DESTINY-Breast06/TROPION-Breast02阳性，美国2025年获批"
-              },
-              {
-                "name_cn": "依沃西单抗（AK112）+ 化疗",
-                "name_en": "Ivonescimab (AK112) + Chemotherapy",
-                "company": "康方生物 Akeso Biopharma",
-                "stage": "Phase 2/3",
-                "trial": "AK112-301",
-                "status": "PD-1/VEGF双抗，mTNBC一线联合化疗探索，基于NSCLC成功数据延伸至乳腺癌"
+                "name_cn": "奥拉帕利（gBRCA突变）",
+                "name_en": "Olaparib (Lynparza) - gBRCA+",
+                "company": "阿斯利康/默沙东 AZ/MSD",
+                "stage": "美欧已批 / 中国转移性适应症未见获批",
+                "trial": "OlympiAD",
+                "status": "PFS 7.0 vs 4.2 个月（对比化疗）",
+                "design": "PARP 抑制剂对比医生选择的化疗，gBRCA 突变 HER2 阴性转移性乳腺癌",
+                "impact": "奥拉帕利在国内获批的乳腺癌适应症是早期高危辅助治疗；转移性阶段由国产氟唑帕利先行获批"
               }
             ]
           }
@@ -656,7 +1129,116 @@
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "Dato-DXd + 度伐利尤单抗（新辅助/辅助）",
+                "name_en": "Datopotamab Deruxtecan + Durvalumab",
+                "company": "阿斯利康 / 第一三共",
+                "stage": "Phase 3",
+                "trial": "TROPION-Breast03 / -04",
+                "status": "随访中",
+                "design": "Breast04：新辅助 Dato-DXd + 度伐利尤对比 KEYNOTE-522 方案；Breast03：术后残留病灶",
+                "impact": "直接挑战 KEYNOTE-522，若成功 Keytruda 在早期 TNBC 的地位将被动摇"
+              },
+              {
+                "name_cn": "Sac-TMT + 帕博利珠单抗（辅助）",
+                "name_en": "Sacituzumab Tirumotecan + Pembrolizumab",
+                "company": "默沙东 / 科伦博泰",
+                "stage": "Phase 3",
+                "trial": "TroFuse-012",
+                "status": "入组中",
+                "design": "新辅助后未达 pCR，ADC + K 药对比 K 药 ± 卡培他滨",
+                "impact": "默沙东自我迭代 KEYNOTE-522 的方案"
+              }
+            ]
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（转移性）",
+            "label_en": "1st Line (metastatic)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "戈沙妥珠单抗 + 帕博利珠单抗（PD-L1+）",
+                "name_en": "Sacituzumab Govitecan (Trodelvy) + Pembrolizumab",
+                "manufacturer": "吉利德 Gilead / 默沙东",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "ASCENT-04：PFS 11.2 vs 7.8 个月（HR 0.65）vs 化疗 + K 药",
+                  "FDA 2026-06-24 批准 PD-L1 阳性一线"
+                ],
+                "approved": "FDA 2026-06",
+                "impact": "ADC 取代化疗成为 IO 的搭档，Trodelvy（2025 年 $14 亿）获得最大的新增量"
+              },
+              {
+                "type": "drug",
+                "name_cn": "戈沙妥珠单抗单药（PD-L1−）",
+                "name_en": "Sacituzumab Govitecan (Trodelvy) monotherapy",
+                "manufacturer": "吉利德 Gilead",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "ASCENT-03：PFS 9.7 vs 6.9 个月（HR 0.62）",
+                  "FDA 2026-06-24 批准不适合 PD-1 的一线 TNBC"
+                ],
+                "approved": "FDA 2026-06",
+                "impact": "与 Datroway 同期获批同一人群，两个 TROP2 ADC 正面对决"
+              },
+              {
+                "type": "drug",
+                "name_cn": "德达博妥单抗（Datroway）",
+                "name_en": "Datopotamab Deruxtecan (Datroway)",
+                "manufacturer": "阿斯利康 / 第一三共",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TROPION-Breast02：OS 23.7 vs 18.7 个月（HR 0.79），PFS HR 0.57",
+                  "FDA 2026-05-22 批准不适合 PD-1 的一线 TNBC",
+                  "首个在一线 TNBC 显示 OS 获益的 ADC"
+                ],
+                "approved": "FDA 2026-05",
+                "impact": "凭 OS 数据与每 3 周给药便利性，在 PD-L1 阴性一线与 Trodelvy 分庭抗礼"
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗 + 化疗（CPS≥10）",
+                "name_en": "Pembrolizumab + Chemotherapy",
+                "manufacturer": "默沙东 Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "下降中",
+                "selling_points": [
+                  "KEYNOTE-355：OS 23.0 vs 16.1 个月",
+                  "正被 SG + K 药替代"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Dato-DXd + 度伐利尤单抗",
+                "name_en": "Datopotamab Deruxtecan + Durvalumab",
+                "company": "阿斯利康",
+                "stage": "Phase 3",
+                "trial": "TROPION-Breast05",
+                "status": "PD-L1 阳性一线，对比化疗 + K 药",
+                "design": "ADC + PD-L1 对比化疗 + PD-1",
+                "impact": "阿斯利康需此数据进入 PD-L1 阳性人群，否则被 SG + K 药锁定"
+              },
+              {
+                "name_cn": "Sac-TMT",
+                "name_en": "Sacituzumab Tirumotecan",
+                "company": "默沙东",
+                "stage": "Phase 3",
+                "trial": "TroFuse-011",
+                "status": "入组中",
+                "design": "TROP2 ADC ± K 药对比化疗",
+                "impact": "第三个 TROP2 ADC 入场"
+              }
+            ]
           },
           {
             "line": 2,
@@ -692,12 +1274,14 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Dato-DXd",
-                "name_en": "Datopotamab Deruxtecan (Dato-DXd)",
-                "company": "Daiichi Sankyo / AstraZeneca",
-                "stage": "已上市（2025美国）",
-                "trial": "TROPION-Breast02",
-                "status": "Trop-2 ADC FDA approved 2025 for HR+HER2- and TNBC post-chemo"
+                "name_cn": "HER3-DXd / B7-H4 ADC",
+                "name_en": "Emiltatug Ledadotin / Puxitatug Samrotecan",
+                "company": "阿斯利康、GSK 等",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "B7-H4 ADC 在 TNBC ORR 约 30%",
+                "design": "TROP2 ADC 前移后的后线新靶点 ADC",
+                "impact": "一线用过 TROP2 ADC 后，二线需要新靶点，B7-H4 是最受关注的方向"
               }
             ]
           }
@@ -733,29 +1317,38 @@
                 "annual_cost_usd": null,
                 "market_share": "75%",
                 "selling_points": [
-                  "DESTINY-Breast04：OS 23.4m vs 16.8m（HR+）；OS 18.2m vs 8.3m（HR-）",
+                  "DESTINY-Breast04：总人群 OS 23.4 vs 16.8 个月；OS 18.2m vs 8.3m（HR-）",
                   "首次证明HER2低表达是独立治疗靶点",
-                  "NMPA 2024年批准HER2低表达mBC适应症",
+                  "NMPA 2023 年批准 HER2 低表达 mBC",
                   "彻底重新定义HER2阴性乳腺癌分类"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "德达博妥单抗（Datroway）",
+                "name_en": "Datopotamab Deruxtecan (Datroway)",
+                "manufacturer": "阿斯利康 / 第一三共",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TROPION-Breast01：PFS 6.9 vs 4.9 个月",
+                  "NMPA 2025-08 批准：内分泌治疗及 ≥1 线化疗后的 HR+/HER2- 乳腺癌"
+                ],
+                "approved": "NMPA 2025-08",
+                "impact": "在 T-DXd 之后提供第二个 ADC 选项"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "T-DXd（DESTINY-Breast06，HER2超低表达）",
-                "name_en": "T-DXd - HER2 ultralow",
-                "company": "第一三共/阿斯利康",
-                "stage": "已上市（美国2024扩展）",
-                "trial": "DESTINY-Breast06",
-                "status": "HER2超低表达（IHC>0但<1+）也有获益，FDA 2024年扩大适应症"
-              },
-              {
-                "name_cn": "Dato-DXd（HER2低表达）",
-                "name_en": "Datopotamab Deruxtecan - HER2-low",
-                "company": "第一三共/阿斯利康",
+                "name_cn": "瑞康曲妥珠单抗",
+                "name_en": "Trastuzumab Rezetecan (SHR-A1811)",
+                "company": "恒瑞医药",
                 "stage": "Phase 3",
-                "trial": "TROPION-Breast06",
-                "status": "Trop-2 ADC，探索在HER2低表达中的疗效"
+                "trial": "—",
+                "status": "HER2 低表达 III 期入组完成",
+                "design": "国产 HER2 ADC 对比化疗",
+                "impact": "国产替代 Enhertu 的主力"
               }
             ]
           }
@@ -784,21 +1377,38 @@
                 "annual_cost_usd": 380000,
                 "market_share": "80%",
                 "selling_points": [
-                  "DESTINY-Breast04: OS 23.4m vs 16.8m (HR+)",
+                  "DESTINY-Breast04: OS 23.4m vs 16.8m (all patients)",
                   "DESTINY-Breast06: also benefits HER2-ultralow",
                   "FDA approved 2022 for HER2-low",
                   "Paradigm-shifting: redefined HER2-negative category"
-                ]
+                ],
+                "impact": "DESTINY-Breast06 把适用人群扩至 HER2 超低表达并前移到化疗前，约 85% 的 HR+ 晚期患者符合条件"
+              },
+              {
+                "type": "drug",
+                "name_cn": "德达博妥单抗（Datroway）",
+                "name_en": "Datopotamab Deruxtecan (Datroway)",
+                "manufacturer": "阿斯利康 / 第一三共",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TROPION-Breast01：PFS 6.9 vs 4.9 个月",
+                  "FDA 2025-01 批准 HR+/HER2- 经化疗"
+                ],
+                "approved": "FDA 2025-01"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "MRG003 (EGFR ADC - exploratory)",
-                "name_en": "Patritumab Deruxtecan in HER2-low",
-                "company": "Daiichi Sankyo / AZ",
-                "stage": "Exploratory",
-                "trial": "DESTINY-Breast11",
-                "status": "Combination ADC strategies in HER2-low setting"
+                "name_cn": "T-DXd 一线（HR+/HER2 低表达）",
+                "name_en": "T-DXd earlier lines",
+                "company": "第一三共 / 阿斯利康",
+                "stage": "Phase 3",
+                "trial": "DESTINY-Breast15 等",
+                "status": "探索与内分泌/CDK4/6 的序贯与联合",
+                "design": "把 ADC 进一步前移到内分泌敏感阶段",
+                "impact": "决定 ADC 是否侵蚀 CDK4/6 抑制剂的二线及以后份额"
               }
             ]
           }

@@ -38,23 +38,40 @@
                   "BRAF/MEK双靶向，NMPA批准辅助治疗",
                   "口服，适合BRAF突变患者"
                 ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）辅助",
-                "name_en": "Pembrolizumab (Keytruda) adjuvant",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "35%",
-                "selling_points": [
-                  "KEYNOTE-054：III期术后RFS获益",
-                  "不受BRAF状态限制",
-                  "免疫辅助治疗标准之一"
-                ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "Intismeran autogene + 帕博利珠单抗（辅助）",
+                "name_en": "Intismeran Autogene (mRNA-4157/V940) + Pembrolizumab",
+                "company": "Moderna / 默沙东 Merck",
+                "stage": "Phase 3（阳性）/ 申报准备中",
+                "trial": "INTerpath-001",
+                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）；其他瘤种：NSCLC 辅助 III 期（INTerpath-002）、肾癌辅助 II 期（INTerpath-004，入组完成）、膀胱癌（INTerpath-005 I/II 期、INTerpath-011 II 期）、皮肤鳞癌 II 期（INTerpath-007）",
+                "design": "个体化新抗原 mRNA 疫苗（最多 34 个新抗原）+ K 药对比 K 药，高危 III/IV 期术后辅助",
+                "impact": "首个 III 期阳性的个体化癌症疫苗，mRNA 平台在肿瘤领域获得验证；Keytruda 辅助适应症借此延续到专利期之后"
+              },
+              {
+                "name_cn": "新辅助免疫",
+                "name_en": "Neoadjuvant Nivolumab + Ipilimumab / Pembrolizumab",
+                "company": "BMS / 默沙东",
+                "stage": "Phase 3（阳性）",
+                "trial": "NADINA / SWOG S1801",
+                "status": "NADINA：EFS HR 0.32",
+                "design": "可切除 III 期，术前免疫对比术后辅助",
+                "impact": "同样的药换个时机就大幅获益，新辅助成为 III 期新标准"
+              },
+              {
+                "name_cn": "帕博利珠单抗（可瑞达）辅助",
+                "name_en": "Pembrolizumab (Keytruda) adjuvant",
+                "company": "默沙东 MSD",
+                "stage": "美欧已批 / 中国未见辅助适应症获批公告",
+                "trial": "KEYNOTE-054 / KEYNOTE-716",
+                "status": "III 期术后 RFS 显著获益（HR 约 0.6）",
+                "design": "PD-1 单药辅助对比安慰剂",
+                "impact": "帕博利珠单抗在国内获批的黑色素瘤适应症为一线治疗失败后的晚期患者；辅助阶段获批药物为达拉非尼 + 曲美替尼"
+              }
+            ]
           },
           {
             "line": 1,
@@ -63,31 +80,17 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "纳武利尤单抗（欧狄沃）+ 伊匹木单抗（逸沃）",
-                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
-                "manufacturer": "百时美施贵宝 BMS",
-                "annual_cost_rmb": 400000,
+                "name_cn": "特瑞普利单抗（拓益）",
+                "name_en": "Toripalimab (Tuoyi)",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "CheckMate 067：5年OS 52%，双免疫最强OS平台期",
-                  "PD-1+CTLA-4双免疫，NMPA已批",
-                  "irAE发生率较高，需监测"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）单药",
-                "name_en": "Pembrolizumab (Keytruda) monotherapy",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "25%",
-                "selling_points": [
-                  "KEYNOTE-006：OS优于伊匹木单抗",
-                  "单药耐受性好，一线选择",
-                  "皮肤型疗效佳"
-                ]
+                  "MELATORCH：对比达卡巴嗪，PFS HR 0.71",
+                  "NMPA 2025-04 批准不可切除或转移性黑色素瘤一线治疗"
+                ],
+                "approved": "NMPA 2025-04"
               },
               {
                 "type": "drug",
@@ -99,51 +102,92 @@
                 "market_share": "25%",
                 "selling_points": [
                   "COMBI-d/v：起效快，ORR约68%，适合高肿瘤负荷/症状明显者",
-                  "BRAF/MEK双靶向，NMPA批准",
+                  "BRAF/MEK 双靶向，NMPA 2019-12 批准",
                   "中位PFS约11-12m，部分患者长期获益"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "维莫非尼（佐博伏）+ 考比替尼",
-                "name_en": "Vemurafenib (Zelboraf) + Cobimetinib",
+                "name_cn": "维莫非尼（佐博伏）",
+                "name_en": "Vemurafenib (Zelboraf)",
                 "manufacturer": "罗氏 Roche",
                 "annual_cost_rmb": 280000,
                 "annual_cost_usd": null,
                 "market_share": "20%",
                 "selling_points": [
-                  "coBRIM研究：BRAF/MEK联合方案",
-                  "维莫非尼NMPA较早获批BRAF+黑色素瘤",
-                  "光敏性等皮肤毒性需注意"
+                  "BRIM-3：对比达卡巴嗪 OS、PFS 显著获益",
+                  "NMPA 2017 年批准 BRAF V600 突变的不可切除或转移性黑色素瘤",
+                  "联合用药考比替尼（coBRIM 方案）在国内未见获批；光敏性等皮肤毒性需注意"
                 ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "纳武利尤单抗 + 瑞拉利单抗（Opdualag）",
+                "name_cn": "Lifileucel + 帕博利珠单抗（一线）",
+                "name_en": "Lifileucel (Amtagvi) + Pembrolizumab",
+                "company": "Iovance",
+                "stage": "Phase 3",
+                "trial": "TILVANCE-301",
+                "status": "入组中；Amtagvi 后线已于 2024-02 获批",
+                "design": "TIL 细胞疗法 + PD-1 对比 PD-1 单药，一线",
+                "impact": "TIL 能否前移决定 Iovance 存亡，目前后线放量受生产与住院流程限制"
+              },
+              {
+                "name_cn": "纳武利尤单抗 + 瑞拉利单抗",
                 "name_en": "Nivolumab + Relatlimab (Opdualag)",
                 "company": "百时美施贵宝 BMS",
-                "stage": "已上市（美国2022）/ 中国未上市",
+                "stage": "美国已上市 / 中国未见获批",
                 "trial": "RELATIVITY-047",
-                "status": "首个LAG-3抑制剂固定复方，mPFS 10.1m vs 4.6m（vs 纳武利尤单药），毒性低于双免疫，美国一线获批"
+                "status": "PFS 10.1 vs 4.6 个月",
+                "design": "LAG-3 + PD-1 固定剂量复方对比纳武单药",
+                "impact": "Opdualag 2025 年销售 >$10 亿，是 BMS 在 Opdivo 专利到期前的过渡产品"
               },
               {
-                "name_cn": "Lifileucel（Amtagvi）TIL细胞疗法",
-                "name_en": "Lifileucel (Amtagvi)",
-                "company": "Iovance Biotherapeutics",
-                "stage": "已上市（美国2024）/ 中国研究中",
-                "trial": "C-144-01",
-                "status": "首个获批用于实体瘤的肿瘤浸润淋巴细胞（TIL）疗法，用于抗PD-1治疗后进展的晚期黑色素瘤，ORR约31%"
-              },
-              {
-                "name_cn": "mRNA-4157/V940 + 帕博利珠单抗",
-                "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
-                "company": "默沙东/Moderna MSD/Moderna",
-                "stage": "Phase 3（阳性）",
-                "trial": "INTerpath-001 / KEYNOTE-942",
-                "status": "2026-08 III期INTerpath-001（n=1137，IIB-IV期术后辅助）达到RFS主要终点及DMFS关键次要终点，具体HR待ESMO 2026（10-24，LBA1）公布；2b期KEYNOTE-942 5年随访RFS HR 0.51"
+                "name_cn": "纳武利尤单抗（欧狄沃）+ 伊匹木单抗（逸沃）",
+                "name_en": "Nivolumab (Opdivo) + Ipilimumab (Yervoy)",
+                "company": "百时美施贵宝 BMS",
+                "stage": "美欧已批 / 中国未见黑色素瘤适应症获批",
+                "trial": "CheckMate 067",
+                "status": "5 年 OS 52%，10 年 OS 约 43%",
+                "design": "PD-1 + CTLA-4 双免疫对比单药",
+                "impact": "该联合在国内已获批间皮瘤、结直肠癌、肝癌、肺癌，黑色素瘤尚无适应症"
               }
             ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（一线治疗失败后）",
+            "label_en": "2nd Line (after 1L failure)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "25%",
+                "selling_points": [
+                  "KEYNOTE-151（中国）：经治人群 ORR 16.7%",
+                  "NMPA 2018-07 批准：一线治疗失败的不可切除或转移性黑色素瘤",
+                  "国内首个获批黑色素瘤的 PD-1 单抗"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "特瑞普利单抗（拓益）— 二线及以上",
+                "name_en": "Toripalimab (Tuoyi) — 2L+",
+                "manufacturer": "君实生物 Junshi",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "POLARIS-01：经治人群 ORR 17.3%",
+                  "NMPA 2018-12 附条件批准，2025-01 转为常规批准"
+                ]
+              }
+            ],
+            "pipeline": []
           }
         ]
       },
@@ -160,6 +204,64 @@
           "Serum LDH"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "术后辅助治疗（IIB–IV 期切除后）",
+            "label_en": "Adjuvant (resected stage IIB–IV)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗辅助",
+                "name_en": "Pembrolizumab (Keytruda) adjuvant",
+                "manufacturer": "默沙东 Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "KEYNOTE-054（III 期切除后）与 KEYNOTE-716（IIB/IIC 期）：RFS 显著获益",
+                  "FDA 2019-02 批准 III 期辅助，2021-12 扩展至 IIB/IIC 期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗辅助",
+                "name_en": "Nivolumab (Opdivo) adjuvant",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CheckMate 238（III/IV 期切除后）与 CheckMate 76K（IIB/IIC 期）",
+                  "FDA 2017-12 批准，2023-10 扩展至 IIB/IIC 期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达拉非尼 + 曲美替尼辅助（BRAF V600E/K）",
+                "name_en": "Dabrafenib (Tafinlar) + Trametinib (Mekinist) adjuvant",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "COMBI-AD：RFS HR 0.47",
+                  "FDA 2018-04 批准 III 期 BRAF V600E/K 突变切除后辅助"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Intismeran autogene + 帕博利珠单抗（辅助）",
+                "name_en": "Intismeran Autogene (mRNA-4157/V940) + Pembrolizumab",
+                "company": "Moderna / 默沙东 Merck",
+                "stage": "Phase 3（阳性）/ 申报准备中",
+                "trial": "INTerpath-001",
+                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）；其他瘤种：NSCLC 辅助 III 期（INTerpath-002）、肾癌辅助 II 期（INTerpath-004，入组完成）、膀胱癌（INTerpath-005 I/II 期、INTerpath-011 II 期）、皮肤鳞癌 II 期（INTerpath-007）",
+                "design": "个体化新抗原 mRNA 疫苗（最多 34 个新抗原）+ K 药对比 K 药，高危 III/IV 期术后辅助",
+                "impact": "首个 III 期阳性的个体化癌症疫苗，mRNA 平台在肿瘤领域获得验证；Keytruda 辅助适应症借此延续到专利期之后"
+              }
+            ]
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -220,20 +322,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Lifileucel (Amtagvi)",
-                "name_en": "Lifileucel (Amtagvi)",
+                "name_cn": "Lifileucel + 帕博利珠单抗（一线）",
+                "name_en": "Lifileucel (Amtagvi) + Pembrolizumab",
                 "company": "Iovance",
-                "stage": "已上市（美国2024）",
-                "trial": "C-144-01",
-                "status": "First TIL therapy for a solid tumor, FDA 2024 accelerated approval, post anti-PD-1 advanced melanoma, ORR ~31%"
+                "stage": "Phase 3",
+                "trial": "TILVANCE-301",
+                "status": "入组中；Amtagvi 后线已于 2024-02 获批",
+                "design": "TIL 细胞疗法 + PD-1 对比 PD-1 单药，一线",
+                "impact": "TIL 能否前移决定 Iovance 存亡，目前后线放量受生产与住院流程限制"
               },
               {
-                "name_cn": "mRNA-4157/V940 + Pembrolizumab",
-                "name_en": "Intismeran autogene (mRNA-4157/V940) + Pembrolizumab",
-                "company": "Merck / Moderna",
-                "stage": "Phase 3（阳性）",
-                "trial": "INTerpath-001 / KEYNOTE-942",
-                "status": "2026-08 III期INTerpath-001（n=1137，IIB-IV期术后辅助）达到RFS主要终点及DMFS关键次要终点，具体HR待ESMO 2026（10-24，LBA1）公布；2b期KEYNOTE-942 5年随访RFS HR 0.51"
+                "name_cn": "Fianlimab + Cemiplimab",
+                "name_en": "Fianlimab + Cemiplimab",
+                "company": "再生元 Regeneron",
+                "stage": "Phase 3（未达 PFS 终点，2026-05）",
+                "trial": "—",
+                "status": "一线头对头帕博利珠单抗未显示 PFS 优效",
+                "design": "LAG-3 + PD-1 对比 PD-1 单药",
+                "impact": "LAG-3 赛道只剩 Opdualag 一家，第二个 LAG-3 组合落空"
               }
             ]
           },
@@ -254,17 +360,37 @@
                   "2026-08-06 FDA加速批准：抗PD-1进展后不可切除/转移性皮肤黑色素瘤",
                   "IGNYTE（单臂II期）：确认ORR 33.6%（CR 15.0%，独立评审）",
                   "溶瘤HSV-1病毒瘤内注射；历经2次CRL后获批"
-                ]
+                ],
+                "approved": "FDA 2026-08（加速）",
+                "impact": "首个获批用于 PD-1 耐药黑色素瘤的溶瘤病毒联合方案，现货型、可门诊注射，比 TIL 更易推广"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Lifileucel（Amtagvi，TIL）",
+                "name_en": "Lifileucel (Amtagvi)",
+                "manufacturer": "Iovance",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "C-144-01：PD-1 经治人群 ORR 31.5%",
+                  "FDA 2024-02 加速批准，首个实体瘤 TIL 细胞疗法",
+                  "需住院清淋与 IL-2，治疗中心与产能受限"
+                ],
+                "approved": "FDA 2024-02（加速）",
+                "impact": "治疗中心与产能受限，季度销售仍在数千万美元级"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Lifileucel（Amtagvi）TIL",
-                "name_en": "Lifileucel (Amtagvi)",
-                "company": "Iovance",
-                "stage": "已上市（美国2024）",
-                "trial": "C-144-01",
-                "status": "抗PD-1后TIL疗法，ORR约31%"
+                "name_cn": "Anzutresgene autoleucel（IMA203）",
+                "name_en": "Anzutresgene Autoleucel (IMA203, PRAME TCR-T)",
+                "company": "Immatics",
+                "stage": "Phase 3",
+                "trial": "SUPRAME",
+                "status": "入组中；Ib 期 ORR 约 56%",
+                "design": "PRAME 靶向 TCR-T 对比研究者选择，PD-1 经治皮肤黑色素瘤",
+                "impact": "若成功将是实体瘤首个大适应症 TCR-T，与 TIL、RP1 争夺 PD-1 耐药后市场"
               }
             ]
           }
@@ -288,6 +414,38 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "术后辅助治疗",
+            "label_en": "Adjuvant",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "PD-1 单抗 / 大剂量干扰素（肢端型）；辅助化疗（黏膜型）",
+                "name_en": "Anti-PD-1 or high-dose interferon (acral); adjuvant chemotherapy (mucosal)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "肢端型：术后辅助可选 PD-1 单抗或大剂量干扰素",
+                  "黏膜型：替莫唑胺 + 顺铂辅助化疗证据较多（CSCO 指南）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "个体化 mRNA 疫苗（辅助）",
+                "name_en": "Intismeran / 国产 mRNA 新抗原疫苗",
+                "company": "Moderna-默沙东 / 斯微、艾博 等",
+                "stage": "全球 Phase 3 阳性 / 国产 Phase 1",
+                "trial": "INTerpath-001",
+                "status": "INTerpath-001 人群以皮肤型为主",
+                "design": "术后辅助联合 PD-1",
+                "impact": "肢端/黏膜型突变负荷低，疫苗获益是否等同尚无数据"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗（不可切除/转移）",
             "label_en": "1st Line (Unresectable/Metastatic)",
@@ -301,38 +459,11 @@
                 "annual_cost_usd": null,
                 "market_share": "35%",
                 "selling_points": [
-                  "中国首个自主研发抗PD-1，最早获批适应症即黑色素瘤（2018年）",
-                  "医保报销，肢端/黏膜型可及性高",
-                  "POLARIS-01：既往治疗黑色素瘤ORR约17%"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
-                "name_en": "Nivolumab + Ipilimumab",
-                "manufacturer": "百时美施贵宝 BMS",
-                "annual_cost_rmb": 400000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "双免疫在肢端/黏膜型应答低于皮肤型，但仍为高危选择",
-                  "NMPA已批不可切除黑色素瘤",
-                  "毒性需密切监测"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "帕博利珠单抗（可瑞达）",
-                "name_en": "Pembrolizumab (Keytruda)",
-                "manufacturer": "默沙东 MSD",
-                "annual_cost_rmb": 220000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "抗PD-1单药，皮肤型疗效佳、肢端/黏膜型有限",
-                  "KEYNOTE-151中国研究支持",
-                  "耐受性好"
-                ]
+                  "MELATORCH：一线对比达卡巴嗪 PFS HR 0.71，NMPA 2025-04 批准一线",
+                  "国内首个获批黑色素瘤的国产 PD-1（2018-12，二线）；POLARIS-01：经治 ORR 17.3%",
+                  "医保报销，肢端 / 黏膜型可及性高"
+                ],
+                "approved": "NMPA 2025-04"
               },
               {
                 "type": "drug",
@@ -351,28 +482,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "特瑞普利单抗 + 阿昔替尼",
+                "name_cn": "特瑞普利单抗 + 阿昔替尼（黏膜型）",
                 "name_en": "Toripalimab + Axitinib",
-                "company": "君实生物 Junshi",
-                "stage": "Phase 2/3（中国）",
-                "trial": "黏膜型黑色素瘤研究",
-                "status": "PD-1+抗血管TKI针对黏膜型黑色素瘤，早期ORR显著高于免疫单药（约48%），中国原研探索方向"
-              },
-              {
-                "name_cn": "普特利单抗 / 其他国产PD-1",
-                "name_en": "Domestic anti-PD-1 agents",
-                "company": "多家国产 Various",
-                "stage": "已上市/适应症扩展",
+                "company": "君实生物",
+                "stage": "Phase 3",
                 "trial": "—",
-                "status": "多个国产PD-1探索肢端/黏膜型黑色素瘤联合方案（抗血管、化疗、KIT抑制剂）"
+                "status": "II 期 ORR 48%，III 期进行中",
+                "design": "PD-1 + VEGFR TKI 对比 PD-1 单药，一线黏膜黑色素瘤",
+                "impact": "黏膜/肢端型对 PD-1 单药不敏感，联合抗血管是中国特色方案"
               },
               {
-                "name_cn": "Lifileucel（TIL）",
-                "name_en": "Lifileucel (TIL)",
-                "company": "Iovance",
-                "stage": "已上市（美国2024）/ 中国研究中",
-                "trial": "C-144-01",
-                "status": "TIL细胞疗法在肢端/黏膜型的探索受关注，可能为免疫耐药人群提供新选择"
+                "name_cn": "纳武利尤单抗 + 伊匹木单抗",
+                "name_en": "Nivolumab + Ipilimumab",
+                "company": "百时美施贵宝 BMS",
+                "stage": "美欧已批 / 中国未见黑色素瘤适应症获批",
+                "trial": "CheckMate 067（亚组）",
+                "status": "肢端 / 黏膜型应答低于皮肤型",
+                "design": "PD-1 + CTLA-4 双免疫",
+                "impact": "国内黑色素瘤尚无双免疫适应症"
               }
             ]
           },
@@ -392,11 +519,52 @@
                 "selling_points": [
                   "KIT外显子11/13突变的肢端/黏膜型可获益",
                   "口服TKI，医保报销",
-                  "需先行KIT突变检测"
+                  "需先行KIT突变检测",
+                  "黑色素瘤不在国内说明书适应症内，属指南推荐用法"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "妥拉美替尼（NRAS 突变）",
+                "name_en": "Tunlametinib",
+                "manufacturer": "科州制药",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "NRAS 突变晚期黑色素瘤 ORR 35%",
+                  "NMPA 2024 附条件批准，全球首个 NRAS 突变黑色素瘤靶向药"
+                ],
+                "approved": "NMPA 2024",
+                "impact": "填补 NRAS 突变（亚洲患者约 10-20%）无药可用的空白"
+              },
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗（可瑞达）",
+                "name_en": "Pembrolizumab (Keytruda)",
+                "manufacturer": "默沙东 MSD",
+                "annual_cost_rmb": 220000,
+                "annual_cost_usd": null,
+                "market_share": "20%",
+                "selling_points": [
+                  "KEYNOTE-151（中国）：经治人群 ORR 16.7%，肢端 / 黏膜型应答更低",
+                  "NMPA 2018-07 批准：一线治疗失败后",
+                  "耐受性好"
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "TIL / TCR-T",
+                "name_en": "TIL & TCR-T therapies",
+                "company": "君赛生物、沙砾生物 等",
+                "stage": "Phase 1/2",
+                "trial": "—",
+                "status": "国产 TIL 进入注册临床",
+                "design": "PD-1 耐药后细胞治疗",
+                "impact": "成本有望显著低于 Amtagvi（$51.5 万）"
+              }
+            ]
           }
         ]
       },
@@ -459,12 +627,24 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Lifileucel (Amtagvi)",
-                "name_en": "Lifileucel (Amtagvi)",
+                "name_cn": "Lifileucel + 帕博利珠单抗（一线）",
+                "name_en": "Lifileucel (Amtagvi) + Pembrolizumab",
                 "company": "Iovance",
-                "stage": "已上市（美国2024）",
-                "trial": "C-144-01",
-                "status": "TIL therapy option post anti-PD-1, including acral/mucosal subsets"
+                "stage": "Phase 3",
+                "trial": "TILVANCE-301",
+                "status": "入组中；Amtagvi 后线已于 2024-02 获批",
+                "design": "TIL 细胞疗法 + PD-1 对比 PD-1 单药，一线",
+                "impact": "TIL 能否前移决定 Iovance 存亡，目前后线放量受生产与住院流程限制"
+              },
+              {
+                "name_cn": "Anzutresgene autoleucel（IMA203）",
+                "name_en": "Anzutresgene Autoleucel (IMA203, PRAME TCR-T)",
+                "company": "Immatics",
+                "stage": "Phase 3",
+                "trial": "SUPRAME",
+                "status": "入组中；Ib 期 ORR 约 56%",
+                "design": "PRAME 靶向 TCR-T 对比研究者选择，PD-1 经治皮肤黑色素瘤",
+                "impact": "若成功将是实体瘤首个大适应症 TCR-T，与 TIL、RP1 争夺 PD-1 耐药后市场"
               }
             ]
           }

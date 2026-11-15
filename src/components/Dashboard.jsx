@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
   ScatterChart, Scatter, ZAxis, Cell,
 } from 'recharts';
-import { getDashboardData } from '../data/index.js';
+import { getDashboardData, DRUG_SALES } from '../data/index.js';
 
 const CATEGORY_COLORS = {
   oncology:       '#ef4444',
@@ -15,6 +15,8 @@ const CATEGORY_COLORS = {
 
 const MARKET_COLORS = { cn: '#ef4444', us: '#3b82f6', eu: '#10b981' };
 
+const FMT_SALE = (v) => v == null ? '未披露' : v >= 1 ? `$${v.toFixed(1)}B` : `$${Math.round(v * 1000)}M`;
+const FMT_CNY  = (v) => v == null ? '未披露' : `¥${v >= 10 ? Math.round(v) : v.toFixed(1)}亿`;
 const FMT_B  = (v) => v == null || v === 0 ? '—' : `$${v.toFixed(1)}B`;
 const FMT_K  = (v) => v == null || v === 0 ? '—' : v < 1 ? `$${Math.round(v * 1000)}` : v < 10 ? `$${v.toFixed(1)}K` : `$${Math.round(v).toLocaleString()}K`;
 const FMT_N  = (v) => v == null || v === 0 ? '—' : v >= 1e6 ? `${(v / 1e6).toFixed(1)}M` : v >= 1e3 ? `${(v / 1e3).toFixed(0)}K` : v.toLocaleString();
@@ -106,6 +108,65 @@ function DisCheckbox({ diseaseId, selectedDiseaseIds, onToggle }) {
 }
 
 // ── Main Component ──────────────────────────────────────────────────────────
+// Product-level FY2025 sales (all indications), US vs China. "≈" = estimate (not broken out in filings).
+function SalesTable() {
+  const [q, setQ] = useState('');
+  const [sortKey, setSortKey] = useState('global');
+  const [showAll, setShowAll] = useState(false);
+  const rows = useMemo(() => {
+    const f = DRUG_SALES.filter((s) => !q || `${s.brand} ${s.match.join(' ')}`.toLowerCase().includes(q.toLowerCase()));
+    return [...f].sort((a, b) => (b[sortKey] ?? -1) - (a[sortKey] ?? -1));
+  }, [q, sortKey]);
+  const shown = showAll || q ? rows : rows.slice(0, 25);
+  const est = (s, k) => (s.est?.includes(k) && s[k] != null ? '≈' : '');
+  const cnUsd = (s) => (s.cn != null ? s.cn / 71.8 : null); // 亿元 → $B (CNY 7.18)
+  const head = (k, label, cls) => (
+    <th className={`db-th sortable ${cls}`} onClick={() => setSortKey(k)}>{label}{sortKey === k ? ' ▼' : ''}</th>
+  );
+  return (
+    <div className="db-table-card">
+      <div className="db-table-header">
+        <div>
+          <div className="db-table-title">💵 药品年销售额：中美对比（FY2025）</div>
+          <div className="db-table-subtitle">产品全适应症合计 · 共 {DRUG_SALES.length} 个产品 · “≈” 为估算（年报未单独披露），“未披露” 表示无可靠来源</div>
+        </div>
+        <div className="db-table-actions">
+          <input className="db-search" type="text" placeholder="搜索药品..." value={q} onChange={(e) => setQ(e.target.value)} />
+          <button className="db-btn-sm" onClick={() => setShowAll((v) => !v)}>{showAll ? '只看 Top 25' : `显示全部 (${rows.length})`}</button>
+        </div>
+      </div>
+      <div className="db-table-wrapper">
+        <table className="db-table">
+          <thead>
+            <tr>
+              <th className="db-th-name db-th">产品</th>
+              {head('global', '🌐 全球', '')}
+              {head('us', '🇺🇸 美国', 'us')}
+              {head('cn', '🇨🇳 中国', 'cn')}
+              <th className="db-th us">美国占比</th>
+              <th className="db-th cn">中国占比</th>
+              <th className="db-th" style={{ textAlign: 'left' }}>来源</th>
+            </tr>
+          </thead>
+          <tbody>
+            {shown.map((s) => (
+              <tr key={s.brand} className="db-tr">
+                <td className="db-td db-td-name"><strong>{s.brand}</strong></td>
+                <td className="db-td num">{est(s, 'global')}{FMT_SALE(s.global)}</td>
+                <td className="db-td us num">{est(s, 'us')}{FMT_SALE(s.us)}</td>
+                <td className="db-td cn num">{est(s, 'cn')}{FMT_CNY(s.cn)}</td>
+                <td className="db-td us num">{s.us != null && s.global ? `${Math.round((s.us / s.global) * 100)}%` : '—'}</td>
+                <td className="db-td cn num">{cnUsd(s) != null && s.global ? `${Math.round((cnUsd(s) / s.global) * 100)}%` : '—'}</td>
+                <td className="db-td db-sales-src">{s.src || ''}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 export default function Dashboard() {
   const allData = useMemo(() => getDashboardData(), []);
 
@@ -336,7 +397,7 @@ export default function Dashboard() {
       {/* ── HEADER ── */}
       <div className="db-header">
         <h1 className="db-title">市场总览 Market Dashboard</h1>
-        <p className="db-subtitle">按子病种 / 疾病 / 大类汇总 · CN / US / EU 三市场对比</p>
+        <p className="db-subtitle">按子病种 / 疾病 / 大类汇总 · CN / US / EU 三市场对比 · 数据更新至 2026-11（销售额为 FY2025 年报口径）</p>
       </div>
 
       {/* ── CONTROL BAR ── */}
@@ -593,6 +654,8 @@ export default function Dashboard() {
         </div>
       </div>
 
+      <SalesTable />
+
       {/* ── FOOTNOTES ── */}
       <div className="db-footnotes">
         <div className="db-fn-title">数据来源 Data Sources</div>
@@ -600,17 +663,17 @@ export default function Dashboard() {
           <div className="db-fn-section">
             <div className="db-fn-heading">📊 Drug Sales TAM</div>
             <ul>
-              <li><strong>US:</strong> IQVIA <em>Global Use of Medicines 2024</em>; EvaluatePharma <em>World Preview 2024</em>; 公司年报 (AZ, Roche, Pfizer, J&J, Novo Nordisk, AbbVie 2023AR)</li>
-              <li><strong>CN:</strong> IQVIA China 2023; 国家医保局NRDL谈判披露; PDB医院用药数据库; 米内网2023. 注：经NRDL谈判降幅50-80%，实际sales远低于美国</li>
-              <li><strong>EU:</strong> EvaluatePharma World Preview 2024; EFPIA <em>Pharmaceutical Industry in Figures 2023</em></li>
-              <li><strong>FX:</strong> USD/CNY 7.2；USD/EUR 0.91（IMF 2023年均）</li>
+              <li><strong>US:</strong> 各公司 FY2025 年报 / 10-K（AZ、Pfizer、AbbVie、Amgen、Gilead、Lilly、Novo Nordisk、J&J、BMS、Merck、Novartis、Roche、Sanofi、Regeneron、BeOne、argenx 等）按适应症拆分估算</li>
+              <li><strong>CN:</strong> 跨国药企中国区收入披露（AZ、Sanofi、Lilly、Novo）；百济神州、恒瑞、信达、康方 2025 年报；医保谈判价格。多数跨国药企不披露单品中国销售，标 “≈” 者为估算</li>
+              <li><strong>EU:</strong> 公司年报欧洲分部收入；EFPIA <em>Pharmaceutical Industry in Figures</em></li>
+              <li><strong>FX:</strong> USD/CNY 7.2；EUR/USD 1.1（TAM 换算）；产品销售表用 2025 年均汇率 CNY 7.18</li>
             </ul>
           </div>
           <div className="db-fn-section">
             <div className="db-fn-heading">🏥 流行病学数据</div>
             <ul>
               <li><strong>CN:</strong> GLOBOCAN 2022 (IARC/WHO)；中国国家癌症中心<em>2024年癌症统计</em>；中华医学会各专科指南</li>
-              <li><strong>US:</strong> SEER Database 2023；ACS <em>Cancer Facts &amp; Figures 2024</em>；CDC National Diabetes Statistics 2024</li>
+              <li><strong>US:</strong> SEER Database 2023；ACS <em>Cancer Facts &amp; Figures 2026</em>；CDC National Diabetes Statistics 2024</li>
               <li><strong>EU:</strong> ECIS (European Cancer Information System) 2022；Eurostat Health Statistics</li>
             </ul>
           </div>
@@ -619,8 +682,8 @@ export default function Dashboard() {
             <ul>
               <li>TAM为<strong>药品销售额</strong>，非市场潜力预测；合计行为各子项加总</li>
               <li>Sales/Patient = TAM ÷ 年新增确诊人数（$K/人）</li>
-              <li>MASH(CN)、obesity(CN/EU) 等新兴市场2023-2024年仍处起步阶段</li>
-              <li>数据截止：2023年（部分2024Q1-Q3估算）；误差±20%</li>
+              <li>肥胖、MASH、阿尔茨海默病等新兴市场增长极快：TAM 取 2025 全年实际销售额，2026 年在途规模明显更高（如替尔泊肽 2026 上半年全球已达 $277 亿）</li>
+              <li>数据截止：销售额 FY2025；获批与临床进展截至 2026-11-14；按适应症拆分的 TAM 为估算，误差约 ±20%</li>
             </ul>
           </div>
         </div>

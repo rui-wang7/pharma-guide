@@ -48,12 +48,12 @@
                     "type": "drug",
                     "name_cn": "美金刚（易倍申）",
                     "name_en": "Memantine (Namenda/Ebixa)",
-                    "manufacturer": "默克KGaA / 国内仿制",
+                    "manufacturer": "灵北 Lundbeck / 国内仿制",
                     "annual_cost_rmb": 5000,
                     "market_share": "30%",
                     "selling_points": [
                       "NMDA受体拮抗剂，中重度AD",
-                      "可与多奈哌齐联合使用（NAMZARIC）"
+                      "可与多奈哌齐联合使用"
                     ]
                   }
                 ],
@@ -74,27 +74,56 @@
                     "selling_points": [
                       "CLARITY AD：CDR-SB衰退减缓27%",
                       "靶向Aβ原纤维，FDA 2023年全批",
-                      "2024年NMPA批准中国上市",
+                      "NMPA 2024-01 批准",
                       "首个在中国获批的抗Aβ疗法"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "多奈单抗（记能达）",
+                    "name_en": "Donanemab (Kisunla)",
+                    "manufacturer": "礼来 Lilly",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "TRAILBLAZER-ALZ 2：延缓认知下降 35%",
+                      "NMPA 2024-12 获批，每 4 周静脉，斑块清除后可停药"
+                    ],
+                    "approved": "NMPA 2024-12",
+                    "impact": "\"有限疗程\"概念在自费市场更易被接受，与 Leqembi 分食国内高端自费人群"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Donanemab（度那奈单抗）",
-                    "name_en": "Donanemab",
-                    "company": "礼来 Eli Lilly",
-                    "stage": "已上市（美国2024）/ 中国NDA审评",
-                    "trial": "TRAILBLAZER-ALZ 2",
-                    "status": "靶向Aβ斑块（N3pG），CDR-SB减缓35%（低tau人群），可停药（Aβ清除后）"
+                    "name_cn": "Trontinemab",
+                    "name_en": "Trontinemab",
+                    "company": "罗氏 Roche",
+                    "stage": "Phase 3",
+                    "trial": "TRONTIER 1 / 2",
+                    "status": "入组中；Ib/IIa 期 28 周内 >90% 患者淀粉样蛋白转阴，ARIA-E <5%",
+                    "design": "带\"脑穿梭\"（转铁蛋白受体）模块的抗 Aβ 抗体，低剂量即快速清除斑块，对比安慰剂",
+                    "impact": "若 III 期复现低 ARIA + 快速清除，将成为同类最佳并颠覆 Leqembi/Kisunla（两者 2025 年合计仅约 $10 亿）"
                   },
                   {
-                    "name_cn": "ALZ-801（Valiltramiprosate）",
-                    "name_en": "Valiltramiprosate (ALZ-801)",
-                    "company": "Alzheon",
+                    "name_cn": "Remternetug",
+                    "name_en": "Remternetug",
+                    "company": "礼来 Lilly",
                     "stage": "Phase 3",
-                    "trial": "APOLLOE4",
-                    "status": "口服Aβ聚集抑制剂，APOE4纯合子人群定向"
+                    "trial": "TRAILRUNNER-ALZ 1 / 3",
+                    "status": "ALZ1 结果尚未公布；ALZ3 为临床前期预防研究",
+                    "design": "皮下注射的新一代 N3pG 抗体，对比安慰剂",
+                    "impact": "礼来的皮下 + 预防布局，若在无症状人群获益将把市场扩大数倍"
+                  },
+                  {
+                    "name_cn": "甘露特钠（九期一）",
+                    "name_en": "Sodium Oligomannate (GV-971)",
+                    "company": "绿谷制药",
+                    "stage": "注册证到期后停产",
+                    "trial": "—",
+                    "status": "2025 年起因再注册问题停止生产销售",
+                    "design": "海洋寡糖类口服药对比安慰剂，轻中度阿尔茨海默病",
+                    "impact": "国产 AD 药争议落幕，市场回到抗 Aβ 抗体与传统对症药"
                   }
                 ]
               }
@@ -103,7 +132,7 @@
           "us": {
             "annual_new_cases": 500000,
             "annual_new_cases_note": "US AD prevalence ~7M, ~500K new/yr, expected to triple by 2060",
-            "tam_usd_bn": 3.0,
+            "tam_usd_bn": 1.2,
             "diagnosis_steps": [
               "Neuropsychological testing (MMSE/MoCA/ADAS-cog)",
               "Brain MRI",
@@ -126,7 +155,8 @@
                     "selling_points": [
                       "CLARITY AD: 27% slowing of decline",
                       "FDA full approval July 2023",
-                      "Biweekly IV, patient/care burden"
+                      "Biweekly IV, patient/care burden",
+                      "FDA 2025-05 批准首个血液检测（pTau217），有望替代 PET / 腰穿筛查，打开诊断瓶颈"
                     ]
                   },
                   {
@@ -141,24 +171,53 @@
                       "FDA approved July 2024",
                       "Treatment can stop after amyloid clearance (unique feature)"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "仑卡奈单抗皮下维持（Leqembi Iqlik）",
+                    "name_en": "Lecanemab SC autoinjector (Leqembi Iqlik)",
+                    "manufacturer": "卫材 Eisai / 渤健 Biogen",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "新获批",
+                    "selling_points": [
+                      "FDA 2025-08 批准每周皮下自动注射维持",
+                      "免去双周静脉输注"
+                    ],
+                    "approved": "FDA 2025-08",
+                    "impact": "解决输注中心瓶颈，是 Leqembi 放量的前提"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Remternetug",
-                    "name_en": "Remternetug",
-                    "company": "Eli Lilly",
+                    "name_cn": "Trontinemab",
+                    "name_en": "Trontinemab",
+                    "company": "罗氏 Roche",
                     "stage": "Phase 3",
-                    "trial": "TRAILBLAZER-ALZ 3",
-                    "status": "Next-gen anti-Aβ, faster clearance, SC formulation"
+                    "trial": "TRONTIER 1 / 2",
+                    "status": "入组中；Ib/IIa 期 28 周内 >90% 患者淀粉样蛋白转阴，ARIA-E <5%",
+                    "design": "带\"脑穿梭\"（转铁蛋白受体）模块的抗 Aβ 抗体，低剂量即快速清除斑块，对比安慰剂",
+                    "impact": "若 III 期复现低 ARIA + 快速清除，将成为同类最佳并颠覆 Leqembi/Kisunla（两者 2025 年合计仅约 $10 亿）"
                   },
                   {
-                    "name_cn": "Tau抗体（JNJ-63733657）",
-                    "name_en": "JNJ-63733657",
-                    "company": "Janssen",
-                    "stage": "Phase 2",
-                    "trial": "—",
-                    "status": "Anti-tau antibody targeting p-Tau217"
+                    "name_cn": "Remternetug",
+                    "name_en": "Remternetug",
+                    "company": "礼来 Lilly",
+                    "stage": "Phase 3",
+                    "trial": "TRAILRUNNER-ALZ 1 / 3",
+                    "status": "ALZ1 结果尚未公布；ALZ3 为临床前期预防研究",
+                    "design": "皮下注射的新一代 N3pG 抗体，对比安慰剂",
+                    "impact": "礼来的皮下 + 预防布局，若在无症状人群获益将把市场扩大数倍"
+                  },
+                  {
+                    "name_cn": "口服司美格鲁肽（AD）",
+                    "name_en": "Oral Semaglutide — AD",
+                    "company": "诺和诺德",
+                    "stage": "Phase 3（失败，2025-11）",
+                    "trial": "EVOKE / EVOKE+",
+                    "status": "未延缓认知下降",
+                    "design": "GLP-1 对比安慰剂 2 年",
+                    "impact": "GLP-1 治疗 AD 的假说基本终结"
                   }
                 ]
               }
@@ -194,47 +253,72 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "瑞玛奈珠单抗（爱莫维）",
-                    "name_en": "Erenumab (Aimovig)",
-                    "manufacturer": "安进/诺华 Amgen/Novartis",
-                    "annual_cost_rmb": 30000,
-                    "market_share": "35%",
+                    "name_cn": "加卡奈珠单抗（Emgality）",
+                    "name_en": "Galcanezumab (Emgality)",
+                    "manufacturer": "礼来 Eli Lilly / 蔼睦医疗 AffaMed",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "CGRP受体单抗，月发作减少50%达43%患者",
-                      "NMPA 2021年批准",
-                      "每月自注射，便利性高"
+                      "PERSIST（CGAX，含中国患者的 III 期）：月偏头痛天数显著减少",
+                      "NMPA 已批准成人偏头痛预防治疗（获批年份未核实）",
+                      "CGRP 配体单抗，每月皮下注射"
                     ]
                   },
                   {
                     "type": "drug",
-                    "name_cn": "弗雷马奈珠单抗（艾普维）",
-                    "name_en": "Fremanezumab (Ajovy)",
-                    "manufacturer": "梯瓦 Teva",
-                    "annual_cost_rmb": 28000,
-                    "market_share": "25%",
+                    "name_cn": "传统口服预防药（氟桂利嗪 / 普萘洛尔 / 托吡酯）",
+                    "name_en": "Conventional oral preventives (flunarizine / propranolol / topiramate)",
+                    "manufacturer": "通用",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
                     "selling_points": [
-                      "靶向CGRP配体，月注射或季度注射选择",
-                      "NMPA批准",
-                      "季度注射方案依从性更佳"
+                      "中国偏头痛诊治指南推荐的预防用药",
+                      "价格低，医保覆盖"
                     ]
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Atogepant（阿托吉泮）",
-                    "name_en": "Atogepant (Qulipta)",
-                    "company": "艾伯维 AbbVie",
-                    "stage": "已上市（美国）/ 中国申报NDA",
-                    "trial": "ADVANCE",
-                    "status": "口服CGRP拮抗剂（gepant类），预防性用药，中国NDA申报中"
+                    "name_cn": "瑞美吉泮 / 阿托吉泮",
+                    "name_en": "Rimegepant (Nurtec ODT) / Atogepant",
+                    "company": "辉瑞 / 艾伯维",
+                    "stage": "预防适应症开发中",
+                    "trial": "—",
+                    "status": "瑞美吉泮急性期治疗已在华获批；预防适应症及阿托吉泮推进中",
+                    "design": "口服 CGRP 受体拮抗剂对比安慰剂",
+                    "impact": "国内偏头痛就诊率低，口服药比注射单抗更易教育市场"
                   },
                   {
-                    "name_cn": "Rimegepant（瑞美吉泮）",
-                    "name_en": "Rimegepant (Nurtec ODT)",
-                    "company": "辉瑞/Biohaven Pfizer",
-                    "stage": "已上市（美国急性+预防）/ 中国Phase 3",
-                    "trial": "BHV3000系列",
-                    "status": "口服gepant，急性+预防双适应症，中国临床进行中"
+                    "name_cn": "PACAP 单抗（bocunebart）",
+                    "name_en": "Bocunebart (Lu AG09222)",
+                    "company": "灵北 Lundbeck",
+                    "stage": "Phase 2b/3",
+                    "trial": "PROCEED",
+                    "status": "IIb 期阳性",
+                    "design": "阻断 PACAP 通路，针对 CGRP 无应答者",
+                    "impact": "CGRP 之外的首个新靶点，瞄准约 30-40% 对 CGRP 药物应答不佳的患者"
+                  },
+                  {
+                    "name_cn": "依瑞奈尤单抗（Aimovig）",
+                    "name_en": "Erenumab (Aimovig)",
+                    "company": "安进/诺华 Amgen/Novartis",
+                    "stage": "美欧已上市 / 中国大陆未见获批公告",
+                    "trial": "STRIVE / ARISE / DRAGON",
+                    "status": "月偏头痛天数减少 ≥50% 的患者约 43–50%",
+                    "design": "CGRP 受体单抗对比安慰剂",
+                    "impact": "国内 CGRP 单抗预防适应症由加卡奈珠单抗先行获批"
+                  },
+                  {
+                    "name_cn": "瑞玛奈珠单抗（Ajovy）",
+                    "name_en": "Fremanezumab (Ajovy)",
+                    "company": "梯瓦 Teva",
+                    "stage": "中国 NDA 审评中（2025 年初报道申报）/ 美欧已上市",
+                    "trial": "HALO",
+                    "status": "每月或每季度皮下注射",
+                    "design": "CGRP 配体单抗对比安慰剂",
+                    "impact": "季度给药方案是差异化卖点"
                   }
                 ]
               }
@@ -243,7 +327,7 @@
           "us": {
             "annual_new_cases": 4000000,
             "annual_new_cases_note": "US migraine prevalence ~39M, chronic ~4M, preventive Rx penetration ~20%",
-            "tam_usd_bn": 5.0,
+            "tam_usd_bn": 6.0,
             "diagnosis_steps": [
               "ICHD-3 criteria",
               "Headache diary (frequency, severity)",
@@ -267,7 +351,8 @@
                       "Oral CGRP antagonist",
                       "ADVANCE: 50% responder 61%",
                       "Episodic + chronic migraine approved"
-                    ]
+                    ],
+                    "impact": "2025 年销售：Qulipta $10.4 亿、Ubrelvy $12.7 亿、Nurtec $14.2 亿；口服 gepant 合计已超 $37 亿，正在取代注射 CGRP 单抗成为预防治疗首选"
                   },
                   {
                     "type": "drug",
@@ -298,12 +383,14 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Zavegepant鼻喷剂",
-                    "name_en": "Zavegepant (Zavzpret) nasal spray",
-                    "company": "Pfizer/Biohaven",
-                    "stage": "已上市（2023急性）/ 预防Phase 3",
-                    "trial": "ZENITH",
-                    "status": "Nasal CGRP gepant, acute approved 2023, prevention Phase 3"
+                    "name_cn": "PACAP 单抗（bocunebart）",
+                    "name_en": "Bocunebart (Lu AG09222)",
+                    "company": "灵北 Lundbeck",
+                    "stage": "Phase 2b/3",
+                    "trial": "PROCEED",
+                    "status": "IIb 期阳性",
+                    "design": "阻断 PACAP 通路，针对 CGRP 无应答者",
+                    "impact": "CGRP 之外的首个新靶点，瞄准约 30-40% 对 CGRP 药物应答不佳的患者"
                   }
                 ]
               }
@@ -408,18 +495,23 @@
                       "适合失眠+体重减轻的MDD患者",
                       "镇静作用明显，晚上服用"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "托鲁地文拉法辛（若欣林）",
+                    "name_en": "Toludesvenlafaxine",
+                    "manufacturer": "绿叶制药 Luye",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "SNDRI 三重再摄取抑制剂",
+                      "NMPA 2022-11 批准抑郁症，国产 1 类新药"
+                    ],
+                    "impact": "国产 1 类新药，在集采后的 SSRI/SNRI 市场中争取自费溢价"
                   }
                 ],
-                "pipeline": [
-                  {
-                    "name_cn": "环丝氨酸/氯胺酮鼻喷（国内申报）",
-                    "name_en": "Esketamine Nasal Spray (Spravato) - China",
-                    "company": "强生/杨森 Janssen",
-                    "stage": "已上市（美国2019）/ 中国NDA申报",
-                    "trial": "TRANSFORM/SUSTAIN系列",
-                    "status": "S-氯胺酮，NMDA受体拮抗剂，TRD（难治性抑郁）24h内快速起效，中国NDA申报中"
-                  }
-                ]
+                "pipeline": []
               },
               {
                 "line": 1,
@@ -437,7 +529,7 @@
                     "selling_points": [
                       "非典型抗精神病药增效治疗",
                       "部分D2激动+5-HT1A激动",
-                      "NMPA批准MDD辅助治疗"
+                      "FDA 已批准 MDD 增效；国内说明书是否含该适应症未核实，属指南推荐用法"
                     ]
                   },
                   {
@@ -450,7 +542,7 @@
                     "market_share": "20%",
                     "selling_points": [
                       "50-300mg低剂量增效，改善睡眠焦虑",
-                      "NMPA批准MDD辅助治疗",
+                      "FDA 已批准 MDD 增效；国内说明书是否含该适应症未核实，属指南推荐用法",
                       "医保报销"
                     ]
                   },
@@ -467,48 +559,43 @@
                       "SSRI性功能副作用对抗策略",
                       "戒烟同时适用"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "艾司氯胺酮鼻喷剂（Spravato）",
+                    "name_en": "Esketamine Nasal Spray (Spravato)",
+                    "manufacturer": "强生 J&J",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "TRANSFORM-2：联合口服抗抑郁药优于安慰剂鼻喷",
+                      "NMPA 2023-04 批准",
+                      "需院内给药并观察 2 小时，落地场景有限"
+                    ],
+                    "impact": "需院内给药观察 2 小时，国内落地场景有限"
                   }
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "[SAGE-217] 祖拉诺酮（Zurzuvae）",
-                    "name_en": "Zuranolone (Zurzuvae)",
-                    "company": "赛奇制药/百健 SAGE/Biogen",
-                    "stage": "已上市（美国2023）/ 中国Phase 3申报",
-                    "trial": "LANDSCAPE/SHORELINE",
-                    "status": "神经甾体GABAAR正性调节剂，14天疗程快速起效，FDA 2023年首批口服快速起效抗抑郁药"
-                  },
-                  {
-                    "name_cn": "Esketamine鼻喷剂（艾司氯胺酮）",
-                    "name_en": "Esketamine Nasal Spray (Spravato)",
-                    "company": "强生/杨森 Janssen",
-                    "stage": "已上市（美国TRD/MDSI）/ 中国申报",
-                    "trial": "TRANSFORM-2/ASPIRE",
-                    "status": "FDA 2019批准TRD，2020批准有自杀意念MDD（MDSI），24h内起效，颠覆性新机制"
-                  },
-                  {
-                    "name_cn": "KarXT（xanomeline+trospium）",
-                    "name_en": "Xanomeline-Trospium (Cobenfy)",
-                    "company": "百时美施贵宝 BMS（Karuna收购）",
-                    "stage": "已上市（美国精神分裂症2024）/ MDD Phase 3",
-                    "trial": "ARISE-MDD",
-                    "status": "毒蕈碱受体激动剂（M1/M4），新机制，MDD Phase 3招募中"
-                  },
-                  {
-                    "name_cn": "Psilocybin（裸盖菇素）",
+                    "name_cn": "赛洛西宾（COMP360）",
                     "name_en": "Psilocybin (COMP360)",
-                    "company": "COMPASS Pathways",
-                    "stage": "Phase 3",
-                    "trial": "COMP005",
-                    "status": "致幻剂辅助心理治疗，TRD，FDA突破性疗法认定"
+                    "company": "Compass Pathways",
+                    "stage": "NDA 递交完成（2026-11-09）",
+                    "trial": "COMP005 / COMP006",
+                    "status": "两项 III 期均达到主要终点（MADRS 改善）",
+                    "design": "单次/两次 25mg 给药 + 心理支持，对比 1mg 或安慰剂，难治性抑郁",
+                    "impact": "若获批将是首个经典致幻剂药物，创造\"诊所内给药 + 治疗师陪伴\"的全新商业模式，对标 Spravato（2025 年 $17 亿）"
                   },
                   {
-                    "name_cn": "AXS-05（Auvelity，右美沙芬+安非他酮）",
-                    "name_en": "AXS-05 (Auvelity / Dextromethorphan+Bupropion)",
-                    "company": "Axsome Therapeutics",
-                    "stage": "已上市（美国2022）/ 中国申报中",
-                    "trial": "GEMINI",
-                    "status": "NMDA受体拮抗剂+NDRI组合，FDA 2022获批MDD，1周内起效"
+                    "name_cn": "Zuranolone",
+                    "name_en": "Zuranolone (Zurzuvae)",
+                    "company": "渤健 / Sage",
+                    "stage": "美国已上市（产后抑郁）/ 中国状态未核实",
+                    "trial": "SKYLARK",
+                    "status": "14 天口服疗程",
+                    "design": "14 天口服疗程",
+                    "impact": "适应症窄（仅 PPD），商业规模有限"
                   }
                 ]
               }
@@ -579,20 +666,6 @@
                   },
                   {
                     "type": "drug",
-                    "name_cn": "Zuranolone",
-                    "name_en": "Zuranolone (Zurzuvae)",
-                    "manufacturer": "SAGE Therapeutics / Biogen",
-                    "annual_cost_usd": 18000,
-                    "market_share": "15%",
-                    "selling_points": [
-                      "FDA approved August 2023",
-                      "14-day oral course, then off",
-                      "GABA-A PAM, rapid onset (day 3)",
-                      "First rapid-acting oral antidepressant"
-                    ]
-                  },
-                  {
-                    "type": "drug",
                     "name_cn": "AXS-05 (Auvelity)",
                     "name_en": "AXS-05 (Auvelity / Dextromethorphan+Bupropion)",
                     "manufacturer": "Axsome Therapeutics",
@@ -607,28 +680,54 @@
                 ],
                 "pipeline": [
                   {
-                    "name_cn": "Psilocybin (COMP360)",
+                    "name_cn": "赛洛西宾（COMP360）",
                     "name_en": "Psilocybin (COMP360)",
-                    "company": "COMPASS Pathways",
-                    "stage": "Phase 3",
-                    "trial": "COMP005",
-                    "status": "FDA Breakthrough Therapy, TRD; 25mg single dose + therapy"
+                    "company": "Compass Pathways",
+                    "stage": "NDA 递交完成（2026-11-09）",
+                    "trial": "COMP005 / COMP006",
+                    "status": "两项 III 期均达到主要终点（MADRS 改善）",
+                    "design": "单次/两次 25mg 给药 + 心理支持，对比 1mg 或安慰剂，难治性抑郁",
+                    "impact": "若获批将是首个经典致幻剂药物，创造\"诊所内给药 + 治疗师陪伴\"的全新商业模式，对标 Spravato（2025 年 $17 亿）"
                   },
                   {
-                    "name_cn": "Luspatercept agonism / REL-1017",
-                    "name_en": "REL-1017 (Esmethadone)",
-                    "company": "Relmada Therapeutics",
+                    "name_cn": "Seltorexant",
+                    "name_en": "Seltorexant",
+                    "company": "强生 J&J",
                     "stage": "Phase 3",
-                    "trial": "REL-1017-301",
-                    "status": "NMDA channel blocker, add-on TRD"
+                    "trial": "MDD3001 等",
+                    "status": "伴失眠症状的 MDD 辅助治疗 III 期阳性",
+                    "design": "选择性食欲素-2 受体拮抗剂，对比安慰剂及喹硫平",
+                    "impact": "强生在 Spravato 之后的下一个精神科增长点"
                   },
                   {
-                    "name_cn": "Brexanolone (postpartum, already approved)",
-                    "name_en": "Brexanolone (Zulresso) - PPD",
-                    "company": "SAGE / Biogen",
-                    "stage": "已上市（产后抑郁2019）",
-                    "trial": "HUMMINGBIRD",
-                    "status": "FDA 2019 approved postpartum depression, 60h IV infusion; Zuranolone oral replaces"
+                    "name_cn": "Osavampator（NBI-1065845）",
+                    "name_en": "Osavampator (AMPA PAM)",
+                    "company": "Neurocrine / 武田",
+                    "stage": "Phase 3",
+                    "trial": "—",
+                    "status": "IIb 期阳性后进入 III 期",
+                    "design": "AMPA 正向变构调节剂，口服辅助治疗",
+                    "impact": "类氯胺酮机制但可居家口服"
+                  },
+                  {
+                    "name_cn": "REL-1017",
+                    "name_en": "Esmethadone (REL-1017)",
+                    "company": "Relmada",
+                    "stage": "终止（III 期失败）",
+                    "trial": "RELIANCE",
+                    "status": "未达主要终点",
+                    "design": "NMDA 拮抗剂辅助治疗",
+                    "impact": "NMDA 口服路线受挫，凸显 Spravato 的不可替代性"
+                  },
+                  {
+                    "name_cn": "Zuranolone",
+                    "name_en": "Zuranolone (Zurzuvae)",
+                    "company": "Biogen / Supernus (Sage)",
+                    "stage": "仅产后抑郁适应症上市（FDA 2023-08）；MDD 适应症收到 CRL",
+                    "trial": "SKYLARK / WATERFALL",
+                    "status": "14 天口服疗程，第 3 天起效",
+                    "design": "GABA-A 正向变构调节剂对比安慰剂",
+                    "impact": "未拿到 MDD 适应症，商业空间限于产后抑郁"
                   }
                 ]
               }

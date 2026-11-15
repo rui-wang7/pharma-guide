@@ -8,6 +8,22 @@ function ClinicalBadge({ label, value, color }) {
   );
 }
 
+const fmtUS = (v) => (v >= 1 ? `$${v.toFixed(1)}B` : `$${Math.round(v * 1000)}M`);
+const fmtCN = (v) => `¥${v >= 10 ? Math.round(v) : v.toFixed(1)}亿`;
+
+// Product-level annual sales (all indications). "≈" marks estimates not disclosed in filings.
+function SalesRow({ s }) {
+  const est = (k) => ((s.est || []).includes(k) ? '≈' : '');
+  return (
+    <div className="sales-row" title={s.src || ''}>
+      <span className="sales-brand">{s.brand}</span>
+      <span className="sales-chip sales-us">🇺🇸 {s.us != null ? `${est('us')}${fmtUS(s.us)}` : '未披露'}</span>
+      <span className="sales-chip sales-cn">🇨🇳 {s.cn != null ? `${est('cn')}${fmtCN(s.cn)}` : '未披露'}</span>
+      {s.global != null && <span className="sales-chip sales-gl">🌐 {est('global')}{fmtUS(s.global)}</span>}
+    </div>
+  );
+}
+
 export default function DrugCard({ drug, currency, focused, dimmed }) {
   const costLabel = currency === 'CN'
     ? (drug.annual_cost_rmb != null ? `¥${drug.annual_cost_rmb.toLocaleString()}/年` : '—')
@@ -24,9 +40,12 @@ export default function DrugCard({ drug, currency, focused, dimmed }) {
             <span className="drug-name-en">{drug.name_en}</span>
           )}
         </div>
-        {drug.market_share && (
-          <span className="drug-share">{drug.market_share}</span>
-        )}
+        <div className="drug-badges">
+          {drug.approved && <span className="drug-new-badge">🆕 {drug.approved}</span>}
+          {drug.market_share && (
+            <span className="drug-share">{drug.market_share}</span>
+          )}
+        </div>
       </div>
 
       <div className="drug-meta">
@@ -35,6 +54,14 @@ export default function DrugCard({ drug, currency, focused, dimmed }) {
         )}
         <span className="drug-meta-item drug-cost">💰 {costLabel}</span>
       </div>
+
+      {/* Annual product sales, US vs China */}
+      {drug.sales && drug.sales.length > 0 && (
+        <div className="sales-section">
+          <div className="sales-title">💵 {drug.sales[0].year} 年销售额（产品全适应症合计）</div>
+          {drug.sales.map((s) => <SalesRow key={s.brand} s={s} />)}
+        </div>
+      )}
 
       {/* Clinical Endpoints */}
       {cd && (
@@ -58,6 +85,9 @@ export default function DrugCard({ drug, currency, focused, dimmed }) {
             <li key={i}>{pt}</li>
           ))}
         </ul>
+      )}
+      {drug.impact && (
+        <div className="insight-row insight-impact"><span className="insight-tag">💡 格局点评</span>{drug.impact}</div>
       )}
     </div>
   );

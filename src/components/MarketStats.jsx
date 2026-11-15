@@ -4,7 +4,7 @@ export default function MarketStats({ data, currency }) {
   const isCN = currency === 'CN';
   const cases = data.annual_new_cases;
   const tam = isCN ? data.tam_rmb_bn : data.tam_usd_bn;
-  const tamLabel = isCN ? `¥${tam}亿` : `$${tam}B`;
+  const tamLabel = isCN ? `¥${Math.round(tam * 10)}亿` : `$${tam}B`;
   const flagLabel = isCN ? '🇨🇳 中国' : '🇺🇸 美国';
 
   return (

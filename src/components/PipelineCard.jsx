@@ -6,6 +6,11 @@ const STAGE_COLOR = {
   'Phase 3': '#dc2626',
   '已上市': '#16a34a',
   '已申报NDA': '#7c3aed',
+  '申报': '#7c3aed',
+  '审评': '#7c3aed',
+  '临床前': '#64748b',
+  '失败': '#6b7280',
+  '终止': '#6b7280',
   'FDA拒绝': '#6b7280',
 };
 
@@ -51,8 +56,14 @@ export default function PipelineCard({ drug, focused, dimmed }) {
           {drug.trial && <span className="pipeline-trial">📋 {drug.trial}</span>}
         </div>
 
+        {drug.design && (
+          <div className="insight-row insight-design"><span className="insight-tag">🧪 设计思路</span>{drug.design}</div>
+        )}
         {drug.status && (
-          <p className="pipeline-status">{drug.status}</p>
+          <div className="insight-row insight-progress"><span className="insight-tag">📈 进展</span>{drug.status}</div>
+        )}
+        {drug.impact && (
+          <div className="insight-row insight-impact"><span className="insight-tag">💡 格局点评</span>{drug.impact}</div>
         )}
 
         {/* Clinical trial data */}

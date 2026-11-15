@@ -22,6 +22,52 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "转移性激素敏感性前列腺癌（mHSPC）/ 高危局限期",
+            "label_en": "mHSPC / high-risk localized",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "瑞维鲁胺（艾瑞恩）+ ADT",
+                "name_en": "Rezvilutamide",
+                "manufacturer": "恒瑞医药 Hengrui",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CHART：rPFS HR 0.44，OS HR 0.58（对比比卡鲁胺 + ADT）",
+                  "NMPA 2022-06 批准高瘤负荷 mHSPC，已进医保"
+                ],
+                "impact": "医保内国产 ARPI，对进口恩扎卢胺/阿帕他胺形成价格压制"
+              },
+              {
+                "type": "drug",
+                "name_cn": "阿帕他胺 / 阿比特龙 + ADT",
+                "name_en": "Apalutamide (Erleada) / Abiraterone + ADT",
+                "manufacturer": "强生 J&J / 通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "TITAN / LATITUDE",
+                  "国内 mHSPC 标准：ADT 联合新型内分泌治疗"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "达罗他胺 + ADT + 放疗（高危局限期）",
+                "name_en": "Darolutamide + ADT + RT",
+                "company": "拜耳 Bayer",
+                "stage": "Phase 3（阳性）",
+                "trial": "DASL-HiCaP",
+                "status": "ESMO 2026：无转移生存 HR 0.42",
+                "design": "高危/极高危局限期前列腺癌，放疗 + ADT 基础上加达罗他胺",
+                "impact": "把 ARPI 再前移到局限期，Nubeqa 峰值预期上调至 €30 亿以上"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗（mCRPC）",
             "label_en": "1st Line (mCRPC)",
@@ -68,24 +114,33 @@
                   "医保报销，价格低廉",
                   "高负荷患者仍广泛使用"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "177Lu-PSMA-617（Pluvicto）",
+                "name_en": "Lutetium-177 PSMA-617 (Pluvicto)",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "VISION：rPFS 8.7 vs 3.4 个月；PSMAfore：紫杉类化疗前 rPFS 获益",
+                  "NMPA 2025-11 批准 PSMA 阳性 mCRPC（ARPI 治疗后，化疗前或化疗后）"
+                ],
+                "approved": "NMPA 2025-11",
+                "impact": "核药供应链与核医学科床位是国内放量的硬约束"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "177Lu-PSMA-617（Pluvicto）",
-                "name_en": "177Lu-PSMA-617 (Lutetium Vipivotide Tetraxetan / Pluvicto)",
-                "company": "诺华 Novartis",
-                "stage": "已上市（美国2022）/ 中国申报",
-                "trial": "VISION",
-                "status": "放射配体疗法，VISION：rPFS 8.7m vs 3.4m，OS 15.3m vs 11.3m，中国申报NDA中"
-              },
-              {
-                "name_cn": "恩扎卢胺 + 镭-223（氯化镭[223Ra]/多菲戈）★ ASCO GU 2026",
-                "name_en": "Enzalutamide + Radium-223 (Xofigo)",
-                "company": "拜耳/安斯泰来 Bayer/Astellas",
-                "stage": "Phase 3",
-                "trial": "PEACE-3 (EORTC 1333)",
-                "status": "ASCO GU 2026最终OS：无症状/轻症状骨转移mCRPC，恩扎卢胺+镭-223 vs 恩扎卢胺单药，中位OS 38.2m vs 32.6m（HR 0.76，P=0.0096），需骨保护剂预防骨折"
+                "name_cn": "国产 177Lu-PSMA 核药",
+                "name_en": "Domestic 177Lu-PSMA radioligands",
+                "company": "多家国内企业",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "多个国产 177Lu-PSMA 产品处于临床阶段",
+                "design": "国产放射配体对比换用 ARPI 或化疗，PSMA 阳性 mCRPC",
+                "impact": "国产化后的价格与产能是关键变量，核医学科床位仍是放量瓶颈"
               }
             ]
           },
@@ -104,48 +159,41 @@
                 "market_share": "40%",
                 "selling_points": [
                   "PROfound研究：rPFS 7.4m vs 3.5m（BRCA1/2）",
-                  "NMPA批准HRR突变mCRPC适应症",
+                  "NMPA 2021 年批准 BRCA 突变 mCRPC",
                   "生物标志物精准用药"
-                ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "卡巴他赛（杰素）",
-                "name_en": "Cabazitaxel (Jevtana)",
-                "manufacturer": "赛诺菲 Sanofi",
-                "annual_cost_rmb": 80000,
-                "annual_cost_usd": null,
-                "market_share": "20%",
-                "selling_points": [
-                  "TROPIC研究：多西他赛耐药后OS获益",
-                  "三线化疗方案，CARD研究优于阿比特龙/恩扎鲁胺（ARi耐药后）"
                 ]
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Olaparib + Abiraterone（PROpel）",
-                "name_en": "Olaparib + Abiraterone (PROpel)",
-                "company": "阿斯利康/强生 AZ/Janssen",
-                "stage": "已上市（美国2023）/ 中国申报",
-                "trial": "PROpel",
-                "status": "HRR突变+野生型均有获益，rPFS 24.8m vs 16.6m，FDA 2023年批准一线mCRPC"
+                "name_cn": "PARP 抑制剂 + ARPI",
+                "name_en": "Olaparib/Niraparib/Talazoparib + ARPI",
+                "company": "阿斯利康 / 强生 / 辉瑞",
+                "stage": "美欧已批 / 中国状态未核实",
+                "trial": "PROpel / MAGNITUDE / TALAPRO-2",
+                "status": "PROpel：rPFS 24.8 vs 16.6 个月；TALAPRO-2：HRR 突变人群 rPFS HR 0.45",
+                "design": "PARPi + ARPI 一线 mCRPC",
+                "impact": "国内 HRR 检测率低，是主要瓶颈"
               },
               {
-                "name_cn": "Niraparib + Abiraterone（MAGNITUDE）",
-                "name_en": "Niraparib + Abiraterone (MAGNITUDE)",
-                "company": "强生 Janssen",
-                "stage": "已上市（美国）/ 中国申报",
-                "trial": "MAGNITUDE",
-                "status": "BRCA1/2突变人群获益显著，rPFS 16.7m vs 10.9m，FDA批准"
+                "name_cn": "国产 PARP 抑制剂（氟唑帕利等）",
+                "name_en": "Fuzuloparib + Abiraterone",
+                "company": "恒瑞医药",
+                "stage": "Phase 3",
+                "trial": "—",
+                "status": "入组完成",
+                "design": "国产 PARPi 联合阿比特龙",
+                "impact": "医保内低价替代"
               },
               {
-                "name_cn": "177Lu-PSMA-I&T",
-                "name_en": "177Lu-PSMA-I&T (Locametz)",
-                "company": "诺华 Novartis",
-                "stage": "已上市（美国诊断用）/ 治疗用研究中",
-                "trial": "SPLASH",
-                "status": "PSMA放射配体第二代，SPLASH Phase 3"
+                "name_cn": "卡巴他赛",
+                "name_en": "Cabazitaxel (Jevtana)",
+                "company": "赛诺菲 Sanofi",
+                "stage": "美欧已上市 / 中国未见获批公告",
+                "trial": "TROPIC / CARD",
+                "status": "多西他赛后 OS 获益；CARD：优于换用另一种 ARPI",
+                "design": "二代紫杉类对比米托蒽醌或 ARPI 换药",
+                "impact": "若在华上市，将补上多西他赛失败后的化疗选择"
               }
             ]
           }
@@ -164,6 +212,116 @@
           "Castration-resistance confirmation (testosterone <50 ng/dL)"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "转移性激素敏感性前列腺癌（mHSPC）",
+            "label_en": "mHSPC",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "达罗他胺 + ADT ± 多西他赛",
+                "name_en": "Darolutamide (Nubeqa) + ADT ± Docetaxel",
+                "manufacturer": "拜耳 Bayer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "ARASENS：OS HR 0.68；ARANOTE：rPFS HR 0.54",
+                  "中枢副作用少，药物相互作用少"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "阿帕他胺 / 恩扎卢胺 / 阿比特龙 + ADT",
+                "name_en": "Apalutamide (Erleada) / Enzalutamide / Abiraterone + ADT",
+                "manufacturer": "强生 / 辉瑞-安斯泰来 / 仿制",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "TITAN、ARCHES、LATITUDE",
+                  "Erleada 2025 年销售 $35.7 亿"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡匹色替 + 阿比特龙（PTEN 缺失）",
+                "name_en": "Capivasertib (Truqap) + Abiraterone",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "CAPItello-281：rPFS 风险降低 19%",
+                  "FDA 2026-06-12 批准 PTEN 缺失 mHSPC（约 25%）"
+                ],
+                "approved": "FDA 2026-06",
+                "impact": "前列腺癌首个 AKT 抑制剂，获益幅度有限，定位在 PTEN 缺失的高危亚群"
+              },
+              {
+                "type": "drug",
+                "name_cn": "177Lu-PSMA-617 + ARPI（PSMA+）",
+                "name_en": "Lutetium-177 Vipivotide Tetraxetan (Pluvicto) + ARPI",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "PSMAddition：rPFS HR 0.72",
+                  "FDA 2026-07-31 批准 PSMA 阳性 mHSPC"
+                ],
+                "approved": "FDA 2026-07",
+                "impact": "放射配体疗法进入激素敏感期，可治疗人群约翻倍，Pluvicto（2025 年 $19.9 亿）冲击 $50 亿"
+              },
+              {
+                "type": "drug",
+                "name_cn": "他拉唑帕利 + 恩扎卢胺（HRR 突变）",
+                "name_en": "Talazoparib (Talzenna) + Enzalutamide",
+                "manufacturer": "辉瑞 Pfizer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "TALAPRO-3：rPFS 风险降低 52%",
+                  "FDA 2026-10 批准 HRR 突变 mHSPC"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "PARP 抑制剂首次进入 mHSPC，把基因检测时点从 CRPC 提前到初诊转移"
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "达罗他胺 + ADT + 放疗（高危局限期）",
+                "name_en": "Darolutamide + ADT + RT",
+                "company": "拜耳 Bayer",
+                "stage": "Phase 3（阳性）",
+                "trial": "DASL-HiCaP",
+                "status": "ESMO 2026：无转移生存 HR 0.42",
+                "design": "高危/极高危局限期前列腺癌，放疗 + ADT 基础上加达罗他胺",
+                "impact": "把 ARPI 再前移到局限期，Nubeqa 峰值预期上调至 €30 亿以上"
+              },
+              {
+                "name_cn": "阿帕他胺围手术期",
+                "name_en": "Apalutamide perioperative",
+                "company": "强生 J&J",
+                "stage": "sNDA 审评中（PDUFA 2026 Q4）",
+                "trial": "PROTEUS",
+                "status": "pCR 与无转移生存获益",
+                "design": "高危局限期根治术前后 + ADT",
+                "impact": "若获批将是首个围手术期 ARPI 适应症"
+              },
+              {
+                "name_cn": "Opevesostat（MK-5684）",
+                "name_en": "Opevesostat (MK-5684, CYP11A1i)",
+                "company": "默沙东 Merck / Orion",
+                "stage": "Phase 3",
+                "trial": "OMAHA-1 / -2a / -3 / -4",
+                "status": "mCRPC 与 mHSPC 四项 III 期入组中",
+                "design": "抑制全部类固醇激素合成，对比换用另一种 ARPI",
+                "impact": "瞄准 ARPI 耐药（AR-LBD 突变）人群，是默沙东在前列腺癌的最大押注"
+              }
+            ]
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -210,20 +368,78 @@
             ],
             "pipeline": [
               {
-                "name_cn": "ARV-110 (Bavdegalutamide)",
-                "name_en": "Bavdegalutamide (ARV-110)",
-                "company": "Arvinas / Pfizer",
+                "name_cn": "Opevesostat（MK-5684）",
+                "name_en": "Opevesostat (MK-5684, CYP11A1i)",
+                "company": "默沙东 Merck / Orion",
                 "stage": "Phase 3",
-                "trial": "ACTAN",
-                "status": "PROTAC androgen receptor degrader, AR-LBD mutation patients"
+                "trial": "OMAHA-1 / -2a / -3 / -4",
+                "status": "mCRPC 与 mHSPC 四项 III 期入组中",
+                "design": "抑制全部类固醇激素合成，对比换用另一种 ARPI",
+                "impact": "瞄准 ARPI 耐药（AR-LBD 突变）人群，是默沙东在前列腺癌的最大押注"
               },
               {
-                "name_cn": "PSMA-TTC (225Ac-PSMA-617)",
+                "name_cn": "225Ac-PSMA-617",
                 "name_en": "Actinium-225 PSMA-617",
-                "company": "Novartis",
+                "company": "诺华 Novartis",
                 "stage": "Phase 3",
-                "trial": "ALPHA",
-                "status": "Alpha particle therapy, more lethal per track than Lu-177"
+                "trial": "AcTION / PSMAcTION",
+                "status": "177Lu 经治后 III 期入组中",
+                "design": "α 核素替代 β 核素，针对 Pluvicto 进展后",
+                "impact": "α 核素是放射配体疗法的下一代，诺华、BMS（RayzeBio）、礼来、阿斯利康均已布局"
+              },
+              {
+                "name_cn": "Pasritamig（KLK2×CD3）",
+                "name_en": "Pasritamig (JNJ-78278343)",
+                "company": "强生 J&J",
+                "stage": "Phase 3",
+                "trial": "KLK2-comPAS",
+                "status": "III 期入组中；I 期 PSA50 约 42%，CRS 极少",
+                "design": "靶向 KLK2 的 T 细胞衔接器，门诊给药，对比标准治疗",
+                "impact": "若成功，将是前列腺癌首个有效的 T 细胞衔接器，开启 PSMA 之外的新靶点"
+              }
+            ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（BRCA/HRR 突变及后线）",
+            "label_en": "2nd Line",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "奥拉帕利 ± 阿比特龙",
+                "name_en": "Olaparib (Lynparza) ± Abiraterone",
+                "manufacturer": "阿斯利康 / 默沙东",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "PROfound / PROpel",
+                  "BRCA 突变 mCRPC"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "卡巴他赛",
+                "name_en": "Cabazitaxel (Jevtana)",
+                "manufacturer": "赛诺菲 / 仿制药",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "多西他赛后标准化疗"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Luxdegalutamide（ARV-766）",
+                "name_en": "Luxdegalutamide (ARV-766)",
+                "company": "诺华 Novartis / Arvinas",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "AR-LBD 突变患者 PSA50 约 40-50%",
+                "design": "AR PROTAC 降解剂，替代已终止的 bavdegalutamide",
+                "impact": "与 opevesostat 竞争 ARPI 耐药人群"
               }
             ]
           }

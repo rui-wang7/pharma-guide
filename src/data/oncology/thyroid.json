@@ -51,24 +51,60 @@
                   "首个获批RAI-R DTC的TKI",
                   "医保报销，仿制药可及"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "安罗替尼（福可维）",
+                "name_en": "Anlotinib (Focus V)",
+                "manufacturer": "正大天晴 CTTQ",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "ALTER01032：对比安慰剂 PFS 显著延长",
+                  "NMPA 已批准 RAI 难治性分化型甲状腺癌（获批日期未核实）",
+                  "医保内国产多靶点 TKI"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "多纳非尼（泽普生）",
+                "name_en": "Donafenib (Zepsun)",
+                "manufacturer": "泽璟制药 Zelgen",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "DIRECTION：对比安慰剂 PFS 显著延长",
+                  "NMPA 2022-08 批准 RAI 难治性分化型甲状腺癌"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "塞普替尼 / 普拉替尼（RET 融合）、拉罗替尼（NTRK 融合）",
+                "name_en": "Selpercatinib / Pralsetinib (RET fusion); Larotrectinib (NTRK fusion)",
+                "manufacturer": "礼来-信达 / 基石药业 / 拜耳",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "按驱动基因选药：RET 融合用塞普替尼或普拉替尼，NTRK 融合用拉罗替尼",
+                  "NMPA 已批准上述适应症",
+                  "LIBRETTO-001：RET 融合甲状腺癌（经治）ORR 约 79%"
+                ],
+                "impact": "RAI 难治 DTC 正从\"多靶点 TKI 一刀切\"转向先做 NGS 再选药"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Selpercatinib（RET融合 DTC）",
-                "name_en": "Selpercatinib (Retevmo)",
-                "company": "礼来 Eli Lilly",
-                "stage": "已上市（美国/欧洲）/ 中国NDA获批",
-                "trial": "LIBRETTO-001/-531",
-                "status": "高选择性RET抑制剂，RET融合DTC ORR 79%，FDA 2020批准，NMPA 2023批准"
-              },
-              {
-                "name_cn": "Pralsetinib（BLU-667，RET融合）",
-                "name_en": "Pralsetinib (Gavreto)",
-                "company": "罗氏/Blueprint Medicines",
-                "stage": "已上市（美国）/ 中国NDA审批",
-                "trial": "ARROW",
-                "status": "RET抑制剂，ARROW研究DTC ORR 71%，FDA批准，中国NDA中"
+                "name_cn": "再分化治疗（恢复摄碘）",
+                "name_en": "Redifferentiation (BRAF/MEK inhibitor → RAI)",
+                "company": "研究者发起",
+                "stage": "Phase 2",
+                "trial": "—",
+                "status": "约 30-60% 恢复摄碘",
+                "design": "短程靶向药诱导后再行碘-131 治疗",
+                "impact": "若确证有效，可推迟长期 TKI 用药"
               }
             ]
           }
@@ -101,18 +137,57 @@
                   "SELECT: PFS 18.3m vs 3.6m",
                   "FDA approved 2015, NCCN Category 1"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "驱动基因靶向：塞普替尼（RET 融合）/ 达拉非尼 + 曲美替尼（BRAF V600E）/ 拉罗替尼（NTRK 融合）",
+                "name_en": "Selpercatinib (RET fusion) / Dabrafenib + Trametinib (BRAF V600E) / Larotrectinib (NTRK fusion)",
+                "manufacturer": "Lilly / Novartis / Bayer",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "按驱动基因选药，先做 NGS",
+                  "塞普替尼：RET 融合甲状腺癌 FDA 2020 加速批准、2024 转为常规批准",
+                  "达拉非尼 + 曲美替尼：BRAF V600E 实体瘤 FDA 2022 加速批准（泛瘤种）"
+                ],
+                "impact": "RAI 难治 DTC 正从\"多靶点 TKI 一刀切\"转向先做 NGS 再选药"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "Cabozantinib (RAI-R DTC 2L)",
-                "name_en": "Cabozantinib (Cometriq / Cabometyx)",
-                "company": "Exelixis",
-                "stage": "已上市（FDA 2022批准2L DTC）",
-                "trial": "COSMIC-311",
-                "status": "PFS 11.0m vs 1.9m after lenvatinib/sorafenib, FDA 2022 approved"
+                "name_cn": "再分化治疗（恢复摄碘）",
+                "name_en": "Redifferentiation (BRAF/MEK inhibitor → RAI)",
+                "company": "研究者发起",
+                "stage": "Phase 2",
+                "trial": "—",
+                "status": "约 30-60% 恢复摄碘",
+                "design": "短程靶向药诱导后再行碘-131 治疗",
+                "impact": "若确证有效，可推迟长期 TKI 用药"
               }
             ]
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（仑伐替尼 / 索拉非尼进展后）",
+            "label_en": "2nd Line (after VEGFR-TKI)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "卡博替尼（Cabometyx）",
+                "name_en": "Cabozantinib (Cabometyx)",
+                "manufacturer": "Exelixis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "COSMIC-311：PFS HR 0.22（对比安慰剂）",
+                  "FDA 2021-09 批准：VEGFR 靶向治疗后进展的 RAI 难治性 DTC（≥12 岁）"
+                ],
+                "impact": "二线标准"
+              }
+            ],
+            "pipeline": []
           }
         ]
       }
@@ -138,34 +213,67 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "塞普替尼（Retevmo，RET突变）",
+                "name_cn": "塞普替尼（睿妥，RET 突变）",
                 "name_en": "Selpercatinib (Retevmo)",
-                "manufacturer": "礼来 Eli Lilly",
+                "manufacturer": "礼来 Eli Lilly / 信达生物 Innovent",
                 "annual_cost_rmb": 180000,
                 "annual_cost_usd": null,
                 "market_share": "45%",
                 "selling_points": [
                   "LIBRETTO-001：ORR 69%（RET突变MTC）",
                   "CNS活性，颅内转移有效",
-                  "NMPA批准RET突变MTC"
+                  "NMPA 2022 年批准 RET 突变 MTC"
                 ]
               },
               {
                 "type": "drug",
-                "name_cn": "卡博替尼（Cometriq）",
-                "name_en": "Cabozantinib (Cometriq)",
-                "manufacturer": "益世力 Exelixis",
-                "annual_cost_rmb": 150000,
+                "name_cn": "普拉替尼（普吉华，RET 突变）",
+                "name_en": "Pralsetinib (Gavreto)",
+                "manufacturer": "基石药业 CStone",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "EXAM研究：PFS 11.2m vs 4.0m",
-                  "MET/VEGFR/RET多靶点TKI",
-                  "仿制药进入后价格下降"
+                  "ARROW：RET 突变 MTC 持久缓解",
+                  "NMPA 已批准 RET 突变 MTC"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "安罗替尼（福可维）",
+                "name_en": "Anlotinib (Focus V)",
+                "manufacturer": "正大天晴 CTTQ",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "ALTER01031：PFS 20.7 vs 11.1 个月（对比安慰剂）",
+                  "NMPA 已批准甲状腺髓样癌，不依赖 RET 突变状态"
                 ]
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "新一代 RET 抑制剂",
+                "name_en": "EP0031 (A400) / Vepafestinib",
+                "company": "Ellipses-科伦 / Helsinn",
+                "stage": "Phase 1/2",
+                "trial": "—",
+                "status": "对 G810 溶剂前沿耐药突变有效",
+                "design": "克服塞普替尼耐药、提高脑渗透",
+                "impact": "塞普替尼耐药后的序贯选择，人群极小"
+              },
+              {
+                "name_cn": "卡博替尼（Cometriq）",
+                "name_en": "Cabozantinib (Cometriq)",
+                "company": "益世力 Exelixis",
+                "stage": "美国已上市 / 中国大陆未见获批",
+                "trial": "EXAM",
+                "status": "PFS 11.2 vs 4.0 个月",
+                "design": "MET / VEGFR / RET 多靶点 TKI 对比安慰剂",
+                "impact": "卡博替尼在中国大陆未见获批，国内 MTC 靶向治疗以 RET 抑制剂与安罗替尼为主"
+              }
+            ]
           }
         ]
       },
@@ -194,10 +302,23 @@
                 "selling_points": [
                   "LIBRETTO-001: ORR 69% (RET-mut MTC)",
                   "FDA approved 2020, Category 1 NCCN"
-                ]
+                ],
+                "approved": "FDA 2024-09（常规批准）",
+                "impact": "LIBRETTO-531 头对头卡博替尼/凡德他尼 PFS HR 0.28，RET 突变 MTC 一线标准无争议"
               }
             ],
-            "pipeline": []
+            "pipeline": [
+              {
+                "name_cn": "新一代 RET 抑制剂",
+                "name_en": "EP0031 (A400) / Vepafestinib",
+                "company": "Ellipses-科伦 / Helsinn",
+                "stage": "Phase 1/2",
+                "trial": "—",
+                "status": "对 G810 溶剂前沿耐药突变有效",
+                "design": "克服塞普替尼耐药、提高脑渗透",
+                "impact": "塞普替尼耐药后的序贯选择，人群极小"
+              }
+            ]
           }
         ]
       }

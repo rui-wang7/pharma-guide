@@ -68,7 +68,7 @@
                 "name_cn": "呋喹替尼前线联合",
                 "name_en": "Fruquintinib earlier-line combos",
                 "company": "和黄医药 HUTCHMED / 武田",
-                "stage": "已上市（三线）/ 前线探索",
+                "stage": "前线探索（三线已上市）",
                 "trial": "FRESCO-2",
                 "status": "全球三线已获批（Fruzaqla）",
                 "design": "口服 VEGFR TKI 从三线向维持治疗前移",
@@ -346,7 +346,7 @@
                 "manufacturer": "大鹏药品 Taiho",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "45%",
+                "market_share": "未统计",
                 "selling_points": [
                   "SUNLIGHT：OS 10.8 vs 7.5 个月",
                   "三线标准"
@@ -359,7 +359,7 @@
                 "manufacturer": "武田 Takeda / 和黄医药",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "25%",
+                "market_share": "未统计",
                 "selling_points": [
                   "FRESCO-2：OS 7.4 vs 4.8 个月",
                   "FDA 2023-11 获批"
@@ -398,6 +398,37 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "局部晚期 dMMR / MSI-H（新辅助 / 辅助）",
+            "label_en": "Locally advanced dMMR/MSI-H (neoadjuvant / adjuvant)",
+            "options": [
+              {
+                "type": "surgery",
+                "name_cn": "根治性手术 ± 辅助化疗（现行标准）",
+                "name_en": "Curative surgery ± adjuvant chemotherapy",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "直肠癌：新辅助放化疗 + TME；结肠癌：手术 + 辅助 CAPOX / FOLFOX"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "国产 PD-1 新辅助（dMMR 局部晚期）",
+                "name_en": "Neoadjuvant PD-1 for dMMR",
+                "company": "信达、君实 等",
+                "stage": "Phase 2/3",
+                "trial": "—",
+                "status": "cCR/pCR 率 60-90%",
+                "design": "新辅助免疫后观察等待，免除手术",
+                "impact": "dMMR 直肠癌有望\"免手术\"，改变外科主导的治疗路径"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗（MSI-H）",
             "label_en": "1st Line (MSI-H)",
@@ -422,21 +453,42 @@
                 "name_cn": "纳武利尤单抗 + 伊匹木单抗",
                 "name_en": "Nivolumab + Ipilimumab",
                 "company": "百时美施贵宝 BMS",
-                "stage": "美国已批（2025-04）/ 中国审评",
+                "stage": "美国已批（2025-04）/ 中国状态未核实",
                 "trial": "CheckMate 8HW",
                 "status": "PFS HR 0.21 vs 化疗；vs 纳武单药 HR 0.62",
                 "design": "双免对比化疗及对比 PD-1 单药，一线 MSI-H/dMMR mCRC",
                 "impact": "证明双免优于 PD-1 单药，MSI-H 一线从 K 药单药转向双免"
-              },
+              }
+            ]
+          },
+          {
+            "line": 1,
+            "label_cn": "一线治疗（BRAF V600E）",
+            "label_en": "1st Line (BRAF V600E)",
+            "options": [
               {
-                "name_cn": "国产 PD-1 新辅助（dMMR 局部晚期）",
-                "name_en": "Neoadjuvant PD-1 for dMMR",
-                "company": "信达、君实 等",
-                "stage": "Phase 2/3",
-                "trial": "—",
-                "status": "cCR/pCR 率 60-90%",
-                "design": "新辅助免疫后观察等待，免除手术",
-                "impact": "dMMR 直肠癌有望\"免手术\"，改变外科主导的治疗路径"
+                "type": "drug",
+                "name_cn": "化疗 ± 贝伐珠单抗（FOLFOXIRI / FOLFOX）",
+                "name_en": "Chemotherapy ± Bevacizumab (FOLFOXIRI / FOLFOX)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "国内 BRAF V600E 一线现行标准；BREAKWATER 对照组（化疗 ± 贝伐）中位 OS 15.1 个月"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6",
+                "name_en": "Encorafenib (Braftovi) + Cetuximab + mFOLFOX6",
+                "company": "辉瑞 Pfizer",
+                "stage": "美国已批（2024-12 加速；2026-02 常规）/ 中国一线未见获批",
+                "trial": "BREAKWATER",
+                "status": "OS 30.3 vs 15.1 个月（HR 0.49），PFS 12.8 vs 7.1 个月",
+                "design": "BRAF 抑制剂 + 抗 EGFR + 化疗对比化疗 ± 贝伐珠单抗，一线 BRAF V600E mCRC",
+                "impact": "BRAF V600E 肠癌 OS 翻倍，靶向方案从二线前移一线成为全球标准"
               }
             ]
           },
@@ -445,21 +497,6 @@
             "label_cn": "二线治疗（BRAF V600E）",
             "label_en": "2nd Line (BRAF V600E)",
             "options": [
-              {
-                "type": "drug",
-                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6（一线）",
-                "name_en": "Encorafenib (Braftovi) + Cetuximab + mFOLFOX6",
-                "manufacturer": "辉瑞 Pfizer",
-                "annual_cost_rmb": null,
-                "annual_cost_usd": null,
-                "market_share": "新获批（美国）",
-                "selling_points": [
-                  "BREAKWATER：OS 30.3 vs 15.1 个月（HR 0.49），PFS 12.8 vs 7.1 个月",
-                  "FDA 2026 Q1 转为常规批准"
-                ],
-                "approved": "FDA 2026 Q1",
-                "impact": "BRAF V600E 肠癌 OS 翻倍，靶向方案从二线前移一线成为全球标准"
-              },
               {
                 "type": "drug",
                 "name_cn": "Encorafenib + 西妥昔单抗",
@@ -471,8 +508,9 @@
                 "selling_points": [
                   "BEACON研究：OS 9.0m vs 5.4m vs chemo",
                   "BRAF V600E CRC 2L标准",
-                  "NMPA批准"
-                ]
+                  "NMPA 2025-07 批准（经治 BRAF V600E mCRC）"
+                ],
+                "approved": "NMPA 2025-07"
               }
             ],
             "pipeline": [
@@ -501,6 +539,44 @@
           "CT/PET staging"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "局部晚期 / III 期 dMMR（辅助 / 器官保留）",
+            "label_en": "Locally advanced / stage III dMMR (adjuvant / organ preservation)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "阿替利珠单抗 + FOLFOX（辅助，III 期 dMMR 结肠癌）",
+                "name_en": "Atezolizumab (Tecentriq) + mFOLFOX6 adjuvant",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "ATOMIC：3 年 DFS 86.4% vs 76.6%（HR 0.50）",
+                  "FDA 2026-10-08 批准"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "首个进入结肠癌辅助的免疫方案，III 期 dMMR 患者标准治疗改写"
+              },
+              {
+                "type": "drug",
+                "name_cn": "多塔利单抗（局部晚期 dMMR 直肠癌）",
+                "name_en": "Dostarlimab (Jemperli) — LA dMMR rectal",
+                "manufacturer": "葛兰素史克 GSK",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "AZUR-1（单臂，N=154）：FDA 公布 12 个月持续临床完全缓解率 93%",
+                  "FDA 2026-10-19 加速批准：初治 II/III 期 dMMR/MSI-H 直肠癌，方案不含放化疗与手术"
+                ],
+                "approved": "FDA 2026-10",
+                "impact": "首个\"以药代刀\"的实体瘤适应症，器官保留成为 dMMR 直肠癌的默认策略"
+              }
+            ],
+            "pipeline": []
+          },
           {
             "line": 1,
             "label_cn": "一线治疗（MSI-H）",
@@ -531,36 +607,6 @@
                   "CheckMate-8HW: Superior PFS vs pembrolizumab",
                   "FDA approved 2024"
                 ]
-              },
-              {
-                "type": "drug",
-                "name_cn": "阿替利珠单抗 + FOLFOX（辅助，III 期 dMMR 结肠癌）",
-                "name_en": "Atezolizumab (Tecentriq) + mFOLFOX6 adjuvant",
-                "manufacturer": "罗氏 Roche",
-                "annual_cost_rmb": null,
-                "annual_cost_usd": null,
-                "market_share": "新获批",
-                "selling_points": [
-                  "ATOMIC：3 年 DFS 86.4% vs 76.6%（HR 0.50）",
-                  "FDA 2026-10-08 批准"
-                ],
-                "approved": "FDA 2026-10",
-                "impact": "首个进入结肠癌辅助的免疫方案，III 期 dMMR 患者标准治疗改写"
-              },
-              {
-                "type": "drug",
-                "name_cn": "多塔利单抗（局部晚期 dMMR 直肠癌）",
-                "name_en": "Dostarlimab (Jemperli) — LA dMMR rectal",
-                "manufacturer": "葛兰素史克 GSK",
-                "annual_cost_rmb": null,
-                "annual_cost_usd": null,
-                "market_share": "新获批",
-                "selling_points": [
-                  "AZUR-1：临床完全缓解率 68%",
-                  "FDA 2026-10-19 加速批准，可免放化疗与手术"
-                ],
-                "approved": "FDA 2026-10",
-                "impact": "首个\"以药代刀\"的实体瘤适应症，器官保留成为 dMMR 直肠癌的默认策略"
               }
             ],
             "pipeline": [
@@ -577,25 +623,33 @@
             ]
           },
           {
-            "line": 2,
-            "label_cn": "二线治疗（BRAF V600E）",
-            "label_en": "2nd Line (BRAF V600E)",
+            "line": 1,
+            "label_cn": "一线治疗（BRAF V600E）",
+            "label_en": "1st Line (BRAF V600E)",
             "options": [
               {
                 "type": "drug",
-                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6（一线）",
+                "name_cn": "康奈非尼 + 西妥昔单抗 + mFOLFOX6",
                 "name_en": "Encorafenib (Braftovi) + Cetuximab + mFOLFOX6",
                 "manufacturer": "辉瑞 Pfizer",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
                 "market_share": "新获批",
                 "selling_points": [
-                  "BREAKWATER：OS 30.3 vs 15.1 个月（HR 0.49）",
-                  "FDA 2026 Q1 常规批准（一线 BRAF V600E mCRC）"
+                  "BREAKWATER：OS 30.3 vs 15.1 个月（HR 0.49），PFS 12.8 vs 7.1 个月",
+                  "FDA 2024-12 加速批准，2026-02 转为常规批准"
                 ],
-                "approved": "FDA 2026 Q1",
+                "approved": "FDA 2026-02（常规批准）",
                 "impact": "BRAF V600E 一线新标准；Braftovi/Mektovi 2025 年销售 $7.2 亿，肠癌一线是主要增量"
-              },
+              }
+            ],
+            "pipeline": []
+          },
+          {
+            "line": 2,
+            "label_cn": "二线治疗（BRAF V600E）",
+            "label_en": "2nd Line (BRAF V600E)",
+            "options": [
               {
                 "type": "drug",
                 "name_cn": "Encorafenib + Cetuximab",

@@ -140,8 +140,10 @@
                 "selling_points": [
                   "Kite技术授权国内生产（NMPA 2021）",
                   "ZUMA-1 ORR 82%，CR 54%",
-                  "中国首批商业化CD19 CAR-T"
-                ]
+                  "中国首批商业化CD19 CAR-T",
+                  "二线适应症（一线免疫化疗后 12 个月内复发或难治）NMPA 2023-06 获批"
+                ],
+                "impact": "支付仍是瓶颈：百万元级定价下年治疗人数难破千，双抗会先于 CAR-T 放量"
               },
               {
                 "type": "drug",
@@ -163,7 +165,7 @@
                 "manufacturer": "罗氏 Roche",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "10%",
+                "market_share": "未统计",
                 "selling_points": [
                   "中国 2023-11 获批三线及以上 DLBCL",
                   "固定疗程 12 周期，CR 率约 40%",
@@ -178,21 +180,11 @@
                 "name_cn": "艾可瑞妥单抗",
                 "name_en": "Epcoritamab (Epkinly)",
                 "company": "艾伯维 AbbVie / Genmab",
-                "stage": "中国申报 / 美欧已上市",
+                "stage": "美欧日已上市 / 中国状态未核实",
                 "trial": "EPCORE NHL-1",
-                "status": "美欧日已上市，中国桥接研究完成",
+                "status": "EPCORE NHL-1：ORR 63%，CR 39%",
                 "design": "皮下给药 CD20×CD3 双抗，单臂 II 期 ORR 63% / CR 39% 支持加速获批",
                 "impact": "皮下剂型在国内日间病房场景下比静脉双抗更易放量"
-              },
-              {
-                "name_cn": "国产 CD19 CAR-T 二线适应症",
-                "name_en": "Relma-cel / Axi-cel 2L",
-                "company": "药明巨诺 / 复星凯特",
-                "stage": "已上市（二线适应症拓展）",
-                "trial": "—",
-                "status": "二线适应症已纳入多地惠民保",
-                "design": "把 CAR-T 从三线前移到一线治疗 12 个月内复发的二线患者",
-                "impact": "支付仍是瓶颈：百万元级定价下年治疗人数难破千，双抗会先于 CAR-T 放量"
               }
             ]
           }
@@ -515,24 +507,30 @@
                   "国产二代BTK，2024年NMPA批FL适应症",
                   "心脏毒性低于伊布替尼"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "莫妥珠单抗（Lunsumio）",
+                "name_en": "Mosunetuzumab (Lunsumio)",
+                "manufacturer": "罗氏 Roche",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "GO29781（单臂 II 期）：ORR 80%，CR 60%",
+                  "NMPA 已批准：既往 ≥2 线系统治疗的 R/R FL",
+                  "固定疗程 CD20×CD3 双抗"
+                ],
+                "approved": "NMPA 已获批",
+                "impact": "国内 FL 三线尚无双抗，获批后将与 BTK 抑制剂、CAR-T 直接竞争"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "莫妥珠单抗",
-                "name_en": "Mosunetuzumab (Lunsumio)",
-                "company": "罗氏 Roche",
-                "stage": "中国已申报",
-                "trial": "GO29781",
-                "status": "美欧已上市（三线 FL），中国审评中",
-                "design": "固定疗程 CD20×CD3 双抗单药，单臂 II 期 CR 60%",
-                "impact": "国内 FL 三线尚无双抗，获批后将与 BTK 抑制剂、CAR-T 直接竞争"
-              },
-              {
                 "name_cn": "艾可瑞妥单抗 + R²",
                 "name_en": "Epcoritamab + R²",
                 "company": "艾伯维 AbbVie / Genmab",
-                "stage": "美国已批（2025-11）/ 中国 Phase 3",
+                "stage": "美国已批（2025-11）/ 中国状态未核实",
                 "trial": "EPCORE FL-1",
                 "status": "全球 III 期含中国中心",
                 "design": "双抗 + R² 对比 R²，二线 FL，主要终点 ORR/PFS",
@@ -739,7 +737,7 @@
                 "manufacturer": "百时美施贵宝 BMS",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "8%",
+                "market_share": "未统计",
                 "selling_points": [
                   "TRANSCEND FL：ORR 97%，CR 94%",
                   "FDA 2024 批准三线及以上 FL"
@@ -828,9 +826,9 @@
                 "name_cn": "纳武利尤单抗 + AVD",
                 "name_en": "Nivolumab + AVD",
                 "company": "百时美施贵宝 BMS",
-                "stage": "美国已批（2026-03）/ 中国未申报",
+                "stage": "美国已批（2026-03）/ 中国状态未核实",
                 "trial": "SWOG S1826",
-                "status": "PFS HR 0.45 vs BV-AVD",
+                "status": "PFS HR 0.48 vs BV-AVD",
                 "design": "PD-1 + AVD 头对头对比 BV-AVD，III/IV 期初治 cHL",
                 "impact": "国内国产 PD-1 价格低，超说明书前移一线的可能性大于 O 药正式获批"
               }
@@ -882,6 +880,20 @@
                   "ORR 75%，CR 34%（SG035-0003）",
                   "桥接ASCT标准选择"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "替雷利珠单抗（百泽安）",
+                "name_en": "Tislelizumab (Tevimbra)",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "BGB-A317-203：R/R cHL ORR 87.1%，CR 62.9%",
+                  "NMPA 2019-12 批准（首个适应症）",
+                  "医保覆盖"
+                ]
               }
             ],
             "pipeline": [
@@ -889,9 +901,9 @@
                 "name_cn": "替雷利珠单抗 / 国产 PD-1 联合化疗",
                 "name_en": "Tislelizumab + Chemo",
                 "company": "百济神州 等",
-                "stage": "已上市（复发难治）/ 一线探索",
+                "stage": "临床探索（一线前移）",
                 "trial": "—",
-                "status": "国产 PD-1 已覆盖复发难治 cHL",
+                "status": "国产 PD-1 的 R/R cHL 适应症均已获批，联合 AVD 前移一线的研究进行中",
                 "design": "把已获批的 R/R 适应症向一线联合 AVD 前移",
                 "impact": "医保内国产 PD-1 年费用仅数万元，价格优势使进口 PD-1 在 cHL 基本出局"
               }
@@ -926,7 +938,7 @@
                 "annual_cost_usd": 350000,
                 "market_share": "40%",
                 "selling_points": [
-                  "FDA approved 2024 for advanced cHL 1L",
+                  "FDA 2026-03-20 批准：III/IV 期 cHL（≥12 岁）",
                   "SWOG S1826: PFS HR 0.48 vs A+AVD",
                   "New NCCN preferred regimen for stage III/IV"
                 ],
@@ -1178,36 +1190,48 @@
                   "国产仿制药价格大幅下降",
                   "医保覆盖"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "索托克拉（Sonrotoclax）",
+                "name_en": "Sonrotoclax",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "BGB-11417-201（单臂 II 期）：BTKi 经治 R/R MCL",
+                  "NMPA 附条件批准 R/R MCL 及 R/R CLL/SLL；美国 2026-05 加速批准（ORR 52%）",
+                  "新一代 BCL-2 抑制剂"
+                ],
+                "approved": "NMPA 已获批（附条件）",
+                "impact": "国产 BCL-2 首次实现中美双批，国内将与维奈克拉直接价格竞争"
+              },
+              {
+                "type": "drug",
+                "name_cn": "匹妥布替尼（捷帕力）",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "manufacturer": "礼来 Lilly / 信达生物 Innovent",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "BRUIN：共价 BTKi 经治 MCL ORR 约 50%",
+                  "NMPA 2024-10 批准：既往 ≥2 线（含 BTKi）的 R/R MCL",
+                  "非共价 BTKi，共价 BTKi 耐药后仍有效"
+                ],
+                "approved": "NMPA 2024-10",
+                "impact": "国内 BTKi 竞争已极度拥挤，匹妥布替尼定位在耐药后细分人群"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "索托克拉（Sonrotoclax）",
-                "name_en": "Sonrotoclax",
-                "company": "百济神州",
-                "stage": "中国已获批（R/R MCL / CLL）",
-                "trial": "BGB-11417-201",
-                "status": "中国 2026 年初获批，美国 2026-05 加速批准",
-                "design": "单臂 II 期，BTKi 经治 MCL",
-                "impact": "国产 BCL-2 首次实现中美双批，国内将与维奈克拉直接价格竞争"
-              },
-              {
-                "name_cn": "匹妥布替尼",
-                "name_en": "Pirtobrutinib (Jaypirca)",
-                "company": "礼来 Lilly / 信达生物",
-                "stage": "中国已获批（R/R MCL）",
-                "trial": "BRUIN",
-                "status": "信达负责中国商业化",
-                "design": "非共价 BTKi，共价 BTKi 耐药后仍有效",
-                "impact": "国内 BTKi 竞争已极度拥挤，匹妥布替尼定位在耐药后细分人群"
-              },
-              {
                 "name_cn": "Brexu-cel",
                 "name_en": "Brexucabtagene Autoleucel (Tecartus)",
                 "company": "吉利德 Kite / 复星凯特",
-                "stage": "中国申报中",
+                "stage": "美国已上市 / 中国状态未核实",
                 "trial": "ZUMA-2",
-                "status": "美国已上市",
+                "status": "ZUMA-2：ORR 约 90%",
                 "design": "单臂 II 期，BTKi 经治 MCL，ORR 约 90%",
                 "impact": "患者基数小 + 百万级定价，商业意义有限"
               }
@@ -1240,7 +1264,7 @@
                 "manufacturer": "阿斯利康 AstraZeneca",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "新获批",
                 "selling_points": [
                   "ECHO：PFS 66.4 vs 49.6 个月（HR 0.73）",
                   "FDA 2025-01 批准一线 MCL（不适合移植）",
@@ -1523,7 +1547,7 @@
                 "name_cn": "R²（利妥昔单抗 + 来那度胺）",
                 "name_en": "R² (Rituximab + Lenalidomide)",
                 "company": "BMS / 国产仿制",
-                "stage": "已上市（适应症拓展）",
+                "stage": "指南推荐方案（国内 MZL 适应症状态未核实）",
                 "trial": "AUGMENT",
                 "status": "国产来那度胺集采后价格大幅下降",
                 "design": "无化疗免疫调节方案对比利妥昔单抗单药，PFS HR 0.46",

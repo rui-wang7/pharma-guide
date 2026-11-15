@@ -98,14 +98,14 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "西达基奥仑赛（赛凯泽）CAR-T",
+                "name_cn": "西达基奥仑赛（卡卫荻）CAR-T",
                 "name_en": "Cilta-cel (Carvykti)",
                 "manufacturer": "传奇生物/强生 Legend/J&J",
                 "annual_cost_rmb": 1150000,
                 "annual_cost_usd": null,
                 "market_share": "15%",
                 "selling_points": [
-                  "中国首个上市MM CAR-T（NMPA 2023）",
+                  "NMPA 2024-08 批准（既往 ≥3 线 R/R MM）",
                   "CARTITUDE-1: CR 83%；CARTITUDE-4 PFS HR 0.26",
                   "BCMA靶向，单次输注深度持久缓解"
                 ]
@@ -151,28 +151,48 @@
                   "可联合Dara/Bor/Elotuzumab",
                   "国产仿制药已上市"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "伊基奥仑赛（福可苏）/ 泽沃基奥仑赛（赛恺泽）",
+                "name_en": "Equecabtagene Autoleucel (Fucaso) / Zevorcabtagene Autoleucel",
+                "manufacturer": "驯鹿生物-信达生物 / 科济药业",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "FUMANBA-1 / LUMMICAR-1：ORR >90%",
+                  "伊基奥仑赛 NMPA 2023-06 获批（国内首个 BCMA CAR-T），泽沃基奥仑赛 2024-02 获批；均用于既往 ≥3 线 R/R MM",
+                  "定价低于进口产品"
+                ],
+                "impact": "与 Carvykti（传奇/强生）在国内正面竞争，价格更低"
+              },
+              {
+                "type": "drug",
+                "name_cn": "特立妥单抗（泰立珂）",
+                "name_en": "Teclistamab (Tecvayli)",
+                "manufacturer": "强生 J&J",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "MajesTEC-1：ORR 63%，CR 39%",
+                  "NMPA 2024-06 批准单药用于既往 ≥3 线 R/R MM",
+                  "BCMA×CD3 双抗，皮下给药"
+                ],
+                "approved": "NMPA 2024-06"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "特立妥单抗 ± 达雷妥尤单抗",
-                "name_en": "Teclistamab ± Daratumumab",
+                "name_cn": "特立妥单抗 + 达雷妥尤单抗",
+                "name_en": "Teclistamab + Daratumumab",
                 "company": "强生 J&J",
-                "stage": "中国已上市（后线）/ 联合适应症申报",
+                "stage": "美国已批（2026-03）/ 中国审评中",
                 "trial": "MajesTEC-3",
-                "status": "美国 2026-03 已批联合方案",
+                "status": "MajesTEC-3：PFS HR 0.17",
                 "design": "双抗 + CD38 单抗对比 DPd/DVd",
                 "impact": "国内达雷妥尤单抗已进医保，联合方案落地速度取决于 Tecvayli 的医保谈判"
-              },
-              {
-                "name_cn": "国产 BCMA CAR-T",
-                "name_en": "Eque-cel / Zevor-cel",
-                "company": "驯鹿生物-信达 / 科济药业",
-                "stage": "中国已上市",
-                "trial": "FUMANBA-1 / LUMMICAR-1",
-                "status": "ORR >90%",
-                "design": "单臂 II 期，≥3 线 R/R MM",
-                "impact": "与 Carvykti（传奇/强生）在国内正面竞争，价格更低"
               },
               {
                 "name_cn": "国产 BCMA×CD3 / GPRC5D×CD3 双抗",
@@ -217,7 +237,7 @@
                 "market_share": "55%",
                 "selling_points": [
                   "PERSEUS：MRD 阴性率 75%（移植适合）",
-                  "CEPHEUS：FDA 2026 Q1 批准用于不适合移植的初治患者",
+                  "CEPHEUS：四药方案在不适合或暂缓移植的初治患者中 III 期阳性",
                   "皮下 Darzalex Faspro 四药方案成为各人群一线标准"
                 ],
                 "impact": "四药方案通吃移植/非移植人群，Darzalex 2025 年全球销售 $143.5 亿，一线地位在 2029 年专利到期前难以撼动"
@@ -411,7 +431,7 @@
                 "manufacturer": "再生元 Regeneron",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "5%",
+                "market_share": "新获批",
                 "selling_points": [
                   "LINKER-MM1：ORR 70%，CR 45%",
                   "FDA 2025-07 加速批准（≥4 线）",
@@ -463,8 +483,8 @@
                 "impact": "与已获批的 iberdomide 一起构成 BMS 的 Pomalyst 接班梯队"
               },
               {
-                "name_cn": "Elranatamab 前线",
-                "name_en": "Elranatamab (Elrexfio)",
+                "name_cn": "Elranatamab 二线及以上（单药 / 联合达雷妥尤单抗）",
+                "name_en": "Elranatamab ± Daratumumab — 2L+ (MagnetisMM-5)",
                 "company": "辉瑞 Pfizer",
                 "stage": "Phase 3",
                 "trial": "MagnetisMM-5",

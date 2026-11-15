@@ -61,7 +61,7 @@
                 "company": "Moderna / 默沙东 Merck",
                 "stage": "Phase 3（阳性）/ 申报准备中",
                 "trial": "INTerpath-001",
-                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）",
+                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）；其他瘤种：NSCLC 辅助 III 期（INTerpath-002）、肾癌辅助 II 期（INTerpath-004，入组完成）、膀胱癌（INTerpath-005 I/II 期、INTerpath-011 II 期）、皮肤鳞癌 II 期（INTerpath-007）",
                 "design": "个体化新抗原 mRNA 疫苗（最多 34 个新抗原）+ K 药对比 K 药，高危 III/IV 期术后辅助",
                 "impact": "首个 III 期阳性的个体化癌症疫苗，mRNA 平台在肿瘤领域获得验证；Keytruda 辅助适应症借此延续到专利期之后"
               },
@@ -154,9 +154,9 @@
                 "name_cn": "纳武利尤单抗 + 瑞拉利单抗",
                 "name_en": "Nivolumab + Relatlimab (Opdualag)",
                 "company": "百时美施贵宝 BMS",
-                "stage": "美国已上市 / 中国未获批",
+                "stage": "美国已上市 / 中国未见获批",
                 "trial": "RELATIVITY-047",
-                "status": "PFS 10.2 vs 4.6 个月",
+                "status": "PFS 10.1 vs 4.6 个月",
                 "design": "LAG-3 + PD-1 固定剂量复方对比纳武单药",
                 "impact": "Opdualag 2025 年销售 >$10 亿，是 BMS 在 Opdivo 专利到期前的过渡产品"
               }
@@ -177,6 +177,64 @@
           "Serum LDH"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "术后辅助治疗（IIB–IV 期切除后）",
+            "label_en": "Adjuvant (resected stage IIB–IV)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗辅助",
+                "name_en": "Pembrolizumab (Keytruda) adjuvant",
+                "manufacturer": "默沙东 Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "KEYNOTE-054（III 期切除后）与 KEYNOTE-716（IIB/IIC 期）：RFS 显著获益",
+                  "FDA 2019-02 批准 III 期辅助，2021-12 扩展至 IIB/IIC 期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗辅助",
+                "name_en": "Nivolumab (Opdivo) adjuvant",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CheckMate 238（III/IV 期切除后）与 CheckMate 76K（IIB/IIC 期）",
+                  "FDA 2017-12 批准，2023-10 扩展至 IIB/IIC 期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "达拉非尼 + 曲美替尼辅助（BRAF V600E/K）",
+                "name_en": "Dabrafenib (Tafinlar) + Trametinib (Mekinist) adjuvant",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "COMBI-AD：RFS HR 0.47",
+                  "FDA 2018-04 批准 III 期 BRAF V600E/K 突变切除后辅助"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Intismeran autogene + 帕博利珠单抗（辅助）",
+                "name_en": "Intismeran Autogene (mRNA-4157/V940) + Pembrolizumab",
+                "company": "Moderna / 默沙东 Merck",
+                "stage": "Phase 3（阳性）/ 申报准备中",
+                "trial": "INTerpath-001",
+                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）；其他瘤种：NSCLC 辅助 III 期（INTerpath-002）、肾癌辅助 II 期（INTerpath-004，入组完成）、膀胱癌（INTerpath-005 I/II 期、INTerpath-011 II 期）、皮肤鳞癌 II 期（INTerpath-007）",
+                "design": "个体化新抗原 mRNA 疫苗（最多 34 个新抗原）+ K 药对比 K 药，高危 III/IV 期术后辅助",
+                "impact": "首个 III 期阳性的个体化癌症疫苗，mRNA 平台在肿瘤领域获得验证；Keytruda 辅助适应症借此延续到专利期之后"
+              }
+            ]
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -237,16 +295,6 @@
             ],
             "pipeline": [
               {
-                "name_cn": "Intismeran autogene + 帕博利珠单抗（辅助）",
-                "name_en": "Intismeran Autogene (mRNA-4157/V940) + Pembrolizumab",
-                "company": "Moderna / 默沙东 Merck",
-                "stage": "Phase 3（阳性）/ 申报准备中",
-                "trial": "INTerpath-001",
-                "status": "ESMO 2026：N=1137，RFS HR 0.58（24 个月 82.2% vs 70.0%），DMFS HR 0.62，OS HR 0.77（未成熟）",
-                "design": "个体化新抗原 mRNA 疫苗（最多 34 个新抗原）+ K 药对比 K 药，高危 III/IV 期术后辅助",
-                "impact": "首个 III 期阳性的个体化癌症疫苗，mRNA 平台在肿瘤领域获得验证；Keytruda 辅助适应症借此延续到专利期之后"
-              },
-              {
                 "name_cn": "Lifileucel + 帕博利珠单抗（一线）",
                 "name_en": "Lifileucel (Amtagvi) + Pembrolizumab",
                 "company": "Iovance",
@@ -286,8 +334,24 @@
                   "IGNYTE（单臂II期）：确认ORR 33.6%（CR 15.0%，独立评审）",
                   "溶瘤HSV-1病毒瘤内注射；历经2次CRL后获批"
                 ],
-                "approved": "FDA 2026 Q3",
+                "approved": "FDA 2026-08（加速）",
                 "impact": "首个获批用于 PD-1 耐药黑色素瘤的溶瘤病毒联合方案，现货型、可门诊注射，比 TIL 更易推广"
+              },
+              {
+                "type": "drug",
+                "name_cn": "Lifileucel（Amtagvi，TIL）",
+                "name_en": "Lifileucel (Amtagvi)",
+                "manufacturer": "Iovance",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "C-144-01：PD-1 经治人群 ORR 31.5%",
+                  "FDA 2024-02 加速批准，首个实体瘤 TIL 细胞疗法",
+                  "需住院清淋与 IL-2，治疗中心与产能受限"
+                ],
+                "approved": "FDA 2024-02（加速）",
+                "impact": "治疗中心与产能受限，季度销售仍在数千万美元级"
               }
             ],
             "pipeline": [
@@ -300,16 +364,6 @@
                 "status": "入组中；Ib 期 ORR 约 56%",
                 "design": "PRAME 靶向 TCR-T 对比研究者选择，PD-1 经治皮肤黑色素瘤",
                 "impact": "若成功将是实体瘤首个大适应症 TCR-T，与 TIL、RP1 争夺 PD-1 耐药后市场"
-              },
-              {
-                "name_cn": "Lifileucel（TIL）",
-                "name_en": "Lifileucel (Amtagvi)",
-                "company": "Iovance",
-                "stage": "已上市（2024-02）",
-                "trial": "C-144-01",
-                "status": "ORR 31%",
-                "design": "单臂 II 期加速批准",
-                "impact": "治疗中心与产能受限，季度销售仍在数千万美元级"
               }
             ]
           }
@@ -332,6 +386,38 @@
           "LDH检测"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "术后辅助治疗",
+            "label_en": "Adjuvant",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "PD-1 单抗 / 大剂量干扰素（肢端型）；辅助化疗（黏膜型）",
+                "name_en": "Anti-PD-1 or high-dose interferon (acral); adjuvant chemotherapy (mucosal)",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "肢端型：术后辅助可选 PD-1 单抗或大剂量干扰素",
+                  "黏膜型：替莫唑胺 + 顺铂辅助化疗证据较多（CSCO 指南）"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "个体化 mRNA 疫苗（辅助）",
+                "name_en": "Intismeran / 国产 mRNA 新抗原疫苗",
+                "company": "Moderna-默沙东 / 斯微、艾博 等",
+                "stage": "全球 Phase 3 阳性 / 国产 Phase 1",
+                "trial": "INTerpath-001",
+                "status": "INTerpath-001 人群以皮肤型为主",
+                "design": "术后辅助联合 PD-1",
+                "impact": "肢端/黏膜型突变负荷低，疫苗获益是否等同尚无数据"
+              }
+            ]
+          },
           {
             "line": 1,
             "label_cn": "一线治疗（不可切除/转移）",
@@ -404,16 +490,6 @@
                 "status": "II 期 ORR 48%，III 期进行中",
                 "design": "PD-1 + VEGFR TKI 对比 PD-1 单药，一线黏膜黑色素瘤",
                 "impact": "黏膜/肢端型对 PD-1 单药不敏感，联合抗血管是中国特色方案"
-              },
-              {
-                "name_cn": "个体化 mRNA 疫苗",
-                "name_en": "Intismeran / 国产 mRNA 新抗原疫苗",
-                "company": "Moderna-默沙东 / 斯微、艾博 等",
-                "stage": "全球 Phase 3 阳性 / 国产 Phase 1",
-                "trial": "INTerpath-001",
-                "status": "INTerpath-001 人群以皮肤型为主",
-                "design": "术后辅助联合 PD-1",
-                "impact": "肢端/黏膜型突变负荷低，疫苗获益是否等同尚无数据"
               }
             ]
           },

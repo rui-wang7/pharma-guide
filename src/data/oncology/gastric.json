@@ -56,7 +56,7 @@
                 "name_cn": "泽尼达妥单抗 + 化疗 ± 替雷利珠单抗",
                 "name_en": "Zanidatamab + Chemo ± Tislelizumab",
                 "company": "百济神州 / Jazz",
-                "stage": "美国已批（2026-08）/ 中国审评",
+                "stage": "美国已批（2026-08）/ 中国状态未核实",
                 "trial": "HERIZON-GEA-01",
                 "status": "PFS 12.4 vs 8.1 个月；三药组 OS 26.4 vs 19.2 个月",
                 "design": "双表位 HER2 双抗 ± PD-1 对比曲妥珠单抗 + 化疗，一线",
@@ -88,11 +88,11 @@
                 "annual_cost_usd": null,
                 "market_share": "35%",
                 "selling_points": [
-                  "DESTINY-Gastric01：OS 12.5m vs 8.4m",
-                  "NMPA批准HER2+胃癌二线",
-                  "ADC新标准"
+                  "DESTINY-Gastric04（二线，对比雷莫西尤单抗 + 紫杉醇）：中位 OS 14.7 个月，延长 3.3 个月",
+                  "DESTINY-Gastric01（三线）：OS 12.5 vs 8.4 个月",
+                  "NMPA 已批准二线 HER2+ 胃癌，2026 版 CSCO 指南 I 级推荐"
                 ],
-                "approved": "NMPA 2026-01（二线）",
+                "approved": "NMPA 2026（二线）",
                 "impact": "DESTINY-Gastric04 让 T-DXd 从三线前移二线，国内 HER2+ 胃癌患者基数全球最大"
               }
             ],
@@ -101,7 +101,7 @@
                 "name_cn": "瑞康曲妥珠单抗 / 维迪西妥单抗",
                 "name_en": "SHR-A1811 / Disitamab Vedotin",
                 "company": "恒瑞 / 荣昌",
-                "stage": "已上市（RC48 三线）/ Phase 3",
+                "stage": "Phase 3（维迪西妥单抗三线已上市）",
                 "trial": "—",
                 "status": "RC48 三线 HER2 过表达已获批",
                 "design": "国产 HER2 ADC 对比化疗",
@@ -221,6 +221,37 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "可切除胃癌 / GEJ（围手术期）",
+            "label_en": "Resectable gastric / GEJ (perioperative)",
+            "options": [
+              {
+                "type": "surgery",
+                "name_cn": "D2 根治术 + 围手术期 / 辅助化疗（SOX、XELOX、S-1）",
+                "name_en": "D2 gastrectomy + perioperative / adjuvant chemotherapy",
+                "manufacturer": "通用",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "国内可切除胃癌现行标准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
+                "name_en": "Durvalumab + FLOT perioperative",
+                "company": "阿斯利康",
+                "stage": "美国已批（2025-11）/ 中国未见获批公告",
+                "trial": "MATTERHORN",
+                "status": "EFS HR 0.71，OS HR 0.78",
+                "design": "可切除胃癌/GEJ 围手术期免疫 + FLOT 对比 FLOT",
+                "impact": "首个围手术期胃癌免疫方案，国内以 D2 手术 + 辅助化疗为主，接受度待观察"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗",
             "label_en": "1st Line",
@@ -287,13 +318,13 @@
                 "manufacturer": "安斯泰来 Astellas",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "5%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "SPOTLIGHT/GLOW：OS 16.4-18.2 vs 12.2-15.5 个月",
+                  "SPOTLIGHT：OS 18.2 vs 15.5 个月；GLOW：14.4 vs 12.2 个月",
                   "CLDN18.2 阳性（≥75% 细胞 2+/3+）约占 38%",
                   "恶心呕吐明显，需住院首次输注"
                 ],
-                "approved": "FDA 2024-10 / NMPA 2025",
+                "approved": "NMPA 2025-01",
                 "impact": "首个 CLDN18.2 靶向药，但与 PD-1 + 化疗人群重叠且无法联用，渗透率低于预期"
               }
             ],
@@ -317,16 +348,6 @@
                 "status": "后线 III 期进行中，一线联合探索",
                 "design": "CLDN18.2 ADC + PD-1 ± 化疗",
                 "impact": "国产 CLDN18.2 ADC 至少 4 家进入 III 期，后线将迅速拥挤"
-              },
-              {
-                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
-                "name_en": "Durvalumab + FLOT perioperative",
-                "company": "阿斯利康",
-                "stage": "美国已批（2025-11）/ 中国审评",
-                "trial": "MATTERHORN",
-                "status": "EFS HR 0.71，OS HR 0.78",
-                "design": "可切除胃癌/GEJ 围手术期免疫 + FLOT 对比 FLOT",
-                "impact": "首个围手术期胃癌免疫方案，国内以 D2 手术 + 辅助化疗为主，接受度待观察"
               }
             ]
           },
@@ -374,14 +395,14 @@
                 "impact": "首个 III 期 OS 阳性的 CLDN18.2 ADC，将成为后线标准并向一线（联合 IO）推进，佐妥昔单抗面临被迭代"
               },
               {
-                "name_cn": "雷莫西尤单抗生物类似药 / 呋喹替尼 + 紫杉醇",
+                "name_cn": "呋喹替尼 + 紫杉醇",
                 "name_en": "Fruquintinib + Paclitaxel",
                 "company": "和黄医药",
-                "stage": "中国已获批",
+                "stage": "NDA 2023-04 受理，未见获批公告",
                 "trial": "FRUTIGA",
-                "status": "PFS 5.6 vs 2.7 个月",
+                "status": "PFS 5.6 vs 2.7 个月（HR 0.57）；OS 未达统计学显著",
                 "design": "口服 VEGFR TKI + 紫杉醇对比紫杉醇，二线",
-                "impact": "国产口服替代雷莫西尤单抗，价格优势明显"
+                "impact": "PFS 阳性但 OS 未达显著，监管结论未明；若获批将是雷莫西尤单抗之外的口服二线选择"
               }
             ]
           }
@@ -398,6 +419,29 @@
           "CT staging"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "可切除胃癌 / GEJ（围手术期）",
+            "label_en": "Resectable gastric / GEJ (perioperative)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
+                "name_en": "Durvalumab (Imfinzi) + FLOT",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "MATTERHORN（N=948）：EFS HR 0.71，OS HR 0.78",
+                  "FDA 2025-11-25 批准：可切除胃 / GEJ 腺癌，围手术期联合 FLOT"
+                ],
+                "approved": "FDA 2025-11",
+                "impact": "Imfinzi（2025 年 $60.6 亿）再添一个早期适应症"
+              }
+            ],
+            "pipeline": []
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -437,27 +481,17 @@
                 "manufacturer": "安斯泰来 Astellas",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "5%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "SPOTLIGHT/GLOW：OS 16.4-18.2 vs 12.2-15.5 个月",
+                  "SPOTLIGHT：OS 18.2 vs 15.5 个月；GLOW：14.4 vs 12.2 个月",
                   "CLDN18.2 阳性（≥75% 细胞 2+/3+）约占 38%",
                   "恶心呕吐明显，需住院首次输注"
                 ],
-                "approved": "FDA 2024-10 / NMPA 2025",
+                "approved": "FDA 2024-10",
                 "impact": "首个 CLDN18.2 靶向药，但与 PD-1 + 化疗人群重叠且无法联用，渗透率低于预期"
               }
             ],
             "pipeline": [
-              {
-                "name_cn": "度伐利尤单抗 + FLOT（围手术期）",
-                "name_en": "Durvalumab (Imfinzi) + FLOT",
-                "company": "阿斯利康",
-                "stage": "已获批（2025-11）",
-                "trial": "MATTERHORN",
-                "status": "EFS HR 0.71，OS HR 0.78",
-                "design": "可切除胃癌围手术期，对比安慰剂 + FLOT",
-                "impact": "Imfinzi（2025 年 $60.6 亿）再添一个早期适应症"
-              },
               {
                 "name_cn": "CLDN18.2 ADC（sonesitatug vedotin 等）",
                 "name_en": "Sonesitatug Vedotin (AZD0901/CMG901)",

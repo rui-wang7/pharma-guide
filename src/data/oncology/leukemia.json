@@ -66,6 +66,21 @@
                   "BCL-2抑制剂，2023年NMPA批AML一线",
                   "适用老年/不适合强化疗患者"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "奎扎替尼 + 7+3（FLT3-ITD）",
+                "name_en": "Quizartinib + 7+3 (FLT3-ITD)",
+                "manufacturer": "第一三共 Daiichi Sankyo",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "QuANTUM-First：OS 31.9 vs 15.1 个月（HR 0.78）",
+                  "NMPA 2026-06 批准初治 FLT3-ITD AML（诱导、巩固、维持全程）"
+                ],
+                "approved": "NMPA 2026-06",
+                "impact": "国内米哚妥林渗透率低，奎扎替尼获批后有望成为 FLT3-ITD 一线首选"
               }
             ],
             "pipeline": [
@@ -88,16 +103,6 @@
                 "status": "入组中",
                 "design": "对比安慰剂 + Ven/Aza，初治不适合强化疗的 NPM1m/KMT2Ar AML",
                 "impact": "与 ziftomenib 的一线竞速；先发适应症（KMT2Ar）给 Syndax 留了时间窗"
-              },
-              {
-                "name_cn": "奎扎替尼 + 7+3",
-                "name_en": "Quizartinib + 7+3 (FLT3-ITD)",
-                "company": "第一三共 Daiichi Sankyo",
-                "stage": "美国已批 / 中国审评中",
-                "trial": "QuANTUM-First",
-                "status": "OS 31.9 vs 15.1 个月（HR 0.78）",
-                "design": "FLT3-ITD 初治 AML，诱导、巩固、维持全程加药",
-                "impact": "国内米哚妥林渗透率低，奎扎替尼获批后有望成为 FLT3-ITD 一线首选"
               }
             ]
           },
@@ -153,7 +158,7 @@
                 "name_cn": "Revumenib / Ziftomenib",
                 "name_en": "Menin inhibitors",
                 "company": "Syndax / Kura",
-                "stage": "美国已批 / 中国未申报",
+                "stage": "美国已批 / 中国状态未核实",
                 "trial": "AUGMENT-101 / KOMET-001",
                 "status": "国内多家企业有在研 Menin 抑制剂（I/II 期）",
                 "design": "单臂 II 期，NPM1m 或 KMT2Ar R/R AML",
@@ -163,9 +168,9 @@
                 "name_cn": "Olutasidenib",
                 "name_en": "Olutasidenib (IDH1+)",
                 "company": "Rigel",
-                "stage": "美国已批 / 中国未上市",
+                "stage": "美国已批（2022-12）/ 中国状态未核实",
                 "trial": "Study 2102-HEM-101",
-                "status": "—",
+                "status": "CR/CRh 35%",
                 "design": "单臂 II 期，IDH1 突变 R/R AML，CR/CRh 35%",
                 "impact": "国内已有艾伏尼布，IDH1 人群小，进口意义有限"
               }
@@ -256,11 +261,11 @@
                 "annual_cost_usd": null,
                 "market_share": "新获批",
                 "selling_points": [
-                  "FDA 2026 Q2 批准：≥75 岁或不适合强化疗的初治 AML",
+                  "FDA 2026-05-13 批准：≥75 岁或不适合强化疗的初治 AML",
                   "首个全口服 HMA + 维奈克拉方案",
                   "免去每月 7 天静脉/皮下阿扎胞苷"
                 ],
-                "approved": "FDA 2026-06",
+                "approved": "FDA 2026-05",
                 "impact": "全口服方案把不适合化疗 AML 的治疗搬出输液中心，巩固维奈克拉骨架地位"
               }
             ],
@@ -333,7 +338,7 @@
                 "manufacturer": "Syndax",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "10%",
+                "market_share": "新获批",
                 "selling_points": [
                   "首个 Menin 抑制剂：2024-11 获批 KMT2Ar 急性白血病",
                   "2025-10 扩展至 NPM1 突变 R/R AML",
@@ -368,7 +373,7 @@
                 "market_share": "8%",
                 "selling_points": [
                   "Ivosidenib: CR/CRh 30%; FDA 2018",
-                  "Olutasidenib: CR/CRh 35%; FDA 2023",
+                  "Olutasidenib: CR/CRh 35%; FDA 2022",
                   "Oral; for IDH1-mutated R/R AML"
                 ]
               },
@@ -480,6 +485,22 @@
                   "BCL-2 + CD20，可达深度MRD阴性",
                   "NMPA批CLL一线"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "匹妥布替尼（捷帕力）",
+                "name_en": "Pirtobrutinib (Jaypirca)",
+                "manufacturer": "礼来 Lilly / 信达生物 Innovent",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "BRUIN CLL-313：对比 BR，PFS HR 0.20",
+                  "NMPA 2026-09-28 批准用于 CLL/SLL（含初治）；R/R CLL 适应症 2026-03 获批",
+                  "非共价 BTKi；美国一线适应症 2026-10 获批"
+                ],
+                "approved": "NMPA 2026-09",
+                "impact": "国内一线 BTKi 已被泽布替尼、奥布替尼占据，匹妥布替尼主要用于耐药后"
               }
             ],
             "pipeline": [
@@ -487,9 +508,9 @@
                 "name_cn": "索托克拉 + 泽布替尼",
                 "name_en": "Sonrotoclax + Zanubrutinib",
                 "company": "百济神州",
-                "stage": "Phase 3（索托克拉单药中国已批 R/R CLL）",
+                "stage": "Phase 3",
                 "trial": "CELESTIAL-TNCLL",
-                "status": "全球 III 期含中国",
+                "status": "全球 III 期含中国；索托克拉单药已在华附条件获批 R/R CLL",
                 "design": "头对头 VenO，固定疗程",
                 "impact": "国内 BTKi 已进医保且价格低，固定疗程联合的卫生经济学优势不如美国明显"
               },
@@ -502,16 +523,6 @@
                 "status": "国内注册 III 期入组中",
                 "design": "国产 BTKi + BCL-2 固定疗程，对比免疫化疗",
                 "impact": "国产全口服固定疗程组合，瞄准医保谈判后的性价比路线"
-              },
-              {
-                "name_cn": "匹妥布替尼",
-                "name_en": "Pirtobrutinib (Jaypirca)",
-                "company": "礼来 / 信达生物",
-                "stage": "美国一线已批（2026-10）/ 中国 R/R 已批",
-                "trial": "BRUIN CLL-313",
-                "status": "—",
-                "design": "对比 BR，初治 CLL",
-                "impact": "国内一线 BTKi 已被泽布替尼、奥布替尼占据，匹妥布替尼主要用于耐药后"
               }
             ]
           },
@@ -536,7 +547,7 @@
               },
               {
                 "type": "drug",
-                "name_cn": "BTK抑制剂换药（一线BTK后选择V+R/Acala）",
+                "name_cn": "BTK 抑制剂换药或改用 V+R（BTKi 治疗后）",
                 "name_en": "Switch BTK class or to V+R",
                 "manufacturer": "—",
                 "annual_cost_rmb": 200000,
@@ -546,6 +557,34 @@
                   "BTK耐药后换非共价BTK或V+R",
                   "del17p/TP53m需特别考虑"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "匹妥布替尼（捷帕力）— 共价 BTKi 经治",
+                "name_en": "Pirtobrutinib (Jaypirca) — post covalent BTKi",
+                "manufacturer": "礼来 Lilly / 信达生物 Innovent",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "非共价 BTKi，覆盖 C481 耐药突变",
+                  "NMPA 2026-03 批准 R/R CLL/SLL"
+                ],
+                "approved": "NMPA 2026-03"
+              },
+              {
+                "type": "drug",
+                "name_cn": "索托克拉（Sonrotoclax）",
+                "name_en": "Sonrotoclax",
+                "manufacturer": "百济神州 BeOne",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "NMPA 附条件批准 R/R CLL/SLL",
+                  "新一代 BCL-2 抑制剂，联合泽布替尼的 III 期进行中"
+                ],
+                "approved": "NMPA 已获批（附条件）"
               }
             ],
             "pipeline": [
@@ -563,9 +602,9 @@
                 "name_cn": "Liso-cel — CLL",
                 "name_en": "Lisocabtagene Maraleucel — CLL",
                 "company": "BMS / 药明巨诺",
-                "stage": "美国已批 / 中国 Phase 2",
+                "stage": "美国已批（2024-03，加速）/ 中国状态未核实",
                 "trial": "TRANSCEND CLL 004",
-                "status": "—",
+                "status": "TRANSCEND CLL 004：ORR 47%，CR 18%",
                 "design": "BTKi + BCL-2 双重失败后的 CAR-T",
                 "impact": "国内双重难治患者少，商业价值有限"
               }
@@ -850,20 +889,25 @@
                   "MMR率优于伊马替尼，2019年NMPA批一线",
                   "医保乙类，价格优势"
                 ]
-              }
-            ],
-            "pipeline": [
+              },
               {
-                "name_cn": "阿思尼布（一线）",
+                "type": "drug",
+                "name_cn": "阿思尼布（Scemblix）— 一线",
                 "name_en": "Asciminib (Scemblix) 1L",
-                "company": "诺华 Novartis",
-                "stage": "美国已批 / 中国审评中",
-                "trial": "ASC4FIRST",
-                "status": "48 周 MMR 68% vs 49%",
-                "design": "头对头对比研究者选择的 TKI（伊马替尼或二代 TKI），初治 CP-CML",
+                "manufacturer": "诺华 Novartis",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "ASC4FIRST：48 周 MMR 68% vs 49%（对比研究者选择的 TKI）",
+                  "NMPA 已批准初治 CP-CML（获批日期未核实）；FDA 2024-10 批准一线",
+                  "STAMP 变构抑制剂"
+                ],
+                "approved": "NMPA 已获批（一线）",
                 "impact": "国内伊马替尼/氟马替尼集采价极低，Scemblix 一线渗透取决于医保谈判"
               }
-            ]
+            ],
+            "pipeline": []
           },
           {
             "line": 2,
@@ -908,22 +952,27 @@
                 "selling_points": [
                   "三代TKI，覆盖T315I突变",
                   "PACE研究：T315I MMR 56%",
-                  "心血管事件风险高，需密切监测"
+                  "心血管事件风险高，需密切监测",
+                  "据报道 2024-09 在华获批（单一来源，未见 NMPA 公告原文）"
                 ]
-              }
-            ],
-            "pipeline": [
+              },
               {
+                "type": "drug",
                 "name_cn": "奥雷巴替尼（耐立克）",
                 "name_en": "Olverembatinib",
-                "company": "亚盛医药",
-                "stage": "中国已上市（T315I 及二代 TKI 耐药）",
-                "trial": "HQP1351-CC201/202",
-                "status": "已纳入医保",
-                "design": "单臂 II 期，T315I 突变 CML",
-                "impact": "国内唯一三代 TKI（泊那替尼未上市），在耐药人群中近乎垄断"
+                "manufacturer": "亚盛医药 Ascentage",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "HQP1351-CC201/202：T315I 突变 CML 高缓解率",
+                  "NMPA 2021-11 批准 T315I 突变 CP/AP-CML，后扩展至一、二代 TKI 耐药 / 不耐受",
+                  "已纳入医保"
+                ],
+                "impact": "国内首个三代 TKI，在 T315I 及耐药人群中占主导"
               }
-            ]
+            ],
+            "pipeline": []
           }
         ]
       },

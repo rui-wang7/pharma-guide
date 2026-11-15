@@ -16,10 +16,10 @@ const S = (brand, match, global, us, cn, opt = {}) => ({ brand, match, global, u
 export const DRUG_SALES = [
   // ── PD-(L)1 / IO ──
   S('Keytruda', ['Keytruda', 'Pembrolizumab', '帕博利珠'], 31.68, 19.3, 15, { est: ['us', 'cn'], src: 'Merck 10-K（全球）；美/中为估算' }),
-  S('Opdivo', ['Opdivo', 'Nivolumab', '纳武利尤'], 10.05, 6.0, null, { est: ['us'], exclude: ['Relatlimab', 'Opdualag'], src: 'BMS FY2025' }),
+  S('Opdivo', ['Opdivo', 'Nivolumab', '纳武利尤'], 10.05, 6.0, null, { est: ['us'], exclude: ['Relatlimab', 'Opdualag', 'Tudriqev'], src: 'BMS FY2025' }),
   S('Yervoy', ['Yervoy', 'Ipilimumab', '伊匹木'], 2.9, 1.83, null, { src: 'BMS FY2025' }),
   S('Opdualag', ['Opdualag', 'Relatlimab'], 1.2, 1.1, null, { est: ['global', 'us'], src: 'BMS FY2025（>10亿美元）' }),
-  S('Tecentriq', ['Tecentriq', 'Atezolizumab', '阿替利珠'], 4.2, 1.9, null, { est: ['global'], src: 'Roche FY2025（美国 CHF 1.6B）' }),
+  S('Tecentriq', ['Tecentriq', 'Atezolizumab', '阿替利珠'], 4.2, 1.9, null, { est: ['global'], exclude: ['Lurbinectedin'], src: 'Roche FY2025（美国 CHF 1.6B）' }),
   S('Imfinzi', ['Imfinzi', 'Durvalumab', '度伐利尤'], 6.06, 3.51, 25, { est: ['cn'], src: 'AstraZeneca FY2025' }),
   S('Imjudo', ['Imjudo', 'Tremelimumab'], 0.35, 0.23, null, { src: 'AstraZeneca FY2025' }),
   S('Libtayo', ['Libtayo', 'Cemiplimab'], 1.45, 0.94, null, { src: 'Regeneron FY2025' }),
@@ -32,7 +32,7 @@ export const DRUG_SALES = [
   S('开坦尼 Cadonilimab', ['Cadonilimab', '卡度尼利'], 0.18, null, 13, { est: ['global', 'cn'], src: '康方生物 2025（单品为估算）' }),
 
   // ── Lung ──
-  S('Tagrisso', ['Tagrisso', 'Osimertinib', '奥希替尼'], 7.25, 3.06, 90, { est: ['cn'], src: 'AstraZeneca FY2025（新兴市场 $1.97B）' }),
+  S('Tagrisso', ['Tagrisso', 'Osimertinib', '奥希替尼'], 7.25, 3.06, 90, { est: ['cn'], exclude: ['Savolitinib'], src: 'AstraZeneca FY2025（新兴市场 $1.97B）' }),
   S('阿美乐 Aumolertinib', ['Aumolertinib', '阿美替尼'], 0.77, null, 55, { est: ['global', 'cn'], src: '翰森制药 2025（估算）' }),
   S('艾弗沙 Furmonertinib', ['Furmonertinib', 'Firmonertinib', '伏美替尼'], 0.67, null, 48, { est: ['global', 'cn'], src: '艾力斯 2025（估算）' }),
   S('Rybrevant/Lazcluze', ['Rybrevant', 'Amivantamab', '埃万妥'], 0.73, 0.5, null, { est: ['us'], src: 'J&J 10-K FY2025' }),
@@ -139,7 +139,7 @@ export const DRUG_SALES = [
   S('Kesimpta', ['Kesimpta', 'Ofatumumab', '奥法妥木'], 4.43, 2.9, null, { est: ['us'], src: 'Novartis FY2025' }),
   S('Aubagio', ['Aubagio', 'Teriflunomide', '特立氟胺'], 0.27, 0.15, null, { src: 'Sanofi FY2025（€238M；已仿制）' }),
   S('Vyvgart', ['Vyvgart', 'Efgartigimod', '艾加莫德'], 4.2, 3.6, 6.8, { est: ['us'], src: 'argenx FY2025；中国为再鼎医药 $94.2M' }),
-  S('Ultomiris', ['Ultomiris', 'Ravulizumab', '瑞利珠'], 4.72, 2.67, null, { src: 'AstraZeneca FY2025' }),
+  S('Ultomiris', ['Ultomiris', 'Ravulizumab'], 4.72, 2.67, null, { src: 'AstraZeneca FY2025' }),
   S('Soliris', ['Soliris', 'Eculizumab', '依库珠'], 1.84, 1.09, null, { src: 'AstraZeneca FY2025' }),
   S('Uplizna', ['Uplizna', 'Inebilizumab'], 0.66, 0.53, null, { src: 'Amgen FY2025' }),
 
@@ -160,7 +160,7 @@ export const DRUG_SALES = [
 
   // ── Neuro ──
   S('Leqembi', ['Leqembi', 'Lecanemab', '仑卡奈'], 0.5, 0.25, 8, { est: ['global', 'us', 'cn'], src: 'Eisai/Biogen FY2025（估算）' }),
-  S('Kisunla', ['Kisunla', 'Donanemab', '多奈'], 0.3, 0.22, null, { est: ['global', 'us'], src: 'Lilly FY2025（估算）' }),
+  S('Kisunla', ['Kisunla', 'Donanemab', '多奈单抗'], 0.3, 0.22, null, { est: ['global', 'us'], src: 'Lilly FY2025（估算）' }),
   S('Nurtec ODT', ['Nurtec', 'Rimegepant', '瑞美吉泮'], 1.42, 1.32, null, { src: 'Pfizer FY2025' }),
   S('Qulipta', ['Qulipta', 'Atogepant'], 1.04, 0.91, null, { src: 'AbbVie FY2025' }),
   S('Ubrelvy', ['Ubrelvy', 'Ubrogepant'], 1.27, 1.24, null, { src: 'AbbVie FY2025' }),

@@ -48,7 +48,7 @@
                 "name_cn": "帕博利珠单抗 + 同步放化疗",
                 "name_en": "Pembrolizumab + Chemoradiotherapy",
                 "company": "默沙东 Merck",
-                "stage": "美国已批（2024-01）/ 中国已批",
+                "stage": "美国已批（2024-01）/ 中国未见获批公告",
                 "trial": "KEYNOTE-A18",
                 "status": "OS HR 0.67",
                 "design": "高危局部晚期（III-IVA 期），放化疗基础上加 PD-1",
@@ -68,7 +68,7 @@
                 "manufacturer": "康方生物 Akeso",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "25%",
+                "market_share": "新获批",
                 "selling_points": [
                   "COMPASSION-16：OS 未达到 vs 22.8 个月（HR 0.64），不限 PD-L1",
                   "NMPA 2025 批准一线"
@@ -124,18 +124,16 @@
             "options": [
               {
                 "type": "drug",
-                "name_cn": "卡度利尼（依达可来）",
-                "name_en": "Cadonilimab (Kaydivo / AK104)",
+                "name_cn": "卡度尼利单抗（开坦尼）",
+                "name_en": "Cadonilimab (AK104, Kaitanni)",
                 "manufacturer": "康方生物 Akeso Biopharma",
                 "annual_cost_rmb": 130000,
                 "annual_cost_usd": null,
                 "market_share": "40%",
                 "selling_points": [
-                  "PD-1/CTLA-4双特异性抗体（全球首款）",
-                  "COMPASSION-16研究：ORR 33.3%（2L+宫颈癌）",
-                  "2022年NMPA全球首批（宫颈癌2L+适应症）",
-                  "比单纯PD-1具有更强CTLA-4协同效应",
-                  "康方生物自主研发，国际授权Summit Therapeutics"
+                  "PD-1/CTLA-4 双特异性抗体（全球首款）",
+                  "AK104-201：含铂化疗失败后 ORR 约 33%",
+                  "2022 年 NMPA 附条件批准（复发 / 转移性宫颈癌二线及以上）"
                 ]
               },
               {
@@ -150,6 +148,21 @@
                   "KEYNOTE-158：CPS≥1 ORR 14.6%",
                   "FDA/NMPA批准宫颈癌二线"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Tisotumab Vedotin（Tivdak）",
+                "name_en": "Tisotumab Vedotin (Tivdak)",
+                "manufacturer": "再鼎医药 Zai Lab / Genmab-辉瑞",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "innovaTV 301：OS 11.5 vs 9.5 个月（HR 0.70）",
+                  "NMPA 2026-06 批准：化疗期间或之后进展的复发 / 转移性宫颈癌"
+                ],
+                "approved": "NMPA 2026-06",
+                "impact": "再鼎拥有中国权益，眼毒性管理是推广难点"
               }
             ],
             "pipeline": [
@@ -162,16 +175,6 @@
                 "status": "二线对比化疗，入组中",
                 "design": "TROP2 ADC 对比研究者选择化疗，PD-1 经治宫颈癌",
                 "impact": "若阳性将与 Tivdak 争夺二线"
-              },
-              {
-                "name_cn": "Tisotumab Vedotin",
-                "name_en": "Tisotumab Vedotin (Tivdak)",
-                "company": "辉瑞 / Genmab / 再鼎医药",
-                "stage": "美国已上市 / 中国审评",
-                "trial": "innovaTV 301",
-                "status": "OS 11.5 vs 9.5 个月（HR 0.70）",
-                "design": "组织因子 ADC 对比化疗，二/三线",
-                "impact": "再鼎拥有中国权益，眼毒性管理是推广难点"
               }
             ]
           }

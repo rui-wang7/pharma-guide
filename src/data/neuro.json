@@ -122,7 +122,7 @@
                     "stage": "注册证到期后停产",
                     "trial": "—",
                     "status": "2025 年起因再注册问题停止生产销售",
-                    "design": "—",
+                    "design": "海洋寡糖类口服药对比安慰剂，轻中度阿尔茨海默病",
                     "impact": "国产 AD 药争议落幕，市场回到抗 Aβ 抗体与传统对症药"
                   }
                 ]
@@ -155,7 +155,8 @@
                     "selling_points": [
                       "CLARITY AD: 27% slowing of decline",
                       "FDA full approval July 2023",
-                      "Biweekly IV, patient/care burden"
+                      "Biweekly IV, patient/care burden",
+                      "FDA 2025-05 批准首个血液检测（pTau217），有望替代 PET / 腰穿筛查，打开诊断瓶颈"
                     ]
                   },
                   {
@@ -217,16 +218,6 @@
                     "status": "未延缓认知下降",
                     "design": "GLP-1 对比安慰剂 2 年",
                     "impact": "GLP-1 治疗 AD 的假说基本终结"
-                  },
-                  {
-                    "name_cn": "血液检测（pTau217）",
-                    "name_en": "Blood-based biomarkers",
-                    "company": "Fujirebio、罗氏、C2N",
-                    "stage": "FDA 已批准首个血检（2025-05）",
-                    "trial": "—",
-                    "status": "—",
-                    "design": "替代 PET/腰穿筛查",
-                    "impact": "诊断瓶颈打开，才是抗 Aβ 抗体市场真正的催化剂"
                   }
                 ]
               }
@@ -292,9 +283,9 @@
                     "name_cn": "瑞美吉泮 / 阿托吉泮",
                     "name_en": "Rimegepant (Nurtec ODT) / Atogepant",
                     "company": "辉瑞 / 艾伯维",
-                    "stage": "中国已获批（急性期）/ 预防适应症推进中",
+                    "stage": "预防适应症开发中",
                     "trial": "—",
-                    "status": "—",
+                    "status": "瑞美吉泮急性期治疗已在华获批；预防适应症及阿托吉泮推进中",
                     "design": "口服 CGRP 受体拮抗剂对比安慰剂",
                     "impact": "国内偏头痛就诊率低，口服药比注射单抗更易教育市场"
                   },
@@ -339,7 +330,8 @@
                       "Oral CGRP antagonist",
                       "ADVANCE: 50% responder 61%",
                       "Episodic + chronic migraine approved"
-                    ]
+                    ],
+                    "impact": "2025 年销售：Qulipta $10.4 亿、Ubrelvy $12.7 亿、Nurtec $14.2 亿；口服 gepant 合计已超 $37 亿，正在取代注射 CGRP 单抗成为预防治疗首选"
                   },
                   {
                     "type": "drug",
@@ -378,16 +370,6 @@
                     "status": "IIb 期阳性",
                     "design": "阻断 PACAP 通路，针对 CGRP 无应答者",
                     "impact": "CGRP 之外的首个新靶点，瞄准约 30-40% 对 CGRP 药物应答不佳的患者"
-                  },
-                  {
-                    "name_cn": "口服 gepant 竞争格局",
-                    "name_en": "Atogepant vs Rimegepant",
-                    "company": "艾伯维 / 辉瑞",
-                    "stage": "已上市",
-                    "trial": "—",
-                    "status": "2025 年销售：Qulipta $10.4 亿、Ubrelvy $12.7 亿、Nurtec $14.2 亿",
-                    "design": "—",
-                    "impact": "口服 gepant 合计已超 $37 亿，正在取代注射 CGRP 单抗成为预防治疗首选"
                   }
                 ]
               }
@@ -492,20 +474,23 @@
                       "适合失眠+体重减轻的MDD患者",
                       "镇静作用明显，晚上服用"
                     ]
-                  }
-                ],
-                "pipeline": [
+                  },
                   {
+                    "type": "drug",
                     "name_cn": "托鲁地文拉法辛（若欣林）",
                     "name_en": "Toludesvenlafaxine",
-                    "company": "绿叶制药",
-                    "stage": "中国已上市",
-                    "trial": "—",
-                    "status": "SNDRI 三重再摄取抑制",
-                    "design": "对比安慰剂",
+                    "manufacturer": "绿叶制药 Luye",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "SNDRI 三重再摄取抑制剂",
+                      "NMPA 2022-11 批准抑郁症，国产 1 类新药"
+                    ],
                     "impact": "国产 1 类新药，在集采后的 SSRI/SNRI 市场中争取自费溢价"
                   }
-                ]
+                ],
+                "pipeline": []
               },
               {
                 "line": 1,
@@ -553,6 +538,21 @@
                       "SSRI性功能副作用对抗策略",
                       "戒烟同时适用"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "艾司氯胺酮鼻喷剂（Spravato）",
+                    "name_en": "Esketamine Nasal Spray (Spravato)",
+                    "manufacturer": "强生 J&J",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "TRANSFORM-2：联合口服抗抑郁药优于安慰剂鼻喷",
+                      "NMPA 2023-04 批准",
+                      "需院内给药并观察 2 小时，落地场景有限"
+                    ],
+                    "impact": "需院内给药观察 2 小时，国内落地场景有限"
                   }
                 ],
                 "pipeline": [
@@ -567,22 +567,12 @@
                     "impact": "若获批将是首个经典致幻剂药物，创造\"诊所内给药 + 治疗师陪伴\"的全新商业模式，对标 Spravato（2025 年 $17 亿）"
                   },
                   {
-                    "name_cn": "艾司氯胺酮鼻喷剂",
-                    "name_en": "Esketamine Nasal Spray (Spravato)",
-                    "company": "强生 J&J / 恒瑞（国产艾司氯胺酮）",
-                    "stage": "中国已获批（2023）",
-                    "trial": "TRANSFORM-2",
-                    "status": "—",
-                    "design": "联合口服抗抑郁药对比安慰剂鼻喷",
-                    "impact": "需院内给药观察 2 小时，国内落地场景有限"
-                  },
-                  {
                     "name_cn": "Zuranolone",
                     "name_en": "Zuranolone (Zurzuvae)",
                     "company": "渤健 / Sage",
-                    "stage": "美国已上市（产后抑郁）/ 中国未申报",
+                    "stage": "美国已上市（产后抑郁）/ 中国状态未核实",
                     "trial": "SKYLARK",
-                    "status": "—",
+                    "status": "14 天口服疗程",
                     "design": "14 天口服疗程",
                     "impact": "适应症窄（仅 PPD），商业规模有限"
                   }

@@ -107,7 +107,7 @@
               {
                 "type": "drug",
                 "name_cn": "伏美替尼（艾弗沙）",
-                "name_en": "Furmonertinib (Furclairza)",
+                "name_en": "Furmonertinib (Ivesa)",
                 "manufacturer": "艾力斯医药 Allist Pharma",
                 "annual_cost_rmb": 48000,
                 "annual_cost_usd": null,
@@ -120,31 +120,36 @@
               },
               {
                 "type": "drug",
-                "name_cn": "贝福替尼（贝美纳）",
-                "name_en": "Befotertinib (Beimena)",
-                "manufacturer": "恒瑞医药 Hengrui",
+                "name_cn": "贝福替尼（赛美纳）",
+                "name_en": "Befotertinib (D-0316)",
+                "manufacturer": "贝达药业 / 益方生物",
                 "annual_cost_rmb": 50000,
                 "annual_cost_usd": null,
                 "market_share": "5%",
                 "selling_points": [
-                  "BEAT研究：PFS 22.1m vs 13.8m（对照吉非替尼，HR 0.49）",
-                  "2023年NMPA批准，国产三代EGFR-TKI",
-                  "CNS穿透性良好",
-                  "恒瑞医药自主研发"
+                  "III 期（对照埃克替尼）：PFS 22.1 vs 13.8 个月（HR 0.49）",
+                  "2023 年 NMPA 批准，国产三代 EGFR-TKI",
+                  "CNS 穿透性良好"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "埃万妥单抗（锐珂）+ 兰泽替尼（利珂）",
+                "name_en": "Amivantamab + Lazertinib",
+                "manufacturer": "强生 J&J",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "MARIPOSA：头对头奥希替尼单药，OS HR 0.75",
+                  "NMPA 2025-08-08 批准一线 EGFR 19del / L858R；皮下剂型 2025-12-25 在华获批",
+                  "EGFR×MET 双抗 + 三代 TKI"
+                ],
+                "approved": "NMPA 2025-08",
+                "impact": "首个在 OS 上击败奥希替尼的方案，但皮疹/VTE 毒性与价格限制了国内放量"
               }
             ],
             "pipeline": [
-              {
-                "name_cn": "埃万妥单抗 + 兰泽替尼",
-                "name_en": "Amivantamab + Lazertinib",
-                "company": "强生 J&J",
-                "stage": "美国已上市 / 中国已获批",
-                "trial": "MARIPOSA",
-                "status": "OS HR 0.75，中位 OS 预计延长 >12 个月",
-                "design": "双抗 + 三代 TKI 头对头奥希替尼单药，一线 EGFRm；皮下剂型降低输注反应",
-                "impact": "首个在 OS 上击败奥希替尼的方案，但皮疹/VTE 毒性与价格限制了国内放量"
-              },
               {
                 "name_cn": "芦康沙妥珠单抗 + 奥希替尼（一线）",
                 "name_en": "Sac-TMT + Osimertinib 1L",
@@ -179,7 +184,7 @@
                 "manufacturer": "康方生物 Akeso",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "25%",
+                "market_share": "未统计",
                 "selling_points": [
                   "HARMONi-A：PFS 7.1 vs 4.8 个月（HR 0.46）",
                   "2024-05 NMPA 获批 EGFR-TKI 耐药后，已进医保",
@@ -195,13 +200,13 @@
                 "manufacturer": "科伦博泰 Kelun-Biotech",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "OptiTROP-Lung04：PFS、OS 均显著优于含铂化疗",
-                  "NMPA 已批 EGFR-TKI 耐药后（含未经化疗）",
-                  "全球首个在 EGFRm NSCLC 证明 OS 获益的 TROP2 ADC"
+                  "OptiTROP-Lung04（TKI 耐药后，对比含铂化疗）：PFS 显著获益",
+                  "OptiTROP-Lung03（TKI + 含铂化疗后，对比多西他赛）：OS 获益，NMPA 2025-03-10 据此批准",
+                  "TKI 耐药后（未经化疗）适应症随后获批"
                 ],
-                "approved": "NMPA 2025",
+                "approved": "NMPA 2025-03",
                 "impact": "直接替代含铂化疗，与依沃西在 TKI 耐药后形成国产双雄，进口 Dato-DXd 基本无空间"
               },
               {
@@ -221,7 +226,7 @@
                 "type": "drug",
                 "name_cn": "贝福替尼（T790M阳性）",
                 "name_en": "Befotertinib (T790M+)",
-                "manufacturer": "恒瑞医药 Hengrui",
+                "manufacturer": "贝达药业 / 益方生物",
                 "annual_cost_rmb": 50000,
                 "annual_cost_usd": null,
                 "market_share": "5%",
@@ -251,13 +256,13 @@
                 "manufacturer": "和黄医药 HUTCHMED / 阿斯利康",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "8%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "SACHI / SAFFRON：MET 扩增/过表达，PFS 7.6 vs 5.4 个月（HR 0.55），OS 17.8 vs 12.9 个月",
-                  "全口服、无化疗",
-                  "需 MET 检测筛选（约占耐药患者 15-30%）"
+                  "SACHI（中国 III 期，MET 扩增，对比含铂化疗）：PFS 8.2 vs 4.5 个月，NMPA 2025-06-30 据此批准",
+                  "SAFFRON（全球 III 期）：PFS 7.6 vs 5.4 个月（HR 0.55），OS 17.8 vs 12.9 个月",
+                  "全口服、无化疗；需 MET 检测筛选"
                 ],
-                "approved": "NMPA 2025",
+                "approved": "NMPA 2025-06",
                 "impact": "首个生物标志物驱动的耐药后方案；SAFFRON 的 OS 获益（HR 0.68）支撑全球申报"
               }
             ],
@@ -315,7 +320,7 @@
               {
                 "type": "drug",
                 "name_cn": "安罗替尼（福可维）",
-                "name_en": "Anlotinib (Foretinib)",
+                "name_en": "Anlotinib (Focus V)",
                 "manufacturer": "正大天晴 CTTQ",
                 "annual_cost_rmb": 80000,
                 "annual_cost_usd": null,
@@ -332,7 +337,7 @@
                 "name_cn": "德达博妥单抗",
                 "name_en": "Datopotamab Deruxtecan (Datroway)",
                 "company": "阿斯利康 / 第一三共",
-                "stage": "美国已批（2025-06）/ 中国审评",
+                "stage": "美国已批（2025-06，加速）/ 中国状态未核实",
                 "trial": "TROPION-Lung05 / -15",
                 "status": "EGFRm 经治人群 ORR 约 45%",
                 "design": "TROP2 ADC 单臂合并分析支持加速批准；Lung15 为 TKI 耐药后对比化疗的确证研究",
@@ -429,7 +434,7 @@
                 "manufacturer": "阿斯利康 AstraZeneca",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "未统计",
                 "selling_points": [
                   "FLAURA2：PFS 25.5 vs 16.7 个月；最终 OS 47.5 vs 37.6 个月（HR 0.77）",
                   "脑转移、L858R 等高危人群首选",
@@ -448,8 +453,10 @@
                 "selling_points": [
                   "MARIPOSA: PFS 23.7m vs 16.6m vs osimertinib",
                   "FDA approved 2024",
-                  "Bispecific EGFR+MET antibody"
-                ]
+                  "Bispecific EGFR+MET antibody",
+                  "皮下剂型 Rybrevant Faspro 于 2025-12-17 获 FDA 批准（PALOMA-3：给药相关反应 13%，静脉剂型 66%）"
+                ],
+                "impact": "皮下剂型解决了 Rybrevant 最大短板（给药负担），是其放量的前提"
               }
             ],
             "pipeline": [
@@ -472,16 +479,6 @@
                 "status": "exon20 全球 III 期失利；PACC 突变 III 期继续",
                 "design": "高剂量三代 TKI 对比含铂化疗，一线 exon20ins",
                 "impact": "全球化受挫，ArriVent 的价值转向 PACC 突变这一更小人群"
-              },
-              {
-                "name_cn": "皮下埃万妥单抗（月度）",
-                "name_en": "Subcutaneous Amivantamab (monthly)",
-                "company": "强生 J&J",
-                "stage": "已获批（2026 Q1）",
-                "trial": "PALOMA-2/3",
-                "status": "输注反应从 66% 降至 13%",
-                "design": "皮下剂型非劣效于静脉，并显示 OS 趋势获益",
-                "impact": "解决 Rybrevant 最大短板（给药负担），是其从约 7 亿美元向重磅产品迈进的前提"
               }
             ]
           },
@@ -654,8 +651,10 @@
                 "selling_points": [
                   "CROWN研究mPFS未达到（>60m）",
                   "三代ALK抑制剂，覆盖多种耐药突变",
-                  "CNS最强覆盖"
-                ]
+                  "CNS最强覆盖",
+                  "CROWN 5 年随访：5 年 PFS 率 60%，中位 PFS 仍未达到"
+                ],
+                "impact": "史上最长 PFS 让洛拉替尼从二线药变成一线首选，2025 年全球销售 $10.2 亿（+40%）"
               },
               {
                 "type": "drug",
@@ -677,12 +676,13 @@
                 "manufacturer": "齐鲁制药",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "10%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "INSPIRE：PFS 27.7 vs 14.6 个月 vs 克唑替尼",
+                  "INSPIRE：PFS 显著优于克唑替尼（期中分析 27.7 vs 14.6 个月）",
+                  "NMPA 2023-06 批准克唑替尼经治，2024-01-16 批准一线",
                   "国产二代 ALK TKI，已进医保"
                 ],
-                "approved": "NMPA 2024（一线）",
+                "approved": "NMPA 2024-01（一线）",
                 "impact": "国产二代 ALK TKI 以价格优势分流阿来替尼"
               },
               {
@@ -692,12 +692,13 @@
                 "manufacturer": "贝达药业 / Xcovery",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "10%",
+                "market_share": "未统计",
                 "selling_points": [
                   "eXalt3：PFS 25.8 vs 12.7 个月 vs 克唑替尼",
+                  "NMPA 2020-11 批准二线、2022-03 批准一线、2025-09 批准术后辅助",
                   "2024-12 获 FDA 批准，首个中美双批的国产 ALK TKI"
                 ],
-                "approved": "FDA 2024-12",
+                "approved": "NMPA 2022-03（一线）/ FDA 2024-12",
                 "impact": "出海象征意义大于商业意义：美国一线已被洛拉替尼/阿来替尼锁定"
               }
             ],
@@ -711,16 +712,6 @@
                 "status": "经治（含洛拉替尼后）ORR 约 35-40%；一线头对头阿来替尼的 III 期入组中",
                 "design": "第四代 ALK TKI，脑渗透强、避开 TRK 以减少洛拉替尼样神经毒性，覆盖 G1202R 复合突变",
                 "impact": "先拿后线再打一线：若 ALKAZAR 胜出阿来替尼，将重排整个 ALK 市场（目前约 30 亿美元）"
-              },
-              {
-                "name_cn": "洛拉替尼 5 年数据推广",
-                "name_en": "Lorlatinib 5-year CROWN",
-                "company": "辉瑞 Pfizer",
-                "stage": "已上市",
-                "trial": "CROWN",
-                "status": "5 年 PFS 率 60%，中位 PFS 仍未达到",
-                "design": "头对头克唑替尼，一线 ALK+",
-                "impact": "史上最长 PFS 让洛拉替尼从二线药变成一线首选，2025 年全球销售 $10.2 亿（+40%）"
               }
             ]
           },
@@ -826,7 +817,7 @@
                 "manufacturer": "辉瑞 Pfizer",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "60%",
+                "market_share": "未统计",
                 "selling_points": [
                   "二代 TKI 进展后 ORR 约 40%",
                   "覆盖 G1202R 等耐药突变"
@@ -943,7 +934,7 @@
                 "manufacturer": "劲方医药 / 信达生物",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "未统计",
                 "selling_points": [
                   "国内首个获批 G12C 抑制剂（2024-08）",
                   "ORR 49%"
@@ -957,7 +948,7 @@
                 "manufacturer": "益方生物 / 正大天晴",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "未统计",
                 "selling_points": [
                   "NMPA 2024-11 附条件批准",
                   "ORR 50%"
@@ -971,7 +962,7 @@
                 "manufacturer": "加科思 / 艾力斯",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "新获批",
                 "selling_points": [
                   "NMPA 2025-05 附条件批准",
                   "ORR 48%，胃肠毒性较低"
@@ -1190,6 +1181,21 @@
                   "标准EP方案，价格低廉",
                   "医保报销，广泛使用"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "斯鲁利单抗（汉斯状）+ 化疗",
+                "name_en": "Serplulimab + Chemo",
+                "manufacturer": "复宏汉霖 Henlius",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "ASTRUM-005：OS 15.8 vs 11.1 个月",
+                  "NMPA 2023-01 批准一线 ES-SCLC；已获欧盟批准",
+                  "美国桥接研究 ASTRIDE 进行中"
+                ],
+                "impact": "首个获欧盟批准用于 SCLC 的 PD-1，国内对阿替利珠/度伐利尤形成价格压制"
               }
             ],
             "pipeline": [
@@ -1202,16 +1208,6 @@
                 "status": "ESMO 2026：OS 21.1 vs 12.7 个月（HR 0.42），PFS 7.4 vs 1.9 个月（HR 0.34），N=563",
                 "design": "一线化免诱导后，DLL3×CD3 双抗 + PD-L1 对比 PD-L1 单药维持",
                 "impact": "HR 0.42 在广泛期 SCLC 史无前例，Imdelltra（2025 年 $6.3 亿）将前移一线并成为 SCLC 骨架"
-              },
-              {
-                "name_cn": "斯鲁利单抗 + 化疗 ± 放疗",
-                "name_en": "Serplulimab + Chemo",
-                "company": "复宏汉霖 Henlius",
-                "stage": "已上市（中国/欧盟）",
-                "trial": "ASTRUM-005",
-                "status": "OS 15.8 vs 11.1 个月",
-                "design": "PD-1 + 化疗对比化疗，一线 ES-SCLC；美国桥接研究 ASTRIDE 进行中",
-                "impact": "首个获欧盟批准用于 SCLC 的 PD-1，国内对阿替利珠/度伐利尤形成价格压制"
               }
             ]
           },
@@ -1229,10 +1225,10 @@
                 "annual_cost_usd": null,
                 "market_share": "新获批",
                 "selling_points": [
-                  "NMPA 2026-05-29 批准二线 ES-SCLC",
+                  "NMPA 2026-04-10 批准：含铂化疗后进展的 ES-SCLC（百济神州在华合作）",
                   "DeLLphi-304：OS 13.6 vs 8.3 个月（HR 0.60）"
                 ],
-                "approved": "NMPA 2026-05",
+                "approved": "NMPA 2026-04",
                 "impact": "国内首个 DLL3 靶向药，CRS 监测要求限制在大中心使用"
               },
               {
@@ -1458,13 +1454,13 @@
                 "manufacturer": "康方生物 Akeso",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "新获批",
                 "selling_points": [
                   "HARMONi-2：头对头帕博利珠单抗，PFS 11.1 vs 5.8 个月（HR 0.51）",
-                  "NMPA 2025 批准 PD-L1 阳性一线单药",
+                  "NMPA 2025-04 批准 PD-L1 阳性（TPS≥1%）一线单药",
                   "PD-1/VEGF 双抗，已进医保"
                 ],
-                "approved": "NMPA 2025",
+                "approved": "NMPA 2025-04",
                 "impact": "首个在头对头中击败 K 药的药物；国内正在替代 PD-1 单药，全球看 HARMONi-3/7"
               },
               {
@@ -1578,6 +1574,21 @@
                   "RATIONALE-304/307：鳞/非鳞双研究",
                   "医保报销，全球同步开发"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "依沃西单抗 + 化疗（鳞癌）",
+                "name_en": "Ivonescimab (AK112) + Chemotherapy — squamous",
+                "manufacturer": "康方生物 Akeso",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "HARMONi-6：头对头替雷利珠单抗 + 化疗，PFS 11.1 vs 6.9 个月（HR 0.60）",
+                  "NMPA 2026-08 批准一线鳞状 NSCLC"
+                ],
+                "approved": "NMPA 2026-08",
+                "impact": "首个在 III 期头对头中击败\"PD-1 + 化疗\"的方案，适应症从 PD-L1 阳性单药扩展到鳞癌联合化疗"
               }
             ],
             "pipeline": [
@@ -1683,6 +1694,64 @@
         ],
         "treatment_lines": [
           {
+            "line": "early",
+            "label_cn": "可切除 NSCLC（围手术期 / 辅助）",
+            "label_en": "Resectable NSCLC (perioperative / adjuvant)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "帕博利珠单抗围手术期（新辅助联合化疗 → 术后辅助）",
+                "name_en": "Pembrolizumab (Keytruda) perioperative",
+                "manufacturer": "默沙东 Merck",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "KEYNOTE-671：EFS、OS 均显著改善",
+                  "FDA 2023-10 批准可切除 NSCLC 围手术期"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗 + 化疗（新辅助 / 围手术期）",
+                "name_en": "Nivolumab (Opdivo) + Chemo neoadjuvant / perioperative",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CheckMate 816（新辅助，FDA 2022-03）",
+                  "CheckMate 77T（围手术期，FDA 2024-10）"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "度伐利尤单抗围手术期",
+                "name_en": "Durvalumab (Imfinzi) perioperative",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "AEGEAN：EFS HR 0.68",
+                  "FDA 2024-08 批准"
+                ]
+              }
+            ],
+            "pipeline": [
+              {
+                "name_cn": "Intismeran autogene + 帕博利珠单抗（辅助）",
+                "name_en": "Intismeran Autogene (mRNA-4157/V940) + Pembrolizumab — NSCLC",
+                "company": "Moderna / 默沙东 Merck",
+                "stage": "Phase 3",
+                "trial": "INTerpath-002",
+                "status": "入组中（2023-12 启动，计划约 868 例）；另一项可切除 NSCLC 的 III 期（NCT06623422）也在入组",
+                "design": "个体化新抗原 mRNA 疫苗 + K 药对比安慰剂 + K 药，II–IIIB 期 NSCLC 完全切除并完成辅助化疗后",
+                "impact": "黑色素瘤 INTerpath-001 阳性后最重要的验证：NSCLC 辅助人群数倍于黑色素瘤，成败决定个体化疫苗是平台还是单一适应症"
+              }
+            ]
+          },
+          {
             "line": 1,
             "label_cn": "一线治疗（PD-L1 ≥50%）",
             "label_en": "1st Line (PD-L1 ≥50%)",
@@ -1697,8 +1766,10 @@
                 "selling_points": [
                   "KEYNOTE-024: PFS 10.3m vs 6.0m",
                   "OS benefit maintained 5yr follow-up",
-                  "NCCN Category 1 preferred"
-                ]
+                  "NCCN Category 1 preferred",
+                  "皮下剂型 Keytruda Qlex 于 2025-09 获 FDA 批准（2-3 分钟注射）"
+                ],
+                "impact": "默沙东目标在 2028 年专利到期前把 30-40% 患者转到皮下剂型以对冲生物类似药"
               }
             ],
             "pipeline": [
@@ -1721,16 +1792,6 @@
                 "status": "全球 III 期入组中",
                 "design": "PD-L1×VEGF 双抗 + 化疗对比帕博利珠单抗 + 化疗",
                 "impact": "BMS 以 111 亿美元合作押注；与依沃西、辉瑞 PF-08634404 三家竞速"
-              },
-              {
-                "name_cn": "皮下帕博利珠单抗",
-                "name_en": "Subcutaneous Pembrolizumab (Keytruda Qlex)",
-                "company": "默沙东 Merck",
-                "stage": "已获批（2025-09）",
-                "trial": "MK-3475A-D77",
-                "status": "药代非劣效",
-                "design": "皮下剂型 2-3 分钟注射",
-                "impact": "默沙东目标在 2028 年专利到期前把 30-40% 患者转到皮下剂型以对冲生物类似药"
               }
             ]
           },
@@ -1810,24 +1871,29 @@
                 "manufacturer": "仿制药 / 礼来 Lilly",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "60%",
+                "market_share": "未统计",
                 "selling_points": [
                   "IO + 化疗进展后的标准二线",
                   "REVEL：OS 10.5 vs 9.1 个月"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "Telisotuzumab Vedotin（Emrelis）",
+                "name_en": "Telisotuzumab Vedotin (Emrelis)",
+                "manufacturer": "艾伯维 AbbVie",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "LUMINOSITY：c-Met 高表达、EGFR 野生型非鳞 NSCLC，ORR 35%",
+                  "FDA 2025-05 加速批准；III 期 TeliMET NSCLC-01 对比多西他赛确证中"
+                ],
+                "approved": "FDA 2025-05（加速）",
+                "impact": "首个 c-Met 蛋白过表达靶向药，开辟生物标志物定义的二线细分市场"
               }
             ],
             "pipeline": [
-              {
-                "name_cn": "Telisotuzumab Vedotin（Emrelis）",
-                "name_en": "Telisotuzumab Vedotin (Emrelis)",
-                "company": "艾伯维 AbbVie",
-                "stage": "已获批（2025-05，加速）",
-                "trial": "LUMINOSITY / TeliMET NSCLC-01",
-                "status": "c-Met 高表达非鳞 NSCLC ORR 35%",
-                "design": "c-Met ADC，单臂加速批准，III 期对比多西他赛确证中",
-                "impact": "首个 c-Met 蛋白过表达靶向药，开辟生物标志物定义的二线细分市场"
-              },
               {
                 "name_cn": "Sac-TMT",
                 "name_en": "Sacituzumab Tirumotecan",
@@ -1869,24 +1935,29 @@
                 "manufacturer": "多家",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "60%",
+                "market_share": "未统计",
                 "selling_points": [
                   "目前国内一线仍以化疗为基础",
                   "IO 单药对 HER2 突变疗效有限"
                 ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "宗格替尼（一线）",
+                "name_en": "Zongertinib (Hernexeos) — 1L",
+                "manufacturer": "勃林格殷格翰 BI",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "Beamion LUNG-1 初治队列：ORR 75.7%",
+                  "NMPA 2026-05-22 附条件批准一线；FDA 2026-02 加速批准一线"
+                ],
+                "approved": "NMPA 2026-05（一线，附条件）",
+                "impact": "口服单药 ORR 接近 80%，一线化疗 ± IO 将被整体替代"
               }
             ],
             "pipeline": [
-              {
-                "name_cn": "宗格替尼（一线）",
-                "name_en": "Zongertinib (Hernexeos) 1L",
-                "company": "勃林格殷格翰 BI",
-                "stage": "美国已批一线（2026 Q1，加速）/ 中国申报",
-                "trial": "Beamion LUNG-1 / -3",
-                "status": "初治队列 ORR 77%",
-                "design": "口服 HER2 选择性 TKI（避开野生型 EGFR），Beamion LUNG-3 为一线对比化免的 III 期",
-                "impact": "口服单药 ORR 接近 80%，一线化疗 ± IO 将被整体替代"
-              },
               {
                 "name_cn": "瑞康曲妥珠单抗（一线）",
                 "name_en": "Trastuzumab Rezetecan (SHR-A1811) 1L",
@@ -1927,7 +1998,7 @@
                 "manufacturer": "第一三共 / 阿斯利康",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
                   "DESTINY-Lung02：ORR 49%",
                   "NMPA 2024-10 获批 HER2 突变 NSCLC",
@@ -1941,12 +2012,12 @@
                 "manufacturer": "恒瑞医药",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "新获批",
                 "selling_points": [
                   "HORIZON-Lung：ORR 73%",
                   "NMPA 2025 获批，国产首个 HER2 ADC（肺癌）"
                 ],
-                "approved": "NMPA 2025",
+                "approved": "NMPA 2025-05",
                 "impact": "国产 ADC 价格优势明显，与 Enhertu 直接竞争"
               }
             ],
@@ -1955,7 +2026,7 @@
                 "name_cn": "Sevabertinib",
                 "name_en": "Sevabertinib (Hyrnuo, BAY 2927088)",
                 "company": "拜耳 Bayer",
-                "stage": "美国已批（2025-11 经治；2026-09 一线）/ 中国审评",
+                "stage": "美国已批（2025-11 经治；2026-09 一线，加速）/ 中国状态未核实",
                 "trial": "SOHO-01 / SOHO-02",
                 "status": "经治 ORR 71%",
                 "design": "口服 HER2/EGFR exon20 TKI，SOHO-02 为一线对比化免的 III 期",
@@ -1993,7 +2064,7 @@
                   "Beamion LUNG-1 初治队列 ORR 77%",
                   "口服、低 ILD 风险"
                 ],
-                "approved": "FDA 2026 Q1（一线）",
+                "approved": "FDA 2026-02（一线，加速）",
                 "impact": "首个进入一线的 HER2 口服靶向药，把 HER2 突变 NSCLC 变成与 EGFR/ALK 同样的\"口服 TKI 一线\"疾病"
               },
               {
@@ -2008,7 +2079,7 @@
                   "FDA 2025-11 加速批准经治患者；2026-09-09 扩展至一线",
                   "SOHO-01：ORR 71%"
                 ],
-                "approved": "FDA 2026-09（一线）",
+                "approved": "FDA 2026-09（一线，加速）",
                 "impact": "第二个口服选择，两家将以安全性和脑转移数据分割约 3 亿美元的小市场"
               },
               {
@@ -2018,7 +2089,7 @@
                 "manufacturer": "默沙东 Merck",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "30%",
+                "market_share": "未统计",
                 "selling_points": [
                   "靶向药获批前的标准一线"
                 ]
@@ -2049,7 +2120,7 @@
                 "manufacturer": "第一三共 / 阿斯利康",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "50%",
+                "market_share": "未统计",
                 "selling_points": [
                   "DESTINY-Lung02：ORR 49%，FDA 2022 加速批准",
                   "一线用过口服 TKI 后的主要序贯选择"

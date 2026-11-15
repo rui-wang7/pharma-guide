@@ -40,38 +40,45 @@
               },
               {
                 "type": "drug",
-                "name_cn": "帕博利珠单抗 + 仑伐替尼（铂类不耐受）",
-                "name_en": "Pembrolizumab + Enfortumab vedotin (EV-302)",
-                "manufacturer": "默沙东/安进/辉瑞",
-                "annual_cost_rmb": 400000,
+                "name_cn": "维恩妥尤单抗（备思复）+ 帕博利珠单抗",
+                "name_en": "Enfortumab Vedotin + Pembrolizumab",
+                "manufacturer": "安斯泰来 Astellas / 默沙东 Merck",
+                "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "未统计",
                 "selling_points": [
-                  "EV-302：OS未达到 vs 16.1m（含铂化疗），PFS 12.5m vs 6.3m",
-                  "NMPA申报中，改变一线治疗格局"
-                ]
+                  "EV-302：OS 31.5 vs 16.1 个月（HR 0.47），PFS 12.5 vs 6.3 个月",
+                  "NMPA 批准一线局部晚期 / 转移性尿路上皮癌（2025-01 公布），国内首个不含铂的一线方案"
+                ],
+                "approved": "NMPA 2025-01",
+                "impact": "全球标准已进入中国，但价格高，国产 DV 方案有医保优势"
+              },
+              {
+                "type": "drug",
+                "name_cn": "维迪西妥单抗（爱地希）+ 特瑞普利单抗（HER2 表达）",
+                "name_en": "Disitamab Vedotin (Aidixi) + Toripalimab",
+                "manufacturer": "荣昌生物 RemeGen / 君实生物 Junshi",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "RC48-C016：PFS 13.1 vs 6.5 个月，OS 31.5 vs 16.9 个月（对比含铂化疗）",
+                  "NMPA 2026-05 批准一线 HER2 表达局部晚期 / 转移性尿路上皮癌"
+                ],
+                "approved": "NMPA 2026-05",
+                "impact": "国内一线将形成 DV + 特瑞普利 vs EV + K 药的格局；辉瑞同时拥有两者的海外权益"
               }
             ],
             "pipeline": [
               {
-                "name_cn": "维迪西妥单抗 + PD-1（HER2 表达）",
-                "name_en": "Disitamab Vedotin + Toripalimab / Pembrolizumab",
-                "company": "荣昌生物 / 辉瑞",
-                "stage": "中国 III 期阳性（已申报）/ 全球 Phase 3",
-                "trial": "RC48-C016 / DV-001",
-                "status": "中国：PFS 13.1 vs 6.5 个月，OS 31.5 vs 16.9 个月 vs 化疗",
+                "name_cn": "维迪西妥单抗 + 帕博利珠单抗（全球）",
+                "name_en": "Disitamab Vedotin + Pembrolizumab (global)",
+                "company": "辉瑞 Pfizer / 荣昌生物",
+                "stage": "Phase 3",
+                "trial": "DV-001",
+                "status": "全球 III 期进行中",
                 "design": "HER2 ADC + PD-1 对比含铂化疗，一线 HER2 表达 mUC",
-                "impact": "国内一线将形成 DV + 特瑞普利 vs EV + K 药的格局；辉瑞同时拥有两者的海外权益"
-              },
-              {
-                "name_cn": "维恩妥尤单抗 + 帕博利珠单抗",
-                "name_en": "Enfortumab Vedotin + Pembrolizumab",
-                "company": "安斯泰来 / 默沙东",
-                "stage": "中国已获批",
-                "trial": "EV-302",
-                "status": "OS 31.5 vs 16.1 个月（HR 0.47）",
-                "design": "对比含铂化疗，一线 mUC",
-                "impact": "全球标准已进入中国，但价格高，国产 DV 方案有医保优势"
+                "impact": "辉瑞同时拥有 EV 与 DV 的海外权益，DV-001 决定 HER2 表达人群的全球标准"
               }
             ]
           },
@@ -150,26 +157,11 @@
                 "annual_cost_usd": null,
                 "market_share": "新获批",
                 "selling_points": [
-                  "KEYNOTE-905（不适合顺铂）：EFS HR 0.40，OS HR 0.50",
+                  "KEYNOTE-905（不适合顺铂）：EFS HR 0.40，OS HR 0.50，FDA 2025-11-21 批准",
                   "KEYNOTE-B15（适合顺铂）：FDA 2026-07-10 批准，对比新辅助 GC"
                 ],
-                "approved": "FDA 2026-07",
+                "approved": "FDA 2025-11（不适合顺铂）/ 2026-07（全人群）",
                 "impact": "EV+P 覆盖全部 MIBC 围手术期人群，含铂新辅助化疗被取代；Padcev（2025 年 $19.4 亿）最大增量"
-              },
-              {
-                "type": "drug",
-                "name_cn": "度伐利尤单抗 + 维恩妥尤单抗（不适合顺铂）",
-                "name_en": "Durvalumab (Imfinzi) + Enfortumab Vedotin perioperative",
-                "manufacturer": "阿斯利康 / 辉瑞-安斯泰来",
-                "annual_cost_rmb": null,
-                "annual_cost_usd": null,
-                "market_share": "新获批",
-                "selling_points": [
-                  "VOLGA：EFS HR 0.51，OS HR 0.58，pCR 45% vs 10%",
-                  "FDA 2026-11-13 批准"
-                ],
-                "approved": "FDA 2026-11",
-                "impact": "阿斯利康借 Padcev 进入不适合顺铂人群，与默沙东正面竞争——赢家其实都是 EV"
               },
               {
                 "type": "drug",
@@ -178,7 +170,7 @@
                 "manufacturer": "阿斯利康",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "20%",
+                "market_share": "未统计",
                 "selling_points": [
                   "NIAGARA：EFS HR 0.68，OS HR 0.75",
                   "FDA 2025-03 批准"
@@ -230,17 +222,17 @@
               },
               {
                 "type": "drug",
-                "name_cn": "Anktiva + BCG（含乳头状 NMIBC）",
+                "name_cn": "Anktiva + BCG（BCG 无应答 NMIBC 原位癌）",
                 "name_en": "Nogapendekin Alfa (Anktiva) + BCG",
                 "manufacturer": "ImmunityBio",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "新获批",
+                "market_share": "未统计",
                 "selling_points": [
-                  "QUILT-3.032",
-                  "FDA 2026-10-14 扩展至乳头状病变"
+                  "QUILT-3.032：BCG 无应答 CIS（伴或不伴乳头状病变）CR 率 62%",
+                  "FDA 2024-04 批准；仅乳头状病变的 sBLA 审评中（PDUFA 2027-01-06），尚未获批"
                 ],
-                "approved": "FDA 2026-10"
+                "approved": "FDA 2024-04"
               }
             ],
             "pipeline": [
@@ -263,6 +255,26 @@
                 "status": "入组中",
                 "design": "FGFR 变异中危 NMIBC，对比膀胱灌注化疗",
                 "impact": "把 FGFR 抑制剂从转移期带到早期"
+              },
+              {
+                "name_cn": "度伐利尤单抗 + 维恩妥尤单抗（不适合顺铂）",
+                "name_en": "Durvalumab (Imfinzi) + Enfortumab Vedotin perioperative",
+                "company": "阿斯利康 / 辉瑞-安斯泰来",
+                "stage": "sBLA 优先审评（预计 2026 Q4 决定）",
+                "trial": "VOLGA",
+                "status": "III 期达到 EFS、OS 终点；FDA 2026-09 授予优先审评，尚未获批",
+                "design": "度伐利尤单抗 + EV 围手术期对比单纯根治性膀胱切除，不适合或拒绝顺铂的 MIBC",
+                "impact": "阿斯利康借 Padcev 进入不适合顺铂人群，与默沙东正面竞争——赢家其实都是 EV"
+              },
+              {
+                "name_cn": "Intismeran autogene（膀胱癌）",
+                "name_en": "Intismeran Autogene (mRNA-4157/V940) — bladder",
+                "company": "Moderna / 默沙东 Merck",
+                "stage": "Phase 1/2 – Phase 2",
+                "trial": "INTerpath-005 / INTerpath-011",
+                "status": "INTerpath-005（MIBC，I/II 期）与 INTerpath-011（高危 NMIBC，II 期）进行中，尚无疗效数据",
+                "design": "个体化新抗原 mRNA 疫苗，探索 MIBC 术后与高危 NMIBC 两个早期场景",
+                "impact": "黑色素瘤 III 期阳性后向膀胱癌扩展，目前仍是概念验证阶段"
               }
             ]
           },
@@ -302,7 +314,7 @@
                 "name_cn": "维迪西妥单抗 + PD-1（HER2 表达）",
                 "name_en": "Disitamab Vedotin + Toripalimab / Pembrolizumab",
                 "company": "荣昌生物 / 辉瑞",
-                "stage": "中国 III 期阳性（已申报）/ 全球 Phase 3",
+                "stage": "全球 Phase 3（中国 2026-05 已批准联合特瑞普利单抗）",
                 "trial": "RC48-C016 / DV-001",
                 "status": "中国：PFS 13.1 vs 6.5 个月，OS 31.5 vs 16.9 个月 vs 化疗",
                 "design": "HER2 ADC + PD-1 对比含铂化疗，一线 HER2 表达 mUC",
@@ -332,7 +344,7 @@
                 "manufacturer": "强生 J&J",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "15%",
+                "market_share": "未统计",
                 "selling_points": [
                   "THOR：OS 12.1 vs 7.8 个月",
                   "限 FGFR3 变异"
@@ -345,7 +357,7 @@
                 "manufacturer": "仿制药",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "50%",
+                "market_share": "未统计",
                 "selling_points": [
                   "一线 EV+P 后，含铂化疗成为事实上的二线"
                 ]

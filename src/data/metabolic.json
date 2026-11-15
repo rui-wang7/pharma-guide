@@ -54,7 +54,7 @@
                 "options": [
                   {
                     "type": "drug",
-                    "name_cn": "司美格鲁肽（诺和泰/wegovy）",
+                    "name_cn": "司美格鲁肽（诺和泰 / 诺和忻）",
                     "name_en": "Semaglutide (Ozempic / Rybelsus)",
                     "manufacturer": "诺和诺德 Novo Nordisk",
                     "annual_cost_rmb": 25000,
@@ -98,7 +98,7 @@
                     "manufacturer": "礼来 Lilly",
                     "annual_cost_rmb": null,
                     "annual_cost_usd": null,
-                    "market_share": "10%",
+                    "market_share": "未统计",
                     "selling_points": [
                       "SURPASS-AP-Combo",
                       "NMPA 2024 获批 T2D 与减重"
@@ -136,9 +136,9 @@
                     "name_cn": "HRS9531",
                     "name_en": "HRS9531 (GLP-1/GIP)",
                     "company": "恒瑞医药 / Kailera",
-                    "stage": "NDA 审评中（减重）/ Phase 3（T2D）",
+                    "stage": "NDA 审评中（减重，2025-09 受理）/ Phase 3（T2D）",
                     "trial": "—",
-                    "status": "减重适应症有望 2026 Q4 获批",
+                    "status": "减重适应症截至 2026-11 未见获批公告",
                     "design": "国产 GLP-1/GIP 双靶点周制剂",
                     "impact": "国产 tirzepatide 同类首个申报，叠加司美格鲁肽仿制药上市，国内 GLP-1 价格将快速下行"
                   },
@@ -221,7 +221,7 @@
                     "annual_cost_usd": null,
                     "market_share": "新获批",
                     "selling_points": [
-                      "Awiqli（icodec）FDA 2026-03-26 获批；Onswik（efsitora）FDA 2026-09-23 获批",
+                      "Awiqli（icodec）FDA 2026-03-26 获批；Onswik（efsitora）FDA 2026-09-24 获批",
                       "每周一次，HbA1c 非劣于每日基础胰岛素",
                       "icodec 在中国已于 2024 年获批"
                     ],
@@ -372,19 +372,19 @@
                     "name_cn": "CagriSema（卡格司美）",
                     "name_en": "CagriSema (cagrilintide + semaglutide)",
                     "company": "诺和诺德 Novo Nordisk",
-                    "stage": "已递交FDA NDA（中国待申报）",
+                    "stage": "美国 NDA 审评中（2025-12 递交）/ 中国状态未核实",
                     "trial": "REDEFINE-1/2",
                     "status": "FDA 审评中（预计 2026 Q4 决定）；REDEFINE-4 未达非劣效",
                     "design": "胰淀素类似物 cagrilintide + 司美格鲁肽固定复方；REDEFINE-4 头对头 tirzepatide",
-                    "impact": "REDEFINE-4 未达非劣效（20.2% vs 23.6%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
+                    "impact": "REDEFINE-4 未达非劣效（疗效估计目标 23.0% vs 25.5%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
                   },
                   {
                     "name_cn": "HRS9531（恒瑞，国产GLP-1/GIP双靶）",
                     "name_en": "HRS9531 (Hengrui / Kailera)",
                     "company": "江苏恒瑞 Hengrui / Kailera Therapeutics（海外）",
-                    "stage": "NMPA NDA已受理（2025末）/ 全球Phase 3启动",
+                    "stage": "NMPA NDA 审评中（2025-09 受理，尚未获批）/ 全球 Phase 3",
                     "trial": "GEMINI-1 (P3 China) / Kailera global P3",
-                    "status": "GLP-1/GIP双靶（与替尔泊肽同类）；剂量2/4/6mg周注射；GEMINI-1 P3：6mg组48周减重19.2%；P2 8mg/36周减重22.8%；预计2026年中国获批；Kailera海外授权",
+                    "status": "GLP-1/GIP双靶（与替尔泊肽同类）；剂量2/4/6mg周注射；GEMINI-1 P3：6mg组48周减重19.2%；P2 8mg/36周减重22.8%；中国 NDA 2025-09 受理，截至 2026-11 未见获批公告；Kailera海外授权",
                     "design": "GLP-1/GIP 双激动剂周制剂，对比安慰剂 48 周",
                     "impact": "国产首个 tirzepatide 同类，Kailera 负责海外，是中国减重药出海的风向标"
                   },
@@ -531,9 +531,9 @@
                     "company": "Novo Nordisk",
                     "stage": "FDA NDA under review (decision expected Q4 2026)",
                     "trial": "REDEFINE-1/2",
-                    "status": "FDA 审评中，预计 2026 Q4 决定；REDEFINE-4 头对头 tirzepatide 未达非劣效（20.2% vs 23.6%）",
+                    "status": "FDA 审评中，预计 2026 Q4 决定；REDEFINE-4 头对头 tirzepatide 未达非劣效（疗效估计目标 23.0% vs 25.5%）",
                     "design": "胰淀素类似物 cagrilintide + 司美格鲁肽固定复方；REDEFINE-4 头对头 tirzepatide",
-                    "impact": "REDEFINE-4 未达非劣效（20.2% vs 23.6%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
+                    "impact": "REDEFINE-4 未达非劣效（疗效估计目标 23.0% vs 25.5%），诺和诺德在疗效上已落后礼来，只能靠供应与价格竞争"
                   },
                   {
                     "name_cn": "MariTide（AMG 133）",
@@ -579,9 +579,9 @@
                     "name_cn": "HRS9531（Hengrui / Kailera 全球开发）",
                     "name_en": "HRS9531 (Hengrui / Kailera Therapeutics)",
                     "company": "Hengrui (China) / Kailera Therapeutics (global)",
-                    "stage": "Global Phase 3 initiating (China NMPA NDA accepted late 2025)",
+                    "stage": "Global Phase 3 (China NDA accepted 2025-09, not yet approved)",
                     "trial": "GEMINI-1 (P3 China) / Kailera global P3 (incl. 8mg maintenance)",
-                    "status": "GLP-1/GIP dual (same class as tirzepatide); 2/4/6mg weekly SC; GEMINI-1 P3 48w: -19.2% at 6mg; P2 8mg/36w: -22.8% (-21.1% placebo-adjusted) with no plateau; China approval expected 2026",
+                    "status": "GLP-1/GIP dual (same class as tirzepatide); 2/4/6mg weekly SC; GEMINI-1 P3 48w: -19.2% at 6mg; P2 8mg/36w: -22.8% (-21.1% placebo-adjusted) with no plateau; China NDA under review",
                     "design": "GLP-1/GIP 双激动剂周制剂，对比安慰剂 48 周",
                     "impact": "国产首个 tirzepatide 同类，Kailera 负责海外，是中国减重药出海的风向标"
                   },

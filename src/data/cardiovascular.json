@@ -81,6 +81,21 @@
                       "GDMT基石，显著降低死亡率",
                       "极低价格，医保全覆盖"
                     ]
+                  },
+                  {
+                    "type": "drug",
+                    "name_cn": "维立西呱（维可同）",
+                    "name_en": "Vericiguat (Verquvo)",
+                    "manufacturer": "拜耳 Bayer / 默沙东 Merck",
+                    "annual_cost_rmb": null,
+                    "annual_cost_usd": null,
+                    "market_share": "未统计",
+                    "selling_points": [
+                      "VICTORIA：心血管死亡或心衰住院 HR 0.90",
+                      "VICTOR 主要终点未达，但心血管死亡降低",
+                      "NMPA 已批准，定位于近期恶化的高危患者，已进医保"
+                    ],
+                    "impact": "定位于近期恶化的高危患者，国内已进医保"
                   }
                 ],
                 "pipeline": [
@@ -103,16 +118,6 @@
                     "status": "入组中",
                     "design": "新型 MR 调节剂 + SGLT2i 固定复方，对比达格列净",
                     "impact": "Farxiga（2025 年 $84 亿）专利到期前的生命周期管理"
-                  },
-                  {
-                    "name_cn": "维立西呱",
-                    "name_en": "Vericiguat (Verquvo)",
-                    "company": "拜耳 / 默沙东",
-                    "stage": "已上市",
-                    "trial": "VICTORIA / VICTOR",
-                    "status": "VICTOR 主要终点未达，但心血管死亡降低",
-                    "design": "sGC 刺激剂对比安慰剂",
-                    "impact": "定位于近期恶化的高危患者，国内已进医保"
                   }
                 ]
               }
@@ -146,7 +151,8 @@
                       "PARADIGM-HF: 20% reduction in death+hospitalization",
                       "ACCF/AHA Class I",
                       "Generics available 2025"
-                    ]
+                    ],
+                    "impact": "美国仿制药 2025 年上市；Entresto（2025 年全球 $77.5 亿）进入专利悬崖，HFrEF 四联疗法全面仿制化，品牌市场规模将收缩"
                   },
                   {
                     "type": "drug",
@@ -181,16 +187,6 @@
                     "status": "入组中",
                     "design": "新型 MR 调节剂 + SGLT2i 固定复方，对比达格列净",
                     "impact": "Farxiga（2025 年 $84 亿）专利到期前的生命周期管理"
-                  },
-                  {
-                    "name_cn": "Entresto 仿制药",
-                    "name_en": "Sacubitril/Valsartan generics",
-                    "company": "MSN 等仿制药企",
-                    "stage": "已上市（美国 2025 年中）",
-                    "trial": "—",
-                    "status": "美国仿制药 2025 年上市",
-                    "design": "—",
-                    "impact": "Entresto（2025 年全球 $77.5 亿）进入专利悬崖，HFrEF 四联疗法全面仿制化，品牌市场规模将收缩"
                   }
                 ]
               }
@@ -277,7 +273,7 @@
                     "manufacturer": "信达生物 / 恒瑞医药 / 康方生物",
                     "annual_cost_rmb": null,
                     "annual_cost_usd": null,
-                    "market_share": "20%",
+                    "market_share": "未统计",
                     "selling_points": [
                       "托莱西单抗 2023 年获批，瑞卡西单抗可每 12 周给药",
                       "均已进入或谈判进入医保"
@@ -290,7 +286,7 @@
                     "name_cn": "Enlicitide",
                     "name_en": "Enlicitide (Lipfendra)",
                     "company": "默沙东 Merck",
-                    "stage": "美国已批（2026-07）/ 中国 Phase 3",
+                    "stage": "美国已批（2026-07）/ 中国状态未核实",
                     "trial": "CORALreef",
                     "status": "LDL-C 降 56-59%",
                     "design": "口服大环肽 PCSK9 抑制剂对比安慰剂",

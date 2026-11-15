@@ -122,7 +122,7 @@
                 "selling_points": [
                   "RATIONALE-306：OS 17.2m vs 10.6m（ESCC）",
                   "全人群获益，无需PD-L1筛选",
-                  "FDA 2023年批准食管癌（中国药出海）"
+                  "FDA 2024-03 批准二线 ESCC、2025-03 批准一线（中国药出海）"
                 ]
               }
             ],
@@ -179,20 +179,24 @@
                   "标准二线化疗，医保报销",
                   "铂类一线进展后"
                 ]
-              }
-            ],
-            "pipeline": [
+              },
               {
-                "name_cn": "伊扎洛妥单抗（iza-bren）",
+                "type": "drug",
+                "name_cn": "伊扎洛妥单抗（iza-bren，BL-B01D1）",
                 "name_en": "Izalontamab Brengitecan (BL-B01D1)",
-                "company": "百利天恒 / BMS",
-                "stage": "Phase 3（阳性）/ 中国已获批（适应症以官方为准）",
-                "trial": "PANKU-Esophagus01",
-                "status": "ESMO 2026：二线 ESCC OS、PFS 均显著优于化疗",
-                "design": "EGFR×HER3 双抗 ADC 对比紫杉醇/伊立替康，PD-1 经治 ESCC",
+                "manufacturer": "百利天恒 / BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "PANKU-Esophagus01：OS、PFS 均显著优于化疗（紫杉醇 / 伊立替康）",
+                  "NMPA 2026-07-17 批准：含铂化疗及 PD-(L)1 治疗后的 ESCC；首个适应症（鼻咽癌）2026-06 获批"
+                ],
+                "approved": "NMPA 2026-07",
                 "impact": "首个在 IO 经治食管鳞癌拿到 OS 的 ADC，二线化疗将被替代"
               }
-            ]
+            ],
+            "pipeline": []
           }
         ]
       },
@@ -207,6 +211,42 @@
           "CT staging"
         ],
         "treatment_lines": [
+          {
+            "line": "early",
+            "label_cn": "可切除食管癌 / GEJ（围手术期 / 辅助）",
+            "label_en": "Resectable esophageal / GEJ (perioperative / adjuvant)",
+            "options": [
+              {
+                "type": "drug",
+                "name_cn": "纳武利尤单抗辅助",
+                "name_en": "Nivolumab (Opdivo) adjuvant",
+                "manufacturer": "百时美施贵宝 BMS",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "未统计",
+                "selling_points": [
+                  "CheckMate 577：DFS 22.4 vs 11.0 个月（新辅助放化疗后未达 pCR）",
+                  "FDA 2021-05 批准"
+                ]
+              },
+              {
+                "type": "drug",
+                "name_cn": "度伐利尤单抗 + FLOT（GEJ / 胃腺癌围手术期）",
+                "name_en": "Durvalumab + FLOT",
+                "manufacturer": "阿斯利康 AstraZeneca",
+                "annual_cost_rmb": null,
+                "annual_cost_usd": null,
+                "market_share": "新获批",
+                "selling_points": [
+                  "MATTERHORN（N=948）：EFS HR 0.71，OS HR 0.78",
+                  "FDA 2025-11-25 批准可切除胃 / GEJ 腺癌围手术期"
+                ],
+                "approved": "FDA 2025-11",
+                "impact": "美国食管癌以腺癌为主，围手术期免疫成为标准"
+              }
+            ],
+            "pipeline": []
+          },
           {
             "line": 1,
             "label_cn": "一线治疗",
@@ -243,10 +283,10 @@
                 "manufacturer": "百济神州 BeOne",
                 "annual_cost_rmb": null,
                 "annual_cost_usd": null,
-                "market_share": "8%",
+                "market_share": "新获批",
                 "selling_points": [
-                  "RATIONALE-306：OS 17.2 vs 10.6 个月（PD-L1≥1%）",
-                  "FDA 2025-03 批准一线 ESCC"
+                  "RATIONALE-306：OS 17.2 vs 10.6 个月（全人群）",
+                  "FDA 2025-03 批准一线 ESCC（标签限 PD-L1≥1）"
                 ],
                 "approved": "FDA 2025-03",
                 "impact": "首个在美国拿到一线食管癌适应症的中国 PD-1，但入场晚于 O 药、K 药多年"
@@ -262,16 +302,6 @@
                 "status": "中国 III 期阳性，全球研究入组中",
                 "design": "EGFR×HER3 双抗 ADC，IO 经治 ESCC",
                 "impact": "BMS 主导海外开发，美国 ESCC 患者少，价值主要在亚洲与欧洲"
-              },
-              {
-                "name_cn": "度伐利尤单抗 + FLOT（GEJ 腺癌）",
-                "name_en": "Durvalumab + FLOT",
-                "company": "阿斯利康",
-                "stage": "已获批（2025-11）",
-                "trial": "MATTERHORN",
-                "status": "EFS HR 0.71",
-                "design": "可切除 GEJ/胃腺癌围手术期",
-                "impact": "美国食管癌以腺癌为主，围手术期免疫成为标准"
               }
             ]
           }
